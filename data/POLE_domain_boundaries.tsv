@@ -1,0 +1,6 @@
+domain	start	end	description	notes
+N-terminal_region	1	267	N-terminal region upstream of exonuclease domain	Contains residues 1-54 (truncated by c.138del)
+Exonuclease	268	471	Exonuclease (proofreading) domain	Classical PPAP missense variants: P286R, V411L, L424V, S459F
+Linker_Exo_Pol	472	579	Linker between exonuclease and polymerase domains
+Polymerase	580	1260	DNA polymerase domain (catalytic)	Leading strand DNA synthesis
+C-terminal	1261	2286	C-terminal regulatory region	Includes CMG helicase interaction regions; POLE2/3/4 binding

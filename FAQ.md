@@ -1,0 +1,78 @@
+# Frequently Asked Questions
+
+This FAQ provides accessible explanations of the POLE c.138del research for a broad audience — including genetic counselors, clinicians, patient advocates, and individuals with POLE variants.
+
+---
+
+## What is POLE?
+
+**POLE** (DNA Polymerase Epsilon) is a gene that encodes one of the main enzymes responsible for copying DNA when cells divide. The POLE protein has two critical jobs:
+
+1. **DNA synthesis** — it copies the leading strand of DNA during replication
+2. **Proofreading** — it checks the newly copied DNA for errors and corrects them immediately
+
+Think of it like a typist who both types and spell-checks in real time. The proofreading function is essential: without it, errors accumulate in DNA at a dramatically increased rate, which can lead to cancer.
+
+---
+
+## What is PPAP?
+
+**Polymerase Proofreading-Associated Polyposis (PPAP)** is a hereditary cancer predisposition syndrome caused by mutations in the POLE or POLD1 genes. It was first described in 2013. People with PPAP are at increased risk for:
+
+- Colorectal polyps and colorectal cancer
+- Endometrial (uterine) cancer
+- And potentially other cancer types
+
+PPAP is characterized by tumors with an extremely high number of mutations — called "ultra-hypermutation" — because the DNA proofreading mechanism is impaired.
+
+---
+
+## What is the c.138del variant?
+
+**POLE c.138del (p.Leu46Phefs\*8)** is a specific mutation in the POLE gene. It is a "frameshift deletion" — a single DNA letter is deleted, which shifts the reading frame and causes the protein to be cut short very early (at residue 54 out of 2,286 amino acids). This means the protein loses essentially all of its functional parts.
+
+This variant is **ultra-rare**: it has never been observed in any major population database (including gnomAD, which contains genetic data from hundreds of thousands of individuals).
+
+---
+
+## Why is this variant scientifically important?
+
+This is where it gets interesting. All previously known PPAP-causing mutations are **missense variants** — they change a single amino acid in the proofreading region of the protein. The protein still works as a DNA copier, but it can no longer proofread. It's like a typist who can still type but can no longer spell-check.
+
+The c.138del variant is fundamentally different. It cuts the protein off so early that there is **no proofreading region AND no DNA copying region**. It's like removing the typist entirely. Under current scientific models, this should not cause PPAP — yet the patient has the full PPAP presentation, including ultra-hypermutation (>100 mutations per megabase of DNA).
+
+This creates a **mechanistic paradox** that, if resolved, could change how an entire category of POLE variants is classified in clinical genetics.
+
+---
+
+## What does this mean for other patients?
+
+If the research confirms that truncating POLE variants (variants that cut the protein short) can cause PPAP, it would mean:
+
+- **Variants currently classified as "uncertain significance" (VUS) may actually be pathogenic.** Some people carrying truncating POLE variants may be at cancer risk that is currently unrecognized.
+- **Genetic testing interpretation may need to change.** Clinical genetics laboratories may need to reclassify truncating POLE variants.
+- **More people may be identified as carriers.** This could expand cancer screening and prevention to individuals not currently recognized as at-risk.
+
+---
+
+## What are the treatment implications?
+
+The ultra-hypermutated phenotype (extremely high mutation burden) actually creates a **therapeutic opportunity**:
+
+- **Immunotherapy** — Tumors with very high mutation burdens tend to respond well to immune checkpoint inhibitors (like pembrolizumab). The high number of mutations creates many "neoantigens" — abnormal proteins that the immune system can recognize and attack.
+- **Targeted therapies** — Several drugs targeting DNA repair pathways (ATR inhibitors, PARP inhibitors) may be especially effective against cells with impaired POLE function.
+
+---
+
+## How can I get involved?
+
+- **If you're a researcher:** See [CONTRIBUTING.md](CONTRIBUTING.md) for specific collaboration opportunities
+- **If you're a clinician with a POLE truncating variant patient:** Use our [case report template](https://github.com/Bloomed-Health/POLE-Frameshift/issues/new?template=pole-case-report.yml) to share structured case data
+- **If you have questions:** Visit the [Discussions](https://github.com/Bloomed-Health/POLE-Frameshift/discussions) tab
+- **If you're a patient or family member:** This repository is for research purposes and does not constitute medical advice. Please discuss any genetic findings with your healthcare provider or genetic counselor.
+
+---
+
+## Is this medical advice?
+
+**No.** This repository contains a scientific research framework compiled from published literature. It is intended for research purposes only and does not constitute medical advice. All clinical decisions should be made in consultation with qualified healthcare providers.

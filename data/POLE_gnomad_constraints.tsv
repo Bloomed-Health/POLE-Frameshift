@@ -1,0 +1,8 @@
+metric	value	interpretation	source
+pLI	0.98	Extremely intolerant to loss-of-function variants	gnomAD v4
+LOEUF	0.22	Strong constraint against LoF (lower = more constrained)	gnomAD v4
+missense_z	2.36	Moderately constrained against missense variation	gnomAD v4
+synonymous_z	0.15	No constraint against synonymous variation (expected)	gnomAD v4
+obs_lof	12	Observed loss-of-function variants in gnomAD	gnomAD v4
+exp_lof	54.8	Expected loss-of-function variants under neutral model	gnomAD v4
+oe_lof	0.22	Observed/expected LoF ratio (low = constrained)	gnomAD v4

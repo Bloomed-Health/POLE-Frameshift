@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "POLE c.138del (p.Leu46Phefs*8) Research Framework"
+message: "If you use this research framework, please cite it as below."
+type: dataset
+authors:
+  - name: "Bloomed Health"
+url: "https://github.com/Bloomed-Health/POLE-Frameshift"
+license: CC-BY-4.0

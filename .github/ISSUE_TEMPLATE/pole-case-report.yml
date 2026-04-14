@@ -1,0 +1,148 @@
+name: POLE Truncating Variant Case Report
+description: Report a case involving a POLE truncating variant for collaborative research
+title: "[Case Report] POLE truncating variant — "
+labels: ["case-report", "pole-truncating"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## POLE Truncating Variant Case Report
+
+        Thank you for contributing case data. This structured report helps build a centralized, searchable database of POLE truncating variant cases. All fields are optional — provide what you can.
+
+        **Note:** Do not include patient-identifying information. Use de-identified clinical data only.
+
+  - type: input
+    id: variant-cdna
+    attributes:
+      label: Variant (cDNA)
+      description: "e.g., c.138del"
+      placeholder: "c.XXXdel / c.XXX_XXXdel / c.XXXdup"
+    validations:
+      required: true
+
+  - type: input
+    id: variant-protein
+    attributes:
+      label: Variant (Protein)
+      description: "e.g., p.Leu46Phefs*8"
+      placeholder: "p.XXX"
+    validations:
+      required: true
+
+  - type: input
+    id: variant-position
+    attributes:
+      label: Position relative to exonuclease domain (residue 268)
+      description: "How far upstream/downstream of the exonuclease domain?"
+      placeholder: "e.g., 214 residues upstream"
+
+  - type: dropdown
+    id: variant-type
+    attributes:
+      label: Variant type
+      options:
+        - Frameshift deletion
+        - Frameshift insertion
+        - Frameshift duplication
+        - Nonsense (stop gain)
+        - Splice site (causing truncation)
+        - Other truncating
+    validations:
+      required: true
+
+  - type: dropdown
+    id: inheritance
+    attributes:
+      label: Inheritance
+      options:
+        - Germline (confirmed)
+        - Germline (presumed)
+        - Somatic
+        - Unknown
+
+  - type: textarea
+    id: phenotype
+    attributes:
+      label: Patient phenotype
+      description: "Cancer type(s), age at diagnosis, polyposis status, other relevant features"
+      placeholder: |
+        - Cancer type:
+        - Age at diagnosis:
+        - Polyposis: Yes/No
+        - Other features:
+
+  - type: input
+    id: tmb
+    attributes:
+      label: Tumor mutational burden (TMB)
+      description: "mutations/Mb, if available"
+      placeholder: "e.g., >100 mut/Mb"
+
+  - type: dropdown
+    id: msi-status
+    attributes:
+      label: Microsatellite instability status
+      options:
+        - MSI-High
+        - MSI-Low
+        - MSS (Microsatellite Stable)
+        - Not tested
+        - Unknown
+
+  - type: textarea
+    id: mmr-ihc
+    attributes:
+      label: MMR IHC results
+      description: "MLH1, MSH2, MSH6, PMS2 status if available"
+      placeholder: |
+        - MLH1: Intact/Lost
+        - MSH2: Intact/Lost
+        - MSH6: Intact/Lost
+        - PMS2: Intact/Lost
+
+  - type: textarea
+    id: mutational-signatures
+    attributes:
+      label: Mutational signatures (if analyzed)
+      description: "SBS10a/b/28 status, dominant signatures"
+      placeholder: "e.g., SBS10a: 45%, SBS10b: 30%, SBS28: 10%"
+
+  - type: textarea
+    id: family-history
+    attributes:
+      label: Family history
+      description: "Relevant cancer history in family members (de-identified)"
+      placeholder: "e.g., Mother: CRC age 52; Maternal aunt: endometrial cancer age 48"
+
+  - type: dropdown
+    id: tissue-banked
+    attributes:
+      label: Is tumor tissue banked/available for research?
+      options:
+        - "Yes"
+        - "No"
+        - Unknown
+
+  - type: textarea
+    id: treatment
+    attributes:
+      label: Treatment and response (if applicable)
+      description: "Immunotherapy response, other treatments"
+      placeholder: "e.g., Pembrolizumab: partial response at 12 weeks"
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: "Any other relevant clinical, genomic, or research data"
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Confirmation
+      options:
+        - label: "This report contains only de-identified clinical data"
+          required: true
+        - label: "I have appropriate authorization to share this data for research purposes"
+          required: true

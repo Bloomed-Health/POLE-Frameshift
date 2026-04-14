@@ -30,7 +30,7 @@ This variant presents a **fundamental mechanistic paradox**: it eliminates all f
 - [Experimental Models Required](#experimental-models-required)
 - [Research Prioritization Timeline](#research-prioritization-timeline)
 - [Key Literature References](#key-literature-references)
-- [Reposure](#repository-structure)
+- [Repository Structure](#repository-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -82,7 +82,7 @@ The wild-type POLE allele is somatically deleted or silenced in tumor tissue (vi
 
 **Key experiment:** Paired tumor-normal WGS with allele-specific copy number analysis (ASCAT/FACETS).
 
-**If confirmed:** Reclassifies POLE as operating under a tumor-suppressor paradigm for truncating variants. Truncating POLE variants currently classified as VUS may need reclassificatenic.
+**If confirmed:** Reclassifies POLE as operating under a tumor-suppressor paradigm for truncating variants. Truncating POLE variants currently classified as VUS may need reclassification as pathogenic.
 
 ### Model 2: Translational Reinitiation
 
@@ -138,7 +138,7 @@ Mutational signature analysis is the most immediately actionable discriminator b
 
 ```
 Pipeline: WGS ≥60x tumor / ≥30x normal → SigProfiler decomposition → COSMIC SBS10a/b/28 quantification
-Tools: SigProfiler, MutationalPatterns, deconss
+Tools: SigProfiler, MutationalPatterns, deconstructSigs
 Reference: COSMIC v3.4 mutational signatures
 ```
 
@@ -284,7 +284,7 @@ Foundational investments that redefine the field.
 - **Robinson PS et al. (2021) Increased somatic mutation burdens in normal human cells due to defective DNA polymerases. *Nature Genetics*.** — Landmark study proving germline POLE/POLD1 mutations elevate SBS10a/b in normal somatic cells using NanoSeq.
 - Abascal F et al. (2021) Somatic mutation landscapes at single-molecule resolution. *Nature* 593:405–410. (Original NanoSeq protocol)
 - Pich O et al. (2025) Somatic mutation and selection at population scale. *Nature* 647:411–420. (Improved NanoSeq: <5 errors per billion bp, whole-exome compatible)
-- Pichllowing cancer treatment in normal tissue. *Nature*. (Duplex sequencing at >30,000x across 16 organs)
+- Pich O et al. (2025) Somatic evolution following cancer treatment in normal tissue. *Nature*. (Duplex sequencing at >30,000x across 16 organs)
 - Robinson PS et al. (2022) Inherited MUTYH mutations cause elevated somatic mutation rates in normal human cells. *Nature Communications*. (Methodological precedent for NanoSeq in cancer predisposition)
 
 ### Immunotherapy in POLE-Mutated Cancers
@@ -292,7 +292,7 @@ Foundational investments that redefine the field.
 - **Garmezy B et al. (2022) Clinical and molecular characterization of POLE mutations as predictive biomarkers of response to ICIs. *JCO Precision Oncology*.** — 458 tumors; pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS.
 - **Pietrantonio F et al. (2024) ICIs for POLE/POLD1 proofreading-deficient metastatic CRC. *Annals of Oncology*.** — POLE signature ≥78.5% predicts response.
 - **Sawant A et al. (2025) Immune checkpoint blockade delays cancer development in DNA polymerase mutator syndromes. *Cancer Research* 85(6):1130–1144.** — Preventive ICB in mouse models.
-- Wang F et al. (2019) Evaluation of POLE and POLD1 mutations as biomarkers for immunothomes. *JAMA Oncology* 5(10):1504–1506.
+- Wang F et al. (2019) Evaluation of POLE and POLD1 mutations as biomarkers for immunotherapy outcomes across multiple cancer types. *JAMA Oncology* 5(10):1504–1506.
 - Rousseau B et al. (2021) The spectrum of benefit from checkpoint blockade in hypermutated tumors. *NEJM* 384(12):1168–1170.
 
 ### Synthetic Lethality & DNA Damage Response
@@ -311,27 +311,41 @@ Foundational investments that redefine the field.
 ## Repository Structure
 
 ```
-POLE-c138del-research/
+POLE-Frameshift/
 ├── README.md                          # This file
+├── CITATION.cff                       # Citation metadata (GitHub "Cite this repository")
+├── CONTRIBUTING.md                    # Collaboration opportunities and guidelines
+├── CHANGELOG.md                       # Project evolution timeline
+├── FAQ.md                             # Plain-language overview for broad audience
 ├── docs/
 │   ├── POLE_Research_Framework.docx   # Comprehensive research framework document
 │   ├── POLE_PPAP_Research_Case.pptx   # Research slide deck (12 slides)
-│   └── clinical_case_summary.md       # Clinical case details
+│   ├── clinical_case_summary.md       # Clinical case details and variant summary
+│   └── AI-Research-Assistance-Framework.md  # AI integration strategy
 ├── analysis/
 │   ├── mutational_signatures/         # SigProfiler pipeline specifications
 │   ├── loh_analysis/                  # ASCAT/FACETS LOH analysis framework
 │   ├── duplex_sequencing/             # NanoSeq analysis pipeline specifications
 │   └── neoantigen_prediction/         # NetMHCpan/pVACseq pipeline
 ├── models/
-│   ├── mechanistic_models.md          # Detailed description of 5 candidate models
+│   ├── mechanistic_models.md          # Formal hypotheses with falsification criteria
 │   ├── computational/                 # Stochastic crypt dynamics model specifications
 │   └── experimental_protocols/        # Organoid, CRISPR, mouse model protocols
 ├── therapeutics/
 │   ├── immunotherapy_strategy.md      # ICI treatment rationale and monitoring
 │   ├── synthetic_lethality.md         # ATR/PARP/WRN target analysis
-│   └── surveillance_protocol.md      # Multi-organ surveillance recommendations
-└── references/
-    └── bibliography.bib               # Complete reference list in BibTeX format
+│   └── surveillance_protocol.md       # Multi-organ surveillance recommendations
+├── data/
+│   ├── POLE_coding_sequence.fa        # POLE CDS (ENST00000320574)
+│   ├── POLE_domain_boundaries.tsv     # Protein domains for programmatic parsing
+│   ├── POLE_downstream_methionines.tsv # In-frame AUGs with Kozak scores
+│   ├── POLE_gnomad_constraints.tsv    # gnomAD pLI, LOEUF, missense Z
+│   └── POLE_clinvar_variants.tsv      # Curated ClinVar variant classifications
+├── references/
+│   └── bibliography.bib               # Complete reference list in BibTeX format
+└── .github/
+    └── ISSUE_TEMPLATE/
+        └── pole-case-report.yml       # Structured case reporting template
 ```
 
 ---

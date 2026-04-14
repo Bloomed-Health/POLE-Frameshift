@@ -1,0 +1,10 @@
+position_aa	position_cdna	kozak_context	kozak_strength	domain_if_reinitiation	retained_domains	notes
+M89	c.265A	GCCATGA	Moderate	Pre-exonuclease	Exonuclease + Polymerase + C-terminal	Would retain both catalytic domains; phenocopy wild-type
+M128	c.382A	ACCATGG	Strong	Pre-exonuclease	Exonuclease + Polymerase + C-terminal	Strong Kozak; retains proofreading
+M185	c.553A	TGCATGA	Weak	Pre-exonuclease	Exonuclease + Polymerase + C-terminal	Weak Kozak context
+M292	c.874A	GCCATGG	Strong	Within exonuclease	Partial exonuclease + Polymerase + C-terminal	Disrupted exonuclease domain
+M331	c.991A	AACATGA	Moderate	Within exonuclease	Partial exonuclease + Polymerase + C-terminal	Active site residues may be lost
+M444	c.1330A	ATCATGT	Weak	Within exonuclease	Partial exonuclease + Polymerase + C-terminal	Near end of exonuclease domain
+M497	c.1489A	GCCATGA	Moderate	Post-exonuclease linker	Polymerase + C-terminal	KEY: Polymerase without proofreading — phenocopies dominant-negative PPAP
+M530	c.1588A	ACCATGG	Strong	Post-exonuclease linker	Polymerase + C-terminal	Strong Kozak; polymerase-only product
+M634	c.1900A	TCCATGA	Moderate	Within polymerase	Partial polymerase + C-terminal	Truncated polymerase domain

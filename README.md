@@ -9,11 +9,13 @@
 This repository contains the scientific research framework, clinical documentation, and analysis pipeline specifications for investigating **POLE c.138del (p.Leu46Phefs\*8)** — a pathogenic frameshift variant in the *POLE* gene identified in a female patient with:
 
 - **Ultra-hypermutated tumor phenotype** (TMB >100 mutations/Mb)
-- **Complex multi-system phenotype** consistent with PPAP
+- **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage II papillary thyroid carcinoma (outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension, bilateral proliferative breast changes with PASH, liver FNH/hemangioma, and a congenital duplicated inferior vena cava
 - **Complete absence from gnomAD** and all major population databases (gnomAD pLI = 0.98, LOEUF = 0.22 — extreme loss-of-function intolerance)
 - **Premature protein truncation at ~residue 54** of the 2,286-amino-acid POLE catalytic subunit
 
 This variant presents a **fundamental mechanistic paradox**: it eliminates all functional domains of POLE — including the exonuclease (proofreading) domain (residues ~268–471) and the polymerase domain (residues ~580–1260) — yet produces a clinical phenotype indistinguishable from classical PPAP caused by missense variants within the exonuclease active site.
+
+Critically, the phenotype extends beyond neoplasia into **proliferative/stromal dysregulation** (bilateral PASH, liver FNH), **endometrial tissue dysfunction** (severe endometriosis + adenomyosis), and a **congenital vascular anomaly** (duplicated IVC) — suggesting that POLE haploinsufficiency affects tissue biology at a systemic, developmental level, not just through tumor mutation accumulation.
 
 **Resolving this paradox has implications beyond this single patient.** It could restructure how POLE truncation variants are classified in clinical genetics, expand the population recognized as carrying cancer predisposition alleles, and open novel therapeutic avenues.
 

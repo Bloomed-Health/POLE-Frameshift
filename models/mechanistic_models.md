@@ -19,9 +19,13 @@ The wild-type POLE allele is somatically deleted or silenced in tumor tissue. Ce
 | 1c | Normal tissue (blood) NanoSeq will show **wild-type mutation rates** | Duplex sequencing on PBMCs | Supports Model 1 (mutagenesis is somatic event) | Elevated rates suggest haploinsufficiency (Model 4) |
 | 1d | Wild-type POLE promoter may show methylation in tumor | Bisulfite sequencing of POLE promoter | Epigenetic two-hit mechanism | Rules out epigenetic silencing |
 
+### Clinical Evidence Bearing on Model 1
+
+The patient's **congenital duplicated inferior vena cava** argues against Model 1 as the *sole* explanation. LOH is a stochastic somatic event — it cannot explain a congenital vascular anomaly present from embryonic development. Additionally, the multi-system non-neoplastic findings (bilateral PASH, severe endometriosis, liver FNH) suggest germline-level tissue dysfunction beyond what somatic LOH in individual tumors would produce. Model 1 may still explain the ultra-hypermutation in specific tumors, but the systemic phenotype requires a complementary germline mechanism (likely Model 4).
+
 ### Exclusion Criteria
 
-Model 1 is **excluded** if: tumor shows no LOH at POLE locus AND no promoter methylation AND wild-type allele is expressed at normal levels in tumor tissue.
+Model 1 is **excluded** as the sole mechanism if: congenital anomalies or multi-system proliferative findings are confirmed as POLE-related AND normal tissue mutation rates are elevated. Model 1 is excluded entirely if: tumor shows no LOH at POLE locus AND no promoter methylation AND wild-type allele is expressed at normal levels in tumor tissue.
 
 ---
 
@@ -81,10 +85,20 @@ Model 3 is **excluded** if: mutant mRNA undergoes complete NMD AND/OR the 54-res
 | 4b | NanoSeq on colonic epithelium will show **more strongly elevated** rates than blood | Duplex sequencing on colonoscopy biopsies | Tissue-specific threshold effect in high-turnover tissue | Same rate as blood = no tissue specificity |
 | 4c | Mutations will be enriched in late-replicating genomic regions | Mutation density vs. Repli-seq replication timing | Replication stress model supported | Uniform distribution = non-replication-dependent mechanism |
 | 4d | No LOH at POLE locus in tumor | ASCAT/FACETS analysis | Consistent with haploinsufficiency (no second hit needed) | LOH present = Model 1 |
+| 4e | Endometrial tissue from endometriosis lesions will show elevated mutation rates | NanoSeq on endometriotic tissue vs. eutopic endometrium | POLE haploinsufficiency drives endometrial tissue dysregulation | Normal rates = endometriosis unrelated to POLE |
+
+### Clinical Evidence Supporting Model 4
+
+The patient's phenotype provides the strongest clinical support for this model among all five candidates:
+
+- **Congenital duplicated IVC:** A developmental anomaly present from embryogenesis cannot be caused by somatic LOH. Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during early embryogenesis. This suggests POLE haploinsufficiency has **developmental consequences** — either through elevated embryonic mutation rates creating somatic mosaicism that disrupts vascular patterning, or through non-replicative POLE roles in developmental signaling.
+- **Severe endometriosis + adenomyosis:** The endometrium is a rapidly cycling tissue with high cell turnover — exactly where replicative stress from half-dose POLE would be most consequential. The aggressive endometrial phenotype (Stage IV+ with diaphragmatic extension) without formal malignant transformation suggests POLE dysfunction alters endometrial biology at a **pre-malignant level**. Novel research question: does POLE haploinsufficiency contribute to endometriosis severity?
+- **Multi-system vascular/stromal proliferation:** Bilateral PASH, liver FNH/hemangioma, and duplicated IVC collectively indicate a pattern of vascular-stromal proliferative abnormalities that cannot be explained by somatic events in individual organs — consistent with a germline dosage effect.
+- **Tissue-specific cancer spectrum:** Polyposis in high-turnover GI epithelium + thyroid cancer (high mitotic rate gland) aligns with the threshold model where rapidly dividing tissues are preferentially affected.
 
 ### Exclusion Criteria
 
-Model 4 is **excluded** if: normal tissue mutation rates are completely normal AND/OR tumor shows LOH at the POLE locus (indicating a two-hit rather than dosage mechanism).
+Model 4 is **excluded** if: normal tissue mutation rates are completely normal AND congenital anomaly and proliferative findings are confirmed as coincidental AND/OR tumor shows LOH at the POLE locus as the sole mechanism.
 
 ---
 
@@ -109,6 +123,22 @@ Model 5 is **excluded** if: POLE has a single predominant coding isoform across 
 
 ---
 
+## Clinical Phenotype as Model Discriminator
+
+The patient's multi-system phenotype provides immediate discriminatory evidence even before experimental results.
+
+| Finding | M1 (LOH) | M2 (Reinitiation) | M3 (Poisoning) | M4 (Haplo.) | M5 (Isoform) |
+|---------|----------|-------------------|----------------|-------------|-------------|
+| **Duplicated IVC (congenital)** | ❌ Cannot explain (LOH is somatic) | Neutral | Neutral | ✅ Supports (germline developmental effect) | Neutral |
+| **Stage IV+ endometriosis** | Neutral | Neutral | Neutral | ✅ Supports (high-turnover tissue threshold) | Possible (isoform-specific endometrial effect) |
+| **Bilateral PASH + liver FNH** | ❌ Unlikely (multi-organ, non-neoplastic) | Neutral | Neutral | ✅ Supports (systemic stromal/vascular proliferation) | Neutral |
+| **Thyroid carcinoma** | Possible (organ-specific LOH) | Possible | Neutral | ✅ Supports (high mitotic rate gland) | Possible |
+| **GI polyposis** | Possible | Possible | Possible | ✅ Supports (high-turnover epithelium) | Possible |
+
+**Summary:** The congenital duplicated IVC is the single most important clinical discriminator — it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis) collectively argue against Model 1 operating alone, as LOH in each organ independently would be an extraordinary coincidence. The clinical phenotype most strongly supports Model 4, potentially in combination with Model 1 for tumor-specific ultra-hypermutation.
+
+---
+
 ## Discriminatory Power Matrix
 
 This matrix shows which experiments most efficiently discriminate between models.
@@ -119,7 +149,9 @@ This matrix shows which experiments most efficiently discriminate between models
 | **Mutational signatures** | ✅ Confirms POLE mechanism | ✅ Confirms POLE mechanism | — | — | — | **Immediate** |
 | **Blood NanoSeq** | ✅ Normal = somatic | ✅ Elevated = germline | — | ✅ Elevated = threshold | — | **Immediate** |
 | **Allele-specific RNA-seq** | — | ✅ Transcript present | ✅ NMD escape test | — | ✅ Isoform ratios | **Immediate** |
+| **Endometriosis tissue NanoSeq** | — | — | — | ✅ Elevated = threshold in high-turnover tissue | — | **Medium-term** |
 | **Ribo-seq** | — | ✅ Definitive | — | — | — | **Medium-term** |
 | **Co-IP / structural modeling** | — | — | ✅ Definitive | — | — | **Medium-term** |
 | **Replication timing analysis** | — | — | — | ✅ Enrichment pattern | — | **Medium-term** |
 | **Isoform-specific RT-PCR** | — | — | — | — | ✅ Definitive | **Medium-term** |
+| **Thyroid tumor signature analysis** | ✅ If LOH at POLE | ✅ If SBS10a/b present | — | — | — | **Immediate** |

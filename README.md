@@ -10,7 +10,7 @@ This repository contains the scientific research framework, clinical documentati
 
 - **Ultra-hypermutated tumor phenotype** (TMB >100 mutations/Mb)
 - **Complex multi-system phenotype** consistent with PPAP
-- **Complete absence from gnomAD** and all major population databases
+- **Complete absence from gnomAD** and all major population databases (gnomAD pLI = 0.98, LOEUF = 0.22 — extreme loss-of-function intolerance)
 - **Premature protein truncation at ~residue 54** of the 2,286-amino-acid POLE catalytic subunit
 
 This variant presents a **fundamental mechanistic paradox**: it eliminates all functional domains of POLE — including the exonuclease (proofreading) domain (residues ~268–471) and the polymerase domain (residues ~580–1260) — yet produces a clinical phenotype indistinguishable from classical PPAP caused by missense variants within the exonuclease active site.
@@ -31,8 +31,11 @@ This variant presents a **fundamental mechanistic paradox**: it eliminates all f
 - [Research Prioritization Timeline](#research-prioritization-timeline)
 - [Key Literature References](#key-literature-references)
 - [Repository Structure](#repository-structure)
+- [Clinical Significance Statement](#clinical-significance-statement)
 - [Contributing](#contributing)
 - [License](#license)
+
+**Additional resources:** [Clinical Case Summary](docs/clinical_case_summary.md) | [Formal Hypotheses & Falsification Criteria](models/mechanistic_models.md) | [AI Research Assistance Framework](docs/AI-Research-Assistance-Framework.md) | [FAQ](FAQ.md) | [Changelog](CHANGELOG.md) | [Cite This Repository](CITATION.cff)
 
 ---
 
@@ -68,7 +71,7 @@ POLE Catalytic Subunit (p261) — 2,286 amino acids
     function)               S459F)
 ```
 
-The truncation at residue 54 eliminates **100%** of all known functional domains. No exonuclease activity, no polymerase activity, no C-terminal regulatory regions.
+The truncation at residue 54 eliminates **100%** of all known functional domains. No exonuclease activity, no polymerase activity, no C-terminal regulatory regions. Structured reference data (domain boundaries, coding sequence, constraint metrics) is available in [`data/`](data/) for programmatic analysis.
 
 ---
 
@@ -77,6 +80,8 @@ The truncation at residue 54 eliminates **100%** of all known functional domains
 Five non-mutually-exclusive models could resolve the paradox. **Discriminating between them is the central research priority.**
 
 > **Classification framework context:** The definitive gene-specific ACMG/AMP classification guidelines for POLE/POLD1 variants (Mur, Viana-Errasti, García-Mulero et al., *Genome Medicine* 2023) were designed for **non-disruptive (missense) variants within the exonuclease domain**. The c.138del variant — a truncating variant upstream of the exonuclease domain — falls entirely outside the scope of that framework. Resolving the mechanistic paradox below would necessitate extending the classification guidelines to accommodate truncating variants acting through LOH, reinitiation, or haploinsufficiency mechanisms.
+
+For formal hypotheses with specific falsifiable predictions and exclusion criteria for each model, see [`models/mechanistic_models.md`](models/mechanistic_models.md).
 
 ### Model 1: Somatic Loss of Heterozygosity (LOH)
 
@@ -90,7 +95,7 @@ The wild-type POLE allele is somatically deleted or silenced in tumor tissue (vi
 
 Ribosomes encountering the premature stop codon reinitiate at a downstream AUG codon. If reinitiation occurs between the exonuclease and polymerase domains, the resulting N-terminally truncated protein retains polymerase activity but lacks proofreading — **phenocopying the canonical dominant-negative mechanism** through a completely different genetic route.
 
-**Key experiment:** Ribosome profiling (Ribo-seq) to map translating ribosomes across the mutant POLE transcript.
+**Key experiment:** Ribosome profiling (Ribo-seq) to map translating ribosomes across the mutant POLE transcript. Candidate reinitiation sites with Kozak context scores are catalogued in [`data/POLE_downstream_methionines.tsv`](data/POLE_downstream_methionines.tsv) — notably M497 and M530 (both with moderate-to-strong Kozak contexts) would produce polymerase-only proteins lacking proofreading, directly phenocopying dominant-negative PPAP.
 
 ### Model 3: NMD Escape + Holoenzyme Poisoning
 
@@ -143,6 +148,8 @@ Pipeline: WGS ≥60x tumor / ≥30x normal → SigProfiler decomposition → COS
 Tools: SigProfiler, MutationalPatterns, deconstructSigs
 Reference: COSMIC v3.4 mutational signatures
 ```
+
+See detailed pipeline specifications: [`analysis/mutational_signatures/`](analysis/mutational_signatures/) | [`analysis/loh_analysis/`](analysis/loh_analysis/) | [`analysis/duplex_sequencing/`](analysis/duplex_sequencing/) | [`analysis/neoantigen_prediction/`](analysis/neoantigen_prediction/)
 
 **Published evidence (Annals of Oncology, 2024):** POLE signature contribution ≥78.5% predicts ICI response; ≤28.5% associated with non-response. This makes signature analysis both a mechanistic and clinical priority.
 
@@ -216,6 +223,8 @@ Blood tests represent the most accessible experimental approach, spanning genomi
 - Aspirin chemoprevention (biological rationale from CAPP2 trial in Lynch syndrome; n-of-1 design)
 - Reproductive genetic counseling with PGT-M, acknowledging penetrance uncertainty
 
+See detailed strategies: [`therapeutics/immunotherapy_strategy.md`](therapeutics/immunotherapy_strategy.md) | [`therapeutics/synthetic_lethality.md`](therapeutics/synthetic_lethality.md) | [`therapeutics/surveillance_protocol.md`](therapeutics/surveillance_protocol.md)
+
 ---
 
 ## Experimental Models Required
@@ -226,6 +235,8 @@ Blood tests represent the most accessible experimental approach, spanning genomi
 | **Isogenic CRISPR cell lines** | 6–12 months | Engineer c.138del into RPE1-hTERT, HCT116, HAP1 (het + hemizygous). Parallel P286R/V411L panels for direct mechanistic comparison. Fluctuation assays, DNA fiber assays |
 | **Conditional knock-in mouse** | 18–36 months | Cre-inducible murine equivalent. Tissue-specific activation for tumor spectrum, LOH requirement, penetrance. Cross with MMR-null backgrounds |
 | **Computational / digital twin** | 3–6 months | Stochastic crypt stem cell dynamics: POLE dosage vs. mutation rate, LOH rates, clonal competition. Calibrate against single-cell WGS data |
+
+See detailed protocols: [`models/experimental_protocols/`](models/experimental_protocols/) | [`models/computational/`](models/computational/)
 
 ---
 
@@ -374,14 +385,14 @@ The ultra-hypermutated phenotype (TMB >100 mut/Mb) simultaneously creates:
 
 ## Contributing
 
-This is an active research framework. Contributions are welcome in the following areas:
+This is an active research framework. Contributions are welcome from structural biologists, bioinformaticians, clinical geneticists, immunologists, computational biologists, and others. See **[CONTRIBUTING.md](CONTRIBUTING.md)** for specific collaboration opportunities, what you'd contribute, and how to get involved.
 
-- **Bioinformatics pipelines** for mutational signature analysis, LOH detection, and duplex sequencing processing
-- **Computational models** of crypt stem cell dynamics with POLE haploinsufficiency parameters
-- **Literature updates** on POLE biology, immunotherapy, and synthetic lethality
-- **Clinical data** from other POLE truncation variant carriers
+**Key ways to participate:**
 
-Please open an issue or submit a pull request. For clinical collaboration inquiries, please use the contact information in the repository.
+- **Submit a case report** — If you have a patient with a POLE truncating variant, use our [structured issue template](https://github.com/Bloomed-Health/POLE-Frameshift/issues/new?template=pole-case-report.yml)
+- **Join the discussion** — Visit [Discussions](https://github.com/Bloomed-Health/POLE-Frameshift/discussions) to ask questions, propose mechanistic models, or offer collaboration
+- **Contribute code or analysis** — Fork the repo and open a pull request
+- **New to POLE/PPAP?** — See the [FAQ](FAQ.md) for a plain-language overview
 
 ---
 

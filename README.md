@@ -9,7 +9,7 @@
 This repository contains the scientific research framework, clinical documentation, and analysis pipeline specifications for investigating **POLE c.138del (p.Leu46Phefs\*8)** — a pathogenic frameshift variant in the *POLE* gene identified in a female patient with:
 
 - **Ultra-hypermutated tumor phenotype** (TMB >100 mutations/Mb)
-- **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage II papillary thyroid carcinoma (outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension, bilateral proliferative breast changes with PASH, liver FNH/hemangioma, and a congenital duplicated inferior vena cava
+- **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage II papillary thyroid carcinoma (outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension and intestinal adhesions, bilateral proliferative breast changes with PASH, liver FNH/hemangioma, and a congenital duplicated inferior vena cava
 - **Complete absence from gnomAD** and all major population databases (gnomAD pLI = 0.98, LOEUF = 0.22 — extreme loss-of-function intolerance)
 - **Premature protein truncation at ~residue 54** of the 2,286-amino-acid POLE catalytic subunit
 
@@ -23,9 +23,12 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 
 ## Table of Contents
 
+- [Clinical Presentation](#clinical-presentation)
 - [The Mechanistic Paradox](#the-mechanistic-paradox)
 - [POLE Domain Architecture](#pole-domain-architecture)
 - [Candidate Mechanistic Models](#candidate-mechanistic-models)
+- [How Clinical Findings Constrain Mechanistic Models](#how-clinical-findings-constrain-mechanistic-models)
+- [Novel Research Questions](#novel-research-questions)
 - [Mutational Signature Discrimination](#mutational-signature-discrimination)
 - [Blood-Based Research Assays](#blood-based-research-assays)
 - [Therapeutic Strategy](#therapeutic-strategy)
@@ -38,6 +41,45 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 - [License](#license)
 
 **Additional resources:** [Clinical Case Summary](docs/clinical_case_summary.md) | [Formal Hypotheses & Falsification Criteria](models/mechanistic_models.md) | [AI Research Assistance Framework](docs/AI-Research-Assistance-Framework.md) | [FAQ](FAQ.md) | [Changelog](CHANGELOG.md) | [Cite This Repository](CITATION.cff)
+
+---
+
+## Clinical Presentation
+
+The patient's phenotype spans four distinct categories — neoplastic, proliferative/stromal, endometrial/hormonal, and congenital developmental — suggesting POLE dysfunction affects tissue biology at a systemic level, not just through tumor mutation accumulation. For full clinical detail, see [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md).
+
+### Neoplastic Findings (Classical PPAP Spectrum)
+
+| Finding | Details | PPAP Relevance |
+|---------|---------|----------------|
+| **Gastrointestinal polyposis** | ~15 sessile adenomatous polyps (stomach, cecum, sigmoid colon); erythematous/edematous/friable rectal mucosa; chronic gastric gastritis | Consistent with attenuated polyposis in PPAP (Palles et al. 2022: most patients present with 10–100 polyps; gastric involvement characteristic of POLE heterozygotes) |
+| **Stage II papillary thyroid carcinoma** | Cystic variant with squamous metaplasia | **Not part of established PPAP tumor spectrum.** If SBS10a/b signatures or POLE LOH are confirmed, would formally expand the recognized PPAP phenotype |
+
+### Proliferative and Stromal Findings
+
+| Finding | Details | Significance |
+|---------|---------|-------------|
+| **Bilateral breast changes** | Left: 2cm fibroadenomatous change with dense stromal fibrosis. Right: columnar cell change, cystic/papillary apocrine metaplasia, stromal fibrosis, focal pseudoangiomatous stromal hyperplasia (PASH) | Bilateral stromal proliferative dysregulation — pattern suggests a **field effect** rather than focal lesion |
+| **Liver FNH and/or hemangioma** | Benign vascular proliferative lesion(s) | Combined with PASH and duplicated IVC, reveals a pattern of **vascular/stromal proliferative abnormalities across multiple organ systems** |
+
+### Endometrial/Hormonal Findings
+
+| Finding | Details | Significance |
+|---------|---------|-------------|
+| **Stage IV+ deep infiltrating endometriosis** | Extension into thoracic diaphragm; adhesion lesions on intestines | Diaphragmatic and intestinal involvement represents the most advanced and rare form, indicating an extremely aggressive endometrial tissue phenotype |
+| **Diffuse asymmetric adenomyosis** | Endometrial tissue invading the myometrium | Combined with endometriosis, indicates systemic endometrial tissue dysregulation |
+
+> The endometrium is among the most POLE-vulnerable tissues (endometrial cancer is a major PPAP malignancy; somatic POLE mutations occur in 7–12% of sporadic endometrial cancers). This degree of endometrial dysregulation in a POLE-deficient patient — without formal malignant transformation — raises the novel question of whether **POLE haploinsufficiency contributes to endometriosis severity**, a connection not previously investigated.
+
+### Congenital Developmental Finding
+
+| Finding | Details | Significance |
+|---------|---------|-------------|
+| **Duplicated inferior vena cava** | Congenital vascular anomaly present from embryonic development | **Cannot be explained by somatic mutations or tumor-related processes.** Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during embryogenesis. This suggests POLE haploinsufficiency may have **developmental consequences** — arguing against the pure LOH model (Model 1) as the sole explanation |
+
+### Pattern Across Findings
+
+The phenotype spans **neoplastic** (polyps, thyroid carcinoma), **proliferative/stromal** (breast PASH, liver FNH/hemangioma), **endometrial** (severe endometriosis, adenomyosis), and **congenital developmental** (duplicated IVC) domains. This breadth transforms the case from an interesting mechanistic puzzle into a multi-system phenotype with implications for PPAP spectrum expansion, endometriosis biology, and developmental genetics.
 
 ---
 
@@ -116,6 +158,35 @@ The premature termination codon escapes nonsense-mediated mRNA decay. The trunca
 The c.138del differentially affects alternative POLE transcript variants — eliminating a catalytically critical isoform while sparing others or producing aberrant isoform-specific truncated products with neomorphic properties.
 
 **Key experiment:** Isoform-specific RT-PCR and proteomics across multiple tissues.
+
+---
+
+## How Clinical Findings Constrain Mechanistic Models
+
+The patient's multi-system phenotype provides immediate discriminatory evidence even before experimental results. See [`models/mechanistic_models.md`](models/mechanistic_models.md) for the complete discriminatory power matrix.
+
+| Finding | M1 (LOH) | M2 (Reinitiation) | M3 (Poisoning) | M4 (Haplo.) | M5 (Isoform) |
+|---------|----------|-------------------|----------------|-------------|-------------|
+| **Duplicated IVC (congenital)** | Cannot explain (LOH is somatic) | Neutral | Neutral | Supports (germline developmental effect) | Neutral |
+| **Stage IV+ endometriosis** | Neutral | Neutral | Neutral | Supports (high-turnover tissue threshold) | Possible |
+| **Bilateral PASH + liver FNH** | Unlikely (multi-organ, non-neoplastic) | Neutral | Neutral | Supports (systemic stromal/vascular proliferation) | Neutral |
+| **Thyroid carcinoma** | Possible (organ-specific LOH) | Possible | Neutral | Supports (high mitotic rate gland) | Possible |
+| **GI polyposis** | Possible | Possible | Possible | Supports (high-turnover epithelium) | Possible |
+
+The **congenital duplicated IVC** is the single most important clinical discriminator — it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis) collectively argue against Model 1 operating alone, as independent LOH in each organ would be an extraordinary coincidence.
+
+**Most likely scenario:** Multiple mechanisms operate simultaneously — Model 1 (LOH) may drive tumor-specific ultra-hypermutation, while Model 4 (haploinsufficiency) explains the constitutive multi-system phenotype including the congenital anomaly, endometriosis, and stromal/vascular proliferative changes.
+
+---
+
+## Novel Research Questions
+
+The clinical phenotype generates questions beyond the five mechanistic models:
+
+1. **Does POLE haploinsufficiency contribute to endometriosis severity?** Never investigated. The endometrium is a rapidly cycling, POLE-vulnerable tissue, and endometriosis affects ~10% of reproductive-age women. If a connection exists, it has implications far beyond this patient.
+2. **Should thyroid cancer be added to the PPAP tumor spectrum?** Thyroid cancer has not been systematically reported in PPAP carriers. Confirming POLE signatures (SBS10a/b) or LOH at the POLE locus in the thyroid tumor would formally expand the recognized phenotype.
+3. **Do POLE truncation variant carriers have an elevated rate of congenital anomalies?** The duplicated IVC suggests possible developmental effects of germline POLE haploinsufficiency — testable through retrospective phenotyping of POLE carrier cohorts.
+4. **Are bilateral stromal proliferative changes (PASH, FNH) a feature of systemic POLE dysfunction?** The pattern of vascular/stromal proliferation across breast and liver suggests a field effect that has not been described in PPAP.
 
 ---
 
@@ -293,6 +364,12 @@ Foundational investments that redefine the field.
 - **Mur P, Viana-Errasti J, García-Mulero S et al. (2023) Recommendations for the classification of germline variants in the exonuclease domain of POLE and POLD1. *Genome Medicine* 15:85.** — Definitive gene-specific ACMG/AMP classification framework for 128 POLE/POLD1 ED variants. **Note:** This framework was designed for non-disruptive (missense) ED variants; c.138del (truncating, upstream of ED) falls outside its current scope, representing an opportunity to extend the guidelines.
 - **Valle L et al. (2020) Role of POLE and POLD1 in familial cancer. *Genetics in Medicine*.** — Sequenced POLE/POLD1 in 2,813 hereditary cancer probands; identified 12 ED missense variants, 6 loss-of-function variants, and 23 outside-ED predicted-deleterious missense variants. The 6 LoF variants are a critical comparator set for c.138del.
 - **Viana-Errasti J et al. (2025) Comparative Analysis of Somatic and Germline Polymerase Proofreading Deficiencies in Cancer. *Modern Pathology*.** — Compares molecular and clinical characteristics of 31 POLE/POLD1 ED pathogenic variants, assessing MMR status, TMB, and mutational signatures. Establishes the analytical framework applicable to the c.138del tumor.
+- Valle L, Hernández-Illán E, Bellido F et al. (2014) New insights into POLE and POLD1 germline mutations in familial colorectal cancer and polyposis. *Human Molecular Genetics* 23(13):3506–3512. — First identification of de novo POLE mutations in PPAP.
+- Shah SM, Demidova EV et al. (2024) Exploring co-occurring POLE exonuclease and non-exonuclease domain mutations and their impact on tumor mutagenicity. *Cancer Research Communications* 4(1):213–225. — Demonstrates interest in non-standard POLE mutations; co-authored with Valle lab.
+
+### Tools & Databases
+
+- **PolED database (2025)** — A curated database of functional studies of POLE/POLD1 variants reported in humans. [PMID: 41263451](https://pubmed.ncbi.nlm.nih.gov/41263451/)
 
 ### POLE Frameshift Variants & Epigenetic Interactions
 

@@ -119,7 +119,9 @@ All previously reported pathogenic PPAP variants are **missense substitutions** 
 
 ### Implications for variant classification
 
-If the two-hit / LOH model is confirmed, truncating POLE variants currently classified as VUS may need reclassification as pathogenic cancer predisposition alleles. This would expand the population recognized as carrying cancer risk from POLE mutations.
+The definitive gene-specific ACMG/AMP classification guidelines for POLE/POLD1 (Mur, Viana-Errasti et al., *Genome Medicine* 2023, Valle lab at IDIBELL) were designed for non-disruptive (missense) variants within the exonuclease domain. The c.138del variant — a truncating variant upstream of the exonuclease domain — falls entirely outside that framework's scope. If the mechanistic paradox is resolved, the classification guidelines would need to be extended to accommodate truncating variants acting through LOH, reinitiation, or haploinsufficiency mechanisms.
+
+If the two-hit / LOH model is confirmed, truncating POLE variants currently classified as VUS may need reclassification as pathogenic cancer predisposition alleles. Notably, Valle et al. (2020) identified 6 loss-of-function POLE variants in a cohort of 2,813 hereditary cancer probands — these represent a critical comparator set for understanding whether truncating variants outside the exonuclease domain can produce PPAP phenotypes.
 
 ---
 

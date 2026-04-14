@@ -76,6 +76,8 @@ The truncation at residue 54 eliminates **100%** of all known functional domains
 
 Five non-mutually-exclusive models could resolve the paradox. **Discriminating between them is the central research priority.**
 
+> **Classification framework context:** The definitive gene-specific ACMG/AMP classification guidelines for POLE/POLD1 variants (Mur, Viana-Errasti, García-Mulero et al., *Genome Medicine* 2023) were designed for **non-disruptive (missense) variants within the exonuclease domain**. The c.138del variant — a truncating variant upstream of the exonuclease domain — falls entirely outside the scope of that framework. Resolving the mechanistic paradox below would necessitate extending the classification guidelines to accommodate truncating variants acting through LOH, reinitiation, or haploinsufficiency mechanisms.
+
 ### Model 1: Somatic Loss of Heterozygosity (LOH)
 
 The wild-type POLE allele is somatically deleted or silenced in tumor tissue (via deletion, copy-neutral LOH through mitotic recombination, or promoter methylation). Cells with no functional POLE rely on lower-fidelity compensatory polymerases (e.g., Polδ). This follows **Knudson's two-hit tumor suppressor model** rather than the dominant-negative paradigm.
@@ -270,8 +272,14 @@ Foundational investments that redefine the field.
 
 - Palles C et al. (2013) Germline mutations affecting the proofreading domains of POLE and POLD1 predispose to colorectal adenomas and carcinomas. *Nature Genetics* 45:136–144. [PMID: 23263490](https://pubmed.ncbi.nlm.nih.gov/23263490/)
 - Palles C et al. (2022) The clinical features of polymerase proof-reading associated polyposis (PPAP) and recommendations for patient management. *Familial Cancer* 21:197–209. [PMID: 33948826](https://pubmed.ncbi.nlm.nih.gov/33948826/)
-- Bellido F et al. (2016) POLE and POLD1 mutations in 529 kindred with familial colorectal cancer and/or polyposis. *Genetics in Medicine* 18:325–332. [PMID: 26133394](https://pubmed.ncbi.nlm.nih.gov/26133394/)
+- Bellido F et al. (2016) POLE and POLD1 mutations in 529 kindred with familial colorectal cancer and/or polyposis. *Genetics in Medicine* 18:325–332. [PMID: 26133394](https://pubmed.ncbi.nlm.nih.gov/26133394/) (Valle lab, IDIBELL)
 - Rayner E et al. (2016) A panoply of errors: Polymerase proofreading domain mutations in cancer. *Nature Reviews Cancer* 16:71–81.
+
+### POLE/POLD1 Variant Classification & Functional Assessment (Valle Lab, IDIBELL)
+
+- **Mur P, Viana-Errasti J, García-Mulero S et al. (2023) Recommendations for the classification of germline variants in the exonuclease domain of POLE and POLD1. *Genome Medicine* 15:85.** — Definitive gene-specific ACMG/AMP classification framework for 128 POLE/POLD1 ED variants. **Note:** This framework was designed for non-disruptive (missense) ED variants; c.138del (truncating, upstream of ED) falls outside its current scope, representing an opportunity to extend the guidelines.
+- **Valle L et al. (2020) Role of POLE and POLD1 in familial cancer. *Genetics in Medicine*.** — Sequenced POLE/POLD1 in 2,813 hereditary cancer probands; identified 12 ED missense variants, 6 loss-of-function variants, and 23 outside-ED predicted-deleterious missense variants. The 6 LoF variants are a critical comparator set for c.138del.
+- **Viana-Errasti J et al. (2025) Comparative Analysis of Somatic and Germline Polymerase Proofreading Deficiencies in Cancer. *Modern Pathology*.** — Compares molecular and clinical characteristics of 31 POLE/POLD1 ED pathogenic variants, assessing MMR status, TMB, and mutational signatures. Establishes the analytical framework applicable to the c.138del tumor.
 
 ### POLE Frameshift Variants & Epigenetic Interactions
 

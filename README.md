@@ -48,6 +48,7 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 - [POLE Domain Architecture](#pole-domain-architecture)
 - [Candidate Mechanistic Models](#candidate-mechanistic-models)
 - [How Clinical Findings Constrain Mechanistic Models](#how-clinical-findings-constrain-mechanistic-models)
+- [Tissue Vulnerability Analysis](#tissue-vulnerability-analysis)
 - [Novel Research Questions](#novel-research-questions)
 - [Mutational Signature Discrimination](#mutational-signature-discrimination)
 - [Blood-Based Research Assays](#blood-based-research-assays)
@@ -60,7 +61,7 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 - [Contributing](#contributing)
 - [License](#license)
 
-**Additional resources:** [Clinical Case Summary](docs/clinical_case_summary.md) | [Systematic Health History](docs/systematic_health_history.md) | [POLE-Endometriosis Hypothesis](docs/endometriosis_hypothesis/) | [Formal Hypotheses & Falsification Criteria](models/mechanistic_models.md) | [AI Research Assistance Framework](docs/AI-Research-Assistance-Framework.md) | [FAQ](FAQ.md) | [Changelog](CHANGELOG.md) | [Cite This Repository](CITATION.cff)
+**Additional resources:** [Clinical Case Summary](docs/clinical_case_summary.md) | [Systematic Health History](docs/systematic_health_history.md) | [POLE Carrier Registry Cross-Reference](docs/pole_carrier_registry_crossref.md) | [Pharmacokinetic Considerations](therapeutics/pharmacokinetic_considerations.md) | [POLE-Endometriosis Hypothesis](docs/endometriosis_hypothesis/) | [Formal Hypotheses & Falsification Criteria](models/mechanistic_models.md) | [AI Research Assistance Framework](docs/AI-Research-Assistance-Framework.md) | [FAQ](FAQ.md) | [Changelog](CHANGELOG.md) | [Cite This Repository](CITATION.cff)
 
 ---
 
@@ -246,6 +247,22 @@ The **congenital duplicated IVC** is the single most important clinical discrimi
 
 ---
 
+## Tissue Vulnerability Analysis
+
+Model 4 (replication stress-dependent haploinsufficiency) predicts that tissues with the highest cell division rates should be most vulnerable to POLE haploinsufficiency. The following visualization tests this prediction against the patient's clinical findings:
+
+![Tissue replication rate vs. clinical findings](analysis/temporal_phenotype/tissue_replication_vulnerability.png)
+
+**Key observation:** The patient's most severe findings (GI polyposis, Stage IV+ endometriosis) occur in the fastest-cycling tissues (colonic crypts every 3–5 days, endometrium monthly), consistent with Model 4's prediction. The thyroid carcinoma — arising in a slow-cycling tissue (~8 years) — is the notable exception, suggesting either that LOH (Model 1) drives tumorigenesis in slow-cycling tissues, or that tissue-specific factors beyond division rate modulate vulnerability.
+
+The temporal phenotype map below shows age-at-onset by phenotype category, with tissue turnover rates annotated:
+
+![Phenotype timeline](analysis/temporal_phenotype/phenotype_timeline.png)
+
+The congenital duplicated IVC (earliest onset) and childhood-onset hEDS features provide the strongest evidence for constitutive, germline-level POLE dysfunction. Structured data underlying these figures is available in [`data/tissue_replication_rates.tsv`](data/tissue_replication_rates.tsv) and [`data/phenotype_timeline.tsv`](data/phenotype_timeline.tsv).
+
+---
+
 ## Novel Research Questions
 
 The clinical phenotype generates questions beyond the five mechanistic models:
@@ -255,6 +272,7 @@ The clinical phenotype generates questions beyond the five mechanistic models:
 3. **Do POLE truncation variant carriers have an elevated rate of congenital anomalies?** The duplicated IVC suggests possible developmental effects of germline POLE haploinsufficiency — testable through retrospective phenotyping of POLE carrier cohorts.
 4. **Are bilateral stromal proliferative changes (PASH, FNH) a feature of systemic POLE dysfunction?** The pattern of vascular/stromal proliferation across breast and liver suggests a field effect that has not been described in PPAP.
 5. **Do POLE carriers have elevated rates of anti-mitochondrial antibodies or other organelle-targeting autoantibodies?** The ANA AC-21 finding suggests POLE-driven mutagenesis of nuclear-encoded mitochondrial genes may impair mitochondrial integrity, exposing inner membrane antigens (PDC-E2) to immune surveillance. If confirmed, autoantibody profiling should become part of systematic POLE carrier phenotyping.
+6. **Do other POLE truncation carriers show non-neoplastic multi-system phenotypes?** The 6 LoF variants identified by Valle et al. (2020) in 2,813 probands are the critical comparator set. Retrospective multi-system phenotyping of these carriers — assessing connective tissue, dysautonomia, congenital anomalies, autoimmunity, and endometriosis — could determine whether the expanded phenotype is unique to c.138del or a general feature of POLE truncation. See [`docs/pole_carrier_registry_crossref.md`](docs/pole_carrier_registry_crossref.md) for the full cross-reference analysis and proposed collaborative study.
 
 ---
 
@@ -373,7 +391,9 @@ Blood tests represent the most accessible experimental approach, spanning genomi
 - Aspirin chemoprevention (biological rationale from CAPP2 trial in Lynch syndrome; n-of-1 design)
 - Reproductive genetic counseling with PGT-M, acknowledging penetrance uncertainty
 
-See detailed strategies: [`therapeutics/immunotherapy_strategy.md`](therapeutics/immunotherapy_strategy.md) | [`therapeutics/synthetic_lethality.md`](therapeutics/synthetic_lethality.md) | [`therapeutics/surveillance_protocol.md`](therapeutics/surveillance_protocol.md)
+See detailed strategies: [`therapeutics/immunotherapy_strategy.md`](therapeutics/immunotherapy_strategy.md) | [`therapeutics/synthetic_lethality.md`](therapeutics/synthetic_lethality.md) | [`therapeutics/surveillance_protocol.md`](therapeutics/surveillance_protocol.md) | [`therapeutics/pharmacokinetic_considerations.md`](therapeutics/pharmacokinetic_considerations.md)
+
+> **Comorbidity-adjusted drug selection:** The patient's gastroparesis makes oral drug absorption unreliable, and POTS amplifies autonomic side effects. The [pharmacokinetic considerations document](therapeutics/pharmacokinetic_considerations.md) maps each candidate agent to route of administration, comorbidity interactions, and feasibility — **IV pembrolizumab** is the highest-priority agent (strong efficacy data + bypasses GI absorption), while oral ATR/PARP inhibitors carry significant feasibility concerns.
 
 ---
 
@@ -543,11 +563,13 @@ POLE-Frameshift/
 │   ├── POLE_PPAP_Research.pptx   # Research slide deck (12 slides)
 │   ├── clinical_case_summary.md       # Clinical case details and variant summary
 │   ├── systematic_health_history.md   # Whole-body phenotyping questionnaire (20 systems)
+│   ├── pole_carrier_registry_crossref.md # Cross-reference: PolED, Valle cohort, published carriers
 │   ├── endometriosis_hypothesis/      # POLE-endometriosis hypothesis with testable predictions
 │   │   └── POLE_Endometriosis_Hypothesis.docx
 │   └── AI-Research-Assistance-Framework.md  # AI integration strategy
 ├── analysis/
 │   ├── variant_landscape/             # POLE protein variant lollipop plot (SVG/PNG)
+│   ├── temporal_phenotype/            # Tissue vulnerability & phenotype timeline (SVG/PNG)
 │   ├── mutational_signatures/         # SigProfiler pipeline specifications
 │   ├── loh_analysis/                  # ASCAT/FACETS LOH analysis framework
 │   ├── duplex_sequencing/             # NanoSeq analysis pipeline specifications
@@ -559,14 +581,17 @@ POLE-Frameshift/
 ├── therapeutics/
 │   ├── immunotherapy_strategy.md      # ICI treatment rationale and monitoring
 │   ├── synthetic_lethality.md         # ATR/PARP/WRN target analysis
-│   └── surveillance_protocol.md       # Multi-organ surveillance recommendations
+│   ├── surveillance_protocol.md       # Multi-organ surveillance recommendations
+│   └── pharmacokinetic_considerations.md # Drug-comorbidity interaction map
 ├── data/
 │   ├── POLE_coding_sequence.fa        # POLE CDS (ENST00000320574)
 │   ├── POLE_domain_boundaries.tsv     # Protein domains for programmatic parsing
 │   ├── POLE_downstream_methionines.tsv # In-frame AUGs with Kozak scores
 │   ├── POLE_gnomad_constraints.tsv    # gnomAD pLI, LOEUF, missense Z
 │   ├── POLE_clinvar_variants.tsv      # Curated ClinVar variant classifications
-│   └── phenotype_hpo.tsv             # HPO phenotype mapping (16 findings)
+│   ├── phenotype_hpo.tsv             # HPO phenotype mapping (16 findings)
+│   ├── phenotype_timeline.tsv        # Age-at-onset data for temporal analysis
+│   └── tissue_replication_rates.tsv  # Tissue turnover rates with POLE vulnerability predictions
 ├── references/
 │   └── bibliography.bib               # Complete reference list in BibTeX format
 └── .github/

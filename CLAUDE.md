@@ -14,13 +14,14 @@ The central research question is a **mechanistic paradox**: this variant truncat
 - **Classification:** Pathogenic (PVS1, PM2, PP4); not yet in ClinVar
 - **47-gene panel (2022):** Negative for APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, and all other genes tested — POLE c.138del is the sole identified genetic driver
 
-## Patient Phenotype (Five Categories)
+## Patient Phenotype (Five Categories + Comorbidity Context)
 
 1. **Neoplastic:** ~15 sessile adenomatous polyps (stomach, cecum, sigmoid), Stage II papillary thyroid carcinoma (outside established PPAP spectrum)
 2. **Proliferative/stromal:** Bilateral breast changes with PASH, liver FNH/hemangioma
 3. **Endometrial:** Stage IV+ deep infiltrating endometriosis (thoracic diaphragm, intestinal adhesions), diffuse adenomyosis
 4. **Congenital developmental:** Duplicated inferior vena cava — cannot be explained by somatic LOH, argues for constitutive POLE haploinsufficiency
 5. **Autoimmune/immune:** ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies) — may reflect immune recognition of mitochondrial antigens exposed through POLE-driven dysfunction of nuclear-encoded mitochondrial proteins
+6. **Comorbidity triad:** hEDS/POTS/gastroparesis — creates therapeutic constraints (unreliable oral drug absorption, amplified autonomic side effects) and potential phenotype modifiers (MCAS as pro-tumorigenic microenvironment; altered ECM affecting crypt architecture; dysautonomia modulating neuroimmune axis)
 
 ## Five Candidate Mechanistic Models
 
@@ -44,12 +45,16 @@ POLE-Frameshift/
 ├── FAQ.md                           # Plain-language overview
 ├── docs/
 │   ├── clinical_case_summary.md     # Full clinical phenotype and genomic profile
+│   ├── systematic_health_history.md # Whole-body phenotyping questionnaire (20 systems)
+│   ├── pole_carrier_registry_crossref.md # Cross-reference: PolED, Valle cohort, published carriers
 │   ├── endometriosis_hypothesis/    # POLE-endometriosis hypothesis with testable predictions
 │   │   └── POLE_Endometriosis_Hypothesis.docx
 │   ├── POLE_Comprehensive_Framework.docx # Comprehensive research framework document
-│   ├── POLE_PPAP_Research.pptx # Slide deck (12 slides)
+│   ├── POLE_PPAP_Research.pptx      # Slide deck (12 slides)
 │   └── AI-Research-Assistance-Framework.md
 ├── analysis/
+│   ├── variant_landscape/           # POLE protein variant lollipop plot (SVG/PNG)
+│   ├── temporal_phenotype/          # Tissue vulnerability & phenotype timeline (SVG/PNG)
 │   ├── mutational_signatures/       # SigProfiler pipeline specs
 │   ├── loh_analysis/                # ASCAT/FACETS LOH framework
 │   ├── duplex_sequencing/           # NanoSeq pipeline specs
@@ -61,13 +66,17 @@ POLE-Frameshift/
 ├── therapeutics/
 │   ├── immunotherapy_strategy.md    # ICI rationale and monitoring
 │   ├── synthetic_lethality.md       # ATR/PARP/WRN targets
-│   └── surveillance_protocol.md     # Multi-organ surveillance
+│   ├── surveillance_protocol.md     # Multi-organ surveillance
+│   └── pharmacokinetic_considerations.md # Drug-comorbidity interaction map
 ├── data/                            # Structured reference data (TSV/FASTA)
 │   ├── POLE_coding_sequence.fa
 │   ├── POLE_domain_boundaries.tsv
 │   ├── POLE_downstream_methionines.tsv
 │   ├── POLE_gnomad_constraints.tsv
-│   └── POLE_clinvar_variants.tsv
+│   ├── POLE_clinvar_variants.tsv
+│   ├── phenotype_hpo.tsv           # HPO phenotype mapping (16 findings)
+│   ├── phenotype_timeline.tsv      # Age-at-onset data for temporal analysis
+│   └── tissue_replication_rates.tsv # Tissue turnover rates with POLE vulnerability
 └── references/
     └── bibliography.bib             # BibTeX references
 ```

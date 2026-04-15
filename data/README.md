@@ -12,6 +12,12 @@ This directory contains computationally useful reference data for POLE c.138del 
 | `POLE_gnomad_constraints.tsv` | gnomAD constraint metrics (pLI, LOEUF, missense Z) | gnomAD v4 |
 | `POLE_clinvar_variants.tsv` | Curated POLE variants with ClinVar classifications | ClinVar |
 | `phenotype_hpo.tsv` | Patient phenotype mapped to Human Phenotype Ontology (HPO) terms | HPO (hpo.jax.org) |
+| `phenotype_timeline.tsv` | Age-at-onset data for each finding with tissue turnover annotations | Clinical data + published tissue biology |
+| `tissue_replication_rates.tsv` | Tissue-specific cell division rates with POLE vulnerability predictions and Model 4 support assessment | Published tissue biology literature |
+
+## Tissue Replication Rate Overlay
+
+The `tissue_replication_rates.tsv` file maps 12 affected tissues to estimated cell division periods, enabling direct testing of Model 4's prediction that high-turnover tissues are most vulnerable to POLE haploinsufficiency. Combined with the temporal onset data in `phenotype_timeline.tsv`, these files generate the visualizations in [`analysis/temporal_phenotype/`](../analysis/temporal_phenotype/).
 
 ## HPO Interoperability
 

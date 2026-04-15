@@ -2,7 +2,7 @@
 
 ## Rationale
 
-PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillance protocols are based on classical missense variants; the c.138del frameshift requires **expanded surveillance** given the novel mechanism and the patient's demonstrated phenotype spanning neoplastic, proliferative/stromal, endometrial, and congenital developmental categories. The systemic nature of the findings suggests POLE dysfunction affects tissue biology beyond tumor mutation accumulation, necessitating broader organ coverage than standard PPAP protocols.
+PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillance protocols are based on classical missense variants; the c.138del frameshift requires **expanded surveillance** given the novel mechanism and the patient's demonstrated phenotype spanning five categories: neoplastic, proliferative/stromal, endometrial, congenital developmental, and autoimmune/immune. The systemic nature of the findings suggests POLE dysfunction affects tissue biology beyond tumor mutation accumulation, necessitating broader organ coverage than standard PPAP protocols.
 
 ## Recommended Surveillance
 
@@ -51,6 +51,17 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 | **ctDNA monitoring** | Every 6–8 weeks during active treatment; every 3–6 months in surveillance | Tumor-informed panel (Signatera, FoundationOne Tracker, or Guardant Reveal) |
 | **Immune profiling** | At baseline, during treatment, at progression | CyTOF or spectral flow cytometry for treatment response monitoring |
 
+### Autoimmune / Immune Monitoring
+
+| Modality | Interval | Notes |
+|----------|----------|-------|
+| **AMA-specific ELISA** (anti-PDC-E2) | At baseline; repeat if symptoms | Confirm AC-21 pattern as true AMA; establish baseline before any ICI therapy |
+| **Liver function panel** (GGT, ALP) | Every 6–12 months | Biliary function assessment given AMA association with PBC + existing liver FNH/hemangioma |
+| **Extended autoimmune panel** | At baseline; repeat if new symptoms | Anti-dsDNA, ENA panel, complement C3/C4, anti-smooth muscle — characterize scope of immune dysregulation |
+| **ANA titer trending** | Annually; q6w if on ICI | Monitor for evolving autoimmune activation, especially during immunotherapy |
+
+> **Context:** ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies). Pre-existing autoimmune markers require modified ICI monitoring protocols — see [`immunotherapy_strategy.md`](immunotherapy_strategy.md) for irAE risk assessment and pre-ICI workup.
+
 ### Additional Screening
 
 | Modality | Interval | Notes |
@@ -77,3 +88,4 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 2. **Should thyroid cancer surveillance be added to PPAP protocols?** Contingent on confirming POLE signatures in the thyroid tumor
 3. **Does POLE dysfunction cause congenital vascular anomalies?** The duplicated IVC suggests possible developmental effects of germline POLE haploinsufficiency
 4. **Is there a POLE-associated vascular/stromal proliferative phenotype?** Bilateral PASH, liver FNH, and duplicated IVC form a pattern across organs
+5. **Do POLE carriers have elevated rates of anti-mitochondrial antibodies?** The ANA AC-21 finding suggests POLE-driven mutagenesis of nuclear-encoded mitochondrial genes may impair mitochondrial integrity, exposing antigens to immune surveillance

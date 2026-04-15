@@ -35,6 +35,20 @@ This variant is **ultra-rare**: it has never been observed in any major populati
 
 ---
 
+## What does the patient's phenotype look like?
+
+The patient's presentation spans **five distinct categories**, which is what makes this case so compelling — it goes far beyond just polyps and cancer:
+
+1. **Neoplastic** — ~15 adenomatous polyps across the stomach, cecum, and sigmoid colon, plus a Stage II papillary thyroid carcinoma (not previously linked to PPAP)
+2. **Proliferative/stromal** — Bilateral breast changes with pseudoangiomatous stromal hyperplasia (PASH) and liver focal nodular hyperplasia (FNH) — a pattern of vascular/stromal proliferation across multiple organs
+3. **Endometrial** — Stage IV+ deep infiltrating endometriosis with trans-diaphragmatic invasion and intestinal adhesions, plus diffuse adenomyosis — extraordinarily severe, affecting one of the most POLE-vulnerable tissues
+4. **Congenital developmental** — A duplicated inferior vena cava (a vascular anomaly present from birth), which **cannot** be caused by a tumor-specific mutation and argues that POLE dysfunction has effects during embryonic development
+5. **Autoimmune/immune** — ANA 1:160 with reticular cytoplasmic AC-21 pattern, associated with anti-mitochondrial antibodies (AMA) — may reflect immune recognition of mitochondrial damage caused by POLE-driven mutagenesis of nuclear-encoded mitochondrial genes
+
+This breadth suggests POLE dysfunction is truly systemic, affecting tissue biology at a developmental and immunological level, not just through tumor mutation accumulation.
+
+---
+
 ## Why is this variant scientifically important?
 
 This is where it gets interesting. All previously known PPAP-causing mutations are **missense variants** — they change a single amino acid in the proofreading region of the protein. The protein still works as a DNA copier, but it can no longer proofread. It's like a typist who can still type but can no longer spell-check.

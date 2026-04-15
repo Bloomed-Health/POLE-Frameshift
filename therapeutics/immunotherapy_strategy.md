@@ -38,6 +38,32 @@ The POLE c.138del tumor has TMB >100 mutations/Mb, far exceeding the FDA tissue-
 - **Evidence:** Sawant et al. (2025) — ICB delays cancer development in polymerase mutator mice
 - **Status:** Conceptual; no human trials yet
 
+## Pre-Treatment Autoimmune Considerations
+
+The patient has **ANA 1:160 with reticular cytoplasmic AC-21 pattern**, characteristically associated with anti-mitochondrial antibodies (AMA). This has direct implications for ICI safety:
+
+### irAE Risk Assessment
+
+- **Pre-existing ANA positivity** is associated with increased risk of immune-related adverse events (irAEs) during checkpoint inhibitor therapy
+- **AC-21/AMA association** raises specific concern for autoimmune hepatitis, cholangitis, and biliary irAEs — particularly relevant given the patient's liver FNH/hemangioma
+- ICI can unmask subclinical autoimmune conditions; the AC-21 finding warrants pre-treatment characterization
+
+### Required Pre-ICI Workup
+
+| Test | Purpose |
+|------|---------|
+| **AMA-specific ELISA** (anti-PDC-E2) | Confirm whether AC-21 reflects true AMA; establish baseline |
+| **Liver function panel** (GGT, ALP, bilirubin) | Baseline biliary function; PBC screening given AMA + hepatic lesions |
+| **Extended autoimmune panel** (anti-dsDNA, ENA, C3/C4, anti-smooth muscle) | Characterize scope of autoimmune activation before ICI |
+| **Thyroid function** (TSH, free T4, anti-TPO) | Baseline for thyroid irAE monitoring (particularly given thyroid cancer history) |
+
+### ICI Monitoring Modifications for ANA-Positive Patients
+
+- **Liver enzymes q2w** during induction (vs. standard q3–6w) — lower threshold for hepatic irAE investigation
+- **AMA titer trending** at baseline, week 6, week 12, and at any suspected irAE — rising titers may indicate evolving biliary autoimmunity
+- **Hepatology consultation** if any Grade ≥1 hepatic irAE given potential overlap with subclinical PBC
+- **Hold ICI and escalate** if ALP rises >2x ULN with GGT elevation — biliary pattern concerning for cholangitis irAE vs. PBC exacerbation
+
 ## Resistance Monitoring
 
 - **Primary resistance markers:** B2M loss, JAK1/JAK2 mutations, HLA loss

@@ -27,7 +27,7 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 | Established | Requires Investigation |
 |-------------|----------------------|
 | **Variant identity:** POLE c.138del (p.Leu46Phefs*8), heterozygous frameshift, premature stop at ~residue 54 | **LOH status:** Has the wild-type POLE allele been somatically lost in tumor tissue? (Paired tumor-normal WGS with ASCAT/FACETS) |
-| **ACMG classification:** Pathogenic (PVS1 + PM2 + PP4); absent from gnomAD and all population databases | **Mutational signatures:** Are canonical POLE signatures (SBS10a/b/28) present, or does a non-canonical process drive the ultra-hypermutation? |
+| **ACMG classification:** Pathogenic (PVS1 + PM2 + PP4); absent from gnomAD and all population databases. Submitted to [LOVD3](https://databases.lovd.nl/shared/variants/POLE) (2026-04-15, pending curation); ClinVar submission prepared | **Mutational signatures:** Are canonical POLE signatures (SBS10a/b/28) present, or does a non-canonical process drive the ultra-hypermutation? |
 | **Tumor phenotype:** Ultra-hypermutated (TMB >100 mut/Mb) — consistent with PPAP | **NMD escape:** Does the mutant mRNA escape nonsense-mediated decay? What is the mutant:WT transcript ratio? |
 | **47-gene panel negative:** No pathogenic variants in APC, MUTYH, MMR genes, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene — POLE c.138del is the sole identified genetic driver | **Mechanism:** Which of the 5 candidate models (LOH, reinitiation, holoenzyme poisoning, haploinsufficiency, isoform-specific) explains the paradox? |
 | **Five-category phenotype:** Neoplastic + proliferative/stromal + endometrial + congenital developmental + autoimmune/immune | **AMA confirmation:** Does the ANA AC-21 pattern reflect true anti-mitochondrial antibodies? (AMA-specific ELISA for anti-PDC-E2) |
@@ -61,7 +61,7 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 - [Contributing](#contributing)
 - [License](#license)
 
-**Additional resources:** [Clinical Case Summary](docs/clinical_case_summary.md) | [Systematic Health History](docs/systematic_health_history.md) | [POLE Carrier Registry Cross-Reference](docs/pole_carrier_registry_crossref.md) | [Pharmacokinetic Considerations](therapeutics/pharmacokinetic_considerations.md) | [POLE-Endometriosis Hypothesis](docs/endometriosis_hypothesis/) | [Formal Hypotheses & Falsification Criteria](models/mechanistic_models.md) | [AI Research Assistance Framework](docs/AI-Research-Assistance-Framework.md) | [FAQ](FAQ.md) | [Changelog](CHANGELOG.md) | [Cite This Repository](CITATION.cff)
+**Additional resources:** [Clinical Case Summary](docs/clinical_case_summary.md) | [Systematic Health History](docs/systematic_health_history.md) | [POLE Carrier Registry Cross-Reference](docs/pole_carrier_registry_crossref.md) | [Comorbidity Interaction Analysis](docs/comorbidity_interaction_analysis.md) | [Pharmacokinetic Considerations](therapeutics/pharmacokinetic_considerations.md) | [POLE-Endometriosis Hypothesis](docs/endometriosis_hypothesis/) | [Formal Hypotheses & Falsification Criteria](models/mechanistic_models.md) | [Temporal Correlation Analysis](analysis/temporal_phenotype/temporal_correlation_analysis.ipynb) | [GA4GH Phenopacket](data/phenopacket/pole_c138del_phenopacket.json) | [ClinVar Submission](data/clinvar_submission/) | [AI Research Assistance Framework](docs/AI-Research-Assistance-Framework.md) | [FAQ](FAQ.md) | [Changelog](CHANGELOG.md) | [Cite This Repository](CITATION.cff)
 
 ---
 
@@ -73,7 +73,7 @@ The patient's phenotype spans five distinct categories — neoplastic, prolifera
 
 | Finding | Details | PPAP Relevance |
 |---------|---------|----------------|
-| **Gastrointestinal polyposis** | ~15 sessile adenomatous polyps (stomach, cecum, sigmoid colon); erythematous/edematous/friable rectal mucosa; chronic gastric gastritis | Consistent with attenuated polyposis in PPAP (Palles et al. 2022: most patients present with 10–100 polyps; gastric involvement characteristic of POLE heterozygotes) |
+| **Gastrointestinal polyposis** | Progressive adenomatous polyposis: ~6 adenomas at first colonoscopy (age 19), accumulating to ~15+ across surveillance at ages 21, 24, 27, 29, ~31 (stomach, cecum, sigmoid colon); chronic gastric gastritis | First non-congenital finding at age 19 — consistent with Model 4 prediction that fastest-dividing tissue (colonic epithelium, 3–5 day turnover) is affected first. Progressive accumulation indicates ongoing mutagenesis. Consistent with attenuated PPAP (Palles et al. 2022) |
 | **Stage II papillary thyroid carcinoma** | Cystic variant with squamous metaplasia | **Not part of established PPAP tumor spectrum.** If SBS10a/b signatures or POLE LOH are confirmed, would formally expand the recognized PPAP phenotype |
 
 ### Proliferative and Stromal Findings
@@ -88,7 +88,7 @@ The patient's phenotype spans five distinct categories — neoplastic, prolifera
 | Finding | Details | Significance |
 |---------|---------|-------------|
 | **Stage IV+ deep infiltrating endometriosis** | Trans-diaphragmatic penetration (abdominal → thoracic surface); bilateral ovarian endometriomas (5cm R, 2cm L); uterosacral ligament nodules; retroperitoneal fibrosis with ureteral encasement requiring ureterolysis; ascending colon/bowel adhesions; appendiceal endometriosis (histology-confirmed); posterior cul-de-sac implants | rASRM Stage IV (severe) with extrapelvic extension. Diaphragmatic endometriosis occurs in only ~1.5% of cases; full-thickness trans-diaphragmatic invasion is rarer still |
-| **Diffuse asymmetric adenomyosis** | Endometrial tissue invading the myometrium | Combined with endometriosis, indicates systemic endometrial tissue dysregulation |
+| **Diffuse asymmetric adenomyosis** | Endometrial tissue invading the myometrium; caused severe menorrhagia requiring regular iron infusions and causing syncope; necessitated ovarian-sparing total hysterectomy (~28) | Combined with endometriosis, indicates systemic endometrial tissue dysregulation; severity requiring surgical intervention underscores aggressive endometrial phenotype |
 | **Recurrent SIBO and gastric dysmotility** | Small intestinal bacterial overgrowth; gastric dysmotility requiring medication | May result from bowel adhesions, chronic peritoneal inflammation, and convergence of endometriotic and polyposis GI involvement |
 
 > The endometrium is among the most POLE-vulnerable tissues (endometrial cancer is a major PPAP malignancy; somatic POLE mutations occur in 7–13% of sporadic endometrial cancers). The simultaneous presence of superficial peritoneal lesions, deep infiltrating nodules, and ovarian endometriomas across distant anatomical sites is consistent with oligoclonal dissemination of mutant clones (Anglesio et al., NEJM 2017; Lac et al., 2022). If POLE haploinsufficiency increases the per-division error rate in endometrial stem cells, it would generate more clones with proliferative and invasive advantages — predicting more severe endometriosis in germline POLE carriers. This connection has **never been investigated**. See [`docs/endometriosis_hypothesis/`](docs/endometriosis_hypothesis/) for the full hypothesis document with testable predictions.
@@ -133,7 +133,7 @@ How this patient compares to published PPAP cohort data (Palles et al. 2022, Bel
 | **Inheritance** | Autosomal dominant (heterozygous) | Heterozygous (de novo vs. inherited unknown) | Concordant |
 | **Polyp count** | 10–100 adenomatous polyps (attenuated) | ~15 sessile adenomatous polyps | Concordant |
 | **Polyp distribution** | Colorectal predominant; gastric in POLE carriers | Stomach, cecum, sigmoid colon | Concordant |
-| **GI features** | Chronic gastritis reported in some POLE carriers | Erythematous/edematous/friable rectal mucosa; chronic gastric gastritis; recurrent SIBO | Concordant |
+| **GI features** | Chronic gastritis reported in some POLE carriers | Chronic gastric gastritis; diffuse GI mucosal changes; recurrent SIBO | Concordant |
 | **Cancer types** | Colorectal, endometrial, ovarian, brain (glioma) | Papillary thyroid carcinoma (Stage II) | **Expands spectrum** |
 | **TMB** | Ultra-hypermutated (>100 mut/Mb) with SBS10a/b | TMB >100 mut/Mb (signatures pending) | Concordant |
 | **Extra-GI neoplastic** | Endometrial cancer (most common); occasional brain, ovarian | Thyroid carcinoma (not previously in PPAP spectrum) | **Expands spectrum** |
@@ -561,15 +561,19 @@ POLE-Frameshift/
 ├── docs/
 │   ├── POLE_Comprehensive_Framework.docx # Comprehensive research framework document
 │   ├── POLE_PPAP_Research.pptx   # Research slide deck (12 slides)
-│   ├── clinical_case_summary.md       # Clinical case details and variant summary
+│   ├── clinical_case_summary.md       # Clinical case details, chronological timeline, variant summary
 │   ├── systematic_health_history.md   # Whole-body phenotyping questionnaire (20 systems)
 │   ├── pole_carrier_registry_crossref.md # Cross-reference: PolED, Valle cohort, published carriers
+│   ├── comorbidity_interaction_analysis.md # hEDS/POTS/gastroparesis interaction with POLE pathology
 │   ├── endometriosis_hypothesis/      # POLE-endometriosis hypothesis with testable predictions
 │   │   └── POLE_Endometriosis_Hypothesis.docx
 │   └── AI-Research-Assistance-Framework.md  # AI integration strategy
 ├── analysis/
 │   ├── variant_landscape/             # POLE protein variant lollipop plot (SVG/PNG)
-│   ├── temporal_phenotype/            # Tissue vulnerability & phenotype timeline (SVG/PNG)
+│   ├── temporal_phenotype/            # Tissue vulnerability, phenotype timeline, turnover-vs-age correlation
+│   │   ├── generate_temporal_analysis.py    # Generates 3 figures (bubble, timeline, correlation)
+│   │   ├── temporal_correlation_analysis.ipynb  # Spearman/Pearson/bootstrap statistical analysis
+│   │   └── *.svg, *.png              # Output visualizations
 │   ├── mutational_signatures/         # SigProfiler pipeline specifications
 │   ├── loh_analysis/                  # ASCAT/FACETS LOH analysis framework
 │   ├── duplex_sequencing/             # NanoSeq analysis pipeline specifications
@@ -590,8 +594,14 @@ POLE-Frameshift/
 │   ├── POLE_gnomad_constraints.tsv    # gnomAD pLI, LOEUF, missense Z
 │   ├── POLE_clinvar_variants.tsv      # Curated ClinVar variant classifications
 │   ├── phenotype_hpo.tsv             # HPO phenotype mapping (16 findings)
-│   ├── phenotype_timeline.tsv        # Age-at-onset data for temporal analysis
-│   └── tissue_replication_rates.tsv  # Tissue turnover rates with POLE vulnerability predictions
+│   ├── phenotype_timeline.tsv        # Age-at-onset data with specific ages for temporal analysis
+│   ├── tissue_replication_rates.tsv  # Tissue turnover rates with POLE vulnerability predictions
+│   ├── checksums.sha256             # SHA-256 checksums for data reproducibility
+│   ├── phenopacket/                 # GA4GH Phenopacket v2 (computable phenotype)
+│   │   └── pole_c138del_phenopacket.json
+│   └── clinvar_submission/          # ClinVar submission preparation
+│       ├── README.md                # ACMG evidence, checklist, LOVD3 cross-reference
+│       └── clinvar_submission_template.json  # Submission API v2 template
 ├── references/
 │   └── bibliography.bib               # Complete reference list in BibTeX format
 └── .github/

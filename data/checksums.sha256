@@ -1,0 +1,17 @@
+# SHA-256 checksums for POLE-Frameshift data files
+# Generated: 2026-04-16
+# Verify with: cd data && shasum -a 256 -c checksums.sha256
+#
+# Purpose: Ensures reproducibility by verifying that analysis pipelines
+# run against the exact same input data. Re-generate after any data update.
+
+e51e2307bc552729fd8df3d0c18910bdaf4ac54f826659b839d7acf425d28055  POLE_clinvar_variants.tsv
+b10c5d482b517d140d727197fea89a54d287e8df041fcbf82ee63cc5a7f8ff9f  POLE_coding_sequence.fa
+5593a6934b95ceb3ec7499202a058c10dde6686ca4f14e6fd05430df4154edc8  POLE_domain_boundaries.tsv
+b2e27db7d51ae347ccd8883484bc3aa4243c1718987e92ed39c0eaaea8dca02b  POLE_downstream_methionines.tsv
+c0d08fdba1bea54a7add97b8acd9b5e0c91c6cb7eddfcfb8627c5d8a7992bac0  POLE_gnomad_constraints.tsv
+6358f59bd9d1f2b9f9e9359c22eb605f37a3422a3d97b761005f6940fc4c47e9  clinvar_submission/clinvar_submission_template.json
+9d85b781cf8ddcd6ac7f7c01ed904b3fa0baaef5dcc5794bfd50bf0356f3a2ff  phenopacket/pole_c138del_phenopacket.json
+335c5f6159e91ac9ca96e77cb03bf402a95f07f87d82b49f6925b8311ef958c1  phenotype_hpo.tsv
+2e217297362cfe5a0f76d0444206215d3589844f2965f92a8e643c4db28d3345  phenotype_timeline.tsv
+6666edb039ee733f7bdeded37e36ccfa5b73da883ce8520aa224b3625ca7a009  tissue_replication_rates.tsv

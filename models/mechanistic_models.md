@@ -123,6 +123,48 @@ Model 5 is **excluded** if: POLE has a single predominant coding isoform across 
 
 ---
 
+## Temporal Sequence as Model Discriminator
+
+The resolution of specific ages-at-diagnosis provides a powerful new discriminatory dataset. The chronological order of clinical manifestations can be compared against tissue-specific cell division rates to test Model 4's core prediction: that faster-dividing tissues should cross the proofreading fidelity threshold and present clinically *earlier*.
+
+### Observed Temporal Sequence (Non-Congenital Findings)
+
+| Age | Diagnosis | Tissue Turnover (days) |
+|-----|-----------|----------------------|
+| ~19 | Colonic adenomas (~6 at first colonoscopy) | 3–5 (very rapid) |
+| ~19 | Chronic gastric gastritis | 2–8 (rapid) |
+| ~22 | Endometriosis clinically significant | ~28/monthly (rapid) |
+| ~26 | POTS | N/A (neural) |
+| ~27 | Stage IV endometriosis diagnosed | ~28/monthly (rapid) |
+| ~27 | Benign breast tumor (PASH) | Variable/hormonal (~60) |
+| ~28 | Thyroid carcinoma | ~2,920 (~8 years; slow) |
+| ~28 | Adenomyosis (severe → hysterectomy) | ~28/monthly (rapid) |
+
+### Correlation Analysis
+
+Plotting tissue turnover period (log scale) against age-at-diagnosis reveals a positive correlation: **tissues with faster cell division are diagnosed at younger ages**. The colonic epithelium (3–5 day turnover) produced detectable adenomas by age 19; the thyroid epithelium (~8-year turnover) produced carcinoma by age 28 — a 9-year latency difference that directly tracks the ~730-fold difference in cell division rate.
+
+See `analysis/temporal_phenotype/turnover_vs_age_diagnosis.svg` for the visualization.
+
+### Model-Specific Temporal Predictions
+
+| Model | Temporal Prediction | Consistent with Observed Sequence? |
+|-------|--------------------|------------------------------------|
+| **M1 (LOH)** | No predicted temporal order — LOH is stochastic; any tissue could be affected first | **Partially inconsistent** — would predict random order, not turnover-correlated |
+| **M2 (Reinitiation)** | All tissues affected simultaneously (reinitiation is constitutive); diagnosis order depends on tissue sensitivity and clinical detection | **Partially consistent** — but does not predict turnover-rate correlation |
+| **M3 (Poisoning)** | All tissues affected simultaneously; no turnover prediction | **Inconsistent** — cannot explain turnover-correlated onset |
+| **M4 (Haploinsufficiency)** | Faster-dividing tissues cross the threshold first → diagnosed at younger ages | **Strongly consistent** — observed sequence correlates with turnover rate |
+| **M5 (Isoform)** | Depends on tissue-specific isoform expression, not turnover rate | **Neutral** — would predict expression-correlated, not turnover-correlated |
+
+### Progressive Polyp Accumulation
+
+The pattern of ~6 adenomas at age 19 with continued new polyp formation at every colonoscopic surveillance interval (ages 21, 24, 27, 29, ~31) indicates **ongoing mutagenesis** over >12 years. This progressive accumulation is:
+- **Consistent with M4:** Constitutive haploinsufficiency produces a continuous elevated mutation rate in colonic stem cells, with new adenomas arising at each surveillance interval as additional stem cells accumulate sufficient driver mutations.
+- **Consistent with M2:** If reinitiation produces a constitutive error-prone polymerase, mutation accumulation would also be continuous.
+- **Less consistent with M1 as sole mechanism:** A single LOH event in one colonic stem cell would produce a clonal expansion, not geographically distributed new polyps at each interval. Multiple independent LOH events would be required — possible but requiring extraordinary coincidence.
+
+---
+
 ## Clinical Phenotype as Model Discriminator
 
 The patient's multi-system phenotype provides immediate discriminatory evidence even before experimental results.

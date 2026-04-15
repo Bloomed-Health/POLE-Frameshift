@@ -1,0 +1,76 @@
+{
+  "clinvarSubmission": [
+    {
+      "clinicalSignificance": {
+        "clinicalSignificanceDescription": "Pathogenic",
+        "dateLastEvaluated": "2026-04-15",
+        "comment": "Heterozygous frameshift variant in POLE producing premature termination at residue 54 of 2,286 amino acids. Eliminates all functional domains including exonuclease (268-471) and polymerase (580-1260). Patient presents with ultra-hypermutated tumor phenotype (TMB >100 mut/Mb), progressive adenomatous polyposis (~6 adenomas at age 19, accumulating to ~15+ by age 31), Stage II papillary thyroid carcinoma, Stage IV+ deep infiltrating endometriosis, and congenital duplicated inferior vena cava. 47-gene hereditary cancer panel negative for all other genes — POLE c.138del is the sole identified genetic driver. Novel variant class for PPAP: all previously reported pathogenic variants are exonuclease domain missense mutations. Mechanism under active investigation (five candidate models). ACMG classification: PVS1 + PM2 + PP4 = Pathogenic."
+      },
+      "conditionSet": {
+        "condition": [
+          {
+            "db": "OMIM",
+            "id": "612591",
+            "name": "Colorectal cancer, susceptibility to, 12 (Polymerase proofreading-associated polyposis)"
+          }
+        ]
+      },
+      "localID": "POLE_c138del_001",
+      "localKey": "POLE_c.138del_p.Leu46Phefs*8",
+      "observedIn": [
+        {
+          "affectedStatus": "yes",
+          "alleleOrigin": "germline",
+          "collectionMethod": "clinical testing",
+          "numberOfIndividuals": 1,
+          "observedData": [
+            {
+              "attribute": {
+                "type": "Description",
+                "value": "Female patient with progressive adenomatous polyposis (onset age 19), Stage II papillary thyroid carcinoma (age ~28), ultra-hypermutated tumor (TMB >100 mut/Mb), Stage IV+ deep infiltrating endometriosis with trans-diaphragmatic extension, diffuse adenomyosis requiring ovarian-sparing total hysterectomy, bilateral breast changes with PASH, liver FNH/hemangioma, congenital duplicated inferior vena cava, and ANA 1:160 with AC-21 pattern. Comorbidities: hEDS, POTS, gastroparesis. Negative for FILS syndrome, intellectual disability, and neurodevelopmental conditions."
+              }
+            },
+            {
+              "attribute": {
+                "type": "VariantAlleles",
+                "integerValue": 1
+              }
+            }
+          ]
+        }
+      ],
+      "recordStatus": "novel",
+      "variantSet": {
+        "variant": [
+          {
+            "chromosomeCoordinates": {
+              "assembly": "GRCh38",
+              "chromosome": "12",
+              "referenceAllele": "GC",
+              "alternateAllele": "G",
+              "start": 132681203,
+              "stop": 132681204
+            },
+            "gene": [
+              {
+                "symbol": "POLE",
+                "id": 9177
+              }
+            ],
+            "hgvs": "NM_006231.4:c.138del",
+            "variantType": "Deletion"
+          }
+        ]
+      }
+    }
+  ],
+  "submissionName": "POLE_c138del_PPAP_2026",
+  "assertionCriteria": {
+    "db": "PubMed",
+    "id": "25741868",
+    "citation": "Richards S, et al. Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the ACMG and AMP. Genetics in Medicine. 2015;17(5):405-424."
+  },
+  "_comment_submitter": "IMPORTANT: Replace the organizationID below with your ClinVar submitter organization ID before submission.",
+  "_comment_coordinates": "IMPORTANT: Verify genomic coordinates against GRCh38 reference before submission. The coordinates listed are based on ENST00000320574 / NM_006231.4.",
+  "_comment_lovd3": "This variant has been submitted to LOVD3 (https://databases.lovd.nl/shared/variants/POLE) as of 2026-04-15, pending curation."
+}

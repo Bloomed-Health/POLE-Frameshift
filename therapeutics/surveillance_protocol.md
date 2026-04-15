@@ -10,7 +10,7 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 
 | Modality | Interval | Notes |
 |----------|----------|-------|
-| **Colonoscopy with polypectomy** | Every 1–2 years | Standard PPAP recommendation; chromoendoscopy preferred. Patient has ~15 sessile adenomatous polyps across stomach, cecum, sigmoid |
+| **Colonoscopy with polypectomy** | Every 1–2 years | Standard PPAP recommendation; chromoendoscopy preferred. Progressive polyposis: ~6 adenomas at age 19, accumulating to ~15+ by age 31 (stomach, cecum, sigmoid); new polyps at every surveillance interval (ages 21, 24, 27, 29, ~31) |
 | **Upper endoscopy** | Every 1–2 years | Gastric polyps and chronic gastritis present; duodenal adenoma screening (per POLD1-PPAP expansion, Frontiers in Oncology 2025) |
 | **Capsule endoscopy** | Consider if small bowel symptoms | Small bowel polyp surveillance |
 | **Rectal mucosal monitoring** | At each colonoscopy | Erythematous, edematous, friable mucosa noted — monitor for progression |
@@ -26,10 +26,10 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 
 | Modality | Interval | Notes |
 |----------|----------|-------|
-| **Transvaginal ultrasound** | Every 6–12 months | Endometrial thickness monitoring; patient has severe adenomyosis |
-| **Endometrial biopsy** | Low threshold | PPAP endometrial cancer risk compounded by severe endometriosis/adenomyosis indicating endometrial tissue dysregulation |
-| **Endometriosis monitoring** | Per gynecologic oncology guidance | Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension — the most advanced form |
-| **Thoracic imaging** | If catamenial symptoms | Monitor for diaphragmatic/thoracic endometriosis progression |
+| **Pelvic imaging** | Per gynecologic oncology guidance | Patient has had ovarian-sparing total hysterectomy for severe adenomyosis (menorrhagia requiring iron infusions, syncope). No endometrium remains to monitor. Surveillance focus shifts to retained ovaries and residual endometriosis |
+| **Ovarian surveillance** | Every 6–12 months | Retained ovaries post-hysterectomy; transvaginal or abdominal ultrasound for ovarian changes |
+| **Endometriosis monitoring** | Per gynecologic oncology guidance | Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension — residual disease may persist post-hysterectomy given ovarian preservation |
+| **Thoracic imaging** | If catamenial symptoms | Monitor for diaphragmatic/thoracic endometriosis progression; note ovaries retained so hormonal cycling continues |
 
 ### Breast
 

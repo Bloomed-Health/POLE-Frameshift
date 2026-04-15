@@ -1,15 +1,15 @@
 finding	phenotype_category	age_at_onset	age_at_diagnosis	onset_type	tissue	tissue_turnover_rate	notes
 Duplicated inferior vena cava	Congenital Developmental	0	adult_incidental	Congenital	Vascular endothelium	Slow (~years)	Present from embryonic development; discovered incidentally on imaging
 Joint hypermobility / hEDS features	Comorbidity	childhood	variable	Childhood	Connective tissue	Slow (~months-years)	hEDS typically symptomatic from childhood/adolescence
-Dysmenorrhea / early endometriosis symptoms	Endometrial/Hormonal	adolescence	variable	Adolescent	Endometrium	Rapid (~monthly cycling)	Endometrial stem cells undergo monthly proliferative cycles
-Gastrointestinal polyposis	Neoplastic	unknown	adult	Adult	Colonic epithelium	Very rapid (~3-5 days)	~15 sessile adenomatous polyps; stomach, cecum, sigmoid
-Chronic gastric gastritis	Neoplastic	unknown	adult	Adult	Gastric epithelium	Rapid (~2-8 days)	Erythematous/edematous/friable rectal mucosa
-Stage II papillary thyroid carcinoma	Neoplastic	unknown	adult	Adult	Thyroid epithelium	Slow (~8 years)	Cystic variant with squamous metaplasia; outside PPAP spectrum
-Bilateral breast changes with PASH	Proliferative/Stromal	unknown	adult	Adult	Breast stroma/epithelium	Moderate (~variable)	Left fibroadenomatous change; right PASH, columnar cell change
-Liver FNH and/or hemangioma	Proliferative/Stromal	unknown	adult_incidental	Unknown	Hepatocytes/vascular	Slow (~200-300 days)	Benign vascular proliferative lesion(s)
-Stage IV+ deep infiltrating endometriosis	Endometrial/Hormonal	unknown	adult	Adult	Endometrial/peritoneal	Rapid (~monthly cycling)	Trans-diaphragmatic penetration; bilateral endometriomas; ureteral encasement
-Diffuse adenomyosis	Endometrial/Hormonal	unknown	adult	Adult	Myometrium/endometrium	Rapid (~monthly cycling)	Endometrial tissue invading myometrium
-POTS	Comorbidity	unknown	adult	Adult	Autonomic nervous system	N/A (neural)	Postural orthostatic tachycardia syndrome
+Gastrointestinal polyposis (first adenomas)	Neoplastic	19	19	Adult	Colonic epithelium	Very rapid (~3-5 days)	~6 adenomas at first colonoscopy (age 19); progressive accumulation to ~15+ across colonoscopies at ages 21, 24, 27, 29, ~31
+Dysmenorrhea / early endometriosis symptoms	Endometrial/Hormonal	adolescence	~22	Adolescent	Endometrium	Rapid (~monthly cycling)	Endometrial symptoms since adolescence; became clinically significant ~22
+Chronic gastric gastritis	Neoplastic	unknown	~19	Adult	Gastric epithelium	Rapid (~2-8 days)	Diffuse gastric inflammation; likely identified at early endoscopies
+POTS	Comorbidity	unknown	~26	Adult	Autonomic nervous system	N/A (neural)	Postural orthostatic tachycardia syndrome
+Stage IV+ deep infiltrating endometriosis	Endometrial/Hormonal	~22	~27	Adult	Endometrial/peritoneal	Rapid (~monthly cycling)	Symptomatic since ~22; Stage IV diagnosis at ~27; trans-diaphragmatic penetration; bilateral endometriomas; ureteral encasement
+Diffuse adenomyosis	Endometrial/Hormonal	unknown	~28	Adult	Myometrium/endometrium	Rapid (~monthly cycling)	Endometrial tissue invading myometrium; diagnosed ~28; caused severe menorrhagia requiring regular iron infusions and syncope; necessitated ovarian-sparing total hysterectomy
+Stage II papillary thyroid carcinoma	Neoplastic	unknown	~28	Adult	Thyroid epithelium	Slow (~8 years)	Cystic variant with squamous metaplasia; outside PPAP spectrum; diagnosed ~28
+Bilateral breast changes with PASH	Proliferative/Stromal	unknown	~27	Adult	Breast stroma/epithelium	Moderate (~variable)	Benign breast tumor; left fibroadenomatous change; right PASH, columnar cell change; first diagnosed ~27
+Liver FNH and/or hemangioma	Proliferative/Stromal	unknown	adult_incidental	Unknown	Hepatocytes/vascular	Slow (~200-300 days)	Benign vascular proliferative lesion(s); incidental finding
 Gastroparesis	Comorbidity	unknown	adult	Adult	Gastric smooth muscle/ENS	Slow	Delayed gastric emptying; overlaps with POLE GI findings
 Recurrent SIBO	Endometrial/Hormonal	unknown	adult	Adult	Small intestinal epithelium	Very rapid (~3-5 days)	May result from bowel adhesions and/or dysautonomia
 ANA 1:160 AC-21 pattern	Autoimmune/Immune	unknown	adult	Adult	Immune system	N/A (immune)	Reticular cytoplasmic pattern; associated with anti-mitochondrial antibodies

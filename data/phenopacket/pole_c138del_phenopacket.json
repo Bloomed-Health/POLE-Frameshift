@@ -1,0 +1,392 @@
+{
+  "id": "phenopacket.POLE-c138del-001",
+  "subject": {
+    "id": "POLE-c138del-001",
+    "sex": "FEMALE",
+    "karyotypicSex": "XX"
+  },
+  "phenotypicFeatures": [
+    {
+      "type": {
+        "id": "HP:0005227",
+        "label": "Adenomatous colonic polyposis"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0011462",
+          "label": "Young adult onset"
+        }
+      },
+      "description": "Progressive: ~6 adenomas at age 19, accumulating to ~15+ by age 31; stomach, cecum, sigmoid"
+    },
+    {
+      "type": {
+        "id": "HP:0002895",
+        "label": "Papillary thyroid carcinoma"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0011462",
+          "label": "Young adult onset"
+        }
+      },
+      "description": "Stage II cystic variant with squamous metaplasia; diagnosed at age ~28; outside established PPAP tumor spectrum"
+    },
+    {
+      "type": {
+        "id": "HP:0031093",
+        "label": "Abnormal breast morphology"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0011462",
+          "label": "Young adult onset"
+        }
+      },
+      "description": "Bilateral breast changes with PASH; benign; fibroadenomatous change, dense stromal fibrosis, columnar cell change; first diagnosed at age ~27. No specific HPO term for PASH; closest parent term used."
+    },
+    {
+      "type": {
+        "id": "HP:0031207",
+        "label": "Hepatic hemangioma"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      },
+      "description": "Benign vascular proliferative lesion(s); FNH lacks specific HPO term; incidental finding"
+    },
+    {
+      "type": {
+        "id": "HP:0030127",
+        "label": "Endometriosis"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0011462",
+          "label": "Young adult onset"
+        }
+      },
+      "description": "Stage IV+ deep infiltrating endometriosis; trans-diaphragmatic penetration; bilateral ovarian endometriomas; ureteral encasement; appendiceal involvement; symptomatic since ~22, Stage IV diagnosis at ~27"
+    },
+    {
+      "type": {
+        "id": "HP:0034326",
+        "label": "Adenomyosis"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0011462",
+          "label": "Young adult onset"
+        }
+      },
+      "description": "Diffuse asymmetric adenomyosis; severe menorrhagia requiring regular iron infusions; caused syncope; necessitated ovarian-sparing total hysterectomy; diagnosed at age ~28"
+    },
+    {
+      "type": {
+        "id": "HP:0033163",
+        "label": "Small intestinal bacterial overgrowth"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      },
+      "description": "Recurrent SIBO; may result from bowel adhesions and chronic peritoneal inflammation"
+    },
+    {
+      "type": {
+        "id": "HP:0002579",
+        "label": "Gastrointestinal dysmotility"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      },
+      "description": "Gastric dysmotility requiring medication management"
+    },
+    {
+      "type": {
+        "id": "HP:0025576",
+        "label": "Abnormal inferior vena cava morphology"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003577",
+          "label": "Congenital onset"
+        }
+      },
+      "description": "Duplicated inferior vena cava; no specific HPO term for duplicated IVC; cannot be explained by somatic mechanisms; argues for constitutive POLE haploinsufficiency"
+    },
+    {
+      "type": {
+        "id": "HP:0003493",
+        "label": "Antinuclear antibody positivity"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      },
+      "description": "ANA 1:160 with reticular cytoplasmic AC-21 pattern; associated with anti-mitochondrial antibodies"
+    },
+    {
+      "type": {
+        "id": "HP:0002664",
+        "label": "Neoplasm"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      },
+      "description": "Ultra-hypermutated tumor; TMB >100 mut/Mb; no specific HPO term for tumor mutational burden; broadest applicable parent term used"
+    },
+    {
+      "type": {
+        "id": "HP:0005263",
+        "label": "Gastritis"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      },
+      "description": "Chronic gastric gastritis; diffuse gastric inflammation"
+    },
+    {
+      "type": {
+        "id": "HP:0000138",
+        "label": "Ovarian cyst"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      },
+      "description": "Bilateral ovarian endometriomas; 5cm right, 2cm left; no specific HPO term for endometrioma; ovarian cyst is closest parent"
+    },
+    {
+      "type": {
+        "id": "HP:0005200",
+        "label": "Retroperitoneal fibrosis"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      },
+      "description": "Retroperitoneal fibrosis with ureteral encasement; required ureterolysis"
+    },
+    {
+      "type": {
+        "id": "HP:0001382",
+        "label": "Joint hypermobility"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0011463",
+          "label": "Childhood onset"
+        }
+      },
+      "description": "Hypermobile Ehlers-Danlos Syndrome (hEDS); no specific HPO term for hEDS; HP:0001382 used as closest phenotypic feature"
+    },
+    {
+      "type": {
+        "id": "HP:0012173",
+        "label": "Orthostatic tachycardia"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      },
+      "description": "Postural Orthostatic Tachycardia Syndrome (POTS); diagnosed at age ~26"
+    },
+    {
+      "type": {
+        "id": "HP:0002578",
+        "label": "Gastroparesis"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      },
+      "description": "Delayed gastric emptying; overlaps with POLE GI findings"
+    },
+    {
+      "type": {
+        "id": "HP:0001249",
+        "label": "Intellectual disability"
+      },
+      "excluded": true,
+      "description": "Negative finding; intellectual disability has not been observed"
+    },
+    {
+      "type": {
+        "id": "HP:0012759",
+        "label": "Neurodevelopmental abnormality"
+      },
+      "excluded": true,
+      "description": "Negative finding; no neurodevelopmental conditions observed"
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "interpretation.POLE-c138del-001",
+      "progressStatus": "SOLVED",
+      "diagnosis": {
+        "disease": {
+          "id": "OMIM:612591",
+          "label": "Colorectal cancer, susceptibility to, 12; CCRC12 (Polymerase proofreading-associated polyposis, PPAP)"
+        },
+        "genomicInterpretations": [
+          {
+            "subjectOrBiosampleId": "POLE-c138del-001",
+            "interpretationStatus": "CAUSATIVE",
+            "variantInterpretation": {
+              "acmgPathogenicityClassification": "PATHOGENIC",
+              "therapeuticActionability": "ACTIONABLE",
+              "variationDescriptor": {
+                "id": "var.POLE-c138del",
+                "geneContext": {
+                  "valueId": "HGNC:9177",
+                  "symbol": "POLE"
+                },
+                "expressions": [
+                  {
+                    "syntax": "hgvs.c",
+                    "value": "NM_006231.4:c.138del"
+                  },
+                  {
+                    "syntax": "hgvs.p",
+                    "value": "NP_006222.2:p.Leu46Phefs*8"
+                  },
+                  {
+                    "syntax": "hgvs.g",
+                    "value": "NC_000012.12:g.132681204del"
+                  }
+                ],
+                "vcfRecord": {
+                  "genomeAssembly": "GRCh38",
+                  "chrom": "chr12",
+                  "pos": "132681203",
+                  "ref": "GC",
+                  "alt": "G"
+                },
+                "moleculeContext": "genomic",
+                "allelicState": {
+                  "id": "GENO:0000135",
+                  "label": "heterozygous"
+                },
+                "extensions": [
+                  {
+                    "name": "transcript",
+                    "value": "NM_006231.4 (ENST00000320574)"
+                  },
+                  {
+                    "name": "variant_effect",
+                    "value": "frameshift_variant — premature stop at ~residue 54 of 2,286 amino acids, eliminating 100% of functional domains (exonuclease at 268-471, polymerase at 580-1260)"
+                  },
+                  {
+                    "name": "population_frequency",
+                    "value": "Absent from gnomAD v4 (0/1,614,586 alleles), ClinVar, and all population databases"
+                  },
+                  {
+                    "name": "constraint_metrics",
+                    "value": "gnomAD pLI = 0.98, LOEUF = 0.22 — extreme loss-of-function intolerance"
+                  },
+                  {
+                    "name": "acmg_evidence_codes",
+                    "value": "PVS1 (null variant in gene with established LOF mechanism), PM2 (absent from population databases), PP4 (phenotype highly specific for PPAP)"
+                  },
+                  {
+                    "name": "47_gene_panel_result",
+                    "value": "Negative for APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, and all other genes tested (2022)"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "diseases": [
+    {
+      "term": {
+        "id": "OMIM:612591",
+        "label": "Colorectal cancer, susceptibility to, 12; CCRC12 (Polymerase proofreading-associated polyposis, PPAP)"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0011462",
+          "label": "Young adult onset"
+        }
+      }
+    }
+  ],
+  "metaData": {
+    "created": "2026-04-15T00:00:00Z",
+    "createdBy": "POLE-Frameshift-Research-Framework",
+    "submittedBy": "POLE-Frameshift-Research-Framework",
+    "phenopacketSchemaVersion": "2.0",
+    "resources": [
+      {
+        "id": "hp",
+        "name": "Human Phenotype Ontology",
+        "url": "http://purl.obolibrary.org/obo/hp.owl",
+        "version": "2024-12-12",
+        "namespacePrefix": "HP",
+        "iriPrefix": "http://purl.obolibrary.org/obo/HP_"
+      },
+      {
+        "id": "omim",
+        "name": "Online Mendelian Inheritance in Man",
+        "url": "https://www.omim.org",
+        "version": "2024-11-01",
+        "namespacePrefix": "OMIM",
+        "iriPrefix": "https://www.omim.org/entry/"
+      },
+      {
+        "id": "hgnc",
+        "name": "HUGO Gene Nomenclature Committee",
+        "url": "https://www.genenames.org",
+        "version": "2024-10-01",
+        "namespacePrefix": "HGNC",
+        "iriPrefix": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/"
+      },
+      {
+        "id": "geno",
+        "name": "Genotype Ontology",
+        "url": "http://purl.obolibrary.org/obo/geno.owl",
+        "version": "2023-10-08",
+        "namespacePrefix": "GENO",
+        "iriPrefix": "http://purl.obolibrary.org/obo/GENO_"
+      }
+    ],
+    "externalReferences": [
+      {
+        "id": "PMID:37848928",
+        "description": "Mur et al. (2023) Genome Medicine 15:85 — Gene-specific ACMG/AMP framework for POLE/POLD1 exonuclease domain variants"
+      },
+      {
+        "id": "PMID:34163071",
+        "description": "Robinson et al. (2021) Nature Genetics — NanoSeq demonstrates germline POLE mutations elevate SBS10a/b in normal cells"
+      }
+    ]
+  }
+}

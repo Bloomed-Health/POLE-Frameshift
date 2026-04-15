@@ -9,14 +9,14 @@
 This repository contains the scientific research framework, clinical documentation, and analysis pipeline specifications for investigating **POLE c.138del (p.Leu46Phefs\*8)** — a pathogenic frameshift variant in the *POLE* gene identified in a female patient with:
 
 - **Ultra-hypermutated tumor phenotype** (TMB >100 mutations/Mb)
-- **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage II papillary thyroid carcinoma (outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension and intestinal adhesions, bilateral proliferative breast changes with PASH, liver FNH/hemangioma, and a congenital duplicated inferior vena cava
+- **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage II papillary thyroid carcinoma (outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension and intestinal adhesions, bilateral proliferative breast changes with PASH, liver FNH/hemangioma, congenital duplicated inferior vena cava, and ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies)
 - **Complete absence from gnomAD** and all major population databases (gnomAD pLI = 0.98, LOEUF = 0.22 — extreme loss-of-function intolerance)
 - **Premature protein truncation at ~residue 54** of the 2,286-amino-acid POLE catalytic subunit
 - **Sole identified genetic driver** — a 47-gene hereditary cancer panel (2022) found no pathogenic variants in APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene
 
 This variant presents a **fundamental mechanistic paradox**: it eliminates all functional domains of POLE — including the exonuclease (proofreading) domain (residues ~268–471) and the polymerase domain (residues ~580–1260) — yet produces a clinical phenotype indistinguishable from classical PPAP caused by missense variants within the exonuclease active site.
 
-Critically, the phenotype extends beyond neoplasia into **proliferative/stromal dysregulation** (bilateral PASH, liver FNH), **endometrial tissue dysfunction** (severe endometriosis + adenomyosis), and a **congenital vascular anomaly** (duplicated IVC) — suggesting that POLE haploinsufficiency affects tissue biology at a systemic, developmental level, not just through tumor mutation accumulation.
+Critically, the phenotype extends beyond neoplasia into **proliferative/stromal dysregulation** (bilateral PASH, liver FNH), **endometrial tissue dysfunction** (severe endometriosis + adenomyosis), a **congenital vascular anomaly** (duplicated IVC), and **potential mitochondrial autoimmunity** (ANA AC-21/AMA) — suggesting that POLE haploinsufficiency affects tissue biology at a systemic, developmental level, not just through tumor mutation accumulation.
 
 **Resolving this paradox has implications beyond this single patient.** It could restructure how POLE truncation variants are classified in clinical genetics, expand the population recognized as carrying cancer predisposition alleles, and open novel therapeutic avenues.
 
@@ -47,7 +47,7 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 
 ## Clinical Presentation
 
-The patient's phenotype spans four distinct categories — neoplastic, proliferative/stromal, endometrial/hormonal, and congenital developmental — suggesting POLE dysfunction affects tissue biology at a systemic level, not just through tumor mutation accumulation. For full clinical detail, see [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md).
+The patient's phenotype spans five distinct categories — neoplastic, proliferative/stromal, endometrial/hormonal, congenital developmental, and autoimmune/immune — suggesting POLE dysfunction affects tissue biology at a systemic level, not just through tumor mutation accumulation. For full clinical detail, see [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md).
 
 ### Neoplastic Findings (Classical PPAP Spectrum)
 
@@ -79,9 +79,17 @@ The patient's phenotype spans four distinct categories — neoplastic, prolifera
 |---------|---------|-------------|
 | **Duplicated inferior vena cava** | Congenital vascular anomaly present from embryonic development | **Cannot be explained by somatic mutations or tumor-related processes.** Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during embryogenesis. This suggests POLE haploinsufficiency may have **developmental consequences** — arguing against the pure LOH model (Model 1) as the sole explanation |
 
+### Autoimmune/Immune Findings
+
+| Finding | Details | Significance |
+|---------|---------|-------------|
+| **ANA 1:160, AC-21 pattern** | Reticular cytoplasmic pattern (ICAP AC-21), characteristically associated with anti-mitochondrial antibodies (AMA targeting PDC-E2 on the inner mitochondrial membrane) | May represent immune recognition of mitochondrial antigens exposed through POLE-driven dysfunction of nuclear-encoded mitochondrial proteins. Warrants AMA-specific ELISA confirmation |
+
+> The AC-21 finding provides serological evidence for a mitochondrial stress pathway: POLE haploinsufficiency → elevated mutations in ~1,500 nuclear-encoded mitochondrial genes → impaired mitochondrial protein function → membrane perturbation and antigen exposure → AMA production. This connects to the patient's liver FNH/hemangioma (AMA are the serological hallmark of primary biliary cholangitis) and to the broader pattern of innate immune activation, as mitochondrial DAMPs (mtDNA, cardiolipin, formylated peptides) activate TLR9 and NLRP3 inflammasome pathways. No study has examined AMA rates in POLE/POLD1 carriers — this finding generates the testable prediction that autoantibody profiling should be part of systematic POLE carrier phenotyping. See full clinical detail in [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md).
+
 ### Pattern Across Findings
 
-The phenotype spans **neoplastic** (polyps, thyroid carcinoma), **proliferative/stromal** (breast PASH, liver FNH/hemangioma), **endometrial** (severe endometriosis, adenomyosis), and **congenital developmental** (duplicated IVC) domains. This breadth transforms the case from an interesting mechanistic puzzle into a multi-system phenotype with implications for PPAP spectrum expansion, endometriosis biology, and developmental genetics.
+The phenotype spans **neoplastic** (polyps, thyroid carcinoma), **proliferative/stromal** (breast PASH, liver FNH/hemangioma), **endometrial** (severe endometriosis, adenomyosis), **congenital developmental** (duplicated IVC), and **autoimmune/immune** (ANA AC-21, potential anti-mitochondrial antibodies) domains. This breadth transforms the case from an interesting mechanistic puzzle into a multi-system phenotype with implications for PPAP spectrum expansion, endometriosis biology, mitochondrial immunology, and developmental genetics.
 
 ---
 
@@ -174,8 +182,9 @@ The patient's multi-system phenotype provides immediate discriminatory evidence 
 | **Bilateral PASH + liver FNH** | Unlikely (multi-organ, non-neoplastic) | Neutral | Neutral | Supports (systemic stromal/vascular proliferation) | Neutral |
 | **Thyroid carcinoma** | Possible (organ-specific LOH) | Possible | Neutral | Supports (high mitotic rate gland) | Possible |
 | **GI polyposis** | Possible | Possible | Possible | Supports (high-turnover epithelium) | Possible |
+| **ANA AC-21 (AMA)** | Neutral | Neutral | Neutral | Supports (mitochondrial stress from systemic mutagenesis) | Neutral |
 
-The **congenital duplicated IVC** is the single most important clinical discriminator — it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis) collectively argue against Model 1 operating alone, as independent LOH in each organ would be an extraordinary coincidence.
+The **congenital duplicated IVC** is the single most important clinical discriminator — it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). The **ANA AC-21 pattern** (anti-mitochondrial antibodies) adds a new dimension: if POLE haploinsufficiency elevates mutation rates in nuclear-encoded mitochondrial genes (~1,500 genes), the resulting mitochondrial dysfunction could expose inner membrane antigens to immune surveillance, producing AMA. The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis, potential AMA) collectively argue against Model 1 operating alone, as independent LOH in each organ would be an extraordinary coincidence.
 
 **Most likely scenario:** Multiple mechanisms operate simultaneously — Model 1 (LOH) may drive tumor-specific ultra-hypermutation, while Model 4 (haploinsufficiency) explains the constitutive multi-system phenotype including the congenital anomaly, endometriosis, and stromal/vascular proliferative changes.
 
@@ -189,6 +198,7 @@ The clinical phenotype generates questions beyond the five mechanistic models:
 2. **Should thyroid cancer be added to the PPAP tumor spectrum?** Thyroid cancer has not been systematically reported in PPAP carriers. Confirming POLE signatures (SBS10a/b) or LOH at the POLE locus in the thyroid tumor would formally expand the recognized phenotype.
 3. **Do POLE truncation variant carriers have an elevated rate of congenital anomalies?** The duplicated IVC suggests possible developmental effects of germline POLE haploinsufficiency — testable through retrospective phenotyping of POLE carrier cohorts.
 4. **Are bilateral stromal proliferative changes (PASH, FNH) a feature of systemic POLE dysfunction?** The pattern of vascular/stromal proliferation across breast and liver suggests a field effect that has not been described in PPAP.
+5. **Do POLE carriers have elevated rates of anti-mitochondrial antibodies or other organelle-targeting autoantibodies?** The ANA AC-21 finding suggests POLE-driven mutagenesis of nuclear-encoded mitochondrial genes may impair mitochondrial integrity, exposing inner membrane antigens (PDC-E2) to immune surveillance. If confirmed, autoantibody profiling should become part of systematic POLE carrier phenotyping.
 
 ---
 
@@ -261,6 +271,15 @@ Blood tests represent the most accessible experimental approach, spanning genomi
 | **Neoantigen-reactive T cell detection** | Peptide-MHC multimer quantification | Gold standard for immunogenicity confirmation |
 | **Cytokine profiling** (Olink/Luminex) | IFN-γ, TNF-α, CXCL9, CXCL10 | Elevated CXCL9/10 predicts ICI efficacy |
 
+### Autoantibody & Mitochondrial
+
+| Assay | Purpose | Clinical Relevance |
+|-------|---------|-------------------|
+| **AMA-specific ELISA** (anti-PDC-E2, anti-BCOADC-E2, anti-OGDC-E2) | Confirm whether AC-21 pattern reflects true AMA; identify target antigen | Diagnostic for subclinical PBC; connects POLE mutagenesis to mitochondrial immune targeting |
+| **Liver function panel** (GGT, alkaline phosphatase) | Assess biliary function given hepatic vascular lesions + potential AMA | PBC screening in context of liver FNH/hemangioma |
+| **Extended autoimmune panel** (anti-dsDNA, ENA, complement C3/C4, anti-smooth muscle) | Determine whether ANA positivity is isolated to AC-21 or indicates broader immune dysregulation | Comprehensive autoimmune profiling |
+| **Mitochondrial function** (Seahorse XF, MitoSOX ROS) | Measure OCR, ECAR, and mitochondrial ROS in patient-derived cells | Direct evidence of mitochondrial dysfunction from nuclear-encoded gene mutagenesis |
+
 ### Protein & Metabolic
 
 | Assay | Purpose | Method |
@@ -327,6 +346,7 @@ Achievable with existing banked tissue and standard pipelines. Directly informs 
 4. CHIP profiling and duplex sequencing (NanoSeq) of normal blood cells
 5. Comprehensive immunophenotyping and TCR repertoire sequencing
 6. IHC for MMR proteins, MSI testing, MLH1 methylation analysis
+7. AMA-specific ELISA (anti-PDC-E2), liver function panel (GGT, ALP), extended autoimmune panel
 
 ### Medium-Term (3–12 months)
 

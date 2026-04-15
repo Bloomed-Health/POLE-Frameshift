@@ -14,12 +14,13 @@ The central research question is a **mechanistic paradox**: this variant truncat
 - **Classification:** Pathogenic (PVS1, PM2, PP4); not yet in ClinVar
 - **47-gene panel (2022):** Negative for APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, and all other genes tested — POLE c.138del is the sole identified genetic driver
 
-## Patient Phenotype (Four Categories)
+## Patient Phenotype (Five Categories)
 
 1. **Neoplastic:** ~15 sessile adenomatous polyps (stomach, cecum, sigmoid), Stage II papillary thyroid carcinoma (outside established PPAP spectrum)
 2. **Proliferative/stromal:** Bilateral breast changes with PASH, liver FNH/hemangioma
 3. **Endometrial:** Stage IV+ deep infiltrating endometriosis (thoracic diaphragm, intestinal adhesions), diffuse adenomyosis
 4. **Congenital developmental:** Duplicated inferior vena cava — cannot be explained by somatic LOH, argues for constitutive POLE haploinsufficiency
+5. **Autoimmune/immune:** ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies) — may reflect immune recognition of mitochondrial antigens exposed through POLE-driven dysfunction of nuclear-encoded mitochondrial proteins
 
 ## Five Candidate Mechanistic Models
 

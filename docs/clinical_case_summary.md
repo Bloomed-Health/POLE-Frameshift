@@ -74,6 +74,46 @@ The presentation spans five distinct categories — neoplastic, proliferative/st
 >
 > **Research significance:** No study has examined whether POLE/POLD1 variant carriers have elevated rates of anti-mitochondrial antibodies or other autoantibodies indicating organelle-level immune targeting. This finding generates the testable prediction that POLE carriers may show elevated AMA rates if nuclear-encoded mitochondrial gene mutations impair mitochondrial integrity, and that autoantibody profiling should be part of systematic POLE carrier phenotyping.
 
+### Food-Specific IgG Reactivity Profile
+
+Food-specific IgG antibody testing (ELISA, optical density units) reveals a broad pattern of elevated reactivity:
+
+| Antigen | OD Units | Reactivity Level |
+|---------|----------|-----------------|
+| Egg white | 113 | Markedly elevated |
+| Cow's milk | 109 | Markedly elevated |
+| Casein | 47 | Elevated |
+| Yogurt | 47 | Elevated |
+| Butter | 39 | Moderately elevated |
+| Goat's milk | 39 | Moderately elevated |
+| Wheat | 38 | Moderately elevated |
+| Gluten | 27 | Moderately elevated |
+| Rye | 27 | Moderately elevated |
+| Spelt | 28 | Moderately elevated |
+| Emmental cheese | 29 | Moderately elevated |
+| Mozzarella cheese | 27 | Moderately elevated |
+| Brazil nut | 26 | Moderately elevated |
+| Hops | 26 | Moderately elevated |
+| Macadamia | 25 | Moderately elevated |
+| Pine nut | 23 | Low/moderate |
+| Cloves | 22 | Low/moderate |
+
+> **Pattern interpretation:** The breadth of reactivity — spanning dairy proteins (cow's milk, casein, goat's milk, multiple cheeses), gluten-containing grains (wheat, rye, spelt, gluten), tree nuts (brazil nut, macadamia, pine nut), egg albumin, and spices — is more consistent with **increased intestinal permeability** (gut barrier dysfunction) than multiple independent food allergies. When the intestinal epithelial barrier is compromised, larger dietary protein fragments cross into the lamina propria and trigger IgG responses to a broad range of food antigens.
+>
+> **Connections to the POLE c.138del phenotype:**
+>
+> 1. **POLE → gut barrier integrity hypothesis.** The intestinal epithelium has the fastest cell turnover rate in the body (3–5 days). If POLE haploinsufficiency increases the mutation rate in intestinal stem cells (Model 4), this could compromise tight junction protein expression or epithelial cell function, leading to increased paracellular permeability. The broad IgG food reactivity pattern would then be a *downstream biomarker* of POLE-driven intestinal epithelial dysfunction. This generates the testable prediction that other POLE carriers should show elevated food-specific IgG breadth compared to age-matched controls.
+>
+> 2. **MCAS support.** Broad food-specific IgG elevation is commonly observed in MCAS patients, where mast cell-mediated histamine release increases vascular permeability and disrupts epithelial tight junctions. This finding strengthens the case for completing the MCAS workup (serum tryptase, urinary PGD2 metabolites, urinary N-methylhistamine). The hEDS/POTS/gastroparesis triad has 30–65% MCAS co-occurrence.
+>
+> 3. **Chronic inflammatory burden.** Ongoing immune activation against dietary antigens contributes systemic inflammatory load. In a patient with POLE-driven cancer predisposition, chronic inflammation from dietary antigen exposure compounds the pro-tumorigenic microenvironment — particularly in the GI tract where polyposis is already present.
+>
+> 4. **GI comorbidity compounding.** The patient already has gastroparesis, SIBO, and chronic gastritis. Immune-mediated inflammation from dairy/gluten reactivity further compromises GI function, potentially worsening SIBO (via mucosal inflammation → dysmotility feedback loop) and complicating oral drug absorption.
+>
+> 5. **Autoimmune axis convergence.** Broad food-specific IgG alongside ANA 1:160 AC-21 (anti-mitochondrial pattern) indicates systemic immune dysregulation operating at multiple levels — organelle-level (mitochondrial antigens), dietary antigen-level (food proteins), and nuclear-level (ANA). This pattern is consistent with a generalized breakdown of immune tolerance, potentially driven by POLE haploinsufficiency increasing neoantigen generation across rapidly dividing tissues.
+>
+> **Note:** Food-specific IgG testing has limited clinical validation in mainstream allergy/immunology practice. IgG to food antigens can reflect exposure rather than pathology. However, the *breadth* of the reactivity pattern (19+ antigens across multiple food groups) is atypical and, in the context of this patient's established GI pathology and immune findings, warrants interpretation as a potential marker of barrier dysfunction rather than dismissal.
+
 ### Key Negative Findings
 
 | Finding | Status | Significance |

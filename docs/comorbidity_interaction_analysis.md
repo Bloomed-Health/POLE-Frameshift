@@ -106,7 +106,34 @@ The patient carries POLE c.138del AND has the recognized clinical triad of hyper
 - Pharmacokinetic monitoring (drug levels) recommended for any oral agent
 - Extended-release formulations may be unreliable
 
-### Hypothesis 5: Connective Tissue Modification of Endometriosis Severity
+### Hypothesis 5: Intestinal Permeability and Broad Food-Specific IgG Reactivity
+
+**Claim:** The patient's broad food-specific IgG reactivity profile (19+ elevated antigens: dairy, gluten-containing grains, tree nuts, egg, spices) reflects increased intestinal permeability resulting from the convergence of POLE haploinsufficiency in intestinal epithelium, MCAS-driven mucosal inflammation, and hEDS-related connective tissue dysfunction.
+
+**Evidence (patient data):** Food-specific IgG ELISA shows markedly elevated reactivity to egg white (113 OD), cow's milk (109 OD), casein (47), yogurt (47), plus moderately elevated reactivity to butter, goat's milk, wheat, gluten, rye, spelt, multiple cheeses, brazil nut, hops, macadamia, pine nut, and cloves.
+
+**Mechanism:**
+
+- Intestinal epithelium has the fastest cell turnover (3–5 days) — precisely where POLE haploinsufficiency is most consequential
+- If POLE dosage insufficiency increases the mutation rate in intestinal stem cells, tight junction protein expression and epithelial barrier function may be compromised
+- Compounded by: MCAS-driven histamine release (increases paracellular permeability), hEDS-related basement membrane/ECM abnormalities, gastroparesis-associated bacterial overgrowth (SIBO damages mucosal barrier)
+- Compromised barrier → dietary protein fragments cross into lamina propria → broad IgG response
+- The breadth of reactivity (19+ antigens across unrelated food groups) is characteristic of barrier dysfunction, not multiple independent food allergies
+
+**Testable predictions:**
+
+1. Lactulose/mannitol intestinal permeability assay shows elevated lactulose:mannitol ratio (increased paracellular permeability)
+2. Tight junction protein expression (claudin-1, occludin, ZO-1) is reduced in colonic biopsy specimens
+3. Other POLE carriers show broader food-specific IgG reactivity than age-matched controls (population-level test of POLE → gut barrier hypothesis)
+4. Fecal zonulin levels are elevated (serum zonulin is less reliable)
+
+**Clinical relevance:**
+
+- Dietary modification (elimination of highest-reactivity antigens: egg, dairy) may reduce chronic GI inflammatory burden
+- If barrier dysfunction confirmed, it compounds pharmacokinetic challenges for oral therapeutics (inflammation-altered absorption kinetics)
+- Connects POLE haploinsufficiency → intestinal epithelial dysfunction → immune dysregulation → chronic inflammation → pro-tumorigenic microenvironment (a complete mechanistic chain from genotype to tumor-promoting environment)
+
+### Hypothesis 6: Connective Tissue Modification of Endometriosis Severity
 
 **Claim:** hEDS-related ECM abnormalities create tissue planes that facilitate endometrial tissue implantation and invasion, amplifying the POLE-driven endometrial phenotype.
 
@@ -136,6 +163,7 @@ The patient carries POLE c.138del AND has the recognized clinical triad of hyper
 | MCAS → tumor microenvironment | Pro-tumorigenic inflammation | Amplifying | Moderate | High (if MCAS confirmed) |
 | Gastroparesis → therapeutics | Pharmacokinetic constraint | Limiting (oral agents only) | Strong | Immediate |
 | hEDS/POTS → ICI tolerability | Autonomic side effects, infusion reactions | Complicating | Moderate | Immediate |
+| POLE + MCAS + hEDS → gut barrier | Intestinal permeability / food IgG reactivity | Amplifying (chronic inflammation) | Moderate (IgG data available) | High |
 
 ## Recommended Evaluations
 
@@ -147,6 +175,8 @@ The patient carries POLE c.138del AND has the recognized clinical triad of hyper
 | Connective tissue in polyp biopsies | Assess whether ECM is altered in polyposis tissue | Collagen staining (Masson's trichrome) on existing pathology specimens | High |
 | Autonomic function testing | Stratify POTS severity for ICI risk planning | Tilt table test, sudomotor function | Medium |
 | Colonic crypt morphometry | Compare crypt architecture to non-hEDS controls | Quantitative histopathology on existing biopsy specimens | Medium |
+| Intestinal permeability assay | Confirm gut barrier dysfunction suggested by broad food IgG reactivity | Lactulose/mannitol ratio test; fecal zonulin | High |
+| Tight junction protein staining | Assess epithelial barrier integrity in existing colonic biopsies | Claudin-1, occludin, ZO-1 IHC on pathology specimens | Medium |
 
 ## Computational Modeling Implications
 

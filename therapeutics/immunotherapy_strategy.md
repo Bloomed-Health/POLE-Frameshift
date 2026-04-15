@@ -64,6 +64,34 @@ The patient has **ANA 1:160 with reticular cytoplasmic AC-21 pattern**, characte
 - **Hepatology consultation** if any Grade ≥1 hepatic irAE given potential overlap with subclinical PBC
 - **Hold ICI and escalate** if ALP rises >2x ULN with GGT elevation — biliary pattern concerning for cholangitis irAE vs. PBC exacerbation
 
+## Dysautonomia and Comorbidity Considerations
+
+The patient's hEDS/POTS/gastroparesis triad creates specific constraints and risks for immunotherapy that are not captured in standard ICI response prediction frameworks.
+
+### Drug Delivery Challenges
+
+| Challenge | Impact | Mitigation |
+|-----------|--------|------------|
+| **Gastroparesis** | Delayed and erratic gastric emptying → unreliable oral drug absorption | Prefer IV formulations; if oral agents required, consider liquid/sublingual forms; monitor drug levels |
+| **POTS** | Orthostatic intolerance during infusions; autonomic instability | Extended infusion protocols; IV hydration pre/post; supine or reclined infusion positioning |
+| **GI dysmotility** | Baseline nausea, bloating, SIBO overlap complicates irAE detection | Establish detailed GI symptom baseline before ICI initiation; use validated PRO instruments |
+
+### ICI-Specific Risks in Dysautonomia
+
+- **Autoimmune colitis (irAE):** Especially difficult to detect against the backdrop of pre-existing GI dysmotility, gastroparesis, recurrent SIBO, and endometriosis-related bowel adhesions. Low threshold for endoscopic evaluation of new GI symptoms.
+- **Autonomic neuropathy (irAE):** ICI agents can cause immune-mediated autonomic neuropathy — potentially catastrophic in a patient with pre-existing POTS. Baseline autonomic function testing required; monitor for POTS exacerbation during treatment.
+- **Hepatic irAE overlap:** Pre-existing ANA AC-21/AMA + liver FNH/hemangioma + potential subclinical PBC requires careful hepatic monitoring (see Pre-Treatment Autoimmune Considerations above).
+
+### Impact on Response Prediction
+
+The ICI response prediction framework (POLE signature ≥78.5% predicting response; Pietrantonio et al., 2024) was established in patients without this comorbidity burden. There is genuine uncertainty about whether published response rates translate directly to this patient, because:
+
+1. **Dysautonomia modulates immune function** — the vagus nerve is a major neuroimmune regulatory pathway; POTS patients may have altered baseline immune profiles
+2. **MCAS (if present)** may suppress local immune surveillance, potentially counteracting neoantigen-driven T cell responses
+3. **Chronic inflammation** from mast cell activation or connective tissue dysfunction may create an immunosuppressive microenvironment
+
+These factors do not contraindicate ICI — the TMB >100 mut/Mb remains a strong predictor — but they argue for enhanced monitoring, immune profiling before and during treatment, and realistic expectations about whether published response data fully apply.
+
 ## Resistance Monitoring
 
 - **Primary resistance markers:** B2M loss, JAK1/JAK2 mutations, HLA loss

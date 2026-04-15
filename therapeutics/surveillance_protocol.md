@@ -62,6 +62,25 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 
 > **Context:** ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies). Pre-existing autoimmune markers require modified ICI monitoring protocols — see [`immunotherapy_strategy.md`](immunotherapy_strategy.md) for irAE risk assessment and pre-ICI workup.
 
+### Dysautonomia and MCAS Monitoring
+
+| Modality | Interval | Notes |
+|----------|----------|-------|
+| **Autonomic function testing** (tilt table, HRV) | Baseline; repeat if symptoms change | Establishes POTS severity; critical for therapeutic risk stratification (ATR inhibitors, ICI infusions) |
+| **MCAS workup** (tryptase, urinary PGD2 metabolites, N-methylhistamine) | Baseline; repeat during flares | If MCAS confirmed, chronic inflammatory milieu may modify POLE-driven tumorigenesis and immune surveillance |
+| **Small fiber neuropathy testing** (skin biopsy, IENFD) | Baseline | Common in hEDS/POTS; quantifies enteric neuropathy contribution to GI dysmotility vs. endometriosis-related adhesions |
+| **Gastric emptying study** | Baseline; as clinically indicated | Quantify gastroparesis severity; directly impacts oral drug bioavailability planning |
+
+> **Integration note:** GI symptoms in this patient have three potential sources: (1) POLE-driven polyposis and gastritis, (2) endometriosis-related bowel adhesions, and (3) dysautonomia/gastroparesis. Distinguishing these etiologies is essential for treatment planning and irAE detection during immunotherapy.
+
+### Modifier Assessment
+
+| Assessment | Purpose | Method |
+|------------|---------|--------|
+| **Connective tissue phenotype in biopsies** | Document collagen/ECM architecture in polyp tissue | Review existing pathology: colonic crypt architecture, lamina propria collagen structure |
+| **Beighton score / hEDS criteria** | Formal documentation | Clinical assessment per 2017 International hEDS Criteria |
+| **Medication absorption assessment** | Predict oral drug reliability | Pharmacokinetic monitoring for any oral therapeutic agents |
+
 ### Additional Screening
 
 | Modality | Interval | Notes |

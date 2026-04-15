@@ -34,6 +34,7 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 | **gnomAD constraint:** pLI = 0.98, LOEUF = 0.22 — extreme LoF intolerance | **Thyroid POLE signatures:** Does the papillary thyroid carcinoma carry SBS10a/b, formally expanding the PPAP tumor spectrum? |
 | **ANA AC-21 pattern:** Reticular cytoplasmic staining at 1:160, associated with anti-mitochondrial antibodies | **Normal tissue mutation rate:** Is the somatic mutation rate elevated in non-tumor cells? (Duplex sequencing / NanoSeq on PBMCs) |
 | **Congenital anomaly:** Duplicated IVC — cannot be explained by somatic mechanisms, argues for germline-level effect | **Reinitiation products:** Does translational reinitiation at downstream AUGs (e.g., M497, M530) produce truncated POLE protein? (Ribo-seq, proteomics) |
+| **Comorbidity triad:** hEDS/POTS/gastroparesis — creates therapeutic constraints and potential phenotype modifiers | **MCAS status:** Does the patient have mast cell activation syndrome? (Tryptase, urinary PGD2 metabolites) — if present, chronic inflammation may amplify POLE-driven tumorigenesis |
 
 ---
 
@@ -42,6 +43,7 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 - [What We Know vs. What We Don't Know](#what-we-know-vs-what-we-dont-know)
 - [Clinical Presentation](#clinical-presentation)
   - [Comparison with Classical PPAP Cohort](#comparison-with-classical-ppap-cohort)
+  - [Comorbidity Context: hEDS/POTS/Gastroparesis Triad](#comorbidity-context-hedspotsgastroparesis-triad)
 - [The Mechanistic Paradox](#the-mechanistic-paradox)
 - [POLE Domain Architecture](#pole-domain-architecture)
 - [Candidate Mechanistic Models](#candidate-mechanistic-models)
@@ -58,7 +60,7 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 - [Contributing](#contributing)
 - [License](#license)
 
-**Additional resources:** [Clinical Case Summary](docs/clinical_case_summary.md) | [POLE-Endometriosis Hypothesis](docs/endometriosis_hypothesis/) | [Formal Hypotheses & Falsification Criteria](models/mechanistic_models.md) | [AI Research Assistance Framework](docs/AI-Research-Assistance-Framework.md) | [FAQ](FAQ.md) | [Changelog](CHANGELOG.md) | [Cite This Repository](CITATION.cff)
+**Additional resources:** [Clinical Case Summary](docs/clinical_case_summary.md) | [Systematic Health History](docs/systematic_health_history.md) | [POLE-Endometriosis Hypothesis](docs/endometriosis_hypothesis/) | [Formal Hypotheses & Falsification Criteria](models/mechanistic_models.md) | [AI Research Assistance Framework](docs/AI-Research-Assistance-Framework.md) | [FAQ](FAQ.md) | [Changelog](CHANGELOG.md) | [Cite This Repository](CITATION.cff)
 
 ---
 
@@ -104,9 +106,20 @@ The patient's phenotype spans five distinct categories — neoplastic, prolifera
 
 > The AC-21 finding provides serological evidence for a mitochondrial stress pathway: POLE haploinsufficiency → elevated mutations in ~1,500 nuclear-encoded mitochondrial genes → impaired mitochondrial protein function → membrane perturbation and antigen exposure → AMA production. This connects to the patient's liver FNH/hemangioma (AMA are the serological hallmark of primary biliary cholangitis) and to the broader pattern of innate immune activation, as mitochondrial DAMPs (mtDNA, cardiolipin, formylated peptides) activate TLR9 and NLRP3 inflammasome pathways. No study has examined AMA rates in POLE/POLD1 carriers — this finding generates the testable prediction that autoantibody profiling should be part of systematic POLE carrier phenotyping. See full clinical detail in [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md).
 
+### Comorbidity Context: hEDS/POTS/Gastroparesis Triad
+
+The patient's phenotype must be interpreted in the context of co-occurring **hypermobile Ehlers-Danlos syndrome (hEDS)**, **postural orthostatic tachycardia syndrome (POTS)**, and **gastroparesis** — a recognized clinical triad that interacts with POLE-driven pathology at multiple levels:
+
+- **MCAS as potential modifier:** The hEDS/POTS/gastroparesis triad frequently co-occurs with mast cell activation syndrome (MCAS). If present, chronic mast cell-derived mediators (histamine, cytokines, tissue edema) could create a **pro-tumorigenic microenvironment** that amplifies POLE-driven cancer predisposition through angiogenesis promotion, local immune suppression, and altered epithelial turnover rates.
+- **Immune profiling implications:** Autonomic dysfunction directly modulates immune function via the vagus nerve (a major neuroimmune regulatory pathway). POTS-related immune baseline alterations create genuine uncertainty about whether published ICI response rates (POLE signature ≥78.5% predicting response) translate directly to this patient.
+- **Therapeutic constraints:** ATR/CHK1 inhibitors cause autonomic side effects and nausea — potentially catastrophic with pre-existing POTS and gastroparesis. Oral drug bioavailability is inherently unreliable with gastroparesis. ICI agents can cause autoimmune colitis and autonomic neuropathy as irAEs, both difficult to detect against pre-existing dysautonomia and GI dysmotility. See [`therapeutics/`](therapeutics/) for detailed risk assessment.
+- **Computational modeling:** The proposed digital twin model should incorporate parameters for altered crypt geometry and replicative stress from connective tissue abnormality (hEDS-related ECM changes), not just POLE dosage alone.
+
+See [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md) for full comorbidity context, modifier assessment framework, and MCAS evaluation protocol.
+
 ### Pattern Across Findings
 
-The phenotype spans **neoplastic** (polyps, thyroid carcinoma), **proliferative/stromal** (breast PASH, liver FNH/hemangioma), **endometrial** (severe endometriosis, adenomyosis), **congenital developmental** (duplicated IVC), and **autoimmune/immune** (ANA AC-21, potential anti-mitochondrial antibodies) domains. This breadth transforms the case from an interesting mechanistic puzzle into a multi-system phenotype with implications for PPAP spectrum expansion, endometriosis biology, mitochondrial immunology, and developmental genetics.
+The phenotype spans **neoplastic** (polyps, thyroid carcinoma), **proliferative/stromal** (breast PASH, liver FNH/hemangioma), **endometrial** (severe endometriosis, adenomyosis), **congenital developmental** (duplicated IVC), and **autoimmune/immune** (ANA AC-21, potential anti-mitochondrial antibodies) domains, with additional comorbidity context from the hEDS/POTS/gastroparesis/potential MCAS triad. This breadth transforms the case from an interesting mechanistic puzzle into a multi-system phenotype with implications for PPAP spectrum expansion, endometriosis biology, mitochondrial immunology, developmental genetics, and neuroimmune interactions.
 
 ### Comparison with Classical PPAP Cohort
 
@@ -127,6 +140,7 @@ How this patient compares to published PPAP cohort data (Palles et al. 2022, Bel
 | **Congenital anomalies** | Not reported in any PPAP cohort | Duplicated inferior vena cava | **Novel** |
 | **Endometriosis** | Not reported in any PPAP cohort | Stage IV+ deep infiltrating endometriosis with thoracic extension | **Novel** |
 | **Autoimmune features** | Not reported in any PPAP cohort | ANA 1:160 with AC-21 pattern (anti-mitochondrial antibodies) | **Novel** |
+| **Connective tissue/dysautonomia** | Not reported in any PPAP cohort | hEDS, POTS, gastroparesis — potential MCAS | **Novel** |
 | **Mechanism** | Dominant-negative gain of function (error-blind polymerase) | Unknown — 5 candidate models under investigation | **Novel** |
 
 > **Key insight:** This patient is fully concordant with classical PPAP for neoplastic features (polyp count, distribution, TMB) while simultaneously presenting five categories of findings never reported in any PPAP cohort. This suggests that current PPAP phenotyping may be systematically underascertaining non-neoplastic manifestations, or that the truncating variant mechanism produces a broader phenotype than exonuclease-domain missense variants.
@@ -528,6 +542,7 @@ POLE-Frameshift/
 │   ├── POLE_Comprehensive_Framework.docx # Comprehensive research framework document
 │   ├── POLE_PPAP_Research.pptx   # Research slide deck (12 slides)
 │   ├── clinical_case_summary.md       # Clinical case details and variant summary
+│   ├── systematic_health_history.md   # Whole-body phenotyping questionnaire (20 systems)
 │   ├── endometriosis_hypothesis/      # POLE-endometriosis hypothesis with testable predictions
 │   │   └── POLE_Endometriosis_Hypothesis.docx
 │   └── AI-Research-Assistance-Framework.md  # AI integration strategy

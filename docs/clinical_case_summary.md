@@ -74,6 +74,41 @@ The presentation spans five distinct categories — neoplastic, proliferative/st
 >
 > **Research significance:** No study has examined whether POLE/POLD1 variant carriers have elevated rates of anti-mitochondrial antibodies or other autoantibodies indicating organelle-level immune targeting. This finding generates the testable prediction that POLE carriers may show elevated AMA rates if nuclear-encoded mitochondrial gene mutations impair mitochondrial integrity, and that autoantibody profiling should be part of systematic POLE carrier phenotyping.
 
+### Comorbidity Context: hEDS/POTS/Gastroparesis Triad
+
+The patient's clinical picture must be interpreted in the context of comorbidities that may modify both phenotype expression and therapeutic response:
+
+| Comorbidity | Details | POLE Interaction |
+|-------------|---------|-----------------|
+| **Hypermobile Ehlers-Danlos syndrome (hEDS)** | Connective tissue disorder affecting collagen and extracellular matrix | Altered connective tissue may modify crypt geometry, stromal architecture, and tissue-level replication dynamics — potentially amplifying haploinsufficiency effects in tissues dependent on ECM integrity |
+| **Postural orthostatic tachycardia syndrome (POTS)** | Autonomic dysregulation with orthostatic intolerance | Vagal nerve dysfunction directly modulates immune function (neuroimmune axis); may alter baseline immune profiles relevant to both POLE-driven tumorigenesis natural history and ICI response prediction |
+| **Gastroparesis** | Delayed gastric emptying and GI dysmotility | Complicates oral drug bioavailability; overlaps with POLE-associated GI findings (SIBO, gastric dysmotility); requires IV route consideration for therapeutics |
+
+> **The hEDS/POTS/gastroparesis triad** is a recognized clinical association. Its co-occurrence with the POLE c.138del phenotype raises important questions about whether connective tissue integrity modifies POLE-driven tissue biology, and creates specific therapeutic constraints that must be integrated into treatment planning.
+
+#### Mast Cell Activation Syndrome (MCAS) — Potential Modifier
+
+The hEDS/POTS/gastroparesis triad very frequently co-occurs with mast cell activation syndrome (MCAS). In familial mast cell activation disease, the inherited genetic background may involve genes related to DNA synthesis, control, and repair. If this patient has (or develops) MCAS, the chronic inflammatory milieu — tonic histamine release, pro-inflammatory cytokines, and local tissue edema — could create a **pro-tumorigenic microenvironment** that amplifies the cancer predisposition from the POLE variant:
+
+- Mast cell-derived mediators promote **angiogenesis** (relevant to FNH, hemangioma, duplicated IVC pattern)
+- Chronic mast cell activation can **suppress local immune surveillance** (potentially counteracting the immune advantages of high TMB)
+- Altered epithelial turnover rates from mast cell inflammation may **compound replication stress** in POLE haploinsufficient tissues
+
+**Required evaluation:** Serum tryptase (baseline and during symptomatic flares), urinary prostaglandin D2 metabolites (11β-PGF2α), urinary N-methylhistamine — standard MCAS diagnostic workup.
+
+#### Modifier Assessment Framework
+
+To fully characterize how comorbidities interact with POLE-driven pathology, the following assessments are recommended:
+
+| Assessment | Purpose | Method |
+|------------|---------|--------|
+| **MCAS evaluation** | Determine if chronic mast cell activation creates pro-tumorigenic microenvironment | Serum tryptase, urinary PGD2 metabolites, urinary N-methylhistamine |
+| **Small fiber neuropathy testing** | Assess degree of enteric neuropathy contributing to GI dysmotility | Skin biopsy for intraepidermal nerve fiber density (IENFD) |
+| **Connective tissue phenotype in biopsies** | Document whether collagen architecture is altered in polyposis tissue | Colonic crypt architecture, lamina propria collagen structure in existing pathology specimens |
+| **Autonomic function testing** | Quantify POTS severity for therapeutic risk stratification | Tilt table test, heart rate variability, sudomotor function |
+
+> **Computational modeling implication:** The proposed digital twin model (stochastic crypt stem cell dynamics) should incorporate parameters for altered crypt geometry and replicative stress from connective tissue abnormality, not just POLE dosage alone. hEDS-related ECM changes may alter crypt stem cell niche architecture, modifying the effective selection pressures on POLE-mutant clones.
+
 ### Genomic Profile
 
 | Feature | Result |

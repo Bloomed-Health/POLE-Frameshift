@@ -39,6 +39,18 @@ POLE-deficient cells operate near a viability threshold for replication stress a
 3. **WRN inhibitors** — conditional on MSI status
 4. **dNTP metabolism** — experimental; requires preclinical validation
 
+## Comorbidity-Specific Therapeutic Risks
+
+The patient's hEDS/POTS/gastroparesis triad interacts with several candidate synthetic lethality agents:
+
+| Agent Class | Relevant Side Effects | Interaction with Comorbidities |
+|-------------|----------------------|-------------------------------|
+| **ATR inhibitors** (ceralasertib, berzosertib) | Nausea, fatigue, autonomic side effects | Potentially catastrophic in pre-existing POTS; nausea compounds gastroparesis; requires dose modification and enhanced monitoring |
+| **PARP inhibitors** (olaparib, talazoparib) | Nausea, fatigue, myelosuppression | Oral bioavailability unreliable with gastroparesis; consider IV alternatives or absorption monitoring |
+| **dNTP metabolism** (brequinar, low-dose HU) | GI toxicity, myelosuppression | Oral agents; gastroparesis affects absorption predictability |
+
+**Route of administration is a critical consideration.** Gastroparesis makes oral medication bioavailability inherently unreliable — any drug regimen must account for delayed and erratic absorption. IV formulations should be preferred where available. For oral agents, pharmacokinetic monitoring or alternative delivery routes (sublingual, transdermal, subcutaneous) should be evaluated.
+
 ## Data Needed
 
 - DepMap dependency profiles of POLE-mutant cell lines (computational analysis)

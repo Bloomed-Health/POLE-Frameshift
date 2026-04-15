@@ -9,8 +9,8 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 ### Added
 
 - Initial repository setup with comprehensive README
-- Research framework document (`docs/POLE_Research_Framework.docx`)
-- Research slide deck (`docs/POLE_PPAP_Research_Case.pptx`)
+- Research framework document (`docs/POLE_Comprehensive_Framework.docx`)
+- Research slide deck (`docs/POLE_PPAP_Research.pptx`)
 - AI research assistance framework (`docs/AI-Research-Assistance-Framework.md`)
 - Clinical case summary (`docs/clinical_case_summary.md`)
 - Five candidate mechanistic models with falsification criteria (`models/mechanistic_models.md`)

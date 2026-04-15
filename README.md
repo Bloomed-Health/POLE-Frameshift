@@ -12,6 +12,7 @@ This repository contains the scientific research framework, clinical documentati
 - **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage II papillary thyroid carcinoma (outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension and intestinal adhesions, bilateral proliferative breast changes with PASH, liver FNH/hemangioma, and a congenital duplicated inferior vena cava
 - **Complete absence from gnomAD** and all major population databases (gnomAD pLI = 0.98, LOEUF = 0.22 — extreme loss-of-function intolerance)
 - **Premature protein truncation at ~residue 54** of the 2,286-amino-acid POLE catalytic subunit
+- **Sole identified genetic driver** — a 47-gene hereditary cancer panel (2022) found no pathogenic variants in APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene
 
 This variant presents a **fundamental mechanistic paradox**: it eliminates all functional domains of POLE — including the exonuclease (proofreading) domain (residues ~268–471) and the polymerase domain (residues ~580–1260) — yet produces a clinical phenotype indistinguishable from classical PPAP caused by missense variants within the exonuclease active site.
 
@@ -40,7 +41,7 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 - [Contributing](#contributing)
 - [License](#license)
 
-**Additional resources:** [Clinical Case Summary](docs/clinical_case_summary.md) | [Formal Hypotheses & Falsification Criteria](models/mechanistic_models.md) | [AI Research Assistance Framework](docs/AI-Research-Assistance-Framework.md) | [FAQ](FAQ.md) | [Changelog](CHANGELOG.md) | [Cite This Repository](CITATION.cff)
+**Additional resources:** [Clinical Case Summary](docs/clinical_case_summary.md) | [POLE-Endometriosis Hypothesis](docs/endometriosis_hypothesis/) | [Formal Hypotheses & Falsification Criteria](models/mechanistic_models.md) | [AI Research Assistance Framework](docs/AI-Research-Assistance-Framework.md) | [FAQ](FAQ.md) | [Changelog](CHANGELOG.md) | [Cite This Repository](CITATION.cff)
 
 ---
 
@@ -66,10 +67,11 @@ The patient's phenotype spans four distinct categories — neoplastic, prolifera
 
 | Finding | Details | Significance |
 |---------|---------|-------------|
-| **Stage IV+ deep infiltrating endometriosis** | Extension into thoracic diaphragm; adhesion lesions on intestines | Diaphragmatic and intestinal involvement represents the most advanced and rare form, indicating an extremely aggressive endometrial tissue phenotype |
+| **Stage IV+ deep infiltrating endometriosis** | Trans-diaphragmatic penetration (abdominal → thoracic surface); bilateral ovarian endometriomas (5cm R, 2cm L); uterosacral ligament nodules; retroperitoneal fibrosis with ureteral encasement requiring ureterolysis; ascending colon/bowel adhesions; appendiceal endometriosis (histology-confirmed); posterior cul-de-sac implants | rASRM Stage IV (severe) with extrapelvic extension. Diaphragmatic endometriosis occurs in only ~1.5% of cases; full-thickness trans-diaphragmatic invasion is rarer still |
 | **Diffuse asymmetric adenomyosis** | Endometrial tissue invading the myometrium | Combined with endometriosis, indicates systemic endometrial tissue dysregulation |
+| **Recurrent SIBO and gastric dysmotility** | Small intestinal bacterial overgrowth; gastric dysmotility requiring medication | May result from bowel adhesions, chronic peritoneal inflammation, and convergence of endometriotic and polyposis GI involvement |
 
-> The endometrium is among the most POLE-vulnerable tissues (endometrial cancer is a major PPAP malignancy; somatic POLE mutations occur in 7–12% of sporadic endometrial cancers). This degree of endometrial dysregulation in a POLE-deficient patient — without formal malignant transformation — raises the novel question of whether **POLE haploinsufficiency contributes to endometriosis severity**, a connection not previously investigated.
+> The endometrium is among the most POLE-vulnerable tissues (endometrial cancer is a major PPAP malignancy; somatic POLE mutations occur in 7–13% of sporadic endometrial cancers). The simultaneous presence of superficial peritoneal lesions, deep infiltrating nodules, and ovarian endometriomas across distant anatomical sites is consistent with oligoclonal dissemination of mutant clones (Anglesio et al., NEJM 2017; Lac et al., 2022). If POLE haploinsufficiency increases the per-division error rate in endometrial stem cells, it would generate more clones with proliferative and invasive advantages — predicting more severe endometriosis in germline POLE carriers. This connection has **never been investigated**. See [`docs/endometriosis_hypothesis/`](docs/endometriosis_hypothesis/) for the full hypothesis document with testable predictions.
 
 ### Congenital Developmental Finding
 
@@ -370,6 +372,7 @@ Foundational investments that redefine the field.
 ### Tools & Databases
 
 - **PolED database (2025)** — A curated database of functional studies of POLE/POLD1 variants reported in humans. [PMID: 41263451](https://pubmed.ncbi.nlm.nih.gov/41263451/)
+- **[Cancer Predisposition Variant Analyst](https://github.com/Bloomed-Health/cancer-predisposition-variant-analyst)** — Claude Code skill for ultra-rare variant interpretation in cancer predisposition genes. Resolves genotype-phenotype paradoxes, assembles ACMG/ClinGen evidence, and maps mechanism to therapy. Includes a worked example using the POLE c.138del case.
 
 ### POLE Frameshift Variants & Epigenetic Interactions
 
@@ -399,6 +402,50 @@ Foundational investments that redefine the field.
 - Marciniak B et al. (2024) Synthetic lethality between ATR and POLA1. *DNA Repair*. (ATR-polymerase synthetic lethality in CRC)
 - Smith HL et al. (2024) ATR, CHK1 and WEE1 inhibitors cause HRR deficiency to induce synthetic lethality with PARP inhibitors. *British Journal of Cancer* 131:905–917.
 
+### Translational Reinitiation & NMD
+
+- **Sherlock ME et al. (2023) Principles, mechanisms, and biological implications of translation termination-reinitiation. *RNA* 29(7):865–884.** — Definitive review of reinitiation after premature stops; directly relevant to Model 2.
+- Lindeboom RGH, Supek F, Lehner B (2016) The rules and impact of nonsense-mediated mRNA decay in human cancers. *Nature Genetics* 48(10):1112–1118. — Systematic NMD rules from 9,769 tumors; foundational for predicting NMD escape of c.138del.
+- Lindeboom RGH et al. (2019) The impact of nonsense-mediated mRNA decay on genetic disease, gene editing and cancer immunotherapy. *Nature Genetics* 51(11):1645–1651. — NMDetective resource for genome-wide NMD prediction.
+
+### POLE Holoenzyme Structure
+
+- **Yuan Z et al. (2020) Structure of the polymerase epsilon holoenzyme and atomic model of the leading strand replisome. *Nature Communications* 11:3156.** — First cryo-EM of Pol epsilon holoenzyme (yeast, 3.5 A); critical for Model 3 (holoenzyme poisoning).
+- **Roske JJ, Yeeles JTP (2024) Structural basis for processive daughter-strand synthesis and proofreading by the human leading-strand DNA polymerase Pol epsilon. *Nature Structural & Molecular Biology* 31(12):1921–1931.** — Human Pol epsilon cryo-EM: polymerase-exonuclease switching pathway.
+- He Q et al. (2024) Structures of the human leading strand Pol-epsilon-PCNA holoenzyme. *Nature Communications* 15:7847. — Human Pol epsilon-PCNA-DNA complex structures.
+
+### POLE in Endometrial Cancer
+
+- **TCGA Research Network (2013) Integrated genomic characterization of endometrial carcinoma. *Nature* 497:67–73.** — Defined the four molecular subtypes of endometrial cancer, including the POLE-ultramutated subgroup.
+- Church DN et al. (2013) DNA polymerase epsilon and delta exonuclease domain mutations in endometrial cancer. *Human Molecular Genetics* 22(14):2820–2828. — First systematic characterization of somatic POLE/POLD1 ExoD mutations in endometrial cancer.
+
+### Mutational Signature Catalog
+
+- **Alexandrov LB et al. (2020) The repertoire of mutational signatures in human cancer. *Nature* 578:94–101.** — COSMIC v3 catalog: 49 SBS, 11 DBS, 17 ID signatures from 4,645 whole genomes. Reference standard for SBS10a/b/28.
+
+### Colonic Crypt Dynamics
+
+- **Lee-Six H et al. (2019) The landscape of somatic mutation in normal colorectal epithelial cells. *Nature* 574:532–537.** — WGS of normal crypts from 42 individuals; baseline comparator for Model 4 haploinsufficiency.
+
+### POLE Mouse Models
+
+- **Albertson TM et al. (2009) DNA polymerase epsilon and delta proofreading suppress discrete mutator and cancer phenotypes in mice. *PNAS* 106(40):17101–17104.** — Homozygous proofreading-dead mice: intestinal adenocarcinomas, >70x mutation rate. Heterozygotes indistinguishable from WT — supports need for a second hit (LOH) in human truncating variants.
+
+### WRN Synthetic Lethality & CRISPR Screens
+
+- **Chan EM et al. (2019) WRN helicase is a synthetic lethal target in microsatellite unstable cancers. *Nature* 568:551–556.** — WRN essential in MSI models; relevant if POLE tumors acquire secondary MMR loss.
+- Behan FM et al. (2019) Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens. *Nature* 568:511–516. — DepMap/Sanger screen across 324 cancer cell lines; framework for systematic synthetic lethal target identification.
+
+### Thyroid Cancer Genomics
+
+- TCGA Research Network (2014) Integrated genomic characterization of papillary thyroid carcinoma. *Cell* 159(3):676–690. — Genomic landscape of 496 PTCs; context for the patient's thyroid carcinoma outside the established PPAP spectrum.
+
+### Endometriosis Genomics
+
+- **Anglesio MS et al. (2017) Cancer-associated mutations in endometriosis without cancer. *NEJM* 376(19):1835–1848.** — 79% of deep infiltrating endometriosis harbors somatic mutations; foundational for the POLE-endometriosis hypothesis.
+- Lac V et al. (2022) Molecular analysis suggests oligoclonality and metastasis of endometriosis lesions across anatomically defined subtypes. *Fertility and Sterility*. — Identical somatic mutations across anatomically distinct lesion types; oligoclonal dissemination model.
+- Suda K et al. (2018) Clonal expansion and diversification of cancer-associated mutations in endometriosis and normal endometrium. *Cell Reports*. — Clonal architecture of endometriosis.
+
 ### Loss of Heterozygosity
 
 - Knudson AG (1971) Mutation and cancer: statistical study of retinoblastoma. *PNAS* 68:820–823.
@@ -416,9 +463,11 @@ POLE-Frameshift/
 ├── CHANGELOG.md                       # Project evolution timeline
 ├── FAQ.md                             # Plain-language overview for broad audience
 ├── docs/
-│   ├── POLE_Research_Framework.docx   # Comprehensive research framework document
-│   ├── POLE_PPAP_Research_Case.pptx   # Research slide deck (12 slides)
+│   ├── POLE_Comprehensive_Framework.docx # Comprehensive research framework document
+│   ├── POLE_PPAP_Research.pptx   # Research slide deck (12 slides)
 │   ├── clinical_case_summary.md       # Clinical case details and variant summary
+│   ├── endometriosis_hypothesis/      # POLE-endometriosis hypothesis with testable predictions
+│   │   └── POLE_Endometriosis_Hypothesis.docx
 │   └── AI-Research-Assistance-Framework.md  # AI integration strategy
 ├── analysis/
 │   ├── mutational_signatures/         # SigProfiler pipeline specifications

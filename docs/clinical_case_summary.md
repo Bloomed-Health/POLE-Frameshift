@@ -69,6 +69,28 @@ The presentation spans four distinct categories — neoplastic, proliferative/st
 | **LOH at POLE locus** | Pending allele-specific analysis |
 | **Thyroid tumor POLE signatures** | Pending — would expand PPAP tumor spectrum if positive |
 
+### Hereditary Cancer Gene Panel (2022)
+
+A 47-gene hereditary cancer panel was performed. **No pathogenic or likely pathogenic variants were identified in any gene other than POLE.** Genes analyzed:
+
+APC, ATM, AXIN2, BARD1, BMPR1A, BRCA1, BRCA2, BRIP1, CDH1, CDK4, CDKN2A, CHEK2, CTNNA1, DICER1, EPCAM, GREM1, HOXB13, KIT, MEN1, MLH1, MSH2, MSH3, MSH6, MUTYH, NBN, NF1, NTHL1, PALB2, PDGFRA, PMS2, POLD1, POLE, PTEN, RAD50, RAD51C, RAD51D, SDHA, SDHB, SDHC, SDHD, SMAD4, SMARCA4, STK11, TP53, TSC1, TSC2, VHL
+
+**Key negatives for differential diagnosis:**
+
+| Gene(s) | Condition excluded | Relevance |
+|---------|-------------------|-----------|
+| **APC** | Familial adenomatous polyposis (FAP) | Most common genetic cause of polyposis — excluded |
+| **MUTYH** | MUTYH-associated polyposis (MAP) | Second most common genetic cause of polyposis — excluded |
+| **MLH1, MSH2, MSH6, PMS2, EPCAM** | Lynch syndrome | MMR deficiency as cause of high TMB — excluded at germline level |
+| **POLD1** | PPAP (POLD1-associated) | Sister polymerase proofreading deficiency — excluded |
+| **NTHL1** | NTHL1-associated polyposis | Base excision repair polyposis — excluded |
+| **BRCA1, BRCA2** | Hereditary breast/ovarian cancer | Alternative explanation for breast findings — excluded |
+| **TP53** | Li-Fraumeni syndrome | Multi-organ cancer predisposition — excluded |
+| **PTEN** | Cowden syndrome | Hamartomatous polyposis + thyroid cancer predisposition — excluded |
+| **STK11** | Peutz-Jeghers syndrome | GI polyposis syndrome — excluded |
+
+This comprehensive negative panel isolates **POLE c.138del as the sole identified genetic driver** of the multi-system phenotype, strengthening the causal attribution.
+
 ---
 
 ## POLE Domain Architecture and Variant Position

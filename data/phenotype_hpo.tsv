@@ -1,0 +1,17 @@
+finding	hpo_term	hpo_id	phenotype_category	onset	notes
+Gastrointestinal polyposis (~15 sessile adenomatous polyps)	Adenomatous colonic polyposis	HP:0200063	Neoplastic	Adult	Stomach, cecum, sigmoid; consistent with attenuated PPAP (10-100 polyps)
+Stage II papillary thyroid carcinoma	Papillary thyroid carcinoma	HP:0002895	Neoplastic	Adult	Cystic variant with squamous metaplasia; outside established PPAP tumor spectrum
+Bilateral breast changes with PASH	Pseudoangiomatous stromal hyperplasia	HP:0010783	Proliferative/Stromal	Adult	Closest parent term; bilateral fibroadenomatous change, dense stromal fibrosis, columnar cell change
+Liver FNH and/or hemangioma	Hepatic hemangioma	HP:0012027	Proliferative/Stromal	Adult	Benign vascular proliferative lesion(s); FNH lacks specific HPO term
+Stage IV+ deep infiltrating endometriosis	Endometriosis	HP:0030127	Endometrial/Hormonal	Adult	Trans-diaphragmatic penetration; bilateral ovarian endometriomas; ureteral encasement; appendiceal involvement
+Diffuse asymmetric adenomyosis	Adenomyosis	HP:0034058	Endometrial/Hormonal	Adult	Endometrial tissue invading myometrium
+Recurrent SIBO	Small intestinal bacterial overgrowth	HP:0410289	Endometrial/Hormonal	Adult	May result from bowel adhesions and chronic peritoneal inflammation
+Gastric dysmotility	Abnormal gastric motility	HP:0002579	Endometrial/Hormonal	Adult	Requiring medication management
+Duplicated inferior vena cava	Duplicated inferior vena cava	HP:0005301	Congenital Developmental	Congenital	Cannot be explained by somatic mechanisms; argues for constitutive POLE haploinsufficiency
+ANA 1:160 with AC-21 pattern	Antinuclear antibody positivity	HP:0003493	Autoimmune/Immune	Adult	Reticular cytoplasmic AC-21 pattern; associated with anti-mitochondrial antibodies
+Ultra-hypermutated tumor (TMB >100 mut/Mb)	Neoplasm with high tumor mutational burden	HP:0100806	Neoplastic	Adult	Closest parent term; TMB >100 mut/Mb qualifies as ultra-hypermutated
+Chronic gastric gastritis	Gastritis	HP:0005263	Neoplastic	Adult	Erythematous/edematous/friable rectal mucosa
+Bilateral ovarian endometriomas	Ovarian endometrioma	HP:0031588	Endometrial/Hormonal	Adult	5cm right, 2cm left
+Retroperitoneal fibrosis with ureteral encasement	Retroperitoneal fibrosis	HP:0012226	Endometrial/Hormonal	Adult	Required ureterolysis
+Appendiceal endometriosis	Endometriosis	HP:0030127	Endometrial/Hormonal	Adult	Histology-confirmed; uses parent term (no appendiceal-specific HPO)
+Posterior cul-de-sac implants	Endometriosis	HP:0030127	Endometrial/Hormonal	Adult	Uses parent term; specific site designation not available in HPO

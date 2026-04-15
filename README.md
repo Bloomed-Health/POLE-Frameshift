@@ -22,9 +22,26 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 
 ---
 
+## What We Know vs. What We Don't Know
+
+| Established | Requires Investigation |
+|-------------|----------------------|
+| **Variant identity:** POLE c.138del (p.Leu46Phefs*8), heterozygous frameshift, premature stop at ~residue 54 | **LOH status:** Has the wild-type POLE allele been somatically lost in tumor tissue? (Paired tumor-normal WGS with ASCAT/FACETS) |
+| **ACMG classification:** Pathogenic (PVS1 + PM2 + PP4); absent from gnomAD and all population databases | **Mutational signatures:** Are canonical POLE signatures (SBS10a/b/28) present, or does a non-canonical process drive the ultra-hypermutation? |
+| **Tumor phenotype:** Ultra-hypermutated (TMB >100 mut/Mb) — consistent with PPAP | **NMD escape:** Does the mutant mRNA escape nonsense-mediated decay? What is the mutant:WT transcript ratio? |
+| **47-gene panel negative:** No pathogenic variants in APC, MUTYH, MMR genes, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene — POLE c.138del is the sole identified genetic driver | **Mechanism:** Which of the 5 candidate models (LOH, reinitiation, holoenzyme poisoning, haploinsufficiency, isoform-specific) explains the paradox? |
+| **Five-category phenotype:** Neoplastic + proliferative/stromal + endometrial + congenital developmental + autoimmune/immune | **AMA confirmation:** Does the ANA AC-21 pattern reflect true anti-mitochondrial antibodies? (AMA-specific ELISA for anti-PDC-E2) |
+| **gnomAD constraint:** pLI = 0.98, LOEUF = 0.22 — extreme LoF intolerance | **Thyroid POLE signatures:** Does the papillary thyroid carcinoma carry SBS10a/b, formally expanding the PPAP tumor spectrum? |
+| **ANA AC-21 pattern:** Reticular cytoplasmic staining at 1:160, associated with anti-mitochondrial antibodies | **Normal tissue mutation rate:** Is the somatic mutation rate elevated in non-tumor cells? (Duplex sequencing / NanoSeq on PBMCs) |
+| **Congenital anomaly:** Duplicated IVC — cannot be explained by somatic mechanisms, argues for germline-level effect | **Reinitiation products:** Does translational reinitiation at downstream AUGs (e.g., M497, M530) produce truncated POLE protein? (Ribo-seq, proteomics) |
+
+---
+
 ## Table of Contents
 
+- [What We Know vs. What We Don't Know](#what-we-know-vs-what-we-dont-know)
 - [Clinical Presentation](#clinical-presentation)
+  - [Comparison with Classical PPAP Cohort](#comparison-with-classical-ppap-cohort)
 - [The Mechanistic Paradox](#the-mechanistic-paradox)
 - [POLE Domain Architecture](#pole-domain-architecture)
 - [Candidate Mechanistic Models](#candidate-mechanistic-models)
@@ -91,6 +108,29 @@ The patient's phenotype spans five distinct categories — neoplastic, prolifera
 
 The phenotype spans **neoplastic** (polyps, thyroid carcinoma), **proliferative/stromal** (breast PASH, liver FNH/hemangioma), **endometrial** (severe endometriosis, adenomyosis), **congenital developmental** (duplicated IVC), and **autoimmune/immune** (ANA AC-21, potential anti-mitochondrial antibodies) domains. This breadth transforms the case from an interesting mechanistic puzzle into a multi-system phenotype with implications for PPAP spectrum expansion, endometriosis biology, mitochondrial immunology, and developmental genetics.
 
+### Comparison with Classical PPAP Cohort
+
+How this patient compares to published PPAP cohort data (Palles et al. 2022, Bellido et al. 2016, Valle et al. 2020):
+
+| Feature | Classical PPAP (Published Cohorts) | This Patient (c.138del) | Concordance |
+|---------|-----------------------------------|------------------------|-------------|
+| **Variant type** | Missense substitution in exonuclease active site | Frameshift (p.Leu46Phefs*8) — premature stop at residue 54 | **Novel** |
+| **Affected domain** | Exonuclease domain (residues 268–471) | N-terminal region (upstream of all functional domains) | **Novel** |
+| **Inheritance** | Autosomal dominant (heterozygous) | Heterozygous (de novo vs. inherited unknown) | Concordant |
+| **Polyp count** | 10–100 adenomatous polyps (attenuated) | ~15 sessile adenomatous polyps | Concordant |
+| **Polyp distribution** | Colorectal predominant; gastric in POLE carriers | Stomach, cecum, sigmoid colon | Concordant |
+| **GI features** | Chronic gastritis reported in some POLE carriers | Erythematous/edematous/friable rectal mucosa; chronic gastric gastritis; recurrent SIBO | Concordant |
+| **Cancer types** | Colorectal, endometrial, ovarian, brain (glioma) | Papillary thyroid carcinoma (Stage II) | **Expands spectrum** |
+| **TMB** | Ultra-hypermutated (>100 mut/Mb) with SBS10a/b | TMB >100 mut/Mb (signatures pending) | Concordant |
+| **Extra-GI neoplastic** | Endometrial cancer (most common); occasional brain, ovarian | Thyroid carcinoma (not previously in PPAP spectrum) | **Expands spectrum** |
+| **Non-neoplastic proliferative** | Not systematically reported | Bilateral PASH, liver FNH/hemangioma | **Novel** |
+| **Congenital anomalies** | Not reported in any PPAP cohort | Duplicated inferior vena cava | **Novel** |
+| **Endometriosis** | Not reported in any PPAP cohort | Stage IV+ deep infiltrating endometriosis with thoracic extension | **Novel** |
+| **Autoimmune features** | Not reported in any PPAP cohort | ANA 1:160 with AC-21 pattern (anti-mitochondrial antibodies) | **Novel** |
+| **Mechanism** | Dominant-negative gain of function (error-blind polymerase) | Unknown — 5 candidate models under investigation | **Novel** |
+
+> **Key insight:** This patient is fully concordant with classical PPAP for neoplastic features (polyp count, distribution, TMB) while simultaneously presenting five categories of findings never reported in any PPAP cohort. This suggests that current PPAP phenotyping may be systematically underascertaining non-neoplastic manifestations, or that the truncating variant mechanism produces a broader phenotype than exonuclease-domain missense variants.
+
 ---
 
 ## The Mechanistic Paradox
@@ -126,6 +166,8 @@ POLE Catalytic Subunit (p261) — 2,286 amino acids
 ```
 
 The truncation at residue 54 eliminates **100%** of all known functional domains. No exonuclease activity, no polymerase activity, no C-terminal regulatory regions. Structured reference data (domain boundaries, coding sequence, constraint metrics) is available in [`data/`](data/) for programmatic analysis.
+
+![POLE variant landscape](analysis/variant_landscape/POLE_variant_landscape.png)
 
 ---
 
@@ -490,6 +532,7 @@ POLE-Frameshift/
 │   │   └── POLE_Endometriosis_Hypothesis.docx
 │   └── AI-Research-Assistance-Framework.md  # AI integration strategy
 ├── analysis/
+│   ├── variant_landscape/             # POLE protein variant lollipop plot (SVG/PNG)
 │   ├── mutational_signatures/         # SigProfiler pipeline specifications
 │   ├── loh_analysis/                  # ASCAT/FACETS LOH analysis framework
 │   ├── duplex_sequencing/             # NanoSeq analysis pipeline specifications
@@ -507,7 +550,8 @@ POLE-Frameshift/
 │   ├── POLE_domain_boundaries.tsv     # Protein domains for programmatic parsing
 │   ├── POLE_downstream_methionines.tsv # In-frame AUGs with Kozak scores
 │   ├── POLE_gnomad_constraints.tsv    # gnomAD pLI, LOEUF, missense Z
-│   └── POLE_clinvar_variants.tsv      # Curated ClinVar variant classifications
+│   ├── POLE_clinvar_variants.tsv      # Curated ClinVar variant classifications
+│   └── phenotype_hpo.tsv             # HPO phenotype mapping (16 findings)
 ├── references/
 │   └── bibliography.bib               # Complete reference list in BibTeX format
 └── .github/

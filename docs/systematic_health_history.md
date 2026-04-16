@@ -171,11 +171,11 @@ Each section explains **why** the information is relevant to the POLE research f
 
 ## 11. Endocrine
 
-**Why it matters:** Thyroid cancer is already documented. Comprehensive endocrine history may reveal additional POLE-related effects on hormone-responsive tissues and glands with high cell turnover.
+**Why it matters:** Thyroid cancer (treated with total thyroidectomy) is already documented. Comprehensive endocrine history may reveal additional POLE-related effects on hormone-responsive tissues and glands with high cell turnover.
 
-- [ ] Thyroid function history (hypo/hyperthyroid episodes, TSH trends)?
-- [ ] Thyroid antibodies (anti-TPO, anti-thyroglobulin)?
-- [ ] Thyroid surgery and treatment details?
+- [x] Thyroid surgery and treatment details? **Total thyroidectomy performed; on levothyroxine replacement**
+- [ ] Current levothyroxine dose, TSH levels, and thyroglobulin surveillance results?
+- [ ] Thyroid antibodies (anti-TPO, anti-thyroglobulin)? — anti-thyroglobulin particularly important as it interferes with thyroglobulin tumor marker monitoring
 - [ ] Adrenal function (cortisol, aldosterone — relevant for POTS)?
 - [ ] Diabetes or insulin resistance?
 - [ ] Menstrual history (onset, regularity, severity, hormonal treatment)?

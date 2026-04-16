@@ -16,7 +16,7 @@ The central research question is a **mechanistic paradox**: this variant truncat
 
 ## Patient Phenotype (Five Categories + Comorbidity Context)
 
-1. **Neoplastic:** Progressive adenomatous polyposis (~6 adenomas at age 19, accumulating to ~15+ by age 31; stomach, cecum, sigmoid), Stage I papillary thyroid microcarcinoma (~28; encapsulated, non-invasive, 0.6 cm; outside established PPAP spectrum)
+1. **Neoplastic:** Progressive adenomatous polyposis (~6 adenomas at age 19, accumulating to ~15+ by age 31; stomach, cecum, sigmoid), Stage I papillary thyroid microcarcinoma (~28; encapsulated, non-invasive, 0.6 cm; outside established PPAP spectrum; s/p total thyroidectomy, on levothyroxine)
 2. **Proliferative/stromal:** Bilateral breast changes with IHC-confirmed PASH (CD34+, CK AE1/AE3−), liver hypervascular lesion (hemangioma vs FNH, segment VII, 16×14 mm) with splenoportal arteriovenous shunt
 3. **Endometrial:** Stage IV+ deep infiltrating endometriosis (~27; thoracic diaphragm, intestinal adhesions), diffuse adenomyosis (~28; severe menorrhagia, iron infusions, syncope → ovarian-sparing total hysterectomy)
 4. **Congenital developmental:** Duplicated inferior vena cava — cannot be explained by somatic LOH, argues for constitutive POLE haploinsufficiency
@@ -33,6 +33,20 @@ The central research question is a **mechanistic paradox**: this variant truncat
 5. **Isoform-specific effects** — variant differentially affects tissue-specific transcripts
 
 The congenital duplicated IVC and multi-system non-neoplastic findings most strongly support Model 4, potentially combined with Model 1 for tumor-specific ultra-hypermutation.
+
+## Current Leading Theory (Living Assessment)
+
+> **IMPORTANT: This section and the corresponding section in README.md must be updated whenever new data is added to the repository or new relevant research is published. When updating clinical data, evaluate whether the new information changes the relative support for each model and update both files accordingly.**
+
+**Primary: Model 4 (Replication Stress-Dependent Haploinsufficiency)** — Strongest clinical support. Key evidence: congenital duplicated IVC (eliminates Models 1–3 as sole explanations), tissue turnover–onset age correlation, progressive polyp accumulation over >12 years, multi-system non-neoplastic phenotype (PASH, liver lesion, endometriosis, dysplastic nevus, AV shunt, ANA), and absence of FILS/neurodevelopmental features (tissue-specific haploinsufficiency pattern). Family history (maternal grandmother with uterine cancer) may indicate inherited variant with multi-generational penetrance data if confirmed.
+
+**Secondary: Model 1 (Somatic LOH)** — Likely complementary, not alternative. Best explains tumor-specific ultra-hypermutation (TMB >100 mut/Mb), particularly in slow-cycling tissues like thyroid where haploinsufficiency alone may be insufficient. Awaiting paired tumor-normal WGS.
+
+**Key pending experiments that could shift this assessment:**
+- NanoSeq on normal blood (normal rates → weakens M4; elevated → strengthens M4)
+- Tumor WGS + LOH analysis (LOH present → supports M1 component; absent → eliminates M1)
+- Ribo-seq (reinitiation detected → M2 rises to primary)
+- Parental POLE testing (inherited → strengthens M4 with penetrance data)
 
 ## Repository Structure
 

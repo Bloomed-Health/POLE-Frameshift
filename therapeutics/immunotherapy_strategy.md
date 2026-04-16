@@ -55,7 +55,7 @@ The patient has **ANA 1:160 with reticular cytoplasmic AC-21 pattern**, characte
 | **AMA-specific ELISA** (anti-PDC-E2) | Confirm whether AC-21 reflects true AMA; establish baseline |
 | **Liver function panel** (GGT, ALP, bilirubin) | Baseline biliary function; PBC screening given AMA + hepatic lesions |
 | **Extended autoimmune panel** (anti-dsDNA, ENA, C3/C4, anti-smooth muscle) | Characterize scope of autoimmune activation before ICI |
-| **Thyroid function** (TSH, free T4, anti-TPO) | Baseline for thyroid irAE monitoring (particularly given thyroid cancer history) |
+| **Thyroid function** (TSH, free T4, anti-TPO) | Baseline for thyroid irAE monitoring. Patient is post-total thyroidectomy on levothyroxine — ICI-induced thyroiditis is not expected (no thyroid tissue), but TSH/free T4 monitoring remains necessary to detect ICI-mediated changes in levothyroxine metabolism or absorption, and thyroglobulin trending for recurrence detection |
 
 ### ICI Monitoring Modifications for ANA-Positive Patients
 

@@ -196,4 +196,4 @@ This matrix shows which experiments most efficiently discriminate between models
 | **Co-IP / structural modeling** | — | — | ✅ Definitive | — | — | **Medium-term** |
 | **Replication timing analysis** | — | — | — | ✅ Enrichment pattern | — | **Medium-term** |
 | **Isoform-specific RT-PCR** | — | — | — | — | ✅ Definitive | **Medium-term** |
-| **Thyroid tumor signature analysis** | ✅ If LOH at POLE | ✅ If SBS10a/b present | — | — | — | **Immediate** |
+| **Thyroid tumor signature analysis** (thyroidectomy specimen available) | ✅ If LOH at POLE | ✅ If SBS10a/b present | — | — | — | **Immediate** |

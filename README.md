@@ -31,7 +31,7 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 | **Tumor phenotype:** Ultra-hypermutated (TMB >100 mut/Mb) — consistent with PPAP | **NMD escape:** Does the mutant mRNA escape nonsense-mediated decay? What is the mutant:WT transcript ratio? |
 | **47-gene panel negative:** No pathogenic variants in APC, MUTYH, MMR genes, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene — POLE c.138del is the sole identified genetic driver | **Mechanism:** Which of the 5 candidate models (LOH, reinitiation, holoenzyme poisoning, haploinsufficiency, isoform-specific) explains the paradox? |
 | **Five-category phenotype:** Neoplastic + proliferative/stromal + endometrial + congenital developmental + autoimmune/immune | **AMA confirmation:** Does the ANA AC-21 pattern reflect true anti-mitochondrial antibodies? (AMA-specific ELISA for anti-PDC-E2) |
-| **gnomAD constraint:** pLI = 0.98, LOEUF = 0.22 — extreme LoF intolerance | **Thyroid POLE signatures:** Does the papillary thyroid carcinoma carry SBS10a/b, formally expanding the PPAP tumor spectrum? |
+| **gnomAD constraint:** pLI = 0.98, LOEUF = 0.22 — extreme LoF intolerance | **Thyroid POLE signatures:** Does the thyroidectomy specimen carry SBS10a/b, formally expanding the PPAP tumor spectrum? |
 | **ANA AC-21 pattern:** Reticular cytoplasmic staining at 1:160, associated with anti-mitochondrial antibodies | **Normal tissue mutation rate:** Is the somatic mutation rate elevated in non-tumor cells? (Duplex sequencing / NanoSeq on PBMCs) |
 | **Congenital anomaly:** Duplicated IVC — cannot be explained by somatic mechanisms, argues for germline-level effect | **Reinitiation products:** Does translational reinitiation at downstream AUGs (e.g., M497, M530) produce truncated POLE protein? (Ribo-seq, proteomics) |
 | **Comorbidity triad:** hEDS/POTS/gastroparesis — creates therapeutic constraints and potential phenotype modifiers | **MCAS status:** Does the patient have mast cell activation syndrome? (Tryptase, urinary PGD2 metabolites) — if present, chronic inflammation may amplify POLE-driven tumorigenesis |
@@ -243,7 +243,29 @@ The patient's multi-system phenotype provides immediate discriminatory evidence 
 
 The **congenital duplicated IVC** is the single most important clinical discriminator — it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). The **ANA AC-21 pattern** (anti-mitochondrial antibodies) adds a new dimension: if POLE haploinsufficiency elevates mutation rates in nuclear-encoded mitochondrial genes (~1,500 genes), the resulting mitochondrial dysfunction could expose inner membrane antigens to immune surveillance, producing AMA. The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis, potential AMA) collectively argue against Model 1 operating alone, as independent LOH in each organ would be an extraordinary coincidence.
 
-**Most likely scenario:** Multiple mechanisms operate simultaneously — Model 1 (LOH) may drive tumor-specific ultra-hypermutation, while Model 4 (haploinsufficiency) explains the constitutive multi-system phenotype including the congenital anomaly, endometriosis, and stromal/vascular proliferative changes.
+### Current Leading Theory (Updated 2026-04-16)
+
+> **This section is maintained as a living assessment and should be updated as new data enters the repository or new research is published.**
+
+**Primary model: Model 4 — Replication Stress-Dependent Haploinsufficiency**
+
+Model 4 currently has the strongest clinical support among all five candidates. The evidence favoring it:
+
+1. **Congenital duplicated IVC** — A developmental anomaly present from embryogenesis cannot be caused by somatic LOH or any other post-zygotic mechanism. This finding alone eliminates Models 1–3 as sole explanations and provides direct evidence for germline-level POLE dysfunction affecting embryonic development.
+2. **Tissue turnover–onset age correlation** — The temporal sequence of diagnoses correlates with tissue cell division rates: colonic epithelium (3–5 day turnover) → adenomas by age 19; endometrium (monthly) → symptoms by ~22; thyroid (~8-year turnover) → carcinoma by ~28. This gradient is a hallmark prediction of dosage-dependent, replication-coupled mutagenesis (Spearman ρ > 0, p < 0.05; see [`analysis/temporal_phenotype/`](analysis/temporal_phenotype/)).
+3. **Progressive polyp accumulation** — New adenomas at every surveillance interval over >12 years (ages 19→21→24→27→29→31) indicates ongoing constitutive mutagenesis, not a single clonal event.
+4. **Multi-system non-neoplastic phenotype** — Bilateral PASH, liver hypervascular lesion, severe endometriosis/adenomyosis, dysplastic nevus, splenoportal arteriovenous shunt, and ANA AC-21 pattern collectively indicate systemic tissue dysregulation that cannot be explained by organ-specific somatic events.
+5. **Absence of FILS/neurodevelopmental features** — The patient lacks features seen in biallelic POLE mutations (FILS syndrome, intellectual disability), confirming that one functional allele is sufficient for CNS development but insufficient for genomic fidelity in high-turnover tissues — a tissue-specific haploinsufficiency pattern.
+
+**Secondary model: Model 1 — Somatic LOH (complementary, not alternative)**
+
+Model 1 likely operates in parallel with Model 4 to explain the tumor-specific ultra-hypermutation (TMB >100 mut/Mb). The thyroid microcarcinoma — arising in a slow-cycling tissue where haploinsufficiency alone may be insufficient — is best explained by somatic loss of the wild-type allele in that specific tissue. Pending experiment: paired tumor-normal WGS with allele-specific copy number analysis.
+
+**What would change this assessment:**
+- If NanoSeq on normal blood cells shows completely normal mutation rates → weakens Model 4, strengthens Model 1 as primary
+- If tumor WGS shows no LOH at the POLE locus → eliminates Model 1 for that tumor
+- If Ribo-seq detects downstream ribosome reinitiation → Model 2 rises to primary/co-primary
+- If maternal grandmother's POLE testing shows the variant is inherited → strengthens Model 4 (multi-generational penetrance data)
 
 ---
 
@@ -268,7 +290,7 @@ The congenital duplicated IVC (earliest onset) and childhood-onset hEDS features
 The clinical phenotype generates questions beyond the five mechanistic models:
 
 1. **Does POLE haploinsufficiency contribute to endometriosis severity?** Never investigated. The endometrium is a rapidly cycling, POLE-vulnerable tissue, and endometriosis affects ~10% of reproductive-age women. If a connection exists, it has implications far beyond this patient.
-2. **Should thyroid cancer be added to the PPAP tumor spectrum?** Thyroid cancer has not been systematically reported in PPAP carriers. Confirming POLE signatures (SBS10a/b) or LOH at the POLE locus in the thyroid tumor would formally expand the recognized phenotype.
+2. **Should thyroid cancer be added to the PPAP tumor spectrum?** Thyroid cancer has not been systematically reported in PPAP carriers. Confirming POLE signatures (SBS10a/b) or LOH at the POLE locus in the thyroidectomy specimen would formally expand the recognized phenotype.
 3. **Do POLE truncation variant carriers have an elevated rate of congenital anomalies?** The duplicated IVC suggests possible developmental effects of germline POLE haploinsufficiency — testable through retrospective phenotyping of POLE carrier cohorts.
 4. **Are bilateral stromal proliferative changes (PASH, FNH) a feature of systemic POLE dysfunction?** The pattern of vascular/stromal proliferation across breast and liver suggests a field effect that has not been described in PPAP.
 5. **Do POLE carriers have elevated rates of anti-mitochondrial antibodies or other organelle-targeting autoantibodies?** The ANA AC-21 finding suggests POLE-driven mutagenesis of nuclear-encoded mitochondrial genes may impair mitochondrial integrity, exposing inner membrane antigens (PDC-E2) to immune surveillance. If confirmed, autoantibody profiling should become part of systematic POLE carrier phenotyping.

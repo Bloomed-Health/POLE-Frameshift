@@ -15,12 +15,13 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 | **Capsule endoscopy** | Consider if small bowel symptoms | Small bowel polyp surveillance |
 | **Rectal mucosal monitoring** | At each colonoscopy | Erythematous, edematous, friable mucosa noted — monitor for progression |
 
-### Thyroid
+### Thyroid (Post-Total Thyroidectomy)
 
 | Modality | Interval | Notes |
 |----------|----------|-------|
-| **Thyroid ultrasound** | Every 6–12 months | Patient has Stage I papillary thyroid microcarcinoma (encapsulated, non-invasive, 0.6 cm, left middle lobe; cystic variant with extensive squamous metaplasia; AJCC 8th ed T1aN0M0). **Not part of established PPAP spectrum** — if POLE signatures confirmed in tumor, surveillance should be recommended for all PPAP carriers |
-| **Thyroglobulin monitoring** | Per thyroid cancer follow-up protocol | Standard post-treatment surveillance |
+| **Neck ultrasound** | Every 6–12 months | Post-total thyroidectomy surveillance for recurrence in thyroid bed and cervical lymph nodes. Original tumor: Stage I papillary thyroid microcarcinoma (encapsulated, non-invasive, 0.6 cm, AJCC 8th ed T1aN0M0). **Not part of established PPAP spectrum** — if POLE signatures confirmed in thyroidectomy specimen, surveillance should be recommended for all PPAP carriers |
+| **Thyroglobulin + anti-thyroglobulin antibodies** | Every 6–12 months | Thyroglobulin serves as tumor marker post-thyroidectomy — should be undetectable; rising levels indicate recurrence. Anti-thyroglobulin antibodies must be measured concurrently as they can cause falsely low thyroglobulin levels |
+| **TSH monitoring** | Per endocrinology guidance | Lifelong levothyroxine replacement required. TSH suppression target per ATA risk stratification (low-risk Stage I: TSH 0.5–2.0 mU/L) |
 
 ### Gynecologic
 
@@ -104,7 +105,7 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 ## Novel Research Questions Arising from This Patient's Phenotype
 
 1. **Does POLE haploinsufficiency contribute to endometriosis severity?** Never investigated; could have implications for ~10% of reproductive-age women
-2. **Should thyroid cancer surveillance be added to PPAP protocols?** Contingent on confirming POLE signatures in the thyroid tumor
+2. **Should thyroid cancer surveillance be added to PPAP protocols?** Contingent on confirming POLE signatures in the thyroidectomy specimen
 3. **Does POLE dysfunction cause congenital vascular anomalies?** The duplicated IVC suggests possible developmental effects of germline POLE haploinsufficiency
 4. **Is there a POLE-associated vascular/stromal proliferative phenotype?** Bilateral PASH, liver FNH, and duplicated IVC form a pattern across organs
 5. **Do POLE carriers have elevated rates of anti-mitochondrial antibodies?** The ANA AC-21 finding suggests POLE-driven mutagenesis of nuclear-encoded mitochondrial genes may impair mitochondrial integrity, exposing antigens to immune surveillance

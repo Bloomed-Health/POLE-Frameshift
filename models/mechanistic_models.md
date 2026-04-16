@@ -137,7 +137,7 @@ The resolution of specific ages-at-diagnosis provides a powerful new discriminat
 | ~26 | POTS | N/A (neural) |
 | ~27 | Stage IV endometriosis diagnosed | ~28/monthly (rapid) |
 | ~27 | Benign breast tumor (PASH) | Variable/hormonal (~60) |
-| ~28 | Thyroid carcinoma | ~2,920 (~8 years; slow) |
+| ~28 | Thyroid microcarcinoma (0.6 cm, encapsulated, non-invasive) | ~2,920 (~8 years; slow) |
 | ~28 | Adenomyosis (severe → hysterectomy) | ~28/monthly (rapid) |
 
 ### Correlation Analysis

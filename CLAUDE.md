@@ -16,12 +16,13 @@ The central research question is a **mechanistic paradox**: this variant truncat
 
 ## Patient Phenotype (Five Categories + Comorbidity Context)
 
-1. **Neoplastic:** Progressive adenomatous polyposis (~6 adenomas at age 19, accumulating to ~15+ by age 31; stomach, cecum, sigmoid), Stage II papillary thyroid carcinoma (~28; outside established PPAP spectrum)
-2. **Proliferative/stromal:** Bilateral breast changes with PASH, liver FNH/hemangioma
+1. **Neoplastic:** Progressive adenomatous polyposis (~6 adenomas at age 19, accumulating to ~15+ by age 31; stomach, cecum, sigmoid), Stage I papillary thyroid microcarcinoma (~28; encapsulated, non-invasive, 0.6 cm; outside established PPAP spectrum)
+2. **Proliferative/stromal:** Bilateral breast changes with IHC-confirmed PASH (CD34+, CK AE1/AE3−), liver hypervascular lesion (hemangioma vs FNH, segment VII, 16×14 mm) with splenoportal arteriovenous shunt
 3. **Endometrial:** Stage IV+ deep infiltrating endometriosis (~27; thoracic diaphragm, intestinal adhesions), diffuse adenomyosis (~28; severe menorrhagia, iron infusions, syncope → ovarian-sparing total hysterectomy)
 4. **Congenital developmental:** Duplicated inferior vena cava — cannot be explained by somatic LOH, argues for constitutive POLE haploinsufficiency
 5. **Autoimmune/immune:** ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies) — may reflect immune recognition of mitochondrial antigens exposed through POLE-driven dysfunction of nuclear-encoded mitochondrial proteins
 6. **Comorbidity triad:** hEDS/POTS/gastroparesis — creates therapeutic constraints (unreliable oral drug absorption, amplified autonomic side effects) and potential phenotype modifiers (MCAS as pro-tumorigenic microenvironment; altered ECM affecting crypt architecture; dysautonomia modulating neuroimmune axis)
+7. **Family history:** Maternal grandmother had uterine cancer (core PPAP malignancy) + ductal breast cancer. Raises possibility of maternal inheritance; parental testing recommended. Father and paternal grandmother unremarkable.
 
 ## Five Candidate Mechanistic Models
 

@@ -39,7 +39,7 @@ This variant is **ultra-rare**: it has never been observed in any major populati
 
 The patient's presentation spans **five distinct categories**, which is what makes this case so compelling — it goes far beyond just polyps and cancer:
 
-1. **Neoplastic** — ~15 adenomatous polyps across the stomach, cecum, and sigmoid colon, plus a Stage II papillary thyroid carcinoma (not previously linked to PPAP)
+1. **Neoplastic** — ~15 adenomatous polyps across the stomach, cecum, and sigmoid colon, plus a Stage I papillary thyroid microcarcinoma (encapsulated, non-invasive, 0.6 cm; not previously linked to PPAP)
 2. **Proliferative/stromal** — Bilateral breast changes with pseudoangiomatous stromal hyperplasia (PASH) and liver focal nodular hyperplasia (FNH) — a pattern of vascular/stromal proliferation across multiple organs
 3. **Endometrial** — Stage IV+ deep infiltrating endometriosis with trans-diaphragmatic invasion and intestinal adhesions, plus diffuse adenomyosis — extraordinarily severe, affecting one of the most POLE-vulnerable tissues
 4. **Congenital developmental** — A duplicated inferior vena cava (a vascular anomaly present from birth), which **cannot** be caused by a tumor-specific mutation and argues that POLE dysfunction has effects during embryonic development

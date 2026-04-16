@@ -30,7 +30,7 @@
           "label": "Young adult onset"
         }
       },
-      "description": "Stage II cystic variant with squamous metaplasia; diagnosed at age ~28; outside established PPAP tumor spectrum"
+      "description": "Stage I papillary thyroid microcarcinoma; clinical: solid 1.1 cm isthmic nodule; pathology: encapsulated, non-invasive, 0.6 cm carcinoma, left middle thyroid lobe; cystic variant with extensive squamous metaplasia; AJCC 8th ed T1aN0M0 (patient <55 years); associated adenomatoid nodular hyperplasia; diagnosed at age ~28; outside established PPAP tumor spectrum"
     },
     {
       "type": {
@@ -43,7 +43,7 @@
           "label": "Young adult onset"
         }
       },
-      "description": "Bilateral breast changes with PASH; benign; fibroadenomatous change, dense stromal fibrosis, columnar cell change; first diagnosed at age ~27. No specific HPO term for PASH; closest parent term used."
+      "description": "Bilateral proliferative breast changes with PASH; biopsy (2020): columnar cell change, cystic/papillary apocrine metaplasia, stromal fibrosis, focal PASH; IHC: CD34+, CK AE1/AE3- (confirms PASH); left fibroadenomatous change; first diagnosed at age ~27. No specific HPO term for PASH; closest parent term used."
     },
     {
       "type": {
@@ -56,7 +56,7 @@
           "label": "Adult onset"
         }
       },
-      "description": "Benign vascular proliferative lesion(s); FNH lacks specific HPO term; incidental finding"
+      "description": "Segment VII, subcapsular, 16x14 mm; peripheral hypervascular in arterial phase, isodense venous phase, no washout; most likely hemangioma vs FNH; associated splenoportal arteriovenous shunt; FNH lacks specific HPO term; incidental finding"
     },
     {
       "type": {
@@ -69,7 +69,7 @@
           "label": "Young adult onset"
         }
       },
-      "description": "Stage IV+ deep infiltrating endometriosis; trans-diaphragmatic penetration; bilateral ovarian endometriomas; ureteral encasement; appendiceal involvement; symptomatic since ~22, Stage IV diagnosis at ~27"
+      "description": "Stage IV+ deep infiltrating endometriosis; trans-diaphragmatic penetration; bilateral ovarian endometriomas; ureteral encasement; appendiceal involvement; pelvic free fluid; symptomatic since ~22, Stage IV diagnosis at ~27"
     },
     {
       "type": {
@@ -242,8 +242,54 @@
       },
       "excluded": true,
       "description": "Negative finding; no neurodevelopmental conditions observed"
+    },
+    {
+      "type": {
+        "id": "HP:0001062",
+        "label": "Atypical nevus"
+      },
+      "onset": {
+        "ontologyClass": {
+          "id": "HP:0003581",
+          "label": "Adult onset"
+        }
+      },
+      "description": "Non-malignant dysplastic nevus; another tissue type showing proliferative dysregulation"
     }
   ],
+  "pedigree": {
+    "persons": [
+      {
+        "individualId": "POLE-c138del-001",
+        "sex": "FEMALE",
+        "affectedStatus": "AFFECTED"
+      },
+      {
+        "individualId": "POLE-c138del-FATHER",
+        "sex": "MALE",
+        "affectedStatus": "UNAFFECTED",
+        "_comment": "No cancer history; brief gout episode as teenager"
+      },
+      {
+        "individualId": "POLE-c138del-MOTHER",
+        "sex": "FEMALE",
+        "affectedStatus": "UNKNOWN",
+        "_comment": "Not yet tested for POLE c.138del; cascade testing recommended"
+      },
+      {
+        "individualId": "POLE-c138del-PGM",
+        "sex": "FEMALE",
+        "affectedStatus": "UNAFFECTED",
+        "_comment": "Paternal grandmother; no cancer history"
+      },
+      {
+        "individualId": "POLE-c138del-MGM",
+        "sex": "FEMALE",
+        "affectedStatus": "AFFECTED",
+        "_comment": "Maternal grandmother; Stage 1 ductal breast cancer and uterine cancer — uterine cancer is a core PPAP-associated malignancy"
+      }
+    ]
+  },
   "interpretations": [
     {
       "id": "interpretation.POLE-c138del-001",

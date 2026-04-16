@@ -19,7 +19,7 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 
 | Modality | Interval | Notes |
 |----------|----------|-------|
-| **Thyroid ultrasound** | Every 6–12 months | Patient has Stage II papillary thyroid carcinoma (cystic variant with squamous metaplasia). **Not part of established PPAP spectrum** — if POLE signatures confirmed in tumor, surveillance should be recommended for all PPAP carriers |
+| **Thyroid ultrasound** | Every 6–12 months | Patient has Stage I papillary thyroid microcarcinoma (encapsulated, non-invasive, 0.6 cm, left middle lobe; cystic variant with extensive squamous metaplasia; AJCC 8th ed T1aN0M0). **Not part of established PPAP spectrum** — if POLE signatures confirmed in tumor, surveillance should be recommended for all PPAP carriers |
 | **Thyroglobulin monitoring** | Per thyroid cancer follow-up protocol | Standard post-treatment surveillance |
 
 ### Gynecologic
@@ -41,8 +41,8 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 
 | Modality | Interval | Notes |
 |----------|----------|-------|
-| **Liver imaging (US or MRI)** | Every 1–2 years | FNH and/or hemangioma present; monitor for growth or new lesions |
-| **Vascular monitoring** | As clinically indicated | Duplicated IVC (congenital); monitor for thromboembolic complications |
+| **Liver imaging (US or MRI)** | Every 1–2 years | Hypervascular lesion in segment VII (16 × 14 mm; hemangioma vs. FNH); monitor for growth or new lesions |
+| **Vascular monitoring** | As clinically indicated | Duplicated IVC (congenital) and splenoportal arteriovenous shunt; monitor for thromboembolic complications |
 
 ### Molecular Monitoring
 

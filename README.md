@@ -9,7 +9,7 @@
 This repository contains the scientific research framework, clinical documentation, and analysis pipeline specifications for investigating **POLE c.138del (p.Leu46Phefs\*8)** — a pathogenic frameshift variant in the *POLE* gene identified in a female patient with:
 
 - **Ultra-hypermutated tumor phenotype** (TMB >100 mutations/Mb)
-- **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage II papillary thyroid carcinoma (outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension and intestinal adhesions, bilateral proliferative breast changes with PASH, liver FNH/hemangioma, congenital duplicated inferior vena cava, and ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies)
+- **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage I papillary thyroid microcarcinoma (encapsulated, non-invasive, 0.6 cm; outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension and intestinal adhesions, bilateral proliferative breast changes with IHC-confirmed PASH, liver hypervascular lesion (hemangioma vs. FNH), congenital duplicated inferior vena cava, and ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies)
 - **Complete absence from gnomAD** and all major population databases (gnomAD pLI = 0.98, LOEUF = 0.22 — extreme loss-of-function intolerance)
 - **Premature protein truncation at ~residue 54** of the 2,286-amino-acid POLE catalytic subunit
 - **Sole identified genetic driver** — a 47-gene hereditary cancer panel (2022) found no pathogenic variants in APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene
@@ -74,20 +74,20 @@ The patient's phenotype spans five distinct categories — neoplastic, prolifera
 | Finding | Details | PPAP Relevance |
 |---------|---------|----------------|
 | **Gastrointestinal polyposis** | Progressive adenomatous polyposis: ~6 adenomas at first colonoscopy (age 19), accumulating to ~15+ across surveillance at ages 21, 24, 27, 29, ~31 (stomach, cecum, sigmoid colon); chronic gastric gastritis | First non-congenital finding at age 19 — consistent with Model 4 prediction that fastest-dividing tissue (colonic epithelium, 3–5 day turnover) is affected first. Progressive accumulation indicates ongoing mutagenesis. Consistent with attenuated PPAP (Palles et al. 2022) |
-| **Stage II papillary thyroid carcinoma** | Cystic variant with squamous metaplasia | **Not part of established PPAP tumor spectrum.** If SBS10a/b signatures or POLE LOH are confirmed, would formally expand the recognized PPAP phenotype |
+| **Stage I papillary thyroid microcarcinoma** | Encapsulated, non-invasive, 0.6 cm, left middle thyroid lobe. Cystic variant with extensive squamous metaplasia. AJCC 8th ed T1aN0M0 (patient <55 years). Associated adenomatoid nodular hyperplasia | **Not part of established PPAP tumor spectrum.** If SBS10a/b signatures or POLE LOH are confirmed, would formally expand the recognized PPAP phenotype. Encapsulated/non-invasive phenotype notable |
 
 ### Proliferative and Stromal Findings
 
 | Finding | Details | Significance |
 |---------|---------|-------------|
-| **Bilateral breast changes** | Left: 2cm fibroadenomatous change with dense stromal fibrosis. Right: columnar cell change, cystic/papillary apocrine metaplasia, stromal fibrosis, focal pseudoangiomatous stromal hyperplasia (PASH) | Bilateral stromal proliferative dysregulation — pattern suggests a **field effect** rather than focal lesion |
-| **Liver FNH and/or hemangioma** | Benign vascular proliferative lesion(s) | Combined with PASH and duplicated IVC, reveals a pattern of **vascular/stromal proliferative abnormalities across multiple organ systems** |
+| **Bilateral proliferative breast changes with PASH** | Biopsy (2020): columnar cell change, cystic/papillary apocrine metaplasia, stromal fibrosis, focal PASH. IHC: CD34+, CK AE1/AE3− (confirms PASH). Left: fibroadenomatous change with dense stromal fibrosis | IHC-confirmed PASH; bilateral stromal proliferative dysregulation — pattern suggests a **field effect** rather than focal lesion |
+| **Liver hypervascular lesion (hemangioma vs. FNH)** | Segment VII, subcapsular, 16 × 14 mm. Peripheral hypervascular in arterial phase, isodense venous phase, no washout. Associated splenoportal arteriovenous shunt | Combined with IHC-confirmed PASH, duplicated IVC, and arteriovenous shunt — reveals a pattern of **vascular/stromal proliferative abnormalities across multiple organ systems** |
 
 ### Endometrial/Hormonal Findings
 
 | Finding | Details | Significance |
 |---------|---------|-------------|
-| **Stage IV+ deep infiltrating endometriosis** | Trans-diaphragmatic penetration (abdominal → thoracic surface); bilateral ovarian endometriomas (5cm R, 2cm L); uterosacral ligament nodules; retroperitoneal fibrosis with ureteral encasement requiring ureterolysis; ascending colon/bowel adhesions; appendiceal endometriosis (histology-confirmed); posterior cul-de-sac implants | rASRM Stage IV (severe) with extrapelvic extension. Diaphragmatic endometriosis occurs in only ~1.5% of cases; full-thickness trans-diaphragmatic invasion is rarer still |
+| **Stage IV+ deep infiltrating endometriosis** | Trans-diaphragmatic penetration (abdominal → thoracic surface); bilateral ovarian endometriomas (5cm R, 2cm L); uterosacral ligament nodules; retroperitoneal fibrosis with ureteral encasement requiring ureterolysis; ascending colon/bowel adhesions; appendiceal endometriosis (histology-confirmed); posterior cul-de-sac implants; pelvic free fluid | rASRM Stage IV (severe) with extrapelvic extension. Diaphragmatic endometriosis occurs in only ~1.5% of cases; full-thickness trans-diaphragmatic invasion is rarer still. Pelvic free fluid likely secondary to peritoneal inflammation |
 | **Diffuse asymmetric adenomyosis** | Endometrial tissue invading the myometrium; caused severe menorrhagia requiring regular iron infusions and causing syncope; necessitated ovarian-sparing total hysterectomy (~28) | Combined with endometriosis, indicates systemic endometrial tissue dysregulation; severity requiring surgical intervention underscores aggressive endometrial phenotype |
 | **Recurrent SIBO and gastric dysmotility** | Small intestinal bacterial overgrowth; gastric dysmotility requiring medication | May result from bowel adhesions, chronic peritoneal inflammation, and convergence of endometriotic and polyposis GI involvement |
 
@@ -134,7 +134,7 @@ How this patient compares to published PPAP cohort data (Palles et al. 2022, Bel
 | **Polyp count** | 10–100 adenomatous polyps (attenuated) | ~15 sessile adenomatous polyps | Concordant |
 | **Polyp distribution** | Colorectal predominant; gastric in POLE carriers | Stomach, cecum, sigmoid colon | Concordant |
 | **GI features** | Chronic gastritis reported in some POLE carriers | Chronic gastric gastritis; diffuse GI mucosal changes; recurrent SIBO | Concordant |
-| **Cancer types** | Colorectal, endometrial, ovarian, brain (glioma) | Papillary thyroid carcinoma (Stage II) | **Expands spectrum** |
+| **Cancer types** | Colorectal, endometrial, ovarian, brain (glioma) | Papillary thyroid microcarcinoma (Stage I, encapsulated) | **Expands spectrum** |
 | **TMB** | Ultra-hypermutated (>100 mut/Mb) with SBS10a/b | TMB >100 mut/Mb (signatures pending) | Concordant |
 | **Extra-GI neoplastic** | Endometrial cancer (most common); occasional brain, ovarian | Thyroid carcinoma (not previously in PPAP spectrum) | **Expands spectrum** |
 | **Non-neoplastic proliferative** | Not systematically reported | Bilateral PASH, liver FNH/hemangioma | **Novel** |

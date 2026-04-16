@@ -12,6 +12,8 @@ POLE-deficient cells operate near a viability threshold for replication stress a
 | **WRN helicase** | WRN inhibitors | Essential for fork stability at expanded microsatellites if secondary MMR loss creates MSI | Preclinical |
 | **PARP trapping** | Olaparib, Talazoparib | Replication stress increases dependence on PARP1-mediated fork stabilization | Phase II |
 | **dNTP metabolism** | Brequinar (DHODH), low-dose HU | Nucleotide imbalance compounds proofreading deficit | Experimental |
+| **WEE1 kinase** | Adavosertib (AZD1775) | WEE1 inhibition forces premature mitotic entry with unrepaired DNA damage; synergizes with replication stress from POLE deficiency | Phase I/II |
+| **CDK4/6** | Palbociclib, Ribociclib, Abemaciclib | G1/S checkpoint inhibition in combination with replication stress; may force POLE-deficient cells into S-phase with inadequate proofreading capacity | Phase I (combination; no POLE-specific data) |
 | **ATR + PARP** | AZD6738 + Olaparib | ATR inhibition causes HRR deficiency, synergizing with PARP trapping | Phase I/II |
 
 ## Evidence
@@ -27,6 +29,13 @@ POLE-deficient cells operate near a viability threshold for replication stress a
 - Relevant only if secondary MMR loss creates microsatellite instability
 - WRN dependency is well-established in MSI-H cancers (Behan et al., 2019)
 
+### WEE1
+
+- WEE1 is a G2/M checkpoint kinase; its inhibition forces cells with DNA damage into mitosis
+- Smith HL et al. (2024) demonstrated WEE1 inhibitors cause HRR deficiency, creating synthetic lethality with PARP inhibitors
+- POLE-deficient cells with elevated replication errors may be selectively vulnerable to premature mitotic entry
+- Adavosertib has shown clinical activity in combination with other DDR inhibitors in Phase I/II trials
+
 ### PARP
 
 - Smith HL et al. (2024) — ATR/CHK1/WEE1 inhibitors create HRR deficiency, synergizing with PARP inhibitors
@@ -36,8 +45,10 @@ POLE-deficient cells operate near a viability threshold for replication stress a
 
 1. **ATR inhibitors** — strongest mechanistic rationale and most advanced clinical development
 2. **PARP inhibitors** — well-characterized safety profile; potential combination with ATR
-3. **WRN inhibitors** — conditional on MSI status
-4. **dNTP metabolism** — experimental; requires preclinical validation
+3. **WEE1 inhibitors** — strong mechanistic rationale (forces mitotic entry with unrepaired errors); adavosertib in Phase I/II
+4. **WRN inhibitors** — conditional on MSI status
+5. **CDK4/6 inhibitors** — potential combination with replication stress inducers; well-characterized safety profile
+6. **dNTP metabolism** — experimental; requires preclinical validation
 
 ## Comorbidity-Specific Therapeutic Risks
 

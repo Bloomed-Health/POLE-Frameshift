@@ -92,8 +92,24 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 ## Chemoprevention
 
 - **Aspirin:** Biological rationale from CAPP2 trial in Lynch syndrome; consider n-of-1 design
-- **Dose:** 600mg daily (CAPP2 dose) or lower dose pending tolerability
+- **Dose considerations:** The CAPP2 trial used 600 mg daily, but this dose carries significant GI risk in this patient given chronic gastritis, gastroparesis, and GI polyposis with friable mucosa. **Low-dose aspirin (81 mg daily)** may be a safer alternative — the CaPP3 trial (NCT02497820) is comparing 100 mg, 300 mg, and 600 mg doses in Lynch syndrome carriers and may provide dose-response data. Consider starting at 81 mg with GI monitoring and gastroenterology input.
 - **Evidence:** Indirect; no PPAP-specific chemoprevention data
+- **Contraindication monitoring:** GI bleeding risk assessment at each colonoscopy; discontinue if new gastric erosions or polyp-site bleeding
+
+## Clinical Trial Matching
+
+The patient's unique genomic profile (POLE c.138del, TMB >100 mut/Mb) should be matched against active clinical trials. Relevant eligibility categories:
+
+| Trial Category | Search Terms | Key Registries |
+|---------------|-------------|----------------|
+| **POLE-mutant solid tumors** | "POLE mutation" AND "immunotherapy" | ClinicalTrials.gov, EU Clinical Trials Register |
+| **TMB-high solid tumors** | "tumor mutational burden" AND (">10" OR "high") | ClinicalTrials.gov |
+| **DNA repair-deficient cancers** | "DNA damage response" AND ("ATR" OR "PARP" OR "WEE1") | ClinicalTrials.gov |
+| **Neoantigen vaccination** | "neoantigen" AND "vaccine" AND "solid tumor" | ClinicalTrials.gov |
+| **Preventive immunotherapy** | "cancer prevention" AND "checkpoint" | ClinicalTrials.gov |
+| **Hereditary cancer syndromes** | "PPAP" OR "polyposis" AND "immunotherapy" | ClinicalTrials.gov |
+
+**Matching criteria for this patient:** TMB >100 mut/Mb, POLE pathogenic variant, no prior ICI, history of adenomatous polyposis, thyroid carcinoma (resected Stage I), endometriosis (post-hysterectomy). Key exclusion considerations: autoimmune markers (ANA 1:160), dysautonomia (POTS), and gastroparesis may affect eligibility for some trials.
 
 ## Genetic Counseling
 
@@ -101,12 +117,16 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 - Cascade family testing (acknowledging penetrance uncertainty for truncating variants)
 - Psychosocial support for rare variant carriers
 - Discussion of expanded tumor spectrum (thyroid) beyond standard PPAP counseling
+- **Fertility-specific considerations:** Patient has retained ovaries post-hysterectomy. Oocyte cryopreservation or IVF with PGT-M remains possible. POLE's role in meiotic DNA replication has not been specifically studied — theoretical concern that haploinsufficiency could affect oocyte genomic integrity, but no evidence exists to contraindicate fertility treatments
+- **hEDS interaction:** Connective tissue disorder may independently affect reproductive outcomes; coordinate genetic counseling across both conditions
 
 ## Novel Research Questions Arising from This Patient's Phenotype
 
-1. **Does POLE haploinsufficiency contribute to endometriosis severity?** Never investigated; could have implications for ~10% of reproductive-age women
-2. **Should thyroid cancer surveillance be added to PPAP protocols?** Contingent on confirming POLE signatures in the thyroidectomy specimen
-3. **Does POLE dysfunction cause congenital vascular anomalies?** The duplicated IVC suggests possible developmental effects of germline POLE haploinsufficiency
-4. **Is there a POLE-associated vascular/stromal proliferative phenotype?** Bilateral PASH, liver FNH, and duplicated IVC form a pattern across organs
-5. **Do POLE carriers have elevated rates of anti-mitochondrial antibodies?** The ANA AC-21 finding suggests POLE-driven mutagenesis of nuclear-encoded mitochondrial genes may impair mitochondrial integrity, exposing antigens to immune surveillance
-6. **Do endometriotic lesions in POLE carriers show POLE mutational signatures?** If residual endometriotic tissue is biopsied (e.g., during laparoscopy), NanoSeq or targeted sequencing could determine whether SBS10a/b signatures are present — testing the POLE-endometriosis hypothesis directly. Anglesio et al. (2017) showed 79% of deep infiltrating endometriosis harbors somatic mutations; determining whether POLE-carrier endometriosis shows a distinctive mutational signature would be a first-in-class finding
+Each hypothesis is rated: **Supported** (direct evidence from this case), **Plausible** (consistent with biology, no direct evidence), or **Speculative** (requires significant validation).
+
+1. **Does POLE haploinsufficiency contribute to endometriosis severity?** *(Supported)* Never investigated; could have implications for ~10% of reproductive-age women. *Confound: hEDS independently causes severe endometriosis — disentangling POLE from hEDS contribution requires cohort data*
+2. **Should thyroid cancer surveillance be added to PPAP protocols?** *(Supported)* Contingent on confirming POLE signatures in the thyroidectomy specimen
+3. **Does POLE dysfunction cause congenital vascular anomalies?** *(Speculative)* The duplicated IVC suggests possible developmental effects, but the base rate is 0.6–2.6% in the general population — single-case observation insufficient
+4. **Is there a POLE-associated vascular/stromal proliferative phenotype?** *(Plausible)* Bilateral PASH, liver FNH, and duplicated IVC form a pattern across organs
+5. **Do POLE carriers have elevated rates of anti-mitochondrial antibodies?** *(Speculative)* The ANA AC-21 finding is suggestive, but ANA 1:160 occurs in ~5–15% of healthy women; requires cohort-level AMA testing in POLE carriers
+6. **Do endometriotic lesions in POLE carriers show POLE mutational signatures?** *(Plausible)* If residual endometriotic tissue is biopsied (e.g., during laparoscopy), NanoSeq or targeted sequencing could determine whether SBS10a/b signatures are present — testing the POLE-endometriosis hypothesis directly. Anglesio et al. (2017) showed 79% of deep infiltrating endometriosis harbors somatic mutations; determining whether POLE-carrier endometriosis shows a distinctive mutational signature would be a first-in-class finding

@@ -32,7 +32,7 @@ Submitting to ClinVar will make this variant discoverable by other clinical labs
 |-----------|------|----------|----------|
 | **PVS1** | Null variant in a gene where LoF is a known mechanism of disease | Very Strong | Frameshift at codon 46 of 2,286 — eliminates all major catalytic domains (exonuclease, polymerase). POLE LoF intolerance: pLI = 0.98, LOEUF = 0.22. Heterozygous POLE exonuclease domain variants cause PPAP (OMIM 612591). |
 | **PM2** | Absent from controls | Moderate | Not found in gnomAD v4 (0/1,614,586 alleles), ExAC, or any population database |
-| **PP4** | Patient phenotype highly specific for the gene | Supporting | Ultra-hypermutated tumor (TMB >100 mut/Mb), progressive adenomatous polyposis (~6 adenomas age 19, accumulating to ~15+ by age 31), Stage I papillary thyroid microcarcinoma (encapsulated, non-invasive, 0.6 cm) — phenotype consistent with PPAP |
+| **PP4** | Patient phenotype highly specific for the gene | Supporting | Ultra-hypermutated tumor (TMB >100 mut/Mb), progressive adenomatous polyposis (~6 adenomas age 19, accumulating to ~15+ by age 31), Stage I papillary thyroid microcarcinoma (encapsulated, non-invasive, 0.6 cm) — phenotype consistent with PPAP. **Limitation:** PP4 is Supporting-level evidence and does not include functional data; the phenotype-genotype link would be strengthened by confirming POLE mutational signatures (SBS10a/b) or LOH at the POLE locus in the tumor |
 
 **Combined classification: Pathogenic** (PVS1 + PM2 + PP4)
 

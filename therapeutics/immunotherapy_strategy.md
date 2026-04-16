@@ -32,6 +32,16 @@ The POLE c.138del tumor has TMB >100 mutations/Mb, far exceeding the FDA tissue-
 - **Setting:** Adjuvant, post-resection, in combination with anti-PD-1
 - **Rationale:** Extreme neoantigen load provides abundant high-quality vaccine targets
 
+### Emerging Immunotherapy Approaches
+
+| Approach | Rationale | Evidence Level |
+|----------|-----------|----------------|
+| **Anti-LAG3 (relatlimab)** | Co-inhibitory receptor frequently co-expressed with PD-1 on exhausted TILs; relatlimab + nivolumab FDA-approved for melanoma (2022) | **FDA-approved** (melanoma; extrapolated to TMB-high) |
+| **Anti-TIGIT (tiragolumab, domvanalimab)** | TIGIT expressed on tumor-infiltrating T cells and NK cells; may complement anti-PD-1 | **Phase III** (NSCLC; no POLE-specific data) |
+| **Bispecific T-cell engagers (e.g., tebentafusp-class)** | Redirect T cells to tumor-associated antigens; ultra-hypermutated tumors provide abundant neoantigen targets | **Phase I/II** (various solid tumors; theoretical applicability to POLE) |
+| **Tumor-infiltrating lymphocyte (TIL) therapy** | Ex vivo expansion of autologous TILs; ultra-hypermutated tumors expected to have highly reactive TIL populations | **Phase II** (melanoma, approved as lifileucel; no POLE-specific data) |
+| **Neoantigen-directed ADCs** | Antibody-drug conjugates targeting tumor-specific neoantigens | **Preclinical** (theoretical; dependent on neoantigen surface expression) |
+
 ### Preventive Immunotherapy (Hypothesis-Generating Only)
 
 - **Setting:** Pre-cancer, in PPAP carriers
@@ -75,6 +85,29 @@ The patient's hEDS/POTS/gastroparesis triad creates specific constraints and ris
 | **Gastroparesis** | Delayed and erratic gastric emptying → unreliable oral drug absorption | Prefer IV formulations; if oral agents required, consider liquid/sublingual forms; monitor drug levels |
 | **POTS** | Orthostatic intolerance during infusions; autonomic instability | Extended infusion protocols; IV hydration pre/post; supine or reclined infusion positioning |
 | **GI dysmotility** | Baseline nausea, bloating, SIBO overlap complicates irAE detection | Establish detailed GI symptom baseline before ICI initiation; use validated PRO instruments |
+
+### MCAS Pre-Medication Protocol (If Confirmed)
+
+If mast cell activation syndrome is confirmed through diagnostic workup (tryptase, urinary PGD2 metabolites, N-methylhistamine), all ICI infusions and contrast-enhanced imaging require a standardized pre-medication protocol to prevent mast cell degranulation reactions:
+
+| Timing | Agent | Dose | Route |
+|--------|-------|------|-------|
+| **12h pre-infusion** | Cetirizine (H1 blocker) | 10 mg | PO |
+| **12h pre-infusion** | Famotidine (H2 blocker) | 20 mg | PO |
+| **1h pre-infusion** | Montelukast (leukotriene inhibitor) | 10 mg | PO |
+| **30 min pre-infusion** | Diphenhydramine | 25–50 mg | IV |
+| **30 min pre-infusion** | Famotidine | 20 mg | IV |
+| **Consider** | Cromolyn sodium | 200 mg QID | PO (starting 48h prior) |
+
+**Note:** Oral medications may have unreliable absorption due to gastroparesis — IV pre-medications should be preferred where available. Onset of any infusion reaction should be managed as potential mast cell degranulation (epinephrine, not just diphenhydramine).
+
+### Levothyroxine-ICI Interaction Monitoring
+
+The patient is post-total thyroidectomy on lifelong levothyroxine. ICI agents can affect levothyroxine absorption and metabolism:
+
+- **TSH monitoring:** Every 6 weeks during ICI induction (first 4 cycles), then every 12 weeks
+- **Mechanism:** ICI-induced GI inflammation can alter levothyroxine absorption; autoimmune gastritis (irAE) can further impair absorption
+- **Action threshold:** TSH outside 0.5–2.0 mU/L range warrants dose adjustment; TSH >10 mU/L requires urgent endocrinology input
 
 ### ICI-Specific Risks in Dysautonomia
 

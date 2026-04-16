@@ -87,7 +87,7 @@ The patient's phenotype spans five distinct categories — neoplastic, prolifera
 
 | Finding | Details | Significance |
 |---------|---------|-------------|
-| **Stage IV+ deep infiltrating endometriosis** | Trans-diaphragmatic penetration (abdominal → thoracic surface); bilateral ovarian endometriomas (5cm R, 2cm L); uterosacral ligament nodules; retroperitoneal fibrosis with ureteral encasement requiring ureterolysis; ascending colon/bowel adhesions; appendiceal endometriosis (histology-confirmed); posterior cul-de-sac implants; pelvic free fluid | rASRM Stage IV (severe) with extrapelvic extension. Diaphragmatic endometriosis is rare; full-thickness trans-diaphragmatic invasion is rarer still. Pelvic free fluid likely secondary to peritoneal inflammation |
+| **Stage IV+ deep infiltrating endometriosis** | Trans-diaphragmatic penetration (abdominal → thoracic surface); bilateral ovarian endometriomas (5cm R, 2cm L); uterosacral ligament nodules; retroperitoneal fibrosis with ureteral encasement requiring ureterolysis; ascending colon/bowel adhesions; appendiceal endometriosis (histology-confirmed); posterior cul-de-sac implants; pelvic free fluid | rASRM Stage IV (severe) with extrapelvic extension. Diaphragmatic endometriosis occurs in an estimated 0.6–1.5% of endometriosis patients overall (Nezhat et al., 2019), though estimates vary widely due to diagnostic difficulty; full-thickness trans-diaphragmatic invasion is rarer still. Pelvic free fluid likely secondary to peritoneal inflammation |
 | **Diffuse asymmetric adenomyosis** | Endometrial tissue invading the myometrium; caused severe menorrhagia requiring regular iron infusions and causing syncope; necessitated ovarian-sparing total hysterectomy (~28) | Combined with endometriosis, indicates systemic endometrial tissue dysregulation; severity requiring surgical intervention underscores aggressive endometrial phenotype |
 | **Recurrent SIBO and gastric dysmotility** | Small intestinal bacterial overgrowth; gastric dysmotility requiring medication | May result from bowel adhesions, chronic peritoneal inflammation, and convergence of endometriotic and polyposis GI involvement |
 
@@ -97,13 +97,13 @@ The patient's phenotype spans five distinct categories — neoplastic, prolifera
 
 | Finding | Details | Significance |
 |---------|---------|-------------|
-| **Duplicated inferior vena cava** | Congenital vascular anomaly present from embryonic development | **Cannot be explained by somatic mutations or tumor-related processes.** Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during embryogenesis. This suggests POLE haploinsufficiency may have **developmental consequences** — arguing against the pure LOH model (Model 1) as the sole explanation |
+| **Duplicated inferior vena cava** | Congenital vascular anomaly present from embryonic development | **Cannot be explained by somatic mutations or tumor-related processes.** Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during embryogenesis. This suggests POLE haploinsufficiency may have **developmental consequences** — arguing against the pure LOH model (Model 1) as the sole explanation. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass & Redwine, 2010), so this finding alone could be coincidental — its significance derives from co-occurrence with other vascular/stromal findings |
 
 ### Autoimmune/Immune Findings
 
 | Finding | Details | Significance |
 |---------|---------|-------------|
-| **ANA 1:160, AC-21 pattern** | Reticular cytoplasmic pattern (ICAP AC-21), characteristically associated with anti-mitochondrial antibodies (AMA targeting PDC-E2 on the inner mitochondrial membrane) | May represent immune recognition of mitochondrial antigens exposed through POLE-driven dysfunction of nuclear-encoded mitochondrial proteins. Warrants AMA-specific ELISA confirmation |
+| **ANA 1:160, AC-21 pattern** | Reticular cytoplasmic pattern (ICAP AC-21), characteristically associated with anti-mitochondrial antibodies (AMA targeting PDC-E2 on the inner mitochondrial membrane) | May represent immune recognition of mitochondrial antigens exposed through POLE-driven dysfunction of nuclear-encoded mitochondrial proteins. Warrants AMA-specific ELISA confirmation. **Base rate context:** ANA positivity at 1:160 occurs in ~5–15% of healthy women (Satoh et al., 2012; Mariz et al., 2011); however, the specific AC-21 reticular cytoplasmic pattern is uncommon in healthy populations and is strongly associated with AMA/PBC |
 
 > The AC-21 finding provides serological evidence for a mitochondrial stress pathway: POLE haploinsufficiency → elevated mutations in ~1,500 nuclear-encoded mitochondrial genes → impaired mitochondrial protein function → membrane perturbation and antigen exposure → AMA production. This connects to the patient's liver FNH/hemangioma (AMA are the serological hallmark of primary biliary cholangitis) and to the broader pattern of innate immune activation, as mitochondrial DAMPs (mtDNA, cardiolipin, formylated peptides) activate TLR9 and NLRP3 inflammasome pathways. No study has examined AMA rates in POLE/POLD1 carriers — this finding generates the testable prediction that autoantibody profiling should be part of systematic POLE carrier phenotyping. See full clinical detail in [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md).
 
@@ -117,6 +117,20 @@ The patient's phenotype must be interpreted in the context of co-occurring **hyp
 - **Computational modeling:** The proposed digital twin model should incorporate parameters for altered crypt geometry and replicative stress from connective tissue abnormality (hEDS-related ECM changes), not just POLE dosage alone.
 
 See [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md) for full comorbidity context, modifier assessment framework, and MCAS evaluation protocol.
+
+### Disentangling POLE-Attributable vs. hEDS-Attributable Phenotypes
+
+Several clinical findings in this patient could be attributed to either POLE haploinsufficiency or hEDS, creating a confounding problem that must be explicitly addressed:
+
+| Finding | POLE Attribution | hEDS Attribution | Distinguishing Approach |
+|---------|-----------------|-----------------|------------------------|
+| **Stage IV+ endometriosis** | POLE haploinsufficiency elevates mutation rate in endometrial stem cells → more clones with invasive potential | hEDS causes altered ECM, increased tissue laxity, and chronic inflammation → more permissive environment for endometrial implantation | Endometriotic lesion sequencing: if SBS10a/b signatures present, POLE contribution confirmed |
+| **GI dysmotility / gastroparesis** | POLE-driven polyposis and mucosal inflammation | hEDS-associated autonomic dysfunction and visceral hypermobility | GI motility studies + polyp-independent symptom assessment |
+| **Bilateral PASH** | POLE-driven stromal proliferative field effect | hEDS alters stromal collagen architecture; PASH may be more common in connective tissue disorders | Histologic review: collagen ultrastructure vs. CD34+ stromal proliferation pattern |
+| **Liver vascular lesion** | POLE-associated vascular/stromal proliferation | FNH/hemangioma prevalence similar in general population (~0.03–0.3% for FNH) | Could be coincidental; significance derives from co-occurrence pattern |
+| **Severe menorrhagia** | POLE-driven endometrial dysfunction (adenomyosis) | hEDS causes impaired hemostasis, vascular fragility | Pre-hysterectomy histology review for mutation signatures |
+
+**Key insight:** hEDS alone could plausibly explain the severe endometriosis (through altered ECM and chronic peritoneal inflammation), GI dysmotility, and some vascular findings. The features most likely attributable to POLE include the progressive adenomatous polyposis, thyroid carcinoma, ultra-hypermutated TMB, and potentially the specific pattern of endometrial tissue becoming malignancy-adjacent (adenomyosis severe enough to require hysterectomy). Molecular testing (mutational signature analysis of endometriotic and breast tissue) is the definitive approach to disentangle these overlapping phenotypes.
 
 ### Pattern Across Findings
 
@@ -251,7 +265,7 @@ The patient's multi-system phenotype provides immediate discriminatory evidence 
 | **GI polyposis** | Possible | Possible | Possible | Supports (high-turnover epithelium) | Possible | Possible |
 | **ANA AC-21 (AMA)** | Neutral | Neutral | Neutral | Supports (mitochondrial stress from systemic mutagenesis) | Neutral | Neutral |
 
-The **congenital duplicated IVC** is the single most important clinical discriminator — it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). The **ANA AC-21 pattern** (anti-mitochondrial antibodies) adds a new dimension: if POLE haploinsufficiency elevates mutation rates in nuclear-encoded mitochondrial genes (~1,500 genes), the resulting mitochondrial dysfunction could expose inner membrane antigens to immune surveillance, producing AMA. The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis, potential AMA) collectively argue against Model 1 operating alone, as independent LOH in each organ would be an extraordinary coincidence.
+The **congenital duplicated IVC** is the single most important clinical discriminator — it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). However, duplicated IVC occurs in 0.6–2.6% of the general population, so its significance rests on the co-occurrence with other vascular/stromal proliferative findings rather than as an isolated observation. The **ANA AC-21 pattern** (anti-mitochondrial antibodies) adds a new dimension: if POLE haploinsufficiency elevates mutation rates in nuclear-encoded mitochondrial genes (~1,500 genes), the resulting mitochondrial dysfunction could expose inner membrane antigens to immune surveillance, producing AMA. Note that ANA positivity at ≥1:160 occurs in ~5–15% of healthy women, but the specific AC-21 reticular cytoplasmic pattern is uncommon in healthy populations and strongly associated with PBC. The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis, potential AMA) collectively argue against Model 1 operating alone, as independent LOH in each organ would be an extraordinary coincidence.
 
 ### Current Leading Theory (Updated 2026-04-16)
 
@@ -297,14 +311,24 @@ The congenital duplicated IVC (earliest onset) and childhood-onset hEDS features
 
 ## Novel Research Questions
 
-The clinical phenotype generates questions beyond the six mechanistic models:
+The clinical phenotype generates questions beyond the six mechanistic models. Each hypothesis is rated by confidence level:
 
-1. **Does POLE haploinsufficiency contribute to endometriosis severity?** Never investigated. The endometrium is a rapidly cycling, POLE-vulnerable tissue, and endometriosis affects ~10% of reproductive-age women. If a connection exists, it has implications far beyond this patient.
-2. **Should thyroid cancer be added to the PPAP tumor spectrum?** Thyroid cancer has not been systematically reported in PPAP carriers. Confirming POLE signatures (SBS10a/b) or LOH at the POLE locus in the thyroidectomy specimen would formally expand the recognized phenotype.
-3. **Do POLE truncation variant carriers have an elevated rate of congenital anomalies?** The duplicated IVC suggests possible developmental effects of germline POLE haploinsufficiency — testable through retrospective phenotyping of POLE carrier cohorts.
-4. **Are bilateral stromal proliferative changes (PASH, FNH) a feature of systemic POLE dysfunction?** The pattern of vascular/stromal proliferation across breast and liver suggests a field effect that has not been described in PPAP.
-5. **Do POLE carriers have elevated rates of anti-mitochondrial antibodies or other organelle-targeting autoantibodies?** The ANA AC-21 finding suggests POLE-driven mutagenesis of nuclear-encoded mitochondrial genes may impair mitochondrial integrity, exposing inner membrane antigens (PDC-E2) to immune surveillance. If confirmed, autoantibody profiling should become part of systematic POLE carrier phenotyping.
-6. **Do other POLE truncation carriers show non-neoplastic multi-system phenotypes?** The 6 LoF variants identified by Valle et al. (2020) in 2,813 probands are the critical comparator set. Retrospective multi-system phenotyping of these carriers — assessing connective tissue, dysautonomia, congenital anomalies, autoimmunity, and endometriosis — could determine whether the expanded phenotype is unique to c.138del or a general feature of POLE truncation. See [`docs/pole_carrier_registry_crossref.md`](docs/pole_carrier_registry_crossref.md) for the full cross-reference analysis and proposed collaborative study.
+- **Supported** — At least one direct data point from this case plus biological plausibility
+- **Plausible** — Consistent with known biology; no direct evidence against, but also no direct evidence for
+- **Speculative** — Interesting but requires significant validation; alternative explanations exist
+
+| # | Hypothesis | Confidence | Rationale for Rating |
+|---|-----------|------------|---------------------|
+| 1 | **Does POLE haploinsufficiency contribute to endometriosis severity?** | **Supported** | Direct evidence: Stage IV+ endometriosis in a POLE carrier; endometrium is high-turnover, POLE-vulnerable tissue; endometriosis affects ~10% of reproductive-age women. *Confound: hEDS independently causes severe endometriosis (see below)* |
+| 2 | **Should thyroid cancer be added to the PPAP tumor spectrum?** | **Supported** | Direct evidence: Stage I PTC in this POLE carrier; thyroid not previously in PPAP spectrum. Contingent on confirming POLE signatures in thyroidectomy specimen |
+| 3 | **Do POLE truncation carriers have elevated rates of congenital anomalies?** | **Speculative** | Single observation: duplicated IVC in one carrier. Base rate 0.6–2.6% in general population; could be coincidental. Requires cohort-level data from POLE carrier registries |
+| 4 | **Are bilateral stromal proliferative changes (PASH, FNH) a feature of systemic POLE dysfunction?** | **Plausible** | Pattern of vascular/stromal proliferation across breast and liver suggests field effect, but these findings are individually common (PASH ~23% of breast biopsies; FNH prevalence ~0.03–0.3%) |
+| 5 | **Do POLE carriers have elevated rates of anti-mitochondrial antibodies?** | **Speculative** | Single observation: ANA AC-21 in one carrier. Mechanistic logic is compelling (POLE mutagenesis → mitochondrial gene dysfunction → antigen exposure), but ANA 1:160 occurs in ~5–15% of healthy women; the specific AC-21 pattern is more informative but still n=1 |
+| 6 | **Do other POLE truncation carriers show non-neoplastic multi-system phenotypes?** | **Plausible** | The 6 LoF variants identified by Valle et al. (2020) in 2,813 probands are the critical comparator set. Retrospective phenotyping is feasible and would be definitive |
+| 7 | **Does POLE haploinsufficiency affect telomere maintenance?** | **Speculative** | POLE interacts with the shelterin complex; haploinsufficiency could affect telomere replication fidelity. No direct evidence from this case; testable via telomere length analysis in patient cells |
+| 8 | **Does POLE haploinsufficiency affect immune cell development?** | **Speculative** | POLE is essential for all proliferating cells including lymphocyte expansion; haploinsufficiency could subtly alter immune repertoire development. No direct evidence; testable via deep immune profiling |
+
+See [`docs/pole_carrier_registry_crossref.md`](docs/pole_carrier_registry_crossref.md) for the full cross-reference analysis and proposed collaborative study.
 
 ---
 
@@ -414,6 +438,8 @@ Blood tests represent the most accessible experimental approach, spanning genomi
 | **ATR-CHK1** | Ceralasertib, Berzosertib, Elimusertib | POLE-deficient cells near viability threshold for replication stress; ATR inhibition causes replication catastrophe | Phase I/II | **Preclinical + Phase I/II** (ATR-POLE synthetic lethality shown in cell lines; clinical trials in DDR-deficient tumors, not POLE-specific) |
 | **WRN helicase** | WRN inhibitors | If secondary MMR loss creates MSI, WRN is essential for fork stability at expanded microsatellites | Preclinical | **Preclinical** (WRN dependency validated in MSI-H cell lines; conditional on this tumor acquiring secondary MMR loss) |
 | **PARP trapping** | Olaparib, Talazoparib | Replication stress may increase dependence on PARP1-mediated fork stabilization | Phase II | **Phase II** (PARP inhibitors approved for BRCA; POLE-specific synthetic lethality is mechanistic extrapolation) |
+| **WEE1 kinase** | Adavosertib (AZD1775) | WEE1 inhibition forces premature mitotic entry with unrepaired DNA damage; synergizes with replication stress | Phase I/II | **Phase I/II** (clinical activity in DDR-deficient tumors; no POLE-specific data) |
+| **CDK4/6** | Palbociclib, Ribociclib, Abemaciclib | G1/S checkpoint inhibition combined with replication stress may selectively kill POLE-deficient cells | Phase I (combination) | **Phase I** (combination rationale; CDK4/6 inhibitors approved for breast cancer) |
 | **dNTP metabolism** | Brequinar (DHODH), low-dose HU | Nucleotide imbalance compounds proofreading deficit; may push mutation rate beyond viability | Experimental | **Experimental** (theoretical rationale; no POLE-specific preclinical data) |
 | **ATR + PARP** | AZD6738 + Olaparib | ATR inhibition causes HRR deficiency, synergizing with PARP trapping | Phase I/II | **Phase I/II** (combination trials in DDR-deficient tumors; synergy demonstrated in cell lines) |
 
@@ -421,7 +447,7 @@ Blood tests represent the most accessible experimental approach, spanning genomi
 
 - Expanded multi-organ surveillance beyond standard PPAP protocol
 - ctDNA monitoring for molecular-level recurrence detection
-- Aspirin chemoprevention (biological rationale from CAPP2 trial in Lynch syndrome; n-of-1 design)
+- Aspirin chemoprevention (biological rationale from CAPP2 trial in Lynch syndrome; n-of-1 design). **Dose note:** The CAPP2 dose (600 mg) carries significant GI risk given gastroparesis and gastric polyposis; 81 mg may be safer (CaPP3 trial comparing doses)
 - Reproductive genetic counseling with PGT-M, acknowledging penetrance uncertainty
 
 See detailed strategies: [`therapeutics/immunotherapy_strategy.md`](therapeutics/immunotherapy_strategy.md) | [`therapeutics/synthetic_lethality.md`](therapeutics/synthetic_lethality.md) | [`therapeutics/surveillance_protocol.md`](therapeutics/surveillance_protocol.md) | [`therapeutics/pharmacokinetic_considerations.md`](therapeutics/pharmacokinetic_considerations.md)
@@ -534,6 +560,8 @@ Foundational investments that redefine the field.
 ### Translational Reinitiation & NMD
 
 - **Sherlock ME et al. (2023) Principles, mechanisms, and biological implications of translation termination-reinitiation. *RNA* 29(7):865–884.** — Definitive review of reinitiation after premature stops; directly relevant to Model 2.
+- Kozak M (1986) Point mutations define a sequence flanking the AUG initiator codon that modulates translation by eukaryotic ribosomes. *Cell* 44:283–292. — Foundational description of Kozak consensus sequence.
+- Kozak M (1987) An analysis of 5'-noncoding sequences from 699 vertebrate messenger RNAs. *Nucleic Acids Research* 15:8125–8148. — Comprehensive Kozak context analysis; strong consensus: GCC(A/G)CCAUGG.
 - Lindeboom RGH, Supek F, Lehner B (2016) The rules and impact of nonsense-mediated mRNA decay in human cancers. *Nature Genetics* 48(10):1112–1118. — Systematic NMD rules from 9,769 tumors; foundational for predicting NMD escape of c.138del.
 - Lindeboom RGH et al. (2019) The impact of nonsense-mediated mRNA decay on genetic disease, gene editing and cancer immunotherapy. *Nature Genetics* 51(11):1645–1651. — NMDetective resource for genome-wide NMD prediction.
 
@@ -552,9 +580,12 @@ Foundational investments that redefine the field.
 
 - **Alexandrov LB et al. (2020) The repertoire of mutational signatures in human cancer. *Nature* 578:94–101.** — COSMIC v3 catalog: 49 SBS, 11 DBS, 17 ID signatures from 4,645 whole genomes. Reference standard for SBS10a/b/28.
 
-### Colonic Crypt Dynamics
+### Colonic Crypt Dynamics & Tissue Kinetics
 
 - **Lee-Six H et al. (2019) The landscape of somatic mutation in normal colorectal epithelial cells. *Nature* 574:532–537.** — WGS of normal crypts from 42 individuals; baseline comparator for Model 4 haploinsufficiency.
+- Barker N (2014) Adult intestinal stem cells: critical drivers of epithelial homeostasis and regeneration. *Nature Reviews Molecular Cell Biology* 15:19–33. — Colonic crypt stem cell division rates.
+- Coclet J et al. (1989) Cell population kinetics in dog and human adult thyroid. *Clinical Endocrinology* 31:655–665. — Thyroid follicular cell turnover (~5–8 years in adults).
+- Gargett CE et al. (2016) Endometrial stem/progenitor cells: the first 10 years. *Human Reproduction Update* 22:137–163. — Endometrial regeneration and stem cell dynamics.
 
 ### POLE Mouse Models
 

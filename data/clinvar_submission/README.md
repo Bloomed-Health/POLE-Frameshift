@@ -30,7 +30,7 @@ Submitting to ClinVar will make this variant discoverable by other clinical labs
 
 | Criterion | Code | Strength | Evidence |
 |-----------|------|----------|----------|
-| **PVS1** | Null variant in a gene where LoF is a known mechanism of disease | Very Strong | Frameshift at codon 46 of 2,286 — eliminates all functional domains. POLE LoF intolerance: pLI = 0.98, LOEUF = 0.22. Heterozygous POLE exonuclease domain variants cause PPAP (OMIM 612591). |
+| **PVS1** | Null variant in a gene where LoF is a known mechanism of disease | Very Strong | Frameshift at codon 46 of 2,286 — eliminates all major catalytic domains (exonuclease, polymerase). POLE LoF intolerance: pLI = 0.98, LOEUF = 0.22. Heterozygous POLE exonuclease domain variants cause PPAP (OMIM 612591). |
 | **PM2** | Absent from controls | Moderate | Not found in gnomAD v4 (0/1,614,586 alleles), ExAC, or any population database |
 | **PP4** | Patient phenotype highly specific for the gene | Supporting | Ultra-hypermutated tumor (TMB >100 mut/Mb), progressive adenomatous polyposis (~6 adenomas age 19, accumulating to ~15+ by age 31), Stage I papillary thyroid microcarcinoma (encapsulated, non-invasive, 0.6 cm) — phenotype consistent with PPAP |
 
@@ -40,7 +40,7 @@ Submitting to ClinVar will make this variant discoverable by other clinical labs
 
 1. **Novel variant class for PPAP.** All previously reported pathogenic PPAP variants are missense mutations within the exonuclease domain (P286R, V411L, L424V, S459F). This is the first reported frameshift variant producing a PPAP phenotype. The Mur et al. (2023) gene-specific ACMG/AMP guidelines for POLE/POLD1 were designed for exonuclease domain missense variants and do not cover truncating variants upstream of the exonuclease domain.
 
-2. **Mechanism under investigation.** Five candidate mechanistic models are being evaluated (LOH, translational reinitiation, NMD escape + holoenzyme poisoning, replication stress-dependent haploinsufficiency, isoform-specific effects). The phenotype is unambiguous; the molecular mechanism by which a truncating variant produces a dominant PPAP phenotype is the subject of active research.
+2. **Mechanism under investigation.** Six candidate mechanistic models are being evaluated (LOH, translational reinitiation, NMD escape + holoenzyme poisoning, replication stress-dependent haploinsufficiency, isoform-specific effects, second-site somatic POLE mutation). The phenotype is unambiguous; the molecular mechanism by which a truncating variant produces a dominant PPAP phenotype is the subject of active research.
 
 3. **47-gene panel negative.** No pathogenic or likely pathogenic variants in APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, or 38 other cancer predisposition genes — isolating POLE c.138del as the sole genetic driver.
 

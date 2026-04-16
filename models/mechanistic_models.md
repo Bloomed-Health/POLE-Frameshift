@@ -44,6 +44,10 @@ Ribosomes encountering the premature stop codon at residue 54 reinitiate transla
 | 2c | Mutational signatures will show SBS10a/b (canonical POLE proofreading failure) | SigProfiler decomposition | Consistent — reinitiation product acts like exo-dead POLE | Non-POLE signatures: different mechanism |
 | 2d | Normal tissue mutation rates will be **elevated** (reinitiation occurs in all cells) | NanoSeq on PBMCs | Supports Model 2 (germline effect) | Normal rates favor Model 1 (somatic event) |
 
+### Prior Probability Assessment
+
+Model 2 has a **low prior probability**. Translational reinitiation efficiency drops sharply with increasing distance from the premature stop codon. The nearest candidate reinitiation site with strong Kozak context (M497) is ~1.3 kb downstream — far beyond the typical reinitiation window observed for mammalian mRNAs (Sherlock et al., 2023). While reinitiation has been documented in specialized contexts (uORFs, viral internal ribosome entry), efficient reinitiation across >1 kb of coding sequence in a standard mammalian mRNA would be unprecedented. This model remains formally testable but should be considered unlikely absent positive Ribo-seq evidence.
+
 ### Exclusion Criteria
 
 Model 2 is **excluded** if: Ribo-seq shows no ribosome footprints downstream of codon 54 AND no truncated POLE protein is detected by proteomics AND mutant transcript undergoes complete NMD.
@@ -55,6 +59,10 @@ Model 2 is **excluded** if: Ribo-seq shows no ribosome footprints downstream of 
 ### Hypothesis
 
 The premature termination codon escapes nonsense-mediated mRNA decay. The truncated 54-amino-acid peptide retains partial binding capacity for the POLE2 (p59) accessory subunit, competitively inhibiting holoenzyme assembly — a dominant-negative mechanism through stoichiometric poisoning rather than catalytic dysfunction.
+
+### Prior Probability Assessment
+
+Model 3 has a **low prior probability**. Structural studies of the POLE holoenzyme (Yuan et al., 2020; Roske & Yeeles, 2024; He et al., 2024) show that the POLE–POLE2 interaction interface is mediated primarily by the **C-terminal domain** of POLE (residues ~1,265–2,286), not the N-terminal region. The truncated 54-residue peptide would need to engage a binding surface for which there is no structural precedent. AlphaFold modeling of the N-terminal region predicts limited stable secondary structure in isolation. Additionally, even if the peptide were produced, its stoichiometric competition with full-length wild-type POLE protein would require comparable POLE2 binding affinity — unlikely for a 54-residue fragment vs. a 2,286-residue protein with extensive interface contacts. This model is retained for completeness and formal testability but is considered the least likely of the six candidates.
 
 ### Falsifiable Predictions
 
@@ -89,7 +97,7 @@ Model 3 is **excluded** if: mutant mRNA undergoes complete NMD AND/OR the 54-res
 
 ### Clinical Evidence Supporting Model 4
 
-The patient's phenotype provides the strongest clinical support for this model among all five candidates:
+The patient's phenotype provides the strongest clinical support for this model among all six candidates:
 
 - **Congenital duplicated IVC:** A developmental anomaly present from embryogenesis cannot be caused by somatic LOH. Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during early embryogenesis. This suggests POLE haploinsufficiency has **developmental consequences** — either through elevated embryonic mutation rates creating somatic mosaicism that disrupts vascular patterning, or through non-replicative POLE roles in developmental signaling.
 - **Severe endometriosis + adenomyosis:** The endometrium is a rapidly cycling tissue with high cell turnover — exactly where replicative stress from half-dose POLE would be most consequential. The aggressive endometrial phenotype (Stage IV+ with diaphragmatic extension) without formal malignant transformation suggests POLE dysfunction alters endometrial biology at a **pre-malignant level**. Novel research question: does POLE haploinsufficiency contribute to endometriosis severity?
@@ -120,6 +128,38 @@ The c.138del differentially affects alternative POLE transcript variants. A tiss
 ### Exclusion Criteria
 
 Model 5 is **excluded** if: POLE has a single predominant coding isoform across all relevant tissues AND c.138del falls in an exon shared by all isoforms.
+
+---
+
+## Model 6: Second-Site Somatic POLE Mutation
+
+### Hypothesis
+
+A somatic pathogenic missense mutation arises on the wild-type POLE allele in a tissue stem cell — specifically within the exonuclease domain (e.g., P286R, V411L, or another activating variant). This would convert the wild-type allele into a canonical dominant-negative, error-prone polymerase. Unlike Model 1 (LOH), the wild-type allele is not lost — instead, it acquires a gain-of-function mutation that produces an active but proofreading-deficient polymerase. This is distinct from LOH because the cell retains two POLE alleles: one truncated (c.138del, non-functional) and one somatically mutated (functional polymerase without proofreading).
+
+### Relationship to Other Models
+
+Model 6 is mechanistically distinct from Model 1 (LOH) and can co-occur with Model 4 (haploinsufficiency):
+- **Model 1** eliminates the wild-type allele entirely — cells rely on compensatory polymerases (e.g., Polδ)
+- **Model 6** retains the wild-type allele but corrupts its proofreading — the cell has an active, dominant-negative POLE
+- **Model 4** may create the elevated baseline mutation rate that makes a second-site POLE mutation more likely (haploinsufficiency → more mutations per division → higher probability of hitting the exonuclease domain on the remaining allele)
+
+### Falsifiable Predictions
+
+| # | Prediction | Experiment | If TRUE | If FALSE |
+|---|-----------|------------|---------|----------|
+| 6a | Tumor WGS will show a somatic pathogenic missense in the POLE exonuclease domain on the wild-type allele | Paired tumor-normal WGS with phased variant calling | Strongly supports Model 6 | Weakens Model 6 |
+| 6b | The somatic variant will be in trans with c.138del (on the wild-type allele) | Long-read sequencing or allele-specific analysis | Confirms compound heterozygosity in trans | If in cis: variant is on the already-truncated allele (irrelevant) |
+| 6c | Mutational signatures will show SBS10a/b (canonical POLE proofreading failure) | SigProfiler decomposition | Consistent — dominant-negative POLE produces classical signatures | Non-POLE signatures: different mechanism |
+| 6d | Different tumors may carry different second-site POLE mutations | Multi-region or multi-tumor WGS | Independent somatic events in different stem cells | Same mutation across tumors: early clonal event |
+
+### Prior Probability Assessment
+
+Model 6 has a **moderate prior probability**. Somatic POLE exonuclease domain mutations are well-documented in sporadic cancers (7–13% of endometrial cancers, ~3% of CRC per TCGA). The POLE exonuclease domain spans ~200 codons, and only a handful of hotspot positions (P286, V411, S459, etc.) produce the dominant-negative phenotype. In a patient with potentially elevated baseline mutation rates from haploinsufficiency (Model 4), the probability of hitting one of these hotspots somatically is higher than in the general population but still requires a specific gain-of-function event. Shah et al. (2024) documented co-occurring POLE exonuclease and non-exonuclease domain mutations and their impact on TMB, providing direct precedent for compound POLE mutation scenarios.
+
+### Exclusion Criteria
+
+Model 6 is **excluded** if: tumor WGS shows no somatic variants in the POLE exonuclease domain on the wild-type allele. Note: Model 6 can only be definitively tested for individual tumors — it may apply to some tumors but not others in the same patient.
 
 ---
 
@@ -155,6 +195,7 @@ See `analysis/temporal_phenotype/turnover_vs_age_diagnosis.svg` for the visualiz
 | **M3 (Poisoning)** | All tissues affected simultaneously; no turnover prediction | **Inconsistent** — cannot explain turnover-correlated onset |
 | **M4 (Haploinsufficiency)** | Faster-dividing tissues cross the threshold first → diagnosed at younger ages | **Strongly consistent** — observed sequence correlates with turnover rate |
 | **M5 (Isoform)** | Depends on tissue-specific isoform expression, not turnover rate | **Neutral** — would predict expression-correlated, not turnover-correlated |
+| **M6 (Second-site)** | No predicted temporal order — somatic second-site mutation is stochastic; similar to M1 | **Partially inconsistent** — would predict random order, not turnover-correlated |
 
 ### Progressive Polyp Accumulation
 
@@ -169,13 +210,13 @@ The pattern of ~6 adenomas at age 19 with continued new polyp formation at every
 
 The patient's multi-system phenotype provides immediate discriminatory evidence even before experimental results.
 
-| Finding | M1 (LOH) | M2 (Reinitiation) | M3 (Poisoning) | M4 (Haplo.) | M5 (Isoform) |
-|---------|----------|-------------------|----------------|-------------|-------------|
-| **Duplicated IVC (congenital)** | ❌ Cannot explain (LOH is somatic) | Neutral | Neutral | ✅ Supports (germline developmental effect) | Neutral |
-| **Stage IV+ endometriosis** | Neutral | Neutral | Neutral | ✅ Supports (high-turnover tissue threshold) | Possible (isoform-specific endometrial effect) |
-| **Bilateral PASH + liver FNH** | ❌ Unlikely (multi-organ, non-neoplastic) | Neutral | Neutral | ✅ Supports (systemic stromal/vascular proliferation) | Neutral |
-| **Thyroid carcinoma** | Possible (organ-specific LOH) | Possible | Neutral | ✅ Supports (high mitotic rate gland) | Possible |
-| **GI polyposis** | Possible | Possible | Possible | ✅ Supports (high-turnover epithelium) | Possible |
+| Finding | M1 (LOH) | M2 (Reinitiation) | M3 (Poisoning) | M4 (Haplo.) | M5 (Isoform) | M6 (Second-site) |
+|---------|----------|-------------------|----------------|-------------|-------------|------------------|
+| **Duplicated IVC (congenital)** | ❌ Cannot explain (LOH is somatic) | Neutral | Neutral | ✅ Supports (germline developmental effect) | Neutral | ❌ Cannot explain (somatic event) |
+| **Stage IV+ endometriosis** | Neutral | Neutral | Neutral | ✅ Supports (high-turnover tissue threshold) | Possible (isoform-specific endometrial effect) | Neutral |
+| **Bilateral PASH + liver FNH** | ❌ Unlikely (multi-organ, non-neoplastic) | Neutral | Neutral | ✅ Supports (systemic stromal/vascular proliferation) | Neutral | ❌ Unlikely (multi-organ) |
+| **Thyroid carcinoma** | Possible (organ-specific LOH) | Possible | Neutral | ✅ Supports (high mitotic rate gland) | Possible | Possible (organ-specific second hit) |
+| **GI polyposis** | Possible | Possible | Possible | ✅ Supports (high-turnover epithelium) | Possible | Possible |
 
 **Summary:** The congenital duplicated IVC is the single most important clinical discriminator — it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis) collectively argue against Model 1 operating alone, as LOH in each organ independently would be an extraordinary coincidence. The clinical phenotype most strongly supports Model 4, potentially in combination with Model 1 for tumor-specific ultra-hypermutation.
 
@@ -185,15 +226,15 @@ The patient's multi-system phenotype provides immediate discriminatory evidence 
 
 This matrix shows which experiments most efficiently discriminate between models.
 
-| Experiment | M1 (LOH) | M2 (Reinitiation) | M3 (Poisoning) | M4 (Haplo.) | M5 (Isoform) | Priority |
-|-----------|----------|-------------------|----------------|-------------|-------------|----------|
-| **Tumor WGS + LOH** | ✅ Definitive | — | — | ✅ Rules out if LOH | — | **Immediate** |
-| **Mutational signatures** | ✅ Confirms POLE mechanism | ✅ Confirms POLE mechanism | — | — | — | **Immediate** |
-| **Blood NanoSeq** | ✅ Normal = somatic | ✅ Elevated = germline | — | ✅ Elevated = threshold | — | **Immediate** |
-| **Allele-specific RNA-seq** | — | ✅ Transcript present | ✅ NMD escape test | — | ✅ Isoform ratios | **Immediate** |
-| **Endometriosis tissue NanoSeq** | — | — | — | ✅ Elevated = threshold in high-turnover tissue | — | **Medium-term** |
-| **Ribo-seq** | — | ✅ Definitive | — | — | — | **Medium-term** |
-| **Co-IP / structural modeling** | — | — | ✅ Definitive | — | — | **Medium-term** |
-| **Replication timing analysis** | — | — | — | ✅ Enrichment pattern | — | **Medium-term** |
-| **Isoform-specific RT-PCR** | — | — | — | — | ✅ Definitive | **Medium-term** |
-| **Thyroid tumor signature analysis** (thyroidectomy specimen available) | ✅ If LOH at POLE | ✅ If SBS10a/b present | — | — | — | **Immediate** |
+| Experiment | M1 (LOH) | M2 (Reinitiation) | M3 (Poisoning) | M4 (Haplo.) | M5 (Isoform) | M6 (Second-site) | Priority |
+|-----------|----------|-------------------|----------------|-------------|-------------|------------------|----------|
+| **Tumor WGS + LOH** | ✅ Definitive | — | — | ✅ Rules out if LOH | — | ✅ Definitive (phased variant calling) | **Immediate** |
+| **Mutational signatures** | ✅ Confirms POLE mechanism | ✅ Confirms POLE mechanism | — | — | — | ✅ Confirms POLE mechanism | **Immediate** |
+| **Blood NanoSeq** | ✅ Normal = somatic | ✅ Elevated = germline | — | ✅ Elevated = threshold | — | ✅ Normal = somatic | **Immediate** |
+| **Allele-specific RNA-seq** | — | ✅ Transcript present | ✅ NMD escape test | — | ✅ Isoform ratios | — | **Immediate** |
+| **Endometriosis tissue NanoSeq** | — | — | — | ✅ Elevated = threshold in high-turnover tissue | — | — | **Medium-term** |
+| **Ribo-seq** | — | ✅ Definitive | — | — | — | — | **Medium-term** |
+| **Co-IP / structural modeling** | — | — | ✅ Definitive | — | — | — | **Medium-term** |
+| **Replication timing analysis** | — | — | — | ✅ Enrichment pattern | — | — | **Medium-term** |
+| **Isoform-specific RT-PCR** | — | — | — | — | ✅ Definitive | — | **Medium-term** |
+| **Thyroid tumor signature analysis** (thyroidectomy specimen available) | ✅ If LOH at POLE | ✅ If SBS10a/b present | — | — | — | ✅ If somatic ExoD mutation | **Immediate** |

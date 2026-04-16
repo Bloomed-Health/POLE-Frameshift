@@ -289,13 +289,14 @@ All previously reported pathogenic PPAP variants are **missense substitutions** 
 2. Complete POLE loss is embryonic lethal in mice
 3. Yet the patient presents with unambiguous PPAP
 
-### Five candidate mechanistic models
+### Six candidate mechanistic models
 
 1. **Somatic LOH** — Wild-type allele lost in tumor; cells rely on lower-fidelity polymerases (Knudson two-hit model)
-2. **Translational reinitiation** — Ribosomes reinitiate at downstream AUG, producing polymerase-only protein lacking proofreading
-3. **NMD escape + holoenzyme poisoning** — Truncated 54-residue peptide competes for POLE2 binding, disrupting holoenzyme assembly
+2. **Translational reinitiation** — Ribosomes reinitiate at downstream AUG, producing polymerase-only protein lacking proofreading (low prior probability — reinitiation across >1 kb is unprecedented)
+3. **NMD escape + holoenzyme poisoning** — Truncated 54-residue peptide competes for POLE2 binding, disrupting holoenzyme assembly (low prior probability — POLE-POLE2 interface is C-terminal)
 4. **Replication stress-dependent haploinsufficiency** — 50% POLE is rate-limiting in rapidly dividing tissues
 5. **Isoform-specific effects** — Variant differentially affects tissue-specific transcript isoforms
+6. **Second-site somatic POLE mutation** — Somatic pathogenic missense in the exonuclease domain on the wild-type allele creates a canonical dominant-negative (distinct from LOH; Shah et al., 2024)
 
 ---
 

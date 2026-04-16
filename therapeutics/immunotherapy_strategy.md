@@ -32,11 +32,11 @@ The POLE c.138del tumor has TMB >100 mutations/Mb, far exceeding the FDA tissue-
 - **Setting:** Adjuvant, post-resection, in combination with anti-PD-1
 - **Rationale:** Extreme neoantigen load provides abundant high-quality vaccine targets
 
-### Preventive Immunotherapy
+### Preventive Immunotherapy (Hypothesis-Generating Only)
 
 - **Setting:** Pre-cancer, in PPAP carriers
-- **Evidence:** Sawant et al. (2025) — ICB delays cancer development in polymerase mutator mice
-- **Status:** Conceptual; no human trials yet
+- **Evidence:** Sawant et al. (2025) — In polymerase mutator mice, prophylactic anti-PD-1 raised the responder rate from 2.7% to 32.5% and delayed tumor onset, selecting against aneuploid tumors. However, ICB did **not** improve survival in mice with established tumors. This is a provocative hypothesis-generating preclinical finding in germline exonuclease-domain missense mutant mice (not frameshift carriers), not a therapeutic recommendation.
+- **Status:** Preclinical only; no human trials; the authors frame this as raising a possibility for high-risk individuals, not as evidence that preventive ICB works
 
 ## Pre-Treatment Autoimmune Considerations
 

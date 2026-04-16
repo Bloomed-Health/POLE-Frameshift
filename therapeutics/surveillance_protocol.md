@@ -28,8 +28,8 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 | Modality | Interval | Notes |
 |----------|----------|-------|
 | **Pelvic imaging** | Per gynecologic oncology guidance | Patient has had ovarian-sparing total hysterectomy for severe adenomyosis (menorrhagia requiring iron infusions, syncope). No endometrium remains to monitor. Surveillance focus shifts to retained ovaries and residual endometriosis |
-| **Ovarian surveillance** | Every 6–12 months | Retained ovaries post-hysterectomy; transvaginal or abdominal ultrasound for ovarian changes |
-| **Endometriosis monitoring** | Per gynecologic oncology guidance | Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension — residual disease may persist post-hysterectomy given ovarian preservation |
+| **Ovarian surveillance** | Every 6–12 months | Retained ovaries post-hysterectomy; transvaginal or abdominal ultrasound for ovarian changes. **EAOC risk:** Endometriosis-associated ovarian cancer (clear cell, endometrioid subtypes) occurs in 0.7–1.0% of endometriosis patients, with higher risk in severe disease (Anglesio et al., 2017). Stage IV+ endometriosis with retained ovaries warrants heightened surveillance — CA-125 trending alongside ultrasound |
+| **Endometriosis monitoring** | Per gynecologic oncology guidance | Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension — residual disease may persist post-hysterectomy given ovarian preservation. Endometriotic lesions harbor cancer-associated somatic mutations in 79% of deep infiltrating cases (Anglesio et al., NEJM 2017) |
 | **Thoracic imaging** | If catamenial symptoms | Monitor for diaphragmatic/thoracic endometriosis progression; note ovaries retained so hormonal cycling continues |
 
 ### Breast
@@ -109,3 +109,4 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 3. **Does POLE dysfunction cause congenital vascular anomalies?** The duplicated IVC suggests possible developmental effects of germline POLE haploinsufficiency
 4. **Is there a POLE-associated vascular/stromal proliferative phenotype?** Bilateral PASH, liver FNH, and duplicated IVC form a pattern across organs
 5. **Do POLE carriers have elevated rates of anti-mitochondrial antibodies?** The ANA AC-21 finding suggests POLE-driven mutagenesis of nuclear-encoded mitochondrial genes may impair mitochondrial integrity, exposing antigens to immune surveillance
+6. **Do endometriotic lesions in POLE carriers show POLE mutational signatures?** If residual endometriotic tissue is biopsied (e.g., during laparoscopy), NanoSeq or targeted sequencing could determine whether SBS10a/b signatures are present — testing the POLE-endometriosis hypothesis directly. Anglesio et al. (2017) showed 79% of deep infiltrating endometriosis harbors somatic mutations; determining whether POLE-carrier endometriosis shows a distinctive mutational signature would be a first-in-class finding

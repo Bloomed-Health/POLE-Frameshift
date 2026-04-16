@@ -4,7 +4,7 @@
 
 This is a scientific research framework investigating **POLE c.138del (p.Leu46Phefs*8)** — an ultra-rare pathogenic frameshift variant in the POLE gene that causes Polymerase Proofreading-Associated Polyposis (PPAP) with ultra-hypermutated tumor phenotype (TMB >100 mut/Mb).
 
-The central research question is a **mechanistic paradox**: this variant truncates the protein at residue 54, eliminating 100% of functional domains (exonuclease at 268–471, polymerase at 580–1260), yet produces a clinical phenotype indistinguishable from classical PPAP caused by missense variants within the exonuclease active site.
+The central research question is a **mechanistic paradox**: this variant truncates the protein at residue 54, eliminating all major catalytic domains — exonuclease (proofreading) at residues ~268–471 and polymerase at ~580–1260 — though the N-terminal region (1–54) may participate in CMG helicase interactions and DNA binding (Parkash et al., 2019). Yet it produces a clinical phenotype indistinguishable from classical PPAP caused by missense variants within the exonuclease active site.
 
 ## Key Context
 
@@ -24,13 +24,14 @@ The central research question is a **mechanistic paradox**: this variant truncat
 6. **Comorbidity triad:** hEDS/POTS/gastroparesis — creates therapeutic constraints (unreliable oral drug absorption, amplified autonomic side effects) and potential phenotype modifiers (MCAS as pro-tumorigenic microenvironment; altered ECM affecting crypt architecture; dysautonomia modulating neuroimmune axis)
 7. **Family history:** Maternal grandmother had uterine cancer (core PPAP malignancy) + ductal breast cancer. Raises possibility of maternal inheritance; parental testing recommended. Father and paternal grandmother unremarkable.
 
-## Five Candidate Mechanistic Models
+## Six Candidate Mechanistic Models
 
 1. **Somatic LOH** — wild-type allele lost in tumor (Knudson two-hit)
-2. **Translational reinitiation** — ribosomes reinitiate at downstream AUG, producing polymerase-only protein
-3. **NMD escape + holoenzyme poisoning** — truncated peptide competes for POLE2 binding
+2. **Translational reinitiation** — ribosomes reinitiate at downstream AUG, producing polymerase-only protein (low prior probability)
+3. **NMD escape + holoenzyme poisoning** — truncated peptide competes for POLE2 binding (low prior probability)
 4. **Replication stress-dependent haploinsufficiency** — 50% POLE is rate-limiting in high-turnover tissues
 5. **Isoform-specific effects** — variant differentially affects tissue-specific transcripts
+6. **Second-site somatic POLE mutation** — somatic ExoD missense on wild-type allele creates dominant-negative (distinct from LOH)
 
 The congenital duplicated IVC and multi-system non-neoplastic findings most strongly support Model 4, potentially combined with Model 1 for tumor-specific ultra-hypermutation.
 
@@ -44,7 +45,7 @@ The congenital duplicated IVC and multi-system non-neoplastic findings most stro
 
 **Key pending experiments that could shift this assessment:**
 - NanoSeq on normal blood (normal rates → weakens M4; elevated → strengthens M4)
-- Tumor WGS + LOH analysis (LOH present → supports M1 component; absent → eliminates M1)
+- Tumor WGS + LOH analysis (LOH present → supports M1 component; absent → eliminates M1; phased variant calling may reveal M6 second-site somatic mutation)
 - Ribo-seq (reinitiation detected → M2 rises to primary)
 - Parental POLE testing (inherited → strengthens M4 with penetrance data)
 

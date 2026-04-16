@@ -13,7 +13,7 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 - Research slide deck (`docs/POLE_PPAP_Research.pptx`)
 - AI research assistance framework (`docs/AI-Research-Assistance-Framework.md`)
 - Clinical case summary (`docs/clinical_case_summary.md`)
-- Five candidate mechanistic models with falsification criteria (`models/mechanistic_models.md`)
+- Six candidate mechanistic models with falsification criteria (`models/mechanistic_models.md`)
 - Directory structure for analysis pipelines, models, therapeutics, and references
 - CITATION.cff for repository citation
 - CONTRIBUTING.md with specific collaboration opportunities

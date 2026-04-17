@@ -30,7 +30,7 @@
           "label": "Young adult onset"
         }
       },
-      "description": "Stage I papillary thyroid microcarcinoma; clinical: solid 1.1 cm isthmic nodule; pathology: encapsulated, non-invasive, 0.6 cm carcinoma, left middle thyroid lobe; cystic variant with extensive squamous metaplasia; AJCC 8th ed T1aN0M0 (patient <55 years); associated adenomatoid nodular hyperplasia; treated with total thyroidectomy (on levothyroxine replacement); diagnosed at age ~28; outside established PPAP tumor spectrum"
+      "description": "Stage I papillary thyroid carcinoma; clinical: solid 1.1 cm isthmic nodule; pathology: encapsulated, non-invasive, 1.2 cm carcinoma, isthmus; cystic variant with extensive squamous metaplasia; AJCC 8th ed T1bN0M0 (patient <55 years); associated adenomatoid nodular hyperplasia; treated with total thyroidectomy (on levothyroxine replacement); diagnosed at age ~28; outside established PPAP tumor spectrum"
     },
     {
       "type": {
@@ -147,7 +147,7 @@
           "label": "Adult onset"
         }
       },
-      "description": "Ultra-hypermutated tumor; TMB >100 mut/Mb; no specific HPO term for tumor mutational burden; broadest applicable parent term used"
+      "description": "Reported ultra-hypermutated tumor; TMB >100 mut/Mb (assay platform pending clarification; WGS confirmation pending); no specific HPO term for tumor mutational burden; broadest applicable parent term used"
     },
     {
       "type": {
@@ -357,7 +357,7 @@
                   },
                   {
                     "name": "acmg_evidence_codes",
-                    "value": "PVS1 (null variant in gene with established LOF mechanism), PM2 (absent from population databases), PP4 (phenotype highly specific for PPAP)"
+                    "value": "PM2 (absent from population databases), PP4 (phenotype clinically consistent with PPAP). PVS1 not applied — mechanism does not match canonical PPAP dominant-negative model; variant falls outside Mur et al. (2023) POLE-specific classification framework"
                   },
                   {
                     "name": "47_gene_panel_result",

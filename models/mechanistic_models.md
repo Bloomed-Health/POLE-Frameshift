@@ -179,7 +179,7 @@ The resolution of specific ages-at-diagnosis provides a powerful new discriminat
 | ~26 | POTS | N/A (neural) | — |
 | ~27 | Stage IV endometriosis diagnosed | ~28/monthly (rapid) | Gargett et al., 2016 |
 | ~27 | Benign breast tumor (PASH) | Variable/hormonal (~60) | Estimated; varies by hormonal status |
-| ~28 | Thyroid microcarcinoma (0.6 cm, encapsulated, non-invasive) | ~2,920 (~8 years; slow) | Coclet et al., 1989; Dumont et al., 1992 |
+| ~28 | Thyroid carcinoma (1.2 cm, isthmus, encapsulated, non-invasive) | ~2,920 (~8 years; slow) | Coclet et al., 1989; Dumont et al., 1992 |
 | ~28 | Adenomyosis (severe → hysterectomy) | ~28/monthly (rapid) | Gargett et al., 2016 |
 
 **Note on turnover estimates:** These are approximate values reflecting stem/progenitor cell division rates in each tissue under homeostatic conditions. Colonic crypt stem cells divide approximately every 24h with total crypt replacement in 3–5 days (Barker et al., 2014). Thyroid follicular cell turnover is extremely slow, estimated at ~5–8 years in adults (Coclet et al., 1989). Endometrial regeneration occurs monthly under hormonal cycling. These estimates conflate different metrics (stem cell division rate vs. total tissue replacement time) and should be interpreted as order-of-magnitude comparisons rather than precise rates.
@@ -253,8 +253,8 @@ As experimental results accumulate, formal Bayesian model comparison should be a
 **Prior odds** (based on current clinical and structural evidence):
 - M4 (Haploinsufficiency): ~40% — strongest clinical support; congenital + multi-system phenotype
 - M1 (LOH): ~25% — well-established mechanism; likely complementary to M4
-- M6 (Second-site): ~15% — biologically plausible; moderate prior
-- M5 (Isoform): ~10% — untested; neutral evidence
+- M6 (Second-site): ~20% — mechanistically straightforward; normal mutagenesis of single functional allele can acquire ExoD hotspot
+- M5 (Isoform): ~5% — untested; neutral evidence
 - M2 (Reinitiation): ~5% — low prior; unprecedented reinitiation distance
 - M3 (Poisoning): ~5% — low prior; structurally implausible N-terminal POLE2 binding
 

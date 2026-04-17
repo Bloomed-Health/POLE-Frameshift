@@ -8,8 +8,8 @@
 
 This repository contains the scientific research framework, clinical documentation, and analysis pipeline specifications for investigating **POLE c.138del (p.Leu46Phefs\*8)** — a pathogenic frameshift variant in the *POLE* gene identified in a female patient with:
 
-- **Ultra-hypermutated tumor phenotype** (TMB >100 mutations/Mb, estimated from targeted panel sequencing)
-- **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage I papillary thyroid microcarcinoma (encapsulated, non-invasive, 0.6 cm; outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension and intestinal adhesions, bilateral proliferative breast changes with IHC-confirmed PASH, liver hypervascular lesion (hemangioma vs. FNH), congenital duplicated inferior vena cava, and ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies)
+- **Reported ultra-hypermutated tumor phenotype** (TMB >100 mutations/Mb; assay platform and source tumor specimen pending clarification — WGS-based TMB determination and mutational signature confirmation are priority experiments)
+- **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage I papillary thyroid carcinoma (1.2 cm, isthmus, encapsulated, non-invasive; outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension and intestinal adhesions, bilateral proliferative breast changes with IHC-confirmed PASH, liver hypervascular lesion (hemangioma vs. FNH), congenital duplicated inferior vena cava, and ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies)
 - **Complete absence from gnomAD** and all major population databases (gnomAD pLI = 0.98, LOEUF = 0.22 — extreme loss-of-function intolerance)
 - **Premature protein truncation at ~residue 54** of the 2,286-amino-acid POLE catalytic subunit
 - **Sole identified genetic driver** — a 47-gene hereditary cancer panel (2022) found no pathogenic variants in APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene
@@ -27,9 +27,9 @@ Critically, the phenotype extends beyond neoplasia into **proliferative/stromal 
 | Established | Requires Investigation |
 |-------------|----------------------|
 | **Variant identity:** POLE c.138del (p.Leu46Phefs*8), heterozygous frameshift, premature stop at ~residue 54 | **LOH status:** Has the wild-type POLE allele been somatically lost in tumor tissue? (Paired tumor-normal WGS with ASCAT/FACETS) |
-| **ACMG classification:** Pathogenic (PVS1 + PM2 + PP4); absent from gnomAD and all population databases. Submitted to [LOVD3](https://databases.lovd.nl/shared/variants/POLE) (2026-04-15, pending curation); ClinVar submission prepared | **Mutational signatures:** Are canonical POLE signatures (SBS10a/b/28) present, or does a non-canonical process drive the ultra-hypermutation? |
-| **Tumor phenotype:** Ultra-hypermutated (TMB >100 mut/Mb) — consistent with PPAP | **NMD escape:** Does the mutant mRNA escape nonsense-mediated decay? What is the mutant:WT transcript ratio? |
-| **47-gene panel negative:** No pathogenic variants in APC, MUTYH, MMR genes, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene — POLE c.138del is the sole identified genetic driver | **Mechanism:** Which of the 6 candidate models (LOH, reinitiation, holoenzyme poisoning, haploinsufficiency, isoform-specific, second-site somatic mutation) explains the paradox? |
+| **ACMG classification:** Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 — designed for non-disruptive ED missense variants). Under general ACMG/AMP: PM2 + PP4 (PVS1 not applied — mechanism does not match canonical dominant-negative model). Submitted to [LOVD3](https://databases.lovd.nl/shared/variants/POLE) (2026-04-15, pending curation); ClinVar submission prepared | **Mutational signatures:** Are canonical POLE signatures (SBS10a/b/28) present, or does a non-canonical process drive the ultra-hypermutation? |
+| **Tumor phenotype:** Reported TMB >100 mut/Mb (assay platform and source specimen pending clarification) — clinically consistent with PPAP | **NMD escape:** Does the mutant mRNA escape nonsense-mediated decay? What is the mutant:WT transcript ratio? |
+| **47-gene panel negative:** No pathogenic variants in APC, MUTYH, MMR genes, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene — POLE c.138del is the sole identified genetic driver among genes tested (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation) | **Mechanism:** Which of the 6 candidate models (LOH, reinitiation, holoenzyme poisoning, haploinsufficiency, isoform-specific, second-site somatic mutation) explains the paradox? |
 | **Five-category phenotype:** Neoplastic + proliferative/stromal + endometrial + congenital developmental + autoimmune/immune | **AMA confirmation:** Does the ANA AC-21 pattern reflect true anti-mitochondrial antibodies? (AMA-specific ELISA for anti-PDC-E2) |
 | **gnomAD constraint:** pLI = 0.98, LOEUF = 0.22 — extreme LoF intolerance | **Thyroid POLE signatures:** Does the thyroidectomy specimen carry SBS10a/b, formally expanding the PPAP tumor spectrum? |
 | **ANA AC-21 pattern:** Reticular cytoplasmic staining at 1:160, associated with anti-mitochondrial antibodies | **Normal tissue mutation rate:** Is the somatic mutation rate elevated in non-tumor cells? (Duplex sequencing / NanoSeq on PBMCs) |
@@ -74,7 +74,7 @@ The patient's phenotype spans five distinct categories — neoplastic, prolifera
 | Finding | Details | PPAP Relevance |
 |---------|---------|----------------|
 | **Gastrointestinal polyposis** | Progressive adenomatous polyposis: ~6 adenomas at first colonoscopy (age 19), accumulating to ~15+ across surveillance at ages 21, 24, 27, 29, ~31 (stomach, cecum, sigmoid colon); chronic gastric gastritis | First non-congenital finding at age 19 — consistent with Model 4 prediction that fastest-dividing tissue (colonic epithelium, 3–5 day turnover) is affected first. Progressive accumulation indicates ongoing mutagenesis. Consistent with attenuated PPAP (Palles et al. 2022) |
-| **Stage I papillary thyroid microcarcinoma** | Encapsulated, non-invasive, 0.6 cm, left middle thyroid lobe. Cystic variant with extensive squamous metaplasia. AJCC 8th ed T1aN0M0 (patient <55 years). Associated adenomatoid nodular hyperplasia | **Not part of established PPAP tumor spectrum.** If SBS10a/b signatures or POLE LOH are confirmed, would formally expand the recognized PPAP phenotype. Encapsulated/non-invasive phenotype notable |
+| **Stage I papillary thyroid carcinoma** | 1.2 cm, isthmus, encapsulated, non-invasive. Cystic variant with extensive squamous metaplasia. AJCC 8th ed T1bN0M0 (patient <55 years). Associated adenomatoid nodular hyperplasia | **Not part of established PPAP tumor spectrum.** If SBS10a/b signatures or POLE LOH are confirmed, would formally expand the recognized PPAP phenotype. Encapsulated/non-invasive phenotype notable |
 
 ### Proliferative and Stromal Findings
 
@@ -148,8 +148,8 @@ How this patient compares to published PPAP cohort data (Palles et al. 2022, Bel
 | **Polyp count** | 10–100 adenomatous polyps (attenuated) | ~15 sessile adenomatous polyps | Concordant |
 | **Polyp distribution** | Colorectal predominant; gastric in POLE carriers | Stomach, cecum, sigmoid colon | Concordant |
 | **GI features** | Chronic gastritis reported in some POLE carriers | Chronic gastric gastritis; diffuse GI mucosal changes; recurrent SIBO | Concordant |
-| **Cancer types** | Colorectal, endometrial, ovarian, brain (glioma) | Papillary thyroid microcarcinoma (Stage I, encapsulated) | **Expands spectrum** |
-| **TMB** | Ultra-hypermutated (>100 mut/Mb) with SBS10a/b | TMB >100 mut/Mb estimated from targeted panel (WGS + signature confirmation pending) | Concordant |
+| **Cancer types** | Colorectal, endometrial, ovarian, brain (glioma) | Papillary thyroid carcinoma (Stage I, 1.2 cm, isthmus, encapsulated) | **Expands spectrum** |
+| **TMB** | Ultra-hypermutated (>100 mut/Mb) with SBS10a/b | Reported TMB >100 mut/Mb (assay platform and source specimen pending clarification; WGS + signature confirmation pending) | Concordant (if confirmed) |
 | **Extra-GI neoplastic** | Endometrial cancer (most common); occasional brain, ovarian | Thyroid carcinoma (not previously in PPAP spectrum) | **Expands spectrum** |
 | **Non-neoplastic proliferative** | Not systematically reported | Bilateral PASH, liver FNH/hemangioma | **Novel** |
 | **Congenital anomalies** | Not reported in any PPAP cohort | Duplicated inferior vena cava | **Novel** |
@@ -174,7 +174,7 @@ The variant **p.Leu46Phefs\*8** terminates the protein at approximately residue 
 
 1. **Haploinsufficiency should be insufficient.** The wild-type allele should produce normal functional POLE. A 50% reduction in protein output should not produce TMB >100 mut/Mb.
 2. **Complete POLE loss is embryonic lethal.** Homozygous knockout is incompatible with viability in mouse models.
-3. **Yet the phenotype is unambiguously PPAP.** TMB >100 mut/Mb with polyposis and multi-system involvement is the full PPAP presentation.
+3. **Yet the phenotype is clinically consistent with PPAP.** Reported TMB >100 mut/Mb with polyposis and multi-system involvement matches the PPAP clinical presentation — though molecular confirmation (SBS10a/b/28 mutational signatures) is pending.
 
 ---
 
@@ -283,7 +283,7 @@ Model 4 currently has the strongest clinical support among all six candidates. T
 
 **Secondary model: Model 1 — Somatic LOH (complementary, not alternative)**
 
-Model 1 likely operates in parallel with Model 4 to explain the tumor-specific ultra-hypermutation (TMB >100 mut/Mb). The thyroid microcarcinoma — arising in a slow-cycling tissue where haploinsufficiency alone may be insufficient — is best explained by somatic loss of the wild-type allele in that specific tissue. Pending experiment: paired tumor-normal WGS with allele-specific copy number analysis.
+Model 1 likely operates in parallel with Model 4 to explain the tumor-specific ultra-hypermutation (TMB >100 mut/Mb). The thyroid carcinoma — arising in a slow-cycling tissue where haploinsufficiency alone may be insufficient — is best explained by somatic loss of the wild-type allele in that specific tissue. Pending experiment: paired tumor-normal WGS with allele-specific copy number analysis.
 
 **What would change this assessment:**
 - If NanoSeq on normal blood cells shows completely normal mutation rates → weakens Model 4, strengthens Model 1 as primary

@@ -1,5 +1,7 @@
 # hEDS/POTS/Gastroparesis Triad: Interaction Analysis with POLE c.138del Pathology
 
+> **Note:** This comorbidity interaction analysis is **secondary to the core POLE mechanistic research**. The hypotheses below are exploratory and theoretical — none have direct supporting evidence. They are documented here to identify potential confounders and therapeutic constraints, but should not be weighted equally with the primary mechanistic models (Models 1–6) or the core clinical data in the main research framework.
+
 ## Overview
 
 The patient carries POLE c.138del AND has the recognized clinical triad of hypermobile Ehlers-Danlos syndrome (hEDS), postural orthostatic tachycardia syndrome (POTS), and gastroparesis. This document formally analyzes whether and how these comorbidities may modify the expression, progression, or therapeutic management of POLE-driven multi-system pathology. The triad is a well-recognized clinical association, and its co-occurrence with a cancer predisposition syndrome has not been previously studied.
@@ -28,6 +30,8 @@ The patient carries POLE c.138del AND has the recognized clinical triad of hyper
 - May result from autonomic neuropathy (overlap with POTS) and/or connective tissue dysfunction
 
 ## Hypothesized Interaction Mechanisms
+
+> **Evidence level for all hypotheses below: Theoretical (zero direct evidence).** These represent biologically plausible mechanisms that have not been tested in any system. They are documented to guide future research, not to support clinical claims. The hEDS/POTS/MCAS–cancer interaction axis has no published literature.
 
 ### Hypothesis 1: ECM Modification of Crypt Architecture
 
@@ -106,32 +110,30 @@ The patient carries POLE c.138del AND has the recognized clinical triad of hyper
 - Pharmacokinetic monitoring (drug levels) recommended for any oral agent
 - Extended-release formulations may be unreliable
 
-### Hypothesis 5: Intestinal Permeability and Broad Food-Specific IgG Reactivity
+### Hypothesis 5: Intestinal Permeability (Barrier Dysfunction)
 
-**Claim:** The patient's broad food-specific IgG reactivity profile (19+ elevated antigens: dairy, gluten-containing grains, tree nuts, egg, spices) reflects increased intestinal permeability resulting from the convergence of POLE haploinsufficiency in intestinal epithelium, MCAS-driven mucosal inflammation, and hEDS-related connective tissue dysfunction.
+> **Critical methodological note on food-specific IgG testing:** The American Academy of Allergy, Asthma & Immunology (AAAAI) explicitly recommends against the use of food-specific IgG/IgG4 testing for diagnosing food allergy or intolerance. IgG to food antigens reflects normal immunological exposure, not pathology — healthy individuals commonly have elevated food-specific IgG without clinical significance. Building causal chains on food-specific IgG data is a credibility risk for any research framework. The data below is retained for completeness but should not be used as evidence for POLE-driven intestinal barrier dysfunction.
 
-**Evidence (patient data):** Food-specific IgG ELISA shows markedly elevated reactivity to egg white (113 OD), cow's milk (109 OD), casein (47), yogurt (47), plus moderately elevated reactivity to butter, goat's milk, wheat, gluten, rye, spelt, multiple cheeses, brazil nut, hops, macadamia, pine nut, and cloves.
+**Claim:** The patient may have increased intestinal permeability resulting from the convergence of POLE haploinsufficiency in intestinal epithelium, potential MCAS-driven mucosal inflammation (unconfirmed), and hEDS-related connective tissue dysfunction. This remains entirely theoretical.
 
-**Mechanism:**
+**Patient data (food-specific IgG — interpret with caution per AAAAI guidance above):** Food-specific IgG ELISA shows elevated reactivity to multiple antigens (egg white, cow's milk, casein, yogurt, and others). However, this assay lacks clinical validity for diagnosing food allergy, intolerance, or barrier dysfunction. The breadth of reactivity is consistent with normal immune exposure to dietary antigens and cannot be interpreted as evidence of pathological intestinal permeability without validated permeability testing.
+
+**Theoretical mechanism (requires validation with appropriate assays):**
 
 - Intestinal epithelium has the fastest cell turnover (3–5 days) — precisely where POLE haploinsufficiency is most consequential
 - If POLE dosage insufficiency increases the mutation rate in intestinal stem cells, tight junction protein expression and epithelial barrier function may be compromised
-- Compounded by: MCAS-driven histamine release (increases paracellular permeability), hEDS-related basement membrane/ECM abnormalities, gastroparesis-associated bacterial overgrowth (SIBO damages mucosal barrier)
-- Compromised barrier → dietary protein fragments cross into lamina propria → broad IgG response
-- The breadth of reactivity (19+ antigens across unrelated food groups) is characteristic of barrier dysfunction, not multiple independent food allergies
+- Could be compounded by: MCAS-driven histamine release (if MCAS present), hEDS-related basement membrane/ECM abnormalities, gastroparesis-associated bacterial overgrowth (SIBO damages mucosal barrier)
 
-**Testable predictions:**
+**Testable predictions (using validated assays, not food-specific IgG):**
 
 1. Lactulose/mannitol intestinal permeability assay shows elevated lactulose:mannitol ratio (increased paracellular permeability)
 2. Tight junction protein expression (claudin-1, occludin, ZO-1) is reduced in colonic biopsy specimens
-3. Other POLE carriers show broader food-specific IgG reactivity than age-matched controls (population-level test of POLE → gut barrier hypothesis)
-4. Fecal zonulin levels are elevated (serum zonulin is less reliable)
+3. Fecal zonulin levels are elevated (serum zonulin is less reliable)
 
 **Clinical relevance:**
 
-- Dietary modification (elimination of highest-reactivity antigens: egg, dairy) may reduce chronic GI inflammatory burden
-- If barrier dysfunction confirmed, it compounds pharmacokinetic challenges for oral therapeutics (inflammation-altered absorption kinetics)
-- Connects POLE haploinsufficiency → intestinal epithelial dysfunction → immune dysregulation → chronic inflammation → pro-tumorigenic microenvironment (a complete mechanistic chain from genotype to tumor-promoting environment)
+- If barrier dysfunction confirmed by validated assays, it may compound pharmacokinetic challenges for oral therapeutics
+- The hypothetical chain from POLE haploinsufficiency → epithelial dysfunction → barrier compromise remains speculative and requires each step to be independently validated
 
 ### Hypothesis 6: Connective Tissue Modification of Endometriosis Severity
 
@@ -160,22 +162,22 @@ The patient carries POLE c.138del AND has the recognized clinical triad of hyper
 | hEDS → crypt architecture | ECM modification of stem cell niche | Amplifying or modifying | Theoretical | Medium |
 | hEDS → endometriosis | ECM facilitation of invasion | Likely amplifying | Moderate (biological plausibility) | High |
 | POTS → immune surveillance | Autonomic-immune axis | Uncertain direction | Low (no direct studies) | Medium |
-| MCAS → tumor microenvironment | Pro-tumorigenic inflammation | Amplifying | Moderate | High (if MCAS confirmed) |
+| MCAS → tumor microenvironment | Pro-tumorigenic inflammation | Amplifying | Theoretical (MCAS unconfirmed) | Medium (pending MCAS confirmation) |
 | Gastroparesis → therapeutics | Pharmacokinetic constraint | Limiting (oral agents only) | Strong | Immediate |
 | hEDS/POTS → ICI tolerability | Autonomic side effects, infusion reactions | Complicating | Moderate | Immediate |
-| POLE + MCAS + hEDS → gut barrier | Intestinal permeability / food IgG reactivity | Amplifying (chronic inflammation) | Moderate (IgG data available) | High |
+| POLE + hEDS → gut barrier | Intestinal permeability (theoretical) | Amplifying (chronic inflammation) | Theoretical (food IgG data not clinically valid per AAAAI) | Low |
 
 ## Recommended Evaluations
 
 | Evaluation | Purpose | Method | Priority |
 |---|---|---|---|
-| MCAS workup | Determine if chronic mast cell activation modifies POLE phenotype | Serum tryptase (baseline + flare), urinary PGD2 metabolites, urinary N-methylhistamine | High |
+| MCAS workup | Determine if chronic mast cell activation is present (currently unconfirmed) | Serum tryptase (baseline + flare), urinary PGD2 metabolites, urinary N-methylhistamine | Medium |
 | Small fiber neuropathy testing | Quantify enteric neuropathy contributing to GI dysmotility | Skin biopsy for IENFD | Medium |
 | Heart rate variability analysis | Quantify vagal tone as immune modulation surrogate | 24-hour Holter with HRV analysis | Medium |
 | Connective tissue in polyp biopsies | Assess whether ECM is altered in polyposis tissue | Collagen staining (Masson's trichrome) on existing pathology specimens | High |
 | Autonomic function testing | Stratify POTS severity for ICI risk planning | Tilt table test, sudomotor function | Medium |
 | Colonic crypt morphometry | Compare crypt architecture to non-hEDS controls | Quantitative histopathology on existing biopsy specimens | Medium |
-| Intestinal permeability assay | Confirm gut barrier dysfunction suggested by broad food IgG reactivity | Lactulose/mannitol ratio test; fecal zonulin | High |
+| Intestinal permeability assay | Assess gut barrier function using validated assay (food IgG not clinically valid per AAAAI) | Lactulose/mannitol ratio test; fecal zonulin | Low |
 | Tight junction protein staining | Assess epithelial barrier integrity in existing colonic biopsies | Claudin-1, occludin, ZO-1 IHC on pathology specimens | Medium |
 
 ## Computational Modeling Implications

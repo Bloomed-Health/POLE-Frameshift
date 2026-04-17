@@ -4,6 +4,25 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
+## [0.4.0] — 2026-04-17
+
+### Changed (Peer Review Feedback)
+
+- **ACMG classification revised:** Removed PVS1; variant reclassified as "Likely Pathogenic (PM2 + PP4)" under general ACMG/AMP; noted as unclassifiable under Mur et al. (2023) POLE-specific framework
+- **"Unambiguous PPAP" → "clinically consistent with PPAP"** throughout (molecular confirmation via SBS10a/b/28 pending)
+- **TMB sourcing qualified:** All TMB >100 mut/Mb references now marked as "reported" with assay platform and source specimen pending clarification
+- **Thyroid carcinoma corrected:** 0.6 cm microcarcinoma → 1.2 cm carcinoma, isthmus; T1a → T1b; "microcarcinoma" removed throughout
+- **Model 6 prior raised:** 15% → 20% (mechanistically straightforward); M5 reduced 10% → 5% to rebalance
+- **Family history modulated:** Added population base rates (uterine ~3%, breast ~12% lifetime) to contextualize maternal grandmother's cancer history
+- **47-gene panel limitations noted:** Panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation
+- **Food-specific IgG reframed:** Added AAAAI warning (recommends against food-specific IgG testing); data retained but flagged as clinically invalid; priority downgraded from High to Low
+- **MCAS priority downgraded:** High → Medium (diagnosis unconfirmed)
+- **Comorbidity analysis separated:** Added prominent note that hEDS/POTS hypotheses are secondary to core POLE research with zero direct evidence
+- **"Eliminates 100%"** replaced with specific domain language in clinical case summary
+- **FAQ updated** with TMB source caveat and thyroid size correction
+
+---
+
 ## [0.3.0] — 2026-04-17
 
 ### Added

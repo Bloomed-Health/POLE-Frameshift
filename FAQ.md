@@ -39,7 +39,7 @@ This variant is **ultra-rare**: it has never been observed in any major populati
 
 The patient's presentation spans **five distinct categories**, which is what makes this case so compelling — it goes far beyond just polyps and cancer:
 
-1. **Neoplastic** — ~15 adenomatous polyps across the stomach, cecum, and sigmoid colon, plus a Stage I papillary thyroid microcarcinoma (encapsulated, non-invasive, 0.6 cm; not previously linked to PPAP)
+1. **Neoplastic** — ~15 adenomatous polyps across the stomach, cecum, and sigmoid colon, plus a Stage I papillary thyroid carcinoma (encapsulated, non-invasive, 1.2 cm, isthmus; not previously linked to PPAP)
 2. **Proliferative/stromal** — Bilateral breast changes with pseudoangiomatous stromal hyperplasia (PASH) and liver focal nodular hyperplasia (FNH) — a pattern of vascular/stromal proliferation across multiple organs
 3. **Endometrial** — Stage IV+ deep infiltrating endometriosis with trans-diaphragmatic invasion and intestinal adhesions, plus diffuse adenomyosis — extraordinarily severe, affecting one of the most POLE-vulnerable tissues
 4. **Congenital developmental** — A duplicated inferior vena cava (a vascular anomaly present from birth), which **cannot** be caused by a tumor-specific mutation and argues that POLE dysfunction has effects during embryonic development
@@ -53,7 +53,7 @@ This breadth suggests POLE dysfunction is truly systemic, affecting tissue biolo
 
 This is where it gets interesting. All previously known PPAP-causing mutations are **missense variants** — they change a single amino acid in the proofreading region of the protein. The protein still works as a DNA copier, but it can no longer proofread. It's like a typist who can still type but can no longer spell-check.
 
-The c.138del variant is fundamentally different. It cuts the protein off so early that there is **no proofreading region AND no DNA copying region**. It's like removing the typist entirely. Under current scientific models, this should not cause PPAP — yet the patient has the full PPAP presentation, including ultra-hypermutation (>100 mutations per megabase of DNA).
+The c.138del variant is fundamentally different. It cuts the protein off so early that there is **no proofreading region AND no DNA copying region**. It's like removing the typist entirely. Under current scientific models, this should not cause PPAP — yet the patient has the full PPAP presentation, including a reported ultra-hypermutation (>100 mutations per megabase of DNA; assay platform and source tumor specimen pending clarification — WGS confirmation needed).
 
 This creates a **mechanistic paradox** that, if resolved, could change how an entire category of POLE variants is classified in clinical genetics.
 
@@ -71,7 +71,7 @@ If the research confirms that truncating POLE variants (variants that cut the pr
 
 ## What are the treatment implications?
 
-The ultra-hypermutated phenotype (extremely high mutation burden) actually creates a **therapeutic opportunity**:
+If the reported ultra-hypermutated phenotype is confirmed by whole-genome sequencing, it creates a **therapeutic opportunity**:
 
 - **Immunotherapy** — Tumors with very high mutation burdens tend to respond well to immune checkpoint inhibitors (like pembrolizumab). The high number of mutations creates many "neoantigens" — abnormal proteins that the immune system can recognize and attack.
 - **Targeted therapies** — Several drugs targeting DNA repair pathways (ATR inhibitors, PARP inhibitors) may be especially effective against cells with impaired POLE function.

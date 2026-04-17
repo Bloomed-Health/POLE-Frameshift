@@ -2,7 +2,7 @@
 
 ## Rationale
 
-The POLE c.138del tumor has TMB >100 mutations/Mb, far exceeding the FDA tissue-agnostic threshold (≥10 mut/Mb) for pembrolizumab. Published data on pathogenic POLE variants shows strong immunotherapy efficacy.
+The POLE c.138del tumor has a reported TMB >100 mutations/Mb (assay platform and source specimen pending clarification), far exceeding the FDA tissue-agnostic threshold (≥10 mut/Mb) for pembrolizumab if confirmed by WGS. Published data on pathogenic POLE variants shows strong immunotherapy efficacy.
 
 ## Evidence Base
 
@@ -17,7 +17,7 @@ The POLE c.138del tumor has TMB >100 mutations/Mb, far exceeding the FDA tissue-
 ### First-Line: Anti-PD-1 Monotherapy
 
 - **Agent:** Pembrolizumab 200mg IV q3w or 400mg IV q6w
-- **Rationale:** TMB >100 mut/Mb; tissue-agnostic FDA approval
+- **Rationale:** Reported TMB >100 mut/Mb; tissue-agnostic FDA approval
 - **Monitoring:** CT imaging q12w, ctDNA q6–8w
 
 ### Escalation: Anti-PD-1 + Anti-CTLA-4
@@ -123,7 +123,7 @@ The ICI response prediction framework (POLE signature ≥78.5% predicting respon
 2. **MCAS (if present)** may suppress local immune surveillance, potentially counteracting neoantigen-driven T cell responses
 3. **Chronic inflammation** from mast cell activation or connective tissue dysfunction may create an immunosuppressive microenvironment
 
-These factors do not contraindicate ICI — the TMB >100 mut/Mb remains a strong predictor — but they argue for enhanced monitoring, immune profiling before and during treatment, and realistic expectations about whether published response data fully apply.
+These factors do not contraindicate ICI — the reported TMB >100 mut/Mb remains a strong predictor (if confirmed by WGS) — but they argue for enhanced monitoring, immune profiling before and during treatment, and realistic expectations about whether published response data fully apply.
 
 ## Resistance Monitoring
 

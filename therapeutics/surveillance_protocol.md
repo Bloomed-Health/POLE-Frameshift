@@ -19,7 +19,7 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 
 | Modality | Interval | Notes |
 |----------|----------|-------|
-| **Neck ultrasound** | Every 6–12 months | Post-total thyroidectomy surveillance for recurrence in thyroid bed and cervical lymph nodes. Original tumor: Stage I papillary thyroid microcarcinoma (encapsulated, non-invasive, 0.6 cm, AJCC 8th ed T1aN0M0). **Not part of established PPAP spectrum** — if POLE signatures confirmed in thyroidectomy specimen, surveillance should be recommended for all PPAP carriers |
+| **Neck ultrasound** | Every 6–12 months | Post-total thyroidectomy surveillance for recurrence in thyroid bed and cervical lymph nodes. Original tumor: Stage I papillary thyroid carcinoma (encapsulated, non-invasive, 1.2 cm, isthmus, AJCC 8th ed T1bN0M0). **Not part of established PPAP spectrum** — if POLE signatures confirmed in thyroidectomy specimen, surveillance should be recommended for all PPAP carriers |
 | **Thyroglobulin + anti-thyroglobulin antibodies** | Every 6–12 months | Thyroglobulin serves as tumor marker post-thyroidectomy — should be undetectable; rising levels indicate recurrence. Anti-thyroglobulin antibodies must be measured concurrently as they can cause falsely low thyroglobulin levels |
 | **TSH monitoring** | Per endocrinology guidance | Lifelong levothyroxine replacement required. TSH suppression target per ATA risk stratification (low-risk Stage I: TSH 0.5–2.0 mU/L) |
 

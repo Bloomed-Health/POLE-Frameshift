@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a scientific research framework investigating **POLE c.138del (p.Leu46Phefs*8)** — an ultra-rare pathogenic frameshift variant in the POLE gene that causes Polymerase Proofreading-Associated Polyposis (PPAP) with ultra-hypermutated tumor phenotype (TMB >100 mut/Mb).
+This is a scientific research framework investigating **POLE c.138del (p.Leu46Phefs*8)** — an ultra-rare pathogenic frameshift variant in the POLE gene that causes Polymerase Proofreading-Associated Polyposis (PPAP) with reported ultra-hypermutated tumor phenotype (TMB >100 mut/Mb; assay platform pending clarification).
 
 The central research question is a **mechanistic paradox**: this variant truncates the protein at residue 54, eliminating all major catalytic domains — exonuclease (proofreading) at residues ~268–471 and polymerase at ~580–1260 — though the N-terminal region (1–54) may participate in CMG helicase interactions and DNA binding (Parkash et al., 2019). Yet it produces a clinical phenotype indistinguishable from classical PPAP caused by missense variants within the exonuclease active site.
 
@@ -11,18 +11,18 @@ The central research question is a **mechanistic paradox**: this variant truncat
 - **Variant:** POLE c.138del (p.Leu46Phefs*8) — frameshift deletion, premature stop at ~residue 54 of 2,286 amino acids
 - **Gene:** POLE (DNA Polymerase Epsilon, catalytic subunit), chromosome 12q24.33, transcript ENST00000320574
 - **Constraint:** gnomAD pLI = 0.98, LOEUF = 0.22 — extreme loss-of-function intolerance; variant absent from all population databases
-- **Classification:** Pathogenic (PVS1, PM2, PP4); not yet in ClinVar
-- **47-gene panel (2022):** Negative for APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, and all other genes tested — POLE c.138del is the sole identified genetic driver
+- **Classification:** Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023); under general ACMG/AMP: PM2 + PP4 (PVS1 not applied — mechanism does not match canonical PPAP dominant-negative model); not yet in ClinVar
+- **47-gene panel (2022):** Negative for APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, and all other genes tested — POLE c.138del is the sole identified genetic driver among genes tested (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation)
 
 ## Patient Phenotype (Five Categories + Comorbidity Context)
 
-1. **Neoplastic:** Progressive adenomatous polyposis (~6 adenomas at age 19, accumulating to ~15+ by age 31; stomach, cecum, sigmoid), Stage I papillary thyroid microcarcinoma (~28; encapsulated, non-invasive, 0.6 cm; outside established PPAP spectrum; s/p total thyroidectomy, on levothyroxine)
+1. **Neoplastic:** Progressive adenomatous polyposis (~6 adenomas at age 19, accumulating to ~15+ by age 31; stomach, cecum, sigmoid), Stage I papillary thyroid carcinoma (~28; encapsulated, non-invasive, 1.2 cm, isthmus; outside established PPAP spectrum; s/p total thyroidectomy, on levothyroxine)
 2. **Proliferative/stromal:** Bilateral breast changes with IHC-confirmed PASH (CD34+, CK AE1/AE3−), liver hypervascular lesion (hemangioma vs FNH, segment VII, 16×14 mm) with splenoportal arteriovenous shunt
 3. **Endometrial:** Stage IV+ deep infiltrating endometriosis (~27; thoracic diaphragm, intestinal adhesions), diffuse adenomyosis (~28; severe menorrhagia, iron infusions, syncope → ovarian-sparing total hysterectomy)
 4. **Congenital developmental:** Duplicated inferior vena cava — cannot be explained by somatic LOH, argues for constitutive POLE haploinsufficiency
 5. **Autoimmune/immune:** ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies) — may reflect immune recognition of mitochondrial antigens exposed through POLE-driven dysfunction of nuclear-encoded mitochondrial proteins
 6. **Comorbidity triad:** hEDS/POTS/gastroparesis — creates therapeutic constraints (unreliable oral drug absorption, amplified autonomic side effects) and potential phenotype modifiers (MCAS as pro-tumorigenic microenvironment; altered ECM affecting crypt architecture; dysautonomia modulating neuroimmune axis)
-7. **Family history:** Maternal grandmother had uterine cancer (core PPAP malignancy) + ductal breast cancer. Raises possibility of maternal inheritance; parental testing recommended. Father and paternal grandmother unremarkable.
+7. **Family history:** Maternal grandmother had uterine cancer (core PPAP malignancy) + ductal breast cancer. Pattern is consistent with but not diagnostic of PPAP inheritance (population base rates: uterine ~3%, breast ~12% lifetime risk). Raises possibility of maternal inheritance; parental testing recommended. Father and paternal grandmother unremarkable.
 
 ## Six Candidate Mechanistic Models
 

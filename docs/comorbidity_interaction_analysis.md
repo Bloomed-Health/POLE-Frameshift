@@ -77,7 +77,7 @@ The patient carries POLE c.138del AND has the recognized clinical triad of hyper
 
 **Mechanism:**
 
-- MCAS prevalence in hEDS/POTS patients estimated at 30–65%
+- MCAS prevalence in hEDS/POTS patients estimated at 30–65% (Afrin et al., 2020 *Int J Gen Med*; Seneviratne et al., 2017)
 - Mast cell mediators promote:
   - Angiogenesis (relevant to FNH, hemangioma, duplicated IVC pattern)
   - Local immunosuppression (counteracting TMB-driven immune surveillance)

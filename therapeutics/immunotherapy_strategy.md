@@ -9,7 +9,8 @@ The POLE c.138del tumor has a reported TMB >100 mutations/Mb (assay platform and
 | Study | Key Finding |
 |-------|-------------|
 | Garmezy et al. (2022) *JCO Precision Oncology* | Pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS (n=458) |
-| Pietrantonio et al. (2024) *Annals of Oncology* | POLE signature ≥78.5% predicts ICI response |
+| Ambrosini et al. (2024) *Annals of Oncology* 35:643–655 | POLE/POLD1 pathogenic-domain (pd) mCRC: 89% ORR on ICI (n=27) — significantly superior to dMMR/MSI-H (54% ORR; P=0.01). Confirms POLE signature as independent predictor of ICI benefit beyond MSI-H |
+| Pietrantonio et al. (2024) *Annals of Oncology* | POLE signature ≥78.5% predicts ICI response; identifies POLE-ultramutated as a distinct ICI-responsive molecular subtype |
 | Sawant et al. (2025) *Cancer Research* | Preventive ICB delays cancer in polymerase mutator mice |
 
 ## Treatment Options
@@ -28,9 +29,16 @@ The POLE c.138del tumor has a reported TMB >100 mutations/Mb (assay platform and
 
 ### Neoantigen Vaccination
 
-- **Platform:** mRNA-4157/V940 or equivalent
+- **Platform:** mRNA-4157/V940 (Moderna/Merck) or Nous-209 (Nouscom)
 - **Setting:** Adjuvant, post-resection, in combination with anti-PD-1
 - **Rationale:** Extreme neoantigen load provides abundant high-quality vaccine targets
+
+**Emerging neoantigen vaccine data:**
+
+| Agent | Key Data | Relevance |
+|-------|----------|-----------|
+| **mRNA-4157/V940** (Moderna/Merck) | Personalized neoantigen mRNA vaccine (intismeran autogene) + pembrolizumab: 49% reduction in recurrence/death at 5 years (KEYNOTE-942, melanoma; Weber et al., *Lancet* 2024; 5-year data: press release Jan 2026). Phase III in melanoma (INTerpath-001) and NSCLC (INTerpath-002) ongoing | Directly applicable platform for POLE ultra-hypermutated tumors; neoantigen abundance in POLE-driven cancers (TMB >100 mut/Mb) may generate even stronger vaccine responses than the trial population |
+| **Nous-209** (Nouscom) | Off-the-shelf frameshift neoantigen vaccine encoding 209 frameshift peptides (FSPs) shared across MSI-H/Lynch cancers. Phase I/II: 100% T-cell immune response rate (37/37 evaluable) in Lynch carriers (Leoni et al., *Nature Medicine* 2026; 32:1002–1011). Targets recurrent FSPs from coding microsatellite indels | Conceptually relevant but targeting MSI-derived frameshift antigens, not POLE-specific neoantigens. POLE ultra-hypermutated tumors generate distinct neoantigen profiles (SBS10a/b-driven point mutations). May have limited direct overlap, but the platform validates off-the-shelf neoantigen vaccination in cancer predisposition carriers |
 
 ### Emerging Immunotherapy Approaches
 

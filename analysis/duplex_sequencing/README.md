@@ -37,6 +37,21 @@ Output: Per-cell somatic mutation rate; trinucleotide spectrum; SBS signature de
 
 **CHIP profiling** (DNMT3A, TET2, ASXL1, TP53) provides indirect evidence of elevated mutation rate by measuring clonal hematopoiesis burden relative to age.
 
+## Technology Selection: SMaHT Benchmarking (2025)
+
+The SMaHT Network (Somatic Mosaicism across Human Tissues) benchmarked six duplex sequencing technologies — CODEC, CompDuplex-seq, HiDEF-seq, NanoSeq, ppmSeq, and VISTA-seq — using cord blood DNA, tumor-normal mixtures, and six human tissue homogenates (Zhang et al., 2025, *bioRxiv*).
+
+Key findings relevant to technology selection:
+
+| Technology | Duplex Recovery | Notes |
+|-----------|----------------|-------|
+| **ppmSeq** | 44% ± 5.5% | Highest duplex recovery; ultra-high throughput |
+| **NanoSeq** | ~5–11% | Original method; well-validated for germline carrier studies (Robinson et al., 2021) |
+| **HiDEF-seq** | ~5–11% | Comparable to NanoSeq |
+| **CODEC/VISTA-seq** | ~5–11% | Alternative approaches |
+
+Despite differences in library construction and sequencing platforms, mutation rate estimates and mutational signatures were **highly concordant** across all six methods. For this study, NanoSeq remains the preferred method (published POLE carrier data exists for direct comparison), but ppmSeq's 4–8× higher duplex recovery could enable more cost-effective profiling of multiple tissue types.
+
 ## Data Requirements
 
 - Patient PBMCs (fresh or cryopreserved)

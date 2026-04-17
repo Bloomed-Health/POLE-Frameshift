@@ -4,6 +4,31 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
+## [0.5.0] — 2026-04-17
+
+### Changed (Scientific Database Verification & Literature Update)
+
+- **CRITICAL: gnomAD constraint metrics corrected.** Previous values (pLI = 0.98, LOEUF = 0.22) were incorrect. Verified against gnomAD v4 API (GRCh38, ENST00000320574): pLI ≈ 0 (1.1×10⁻⁴⁰), LOEUF = 0.76, oe_lof = 0.67 (188 observed / 279 expected LoF variants). POLE tolerates heterozygous LoF — 188 carriers in gnomAD lack apparent PPAP. Corrected across all files
+- **PVS1 argument strengthened by gnomAD data:** Gene-level LoF tolerance (pLI ≈ 0) provides additional evidence against PVS1 applicability
+- **Mechanistic model implications updated:** gnomAD LoF tolerance supports LOH/second-hit model for tumor-specific ultra-hypermutation; Bayesian priors revised (M1 raised to 30%, M4+M1 combination ~40%)
+- **Literature consensus acknowledgment added:** Prominent note in README that current scientific consensus does NOT support truncating POLE variants as pathogenic for PPAP; this framework investigates a novel hypothesis
+
+### Added
+
+- **Ambrosini et al. (2024) *Annals of Oncology*:** POLE/D1pd mCRC 89% ORR on ICI vs 54% dMMR/MSI-H (P=0.01)
+- **Andrianova et al. (2024) *Eur J Hum Genet*:** Heterozygous POLD1 ExoD → ~15% mutation rate increase; cancer requires LOH (recessive model)
+- **Nous-209 vaccine:** Leoni et al. (2026) *Nature Medicine* — 100% immune response in Lynch carriers (37/37)
+- **mRNA-4157/V940:** Weber et al. (2024) *Lancet* + 5-year data (49% recurrence reduction, press release Jan 2026)
+- **Wang et al. (2025) *PNAS*:** First cryo-EM proofreading intermediates of human Pol epsilon-PCNA
+- **Keskitalo et al. (2025) *Nature Communications*:** POLE2 is NPF motif receptor
+- **N363K glioblastoma:** Vande Perre et al. (2019) + Labrousse et al. (2023) *NAR Cancer* — extends PPAP spectrum
+- **Tissue-specific NMD:** Kolakada et al. (2025) *Cell Genomics* — peptide release rate modulates NMD
+- **SMaHT benchmarking:** Zhang et al. (2025) bioRxiv — 6 duplex methods compared; ppmSeq 44% recovery
+- **Research gaps section** added to surveillance protocol (synthetic lethality in POLE-null, thyroid, endometriosis, AMA, preventive ICI)
+- **13 new bibliography entries** in references/bibliography.bib
+
+---
+
 ## [0.4.0] — 2026-04-17
 
 ### Changed (Peer Review Feedback)

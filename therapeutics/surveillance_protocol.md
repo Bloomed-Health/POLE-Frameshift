@@ -86,7 +86,7 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 
 | Modality | Interval | Notes |
 |----------|----------|-------|
-| **Brain MRI** | Consider annually | POLE-mutant glioblastomas reported in literature |
+| **Brain MRI** | Consider annually | POLE-mutant glioblastomas reported in literature — N363K POLE variant extends PPAP tumor spectrum to glioblastoma (Vande Perre et al., 2019; Labrousse et al., 2023 *NAR Cancer*) |
 | **Dermatologic exam** | Annual | Sebaceous neoplasms (overlap with Muir-Torre spectrum) |
 
 ## Chemoprevention
@@ -98,7 +98,7 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 
 ## Clinical Trial Matching
 
-The patient's unique genomic profile (POLE c.138del, TMB >100 mut/Mb) should be matched against active clinical trials. Relevant eligibility categories:
+The patient's unique genomic profile (POLE c.138del, reported TMB >100 mut/Mb; assay platform pending clarification) should be matched against active clinical trials. Relevant eligibility categories:
 
 | Trial Category | Search Terms | Key Registries |
 |---------------|-------------|----------------|
@@ -110,6 +110,19 @@ The patient's unique genomic profile (POLE c.138del, TMB >100 mut/Mb) should be 
 | **Hereditary cancer syndromes** | "PPAP" OR "polyposis" AND "immunotherapy" | ClinicalTrials.gov |
 
 **Matching criteria for this patient:** TMB >100 mut/Mb, POLE pathogenic variant, no prior ICI, history of adenomatous polyposis, thyroid carcinoma (resected Stage I), endometriosis (post-hysterectomy). Key exclusion considerations: autoimmune markers (ANA 1:160), dysautonomia (POTS), and gastroparesis may affect eligibility for some trials.
+
+## Research Gaps and Future Directions
+
+The following areas lack published evidence and represent opportunities for novel investigation:
+
+| Gap | Current State | Required Evidence |
+|-----|---------------|-------------------|
+| **POLE truncating variants and cancer risk** | No published data on cancer outcomes in POLE LoF carriers (188 in gnomAD). All PPAP literature focuses on ExoD missense | Systematic phenotyping of gnomAD POLE LoF carriers; longitudinal cancer registry linkage |
+| **Synthetic lethality in POLE-null tumors** | ATR/CHK1 synthetic lethality demonstrated in POLE-*mutant* (ExoD missense) cell lines. No data for POLE-*null* (complete loss via LOH) tumors | CRISPR POLE knockout + ATR/PARP/WEE1 inhibitor sensitivity screens; the mechanism differs (replication stress from absent polymerase vs. error-prone polymerase) |
+| **POLE and thyroid cancer** | Thyroid not in established PPAP tumor spectrum. No germline POLE carriers reported with thyroid cancer. Somatic POLE mutations rare in thyroid TCGA data | Mutational signature analysis of thyroidectomy specimen; systematic thyroid screening in POLE carrier registries |
+| **POLE haploinsufficiency and endometriosis** | Never investigated. Endometrium is a high-vulnerability tissue for POLE (somatic POLE mutations in 7–13% of endometrial cancers) | NanoSeq on endometriotic tissue from POLE carriers; case-control comparison of endometriosis severity in POLE carriers vs. non-carriers |
+| **Anti-mitochondrial antibodies in POLE carriers** | ANA AC-21 pattern in this patient suggests potential AMA; no cohort-level data | Systematic AMA testing in POLE/POLD1 carrier cohorts; correlation with nuclear-encoded mitochondrial gene mutation burden |
+| **Preventive immunotherapy in humans** | Sawant et al. (2025) preclinical mouse data only; no human preventive ICI trials in PPAP | Clinical trial design for preventive ICI in high-risk PPAP carriers; ethical framework for treating non-cancer patients with ICI |
 
 ## Genetic Counseling
 

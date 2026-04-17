@@ -23,6 +23,12 @@ The wild-type POLE allele is somatically deleted or silenced in tumor tissue. Ce
 
 The patient's **congenital duplicated inferior vena cava** argues against Model 1 as the *sole* explanation. LOH is a stochastic somatic event — it cannot explain a congenital vascular anomaly present from embryonic development. Additionally, the multi-system non-neoplastic findings (bilateral PASH, severe endometriosis, liver FNH) suggest germline-level tissue dysfunction beyond what somatic LOH in individual tumors would produce. Model 1 may still explain the ultra-hypermutation in specific tumors, but the systemic phenotype requires a complementary germline mechanism (likely Model 4).
 
+### gnomAD Population Data Supporting Model 1
+
+**Critical new evidence:** gnomAD v4 shows 188 observed LoF variants in POLE (vs. 279 expected; oe_lof = 0.67, pLI ≈ 0, LOEUF = 0.76). This means **heterozygous POLE LoF is tolerated in the general population** — 188 carriers exist without apparent PPAP. This population-level observation strongly supports Model 1 as necessary for the cancer phenotype: if heterozygous LoF alone produced ultra-hypermutation, the 188 gnomAD LoF carriers would be expected to show PPAP-range TMB, which is inconsistent with normal health. The implication is that a **second hit (LOH)** in specific tissues is required to produce the ultra-hypermutated phenotype.
+
+This aligns with Andrianova et al. (2024, *Eur J Hum Genet*), who demonstrated that heterozygous POLD1 exonuclease domain variants cause only a ~15% increase in somatic mutation rate — insufficient for clinical cancer predisposition. Cancer development in their cohort required somatic LOH at the POLD1 locus, establishing a **recessive model for polymerase proofreading-associated cancer predisposition**. While this was demonstrated for POLD1 missense (not POLE truncating), the principle of LOH-dependent cancer risk may extend to POLE LoF variants.
+
 ### Exclusion Criteria
 
 Model 1 is **excluded** as the sole mechanism if: congenital anomalies or multi-system proliferative findings are confirmed as POLE-related AND normal tissue mutation rates are elevated. Model 1 is excluded entirely if: tumor shows no LOH at POLE locus AND no promoter methylation AND wild-type allele is expressed at normal levels in tumor tissue.
@@ -62,6 +68,16 @@ Model 2 is **excluded** if: Ribo-seq shows no ribosome footprints downstream of 
 
 The premature termination codon escapes nonsense-mediated mRNA decay. The truncated 54-amino-acid peptide retains partial binding capacity for the POLE2 (p59) accessory subunit, competitively inhibiting holoenzyme assembly — a dominant-negative mechanism through stoichiometric poisoning rather than catalytic dysfunction.
 
+### Tissue-Specific NMD Considerations
+
+Recent studies have demonstrated that NMD efficiency varies significantly across tissues and cell types, which is relevant to all NMD-dependent models (3, and partially 2):
+
+- **Kolakada et al. (2025):** Identified peptide release rate as a modifier of NMD efficiency — the rate at which ribosomes release at premature stop codons varies by transcript context and may influence whether the POLE c.138del transcript undergoes complete or partial NMD.
+- **Tan et al. (2025):** Demonstrated cell-type-dependent NMD efficiency, with certain cell lineages showing markedly reduced NMD — raising the possibility that POLE mutant mRNA escapes NMD in specific tissues but not others, creating tissue-specific truncated peptide expression.
+- **Palou-Marquez et al. (2025):** Showed variable NMD efficiency across tissues at population scale — implying that the POLE c.138del transcript may have different fates (complete degradation vs. partial escape) depending on the tissue context.
+
+If NMD escape is tissue-specific, this could create a scenario where the truncated peptide is produced in some tissues (contributing to Models 2/3 effects) but not others — potentially explaining the tissue-specific phenotype pattern.
+
 ### Prior Probability Assessment
 
 Model 3 has a **low prior probability**. Structural studies of the POLE holoenzyme (Yuan et al., 2020; Roske & Yeeles, 2024; He et al., 2024) show that the POLE–POLE2 interaction interface is mediated primarily by the **C-terminal domain** of POLE (residues ~1,265–2,286), not the N-terminal region. The truncated 54-residue peptide would need to engage a binding surface for which there is no structural precedent. AlphaFold modeling of the N-terminal region predicts limited stable secondary structure in isolation. Additionally, even if the peptide were produced, its stoichiometric competition with full-length wild-type POLE protein would require comparable POLE2 binding affinity — unlikely for a 54-residue fragment vs. a 2,286-residue protein with extensive interface contacts. This model is retained for completeness and formal testability but is considered the least likely of the six candidates.
@@ -96,6 +112,12 @@ Model 3 is **excluded** if: mutant mRNA undergoes complete NMD AND/OR the 54-res
 | 4c | Mutations will be enriched in late-replicating genomic regions | Mutation density vs. Repli-seq replication timing | Replication stress model supported | Uniform distribution = non-replication-dependent mechanism |
 | 4d | No LOH at POLE locus in tumor | ASCAT/FACETS analysis | Consistent with haploinsufficiency (no second hit needed) | LOH present = Model 1 |
 | 4e | Endometrial tissue from endometriosis lesions will show elevated mutation rates | NanoSeq on endometriotic tissue vs. eutopic endometrium | POLE haploinsufficiency drives endometrial tissue dysregulation | Normal rates = endometriosis unrelated to POLE |
+
+### gnomAD Population Data and Model 4
+
+The gnomAD LoF tolerance data (188 observed LoF, pLI ≈ 0, LOEUF = 0.76) creates an important **nuance** for Model 4. If heterozygous POLE LoF is tolerated (as evidenced by 188 carriers), then pure haploinsufficiency producing PPAP-range ultra-hypermutation (TMB >100 mut/Mb) seems unlikely — otherwise those 188 carriers should also develop ultra-hypermutated tumors. However, Model 4 predicts **subtler effects** of haploinsufficiency: mildly elevated mutation rates (Andrianova et al., 2024 demonstrated ~15% increase for heterozygous POLD1), proliferative dysregulation, and developmental anomalies. These subtle effects would be **undetectable in gnomAD** (which captures allele frequencies, not phenotypes). The 188 gnomAD LoF carriers may have subclinical phenotypes — mild polyposis, increased adenoma risk, developmental anomalies — that have never been systematically assessed.
+
+**Refined Model 4 prediction:** Haploinsufficiency produces the **systemic, non-neoplastic phenotype** (dupIVC, endometriosis severity, PASH, ANA) and mild baseline mutation rate elevation, but the **tumor-specific ultra-hypermutation** requires a second hit (LOH → Model 1, or second-site mutation → Model 6). This M4+M1 combination resolves both the gnomAD tolerance data and the clinical phenotype.
 
 ### Clinical Evidence Supporting Model 4
 
@@ -250,12 +272,19 @@ This matrix shows which experiments most efficiently discriminate between models
 
 As experimental results accumulate, formal Bayesian model comparison should be applied. For each experiment, the likelihood ratio for each model pair should be estimated:
 
-**Prior odds** (based on current clinical and structural evidence):
-- M4 (Haploinsufficiency): ~40% — strongest clinical support; congenital + multi-system phenotype
-- M1 (LOH): ~25% — well-established mechanism; likely complementary to M4
+**Prior odds** (based on current clinical, structural, and population-genetic evidence):
+- M4 (Haploinsufficiency): ~35% — strongest clinical support; congenital + multi-system phenotype. Revised down slightly from previous assessment: gnomAD LoF tolerance data (188 LoF carriers, pLI ≈ 0) argues against haploinsufficiency alone producing the full cancer phenotype, but supports it for the systemic non-neoplastic findings
+- M1 (LOH): ~30% — revised up: gnomAD data and Andrianova et al. (2024) recessive polymerase proofreading model strongly support LOH as required for tumor-specific ultra-hypermutation
 - M6 (Second-site): ~20% — mechanistically straightforward; normal mutagenesis of single functional allele can acquire ExoD hotspot
 - M5 (Isoform): ~5% — untested; neutral evidence
-- M2 (Reinitiation): ~5% — low prior; unprecedented reinitiation distance
-- M3 (Poisoning): ~5% — low prior; structurally implausible N-terminal POLE2 binding
+- M2 (Reinitiation): ~5% — low prior; unprecedented reinitiation distance; tissue-specific NMD studies (Tan 2025, Kolakada 2025) add complexity but do not change the fundamental improbability of >1 kb reinitiation
+- M3 (Poisoning): ~5% — low prior; structurally implausible N-terminal POLE2 binding. However, Keskitalo et al. (2025) identified POLE2 as an NPF motif receptor — any NPF-containing region in the truncated peptide warrants checking
 
-**Updating rule:** After each experiment, update posterior odds using the likelihood ratios defined in the falsifiable predictions tables above. A model's posterior probability <1% after two independent experiments constitutes practical exclusion. Models are not mutually exclusive — M4+M1 operating in concert has the highest prior probability (~30%).
+**Updating rule:** After each experiment, update posterior odds using the likelihood ratios defined in the falsifiable predictions tables above. A model's posterior probability <1% after two independent experiments constitutes practical exclusion. Models are not mutually exclusive — **M4+M1 operating in concert has the highest prior probability (~40%)** and is the most consistent with both the gnomAD population data (LoF tolerated → haploinsufficiency alone insufficient for cancer) and the clinical phenotype (systemic non-neoplastic findings → germline-level effects).
+
+### Structural Biology Updates
+
+Recent structural studies provide additional context for mechanistic modeling:
+
+- **Wang et al. (2025):** First visualization of proofreading intermediates of human Pol epsilon — shows the DNA strand-switching pathway between polymerase and exonuclease active sites. Relevant to understanding why exonuclease domain loss (or absence) has different consequences than exonuclease domain mutation.
+- **Keskitalo et al. (2025):** POLE2 accessory subunit identified as an NPF motif receptor. This interaction is relevant to Model 3 (holoenzyme poisoning) — if the truncated 54-residue peptide contains NPF-like motifs, competitive inhibition of POLE2 becomes slightly more plausible. Also relevant to understanding holoenzyme assembly and the consequences of POLE catalytic subunit loss.

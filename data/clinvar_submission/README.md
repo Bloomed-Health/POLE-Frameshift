@@ -38,7 +38,7 @@ Under the **general ACMG/AMP framework**, the following evidence codes apply:
 | **PM2** | Absent from controls | Moderate | Not found in gnomAD v4 (0/1,614,586 alleles), ExAC, or any population database |
 | **PP4** | Patient phenotype highly specific for the gene | Supporting | Reported TMB >100 mut/Mb (assay platform pending clarification), progressive adenomatous polyposis (~6 adenomas age 19, accumulating to ~15+ by age 31), Stage I papillary thyroid carcinoma (1.2 cm, isthmus) — phenotype clinically consistent with PPAP. **Limitation:** PP4 is Supporting-level evidence and does not include functional data; the phenotype-genotype link would be strengthened by confirming POLE mutational signatures (SBS10a/b) or LOH at the POLE locus in the tumor |
 
-**Combined classification: Likely Pathogenic** (PM2 + PP4) under general ACMG/AMP, pending mechanistic resolution. Classification would strengthen to Pathogenic if POLE mutational signatures (SBS10a/b) are confirmed in the tumor and/or LOH at the POLE locus is demonstrated.
+**Clinical laboratory classification: Pathogenic.** Independent ACMG evidence assessment identifies PM2 + PP4 as firmly assignable; PVS1 applicability is debated (see above). The lab's Pathogenic classification is consistent with the clinical presentation and may reflect additional evidence or expert panel review. Mechanistic resolution (POLE mutational signatures, LOH analysis) would clarify which ACMG evidence codes fully apply and strengthen the evidence base for this novel variant class.
 
 ## Important Caveats for ClinVar Submission
 

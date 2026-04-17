@@ -8,7 +8,7 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ### Changed (Peer Review Feedback)
 
-- **ACMG classification revised:** Removed PVS1; variant reclassified as "Likely Pathogenic (PM2 + PP4)" under general ACMG/AMP; noted as unclassifiable under Mur et al. (2023) POLE-specific framework
+- **ACMG classification clarified:** Variant is Pathogenic per clinical laboratory. PVS1 applicability discussed as research nuance (mechanism does not match canonical dominant-negative model); independent ACMG evidence: PM2 + PP4; Mur et al. (2023) POLE-specific framework does not cover this variant type
 - **"Unambiguous PPAP" → "clinically consistent with PPAP"** throughout (molecular confirmation via SBS10a/b/28 pending)
 - **TMB sourcing qualified:** All TMB >100 mut/Mb references now marked as "reported" with assay platform and source specimen pending clarification
 - **Thyroid carcinoma corrected:** 0.6 cm microcarcinoma → 1.2 cm carcinoma, isthmus; T1a → T1b; "microcarcinoma" removed throughout

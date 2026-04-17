@@ -11,7 +11,7 @@ The central research question is a **mechanistic paradox**: this variant truncat
 - **Variant:** POLE c.138del (p.Leu46Phefs*8) — frameshift deletion, premature stop at ~residue 54 of 2,286 amino acids
 - **Gene:** POLE (DNA Polymerase Epsilon, catalytic subunit), chromosome 12q24.33, transcript ENST00000320574
 - **Constraint:** gnomAD pLI = 0.98, LOEUF = 0.22 — extreme loss-of-function intolerance; variant absent from all population databases
-- **Classification:** Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023); under general ACMG/AMP: PM2 + PP4 (PVS1 not applied — mechanism does not match canonical PPAP dominant-negative model); not yet in ClinVar
+- **Classification:** Pathogenic (clinical laboratory). Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023); independent ACMG evidence: PM2 + PP4 firmly assignable; PVS1 applicability debated (mechanism does not match canonical PPAP dominant-negative model); not yet in ClinVar
 - **47-gene panel (2022):** Negative for APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, and all other genes tested — POLE c.138del is the sole identified genetic driver among genes tested (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation)
 
 ## Patient Phenotype (Five Categories + Comorbidity Context)

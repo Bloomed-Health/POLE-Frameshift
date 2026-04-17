@@ -357,7 +357,7 @@
                   },
                   {
                     "name": "acmg_evidence_codes",
-                    "value": "PM2 (absent from population databases), PP4 (phenotype clinically consistent with PPAP). PVS1 not applied — mechanism does not match canonical PPAP dominant-negative model; variant falls outside Mur et al. (2023) POLE-specific classification framework"
+                    "value": "Classified as Pathogenic by clinical laboratory. Independent ACMG evidence: PM2 (absent from population databases), PP4 (phenotype clinically consistent with PPAP). PVS1 applicability debated — mechanism does not match canonical PPAP dominant-negative model; variant falls outside Mur et al. (2023) POLE-specific classification framework"
                   },
                   {
                     "name": "47_gene_panel_result",

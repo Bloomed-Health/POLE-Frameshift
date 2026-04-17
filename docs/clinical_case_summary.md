@@ -15,7 +15,7 @@
 | **Predicted consequence** | Premature termination at ~residue 54 of 2,286 amino acids |
 | **gnomAD frequency** | Absent (0/1,614,586 alleles in gnomAD v4) |
 | **ClinVar** | Not reported |
-| **ACMG classification** | **Cannot be classified under existing POLE-specific guidelines** (Mur et al., 2023 — designed for non-disruptive ED missense variants). Under general ACMG/AMP: PM2 (absent from controls) + PP4 (phenotype consistent with PPAP). PVS1 (null variant) is not applied because the mechanism of pathogenicity does not match the canonical PPAP dominant-negative model; the variant may act through LOH, haploinsufficiency, or other non-canonical mechanisms. Classification requires resolution of the mechanistic paradox or extension of the POLE-specific framework to accommodate truncating variants |
+| **Classification** | **Pathogenic** (clinical laboratory classification). Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 — designed for non-disruptive ED missense variants). Independent ACMG evidence assessment: PM2 (absent from controls) + PP4 (phenotype consistent with PPAP) are firmly assignable. PVS1 (null variant) applicability is debated — the mechanism of pathogenicity does not match the canonical PPAP dominant-negative model; the variant may act through LOH, haploinsufficiency, or other non-canonical mechanisms. Resolution of the mechanistic paradox would clarify which evidence codes fully apply and may inform extension of the POLE-specific framework to accommodate truncating variants |
 
 ---
 

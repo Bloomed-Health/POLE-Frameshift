@@ -1,18 +1,18 @@
 # POLE c.138del (p.Leu46Phefs*8) — Research Framework
 
-> **A novel ultra-rare frameshift variant in DNA Polymerase Epsilon causing Polymerase Proofreading-Associated Polyposis (PPAP) with ultra-hypermutated tumor phenotype**
+> **A novel ultra-rare frameshift variant in DNA Polymerase Epsilon causing Polymerase Proofreading-Associated Polyposis (PPAP) with reported ultra-hypermutated tumor phenotype**
 
 ---
 
 ## Overview
 
-This repository contains the scientific research framework, clinical documentation, and analysis pipeline specifications for investigating **POLE c.138del (p.Leu46Phefs\*8)** — a pathogenic frameshift variant in the *POLE* gene identified in a female patient with:
+This repository contains the scientific research framework, clinical documentation, and analysis pipeline specifications for investigating **POLE c.138del (p.Leu46Phefs\*8)** — a likely pathogenic frameshift variant in the *POLE* gene identified in a female patient with:
 
 - **Reported ultra-hypermutated tumor phenotype** (TMB >100 mutations/Mb; assay platform and source tumor specimen pending clarification — WGS-based TMB determination and mutational signature confirmation are priority experiments)
 - **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage I papillary thyroid carcinoma (1.2 cm, isthmus, encapsulated, non-invasive; outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension and intestinal adhesions, bilateral proliferative breast changes with IHC-confirmed PASH, liver hypervascular lesion (hemangioma vs. FNH), congenital duplicated inferior vena cava, and ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies)
 - **Complete absence from gnomAD** and all major population databases (gnomAD pLI = 0.98, LOEUF = 0.22 — extreme loss-of-function intolerance)
 - **Premature protein truncation at ~residue 54** of the 2,286-amino-acid POLE catalytic subunit
-- **Sole identified genetic driver** — a 47-gene hereditary cancer panel (2022) found no pathogenic variants in APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene
+- **Sole identified genetic driver among genes tested** — a 47-gene hereditary cancer panel (2022) found no pathogenic variants in APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation)
 
 This variant presents a **fundamental mechanistic paradox**: it eliminates all major catalytic domains of POLE — including the exonuclease (proofreading) domain (residues ~268–471) and the polymerase domain (residues ~580–1260) — yet produces a clinical phenotype indistinguishable from classical PPAP caused by missense variants within the exonuclease active site.
 
@@ -283,7 +283,7 @@ Model 4 currently has the strongest clinical support among all six candidates. T
 
 **Secondary model: Model 1 — Somatic LOH (complementary, not alternative)**
 
-Model 1 likely operates in parallel with Model 4 to explain the tumor-specific ultra-hypermutation (TMB >100 mut/Mb). The thyroid carcinoma — arising in a slow-cycling tissue where haploinsufficiency alone may be insufficient — is best explained by somatic loss of the wild-type allele in that specific tissue. Pending experiment: paired tumor-normal WGS with allele-specific copy number analysis.
+Model 1 likely operates in parallel with Model 4 to explain the tumor-specific ultra-hypermutation (reported TMB >100 mut/Mb). The thyroid carcinoma — arising in a slow-cycling tissue where haploinsufficiency alone may be insufficient — is best explained by somatic loss of the wild-type allele in that specific tissue. Pending experiment: paired tumor-normal WGS with allele-specific copy number analysis.
 
 **What would change this assessment:**
 - If NanoSeq on normal blood cells shows completely normal mutation rates → weakens Model 4, strengthens Model 1 as primary
@@ -426,7 +426,7 @@ Blood tests represent the most accessible experimental approach, spanning genomi
 
 | Approach | Rationale | Evidence | Evidence Level |
 |----------|-----------|----------|----------------|
-| **Anti-PD-1 (pembrolizumab)** | TMB >100 mut/Mb; FDA tissue-agnostic approval at ≥10 | Pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS (JCO Precision Oncology, 2022) | **FDA-approved** (tissue-agnostic) |
+| **Anti-PD-1 (pembrolizumab)** | Reported TMB >100 mut/Mb (pending WGS confirmation); FDA tissue-agnostic approval at ≥10 | Pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS (JCO Precision Oncology, 2022) | **FDA-approved** (tissue-agnostic) |
 | **Anti-PD-1 + anti-CTLA-4** | If multiple co-inhibitory receptors expressed | CheckMate-142 precedent in MSI-H CRC | **Phase III** (in MSI-H; extrapolated to POLE) |
 | **Neoantigen vaccination** | Extreme neoantigen load; adjuvant post-resection | mRNA-4157/V940 platform; combination with ICI | **Phase II/III** (general; no POLE-specific data) |
 | **Preventive ICB** | Pre-cancer checkpoint blockade in PPAP carriers | Delayed tumor onset in polymerase mutator mice; ICB did NOT improve survival in established tumors; 32.5% vs. 2.7% responder rate (Sawant et al., 2025) | **Preclinical only** (mouse; hypothesis-generating) |
@@ -681,7 +681,7 @@ POLE-Frameshift/
 
 This is an n=1 observation. Confirmation requires: (1) resolving the mechanism in this patient (LOH analysis, duplex sequencing), (2) demonstrating the same mechanism operates in other POLE truncation carriers, and (3) replication in independent cases. If the two-hit / LOH model is confirmed and generalizes, some truncating POLE variants currently classified as **likely benign** (on the assumption that haploinsufficiency is benign) may warrant reclassification — a more contentious claim than simply reclassifying VUS, since it challenges existing benign classifications. A systematic ClinVar review of truncating POLE variant classifications would be a valuable companion analysis.
 
-The ultra-hypermutated phenotype (TMB >100 mut/Mb) simultaneously creates:
+The reported ultra-hypermutated phenotype (TMB >100 mut/Mb, pending WGS confirmation) simultaneously creates:
 
 - **Immediate therapeutic opportunity** — ICI eligibility with strong evidence of efficacy
 - **A natural experiment** — for understanding DNA polymerase fidelity thresholds in human cancer

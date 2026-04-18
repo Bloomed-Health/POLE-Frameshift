@@ -14,7 +14,7 @@ The central research question is a **mechanistic paradox**: this variant truncat
 - **Classification:** Pathogenic (clinical laboratory). Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023); independent ACMG evidence: PM2 + PP4 firmly assignable; PVS1 applicability debated (mechanism does not match canonical PPAP dominant-negative model); not yet in ClinVar
 - **47-gene panel (2022):** Negative for APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, and all other genes tested — POLE c.138del is the sole identified genetic driver among genes tested (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation)
 
-## Patient Phenotype (Five Categories + Comorbidity Context)
+## Patient Phenotype (Five Phenotype Categories + Supplementary Context)
 
 1. **Neoplastic:** Progressive adenomatous polyposis (~6 adenomas at age 19, accumulating to ~15+ by age 31; stomach, cecum, sigmoid), Stage I papillary thyroid carcinoma (~28; encapsulated, non-invasive, 1.2 cm, isthmus; outside established PPAP spectrum; s/p total thyroidectomy, on levothyroxine)
 2. **Proliferative/stromal:** Bilateral breast changes with IHC-confirmed PASH (CD34+, CK AE1/AE3−), liver hypervascular lesion (hemangioma vs FNH, segment VII, 16×14 mm) with splenoportal arteriovenous shunt
@@ -85,7 +85,7 @@ POLE-Frameshift/
 │   └── experimental_protocols/      # Organoid, CRISPR, mouse model protocols
 ├── therapeutics/
 │   ├── immunotherapy_strategy.md    # ICI rationale and monitoring
-│   ├── synthetic_lethality.md       # ATR/PARP/WRN targets
+│   ├── synthetic_lethality.md       # ATR/PARP/WRN targets + POLE-null vs POLE-mutant distinction
 │   ├── surveillance_protocol.md     # Multi-organ surveillance
 │   └── pharmacokinetic_considerations.md # Drug-comorbidity interaction map
 ├── data/                            # Structured reference data (TSV/FASTA/JSON)

@@ -4,6 +4,23 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
+## [0.5.1] — 2026-04-18
+
+### Added
+
+- **POLE-null vs. POLE-mutant distinction** in `therapeutics/synthetic_lethality.md`: New section explaining that all published synthetic lethality data derives from POLE-ExoD-*mutant* cells, not POLE-*null* (LOH-driven) cells — a critical gap for translating findings to this patient's tumors. Includes comparison table, evidence gap analysis, and required CRISPR knockout experiments
+- **POLE-null synthetic lethality validation** added to Data Needed section in `synthetic_lethality.md`
+- **Two bibliography entries** in `references/bibliography.bib`: Tan et al. (2025) *Nucleic Acids Research* (cell-type-dependent NMD, PMID 40366162) and Palou-Márquez & Supek (2025) *Genome Biology* (variable NMD across tissues/individuals, PMID 41023738) — both previously cited in `mechanistic_models.md` but missing from bibliography
+- **AAAAI/EAACI caveat** added to food-specific IgG section in `docs/clinical_case_summary.md`: Blockquote noting that AAAAI recommends against food-specific IgG testing for diagnosis; data retained for pattern documentation only; cross-reference to validated permeability assays
+
+### Changed
+
+- **Food-specific IgG note strengthened** in `docs/clinical_case_summary.md`: End-of-section caveat updated to reference AAAAI/EAACI position statement; antigen count corrected from "19+" to "17" (actual count from table)
+- **Leading theory date fixed** in `README.md`: "Updated 2026-04-16" → "Updated 2026-04-17" (consistent with v0.5.0 release date)
+- **Phenotype heading clarified** in `CLAUDE.md`: "Five Categories + Comorbidity Context" → "Five Phenotype Categories + Supplementary Context"
+
+---
+
 ## [0.5.0] — 2026-04-17
 
 ### Changed (Scientific Database Verification & Literature Update)

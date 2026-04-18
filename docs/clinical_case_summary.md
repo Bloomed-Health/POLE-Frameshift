@@ -77,6 +77,8 @@ The presentation spans five distinct categories — neoplastic, proliferative/st
 
 ### Food-Specific IgG Reactivity Profile
 
+> **⚠ AAAAI Position Statement:** The American Academy of Allergy, Asthma & Immunology (AAAAI) and the European Academy of Allergy and Clinical Immunology (EAACI) recommend against the use of food-specific IgG and IgG4 testing for diagnosing food allergy or intolerance, as IgG antibodies to food antigens reflect exposure rather than pathology and have no established clinical diagnostic value. **The data below is retained solely for pattern documentation** (breadth of reactivity as a potential marker of intestinal permeability), not for clinical diagnosis of food allergy. See [`comorbidity_interaction_analysis.md`](../models/comorbidity_interaction_analysis.md) for validated intestinal permeability assays (lactulose:mannitol ratio, zonulin, I-FABP).
+
 Food-specific IgG antibody testing (ELISA, optical density units) reveals a broad pattern of elevated reactivity:
 
 | Antigen | OD Units | Reactivity Level |
@@ -113,7 +115,7 @@ Food-specific IgG antibody testing (ELISA, optical density units) reveals a broa
 >
 > 5. **Autoimmune axis convergence.** Broad food-specific IgG alongside ANA 1:160 AC-21 (anti-mitochondrial pattern) indicates systemic immune dysregulation operating at multiple levels — organelle-level (mitochondrial antigens), dietary antigen-level (food proteins), and nuclear-level (ANA). This pattern is consistent with a generalized breakdown of immune tolerance, potentially driven by POLE haploinsufficiency increasing neoantigen generation across rapidly dividing tissues.
 >
-> **Note:** Food-specific IgG testing has limited clinical validation in mainstream allergy/immunology practice. IgG to food antigens can reflect exposure rather than pathology. However, the *breadth* of the reactivity pattern (19+ antigens across multiple food groups) is atypical and, in the context of this patient's established GI pathology and immune findings, warrants interpretation as a potential marker of barrier dysfunction rather than dismissal.
+> **Note:** Per the AAAAI/EAACI position statement, food-specific IgG testing is **not recommended** for diagnosing food allergy or intolerance — IgG to food antigens reflects exposure, not pathology. This data is retained because the *breadth* of the reactivity pattern (17 antigens across multiple food groups) is atypical, and in the context of this patient's established GI pathology and immune findings, may serve as a surrogate marker of intestinal barrier dysfunction rather than indicating true food allergy. Validated permeability assays (lactulose:mannitol ratio, serum zonulin, plasma I-FABP) should be pursued for clinical confirmation.
 
 ### Key Negative Findings
 

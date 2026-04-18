@@ -269,7 +269,7 @@ The patient's multi-system phenotype provides immediate discriminatory evidence 
 
 The **congenital duplicated IVC** is the single most important clinical discriminator — it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). However, duplicated IVC occurs in 0.6–2.6% of the general population, so its significance rests on the co-occurrence with other vascular/stromal proliferative findings rather than as an isolated observation. The **ANA AC-21 pattern** (anti-mitochondrial antibodies) adds a new dimension: if POLE haploinsufficiency elevates mutation rates in nuclear-encoded mitochondrial genes (~1,500 genes), the resulting mitochondrial dysfunction could expose inner membrane antigens to immune surveillance, producing AMA. Note that ANA positivity at ≥1:160 occurs in ~5–15% of healthy women, but the specific AC-21 reticular cytoplasmic pattern is uncommon in healthy populations and strongly associated with PBC. The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis, potential AMA) collectively argue against Model 1 operating alone, as independent LOH in each organ would be an extraordinary coincidence.
 
-### Current Leading Theory (Updated 2026-04-16)
+### Current Leading Theory (Updated 2026-04-17)
 
 > **This section is maintained as a living assessment and should be updated as new data enters the repository or new research is published.**
 

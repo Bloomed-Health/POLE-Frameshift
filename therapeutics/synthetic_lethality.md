@@ -41,6 +41,41 @@ POLE-deficient cells operate near a viability threshold for replication stress a
 - Smith HL et al. (2024) — ATR/CHK1/WEE1 inhibitors create HRR deficiency, synergizing with PARP inhibitors
 - Replication stress from POLE deficiency may independently increase PARP dependence
 
+## Critical Distinction: POLE-Mutant vs. POLE-Null
+
+> **All published synthetic lethality data in POLE-deficient cancers derives from POLE-*mutant* (exonuclease domain missense) cells, NOT POLE-*null* (complete loss-of-function) cells.** This distinction is critical for translating synthetic lethality findings to this patient's tumors.
+
+### Comparison
+
+| Feature | POLE-Mutant (ExoD Missense) | POLE-Null (Complete Loss) |
+|---------|----------------------------|--------------------------|
+| **Polymerase present?** | Yes — full-length, catalytically active | No — absent or truncated/nonfunctional |
+| **Leading strand replication** | Pol epsilon-dependent (normal processivity) | Must be rescued by Pol delta or other polymerases |
+| **Source of replication stress** | Proofreading deficiency → uncorrected mismatches → ultra-hypermutation | Loss of leading strand polymerase → fork stalling, collapse, incomplete replication |
+| **ATR/CHK1 dependency** | Moderate — replication stress from mismatch accumulation | Likely high — replication fork collapse activates ATR strongly |
+| **Fork speed** | Normal or slightly elevated | Reduced (Pol delta is slower on leading strand) |
+| **Mutation signature** | SBS10a/b, SBS28 (characteristic POLE ExoD signatures) | Unknown — no published data |
+
+### Why This Matters
+
+The patient's POLE c.138del frameshift creates a **loss-of-function allele**. In tumors that undergo LOH (loss of the wild-type allele), the resulting state is **POLE-null** — complete absence of functional Pol epsilon exonuclease and polymerase activity. This is mechanistically distinct from the P286R/V411L missense mutations studied in synthetic lethality screens, where the polymerase is present but proofreading-deficient.
+
+Key implications:
+- **ATR/CHK1 inhibitors** may be *more* effective in POLE-null cells (greater replication stress from fork collapse) — but this is untested
+- **PARP inhibitors** may have different efficacy profiles (different type of replication stress)
+- **WEE1 inhibitors** rationale may be stronger (more unrepaired damage at G2/M)
+- Drug sensitivity predictions from POLE-mutant DepMap data may not transfer directly
+
+### Evidence Gap
+
+Andrianova et al. (2024) established that heterozygous POLD1 ExoD mutations produce only ~15% mutation rate increase, with cancer requiring LOH — a **recessive model**. This supports the interpretation that the patient's tumors are POLE-null (via LOH), not POLE-haploinsufficient. However, no synthetic lethality screen has been performed in POLE-null (knockout) cells.
+
+### Required Experiments
+
+- **CRISPR POLE knockout** in appropriate cell lines (colorectal, endometrial) followed by drug sensitivity screening against ATR, PARP, WEE1, and CHK1 inhibitors
+- **Comparison** of drug sensitivity profiles between POLE-knockout and POLE-ExoD-mutant isogenic cell lines
+- **DepMap reanalysis** filtering for any POLE-null (homozygous deletion/truncating) cell lines vs. POLE-ExoD-mutant lines
+
 ## Prioritization
 
 1. **ATR inhibitors** — strongest mechanistic rationale and most advanced clinical development
@@ -64,6 +99,7 @@ The patient's hEDS/POTS/gastroparesis triad interacts with several candidate syn
 
 ## Data Needed
 
+- **POLE-null synthetic lethality validation:** CRISPR knockout screens in colorectal/endometrial cell lines to determine whether drug sensitivities differ between POLE-null and POLE-ExoD-mutant states (see § Critical Distinction above)
 - DepMap dependency profiles of POLE-mutant cell lines (computational analysis)
 - Drug sensitivity data from patient-derived organoids (when established)
 - MSI status of patient's tumor (determines WRN relevance)

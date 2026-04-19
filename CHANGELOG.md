@@ -4,6 +4,26 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
+## [0.5.4] — 2026-04-19
+
+### Changed (Comprehensive Audit — Scientific Accuracy Corrections)
+
+- **CRITICAL: CDK4/6 inhibitor mechanism corrected** across `README.md` and `therapeutics/synthetic_lethality.md`: CDK4/6 inhibitors enforce G1 arrest (not "force S-phase entry"). Rationale rewritten: POLE-deficient clones that have lost G1 checkpoint control (via p53/Rb inactivation) may be selectively sensitive to restored G1 arrest
+- **CRITICAL: Albertson et al. (2009) mouse data corrected** in `README.md` and `references/bibliography.bib`: Heterozygous proofreading-dead mice showed ~15x elevated mutation rate (not "indistinguishable from WT"). Homozygous mutation rate corrected from ">70x" to "~65x". Interpretation updated: heterozygous data supports Model 4 (measurable haploinsufficiency) while still requiring LOH for full cancer phenotype
+- **"188 LoF carriers" → "188 LoF variants"** across all files: gnomAD reports 188 observed LoF *variants*, not 188 individual *carriers* (different quantities). Corrected in `README.md`, `CLAUDE.md`, `docs/clinical_case_summary.md`, `models/mechanistic_models.md`, `data/phenopacket/pole_c138del_phenopacket.json`, `data/clinvar_submission/README.md`, `docs/AI-Research-Assistance-Framework.md`
+- **Anglesio et al. (2017) statistic corrected** in `README.md` and `therapeutics/surveillance_protocol.md`: 79% of *patients* with deep infiltrating endometriosis harbored somatic mutations in at least one lesion, not 79% of *lesions*; 26% of individual lesions had driver mutations
+- **"Indistinguishable from classical PPAP" → "clinically consistent with PPAP"** in `README.md` header tagline and line 17, and `CLAUDE.md`: Overstated when TMB assay platform is unconfirmed and SBS10a/b signatures are pending; "(molecular confirmation pending)" added
+- **Bass citation corrected** from "Bass & Redwine, 2010" to "Bass et al., 2000" across `docs/clinical_case_summary.md`, `README.md`, and `models/mechanistic_models.md`
+- **Andrianova et al. (2024) precision improved** in `README.md`: Explicitly noted study demonstrated recessive model for *POLD1* (not POLE); added "(demonstrated for POLD1; the principle may extend to POLE)"
+- **Adavosertib (AZD1775) discontinued** in `README.md` and `therapeutics/synthetic_lethality.md`: Updated to next-generation WEE1 inhibitors (azenosertib/ZN-c3, Debio 0123) with note on improved therapeutic windows
+- **Tebentafusp specificity noted** in `therapeutics/immunotherapy_strategy.md`: Clarified that tebentafusp is specific to gp100/HLA-A*02:01 melanoma; listed as platform concept for future neoantigen-directed bispecifics
+- **Domain boundary TSV corrected** (`data/POLE_domain_boundaries.tsv`): C-terminal region start changed from 1189 to 1190 (eliminates overlap with Polymerase domain end); source attribution corrected from "Liu & Linn 2000" to "Korona et al. 2011 JBC; Liu & Linn 2000 NAR (domain architecture)"
+- **"Three critical observations" → "four"** in `docs/clinical_case_summary.md`: Count corrected to match the four numbered observations listed
+- **Broken cross-reference fixed** in `docs/clinical_case_summary.md`: `../models/comorbidity_interaction_analysis.md` → `comorbidity_interaction_analysis.md` (file is in same directory)
+- **SHA-256 checksums regenerated** (`data/checksums.sha256`): Updated for all data files modified in v0.5.3 and v0.5.4
+
+---
+
 ## [0.5.3] — 2026-04-19
 
 ### Added

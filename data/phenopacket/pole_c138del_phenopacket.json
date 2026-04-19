@@ -353,11 +353,11 @@
                   },
                   {
                     "name": "constraint_metrics",
-                    "value": "gnomAD pLI ≈ 0 (1.1e-40), LOEUF = 0.76, oe_lof = 0.67 (188 observed / 279 expected LoF); POLE tolerates heterozygous LoF — 188 LoF carriers in gnomAD lack apparent PPAP"
+                    "value": "gnomAD pLI ≈ 0 (1.1e-40), LOEUF = 0.76, oe_lof = 0.67 (188 observed / 279 expected LoF); POLE tolerates heterozygous LoF — 188 LoF variants in gnomAD lack apparent PPAP"
                   },
                   {
                     "name": "acmg_evidence_codes",
-                    "value": "Classified as Pathogenic by clinical laboratory. Independent ACMG evidence: PM2 (absent from population databases), PP4 (phenotype clinically consistent with PPAP). PVS1 not applied — POLE is not LoF-intolerant (gnomAD pLI ≈ 0, LOEUF = 0.76; 188 LoF carriers observed), and mechanism does not match canonical PPAP dominant-negative model; variant falls outside Mur et al. (2023) POLE-specific classification framework"
+                    "value": "Classified as Pathogenic by clinical laboratory. Independent ACMG evidence: PM2 (absent from population databases), PP4 (phenotype clinically consistent with PPAP). PVS1 not applied — POLE is not LoF-intolerant (gnomAD pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed), and mechanism does not match canonical PPAP dominant-negative model; variant falls outside Mur et al. (2023) POLE-specific classification framework"
                   },
                   {
                     "name": "47_gene_panel_result",

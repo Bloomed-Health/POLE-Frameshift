@@ -15,7 +15,7 @@
 | **Predicted consequence** | Premature termination at ~residue 54 of 2,286 amino acids |
 | **gnomAD frequency** | Absent (0/1,614,586 alleles in [gnomAD v4](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4); GRCh38 chr12:132681203–132681204) |
 | **ClinVar** | Not reported |
-| **Classification** | **Pathogenic** (clinical laboratory classification). Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 — designed for non-disruptive ED missense variants). Independent ACMG evidence assessment: PM2 (absent from controls) + PP4 (phenotype consistent with PPAP) are firmly assignable. PVS1 (null variant) not applied — POLE is not LoF-intolerant (gnomAD pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed vs. 279 expected, indicating heterozygous LoF is tolerated), and the mechanism does not match the canonical PPAP dominant-negative model. The 188 LoF carriers in gnomAD without apparent PPAP imply a second somatic hit (LOH) or other non-canonical mechanism is required for the cancer phenotype. Resolution of the mechanistic paradox would clarify which evidence codes fully apply and may inform extension of the POLE-specific framework to accommodate truncating variants |
+| **Classification** | **Pathogenic** (clinical laboratory classification). Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 — designed for non-disruptive ED missense variants). Independent ACMG evidence assessment: PM2 (absent from controls) + PP4 (phenotype consistent with PPAP) are firmly assignable. PVS1 (null variant) not applied — POLE is not LoF-intolerant (gnomAD pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed vs. 279 expected, indicating heterozygous LoF is tolerated), and the mechanism does not match the canonical PPAP dominant-negative model. The 188 LoF variants in gnomAD without apparent PPAP imply a second somatic hit (LOH) or other non-canonical mechanism is required for the cancer phenotype. Resolution of the mechanistic paradox would clarify which evidence codes fully apply and may inform extension of the POLE-specific framework to accommodate truncating variants |
 
 ---
 
@@ -55,7 +55,7 @@ The presentation spans five distinct categories — neoplastic, proliferative/st
 
 | Finding | Details | Significance |
 |---------|---------|-------------|
-| **Duplicated inferior vena cava** | Congenital vascular anomaly present from embryonic development | **Cannot be explained by somatic mutations or tumor-related processes** — reflects a developmental error during embryogenesis. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass & Redwine, 2010), so this finding alone could be coincidental |
+| **Duplicated inferior vena cava** | Congenital vascular anomaly present from embryonic development | **Cannot be explained by somatic mutations or tumor-related processes** — reflects a developmental error during embryogenesis. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass et al., 2000), so this finding alone could be coincidental |
 
 > **Mechanistic implications:** This is the most conceptually important finding for the mechanistic paradox. POLE is required for DNA replication in every dividing cell during embryonic development. Robinson et al. (2021) demonstrated that germline POLE mutations affect mutation rates during early embryogenesis. A congenital vascular anomaly in a POLE frameshift carrier raises the possibility that **POLE haploinsufficiency affects developmental morphogenesis** — either through elevated mutation rates in embryonic progenitor cells creating somatic mosaicism that disrupts vascular patterning, or through non-replicative roles of POLE in developmental signaling or chromatin regulation. This finding **argues against the pure LOH model (Model 1) as the sole explanation** — LOH is a stochastic somatic event and should not cause a congenital anomaly. If the duplicated IVC is genuinely related to POLE dysfunction, it supports Model 4 (haploinsufficiency has developmental consequences). However, given the population base rate of 0.6–2.6%, a causal link cannot be established from a single case — the significance of this finding derives from its co-occurrence with other vascular/stromal proliferative abnormalities (bilateral PASH, liver FNH/hemangioma, splenoportal AV shunt) rather than from the duplicated IVC in isolation.
 
@@ -77,7 +77,7 @@ The presentation spans five distinct categories — neoplastic, proliferative/st
 
 ### Food-Specific IgG Reactivity Profile
 
-> **⚠ AAAAI Position Statement:** The American Academy of Allergy, Asthma & Immunology (AAAAI) and the European Academy of Allergy and Clinical Immunology (EAACI) recommend against the use of food-specific IgG and IgG4 testing for diagnosing food allergy or intolerance, as IgG antibodies to food antigens reflect exposure rather than pathology and have no established clinical diagnostic value. **The data below is retained solely for pattern documentation** (breadth of reactivity as a potential marker of intestinal permeability), not for clinical diagnosis of food allergy. See [`comorbidity_interaction_analysis.md`](../models/comorbidity_interaction_analysis.md) for validated intestinal permeability assays (lactulose:mannitol ratio, zonulin, I-FABP).
+> **⚠ AAAAI Position Statement:** The American Academy of Allergy, Asthma & Immunology (AAAAI) and the European Academy of Allergy and Clinical Immunology (EAACI) recommend against the use of food-specific IgG and IgG4 testing for diagnosing food allergy or intolerance, as IgG antibodies to food antigens reflect exposure rather than pathology and have no established clinical diagnostic value. **The data below is retained solely for pattern documentation** (breadth of reactivity as a potential marker of intestinal permeability), not for clinical diagnosis of food allergy. See [`comorbidity_interaction_analysis.md`](comorbidity_interaction_analysis.md) for validated intestinal permeability assays (lactulose:mannitol ratio, zonulin, I-FABP).
 
 Food-specific IgG antibody testing (ELISA, optical density units) reveals a broad pattern of elevated reactivity:
 
@@ -187,7 +187,7 @@ The temporal sequence of diagnoses, now resolved to specific ages, reveals a pat
 
 #### Temporal Pattern Analysis
 
-The chronological sequence reveals three critical observations:
+The chronological sequence reveals four critical observations:
 
 1. **Fastest-dividing tissue affected first.** Colonic epithelium (3–5 day turnover) produced clinically detectable adenomas by age 19 — the earliest non-congenital, non-comorbidity finding. This is precisely what Model 4 (replication stress-dependent haploinsufficiency) predicts: tissues with the highest cell division rates cross the proofreading fidelity threshold first.
 

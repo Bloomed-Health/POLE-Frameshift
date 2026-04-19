@@ -1,6 +1,6 @@
 # POLE c.138del (p.Leu46Phefs*8) — Research Framework
 
-> **A novel ultra-rare frameshift variant in DNA Polymerase Epsilon causing Polymerase Proofreading-Associated Polyposis (PPAP) with reported ultra-hypermutated tumor phenotype**
+> **A novel ultra-rare frameshift variant in DNA Polymerase Epsilon clinically consistent with Polymerase Proofreading-Associated Polyposis (PPAP) with reported ultra-hypermutated tumor phenotype (molecular confirmation pending)**
 
 ---
 
@@ -14,7 +14,7 @@ This repository contains the scientific research framework, clinical documentati
 - **Premature protein truncation at ~residue 54** of the 2,286-amino-acid POLE catalytic subunit
 - **Sole identified genetic driver among genes tested** — a 47-gene hereditary cancer panel (2022) found no pathogenic variants in APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation)
 
-This variant presents a **fundamental mechanistic paradox**: it eliminates all major catalytic domains of POLE — including the exonuclease active site (residues 268–471; Church et al., 2013) and the polymerase core (residues ~530–1189; Korona et al., 2011) — yet produces a clinical phenotype indistinguishable from classical PPAP caused by missense variants within the exonuclease active site.
+This variant presents a **fundamental mechanistic paradox**: it eliminates all major catalytic domains of POLE — including the exonuclease active site (residues 268–471; Church et al., 2013) and the polymerase core (residues ~530–1189; Korona et al., 2011) — yet produces a clinical phenotype clinically consistent with PPAP caused by missense variants within the exonuclease active site (molecular confirmation via SBS10a/b/28 mutational signatures is pending).
 
 Critically, the phenotype extends beyond neoplasia into **proliferative/stromal dysregulation** (bilateral PASH, liver FNH), **endometrial tissue dysfunction** (severe endometriosis + adenomyosis), a **congenital vascular anomaly** (duplicated IVC), and **potential mitochondrial autoimmunity** (ANA AC-21/AMA) — suggesting that POLE haploinsufficiency affects tissue biology at a systemic, developmental level, not just through tumor mutation accumulation.
 
@@ -120,7 +120,7 @@ The patient's phenotype spans five distinct categories — neoplastic, prolifera
 
 | Finding | Details | Significance |
 |---------|---------|-------------|
-| **Duplicated inferior vena cava** | Congenital vascular anomaly present from embryonic development | **Cannot be explained by somatic mutations or tumor-related processes.** Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during embryogenesis. This suggests POLE haploinsufficiency may have **developmental consequences** — arguing against the pure LOH model (Model 1) as the sole explanation. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass & Redwine, 2010), so this finding alone could be coincidental — its significance derives from co-occurrence with other vascular/stromal findings |
+| **Duplicated inferior vena cava** | Congenital vascular anomaly present from embryonic development | **Cannot be explained by somatic mutations or tumor-related processes.** Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during embryogenesis. This suggests POLE haploinsufficiency may have **developmental consequences** — arguing against the pure LOH model (Model 1) as the sole explanation. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass et al., 2000), so this finding alone could be coincidental — its significance derives from co-occurrence with other vascular/stromal findings |
 
 ### Autoimmune/Immune Findings
 
@@ -195,11 +195,11 @@ Canonical PPAP-causing variants (P286R, V411L, L424V, S459F) are **missense subs
 
 ### Why This Variant Should Not Cause PPAP
 
-> **Literature consensus acknowledgment:** The current scientific consensus does **not** support truncating POLE variants as pathogenic for PPAP. All established pathogenic PPAP variants are missense substitutions in the exonuclease domain that produce a dominant-negative, error-prone polymerase. Truncating variants are generally considered non-pathogenic for PPAP because they cannot produce the gain-of-function mechanism. Furthermore, gnomAD population data shows that POLE tolerates heterozygous LoF (pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed), and Andrianova et al. (2024, *Eur J Hum Genet*) demonstrated that heterozygous polymerase proofreading variants cause only ~15% mutation rate increase with cancer requiring somatic LOH — a recessive, not dominant, predisposition model. This framework investigates whether the c.138del variant represents a novel, non-canonical pathogenic mechanism (LOH-dependent, haploinsufficiency-mediated, or other) that has not been previously recognized in PPAP — a hypothesis, not an established finding.
+> **Literature consensus acknowledgment:** The current scientific consensus does **not** support truncating POLE variants as pathogenic for PPAP. All established pathogenic PPAP variants are missense substitutions in the exonuclease domain that produce a dominant-negative, error-prone polymerase. Truncating variants are generally considered non-pathogenic for PPAP because they cannot produce the gain-of-function mechanism. Furthermore, gnomAD population data shows that POLE tolerates heterozygous LoF (pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed), and Andrianova et al. (2024, *Eur J Hum Genet*) demonstrated that heterozygous *POLD1* exonuclease domain variants cause only ~15% mutation rate increase with cancer requiring somatic LOH — a recessive, not dominant, predisposition model (demonstrated for POLD1; the principle may extend to POLE). This framework investigates whether the c.138del variant represents a novel, non-canonical pathogenic mechanism (LOH-dependent, haploinsufficiency-mediated, or other) that has not been previously recognized in PPAP — a hypothesis, not an established finding.
 
 The variant **p.Leu46Phefs\*8** terminates the protein at approximately residue 54 — over **200 amino acids upstream** of the exonuclease domain. Under orthodox models:
 
-1. **Haploinsufficiency should be insufficient.** The wild-type allele should produce normal functional POLE. A 50% reduction in protein output should not produce TMB >100 mut/Mb. gnomAD confirms this: 188 LoF carriers exist without apparent PPAP.
+1. **Haploinsufficiency should be insufficient.** The wild-type allele should produce normal functional POLE. A 50% reduction in protein output should not produce TMB >100 mut/Mb. gnomAD confirms this: 188 LoF variants exist without apparent PPAP.
 2. **Complete POLE loss is embryonic lethal.** Homozygous *Pole* knockout is lethal at embryonic day 7 in mice ([MGI:1196391](https://www.informatics.jax.org/marker/MGI:1196391)); hemizygous *Pole*^P286R/null mice are essentially embryonic lethal (<5% expected offspring; Barbari & Shcherbakova, 2019).
 3. **Yet the phenotype is clinically consistent with PPAP.** Reported TMB >100 mut/Mb with polyposis and multi-system involvement matches the PPAP clinical presentation — though molecular confirmation (SBS10a/b/28 mutational signatures) is pending.
 
@@ -366,7 +366,7 @@ See [`docs/pole_carrier_registry_crossref.md`](docs/pole_carrier_registry_crossr
 
 ### The Testable Prediction
 
-Endometriosis is a disease of somatically mutant clonal expansion. Anglesio et al. (*NEJM* 2017) demonstrated that 79% of deep infiltrating endometriotic lesions harbor cancer-driver mutations (ARID1A, KRAS, PIK3CA) — acquired somatically in endometrial epithelial cells that then disseminate to ectopic sites. Lac et al. (2022) showed that anatomically distant lesions share identical mutations, confirming oligoclonal dissemination. Suda et al. (2018) mapped clonal architecture revealing progressive diversification.
+Endometriosis is a disease of somatically mutant clonal expansion. Anglesio et al. (*NEJM* 2017) demonstrated that 79% of patients with deep infiltrating endometriosis harbor cancer-associated somatic mutations (ARID1A, KRAS, PIK3CA) in at least one lesion, with driver mutations detected in 26% of individual lesions — acquired somatically in endometrial epithelial cells that then disseminate to ectopic sites. Lac et al. (2022) showed that anatomically distant lesions share identical mutations, confirming oligoclonal dissemination. Suda et al. (2018) mapped clonal architecture revealing progressive diversification.
 
 If POLE haploinsufficiency elevates the per-division mutation rate in endometrial stem cells (Model 4), it should **increase the probability of acquiring these driver mutations per stem cell division**. This generates a specific, testable prediction: **endometriotic lesions from a germline POLE carrier should show elevated somatic mutation burden — and potentially POLE mutational signatures (SBS10a/b) — above the baseline somatic mutation rates documented by Anglesio et al.** The endometrium is among the most POLE-vulnerable tissues: somatic POLE mutations define an entire molecular subtype of endometrial cancer (7–13% of sporadic cases; TCGA 2013), and endometrial cancer is a hallmark PPAP malignancy.
 
@@ -503,8 +503,8 @@ Blood tests represent the most accessible experimental approach, spanning genomi
 | **ATR-CHK1** | Ceralasertib, Berzosertib, Elimusertib | POLE-deficient cells near viability threshold for replication stress; ATR inhibition causes replication catastrophe | Phase I/II | **Preclinical + Phase I/II** (ATR-POLE synthetic lethality shown in cell lines; clinical trials in DDR-deficient tumors, not POLE-specific) |
 | **WRN helicase** | WRN inhibitors | If secondary MMR loss creates MSI, WRN is essential for fork stability at expanded microsatellites | Preclinical | **Preclinical** (WRN dependency validated in MSI-H cell lines; conditional on this tumor acquiring secondary MMR loss) |
 | **PARP trapping** | Olaparib, Talazoparib | Replication stress may increase dependence on PARP1-mediated fork stabilization | Phase II | **Phase II** (PARP inhibitors approved for BRCA; POLE-specific synthetic lethality is mechanistic extrapolation) |
-| **WEE1 kinase** | Adavosertib (AZD1775) | WEE1 inhibition forces premature mitotic entry with unrepaired DNA damage; synergizes with replication stress | Phase I/II | **Phase I/II** (clinical activity in DDR-deficient tumors; no POLE-specific data) |
-| **CDK4/6** | Palbociclib, Ribociclib, Abemaciclib | G1/S checkpoint inhibition combined with replication stress may selectively kill POLE-deficient cells | Phase I (combination) | **Phase I** (combination rationale; CDK4/6 inhibitors approved for breast cancer) |
+| **WEE1 kinase** | Azenosertib (ZN-c3), Debio 0123 | WEE1 inhibition forces premature mitotic entry with unrepaired DNA damage; synergizes with replication stress. Adavosertib discontinued; next-gen agents have improved therapeutic windows | Phase I/II | **Phase I/II** (clinical activity in DDR-deficient tumors; no POLE-specific data) |
+| **CDK4/6** | Palbociclib, Ribociclib, Abemaciclib | CDK4/6 inhibitors enforce G1 arrest; may selectively restrain POLE-deficient clones that have lost G1 checkpoint control (e.g., via p53/Rb inactivation) | Phase I (combination) | **Phase I** (combination rationale; CDK4/6 inhibitors approved for breast cancer) |
 | **dNTP metabolism** | Brequinar (DHODH), low-dose HU | Nucleotide imbalance compounds proofreading deficit; may push mutation rate beyond viability | Experimental | **Experimental** (theoretical rationale; no POLE-specific preclinical data) |
 | **ATR + PARP** | AZD6738 + Olaparib | ATR inhibition causes HRR deficiency, synergizing with PARP trapping | Phase I/II | **Phase I/II** (combination trials in DDR-deficient tumors; synergy demonstrated in cell lines) |
 
@@ -662,7 +662,7 @@ Foundational investments that redefine the field.
 
 ### POLE Mouse Models
 
-- **Albertson TM et al. (2009) DNA polymerase epsilon and delta proofreading suppress discrete mutator and cancer phenotypes in mice. *PNAS* 106(40):17101–17104.** — Homozygous proofreading-dead mice: intestinal adenocarcinomas, >70x mutation rate. Heterozygotes indistinguishable from WT — supports need for a second hit (LOH) in human truncating variants.
+- **Albertson TM et al. (2009) DNA polymerase epsilon and delta proofreading suppress discrete mutator and cancer phenotypes in mice. *PNAS* 106(40):17101–17104.** — Homozygous proofreading-dead mice: intestinal adenocarcinomas, ~65x mutation rate. Heterozygotes showed ~15x elevated mutation rate — a measurable mutator phenotype, though insufficient for overt cancer. Supports Model 4 (haploinsufficiency produces mild mutagenesis) and Model 1 (LOH required for full cancer phenotype).
 
 ### WRN Synthetic Lethality & CRISPR Screens
 
@@ -675,7 +675,7 @@ Foundational investments that redefine the field.
 
 ### Endometriosis Genomics
 
-- **Anglesio MS et al. (2017) Cancer-associated mutations in endometriosis without cancer. *NEJM* 376(19):1835–1848.** — 79% of deep infiltrating endometriosis harbors somatic mutations; foundational for the POLE-endometriosis hypothesis.
+- **Anglesio MS et al. (2017) Cancer-associated mutations in endometriosis without cancer. *NEJM* 376(19):1835–1848.** — 79% of patients with deep infiltrating endometriosis harbor cancer-associated somatic mutations in at least one lesion (26% of individual lesions had driver mutations); foundational for the POLE-endometriosis hypothesis.
 - Lac V et al. (2022) Molecular analysis suggests oligoclonality and metastasis of endometriosis lesions across anatomically defined subtypes. *Fertility and Sterility*. — Identical somatic mutations across anatomically distinct lesion types; oligoclonal dissemination model.
 - Suda K et al. (2018) Clonal expansion and diversification of cancer-associated mutations in endometriosis and normal endometrium. *Cell Reports*. — Clonal architecture of endometriosis.
 

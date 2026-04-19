@@ -3,4 +3,4 @@ N-terminal_region	1	267	N-terminal region upstream of exonuclease domain	Contain
 Exonuclease	268	471	Exonuclease active site (narrow definition)	Classical PPAP missense variants: P286R, V411L, L424V, S459F; broader ExoD region extends to 517 (Atlas of Genetics)	Church et al. 2013 HMG; Campbell et al. 2017 Cell
 Linker_Exo_Pol	472	529	Linker between exonuclease and polymerase domains	Connects proofreading and synthesis domains	Structural inference
 Polymerase	530	1189	Polymerase core (palm + fingers + thumb subdomains)	Leading strand DNA synthesis; corresponds to 140 kDa N-terminal catalytic fragment	Korona et al. 2011 JBC
-C-terminal	1189	2286	C-terminal regulatory region	POLE2/3/4 accessory subunit binding; CMG helicase interaction	Liu & Linn 2000 NAR
+C-terminal	1190	2286	C-terminal regulatory region	POLE2/3/4 accessory subunit binding; CMG helicase interaction	Korona et al. 2011 JBC; Liu & Linn 2000 NAR (domain architecture)

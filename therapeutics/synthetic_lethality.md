@@ -12,8 +12,8 @@ POLE-deficient cells operate near a viability threshold for replication stress a
 | **WRN helicase** | WRN inhibitors | Essential for fork stability at expanded microsatellites if secondary MMR loss creates MSI | Preclinical |
 | **PARP trapping** | Olaparib, Talazoparib | Replication stress increases dependence on PARP1-mediated fork stabilization | Phase II |
 | **dNTP metabolism** | Brequinar (DHODH), low-dose HU | Nucleotide imbalance compounds proofreading deficit | Experimental |
-| **WEE1 kinase** | Adavosertib (AZD1775) | WEE1 inhibition forces premature mitotic entry with unrepaired DNA damage; synergizes with replication stress from POLE deficiency | Phase I/II |
-| **CDK4/6** | Palbociclib, Ribociclib, Abemaciclib | G1/S checkpoint inhibition in combination with replication stress; may force POLE-deficient cells into S-phase with inadequate proofreading capacity | Phase I (combination; no POLE-specific data) |
+| **WEE1 kinase** | Azenosertib (ZN-c3), Debio 0123 | WEE1 inhibition forces premature mitotic entry with unrepaired DNA damage; synergizes with replication stress from POLE deficiency. Note: adavosertib (AZD1775) development was discontinued; next-generation WEE1 inhibitors with improved therapeutic windows are in clinical development | Phase I/II |
+| **CDK4/6** | Palbociclib, Ribociclib, Abemaciclib | CDK4/6 inhibitors enforce G1 arrest; POLE-deficient cells that bypass G1 checkpoints (e.g., through p53/Rb pathway inactivation) may be selectively sensitive to restored G1 control, reducing the proliferative advantage of hypermutated clones | Phase I (combination; no POLE-specific data) |
 | **ATR + PARP** | AZD6738 + Olaparib | ATR inhibition causes HRR deficiency, synergizing with PARP trapping | Phase I/II |
 
 ## Evidence
@@ -34,7 +34,7 @@ POLE-deficient cells operate near a viability threshold for replication stress a
 - WEE1 is a G2/M checkpoint kinase; its inhibition forces cells with DNA damage into mitosis
 - Smith HL et al. (2024) demonstrated WEE1 inhibitors cause HRR deficiency, creating synthetic lethality with PARP inhibitors
 - POLE-deficient cells with elevated replication errors may be selectively vulnerable to premature mitotic entry
-- Adavosertib has shown clinical activity in combination with other DDR inhibitors in Phase I/II trials
+- Adavosertib (AZD1775) development was discontinued due to toxicity; next-generation WEE1 inhibitors (azenosertib/ZN-c3, Debio 0123) are in clinical development with improved therapeutic windows
 
 ### PARP
 
@@ -80,7 +80,7 @@ Andrianova et al. (2024) established that heterozygous POLD1 ExoD mutations prod
 
 1. **ATR inhibitors** — strongest mechanistic rationale and most advanced clinical development
 2. **PARP inhibitors** — well-characterized safety profile; potential combination with ATR
-3. **WEE1 inhibitors** — strong mechanistic rationale (forces mitotic entry with unrepaired errors); adavosertib in Phase I/II
+3. **WEE1 inhibitors** — strong mechanistic rationale (forces mitotic entry with unrepaired errors); next-gen inhibitors (azenosertib, Debio 0123) in Phase I/II
 4. **WRN inhibitors** — conditional on MSI status
 5. **CDK4/6 inhibitors** — potential combination with replication stress inducers; well-characterized safety profile
 6. **dNTP metabolism** — experimental; requires preclinical validation

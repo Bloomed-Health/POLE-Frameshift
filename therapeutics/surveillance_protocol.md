@@ -29,7 +29,7 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 |----------|----------|-------|
 | **Pelvic imaging** | Per gynecologic oncology guidance | Patient has had ovarian-sparing total hysterectomy for severe adenomyosis (menorrhagia requiring iron infusions, syncope). No endometrium remains to monitor. Surveillance focus shifts to retained ovaries and residual endometriosis |
 | **Ovarian surveillance** | Every 6–12 months | Retained ovaries post-hysterectomy; transvaginal or abdominal ultrasound for ovarian changes. **EAOC risk:** Endometriosis-associated ovarian cancer (clear cell, endometrioid subtypes) occurs in 0.7–1.0% of endometriosis patients, with higher risk in severe disease. Stage IV+ endometriosis with retained ovaries warrants heightened surveillance — CA-125 trending alongside ultrasound |
-| **Endometriosis monitoring** | Per gynecologic oncology guidance | Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension — residual disease may persist post-hysterectomy given ovarian preservation. Endometriotic lesions harbor cancer-associated somatic mutations in 79% of deep infiltrating cases (Anglesio et al., NEJM 2017) |
+| **Endometriosis monitoring** | Per gynecologic oncology guidance | Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension — residual disease may persist post-hysterectomy given ovarian preservation. 79% of patients with deep infiltrating endometriosis harbor cancer-associated somatic mutations in at least one lesion (Anglesio et al., NEJM 2017) |
 | **Thoracic imaging** | If catamenial symptoms | Monitor for diaphragmatic/thoracic endometriosis progression; note ovaries retained so hormonal cycling continues |
 
 ### Breast

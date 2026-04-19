@@ -46,7 +46,7 @@ The POLE c.138del tumor has a reported TMB >100 mutations/Mb (assay platform and
 |----------|-----------|----------------|
 | **Anti-LAG3 (relatlimab)** | Co-inhibitory receptor frequently co-expressed with PD-1 on exhausted TILs; relatlimab + nivolumab FDA-approved for melanoma (2022) | **FDA-approved** (melanoma; extrapolated to TMB-high) |
 | **Anti-TIGIT (tiragolumab, domvanalimab)** | TIGIT expressed on tumor-infiltrating T cells and NK cells; may complement anti-PD-1 | **Phase III** (NSCLC; no POLE-specific data) |
-| **Bispecific T-cell engagers (e.g., tebentafusp-class)** | Redirect T cells to tumor-associated antigens; ultra-hypermutated tumors provide abundant neoantigen targets | **Phase I/II** (various solid tumors; theoretical applicability to POLE) |
+| **Bispecific T-cell engagers** | Redirect T cells to tumor-associated neoantigens; ultra-hypermutated tumors provide abundant targets. Note: tebentafusp (the only approved BiTE for solid tumors) is specific to gp100/HLA-A*02:01 melanoma and is not generalizable — listed here as a platform concept for future neoantigen-directed bispecifics | **Phase I/II** (various solid tumors; theoretical applicability to POLE) |
 | **Tumor-infiltrating lymphocyte (TIL) therapy** | Ex vivo expansion of autologous TILs; ultra-hypermutated tumors expected to have highly reactive TIL populations | **Phase II** (melanoma, approved as lifileucel; no POLE-specific data) |
 | **Neoantigen-directed ADCs** | Antibody-drug conjugates targeting tumor-specific neoantigens | **Preclinical** (theoretical; dependent on neoantigen surface expression) |
 

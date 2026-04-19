@@ -345,7 +345,7 @@
                   },
                   {
                     "name": "variant_effect",
-                    "value": "frameshift_variant — premature stop at ~residue 54 of 2,286 amino acids, eliminating all major catalytic domains (exonuclease at 268-471, polymerase at 580-1260); N-terminal region may retain CMG helicase interaction capacity"
+                    "value": "frameshift_variant — premature stop at ~residue 54 of 2,286 amino acids, eliminating all major catalytic domains (exonuclease active site at 268-471, polymerase core at ~530-1189); N-terminal region may retain CMG helicase interaction capacity"
                   },
                   {
                     "name": "population_frequency",

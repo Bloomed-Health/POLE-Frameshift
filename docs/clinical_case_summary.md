@@ -260,24 +260,23 @@ This panel isolates **POLE c.138del as the sole identified genetic driver** amon
 ## POLE Domain Architecture and Variant Position
 
 ```
-POLE Catalytic Subunit (p261) — 2,286 amino acids
+POLE Catalytic Subunit (p261; 2,286 aa, 261 kDa)
 
-|===|                    |=============|              |=======================|                              |
- 1-54                    268----------471             580-------------------1260                           2286
-  ↑                      Exonuclease                  Polymerase
-  STOP                   (Proofreading)               (DNA Synthesis)
-  p.Leu46Phefs*8         Domain                       Domain
-
-  ■ Truncated peptide    ■ Classical PPAP variants     ■ Polymerase activity
-    (no catalytic           (P286R, V411L, L424V,
-    function)               S459F)
+|===|         |========|=============|    |=======================|              |======================|
+ 1-54          223-----268----------471    ~530-------------------1189             1189----------------2286
+  ↑            Broader  Exonuclease        Polymerase core                        C-terminal regulatory
+  STOP         ExoD     active site        (palm + fingers + thumb)               (POLE2/3/4 binding,
+  p.Leu46      region   (P286R, V411L,     (DNA synthesis)                         CMG helicase interaction)
+  Phefs*8               L424V, S459F)
 ```
+
+**Domain conventions:** Narrow exonuclease active site (268–471; Church et al., 2013); broader exonuclease region (223–517; Atlas of Genetics); 140 kDa catalytic fragment (1–1189; Korona et al., 2011); domain architecture per Liu & Linn (2000).
 
 The variant terminates the protein at residue 54, which is:
 
-- **214 residues upstream** of the exonuclease domain start (residue 268)
-- **526 residues upstream** of the polymerase domain start (residue 580)
-- Eliminates all major catalytic domains (exonuclease at 268–471, polymerase at 580–1260)
+- **214 residues upstream** of the exonuclease active site start (residue 268)
+- **~476 residues upstream** of the polymerase core (residue ~530)
+- Eliminates all major catalytic domains (exonuclease at 268–471, polymerase core at ~530–1189, C-terminal regulatory at 1189–2286)
 
 ---
 
@@ -290,7 +289,7 @@ All previously reported pathogenic PPAP variants are **missense substitutions** 
 **p.Leu46Phefs\*8** eliminates the entire protein — both polymerase and proofreading domains. Under orthodox models:
 
 1. The wild-type allele should compensate (haploinsufficiency alone should not produce the reported TMB >100 mut/Mb)
-2. Complete POLE loss is embryonic lethal in mice
+2. Complete POLE loss is embryonic lethal in mice (homozygous *Pole* knockout lethal at E7; [MGI:1196391](https://www.informatics.jax.org/marker/MGI:1196391))
 3. Yet the patient presents with a phenotype clinically consistent with PPAP (molecular confirmation via mutational signatures pending)
 
 ### Six candidate mechanistic models

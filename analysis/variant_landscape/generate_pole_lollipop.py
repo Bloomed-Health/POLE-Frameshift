@@ -183,7 +183,7 @@ def main():
     )
 
     # Position ticks
-    tick_positions = [1, 268, 471, 580, 1260, 2286]
+    tick_positions = [1, 268, 471, 530, 1189, 2286]
     ax.set_xticks(tick_positions)
     ax.set_xticklabels([str(t) for t in tick_positions], fontsize=8)
 

@@ -4,7 +4,7 @@
 
 This is a scientific research framework investigating **POLE c.138del (p.Leu46Phefs*8)** — an ultra-rare pathogenic frameshift variant in the POLE gene that causes Polymerase Proofreading-Associated Polyposis (PPAP) with reported ultra-hypermutated tumor phenotype (TMB >100 mut/Mb; assay platform pending clarification).
 
-The central research question is a **mechanistic paradox**: this variant truncates the protein at residue 54, eliminating all major catalytic domains — exonuclease (proofreading) at residues ~268–471 and polymerase at ~580–1260 — though the N-terminal region (1–54) may participate in CMG helicase interactions and DNA binding (Parkash et al., 2019). Yet it produces a clinical phenotype indistinguishable from classical PPAP caused by missense variants within the exonuclease active site.
+The central research question is a **mechanistic paradox**: this variant truncates the protein at residue 54, eliminating all major catalytic domains — exonuclease active site at residues 268–471 (Church et al., 2013) and polymerase core at ~530–1189 (Korona et al., 2011) — though the N-terminal region (1–54) may participate in CMG helicase interactions and DNA binding (Parkash et al., 2019). Yet it produces a clinical phenotype indistinguishable from classical PPAP caused by missense variants within the exonuclease active site.
 
 ## Key Context
 

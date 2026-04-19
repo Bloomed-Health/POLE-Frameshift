@@ -11,7 +11,7 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 | Modality | Interval | Notes |
 |----------|----------|-------|
 | **Colonoscopy with polypectomy** | Every 1–2 years | Standard PPAP recommendation; chromoendoscopy preferred. Progressive polyposis: ~6 adenomas at age 19, accumulating to ~15+ by age 31 (stomach, cecum, sigmoid); new polyps at every surveillance interval (ages 21, 24, 27, 29, ~31) |
-| **Upper endoscopy** | Every 1–2 years | Gastric polyps and chronic gastritis present; duodenal adenoma screening (per POLD1-PPAP expansion, Frontiers in Oncology 2025) |
+| **Upper endoscopy** | Every 1–2 years | Gastric polyps and chronic gastritis present; duodenal adenoma screening (per POLD1-PPAP expansion, Folletet et al. 2025, *Frontiers in Oncology*) |
 | **Capsule endoscopy** | Consider if small bowel symptoms | Small bowel polyp surveillance |
 | **Rectal mucosal monitoring** | At each colonoscopy | Erythematous, edematous, friable mucosa noted — monitor for progression |
 

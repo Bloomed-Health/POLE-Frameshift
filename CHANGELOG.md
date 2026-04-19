@@ -4,6 +4,25 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
+## [0.5.3] — 2026-04-19
+
+### Added
+
+- **"Endometriosis × POLE Intersection" section** in `README.md`: Dedicated section covering the testable prediction that germline POLE proofreading deficiency should elevate somatic mutation burden (and SBS10a/b signatures) in endometriotic epithelium above baseline ARID1A/KRAS/PIK3CA rates; why this case is informative (Stage IV+ with trans-diaphragmatic extension); tissue collection opportunity at upcoming surgery
+- **"POLE Domain Architecture & Biochemistry" reference section** in `README.md`: Liu & Linn 2000, Korona et al. 2011, Henninger & Pursell 2014, Kane & Shcherbakova 2014, Barbari & Shcherbakova 2019
+- **6 new bibliography entries** in `references/bibliography.bib`: Liu 2000 (domain architecture), Korona 2011 (140 kDa fragment), Henninger 2014 (review), Kane 2014 (50-fold mutator), Barbari 2019 (no LOH in ExoD tumors), Folletet 2025 (POLD1 duodenal adenocarcinomas)
+- **50-fold mutator effect** in Classical PPAP Mechanism section: pol2-P301R vs pol2-4 comparison (Kane & Shcherbakova 2014; Parkash et al. 2019); explicitly surfaces that canonical ExoD drivers operate without LOH (Barbari & Shcherbakova 2019)
+- **Mouse knockout citation** added: homozygous *Pole* knockout lethal at E7 (MGI:1196391); hemizygous P286R/null essentially embryonic lethal (Barbari & Shcherbakova 2019)
+- **Banked tissue status** clarified in Research Prioritization Timeline: FFPE thyroidectomy and hysterectomy specimens archived; fresh-frozen tissue not currently banked; upcoming surgery as prospective collection opportunity
+
+### Changed
+
+- **Domain coordinates corrected and sourced** across all files (`README.md`, `CLAUDE.md`, `docs/clinical_case_summary.md`, `models/mechanistic_models.md`, `data/POLE_domain_boundaries.tsv`, `analysis/variant_landscape/generate_pole_lollipop.py`): Polymerase domain 580–1260 (unsourced) → polymerase core ~530–1189 (Korona et al. 2011, 140 kDa catalytic fragment). Exonuclease active site 268–471 retained with citation (Church et al. 2013). Broader ExoD region 223–517 noted (Atlas of Genetics). Domain convention notes and source citations added to ASCII diagram
+- **"p261" clarified** in domain diagrams: "POLE Catalytic Subunit (p261)" → "(p261; 2,286 aa, 261 kDa)" to avoid confusion between molecular weight and residue count
+- **Frontiers in Oncology 2025 POLD1 citation completed**: Added first author (Folletet A), volume (15), article number (1727289), and DOI in `README.md` and `therapeutics/surveillance_protocol.md`
+
+---
+
 ## [0.5.2] — 2026-04-19
 
 ### Added

@@ -39,7 +39,7 @@ Model 1 is **excluded** as the sole mechanism if: congenital anomalies or multi-
 
 ### Hypothesis
 
-Ribosomes encountering the premature stop codon at residue 54 reinitiate translation at a downstream in-frame AUG codon. If reinitiation occurs between the exonuclease domain (residue 268) and polymerase domain (residue 580), the resulting N-terminally truncated protein retains polymerase activity but lacks proofreading — phenocopying classical dominant-negative PPAP.
+Ribosomes encountering the premature stop codon at residue 54 reinitiate translation at a downstream in-frame AUG codon. If reinitiation occurs between the exonuclease active site (residue 268) and polymerase core (residue ~530), the resulting N-terminally truncated protein retains polymerase activity but lacks proofreading — phenocopying classical dominant-negative PPAP.
 
 ### Falsifiable Predictions
 

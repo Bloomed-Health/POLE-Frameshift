@@ -4,6 +4,21 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
+## [0.5.2] — 2026-04-19
+
+### Added
+
+- **"Variant Verification & Methodology" section** in `README.md`: New section surfacing sequencing method, orthogonal confirmation status, TMB methodology status, MSI status, gnomAD query details, patient demographics, family history summary, and consent/IRB status — enabling external PIs to assess variant authenticity and data strength without reading the full clinical case summary
+- **Explicit n-of-1 framing** in `README.md` Overview: Callout box acknowledging this is a single-patient hypothesis-generating framework seeking collaborators for validation in additional carriers
+- **gnomAD v4 query links** added to `README.md` (Overview + "What We Know" table) and `docs/clinical_case_summary.md` with genomic coordinates (GRCh38 chr12:132681203–132681204)
+- **Therapeutic strategy clinical context caveat** in `README.md`: Clarifies that the patient has no active advanced malignancy; therapeutic section is prospective contingency planning, not current treatment recommendations; synthetic lethality targets require preclinical validation in POLE-null models
+
+### Changed
+
+- **TOC updated** in `README.md` to include new Variant Verification section
+
+---
+
 ## [0.5.1] — 2026-04-18
 
 ### Added

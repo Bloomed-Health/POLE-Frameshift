@@ -13,9 +13,11 @@
 | **Protein change** | p.Leu46Phefs\*8 |
 | **Variant type** | Frameshift deletion |
 | **Predicted consequence** | Premature termination at ~residue 54 of 2,286 amino acids |
-| **gnomAD frequency** | Absent (0/1,614,586 alleles in [gnomAD v4](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4); GRCh38 chr12:132681203–132681204) |
+| **gnomAD frequency** | Absent (0/1,614,586 alleles in [gnomAD v4.1.0](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4), accessed April 2026; GRCh38 chr12:132681203–132681204; GRCh37 chr12:133249847) |
+| **Germline status** | **Confirmed.** Heterozygous call from blood/saliva-derived DNA on accredited clinical germline assay with orthogonal confirmation. Constitutional variant — present in all cells, not tumor-derived |
+| **Coordinate systems** | Clinical report: GRCh37. This repository: GRCh38 (default). Verify via UCSC LiftOver if converting between assemblies |
 | **ClinVar** | Not reported |
-| **Classification** | **Pathogenic** (clinical laboratory classification). Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 — designed for non-disruptive ED missense variants). Independent ACMG evidence assessment: PM2 (absent from controls) + PP4 (phenotype consistent with PPAP) are firmly assignable. PVS1 (null variant) not applied — POLE is not LoF-intolerant (gnomAD pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed vs. 279 expected, indicating heterozygous LoF is tolerated), and the mechanism does not match the canonical PPAP dominant-negative model. The 188 LoF variants in gnomAD without apparent PPAP imply a second somatic hit (LOH) or other non-canonical mechanism is required for the cancer phenotype. Resolution of the mechanistic paradox would clarify which evidence codes fully apply and may inform extension of the POLE-specific framework to accommodate truncating variants |
+| **Classification** | **Pathogenic** (clinical laboratory classification). The Pathogenic call rests on standard ACMG criteria for null variants in a gene with established loss-of-function disease mechanism (PM2: absent from controls; PP4: phenotype consistent with PPAP), **not** on observed phenotype-genotype correlation in other patients — the laboratory explicitly notes this variant has not been previously reported in individuals with POLE-related conditions. The clinical pathogenicity call and the mechanistic novelty answer different questions, and both can be true simultaneously — this strengthens rather than weakens the research case. Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 — designed for non-disruptive ED missense variants). PVS1 (null variant) not applied — POLE is not LoF-intolerant (gnomAD v4.1.0 pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed vs. 279 expected, indicating heterozygous LoF is tolerated), and the mechanism does not match the canonical PPAP dominant-negative model. The 188 LoF variants in gnomAD without apparent PPAP imply a second somatic hit (LOH) or other non-canonical mechanism is required for the cancer phenotype. Resolution of the mechanistic paradox would clarify which evidence codes fully apply and may inform extension of the POLE-specific framework to accommodate truncating variants |
 
 ---
 
@@ -205,12 +207,34 @@ The chronological sequence reveals four critical observations:
 
 | Feature | Result |
 |---------|--------|
-| **Tumor mutational burden** | Reported >100 mutations/Mb (assay platform and source tumor specimen pending clarification; WGS-based confirmation is a priority experiment) |
+| **Tumor mutational burden** | Reported as ultra-hypermutated (>100 mutations/Mb); full tumour sequencing methodology documentation pending. The germline report does not address TMB — this value derives from a separate tumour NGS report whose assay platform, exact mut/Mb value, numerator/denominator, synonymous/indel inclusion criteria, and tumour-only vs tumour-normal status are not yet documented. WGS-based TMB confirmation and mutational signature decomposition are priority experiments |
 | **Microsatellite status** | To be characterized |
 | **MMR IHC** | To be characterized |
 | **Mutational signatures** | Pending WGS analysis (SBS10a/b/28 status critical) |
 | **LOH at POLE locus** | Pending allele-specific analysis |
 | **Thyroid tumor POLE signatures** | Pending — would expand PPAP tumor spectrum if positive. Thyroidectomy specimen should be available for sequencing from surgical pathology archives |
+
+### Differential Diagnosis: POLE-Driven Hypermutation vs. MMR-Deficient Phenocopy
+
+Before attributing the patient's clinical phenotype to POLE-driven pathology, mismatch repair (MMR) deficiency must be excluded as an alternative explanation. An MMR-deficient phenocopy could produce polyposis, elevated TMB, and multi-system neoplasia through an entirely different mechanism. The following assessments establish the differential:
+
+| Assessment | Status | Result | Significance |
+|------------|--------|--------|-------------|
+| **MMR IHC (MLH1/MSH2/MSH6/PMS2)** | **Pending** | Not yet performed | Required to determine whether MMR protein expression is intact in tumor tissue. Loss of any MMR protein would indicate MMR deficiency as the primary or contributing mutational mechanism |
+| **Microsatellite instability (MSI) testing** | **Pending** | Not yet performed | MSI-H would indicate MMR deficiency; MSS or MSI-L with ultra-high TMB would be characteristic of POLE-driven hypermutation |
+| **MLH1 promoter methylation** | **Pending** | Not yet performed | MLH1 silencing via promoter methylation is the most common cause of sporadic MMR deficiency and can co-occur with POLE mutations (Shinbrot et al., 2019 documented a POLE frameshift carrier with epigenetic MLH1 silencing leading to MSI-positive tumor) |
+| **Germline MLH1/MSH2/MSH6/PMS2/EPCAM** | **Negative** | No pathogenic variants identified | Lynch syndrome excluded at germline level (47-gene panel, 2022). Does not exclude somatic MMR gene inactivation or epigenetic silencing |
+| **Germline POLD1** | **Negative** | No pathogenic variants identified | Sister polymerase proofreading deficiency excluded |
+| **Germline MUTYH** | **Negative** | No pathogenic variants identified | MUTYH-associated polyposis excluded (biallelic testing) |
+| **Germline NTHL1** | **Negative** | No pathogenic variants identified | NTHL1-associated polyposis excluded |
+
+> **Critical gap:** Without MMR IHC and MSI testing on tumor tissue, a reviewer cannot definitively distinguish genuine POLE-driven hypermutation from an MMR-deficient phenocopy. These are the **highest-priority outstanding diagnostic tests** alongside mutational signature decomposition (SBS10a/b/28 vs. SBS6/15/21/26). The germline panel excludes Lynch syndrome, but somatic MMR gene inactivation or epigenetic MLH1 silencing can produce the same phenotype without a germline MMR variant. Resolution of this differential is prerequisite to the mechanistic paradox analysis.
+>
+> **Expected findings if POLE-driven:** Intact MMR IHC (all four proteins retained), MSS or MSI-L, SBS10a/b/28-dominant mutational signatures, TMB >100 mut/Mb.
+>
+> **Expected findings if MMR-deficient phenocopy:** Loss of one or more MMR proteins on IHC, MSI-H, SBS6/15/21/26-dominant signatures, TMB typically 10–100 mut/Mb (lower than POLE-driven ultra-hypermutation).
+
+---
 
 ### Hereditary Cancer Gene Panel (2022)
 

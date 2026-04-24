@@ -4,6 +4,33 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
+## [0.5.5] — 2026-04-25
+
+### Changed (Evidence Status Revision — Confirmed Findings & Pending Tumour Data)
+
+**Claims now confirmed (strengthened with documentation):**
+
+- **Orthogonal confirmation status updated** from "Pending" to "Confirmed" across `README.md`, `CLAUDE.md`, `data/clinvar_submission/README.md`: Variant confirmed by accredited clinical germline testing with orthogonal confirmation on an independent assay
+- **Germline status made explicit** across `README.md`, `CLAUDE.md`, `docs/clinical_case_summary.md`, `FAQ.md`, `data/clinvar_submission/README.md`: New "Germline status" row/field confirming heterozygous call from blood/saliva-derived DNA on germline-specific assay. Previously implicit throughout; now explicitly stated as constitutional variant, not tumor-derived
+- **gnomAD date-stamped** to v4.1.0 (accessed April 2026) across `README.md`, `CLAUDE.md`, `docs/clinical_case_summary.md`, `FAQ.md`, `data/clinvar_submission/README.md`
+
+**Claims softened pending tumour data:**
+
+- **TMB documentation caveat strengthened** across `README.md`, `CLAUDE.md`, `docs/clinical_case_summary.md`, `FAQ.md`: Clarified that the germline report does not address TMB; tumour sequencing methodology details (assay platform, exact mut/Mb, numerator/denominator, synonymous/indel inclusion, tumour-only vs tumour-normal status) are pending documentation from a separate tumour NGS report
+- **Differential Diagnosis subsection added** to `docs/clinical_case_summary.md`: New section covering MMR IHC (MLH1/MSH2/MSH6/PMS2), MSI status, MLH1 promoter methylation, and germline panel results for Lynch syndrome/MUTYH/NTHL1. Status table shows all MMR/MSI tests as pending. Cross-referenced from `README.md` MSI status row and FAQ
+- **Mutational signature section reframed** in `README.md` and `analysis/mutational_signatures/README.md`: Added prominent status callout noting signature decomposition has NOT been performed; flagged as the single most diagnostic readout available and the highest-priority immediate analysis, not a hypothetical exercise
+- **Research Prioritization Timeline reordered** in `README.md`: MMR IHC/MSI/MLH1 methylation elevated to item #1 (prerequisite differential diagnosis); mutational signatures emphasized as item #3
+
+**Mechanism-agnostic clinical call framing:**
+
+- **Pathogenicity classification framing added** across `README.md`, `CLAUDE.md`, `docs/clinical_case_summary.md`, `data/clinvar_submission/README.md`: Explicitly states the Pathogenic classification rests on standard ACMG criteria for null variants (PM2 + PP4), not on observed phenotype-genotype correlation. Notes the lab explicitly reports the variant has not been previously reported in POLE-related conditions. Frames that the clinical pathogenicity call and the mechanistic novelty answer different questions, and both can be true simultaneously
+
+**Technical corrections:**
+
+- **Coordinate system note added** across `README.md`, `CLAUDE.md`, `docs/clinical_case_summary.md`, `data/clinvar_submission/README.md`: GRCh37 coordinate (chr12:133249847, from clinical report) provided alongside existing GRCh38 coordinates (chr12:132681203–132681204). All repository coordinates default to GRCh38 unless otherwise noted. Users directed to UCSC LiftOver or Ensembl CrossMap for conversion
+
+---
+
 ## [0.5.4] — 2026-04-19
 
 ### Changed (Comprehensive Audit — Scientific Accuracy Corrections)

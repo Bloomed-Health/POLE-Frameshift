@@ -31,7 +31,7 @@ PPAP is characterized by tumors with an extremely high number of mutations — c
 
 **POLE c.138del (p.Leu46Phefs\*8)** is a specific mutation in the POLE gene. It is a "frameshift deletion" — a single DNA letter is deleted, which shifts the reading frame and causes the protein to be cut short very early (at residue 54 out of 2,286 amino acids). This means the protein loses essentially all of its functional parts.
 
-This variant is **ultra-rare**: it has never been observed in any major population database (including gnomAD, which contains genetic data from hundreds of thousands of individuals).
+This variant has been **confirmed as a germline (constitutional) variant** through accredited clinical germline testing with orthogonal confirmation from blood/saliva-derived DNA. It is **ultra-rare**: it has never been observed in any major population database (including gnomAD v4.1.0, accessed April 2026, which contains genetic data from hundreds of thousands of individuals).
 
 ---
 
@@ -53,7 +53,9 @@ This breadth suggests POLE dysfunction is truly systemic, affecting tissue biolo
 
 This is where it gets interesting. All previously known PPAP-causing mutations are **missense variants** — they change a single amino acid in the proofreading region of the protein. The protein still works as a DNA copier, but it can no longer proofread. It's like a typist who can still type but can no longer spell-check.
 
-The c.138del variant is fundamentally different. It cuts the protein off so early that there is **no proofreading region AND no DNA copying region**. It's like removing the typist entirely. Under current scientific models, this should not cause PPAP — yet the patient has the full PPAP presentation, including a reported ultra-hypermutation (>100 mutations per megabase of DNA; assay platform and source tumor specimen pending clarification — WGS confirmation needed).
+The c.138del variant is fundamentally different. It cuts the protein off so early that there is **no proofreading region AND no DNA copying region**. It's like removing the typist entirely. Under current scientific models, this should not cause PPAP — yet the patient has a presentation clinically consistent with PPAP, including a reported ultra-hypermutation (>100 mutations per megabase of DNA; full tumour sequencing methodology documentation pending — the germline report does not address TMB, and WGS-based confirmation with mutational signature analysis is the highest-priority experiment).
+
+> **Important caveat:** Before attributing the phenotype to POLE-driven pathology, mismatch repair deficiency must be excluded as an alternative explanation. MMR IHC, MSI testing, and MLH1 promoter methylation analysis are pending. Without these, a reviewer cannot distinguish genuine POLE-driven hypermutation from an MMR-deficient phenocopy. The germline panel excludes Lynch syndrome, but somatic MMR inactivation remains possible.
 
 This creates a **mechanistic paradox** that, if resolved, could change how an entire category of POLE variants is classified in clinical genetics.
 

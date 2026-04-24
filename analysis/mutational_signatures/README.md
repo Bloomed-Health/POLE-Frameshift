@@ -1,5 +1,7 @@
 # Mutational Signature Analysis Pipeline
 
+> **STATUS: Not yet performed.** Mutational signature decomposition is the **single most diagnostic readout available** for this case — it directly discriminates between POLE-driven hypermutation (SBS10a/b/28) and MMR-deficient phenocopy (SBS6/15/21/26). This analysis should be treated as the **highest-priority immediate experiment**. Until signature decomposition is performed, the assumption that the ultra-hypermutation is POLE-driven remains unverified. Archived tumour specimens (FFPE thyroidectomy, ~2019; hysterectomy, ~2021) are potential input material.
+
 ## Overview
 
 SigProfiler-based decomposition of tumor whole-genome sequencing data to identify the mutational processes driving ultra-hypermutation in the POLE c.138del tumor.

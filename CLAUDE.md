@@ -2,16 +2,18 @@
 
 ## Project Overview
 
-This is a scientific research framework investigating **POLE c.138del (p.Leu46Phefs*8)** — an ultra-rare pathogenic frameshift variant in the POLE gene that causes Polymerase Proofreading-Associated Polyposis (PPAP) with reported ultra-hypermutated tumor phenotype (TMB >100 mut/Mb; assay platform pending clarification).
+This is a scientific research framework investigating **POLE c.138del (p.Leu46Phefs*8)** — an ultra-rare pathogenic frameshift variant in the POLE gene clinically consistent with Polymerase Proofreading-Associated Polyposis (PPAP), reported as ultra-hypermutated (TMB >100 mut/Mb; full tumour sequencing methodology documentation pending — the germline report does not address TMB; mutational signature confirmation pending).
 
 The central research question is a **mechanistic paradox**: this variant truncates the protein at residue 54, eliminating all major catalytic domains — exonuclease active site at residues 268–471 (Church et al., 2013) and polymerase core at ~530–1189 (Korona et al., 2011) — though the N-terminal region (1–54) may participate in CMG helicase interactions and DNA binding (Parkash et al., 2019). Yet it produces a clinical phenotype clinically consistent with PPAP caused by missense variants within the exonuclease active site (molecular confirmation via mutational signatures pending).
 
 ## Key Context
 
 - **Variant:** POLE c.138del (p.Leu46Phefs*8) — frameshift deletion, premature stop at ~residue 54 of 2,286 amino acids
+- **Germline status:** **Confirmed.** Heterozygous germline call from blood/saliva-derived DNA on accredited clinical germline assay with orthogonal confirmation. Constitutional variant, not tumor-derived
 - **Gene:** POLE (DNA Polymerase Epsilon, catalytic subunit), chromosome 12q24.33, transcript ENST00000320574
-- **Constraint:** gnomAD pLI ≈ 0 (1.1×10⁻⁴⁰), LOEUF = 0.76, oe_lof = 0.67 (188 observed / 279 expected LoF variants) — POLE tolerates heterozygous LoF; 188 LoF variants in gnomAD lack apparent PPAP, implying haploinsufficiency alone is insufficient for the cancer phenotype (supports LOH/second-hit model for tumor-specific ultra-hypermutation). Variant absent from all population databases
-- **Classification:** Pathogenic (clinical laboratory). Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023); independent ACMG evidence: PM2 + PP4 firmly assignable; PVS1 applicability debated (mechanism does not match canonical PPAP dominant-negative model); not yet in ClinVar
+- **Genomic coordinates:** GRCh38 chr12:132681203–132681204 (repository default); GRCh37 chr12:133249847 (clinical report coordinate system)
+- **Constraint:** gnomAD v4.1.0 (accessed April 2026): pLI ≈ 0 (1.1×10⁻⁴⁰), LOEUF = 0.76, oe_lof = 0.67 (188 observed / 279 expected LoF variants) — POLE tolerates heterozygous LoF; 188 LoF variants in gnomAD lack apparent PPAP, implying haploinsufficiency alone is insufficient for the cancer phenotype (supports LOH/second-hit model for tumor-specific ultra-hypermutation). Variant absent from all population databases
+- **Classification:** Pathogenic (clinical laboratory). Classification rests on standard ACMG criteria for null variants in a gene with established loss-of-function disease mechanism (PM2 + PP4), not on observed phenotype-genotype correlation in other patients — the lab explicitly notes the variant has not been previously reported in individuals with POLE-related conditions. Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023); PVS1 applicability debated (mechanism does not match canonical PPAP dominant-negative model); not yet in ClinVar. The clinical pathogenicity call and the mechanistic novelty answer different questions, and both can be true simultaneously
 - **47-gene panel (2022):** Negative for APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, and all other genes tested — POLE c.138del is the sole identified genetic driver among genes tested (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation)
 
 ## Patient Phenotype (Five Phenotype Categories + Supplementary Context)

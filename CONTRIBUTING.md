@@ -16,7 +16,7 @@ Thank you for your interest in contributing to this research. This is an active 
 
 ---
 
-### Bioinformatics — DepMap / Synthetic Lethality
+### Bioinformatics ; DepMap / Synthetic Lethality
 
 **Need:** Systematic mining of existing POLE-mutant cell line dependency data for synthetic lethal targets.
 
@@ -26,17 +26,17 @@ Thank you for your interest in contributing to this research. This is an active 
 
 ---
 
-### Clinical Genetics — POLE Patient Cohorts
+### Clinical Genetics ; POLE Patient Cohorts
 
 **Need:** Retrospective phenotyping of patients carrying POLE truncating variants currently classified as VUS.
 
-**What you'd contribute:** Clinical case data, family histories, and tumor genomic profiles from patients with POLE truncating variants — especially those with unexplained polyposis, early-onset CRC, or high TMB who tested negative for APC, MUTYH, and Lynch syndrome genes.
+**What you'd contribute:** Clinical case data, family histories, and tumor genomic profiles from patients with POLE truncating variants ; especially those with unexplained polyposis, early-onset CRC, or high TMB who tested negative for APC, MUTYH, and Lynch syndrome genes.
 
 **Expertise required:** Clinical genetics, genetic counseling, hereditary cancer panel interpretation.
 
 ---
 
-### Immunology — Immune Profiling
+### Immunology ; Immune Profiling
 
 **Need:** CyTOF or spectral flow cytometry immune profiling of POLE-mutant tumors.
 
@@ -46,7 +46,7 @@ Thank you for your interest in contributing to this research. This is an active 
 
 ---
 
-### Computational Biology — Crypt Dynamics Modeling
+### Computational Biology ; Crypt Dynamics Modeling
 
 **Need:** Stochastic computational model of colonic crypt stem cell dynamics under POLE haploinsufficiency.
 

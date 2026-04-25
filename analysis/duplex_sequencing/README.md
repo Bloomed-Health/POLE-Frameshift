@@ -2,7 +2,7 @@
 
 ## Overview
 
-Ultra-high-accuracy somatic mutation detection in normal (non-tumor) cells to determine whether POLE c.138del causes elevated mutation rates in the germline — the key prediction of the haploinsufficiency model (Model 4).
+Ultra-high-accuracy somatic mutation detection in normal (non-tumor) cells to determine whether POLE c.138del causes elevated mutation rates in the germline ; the key prediction of the haploinsufficiency model (Model 4).
 
 ## Rationale
 
@@ -31,7 +31,7 @@ Output: Per-cell somatic mutation rate; trinucleotide spectrum; SBS signature de
 |---------|-------------|----------|----------------|
 | **Haploinsufficiency pathogenic** | Elevated vs. age-matched controls | Present in normal cells | 50% POLE dosage insufficient for proofreading fidelity |
 | **LOH model confirmed** | Normal | Absent in normal cells | Mutagenesis is somatic (tumor-specific) event |
-| **Intermediate** | Mildly elevated | Low-level SBS10a/b | Threshold model — partial haploinsufficiency |
+| **Intermediate** | Mildly elevated | Low-level SBS10a/b | Threshold model ; partial haploinsufficiency |
 
 ## Complementary Assay
 
@@ -39,7 +39,7 @@ Output: Per-cell somatic mutation rate; trinucleotide spectrum; SBS signature de
 
 ## Technology Selection: SMaHT Benchmarking (2025)
 
-The SMaHT Network (Somatic Mosaicism across Human Tissues) benchmarked six duplex sequencing technologies — CODEC, CompDuplex-seq, HiDEF-seq, NanoSeq, ppmSeq, and VISTA-seq — using cord blood DNA, tumor-normal mixtures, and six human tissue homogenates (Zhang et al., 2025, *bioRxiv*).
+The SMaHT Network (Somatic Mosaicism across Human Tissues) benchmarked six duplex sequencing technologies ; CODEC, CompDuplex-seq, HiDEF-seq, NanoSeq, ppmSeq, and VISTA-seq ; using cord blood DNA, tumor-normal mixtures, and six human tissue homogenates (Zhang et al., 2025, *bioRxiv*).
 
 Key findings relevant to technology selection:
 

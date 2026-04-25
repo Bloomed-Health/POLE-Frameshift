@@ -13,14 +13,14 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 | **Colonoscopy with polypectomy** | Every 1–2 years | Standard PPAP recommendation; chromoendoscopy preferred. Progressive polyposis: ~6 adenomas at age 19, accumulating to ~15+ by age 31 (stomach, cecum, sigmoid); new polyps at every surveillance interval (ages 21, 24, 27, 29, ~31) |
 | **Upper endoscopy** | Every 1–2 years | Gastric polyps and chronic gastritis present; duodenal adenoma screening (per POLD1-PPAP expansion, Folletet et al. 2025, *Frontiers in Oncology*) |
 | **Capsule endoscopy** | Consider if small bowel symptoms | Small bowel polyp surveillance |
-| **Rectal mucosal monitoring** | At each colonoscopy | Erythematous, edematous, friable mucosa noted — monitor for progression |
+| **Rectal mucosal monitoring** | At each colonoscopy | Erythematous, edematous, friable mucosa noted ; monitor for progression |
 
 ### Thyroid (Post-Total Thyroidectomy)
 
 | Modality | Interval | Notes |
 |----------|----------|-------|
-| **Neck ultrasound** | Every 6–12 months | Post-total thyroidectomy surveillance for recurrence in thyroid bed and cervical lymph nodes. Original tumor: Stage I papillary thyroid carcinoma (encapsulated, non-invasive, 1.2 cm, isthmus, AJCC 8th ed T1bN0M0). **Not part of established PPAP spectrum** — if POLE signatures confirmed in thyroidectomy specimen, surveillance should be recommended for all PPAP carriers |
-| **Thyroglobulin + anti-thyroglobulin antibodies** | Every 6–12 months | Thyroglobulin serves as tumor marker post-thyroidectomy — should be undetectable; rising levels indicate recurrence. Anti-thyroglobulin antibodies must be measured concurrently as they can cause falsely low thyroglobulin levels |
+| **Neck ultrasound** | Every 6–12 months | Post-total thyroidectomy surveillance for recurrence in thyroid bed and cervical lymph nodes. Original tumor: Stage I papillary thyroid carcinoma (encapsulated, non-invasive, 1.2 cm, isthmus, AJCC 8th ed T1bN0M0). **Not part of established PPAP spectrum** ; if POLE signatures confirmed in thyroidectomy specimen, surveillance should be recommended for all PPAP carriers |
+| **Thyroglobulin + anti-thyroglobulin antibodies** | Every 6–12 months | Thyroglobulin serves as tumor marker post-thyroidectomy ; should be undetectable; rising levels indicate recurrence. Anti-thyroglobulin antibodies must be measured concurrently as they can cause falsely low thyroglobulin levels |
 | **TSH monitoring** | Per endocrinology guidance | Lifelong levothyroxine replacement required. TSH suppression target per ATA risk stratification (low-risk Stage I: TSH 0.5–2.0 mU/L) |
 
 ### Gynecologic
@@ -28,8 +28,8 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 | Modality | Interval | Notes |
 |----------|----------|-------|
 | **Pelvic imaging** | Per gynecologic oncology guidance | Patient has had ovarian-sparing total hysterectomy for severe adenomyosis (menorrhagia requiring iron infusions, syncope). No endometrium remains to monitor. Surveillance focus shifts to retained ovaries and residual endometriosis |
-| **Ovarian surveillance** | Every 6–12 months | Retained ovaries post-hysterectomy; transvaginal or abdominal ultrasound for ovarian changes. **EAOC risk:** Endometriosis-associated ovarian cancer (clear cell, endometrioid subtypes) occurs in 0.7–1.0% of endometriosis patients, with higher risk in severe disease. Stage IV+ endometriosis with retained ovaries warrants heightened surveillance — CA-125 trending alongside ultrasound |
-| **Endometriosis monitoring** | Per gynecologic oncology guidance | Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension — residual disease may persist post-hysterectomy given ovarian preservation. 79% of patients with deep infiltrating endometriosis harbor cancer-associated somatic mutations in at least one lesion (Anglesio et al., NEJM 2017) |
+| **Ovarian surveillance** | Every 6–12 months | Retained ovaries post-hysterectomy; transvaginal or abdominal ultrasound for ovarian changes. **EAOC risk:** Endometriosis-associated ovarian cancer (clear cell, endometrioid subtypes) occurs in 0.7–1.0% of endometriosis patients, with higher risk in severe disease. Stage IV+ endometriosis with retained ovaries warrants heightened surveillance ; CA-125 trending alongside ultrasound |
+| **Endometriosis monitoring** | Per gynecologic oncology guidance | Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension ; residual disease may persist post-hysterectomy given ovarian preservation. 79% of patients with deep infiltrating endometriosis harbor cancer-associated somatic mutations in at least one lesion (Anglesio et al., NEJM 2017) |
 | **Thoracic imaging** | If catamenial symptoms | Monitor for diaphragmatic/thoracic endometriosis progression; note ovaries retained so hormonal cycling continues |
 
 ### Breast
@@ -58,10 +58,10 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 |----------|----------|-------|
 | **AMA-specific ELISA** (anti-PDC-E2) | At baseline; repeat if symptoms | Confirm AC-21 pattern as true AMA; establish baseline before any ICI therapy |
 | **Liver function panel** (GGT, ALP) | Every 6–12 months | Biliary function assessment given AMA association with PBC + existing liver FNH/hemangioma |
-| **Extended autoimmune panel** | At baseline; repeat if new symptoms | Anti-dsDNA, ENA panel, complement C3/C4, anti-smooth muscle — characterize scope of immune dysregulation |
+| **Extended autoimmune panel** | At baseline; repeat if new symptoms | Anti-dsDNA, ENA panel, complement C3/C4, anti-smooth muscle ; characterize scope of immune dysregulation |
 | **ANA titer trending** | Annually; q6w if on ICI | Monitor for evolving autoimmune activation, especially during immunotherapy |
 
-> **Context:** ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies). Pre-existing autoimmune markers require modified ICI monitoring protocols — see [`immunotherapy_strategy.md`](immunotherapy_strategy.md) for irAE risk assessment and pre-ICI workup.
+> **Context:** ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies). Pre-existing autoimmune markers require modified ICI monitoring protocols ; see [`immunotherapy_strategy.md`](immunotherapy_strategy.md) for irAE risk assessment and pre-ICI workup.
 
 ### Dysautonomia and MCAS Monitoring
 
@@ -86,13 +86,13 @@ PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillan
 
 | Modality | Interval | Notes |
 |----------|----------|-------|
-| **Brain MRI** | Consider annually | POLE-mutant glioblastomas reported in literature — N363K POLE variant extends PPAP tumor spectrum to glioblastoma (Vande Perre et al., 2019; Labrousse et al., 2023 *NAR Cancer*) |
+| **Brain MRI** | Consider annually | POLE-mutant glioblastomas reported in literature ; N363K POLE variant extends PPAP tumor spectrum to glioblastoma (Vande Perre et al., 2019; Labrousse et al., 2023 *NAR Cancer*) |
 | **Dermatologic exam** | Annual | Sebaceous neoplasms (overlap with Muir-Torre spectrum) |
 
 ## Chemoprevention
 
 - **Aspirin:** Biological rationale from CAPP2 trial in Lynch syndrome; consider n-of-1 design
-- **Dose considerations:** The CAPP2 trial used 600 mg daily, but this dose carries significant GI risk in this patient given chronic gastritis, gastroparesis, and GI polyposis with friable mucosa. **Low-dose aspirin (81 mg daily)** may be a safer alternative — the CaPP3 trial (NCT02497820) is comparing 100 mg, 300 mg, and 600 mg doses in Lynch syndrome carriers and may provide dose-response data. Consider starting at 81 mg with GI monitoring and gastroenterology input.
+- **Dose considerations:** The CAPP2 trial used 600 mg daily, but this dose carries significant GI risk in this patient given chronic gastritis, gastroparesis, and GI polyposis with friable mucosa. **Low-dose aspirin (81 mg daily)** may be a safer alternative ; the CaPP3 trial (NCT02497820) is comparing 100 mg, 300 mg, and 600 mg doses in Lynch syndrome carriers and may provide dose-response data. Consider starting at 81 mg with GI monitoring and gastroenterology input.
 - **Evidence:** Indirect; no PPAP-specific chemoprevention data
 - **Contraindication monitoring:** GI bleeding risk assessment at each colonoscopy; discontinue if new gastric erosions or polyp-site bleeding
 
@@ -130,16 +130,16 @@ The following areas lack published evidence and represent opportunities for nove
 - Cascade family testing (acknowledging penetrance uncertainty for truncating variants)
 - Psychosocial support for rare variant carriers
 - Discussion of expanded tumor spectrum (thyroid) beyond standard PPAP counseling
-- **Fertility-specific considerations:** Patient has retained ovaries post-hysterectomy. Oocyte cryopreservation or IVF with PGT-M remains possible. POLE's role in meiotic DNA replication has not been specifically studied — theoretical concern that haploinsufficiency could affect oocyte genomic integrity, but no evidence exists to contraindicate fertility treatments
+- **Fertility-specific considerations:** Patient has retained ovaries post-hysterectomy. Oocyte cryopreservation or IVF with PGT-M remains possible. POLE's role in meiotic DNA replication has not been specifically studied ; theoretical concern that haploinsufficiency could affect oocyte genomic integrity, but no evidence exists to contraindicate fertility treatments
 - **hEDS interaction:** Connective tissue disorder may independently affect reproductive outcomes; coordinate genetic counseling across both conditions
 
 ## Novel Research Questions Arising from This Patient's Phenotype
 
 Each hypothesis is rated: **Supported** (direct evidence from this case), **Plausible** (consistent with biology, no direct evidence), or **Speculative** (requires significant validation).
 
-1. **Does POLE haploinsufficiency contribute to endometriosis severity?** *(Supported)* Never investigated; could have implications for ~10% of reproductive-age women. *Confound: hEDS independently causes severe endometriosis — disentangling POLE from hEDS contribution requires cohort data*
+1. **Does POLE haploinsufficiency contribute to endometriosis severity?** *(Supported)* Never investigated; could have implications for ~10% of reproductive-age women. *Confound: hEDS independently causes severe endometriosis ; disentangling POLE from hEDS contribution requires cohort data*
 2. **Should thyroid cancer surveillance be added to PPAP protocols?** *(Supported)* Contingent on confirming POLE signatures in the thyroidectomy specimen
-3. **Does POLE dysfunction cause congenital vascular anomalies?** *(Speculative)* The duplicated IVC suggests possible developmental effects, but the base rate is 0.6–2.6% in the general population — single-case observation insufficient
+3. **Does POLE dysfunction cause congenital vascular anomalies?** *(Speculative)* The duplicated IVC suggests possible developmental effects, but the base rate is 0.6–2.6% in the general population ; single-case observation insufficient
 4. **Is there a POLE-associated vascular/stromal proliferative phenotype?** *(Plausible)* Bilateral PASH, liver FNH, and duplicated IVC form a pattern across organs
 5. **Do POLE carriers have elevated rates of anti-mitochondrial antibodies?** *(Speculative)* The ANA AC-21 finding is suggestive, but ANA 1:160 occurs in ~5–15% of healthy women; requires cohort-level AMA testing in POLE carriers
-6. **Do endometriotic lesions in POLE carriers show POLE mutational signatures?** *(Plausible)* If residual endometriotic tissue is biopsied (e.g., during laparoscopy), NanoSeq or targeted sequencing could determine whether SBS10a/b signatures are present — testing the POLE-endometriosis hypothesis directly. Anglesio et al. (2017) showed 79% of deep infiltrating endometriosis harbors somatic mutations; determining whether POLE-carrier endometriosis shows a distinctive mutational signature would be a first-in-class finding
+6. **Do endometriotic lesions in POLE carriers show POLE mutational signatures?** *(Plausible)* If residual endometriotic tissue is biopsied (e.g., during laparoscopy), NanoSeq or targeted sequencing could determine whether SBS10a/b signatures are present ; testing the POLE-endometriosis hypothesis directly. Anglesio et al. (2017) showed 79% of deep infiltrating endometriosis harbors somatic mutations; determining whether POLE-carrier endometriosis shows a distinctive mutational signature would be a first-in-class finding

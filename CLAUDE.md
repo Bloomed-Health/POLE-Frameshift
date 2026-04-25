@@ -1,39 +1,39 @@
-# CLAUDE.md — POLE c.138del Research Framework
+# CLAUDE.md - POLE c.138del Research Framework
 
 ## Project Overview
 
-This is a scientific research framework investigating **POLE c.138del (p.Leu46Phefs*8)** — an ultra-rare pathogenic frameshift variant in the POLE gene clinically consistent with Polymerase Proofreading-Associated Polyposis (PPAP), reported as ultra-hypermutated (TMB >100 mut/Mb; full tumour sequencing methodology documentation pending — the germline report does not address TMB; mutational signature confirmation pending).
+This is a scientific research framework investigating **POLE c.138del (p.Leu46Phefs*8)** ; an ultra-rare pathogenic frameshift variant in the POLE gene clinically consistent with Polymerase Proofreading-Associated Polyposis (PPAP), reported as ultra-hypermutated (TMB >100 mut/Mb; full tumour sequencing methodology documentation pending ; the germline report does not address TMB; mutational signature confirmation pending).
 
-The central research question is a **mechanistic paradox**: this variant truncates the protein at residue 54, eliminating all major catalytic domains — exonuclease active site at residues 268–471 (Church et al., 2013) and polymerase core at ~530–1189 (Korona et al., 2011) — though the N-terminal region (1–54) may participate in CMG helicase interactions and DNA binding (Parkash et al., 2019). Yet it produces a clinical phenotype clinically consistent with PPAP caused by missense variants within the exonuclease active site (molecular confirmation via mutational signatures pending).
+The central research question is a **mechanistic paradox**: this variant truncates the protein at residue 54, eliminating all major catalytic domains ; exonuclease active site at residues 268–471 (Church et al., 2013) and polymerase core at ~530–1189 (Korona et al., 2011) ; though the N-terminal region (1–54) may participate in CMG helicase interactions and DNA binding (Parkash et al., 2019). Yet it produces a clinical phenotype clinically consistent with PPAP caused by missense variants within the exonuclease active site (molecular confirmation via mutational signatures pending).
 
 ## Key Context
 
-- **Variant:** POLE c.138del (p.Leu46Phefs*8) — frameshift deletion, premature stop at ~residue 54 of 2,286 amino acids
+- **Variant:** POLE c.138del (p.Leu46Phefs*8) ; frameshift deletion, premature stop at ~residue 54 of 2,286 amino acids
 - **Germline status:** **Confirmed.** Heterozygous germline call from blood/saliva-derived DNA on accredited clinical germline assay with orthogonal confirmation. Constitutional variant, not tumor-derived
 - **Gene:** POLE (DNA Polymerase Epsilon, catalytic subunit), chromosome 12q24.33, transcript ENST00000320574
 - **Genomic coordinates:** GRCh38 chr12:132681203–132681204 (repository default); GRCh37 chr12:133249847 (clinical report coordinate system)
-- **Constraint:** gnomAD v4.1.0 (accessed April 2026): pLI ≈ 0 (1.1×10⁻⁴⁰), LOEUF = 0.76, oe_lof = 0.67 (188 observed / 279 expected LoF variants) — POLE tolerates heterozygous LoF; 188 LoF variants in gnomAD lack apparent PPAP, implying haploinsufficiency alone is insufficient for the cancer phenotype (supports LOH/second-hit model for tumor-specific ultra-hypermutation). Variant absent from all population databases
-- **Classification:** Pathogenic (clinical laboratory). Classification rests on standard ACMG criteria for null variants in a gene with established loss-of-function disease mechanism (PM2 + PP4), not on observed phenotype-genotype correlation in other patients — the lab explicitly notes the variant has not been previously reported in individuals with POLE-related conditions. Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023); PVS1 applicability debated (mechanism does not match canonical PPAP dominant-negative model); not yet in ClinVar. The clinical pathogenicity call and the mechanistic novelty answer different questions, and both can be true simultaneously
-- **47-gene panel (2022):** Negative for APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, and all other genes tested — POLE c.138del is the sole identified genetic driver among genes tested (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation)
+- **Constraint:** gnomAD v4.1.0 (accessed April 2026): pLI ≈ 0 (1.1×10⁻⁴⁰), LOEUF = 0.76, oe_lof = 0.67 (188 observed / 279 expected LoF variants) ; POLE tolerates heterozygous LoF; 188 LoF variants in gnomAD lack apparent PPAP, implying haploinsufficiency alone is insufficient for the cancer phenotype (supports LOH/second-hit model for tumor-specific ultra-hypermutation). Variant absent from all population databases
+- **Classification:** Pathogenic (clinical laboratory). Classification rests on standard ACMG criteria for null variants in a gene with established loss-of-function disease mechanism (PM2 + PP4), not on observed phenotype-genotype correlation in other patients ; the lab explicitly notes the variant has not been previously reported in individuals with POLE-related conditions. Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023); PVS1 applicability debated (mechanism does not match canonical PPAP dominant-negative model); not yet in ClinVar. The clinical pathogenicity call and the mechanistic novelty answer different questions, and both can be true simultaneously
+- **47-gene panel (2022):** Negative for APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, and all other genes tested ; POLE c.138del is the sole identified genetic driver among genes tested (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation)
 
 ## Patient Phenotype (Five Phenotype Categories + Supplementary Context)
 
 1. **Neoplastic:** Progressive adenomatous polyposis (~6 adenomas at age 19, accumulating to ~15+ by age 31; stomach, cecum, sigmoid), Stage I papillary thyroid carcinoma (~28; encapsulated, non-invasive, 1.2 cm, isthmus; outside established PPAP spectrum; s/p total thyroidectomy, on levothyroxine)
 2. **Proliferative/stromal:** Bilateral breast changes with IHC-confirmed PASH (CD34+, CK AE1/AE3−), liver hypervascular lesion (hemangioma vs FNH, segment VII, 16×14 mm) with splenoportal arteriovenous shunt
 3. **Endometrial:** Stage IV+ deep infiltrating endometriosis (~27; thoracic diaphragm, intestinal adhesions), diffuse adenomyosis (~28; severe menorrhagia, iron infusions, syncope → ovarian-sparing total hysterectomy)
-4. **Congenital developmental:** Duplicated inferior vena cava — cannot be explained by somatic LOH, argues for constitutive POLE haploinsufficiency
-5. **Autoimmune/immune:** ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies) — may reflect immune recognition of mitochondrial antigens exposed through POLE-driven dysfunction of nuclear-encoded mitochondrial proteins
-6. **Comorbidity triad:** hEDS/POTS/gastroparesis — creates therapeutic constraints (unreliable oral drug absorption, amplified autonomic side effects) and potential phenotype modifiers (MCAS as pro-tumorigenic microenvironment; altered ECM affecting crypt architecture; dysautonomia modulating neuroimmune axis)
-7. **Family history:** Maternal grandmother had uterine cancer (core PPAP malignancy) + ductal breast cancer. Pattern is consistent with but not diagnostic of PPAP inheritance (population base rates: uterine ~3%, breast ~12% lifetime risk). Raises possibility of maternal inheritance; parental testing recommended. Father and paternal grandmother unremarkable.
+4. **Congenital developmental:** Duplicated inferior vena cava ; cannot be explained by somatic LOH, argues for constitutive POLE haploinsufficiency
+5. **Autoimmune/immune:** ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies) ; may reflect immune recognition of mitochondrial antigens exposed through POLE-driven dysfunction of nuclear-encoded mitochondrial proteins
+6. **Comorbidity triad:** hEDS/POTS/gastroparesis ; creates therapeutic constraints (unreliable oral drug absorption, amplified autonomic side effects) and potential phenotype modifiers (MCAS as pro-tumorigenic microenvironment; altered ECM affecting crypt architecture; dysautonomia modulating neuroimmune axis)
+7. **Family history:** Maternal grandmother had uterine cancer (core PPAP malignancy) + ductal breast cancer. Pattern is consistent with but not diagnostic of PPAP inheritance (population base rates: uterine ~3%, breast ~12% lifetime risk). Raises possibility of maternal inheritance; parental testing unavailable. Father and paternal grandmother unremarkable.
 
 ## Six Candidate Mechanistic Models
 
-1. **Somatic LOH** — wild-type allele lost in tumor (Knudson two-hit)
-2. **Translational reinitiation** — ribosomes reinitiate at downstream AUG, producing polymerase-only protein (low prior probability)
-3. **NMD escape + holoenzyme poisoning** — truncated peptide competes for POLE2 binding (low prior probability)
-4. **Replication stress-dependent haploinsufficiency** — 50% POLE is rate-limiting in high-turnover tissues
-5. **Isoform-specific effects** — variant differentially affects tissue-specific transcripts
-6. **Second-site somatic POLE mutation** — somatic ExoD missense on wild-type allele creates dominant-negative (distinct from LOH)
+1. **Somatic LOH** ; wild-type allele lost in tumor (Knudson two-hit)
+2. **Translational reinitiation** ; ribosomes reinitiate at downstream AUG, producing polymerase-only protein (low prior probability)
+3. **NMD escape + holoenzyme poisoning** ; truncated peptide competes for POLE2 binding (low prior probability)
+4. **Replication stress-dependent haploinsufficiency** ; 50% POLE is rate-limiting in high-turnover tissues
+5. **Isoform-specific effects** ; variant differentially affects tissue-specific transcripts
+6. **Second-site somatic POLE mutation** ; somatic ExoD missense on wild-type allele creates dominant-negative (distinct from LOH)
 
 The congenital duplicated IVC and multi-system non-neoplastic findings most strongly support Model 4, potentially combined with Model 1 for tumor-specific ultra-hypermutation.
 
@@ -41,9 +41,9 @@ The congenital duplicated IVC and multi-system non-neoplastic findings most stro
 
 > **IMPORTANT: This section and the corresponding section in README.md must be updated whenever new data is added to the repository or new relevant research is published. When updating clinical data, evaluate whether the new information changes the relative support for each model and update both files accordingly.**
 
-**Primary: Model 4 (Replication Stress-Dependent Haploinsufficiency)** — Strongest clinical support. Key evidence: congenital duplicated IVC (eliminates Models 1–3 as sole explanations), tissue turnover–onset age correlation, progressive polyp accumulation over >12 years, multi-system non-neoplastic phenotype (PASH, liver lesion, endometriosis, dysplastic nevus, AV shunt, ANA), and absence of FILS/neurodevelopmental features (tissue-specific haploinsufficiency pattern). Family history (maternal grandmother with uterine cancer) may indicate inherited variant with multi-generational penetrance data if confirmed.
+**Primary: Model 4 (Replication Stress-Dependent Haploinsufficiency)** ; Strongest clinical support. Key evidence: congenital duplicated IVC (eliminates Models 1–3 as sole explanations), tissue turnover–onset age correlation, progressive polyp accumulation over >12 years, multi-system non-neoplastic phenotype (PASH, liver lesion, endometriosis, dysplastic nevus, AV shunt, ANA), and absence of FILS/neurodevelopmental features (tissue-specific haploinsufficiency pattern). Family history (maternal grandmother with uterine cancer) may indicate inherited variant with multi-generational penetrance data if confirmed.
 
-**Secondary: Model 1 (Somatic LOH)** — Likely complementary, not alternative. Best explains tumor-specific ultra-hypermutation (TMB >100 mut/Mb), particularly in slow-cycling tissues like thyroid where haploinsufficiency alone may be insufficient. Awaiting paired tumor-normal WGS.
+**Secondary: Model 1 (Somatic LOH)** ; Likely complementary, not alternative. Best explains tumor-specific ultra-hypermutation (TMB >100 mut/Mb), particularly in slow-cycling tissues like thyroid where haploinsufficiency alone may be insufficient. Awaiting paired tumor-normal WGS.
 
 **Key pending experiments that could shift this assessment:**
 - NanoSeq on normal blood (normal rates → weakens M4; elevated → strengthens M4)
@@ -111,11 +111,11 @@ POLE-Frameshift/
 
 ## Key References
 
-- **Classification framework:** Mur et al. (2023) *Genome Medicine* — gene-specific ACMG/AMP for POLE/POLD1 ED variants; c.138del falls outside its scope (truncating, upstream of ED)
-- **Normal tissue mutation rates:** Robinson et al. (2021) *Nature Genetics* — NanoSeq proves germline POLE mutations elevate SBS10a/b in normal cells
-- **ICI response:** Garmezy et al. (2022) *JCO Precision Oncology* — pathogenic POLE: 82.4% CBR; Pietrantonio et al. (2024) *Annals of Oncology* — POLE signature ≥78.5% predicts response
-- **Preventive ICB:** Sawant et al. (2025) *Cancer Research* — ICB delays cancer in polymerase mutator mice
-- **PolED database (2025)** — curated POLE/POLD1 variant functional studies
+- **Classification framework:** Mur et al. (2023) *Genome Medicine* ; gene-specific ACMG/AMP for POLE/POLD1 ED variants; c.138del falls outside its scope (truncating, upstream of ED)
+- **Normal tissue mutation rates:** Robinson et al. (2021) *Nature Genetics* ; NanoSeq proves germline POLE mutations elevate SBS10a/b in normal cells
+- **ICI response:** Garmezy et al. (2022) *JCO Precision Oncology* ; pathogenic POLE: 82.4% CBR; Pietrantonio et al. (2024) *Annals of Oncology* ; POLE signature ≥78.5% predicts response
+- **Preventive ICB:** Sawant et al. (2025) *Cancer Research* ; ICB delays cancer in polymerase mutator mice
+- **PolED database (2025)** ; curated POLE/POLD1 variant functional studies
 
 ## Skills
 
@@ -132,7 +132,7 @@ npx skills@latest add Bloomed-Health/cancer-predisposition-variant-analyst
 
 ## Conventions
 
-- This is a research framework, not a software project — there are no build steps or tests
+- This is a research framework, not a software project ; there are no build steps or tests
 - All clinical data is de-identified
 - Content is licensed CC BY 4.0
 - References use PubMed links where available; bibliography in BibTeX at `references/bibliography.bib`

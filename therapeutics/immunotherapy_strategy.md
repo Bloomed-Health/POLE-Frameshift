@@ -9,7 +9,7 @@ The POLE c.138del tumor has a reported TMB >100 mutations/Mb (assay platform and
 | Study | Key Finding |
 |-------|-------------|
 | Garmezy et al. (2022) *JCO Precision Oncology* | Pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS (n=458) |
-| Ambrosini et al. (2024) *Annals of Oncology* 35:643–655 | POLE/POLD1 pathogenic-domain (pd) mCRC: 89% ORR on ICI (n=27) — significantly superior to dMMR/MSI-H (54% ORR; P=0.01). Confirms POLE signature as independent predictor of ICI benefit beyond MSI-H |
+| Ambrosini et al. (2024) *Annals of Oncology* 35:643–655 | POLE/POLD1 pathogenic-domain (pd) mCRC: 89% ORR on ICI (n=27) ; significantly superior to dMMR/MSI-H (54% ORR; P=0.01). Confirms POLE signature as independent predictor of ICI benefit beyond MSI-H |
 | Pietrantonio et al. (2024) *Annals of Oncology* | POLE signature ≥78.5% predicts ICI response; identifies POLE-ultramutated as a distinct ICI-responsive molecular subtype |
 | Sawant et al. (2025) *Cancer Research* | Preventive ICB delays cancer in polymerase mutator mice |
 
@@ -46,14 +46,14 @@ The POLE c.138del tumor has a reported TMB >100 mutations/Mb (assay platform and
 |----------|-----------|----------------|
 | **Anti-LAG3 (relatlimab)** | Co-inhibitory receptor frequently co-expressed with PD-1 on exhausted TILs; relatlimab + nivolumab FDA-approved for melanoma (2022) | **FDA-approved** (melanoma; extrapolated to TMB-high) |
 | **Anti-TIGIT (tiragolumab, domvanalimab)** | TIGIT expressed on tumor-infiltrating T cells and NK cells; may complement anti-PD-1 | **Phase III** (NSCLC; no POLE-specific data) |
-| **Bispecific T-cell engagers** | Redirect T cells to tumor-associated neoantigens; ultra-hypermutated tumors provide abundant targets. Note: tebentafusp (the only approved BiTE for solid tumors) is specific to gp100/HLA-A*02:01 melanoma and is not generalizable — listed here as a platform concept for future neoantigen-directed bispecifics | **Phase I/II** (various solid tumors; theoretical applicability to POLE) |
+| **Bispecific T-cell engagers** | Redirect T cells to tumor-associated neoantigens; ultra-hypermutated tumors provide abundant targets. Note: tebentafusp (the only approved BiTE for solid tumors) is specific to gp100/HLA-A*02:01 melanoma and is not generalizable ; listed here as a platform concept for future neoantigen-directed bispecifics | **Phase I/II** (various solid tumors; theoretical applicability to POLE) |
 | **Tumor-infiltrating lymphocyte (TIL) therapy** | Ex vivo expansion of autologous TILs; ultra-hypermutated tumors expected to have highly reactive TIL populations | **Phase II** (melanoma, approved as lifileucel; no POLE-specific data) |
 | **Neoantigen-directed ADCs** | Antibody-drug conjugates targeting tumor-specific neoantigens | **Preclinical** (theoretical; dependent on neoantigen surface expression) |
 
 ### Preventive Immunotherapy (Hypothesis-Generating Only)
 
 - **Setting:** Pre-cancer, in PPAP carriers
-- **Evidence:** Sawant et al. (2025) — In polymerase mutator mice, prophylactic anti-PD-1 raised the responder rate from 2.7% to 32.5% and delayed tumor onset, selecting against aneuploid tumors. However, ICB did **not** improve survival in mice with established tumors. This is a provocative hypothesis-generating preclinical finding in germline exonuclease-domain missense mutant mice (not frameshift carriers), not a therapeutic recommendation.
+- **Evidence:** Sawant et al. (2025) ; In polymerase mutator mice, prophylactic anti-PD-1 raised the responder rate from 2.7% to 32.5% and delayed tumor onset, selecting against aneuploid tumors. However, ICB did **not** improve survival in mice with established tumors. This is a provocative hypothesis-generating preclinical finding in germline exonuclease-domain missense mutant mice (not frameshift carriers), not a therapeutic recommendation.
 - **Status:** Preclinical only; no human trials; the authors frame this as raising a possibility for high-risk individuals, not as evidence that preventive ICB works
 
 ## Pre-Treatment Autoimmune Considerations
@@ -63,7 +63,7 @@ The patient has **ANA 1:160 with reticular cytoplasmic AC-21 pattern**, characte
 ### irAE Risk Assessment
 
 - **Pre-existing ANA positivity** is associated with increased risk of immune-related adverse events (irAEs) during checkpoint inhibitor therapy
-- **AC-21/AMA association** raises specific concern for autoimmune hepatitis, cholangitis, and biliary irAEs — particularly relevant given the patient's liver FNH/hemangioma
+- **AC-21/AMA association** raises specific concern for autoimmune hepatitis, cholangitis, and biliary irAEs ; particularly relevant given the patient's liver FNH/hemangioma
 - ICI can unmask subclinical autoimmune conditions; the AC-21 finding warrants pre-treatment characterization
 
 ### Required Pre-ICI Workup
@@ -73,14 +73,14 @@ The patient has **ANA 1:160 with reticular cytoplasmic AC-21 pattern**, characte
 | **AMA-specific ELISA** (anti-PDC-E2) | Confirm whether AC-21 reflects true AMA; establish baseline |
 | **Liver function panel** (GGT, ALP, bilirubin) | Baseline biliary function; PBC screening given AMA + hepatic lesions |
 | **Extended autoimmune panel** (anti-dsDNA, ENA, C3/C4, anti-smooth muscle) | Characterize scope of autoimmune activation before ICI |
-| **Thyroid function** (TSH, free T4, anti-TPO) | Baseline for thyroid irAE monitoring. Patient is post-total thyroidectomy on levothyroxine — ICI-induced thyroiditis is not expected (no thyroid tissue), but TSH/free T4 monitoring remains necessary to detect ICI-mediated changes in levothyroxine metabolism or absorption, and thyroglobulin trending for recurrence detection |
+| **Thyroid function** (TSH, free T4, anti-TPO) | Baseline for thyroid irAE monitoring. Patient is post-total thyroidectomy on levothyroxine ; ICI-induced thyroiditis is not expected (no thyroid tissue), but TSH/free T4 monitoring remains necessary to detect ICI-mediated changes in levothyroxine metabolism or absorption, and thyroglobulin trending for recurrence detection |
 
 ### ICI Monitoring Modifications for ANA-Positive Patients
 
-- **Liver enzymes q2w** during induction (vs. standard q3–6w) — lower threshold for hepatic irAE investigation
-- **AMA titer trending** at baseline, week 6, week 12, and at any suspected irAE — rising titers may indicate evolving biliary autoimmunity
+- **Liver enzymes q2w** during induction (vs. standard q3–6w) ; lower threshold for hepatic irAE investigation
+- **AMA titer trending** at baseline, week 6, week 12, and at any suspected irAE ; rising titers may indicate evolving biliary autoimmunity
 - **Hepatology consultation** if any Grade ≥1 hepatic irAE given potential overlap with subclinical PBC
-- **Hold ICI and escalate** if ALP rises >2x ULN with GGT elevation — biliary pattern concerning for cholangitis irAE vs. PBC exacerbation
+- **Hold ICI and escalate** if ALP rises >2x ULN with GGT elevation ; biliary pattern concerning for cholangitis irAE vs. PBC exacerbation
 
 ## Dysautonomia and Comorbidity Considerations
 
@@ -107,7 +107,7 @@ If mast cell activation syndrome is confirmed through diagnostic workup (tryptas
 | **30 min pre-infusion** | Famotidine | 20 mg | IV |
 | **Consider** | Cromolyn sodium | 200 mg QID | PO (starting 48h prior) |
 
-**Note:** Oral medications may have unreliable absorption due to gastroparesis — IV pre-medications should be preferred where available. Onset of any infusion reaction should be managed as potential mast cell degranulation (epinephrine, not just diphenhydramine).
+**Note:** Oral medications may have unreliable absorption due to gastroparesis ; IV pre-medications should be preferred where available. Onset of any infusion reaction should be managed as potential mast cell degranulation (epinephrine, not just diphenhydramine).
 
 ### Levothyroxine-ICI Interaction Monitoring
 
@@ -120,18 +120,18 @@ The patient is post-total thyroidectomy on lifelong levothyroxine. ICI agents ca
 ### ICI-Specific Risks in Dysautonomia
 
 - **Autoimmune colitis (irAE):** Especially difficult to detect against the backdrop of pre-existing GI dysmotility, gastroparesis, recurrent SIBO, and endometriosis-related bowel adhesions. Low threshold for endoscopic evaluation of new GI symptoms.
-- **Autonomic neuropathy (irAE):** ICI agents can cause immune-mediated autonomic neuropathy — potentially catastrophic in a patient with pre-existing POTS. Baseline autonomic function testing required; monitor for POTS exacerbation during treatment.
+- **Autonomic neuropathy (irAE):** ICI agents can cause immune-mediated autonomic neuropathy ; potentially catastrophic in a patient with pre-existing POTS. Baseline autonomic function testing required; monitor for POTS exacerbation during treatment.
 - **Hepatic irAE overlap:** Pre-existing ANA AC-21/AMA + liver FNH/hemangioma + potential subclinical PBC requires careful hepatic monitoring (see Pre-Treatment Autoimmune Considerations above).
 
 ### Impact on Response Prediction
 
 The ICI response prediction framework (POLE signature ≥78.5% predicting response; Pietrantonio et al., 2024) was established in patients without this comorbidity burden. There is genuine uncertainty about whether published response rates translate directly to this patient, because:
 
-1. **Dysautonomia modulates immune function** — the vagus nerve is a major neuroimmune regulatory pathway; POTS patients may have altered baseline immune profiles
+1. **Dysautonomia modulates immune function** ; the vagus nerve is a major neuroimmune regulatory pathway; POTS patients may have altered baseline immune profiles
 2. **MCAS (if present)** may suppress local immune surveillance, potentially counteracting neoantigen-driven T cell responses
 3. **Chronic inflammation** from mast cell activation or connective tissue dysfunction may create an immunosuppressive microenvironment
 
-These factors do not contraindicate ICI — the reported TMB >100 mut/Mb remains a strong predictor (if confirmed by WGS) — but they argue for enhanced monitoring, immune profiling before and during treatment, and realistic expectations about whether published response data fully apply.
+These factors do not contraindicate ICI ; the reported TMB >100 mut/Mb remains a strong predictor (if confirmed by WGS) ; but they argue for enhanced monitoring, immune profiling before and during treatment, and realistic expectations about whether published response data fully apply.
 
 ## Resistance Monitoring
 

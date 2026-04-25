@@ -1,6 +1,6 @@
 # Mutational Signature Analysis Pipeline
 
-> **STATUS: Not yet performed.** Mutational signature decomposition is the **single most diagnostic readout available** for this case — it directly discriminates between POLE-driven hypermutation (SBS10a/b/28) and MMR-deficient phenocopy (SBS6/15/21/26). This analysis should be treated as the **highest-priority immediate experiment**. Until signature decomposition is performed, the assumption that the ultra-hypermutation is POLE-driven remains unverified. Archived tumour specimens (FFPE thyroidectomy, ~2019; hysterectomy, ~2021) are potential input material.
+> **STATUS: Not yet performed.** Mutational signature decomposition is the **single most diagnostic readout available** for this case ; it directly discriminates between POLE-driven hypermutation (SBS10a/b/28) and MMR-deficient phenocopy (SBS6/15/21/26). This analysis should be treated as the **highest-priority immediate experiment**. Until signature decomposition is performed, the assumption that the ultra-hypermutation is POLE-driven remains unverified. Archived tumour specimens (FFPE thyroidectomy, ~2019; hysterectomy, ~2021) are potential input material.
 
 ## Overview
 
@@ -27,9 +27,9 @@ Output: Signature contribution weights (COSMIC v3.4 SBS, DBS, ID)
 
 ## Interpretation Framework
 
-- **SBS10a/b ≥50%:** Canonical POLE mechanism — favors LOH or reinitiation models
-- **SBS10a/b <10%, MMR signatures dominant:** Non-POLE mechanism — redefines the syndrome
-- **Novel signature:** Previously undescribed mutational process — requires further characterization
+- **SBS10a/b ≥50%:** Canonical POLE mechanism ; favors LOH or reinitiation models
+- **SBS10a/b <10%, MMR signatures dominant:** Non-POLE mechanism ; redefines the syndrome
+- **Novel signature:** Previously undescribed mutational process ; requires further characterization
 - **POLE signature ≥78.5%:** Predicts ICI response (Pietrantonio et al., Annals of Oncology 2024)
 
 ## Additional Tools

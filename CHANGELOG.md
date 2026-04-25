@@ -4,9 +4,9 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
-## [0.5.5] — 2026-04-25
+## [0.5.5] ; 2026-04-25
 
-### Changed (Evidence Status Revision — Confirmed Findings & Pending Tumour Data)
+### Changed (Evidence Status Revision ; Confirmed Findings & Pending Tumour Data)
 
 **Claims now confirmed (strengthened with documentation):**
 
@@ -31,9 +31,9 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
-## [0.5.4] — 2026-04-19
+## [0.5.4] ; 2026-04-19
 
-### Changed (Comprehensive Audit — Scientific Accuracy Corrections)
+### Changed (Comprehensive Audit ; Scientific Accuracy Corrections)
 
 - **CRITICAL: CDK4/6 inhibitor mechanism corrected** across `README.md` and `therapeutics/synthetic_lethality.md`: CDK4/6 inhibitors enforce G1 arrest (not "force S-phase entry"). Rationale rewritten: POLE-deficient clones that have lost G1 checkpoint control (via p53/Rb inactivation) may be selectively sensitive to restored G1 arrest
 - **CRITICAL: Albertson et al. (2009) mouse data corrected** in `README.md` and `references/bibliography.bib`: Heterozygous proofreading-dead mice showed ~15x elevated mutation rate (not "indistinguishable from WT"). Homozygous mutation rate corrected from ">70x" to "~65x". Interpretation updated: heterozygous data supports Model 4 (measurable haploinsufficiency) while still requiring LOH for full cancer phenotype
@@ -51,7 +51,7 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
-## [0.5.3] — 2026-04-19
+## [0.5.3] ; 2026-04-19
 
 ### Added
 
@@ -70,11 +70,11 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
-## [0.5.2] — 2026-04-19
+## [0.5.2] ; 2026-04-19
 
 ### Added
 
-- **"Variant Verification & Methodology" section** in `README.md`: New section surfacing sequencing method, orthogonal confirmation status, TMB methodology status, MSI status, gnomAD query details, patient demographics, family history summary, and consent/IRB status — enabling external PIs to assess variant authenticity and data strength without reading the full clinical case summary
+- **"Variant Verification & Methodology" section** in `README.md`: New section surfacing sequencing method, orthogonal confirmation status, TMB methodology status, MSI status, gnomAD query details, patient demographics, family history summary, and consent/IRB status ; enabling external PIs to assess variant authenticity and data strength without reading the full clinical case summary
 - **Explicit n-of-1 framing** in `README.md` Overview: Callout box acknowledging this is a single-patient hypothesis-generating framework seeking collaborators for validation in additional carriers
 - **gnomAD v4 query links** added to `README.md` (Overview + "What We Know" table) and `docs/clinical_case_summary.md` with genomic coordinates (GRCh38 chr12:132681203–132681204)
 - **Therapeutic strategy clinical context caveat** in `README.md`: Clarifies that the patient has no active advanced malignancy; therapeutic section is prospective contingency planning, not current treatment recommendations; synthetic lethality targets require preclinical validation in POLE-null models
@@ -85,13 +85,13 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
-## [0.5.1] — 2026-04-18
+## [0.5.1] ; 2026-04-18
 
 ### Added
 
-- **POLE-null vs. POLE-mutant distinction** in `therapeutics/synthetic_lethality.md`: New section explaining that all published synthetic lethality data derives from POLE-ExoD-*mutant* cells, not POLE-*null* (LOH-driven) cells — a critical gap for translating findings to this patient's tumors. Includes comparison table, evidence gap analysis, and required CRISPR knockout experiments
+- **POLE-null vs. POLE-mutant distinction** in `therapeutics/synthetic_lethality.md`: New section explaining that all published synthetic lethality data derives from POLE-ExoD-*mutant* cells, not POLE-*null* (LOH-driven) cells ; a critical gap for translating findings to this patient's tumors. Includes comparison table, evidence gap analysis, and required CRISPR knockout experiments
 - **POLE-null synthetic lethality validation** added to Data Needed section in `synthetic_lethality.md`
-- **Two bibliography entries** in `references/bibliography.bib`: Tan et al. (2025) *Nucleic Acids Research* (cell-type-dependent NMD, PMID 40366162) and Palou-Márquez & Supek (2025) *Genome Biology* (variable NMD across tissues/individuals, PMID 41023738) — both previously cited in `mechanistic_models.md` but missing from bibliography
+- **Two bibliography entries** in `references/bibliography.bib`: Tan et al. (2025) *Nucleic Acids Research* (cell-type-dependent NMD, PMID 40366162) and Palou-Márquez & Supek (2025) *Genome Biology* (variable NMD across tissues/individuals, PMID 41023738) ; both previously cited in `mechanistic_models.md` but missing from bibliography
 - **AAAAI/EAACI caveat** added to food-specific IgG section in `docs/clinical_case_summary.md`: Blockquote noting that AAAAI recommends against food-specific IgG testing for diagnosis; data retained for pattern documentation only; cross-reference to validated permeability assays
 
 ### Changed
@@ -102,11 +102,11 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
-## [0.5.0] — 2026-04-17
+## [0.5.0] ; 2026-04-17
 
 ### Changed (Scientific Database Verification & Literature Update)
 
-- **CRITICAL: gnomAD constraint metrics corrected.** Previous values (pLI = 0.98, LOEUF = 0.22) were incorrect. Verified against gnomAD v4 API (GRCh38, ENST00000320574): pLI ≈ 0 (1.1×10⁻⁴⁰), LOEUF = 0.76, oe_lof = 0.67 (188 observed / 279 expected LoF variants). POLE tolerates heterozygous LoF — 188 carriers in gnomAD lack apparent PPAP. Corrected across all files
+- **CRITICAL: gnomAD constraint metrics corrected.** Previous values (pLI = 0.98, LOEUF = 0.22) were incorrect. Verified against gnomAD v4 API (GRCh38, ENST00000320574): pLI ≈ 0 (1.1×10⁻⁴⁰), LOEUF = 0.76, oe_lof = 0.67 (188 observed / 279 expected LoF variants). POLE tolerates heterozygous LoF ; 188 carriers in gnomAD lack apparent PPAP. Corrected across all files
 - **PVS1 argument strengthened by gnomAD data:** Gene-level LoF tolerance (pLI ≈ 0) provides additional evidence against PVS1 applicability
 - **Mechanistic model implications updated:** gnomAD LoF tolerance supports LOH/second-hit model for tumor-specific ultra-hypermutation; Bayesian priors revised (M1 raised to 30%, M4+M1 combination ~40%)
 - **Literature consensus acknowledgment added:** Prominent note in README that current scientific consensus does NOT support truncating POLE variants as pathogenic for PPAP; this framework investigates a novel hypothesis
@@ -115,19 +115,19 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 - **Ambrosini et al. (2024) *Annals of Oncology*:** POLE/D1pd mCRC 89% ORR on ICI vs 54% dMMR/MSI-H (P=0.01)
 - **Andrianova et al. (2024) *Eur J Hum Genet*:** Heterozygous POLD1 ExoD → ~15% mutation rate increase; cancer requires LOH (recessive model)
-- **Nous-209 vaccine:** Leoni et al. (2026) *Nature Medicine* — 100% immune response in Lynch carriers (37/37)
+- **Nous-209 vaccine:** Leoni et al. (2026) *Nature Medicine* ; 100% immune response in Lynch carriers (37/37)
 - **mRNA-4157/V940:** Weber et al. (2024) *Lancet* + 5-year data (49% recurrence reduction, press release Jan 2026)
 - **Wang et al. (2025) *PNAS*:** First cryo-EM proofreading intermediates of human Pol epsilon-PCNA
 - **Keskitalo et al. (2025) *Nature Communications*:** POLE2 is NPF motif receptor
-- **N363K glioblastoma:** Vande Perre et al. (2019) + Labrousse et al. (2023) *NAR Cancer* — extends PPAP spectrum
-- **Tissue-specific NMD:** Kolakada et al. (2025) *Cell Genomics* — peptide release rate modulates NMD
-- **SMaHT benchmarking:** Zhang et al. (2025) bioRxiv — 6 duplex methods compared; ppmSeq 44% recovery
+- **N363K glioblastoma:** Vande Perre et al. (2019) + Labrousse et al. (2023) *NAR Cancer* ; extends PPAP spectrum
+- **Tissue-specific NMD:** Kolakada et al. (2025) *Cell Genomics* ; peptide release rate modulates NMD
+- **SMaHT benchmarking:** Zhang et al. (2025) bioRxiv ; 6 duplex methods compared; ppmSeq 44% recovery
 - **Research gaps section** added to surveillance protocol (synthetic lethality in POLE-null, thyroid, endometriosis, AMA, preventive ICI)
 - **13 new bibliography entries** in references/bibliography.bib
 
 ---
 
-## [0.4.0] — 2026-04-17
+## [0.4.0] ; 2026-04-17
 
 ### Changed (Peer Review Feedback)
 
@@ -146,7 +146,7 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
-## [0.3.0] — 2026-04-17
+## [0.3.0] ; 2026-04-17
 
 ### Added
 
@@ -183,7 +183,7 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
-## [0.1.0] — 2026-04-15
+## [0.1.0] ; 2026-04-15
 
 ### Added
 

@@ -14,13 +14,13 @@ Output: Ranked neoantigen candidates with predicted HLA binding, expression, clo
 
 ## Analysis Steps
 
-1. **HLA typing** — Class I (HLA-A, -B, -C) and Class II (HLA-DR, -DQ, -DP) from WGS or dedicated typing
-2. **Somatic variant annotation** — VEP/SnpEff for protein consequence prediction
-3. **Peptide generation** — 8-11mer (Class I) and 15-25mer (Class II) from mutant sequences
-4. **Binding prediction** — NetMHCpan 4.1 (Class I), NetMHCIIpan 4.0 (Class II)
-5. **Expression filtering** — RNA-seq TPM for variant allele expression
-6. **Clonality assessment** — Cancer cell fraction (CCF) from variant allele frequency
-7. **Ranking** — Prioritize clonal, expressed, strong-binding neoantigens
+1. **HLA typing** ; Class I (HLA-A, -B, -C) and Class II (HLA-DR, -DQ, -DP) from WGS or dedicated typing
+2. **Somatic variant annotation** ; VEP/SnpEff for protein consequence prediction
+3. **Peptide generation** ; 8-11mer (Class I) and 15-25mer (Class II) from mutant sequences
+4. **Binding prediction** ; NetMHCpan 4.1 (Class I), NetMHCIIpan 4.0 (Class II)
+5. **Expression filtering** ; RNA-seq TPM for variant allele expression
+6. **Clonality assessment** ; Cancer cell fraction (CCF) from variant allele frequency
+7. **Ranking** ; Prioritize clonal, expressed, strong-binding neoantigens
 
 ## Tools
 

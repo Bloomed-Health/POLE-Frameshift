@@ -21,13 +21,13 @@ The wild-type POLE allele is somatically deleted or silenced in tumor tissue. Ce
 
 ### Clinical Evidence Bearing on Model 1
 
-The patient's **congenital duplicated inferior vena cava** argues against Model 1 as the *sole* explanation. LOH is a stochastic somatic event — it cannot explain a congenital vascular anomaly present from embryonic development. Additionally, the multi-system non-neoplastic findings (bilateral PASH, severe endometriosis, liver FNH) suggest germline-level tissue dysfunction beyond what somatic LOH in individual tumors would produce. Model 1 may still explain the ultra-hypermutation in specific tumors, but the systemic phenotype requires a complementary germline mechanism (likely Model 4).
+The patient's **congenital duplicated inferior vena cava** argues against Model 1 as the *sole* explanation. LOH is a stochastic somatic event ; it cannot explain a congenital vascular anomaly present from embryonic development. Additionally, the multi-system non-neoplastic findings (bilateral PASH, severe endometriosis, liver FNH) suggest germline-level tissue dysfunction beyond what somatic LOH in individual tumors would produce. Model 1 may still explain the ultra-hypermutation in specific tumors, but the systemic phenotype requires a complementary germline mechanism (likely Model 4).
 
 ### gnomAD Population Data Supporting Model 1
 
-**Critical new evidence:** gnomAD v4.1.0 (accessed April 2026) shows 188 observed LoF variants in POLE (vs. 279 expected; oe_lof = 0.67, pLI ≈ 0, LOEUF = 0.76). This means **heterozygous POLE LoF is tolerated in the general population** — 188 LoF variant carriers exist without apparent PPAP. This population-level observation strongly supports Model 1 as necessary for the cancer phenotype: if heterozygous LoF alone produced ultra-hypermutation, the 188 gnomAD LoF carriers would be expected to show PPAP-range TMB, which is inconsistent with normal health. The implication is that a **second hit (LOH)** in specific tissues is required to produce the ultra-hypermutated phenotype.
+**Critical new evidence:** gnomAD v4.1.0 (accessed April 2026) shows 188 observed LoF variants in POLE (vs. 279 expected; oe_lof = 0.67, pLI ≈ 0, LOEUF = 0.76). This means **heterozygous POLE LoF is tolerated in the general population** ; 188 LoF variant carriers exist without apparent PPAP. This population-level observation strongly supports Model 1 as necessary for the cancer phenotype: if heterozygous LoF alone produced ultra-hypermutation, the 188 gnomAD LoF carriers would be expected to show PPAP-range TMB, which is inconsistent with normal health. The implication is that a **second hit (LOH)** in specific tissues is required to produce the ultra-hypermutated phenotype.
 
-This aligns with Andrianova et al. (2024, *Eur J Hum Genet*), who demonstrated that heterozygous POLD1 exonuclease domain variants cause only a ~15% increase in somatic mutation rate — insufficient for clinical cancer predisposition. Cancer development in their cohort required somatic LOH at the POLD1 locus, establishing a **recessive model for polymerase proofreading-associated cancer predisposition**. While this was demonstrated for POLD1 missense (not POLE truncating), the principle of LOH-dependent cancer risk may extend to POLE LoF variants.
+This aligns with Andrianova et al. (2024, *Eur J Hum Genet*), who demonstrated that heterozygous POLD1 exonuclease domain variants cause only a ~15% increase in somatic mutation rate ; insufficient for clinical cancer predisposition. Cancer development in their cohort required somatic LOH at the POLD1 locus, establishing a **recessive model for polymerase proofreading-associated cancer predisposition**. While this was demonstrated for POLD1 missense (not POLE truncating), the principle of LOH-dependent cancer risk may extend to POLE LoF variants.
 
 ### Exclusion Criteria
 
@@ -39,7 +39,7 @@ Model 1 is **excluded** as the sole mechanism if: congenital anomalies or multi-
 
 ### Hypothesis
 
-Ribosomes encountering the premature stop codon at residue 54 reinitiate translation at a downstream in-frame AUG codon. If reinitiation occurs between the exonuclease active site (residue 268) and polymerase core (residue ~530), the resulting N-terminally truncated protein retains polymerase activity but lacks proofreading — phenocopying classical dominant-negative PPAP.
+Ribosomes encountering the premature stop codon at residue 54 reinitiate translation at a downstream in-frame AUG codon. If reinitiation occurs between the exonuclease active site (residue 268) and polymerase core (residue ~530), the resulting N-terminally truncated protein retains polymerase activity but lacks proofreading ; phenocopying classical dominant-negative PPAP.
 
 ### Falsifiable Predictions
 
@@ -47,12 +47,12 @@ Ribosomes encountering the premature stop codon at residue 54 reinitiate transla
 |---|-----------|------------|---------|----------|
 | 2a | Ribo-seq will show ribosome footprints at a downstream AUG in the POLE transcript | Ribosome profiling on patient cells | Strongly supports Model 2 | Weakens Model 2 |
 | 2b | Western blot will show a truncated POLE protein band (predicted size depends on reinitiation site) | Anti-POLE antibody (C-terminal epitope) on patient cell lysates | Confirms aberrant protein product | No band = no reinitiation product |
-| 2c | Mutational signatures will show SBS10a/b (canonical POLE proofreading failure) | SigProfiler decomposition | Consistent — reinitiation product acts like exo-dead POLE | Non-POLE signatures: different mechanism |
+| 2c | Mutational signatures will show SBS10a/b (canonical POLE proofreading failure) | SigProfiler decomposition | Consistent ; reinitiation product acts like exo-dead POLE | Non-POLE signatures: different mechanism |
 | 2d | Normal tissue mutation rates will be **elevated** (reinitiation occurs in all cells) | NanoSeq on PBMCs | Supports Model 2 (germline effect) | Normal rates favor Model 1 (somatic event) |
 
 ### Prior Probability Assessment
 
-Model 2 has a **low prior probability**. Translational reinitiation efficiency drops sharply with increasing distance from the premature stop codon. The nearest candidate reinitiation site with strong Kozak context (M497) is ~1.3 kb downstream — far beyond the typical reinitiation window observed for mammalian mRNAs (Sherlock et al., 2023). While reinitiation has been documented in specialized contexts (uORFs, viral internal ribosome entry), efficient reinitiation across >1 kb of coding sequence in a standard mammalian mRNA would be unprecedented. This model remains formally testable but should be considered unlikely absent positive Ribo-seq evidence.
+Model 2 has a **low prior probability**. Translational reinitiation efficiency drops sharply with increasing distance from the premature stop codon. The nearest candidate reinitiation site with strong Kozak context (M497) is ~1.3 kb downstream ; far beyond the typical reinitiation window observed for mammalian mRNAs (Sherlock et al., 2023). While reinitiation has been documented in specialized contexts (uORFs, viral internal ribosome entry), efficient reinitiation across >1 kb of coding sequence in a standard mammalian mRNA would be unprecedented. This model remains formally testable but should be considered unlikely absent positive Ribo-seq evidence.
 
 **Kozak scoring method:** Kozak context strength for downstream methionines (catalogued in `data/POLE_downstream_methionines.tsv`) was assessed using the consensus rules of Kozak (1986, 1987): **Strong** = purine at −3 (A/G) AND G at +4; **Moderate** = purine at −3 OR G at +4 (but not both); **Weak** = pyrimidine at −3 AND non-G at +4. The −3 and +4 positions are the primary determinants of translation initiation efficiency in mammalian systems. Full 7-nt Kozak contexts (−3 to +4, centered on AUG) are provided in the data file.
 
@@ -66,28 +66,28 @@ Model 2 is **excluded** if: Ribo-seq shows no ribosome footprints downstream of 
 
 ### Hypothesis
 
-The premature termination codon escapes nonsense-mediated mRNA decay. The truncated 54-amino-acid peptide retains partial binding capacity for the POLE2 (p59) accessory subunit, competitively inhibiting holoenzyme assembly — a dominant-negative mechanism through stoichiometric poisoning rather than catalytic dysfunction.
+The premature termination codon escapes nonsense-mediated mRNA decay. The truncated 54-amino-acid peptide retains partial binding capacity for the POLE2 (p59) accessory subunit, competitively inhibiting holoenzyme assembly ; a dominant-negative mechanism through stoichiometric poisoning rather than catalytic dysfunction.
 
 ### Tissue-Specific NMD Considerations
 
 Recent studies have demonstrated that NMD efficiency varies significantly across tissues and cell types, which is relevant to all NMD-dependent models (3, and partially 2):
 
-- **Kolakada et al. (2025):** Identified peptide release rate as a modifier of NMD efficiency — the rate at which ribosomes release at premature stop codons varies by transcript context and may influence whether the POLE c.138del transcript undergoes complete or partial NMD.
-- **Tan et al. (2025):** Demonstrated cell-type-dependent NMD efficiency, with certain cell lineages showing markedly reduced NMD — raising the possibility that POLE mutant mRNA escapes NMD in specific tissues but not others, creating tissue-specific truncated peptide expression.
-- **Palou-Marquez et al. (2025):** Showed variable NMD efficiency across tissues at population scale — implying that the POLE c.138del transcript may have different fates (complete degradation vs. partial escape) depending on the tissue context.
+- **Kolakada et al. (2025):** Identified peptide release rate as a modifier of NMD efficiency ; the rate at which ribosomes release at premature stop codons varies by transcript context and may influence whether the POLE c.138del transcript undergoes complete or partial NMD.
+- **Tan et al. (2025):** Demonstrated cell-type-dependent NMD efficiency, with certain cell lineages showing markedly reduced NMD ; raising the possibility that POLE mutant mRNA escapes NMD in specific tissues but not others, creating tissue-specific truncated peptide expression.
+- **Palou-Marquez et al. (2025):** Showed variable NMD efficiency across tissues at population scale ; implying that the POLE c.138del transcript may have different fates (complete degradation vs. partial escape) depending on the tissue context.
 
-If NMD escape is tissue-specific, this could create a scenario where the truncated peptide is produced in some tissues (contributing to Models 2/3 effects) but not others — potentially explaining the tissue-specific phenotype pattern.
+If NMD escape is tissue-specific, this could create a scenario where the truncated peptide is produced in some tissues (contributing to Models 2/3 effects) but not others ; potentially explaining the tissue-specific phenotype pattern.
 
 ### Prior Probability Assessment
 
-Model 3 has a **low prior probability**. Structural studies of the POLE holoenzyme (Yuan et al., 2020; Roske & Yeeles, 2024; He et al., 2024) show that the POLE–POLE2 interaction interface is mediated primarily by the **C-terminal domain** of POLE (residues ~1,265–2,286), not the N-terminal region. The truncated 54-residue peptide would need to engage a binding surface for which there is no structural precedent. AlphaFold modeling of the N-terminal region predicts limited stable secondary structure in isolation. Additionally, even if the peptide were produced, its stoichiometric competition with full-length wild-type POLE protein would require comparable POLE2 binding affinity — unlikely for a 54-residue fragment vs. a 2,286-residue protein with extensive interface contacts. This model is retained for completeness and formal testability but is considered the least likely of the six candidates.
+Model 3 has a **low prior probability**. Structural studies of the POLE holoenzyme (Yuan et al., 2020; Roske & Yeeles, 2024; He et al., 2024) show that the POLE–POLE2 interaction interface is mediated primarily by the **C-terminal domain** of POLE (residues ~1,265–2,286), not the N-terminal region. The truncated 54-residue peptide would need to engage a binding surface for which there is no structural precedent. AlphaFold modeling of the N-terminal region predicts limited stable secondary structure in isolation. Additionally, even if the peptide were produced, its stoichiometric competition with full-length wild-type POLE protein would require comparable POLE2 binding affinity ; unlikely for a 54-residue fragment vs. a 2,286-residue protein with extensive interface contacts. This model is retained for completeness and formal testability but is considered the least likely of the six candidates.
 
 ### Falsifiable Predictions
 
 | # | Prediction | Experiment | If TRUE | If FALSE |
 |---|-----------|------------|---------|----------|
 | 3a | Mutant POLE mRNA will be detectable (NMD escape) | Allele-specific RNA-seq from blood | NMD escape confirmed | Complete NMD = no truncated peptide produced |
-| 3b | The 54-residue peptide will co-immunoprecipitate with POLE2 | Co-IP of synthetic peptide with recombinant POLE2 | Binding confirmed — poisoning mechanism plausible | No binding = no stoichiometric competition |
+| 3b | The 54-residue peptide will co-immunoprecipitate with POLE2 | Co-IP of synthetic peptide with recombinant POLE2 | Binding confirmed ; poisoning mechanism plausible | No binding = no stoichiometric competition |
 | 3c | AlphaFold predicts structured interaction between residues 1–54 and POLE2 | Computational structural modeling | Structural basis for binding | Unstructured N-terminus unlikely to bind |
 | 3d | Overexpression of the 54-residue peptide in cell lines reduces functional POLE holoenzyme levels | Transfection + POLE activity assay | Dominant-negative poisoning confirmed | No effect = peptide is inert |
 
@@ -115,7 +115,7 @@ Model 3 is **excluded** if: mutant mRNA undergoes complete NMD AND/OR the 54-res
 
 ### gnomAD Population Data and Model 4
 
-The gnomAD LoF tolerance data (188 observed LoF, pLI ≈ 0, LOEUF = 0.76) creates an important **nuance** for Model 4. If heterozygous POLE LoF is tolerated (as evidenced by 188 LoF variant carriers), then pure haploinsufficiency producing PPAP-range ultra-hypermutation (TMB >100 mut/Mb) seems unlikely — otherwise those 188 LoF variant carriers should also develop ultra-hypermutated tumors. However, Model 4 predicts **subtler effects** of haploinsufficiency: mildly elevated mutation rates (Andrianova et al., 2024 demonstrated ~15% increase for heterozygous POLD1), proliferative dysregulation, and developmental anomalies. These subtle effects would be **undetectable in gnomAD** (which captures allele frequencies, not phenotypes). The 188 gnomAD LoF carriers may have subclinical phenotypes — mild polyposis, increased adenoma risk, developmental anomalies — that have never been systematically assessed.
+The gnomAD LoF tolerance data (188 observed LoF, pLI ≈ 0, LOEUF = 0.76) creates an important **nuance** for Model 4. If heterozygous POLE LoF is tolerated (as evidenced by 188 LoF variant carriers), then pure haploinsufficiency producing PPAP-range ultra-hypermutation (TMB >100 mut/Mb) seems unlikely ; otherwise those 188 LoF variant carriers should also develop ultra-hypermutated tumors. However, Model 4 predicts **subtler effects** of haploinsufficiency: mildly elevated mutation rates (Andrianova et al., 2024 demonstrated ~15% increase for heterozygous POLD1), proliferative dysregulation, and developmental anomalies. These subtle effects would be **undetectable in gnomAD** (which captures allele frequencies, not phenotypes). The 188 gnomAD LoF carriers may have subclinical phenotypes ; mild polyposis, increased adenoma risk, developmental anomalies ; that have never been systematically assessed.
 
 **Refined Model 4 prediction:** Haploinsufficiency produces the **systemic, non-neoplastic phenotype** (dupIVC, endometriosis severity, PASH, ANA) and mild baseline mutation rate elevation, but the **tumor-specific ultra-hypermutation** requires a second hit (LOH → Model 1, or second-site mutation → Model 6). This M4+M1 combination resolves both the gnomAD tolerance data and the clinical phenotype.
 
@@ -123,9 +123,9 @@ The gnomAD LoF tolerance data (188 observed LoF, pLI ≈ 0, LOEUF = 0.76) create
 
 The patient's phenotype provides the strongest clinical support for this model among all six candidates:
 
-- **Congenital duplicated IVC:** A developmental anomaly present from embryogenesis cannot be caused by somatic LOH. Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during early embryogenesis. This suggests POLE haploinsufficiency has **developmental consequences** — either through elevated embryonic mutation rates creating somatic mosaicism that disrupts vascular patterning, or through non-replicative POLE roles in developmental signaling. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass et al., 2000), so its presence in a single POLE carrier could be coincidental. However, the co-occurrence with multiple other vascular/stromal proliferative findings (bilateral PASH, liver FNH/hemangioma, splenoportal AV shunt) creates a pattern that is collectively more significant than any single finding.
-- **Severe endometriosis + adenomyosis:** The endometrium is a rapidly cycling tissue with high cell turnover — exactly where replicative stress from half-dose POLE would be most consequential. The aggressive endometrial phenotype (Stage IV+ with diaphragmatic extension) without formal malignant transformation suggests POLE dysfunction alters endometrial biology at a **pre-malignant level**. Novel research question: does POLE haploinsufficiency contribute to endometriosis severity?
-- **Multi-system vascular/stromal proliferation:** Bilateral PASH, liver FNH/hemangioma, and duplicated IVC collectively indicate a pattern of vascular-stromal proliferative abnormalities that cannot be explained by somatic events in individual organs — consistent with a germline dosage effect.
+- **Congenital duplicated IVC:** A developmental anomaly present from embryogenesis cannot be caused by somatic LOH. Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during early embryogenesis. This suggests POLE haploinsufficiency has **developmental consequences** ; either through elevated embryonic mutation rates creating somatic mosaicism that disrupts vascular patterning, or through non-replicative POLE roles in developmental signaling. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass et al., 2000), so its presence in a single POLE carrier could be coincidental. However, the co-occurrence with multiple other vascular/stromal proliferative findings (bilateral PASH, liver FNH/hemangioma, splenoportal AV shunt) creates a pattern that is collectively more significant than any single finding.
+- **Severe endometriosis + adenomyosis:** The endometrium is a rapidly cycling tissue with high cell turnover ; exactly where replicative stress from half-dose POLE would be most consequential. The aggressive endometrial phenotype (Stage IV+ with diaphragmatic extension) without formal malignant transformation suggests POLE dysfunction alters endometrial biology at a **pre-malignant level**. Novel research question: does POLE haploinsufficiency contribute to endometriosis severity?
+- **Multi-system vascular/stromal proliferation:** Bilateral PASH, liver FNH/hemangioma, and duplicated IVC collectively indicate a pattern of vascular-stromal proliferative abnormalities that cannot be explained by somatic events in individual organs ; consistent with a germline dosage effect.
 - **Tissue-specific cancer spectrum:** Polyposis in high-turnover GI epithelium + thyroid cancer (high mitotic rate gland) aligns with the threshold model where rapidly dividing tissues are preferentially affected.
 
 ### Exclusion Criteria
@@ -159,13 +159,13 @@ Model 5 is **excluded** if: POLE has a single predominant coding isoform across 
 
 ### Hypothesis
 
-A somatic pathogenic missense mutation arises on the wild-type POLE allele in a tissue stem cell — specifically within the exonuclease domain (e.g., P286R, V411L, or another activating variant). This would convert the wild-type allele into a canonical dominant-negative, error-prone polymerase. Unlike Model 1 (LOH), the wild-type allele is not lost — instead, it acquires a gain-of-function mutation that produces an active but proofreading-deficient polymerase. This is distinct from LOH because the cell retains two POLE alleles: one truncated (c.138del, non-functional) and one somatically mutated (functional polymerase without proofreading).
+A somatic pathogenic missense mutation arises on the wild-type POLE allele in a tissue stem cell ; specifically within the exonuclease domain (e.g., P286R, V411L, or another activating variant). This would convert the wild-type allele into a canonical dominant-negative, error-prone polymerase. Unlike Model 1 (LOH), the wild-type allele is not lost ; instead, it acquires a gain-of-function mutation that produces an active but proofreading-deficient polymerase. This is distinct from LOH because the cell retains two POLE alleles: one truncated (c.138del, non-functional) and one somatically mutated (functional polymerase without proofreading).
 
 ### Relationship to Other Models
 
 Model 6 is mechanistically distinct from Model 1 (LOH) and can co-occur with Model 4 (haploinsufficiency):
-- **Model 1** eliminates the wild-type allele entirely — cells rely on compensatory polymerases (e.g., Polδ)
-- **Model 6** retains the wild-type allele but corrupts its proofreading — the cell has an active, dominant-negative POLE
+- **Model 1** eliminates the wild-type allele entirely ; cells rely on compensatory polymerases (e.g., Polδ)
+- **Model 6** retains the wild-type allele but corrupts its proofreading ; the cell has an active, dominant-negative POLE
 - **Model 4** may create the elevated baseline mutation rate that makes a second-site POLE mutation more likely (haploinsufficiency → more mutations per division → higher probability of hitting the exonuclease domain on the remaining allele)
 
 ### Falsifiable Predictions
@@ -174,7 +174,7 @@ Model 6 is mechanistically distinct from Model 1 (LOH) and can co-occur with Mod
 |---|-----------|------------|---------|----------|
 | 6a | Tumor WGS will show a somatic pathogenic missense in the POLE exonuclease domain on the wild-type allele | Paired tumor-normal WGS with phased variant calling | Strongly supports Model 6 | Weakens Model 6 |
 | 6b | The somatic variant will be in trans with c.138del (on the wild-type allele) | Long-read sequencing or allele-specific analysis | Confirms compound heterozygosity in trans | If in cis: variant is on the already-truncated allele (irrelevant) |
-| 6c | Mutational signatures will show SBS10a/b (canonical POLE proofreading failure) | SigProfiler decomposition | Consistent — dominant-negative POLE produces classical signatures | Non-POLE signatures: different mechanism |
+| 6c | Mutational signatures will show SBS10a/b (canonical POLE proofreading failure) | SigProfiler decomposition | Consistent ; dominant-negative POLE produces classical signatures | Non-POLE signatures: different mechanism |
 | 6d | Different tumors may carry different second-site POLE mutations | Multi-region or multi-tumor WGS | Independent somatic events in different stem cells | Same mutation across tumors: early clonal event |
 
 ### Prior Probability Assessment
@@ -183,7 +183,7 @@ Model 6 has a **moderate prior probability**. Somatic POLE exonuclease domain mu
 
 ### Exclusion Criteria
 
-Model 6 is **excluded** if: tumor WGS shows no somatic variants in the POLE exonuclease domain on the wild-type allele. Note: Model 6 can only be definitively tested for individual tumors — it may apply to some tumors but not others in the same patient.
+Model 6 is **excluded** if: tumor WGS shows no somatic variants in the POLE exonuclease domain on the wild-type allele. Note: Model 6 can only be definitively tested for individual tumors ; it may apply to some tumors but not others in the same patient.
 
 ---
 
@@ -198,7 +198,7 @@ The resolution of specific ages-at-diagnosis provides a powerful new discriminat
 | ~19 | Colonic adenomas (~6 at first colonoscopy) | 3–5 (very rapid) | Barker et al., 2014; Clevers, 2013 |
 | ~19 | Chronic gastric gastritis | 2–8 (rapid) | Karam, 2010 |
 | ~22 | Endometriosis clinically significant | ~28/monthly (rapid) | Gargett et al., 2016 |
-| ~26 | POTS | N/A (neural) | — |
+| ~26 | POTS | N/A (neural) | ; |
 | ~27 | Stage IV endometriosis diagnosed | ~28/monthly (rapid) | Gargett et al., 2016 |
 | ~27 | Benign breast tumor (PASH) | Variable/hormonal (~60) | Estimated; varies by hormonal status |
 | ~28 | Thyroid carcinoma (1.2 cm, isthmus, encapsulated, non-invasive) | ~2,920 (~8 years; slow) | Coclet et al., 1989; Dumont et al., 1992 |
@@ -208,9 +208,9 @@ The resolution of specific ages-at-diagnosis provides a powerful new discriminat
 
 ### Correlation Analysis
 
-Plotting tissue turnover period (log scale) against age-at-diagnosis reveals a positive correlation: **tissues with faster cell division are diagnosed at younger ages**. The colonic epithelium (3–5 day turnover) produced detectable adenomas by age 19; the thyroid epithelium (~8-year turnover) produced carcinoma by age 28 — a 9-year latency difference that directly tracks the ~730-fold difference in cell division rate.
+Plotting tissue turnover period (log scale) against age-at-diagnosis reveals a positive correlation: **tissues with faster cell division are diagnosed at younger ages**. The colonic epithelium (3–5 day turnover) produced detectable adenomas by age 19; the thyroid epithelium (~8-year turnover) produced carcinoma by age 28 ; a 9-year latency difference that directly tracks the ~730-fold difference in cell division rate.
 
-**Statistical limitations:** This analysis has n=7 non-congenital tissue-diagnosis pairs from a single patient. With this sample size, the correlation coefficient should be interpreted as hypothesis-generating, not confirmatory. Key confounders include: (1) surveillance bias — polyps are found at colonoscopy, which was initiated at age 19 due to symptoms, while thyroid carcinoma was found incidentally; (2) age-dependent penetrance — some conditions (endometriosis, PASH) have age-of-onset distributions independent of POLE; (3) data point dependency — multiple GI diagnoses share the same tissue compartment. The positive correlation is consistent with Model 4 but is not by itself sufficient to confirm it.
+**Statistical limitations:** This analysis has n=7 non-congenital tissue-diagnosis pairs from a single patient. With this sample size, the correlation coefficient should be interpreted as hypothesis-generating, not confirmatory. Key confounders include: (1) surveillance bias ; polyps are found at colonoscopy, which was initiated at age 19 due to symptoms, while thyroid carcinoma was found incidentally; (2) age-dependent penetrance ; some conditions (endometriosis, PASH) have age-of-onset distributions independent of POLE; (3) data point dependency ; multiple GI diagnoses share the same tissue compartment. The positive correlation is consistent with Model 4 but is not by itself sufficient to confirm it.
 
 See `analysis/temporal_phenotype/turnover_vs_age_diagnosis.svg` for the visualization.
 
@@ -218,19 +218,19 @@ See `analysis/temporal_phenotype/turnover_vs_age_diagnosis.svg` for the visualiz
 
 | Model | Temporal Prediction | Consistent with Observed Sequence? |
 |-------|--------------------|------------------------------------|
-| **M1 (LOH)** | No predicted temporal order — LOH is stochastic; any tissue could be affected first | **Partially inconsistent** — would predict random order, not turnover-correlated |
-| **M2 (Reinitiation)** | All tissues affected simultaneously (reinitiation is constitutive); diagnosis order depends on tissue sensitivity and clinical detection | **Partially consistent** — but does not predict turnover-rate correlation |
-| **M3 (Poisoning)** | All tissues affected simultaneously; no turnover prediction | **Inconsistent** — cannot explain turnover-correlated onset |
-| **M4 (Haploinsufficiency)** | Faster-dividing tissues cross the threshold first → diagnosed at younger ages | **Strongly consistent** — observed sequence correlates with turnover rate |
-| **M5 (Isoform)** | Depends on tissue-specific isoform expression, not turnover rate | **Neutral** — would predict expression-correlated, not turnover-correlated |
-| **M6 (Second-site)** | No predicted temporal order — somatic second-site mutation is stochastic; similar to M1 | **Partially inconsistent** — would predict random order, not turnover-correlated |
+| **M1 (LOH)** | No predicted temporal order ; LOH is stochastic; any tissue could be affected first | **Partially inconsistent** ; would predict random order, not turnover-correlated |
+| **M2 (Reinitiation)** | All tissues affected simultaneously (reinitiation is constitutive); diagnosis order depends on tissue sensitivity and clinical detection | **Partially consistent** ; but does not predict turnover-rate correlation |
+| **M3 (Poisoning)** | All tissues affected simultaneously; no turnover prediction | **Inconsistent** ; cannot explain turnover-correlated onset |
+| **M4 (Haploinsufficiency)** | Faster-dividing tissues cross the threshold first → diagnosed at younger ages | **Strongly consistent** ; observed sequence correlates with turnover rate |
+| **M5 (Isoform)** | Depends on tissue-specific isoform expression, not turnover rate | **Neutral** ; would predict expression-correlated, not turnover-correlated |
+| **M6 (Second-site)** | No predicted temporal order ; somatic second-site mutation is stochastic; similar to M1 | **Partially inconsistent** ; would predict random order, not turnover-correlated |
 
 ### Progressive Polyp Accumulation
 
 The pattern of ~6 adenomas at age 19 with continued new polyp formation at every colonoscopic surveillance interval (ages 21, 24, 27, 29, ~31) indicates **ongoing mutagenesis** over >12 years. This progressive accumulation is:
 - **Consistent with M4:** Constitutive haploinsufficiency produces a continuous elevated mutation rate in colonic stem cells, with new adenomas arising at each surveillance interval as additional stem cells accumulate sufficient driver mutations.
 - **Consistent with M2:** If reinitiation produces a constitutive error-prone polymerase, mutation accumulation would also be continuous.
-- **Less consistent with M1 as sole mechanism:** A single LOH event in one colonic stem cell would produce a clonal expansion, not geographically distributed new polyps at each interval. Multiple independent LOH events would be required — possible but requiring extraordinary coincidence.
+- **Less consistent with M1 as sole mechanism:** A single LOH event in one colonic stem cell would produce a clonal expansion, not geographically distributed new polyps at each interval. Multiple independent LOH events would be required ; possible but requiring extraordinary coincidence.
 
 ---
 
@@ -246,7 +246,7 @@ The patient's multi-system phenotype provides immediate discriminatory evidence 
 | **Thyroid carcinoma** | Possible (organ-specific LOH) | Possible | Neutral | ✅ Supports (high mitotic rate gland) | Possible | Possible (organ-specific second hit) |
 | **GI polyposis** | Possible | Possible | Possible | ✅ Supports (high-turnover epithelium) | Possible | Possible |
 
-**Summary:** The congenital duplicated IVC is the single most important clinical discriminator — it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis) collectively argue against Model 1 operating alone, as LOH in each organ independently would be an extraordinary coincidence. The clinical phenotype most strongly supports Model 4, potentially in combination with Model 1 for tumor-specific ultra-hypermutation.
+**Summary:** The congenital duplicated IVC is the single most important clinical discriminator ; it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis) collectively argue against Model 1 operating alone, as LOH in each organ independently would be an extraordinary coincidence. The clinical phenotype most strongly supports Model 4, potentially in combination with Model 1 for tumor-specific ultra-hypermutation.
 
 ---
 
@@ -256,16 +256,16 @@ This matrix shows which experiments most efficiently discriminate between models
 
 | Experiment | M1 (LOH) | M2 (Reinitiation) | M3 (Poisoning) | M4 (Haplo.) | M5 (Isoform) | M6 (Second-site) | Priority |
 |-----------|----------|-------------------|----------------|-------------|-------------|------------------|----------|
-| **Tumor WGS + LOH** | ✅ Definitive | — | — | ✅ Rules out if LOH | — | ✅ Definitive (phased variant calling) | **Immediate** |
-| **Mutational signatures** | ✅ Confirms POLE mechanism | ✅ Confirms POLE mechanism | ✅ If SBS10a/b present, compatible (poisoned holoenzyme retains error-prone synthesis) | Neutral (haploinsufficiency alone may not produce classical SBS10a/b; signature depends on whether residual POLE or compensatory Polδ dominates) | — | ✅ Confirms POLE mechanism | **Immediate** |
-| **Blood NanoSeq** | ✅ Normal = somatic | ✅ Elevated = germline | — | ✅ Elevated = threshold | — | ✅ Normal = somatic | **Immediate** |
-| **Allele-specific RNA-seq** | — | ✅ Transcript present | ✅ NMD escape test | — | ✅ Isoform ratios | — | **Immediate** |
-| **Endometriosis tissue NanoSeq** | — | — | — | ✅ Elevated = threshold in high-turnover tissue | — | — | **Medium-term** |
-| **Ribo-seq** | — | ✅ Definitive | — | — | — | — | **Medium-term** |
-| **Co-IP / structural modeling** | — | — | ✅ Definitive | — | — | — | **Medium-term** |
-| **Replication timing analysis** | — | — | — | ✅ Enrichment pattern | — | — | **Medium-term** |
-| **Isoform-specific RT-PCR** | — | — | — | — | ✅ Definitive | — | **Medium-term** |
-| **Thyroid tumor signature analysis** (thyroidectomy specimen available) | ✅ If LOH at POLE | ✅ If SBS10a/b present | — | — | — | ✅ If somatic ExoD mutation | **Immediate** |
+| **Tumor WGS + LOH** | ✅ Definitive | ; | ; | ✅ Rules out if LOH | ; | ✅ Definitive (phased variant calling) | **Immediate** |
+| **Mutational signatures** | ✅ Confirms POLE mechanism | ✅ Confirms POLE mechanism | ✅ If SBS10a/b present, compatible (poisoned holoenzyme retains error-prone synthesis) | Neutral (haploinsufficiency alone may not produce classical SBS10a/b; signature depends on whether residual POLE or compensatory Polδ dominates) | ; | ✅ Confirms POLE mechanism | **Immediate** |
+| **Blood NanoSeq** | ✅ Normal = somatic | ✅ Elevated = germline | ; | ✅ Elevated = threshold | ; | ✅ Normal = somatic | **Immediate** |
+| **Allele-specific RNA-seq** | ; | ✅ Transcript present | ✅ NMD escape test | ; | ✅ Isoform ratios | ; | **Immediate** |
+| **Endometriosis tissue NanoSeq** | ; | ; | ; | ✅ Elevated = threshold in high-turnover tissue | ; | ; | **Medium-term** |
+| **Ribo-seq** | ; | ✅ Definitive | ; | ; | ; | ; | **Medium-term** |
+| **Co-IP / structural modeling** | ; | ; | ✅ Definitive | ; | ; | ; | **Medium-term** |
+| **Replication timing analysis** | ; | ; | ; | ✅ Enrichment pattern | ; | ; | **Medium-term** |
+| **Isoform-specific RT-PCR** | ; | ; | ; | ; | ✅ Definitive | ; | **Medium-term** |
+| **Thyroid tumor signature analysis** (thyroidectomy specimen available) | ✅ If LOH at POLE | ✅ If SBS10a/b present | ; | ; | ; | ✅ If somatic ExoD mutation | **Immediate** |
 | **Tissue-specificity pattern** (multi-tissue mutation rate comparison) | Neutral (LOH is stochastic; no tissue prediction) | Uniform elevation across tissues (reinitiation is constitutive) | Uniform elevation (poisoning is constitutive) | ✅ Gradient: high-turnover > low-turnover tissue mutation rates | ✅ Tissue-specific isoform expression–dependent | Neutral (second-site is stochastic) | **Medium-term** |
 
 ### Bayesian Model Comparison Framework
@@ -273,18 +273,18 @@ This matrix shows which experiments most efficiently discriminate between models
 As experimental results accumulate, formal Bayesian model comparison should be applied. For each experiment, the likelihood ratio for each model pair should be estimated:
 
 **Prior odds** (based on current clinical, structural, and population-genetic evidence):
-- M4 (Haploinsufficiency): ~35% — strongest clinical support; congenital + multi-system phenotype. Revised down slightly from previous assessment: gnomAD LoF tolerance data (188 LoF variants, pLI ≈ 0) argues against haploinsufficiency alone producing the full cancer phenotype, but supports it for the systemic non-neoplastic findings
-- M1 (LOH): ~30% — revised up: gnomAD data and Andrianova et al. (2024) recessive polymerase proofreading model strongly support LOH as required for tumor-specific ultra-hypermutation
-- M6 (Second-site): ~20% — mechanistically straightforward; normal mutagenesis of single functional allele can acquire ExoD hotspot
-- M5 (Isoform): ~5% — untested; neutral evidence
-- M2 (Reinitiation): ~5% — low prior; unprecedented reinitiation distance; tissue-specific NMD studies (Tan 2025, Kolakada 2025) add complexity but do not change the fundamental improbability of >1 kb reinitiation
-- M3 (Poisoning): ~5% — low prior; structurally implausible N-terminal POLE2 binding. However, Keskitalo et al. (2025) identified POLE2 as an NPF motif receptor — any NPF-containing region in the truncated peptide warrants checking
+- M4 (Haploinsufficiency): ~35% ; strongest clinical support; congenital + multi-system phenotype. Revised down slightly from previous assessment: gnomAD LoF tolerance data (188 LoF variants, pLI ≈ 0) argues against haploinsufficiency alone producing the full cancer phenotype, but supports it for the systemic non-neoplastic findings
+- M1 (LOH): ~30% ; revised up: gnomAD data and Andrianova et al. (2024) recessive polymerase proofreading model strongly support LOH as required for tumor-specific ultra-hypermutation
+- M6 (Second-site): ~20% ; mechanistically straightforward; normal mutagenesis of single functional allele can acquire ExoD hotspot
+- M5 (Isoform): ~5% ; untested; neutral evidence
+- M2 (Reinitiation): ~5% ; low prior; unprecedented reinitiation distance; tissue-specific NMD studies (Tan 2025, Kolakada 2025) add complexity but do not change the fundamental improbability of >1 kb reinitiation
+- M3 (Poisoning): ~5% ; low prior; structurally implausible N-terminal POLE2 binding. However, Keskitalo et al. (2025) identified POLE2 as an NPF motif receptor ; any NPF-containing region in the truncated peptide warrants checking
 
-**Updating rule:** After each experiment, update posterior odds using the likelihood ratios defined in the falsifiable predictions tables above. A model's posterior probability <1% after two independent experiments constitutes practical exclusion. Models are not mutually exclusive — **M4+M1 operating in concert has the highest prior probability (~40%)** and is the most consistent with both the gnomAD population data (LoF tolerated → haploinsufficiency alone insufficient for cancer) and the clinical phenotype (systemic non-neoplastic findings → germline-level effects).
+**Updating rule:** After each experiment, update posterior odds using the likelihood ratios defined in the falsifiable predictions tables above. A model's posterior probability <1% after two independent experiments constitutes practical exclusion. Models are not mutually exclusive ; **M4+M1 operating in concert has the highest prior probability (~40%)** and is the most consistent with both the gnomAD population data (LoF tolerated → haploinsufficiency alone insufficient for cancer) and the clinical phenotype (systemic non-neoplastic findings → germline-level effects).
 
 ### Structural Biology Updates
 
 Recent structural studies provide additional context for mechanistic modeling:
 
-- **Wang et al. (2025):** First visualization of proofreading intermediates of human Pol epsilon — shows the DNA strand-switching pathway between polymerase and exonuclease active sites. Relevant to understanding why exonuclease domain loss (or absence) has different consequences than exonuclease domain mutation.
-- **Keskitalo et al. (2025):** POLE2 accessory subunit identified as an NPF motif receptor. This interaction is relevant to Model 3 (holoenzyme poisoning) — if the truncated 54-residue peptide contains NPF-like motifs, competitive inhibition of POLE2 becomes slightly more plausible. Also relevant to understanding holoenzyme assembly and the consequences of POLE catalytic subunit loss.
+- **Wang et al. (2025):** First visualization of proofreading intermediates of human Pol epsilon ; shows the DNA strand-switching pathway between polymerase and exonuclease active sites. Relevant to understanding why exonuclease domain loss (or absence) has different consequences than exonuclease domain mutation.
+- **Keskitalo et al. (2025):** POLE2 accessory subunit identified as an NPF motif receptor. This interaction is relevant to Model 3 (holoenzyme poisoning) ; if the truncated 54-residue peptide contains NPF-like motifs, competitive inhibition of POLE2 becomes slightly more plausible. Also relevant to understanding holoenzyme assembly and the consequences of POLE catalytic subunit loss.

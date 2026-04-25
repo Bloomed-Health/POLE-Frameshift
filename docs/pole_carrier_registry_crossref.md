@@ -20,7 +20,7 @@ This document systematically examines published POLE/POLD1 carrier cohorts and d
 - Any clinical descriptions beyond cancer/polyposis for these carriers
 - Variant-level functional data that might inform whether truncation carriers show haploinsufficiency signatures
 
-### 2. Valle Lab Cohort — 2,813 Hereditary Cancer Probands
+### 2. Valle Lab Cohort ; 2,813 Hereditary Cancer Probands
 
 - **Citation:** Valle L et al. (2020) Role of POLE and POLD1 in familial cancer. *Genetics in Medicine*.
 - **Content:** Sequenced POLE/POLD1 in 2,813 hereditary cancer probands; identified 12 exonuclease domain missense variants, **6 loss-of-function (LoF) variants**, and 23 outside-ED predicted-deleterious missense variants
@@ -34,7 +34,7 @@ This document systematically examines published POLE/POLD1 carrier cohorts and d
 
 **Limitation:** Clinical phenotyping in the Valle cohort focused on cancer/polyposis (the enrollment criterion). Non-neoplastic findings would only be documented if specifically assessed, which is unlikely in a hereditary cancer genetics context.
 
-### 3. Palles et al. (2022) — PPAP Clinical Features Cohort
+### 3. Palles et al. (2022) ; PPAP Clinical Features Cohort
 
 - **Citation:** Palles C et al. (2022) The clinical features of PPAP and recommendations for patient management. *Familial Cancer* 21:197–209.
 - **Content:** Most comprehensive clinical characterization of PPAP carriers. Describes polyp counts, cancer types, age of onset, and surveillance recommendations.
@@ -46,15 +46,15 @@ This document systematically examines published POLE/POLD1 carrier cohorts and d
 - Were connective tissue disorders or dysautonomia mentioned?
 - Was endometriosis systematically assessed?
 
-**Expected answer:** No — the Palles cohort focused exclusively on neoplastic phenotyping (polyps, cancers, age of onset). Non-neoplastic features were not systematically evaluated. This represents a fundamental **ascertainment bias**: if nobody looks for hEDS, POTS, or congenital anomalies in POLE carriers, absence of reports does not equal absence of findings.
+**Expected answer:** No ; the Palles cohort focused exclusively on neoplastic phenotyping (polyps, cancers, age of onset). Non-neoplastic features were not systematically evaluated. This represents a fundamental **ascertainment bias**: if nobody looks for hEDS, POTS, or congenital anomalies in POLE carriers, absence of reports does not equal absence of findings.
 
-### 4. Bellido et al. (2016) — 529 Kindreds
+### 4. Bellido et al. (2016) ; 529 Kindreds
 
 - **Citation:** Bellido F et al. (2016) POLE and POLD1 mutations in 529 kindred with familial colorectal cancer and/or polyposis. *Genetics in Medicine* 18:325–332.
 - **Content:** 529 families with familial CRC/polyposis screened for POLE/POLD1 variants.
 - **Relevance:** Large cohort but ascertained through cancer genetics clinics. Clinical data limited to GI and cancer phenotypes.
 
-### 5. Viana-Errasti et al. (2025) — Somatic vs. Germline Comparison
+### 5. Viana-Errasti et al. (2025) ; Somatic vs. Germline Comparison
 
 - **Citation:** Viana-Errasti J et al. (2025) Comparative Analysis of Somatic and Germline Polymerase Proofreading Deficiencies in Cancer. *Modern Pathology*.
 - **Content:** Molecular and clinical characteristics of 31 POLE/POLD1 ED pathogenic variants.
@@ -65,7 +65,7 @@ This document systematically examines published POLE/POLD1 carrier cohorts and d
 - **Scope:** Variant-level classifications with limited clinical data
 - **Relevance:** May contain case descriptions for POLE truncating variants, but clinical detail is typically minimal (phenotype often listed only as "hereditary cancer predisposition" or "polyposis")
 
-### 7. Robinson et al. (2021) — Normal Tissue Mutation Rates
+### 7. Robinson et al. (2021) ; Normal Tissue Mutation Rates
 
 - **Citation:** Robinson PS et al. (2021) *Nature Genetics*.
 - **Content:** Germline POLE/POLD1 carriers assessed for somatic mutation rates in normal tissues using NanoSeq.
@@ -86,7 +86,7 @@ For each cohort with POLE truncating variant carriers, assess:
 | **Dysautonomia / POTS** | Autonomic dysfunction in multiple carriers would suggest either causal link or shared genetic background |
 | **Autoimmune conditions** | ANA/AMA in this patient. Autoimmunity in other carriers would support the mitochondrial stress hypothesis |
 | **Endometriosis** | Never investigated in POLE carriers. Even a single additional case would be noteworthy |
-| **Non-neoplastic proliferative findings** | PASH, FNH — has anyone else noted these in POLE carriers? |
+| **Non-neoplastic proliferative findings** | PASH, FNH ; has anyone else noted these in POLE carriers? |
 | **Multi-system phenotype breadth** | Does any other carrier show findings across >2 phenotype categories? |
 
 ### How to Query
@@ -110,7 +110,7 @@ For each cohort with POLE truncating variant carriers, assess:
 
 ### Scenario A: No Non-Neoplastic Findings in Other Carriers
 
-**Interpretation:** Does not exclude a causal link. The ascertainment bias is systematic and severe — POLE carriers are identified through cancer genetics clinics, and no PPAP phenotyping protocol includes assessment of connective tissue, dysautonomia, congenital anomalies, or autoimmune markers. The absence is expected under current clinical practice.
+**Interpretation:** Does not exclude a causal link. The ascertainment bias is systematic and severe ; POLE carriers are identified through cancer genetics clinics, and no PPAP phenotyping protocol includes assessment of connective tissue, dysautonomia, congenital anomalies, or autoimmune markers. The absence is expected under current clinical practice.
 
 **Action:** This patient's phenotype argues for **prospective, systematic multi-system phenotyping** of POLE/POLD1 carriers as a research initiative. Propose this to the Valle lab or Palles group as a collaborative study.
 
@@ -150,9 +150,9 @@ These are the most important comparators. Key data to obtain:
 
 ## The Shinbrot Comparator: POLE c.4191_4192delCT
 
-Shinbrot et al. (2019) described a PPAP patient with **POLE c.4191_4192delCT** — another frameshift variant, though in the C-terminal region (much later in the protein than c.138del). This patient developed an MSI-positive CRC through aberrant DNA methylation (epigenetic MLH1 silencing).
+Shinbrot et al. (2019) described a PPAP patient with **POLE c.4191_4192delCT** ; another frameshift variant, though in the C-terminal region (much later in the protein than c.138del). This patient developed an MSI-positive CRC through aberrant DNA methylation (epigenetic MLH1 silencing).
 
-**Key question:** Was any non-neoplastic phenotyping documented for this patient? The c.4191_4192delCT variant truncates POLE in the C-terminal regulatory region — it preserves exonuclease and polymerase domains but loses regulatory/interaction regions. If this carrier has a narrower phenotype than the c.138del carrier, it would support a genotype-phenotype correlation within truncating variants.
+**Key question:** Was any non-neoplastic phenotyping documented for this patient? The c.4191_4192delCT variant truncates POLE in the C-terminal regulatory region ; it preserves exonuclease and polymerase domains but loses regulatory/interaction regions. If this carrier has a narrower phenotype than the c.138del carrier, it would support a genotype-phenotype correlation within truncating variants.
 
 ---
 
@@ -174,10 +174,10 @@ Based on this cross-reference analysis, the following collaborative study is pro
 **Design:** Retrospective phenotype review + prospective assessment of available carriers
 
 **Collaborators to approach:**
-1. **Laura Valle lab** (IDIBELL, Barcelona) — largest POLE/POLD1 cohort; 6 LoF carriers
-2. **Claire Palles group** (Birmingham) — original PPAP clinical characterization
-3. **Robinson/Stratton group** (Sanger Institute) — NanoSeq carriers with detailed molecular data
-4. **PolED database curators** — access to all reported carriers with functional data
+1. **Laura Valle lab** (IDIBELL, Barcelona) ; largest POLE/POLD1 cohort; 6 LoF carriers
+2. **Claire Palles group** (Birmingham) ; original PPAP clinical characterization
+3. **Robinson/Stratton group** (Sanger Institute) ; NanoSeq carriers with detailed molecular data
+4. **PolED database curators** ; access to all reported carriers with functional data
 
 **Assessments:**
 - Standard: Cancer type, age, polyp count, TMB, signatures (already collected)

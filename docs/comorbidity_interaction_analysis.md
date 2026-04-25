@@ -1,6 +1,6 @@
 # hEDS/POTS/Gastroparesis Triad: Interaction Analysis with POLE c.138del Pathology
 
-> **Note:** This comorbidity interaction analysis is **secondary to the core POLE mechanistic research**. The hypotheses below are exploratory and theoretical — none have direct supporting evidence. They are documented here to identify potential confounders and therapeutic constraints, but should not be weighted equally with the primary mechanistic models (Models 1–6) or the core clinical data in the main research framework.
+> **Note:** This comorbidity interaction analysis is **secondary to the core POLE mechanistic research**. The hypotheses below are exploratory and theoretical ; none have direct supporting evidence. They are documented here to identify potential confounders and therapeutic constraints, but should not be weighted equally with the primary mechanistic models (Models 1–6) or the core clinical data in the main research framework.
 
 ## Overview
 
@@ -73,7 +73,7 @@ The patient carries POLE c.138del AND has the recognized clinical triad of hyper
 
 ### Hypothesis 3: Mast Cell Activation as Pro-Tumorigenic Modifier
 
-**Claim:** If MCAS (mast cell activation syndrome) is present — which is highly prevalent in the hEDS/POTS triad — the chronic inflammatory milieu creates a pro-tumorigenic microenvironment that amplifies POLE-driven cancer predisposition.
+**Claim:** If MCAS (mast cell activation syndrome) is present ; which is highly prevalent in the hEDS/POTS triad ; the chronic inflammatory milieu creates a pro-tumorigenic microenvironment that amplifies POLE-driven cancer predisposition.
 
 **Mechanism:**
 
@@ -112,15 +112,15 @@ The patient carries POLE c.138del AND has the recognized clinical triad of hyper
 
 ### Hypothesis 5: Intestinal Permeability (Barrier Dysfunction)
 
-> **Critical methodological note on food-specific IgG testing:** The American Academy of Allergy, Asthma & Immunology (AAAAI) explicitly recommends against the use of food-specific IgG/IgG4 testing for diagnosing food allergy or intolerance. IgG to food antigens reflects normal immunological exposure, not pathology — healthy individuals commonly have elevated food-specific IgG without clinical significance. Building causal chains on food-specific IgG data is a credibility risk for any research framework. The data below is retained for completeness but should not be used as evidence for POLE-driven intestinal barrier dysfunction.
+> **Critical methodological note on food-specific IgG testing:** The American Academy of Allergy, Asthma & Immunology (AAAAI) explicitly recommends against the use of food-specific IgG/IgG4 testing for diagnosing food allergy or intolerance. IgG to food antigens reflects normal immunological exposure, not pathology ; healthy individuals commonly have elevated food-specific IgG without clinical significance. Building causal chains on food-specific IgG data is a credibility risk for any research framework. The data below is retained for completeness but should not be used as evidence for POLE-driven intestinal barrier dysfunction.
 
 **Claim:** The patient may have increased intestinal permeability resulting from the convergence of POLE haploinsufficiency in intestinal epithelium, potential MCAS-driven mucosal inflammation (unconfirmed), and hEDS-related connective tissue dysfunction. This remains entirely theoretical.
 
-**Patient data (food-specific IgG — interpret with caution per AAAAI guidance above):** Food-specific IgG ELISA shows elevated reactivity to multiple antigens (egg white, cow's milk, casein, yogurt, and others). However, this assay lacks clinical validity for diagnosing food allergy, intolerance, or barrier dysfunction. The breadth of reactivity is consistent with normal immune exposure to dietary antigens and cannot be interpreted as evidence of pathological intestinal permeability without validated permeability testing.
+**Patient data (food-specific IgG ; interpret with caution per AAAAI guidance above):** Food-specific IgG ELISA shows elevated reactivity to multiple antigens (egg white, cow's milk, casein, yogurt, and others). However, this assay lacks clinical validity for diagnosing food allergy, intolerance, or barrier dysfunction. The breadth of reactivity is consistent with normal immune exposure to dietary antigens and cannot be interpreted as evidence of pathological intestinal permeability without validated permeability testing.
 
 **Theoretical mechanism (requires validation with appropriate assays):**
 
-- Intestinal epithelium has the fastest cell turnover (3–5 days) — precisely where POLE haploinsufficiency is most consequential
+- Intestinal epithelium has the fastest cell turnover (3–5 days) ; precisely where POLE haploinsufficiency is most consequential
 - If POLE dosage insufficiency increases the mutation rate in intestinal stem cells, tight junction protein expression and epithelial barrier function may be compromised
 - Could be compounded by: MCAS-driven histamine release (if MCAS present), hEDS-related basement membrane/ECM abnormalities, gastroparesis-associated bacterial overgrowth (SIBO damages mucosal barrier)
 

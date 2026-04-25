@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-This FAQ provides accessible explanations of the POLE c.138del research for a broad audience — including genetic counselors, clinicians, patient advocates, and individuals with POLE variants.
+This FAQ provides accessible explanations of the POLE c.138del research for a broad audience ; including genetic counselors, clinicians, patient advocates, and individuals with POLE variants.
 
 ---
 
@@ -8,8 +8,8 @@ This FAQ provides accessible explanations of the POLE c.138del research for a br
 
 **POLE** (DNA Polymerase Epsilon) is a gene that encodes one of the main enzymes responsible for copying DNA when cells divide. The POLE protein has two critical jobs:
 
-1. **DNA synthesis** — it copies the leading strand of DNA during replication
-2. **Proofreading** — it checks the newly copied DNA for errors and corrects them immediately
+1. **DNA synthesis** ; it copies the leading strand of DNA during replication
+2. **Proofreading** ; it checks the newly copied DNA for errors and corrects them immediately
 
 Think of it like a typist who both types and spell-checks in real time. The proofreading function is essential: without it, errors accumulate in DNA at a dramatically increased rate, which can lead to cancer.
 
@@ -23,13 +23,13 @@ Think of it like a typist who both types and spell-checks in real time. The proo
 - Endometrial (uterine) cancer
 - And potentially other cancer types
 
-PPAP is characterized by tumors with an extremely high number of mutations — called "ultra-hypermutation" — because the DNA proofreading mechanism is impaired.
+PPAP is characterized by tumors with an extremely high number of mutations ; called "ultra-hypermutation" ; because the DNA proofreading mechanism is impaired.
 
 ---
 
 ## What is the c.138del variant?
 
-**POLE c.138del (p.Leu46Phefs\*8)** is a specific mutation in the POLE gene. It is a "frameshift deletion" — a single DNA letter is deleted, which shifts the reading frame and causes the protein to be cut short very early (at residue 54 out of 2,286 amino acids). This means the protein loses essentially all of its functional parts.
+**POLE c.138del (p.Leu46Phefs\*8)** is a specific mutation in the POLE gene. It is a "frameshift deletion" ; a single DNA letter is deleted, which shifts the reading frame and causes the protein to be cut short very early (at residue 54 out of 2,286 amino acids). This means the protein loses essentially all of its functional parts.
 
 This variant has been **confirmed as a germline (constitutional) variant** through accredited clinical germline testing with orthogonal confirmation from blood/saliva-derived DNA. It is **ultra-rare**: it has never been observed in any major population database (including gnomAD v4.1.0, accessed April 2026, which contains genetic data from hundreds of thousands of individuals).
 
@@ -37,13 +37,13 @@ This variant has been **confirmed as a germline (constitutional) variant** throu
 
 ## What does the patient's phenotype look like?
 
-The patient's presentation spans **five distinct categories**, which is what makes this case so compelling — it goes far beyond just polyps and cancer:
+The patient's presentation spans **five distinct categories**, which is what makes this case so compelling ; it goes far beyond just polyps and cancer:
 
-1. **Neoplastic** — ~15 adenomatous polyps across the stomach, cecum, and sigmoid colon, plus a Stage I papillary thyroid carcinoma (encapsulated, non-invasive, 1.2 cm, isthmus; not previously linked to PPAP)
-2. **Proliferative/stromal** — Bilateral breast changes with pseudoangiomatous stromal hyperplasia (PASH) and liver focal nodular hyperplasia (FNH) — a pattern of vascular/stromal proliferation across multiple organs
-3. **Endometrial** — Stage IV+ deep infiltrating endometriosis with trans-diaphragmatic invasion and intestinal adhesions, plus diffuse adenomyosis — extraordinarily severe, affecting one of the most POLE-vulnerable tissues
-4. **Congenital developmental** — A duplicated inferior vena cava (a vascular anomaly present from birth), which **cannot** be caused by a tumor-specific mutation and argues that POLE dysfunction has effects during embryonic development
-5. **Autoimmune/immune** — ANA 1:160 with reticular cytoplasmic AC-21 pattern, associated with anti-mitochondrial antibodies (AMA) — may reflect immune recognition of mitochondrial damage caused by POLE-driven mutagenesis of nuclear-encoded mitochondrial genes
+1. **Neoplastic** ; ~15 adenomatous polyps across the stomach, cecum, and sigmoid colon, plus a Stage I papillary thyroid carcinoma (encapsulated, non-invasive, 1.2 cm, isthmus; not previously linked to PPAP)
+2. **Proliferative/stromal** ; Bilateral breast changes with pseudoangiomatous stromal hyperplasia (PASH) and liver focal nodular hyperplasia (FNH) ; a pattern of vascular/stromal proliferation across multiple organs
+3. **Endometrial** ; Stage IV+ deep infiltrating endometriosis with trans-diaphragmatic invasion and intestinal adhesions, plus diffuse adenomyosis ; extraordinarily severe, affecting one of the most POLE-vulnerable tissues
+4. **Congenital developmental** ; A duplicated inferior vena cava (a vascular anomaly present from birth), which **cannot** be caused by a tumor-specific mutation and argues that POLE dysfunction has effects during embryonic development
+5. **Autoimmune/immune** ; ANA 1:160 with reticular cytoplasmic AC-21 pattern, associated with anti-mitochondrial antibodies (AMA) ; may reflect immune recognition of mitochondrial damage caused by POLE-driven mutagenesis of nuclear-encoded mitochondrial genes
 
 This breadth suggests POLE dysfunction is truly systemic, affecting tissue biology at a developmental and immunological level, not just through tumor mutation accumulation.
 
@@ -51,9 +51,9 @@ This breadth suggests POLE dysfunction is truly systemic, affecting tissue biolo
 
 ## Why is this variant scientifically important?
 
-This is where it gets interesting. All previously known PPAP-causing mutations are **missense variants** — they change a single amino acid in the proofreading region of the protein. The protein still works as a DNA copier, but it can no longer proofread. It's like a typist who can still type but can no longer spell-check.
+This is where it gets interesting. All previously known PPAP-causing mutations are **missense variants** ; they change a single amino acid in the proofreading region of the protein. The protein still works as a DNA copier, but it can no longer proofread. It's like a typist who can still type but can no longer spell-check.
 
-The c.138del variant is fundamentally different. It cuts the protein off so early that there is **no proofreading region AND no DNA copying region**. It's like removing the typist entirely. Under current scientific models, this should not cause PPAP — yet the patient has a presentation clinically consistent with PPAP, including a reported ultra-hypermutation (>100 mutations per megabase of DNA; full tumour sequencing methodology documentation pending — the germline report does not address TMB, and WGS-based confirmation with mutational signature analysis is the highest-priority experiment).
+The c.138del variant is fundamentally different. It cuts the protein off so early that there is **no proofreading region AND no DNA copying region**. It's like removing the typist entirely. Under current scientific models, this should not cause PPAP ; yet the patient has a presentation clinically consistent with PPAP, including a reported ultra-hypermutation (>100 mutations per megabase of DNA; full tumour sequencing methodology documentation pending ; the germline report does not address TMB, and WGS-based confirmation with mutational signature analysis is the highest-priority experiment).
 
 > **Important caveat:** Before attributing the phenotype to POLE-driven pathology, mismatch repair deficiency must be excluded as an alternative explanation. MMR IHC, MSI testing, and MLH1 promoter methylation analysis are pending. Without these, a reviewer cannot distinguish genuine POLE-driven hypermutation from an MMR-deficient phenocopy. The germline panel excludes Lynch syndrome, but somatic MMR inactivation remains possible.
 
@@ -75,8 +75,8 @@ If the research confirms that truncating POLE variants (variants that cut the pr
 
 If the reported ultra-hypermutated phenotype is confirmed by whole-genome sequencing, it creates a **therapeutic opportunity**:
 
-- **Immunotherapy** — Tumors with very high mutation burdens tend to respond well to immune checkpoint inhibitors (like pembrolizumab). The high number of mutations creates many "neoantigens" — abnormal proteins that the immune system can recognize and attack.
-- **Targeted therapies** — Several drugs targeting DNA repair pathways (ATR inhibitors, PARP inhibitors) may be especially effective against cells with impaired POLE function.
+- **Immunotherapy** ; Tumors with very high mutation burdens tend to respond well to immune checkpoint inhibitors (like pembrolizumab). The high number of mutations creates many "neoantigens" ; abnormal proteins that the immune system can recognize and attack.
+- **Targeted therapies** ; Several drugs targeting DNA repair pathways (ATR inhibitors, PARP inhibitors) may be especially effective against cells with impaired POLE function.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This questionnaire is designed to capture a **whole-body systematic health history** for a patient with POLE c.138del (p.Leu46Phefs*8). The multi-system phenotype — spanning neoplastic, proliferative/stromal, endometrial, congenital developmental, autoimmune/immune, and connective tissue/dysautonomia domains — requires comprehensive phenotyping to understand how POLE dysfunction interacts with other biological systems.
+This questionnaire is designed to capture a **whole-body systematic health history** for a patient with POLE c.138del (p.Leu46Phefs*8). The multi-system phenotype ; spanning neoplastic, proliferative/stromal, endometrial, congenital developmental, autoimmune/immune, and connective tissue/dysautonomia domains ; requires comprehensive phenotyping to understand how POLE dysfunction interacts with other biological systems.
 
 Each section explains **why** the information is relevant to the POLE research framework.
 
@@ -10,7 +10,7 @@ Each section explains **why** the information is relevant to the POLE research f
 
 ## 1. Connective Tissue and Hypermobility
 
-**Why it matters:** hEDS affects extracellular matrix (ECM) and collagen architecture. Altered ECM may modify crypt stem cell niche geometry, tissue-level replication dynamics, and stromal proliferative responses — potentially amplifying or modifying POLE haploinsufficiency effects.
+**Why it matters:** hEDS affects extracellular matrix (ECM) and collagen architecture. Altered ECM may modify crypt stem cell niche geometry, tissue-level replication dynamics, and stromal proliferative responses ; potentially amplifying or modifying POLE haploinsufficiency effects.
 
 - [ ] Formal Beighton score (9-point scale)?
 - [ ] Joint hypermobility (which joints, frequency of subluxations/dislocations)?
@@ -31,7 +31,7 @@ Each section explains **why** the information is relevant to the POLE research f
 
 **Why it matters:** Autonomic dysfunction directly modulates immune function via the vagus nerve (neuroimmune axis). POTS-related immune baseline alterations create uncertainty about ICI response prediction. Autonomic side effects of ATR/CHK1 inhibitors may be poorly tolerated.
 
-- [ ] POTS diagnosis (date, diagnostic method — tilt table, standing test)?
+- [ ] POTS diagnosis (date, diagnostic method ; tilt table, standing test)?
 - [ ] Orthostatic intolerance severity (minutes to symptoms, heart rate changes)?
 - [ ] Syncope or pre-syncope episodes (frequency, triggers)?
 - [ ] Blood pressure patterns (supine vs. standing)?
@@ -146,7 +146,7 @@ Each section explains **why** the information is relevant to the POLE research f
 
 - [ ] Sebaceous adenomas, sebaceous carcinomas, or keratoacanthomas (Muir-Torre spectrum)?
 - [ ] Skin texture (soft, velvety, translucent, hyperextensible)?
-- [ ] Striae (stretch marks — location, severity, onset)?
+- [ ] Striae (stretch marks ; location, severity, onset)?
 - [ ] Molluscoid pseudotumors or subcutaneous spheroids?
 - [ ] History of skin biopsies (findings)?
 - [ ] Recurrent skin infections?
@@ -159,7 +159,7 @@ Each section explains **why** the information is relevant to the POLE research f
 
 - [ ] Complete list of autoimmune diagnoses?
 - [ ] Recurrent infections (type, frequency, unusual organisms)?
-- [ ] Immunoglobulin levels (IgG, IgA, IgM, IgE — especially IgE for MCAS)?
+- [ ] Immunoglobulin levels (IgG, IgA, IgM, IgE ; especially IgE for MCAS)?
 - [ ] Complement levels (C3, C4)?
 - [ ] Vaccination responses (adequate, suboptimal)?
 - [ ] Environmental allergies?
@@ -175,8 +175,8 @@ Each section explains **why** the information is relevant to the POLE research f
 
 - [x] Thyroid surgery and treatment details? **Total thyroidectomy performed; on levothyroxine replacement**
 - [ ] Current levothyroxine dose, TSH levels, and thyroglobulin surveillance results?
-- [ ] Thyroid antibodies (anti-TPO, anti-thyroglobulin)? — anti-thyroglobulin particularly important as it interferes with thyroglobulin tumor marker monitoring
-- [ ] Adrenal function (cortisol, aldosterone — relevant for POTS)?
+- [ ] Thyroid antibodies (anti-TPO, anti-thyroglobulin)? ; anti-thyroglobulin particularly important as it interferes with thyroglobulin tumor marker monitoring
+- [ ] Adrenal function (cortisol, aldosterone ; relevant for POTS)?
 - [ ] Diabetes or insulin resistance?
 - [ ] Menstrual history (onset, regularity, severity, hormonal treatment)?
 - [ ] Hormonal contraceptive history?
@@ -303,7 +303,7 @@ Each section explains **why** the information is relevant to the POLE research f
 **Why it matters:** POLE haploinsufficiency may have developmental consequences (the duplicated IVC proves at least one congenital effect). Childhood history may reveal additional early-onset manifestations.
 
 - [ ] Birth history (term, complications, NICU)?
-- [ ] Developmental milestones (motor, speech — normal or delayed)?
+- [ ] Developmental milestones (motor, speech ; normal or delayed)?
 - [ ] Childhood illnesses or hospitalizations?
 - [ ] Growth pattern (height percentiles, growth velocity)?
 - [ ] Age at onset of joint hypermobility symptoms?
@@ -317,13 +317,13 @@ Each section explains **why** the information is relevant to the POLE research f
 
 The most immediately informative items for the POLE research framework are:
 
-1. **MCAS evaluation** (tryptase, urinary PGD2) — determines whether pro-tumorigenic inflammatory modifier is present
-2. **Small fiber neuropathy testing** (IENFD skin biopsy) — quantifies enteric neuropathy contribution
-3. **Connective tissue phenotype in existing pathology** — colonic crypt architecture, lamina propria collagen
-4. **Complete surgical/pathology history** — identifies banked tissue opportunities
-5. **Detailed family pedigree** — cancer patterns, hypermobility, autoimmunity for segregation analysis
-6. **Gastroparesis quantification** (gastric emptying study) — directly impacts drug delivery planning
-7. **Cardiovascular assessment** — additional congenital anomalies would strengthen Model 4
+1. **MCAS evaluation** (tryptase, urinary PGD2) ; determines whether pro-tumorigenic inflammatory modifier is present
+2. **Small fiber neuropathy testing** (IENFD skin biopsy) ; quantifies enteric neuropathy contribution
+3. **Connective tissue phenotype in existing pathology** ; colonic crypt architecture, lamina propria collagen
+4. **Complete surgical/pathology history** ; identifies banked tissue opportunities
+5. **Detailed family pedigree** ; cancer patterns, hypermobility, autoimmunity for segregation analysis
+6. **Gastroparesis quantification** (gastric emptying study) ; directly impacts drug delivery planning
+7. **Cardiovascular assessment** ; additional congenital anomalies would strengthen Model 4
 
 ---
 

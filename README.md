@@ -1,4 +1,4 @@
-# POLE c.138del (p.Leu46Phefs*8) — Research Framework
+# POLE c.138del (p.Leu46Phefs*8) - Research Framework
 
 > **A novel ultra-rare frameshift variant in DNA Polymerase Epsilon clinically consistent with Polymerase Proofreading-Associated Polyposis (PPAP), reported as ultra-hypermutated (full tumour sequencing methodology documentation and mutational signature confirmation pending)**
 
@@ -6,21 +6,21 @@
 
 ## Overview
 
-This repository contains the scientific research framework, clinical documentation, and analysis pipeline specifications for investigating **POLE c.138del (p.Leu46Phefs\*8)** — a pathogenic frameshift variant in the *POLE* gene identified in a female patient with:
+This repository contains the scientific research framework, clinical documentation, and analysis pipeline specifications for investigating **POLE c.138del (p.Leu46Phefs\*8)** ; a pathogenic frameshift variant in the *POLE* gene identified in a female patient with:
 
-- **Reported ultra-hypermutated tumor phenotype** (TMB >100 mutations/Mb; assay platform and source tumor specimen pending clarification — WGS-based TMB determination and mutational signature confirmation are priority experiments)
+- **Reported ultra-hypermutated tumor phenotype** (TMB >100 mutations/Mb; assay platform and source tumor specimen pending clarification ; WGS-based TMB determination and mutational signature confirmation are priority experiments)
 - **Complex multi-system phenotype** extending beyond classical PPAP: gastrointestinal polyposis (~15 sessile adenomatous polyps), Stage I papillary thyroid carcinoma (1.2 cm, isthmus, encapsulated, non-invasive; outside established PPAP tumor spectrum), Stage IV+ deep infiltrating endometriosis with thoracic diaphragmatic extension and intestinal adhesions, bilateral proliferative breast changes with IHC-confirmed PASH, liver hypervascular lesion (hemangioma vs. FNH), congenital duplicated inferior vena cava, and ANA 1:160 with reticular cytoplasmic AC-21 pattern (associated with anti-mitochondrial antibodies)
-- **Complete absence from gnomAD v4.1.0** (accessed April 2026) and all major population databases — despite POLE tolerating heterozygous LoF at the gene level (gnomAD pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed vs. 279 expected), c.138del itself is absent (0/1,614,586 alleles; [gnomAD v4 query](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4), GRCh38 chr12:132681203–132681204)
+- **Complete absence from gnomAD v4.1.0** (accessed April 2026) and all major population databases ; despite POLE tolerating heterozygous LoF at the gene level (gnomAD pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed vs. 279 expected), c.138del itself is absent (0/1,614,586 alleles; [gnomAD v4 query](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4), GRCh38 chr12:132681203–132681204)
 - **Premature protein truncation at ~residue 54** of the 2,286-amino-acid POLE catalytic subunit
-- **Sole identified genetic driver among genes tested** — a 47-gene hereditary cancer panel (2022) found no pathogenic variants in APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation)
+- **Sole identified genetic driver among genes tested** ; a 47-gene hereditary cancer panel (2022) found no pathogenic variants in APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation)
 
-This variant presents a **fundamental mechanistic paradox**: it eliminates all major catalytic domains of POLE — including the exonuclease active site (residues 268–471; Church et al., 2013) and the polymerase core (residues ~530–1189; Korona et al., 2011) — yet produces a clinical phenotype clinically consistent with PPAP caused by missense variants within the exonuclease active site (molecular confirmation via SBS10a/b/28 mutational signatures is pending).
+This variant presents a **fundamental mechanistic paradox**: it eliminates all major catalytic domains of POLE ; including the exonuclease active site (residues 268–471; Church et al., 2013) and the polymerase core (residues ~530–1189; Korona et al., 2011) ; yet produces a clinical phenotype clinically consistent with PPAP caused by missense variants within the exonuclease active site (molecular confirmation via SBS10a/b/28 mutational signatures is pending).
 
-Critically, the phenotype extends beyond neoplasia into **proliferative/stromal dysregulation** (bilateral PASH, liver FNH), **endometrial tissue dysfunction** (severe endometriosis + adenomyosis), a **congenital vascular anomaly** (duplicated IVC), and **potential mitochondrial autoimmunity** (ANA AC-21/AMA) — suggesting that POLE haploinsufficiency affects tissue biology at a systemic, developmental level, not just through tumor mutation accumulation.
+Critically, the phenotype extends beyond neoplasia into **proliferative/stromal dysregulation** (bilateral PASH, liver FNH), **endometrial tissue dysfunction** (severe endometriosis + adenomyosis), a **congenital vascular anomaly** (duplicated IVC), and **potential mitochondrial autoimmunity** (ANA AC-21/AMA) ; suggesting that POLE haploinsufficiency affects tissue biology at a systemic, developmental level, not just through tumor mutation accumulation.
 
 **Resolving this paradox has implications beyond this single patient.** It could restructure how POLE truncation variants are classified in clinical genetics, expand the population recognized as carrying cancer predisposition alleles, and open novel therapeutic avenues.
 
-> **Scope and intent:** This is an **n-of-1 hypothesis-generating framework** built around a single index case. The hypotheses, mechanistic models, and therapeutic considerations presented here are derived from one patient's clinical data interpreted against published literature — they are not validated findings. We are seeking collaborators (structural biologists, clinical geneticists, bioinformaticians, immunologists) to help validate these hypotheses in additional POLE truncation carriers and model systems. If you have access to relevant patient cohorts, DepMap data, or experimental infrastructure, see [Contributing](#contributing).
+> **Scope and intent:** This is an **n-of-1 hypothesis-generating framework** built around a single index case. The hypotheses, mechanistic models, and therapeutic considerations presented here are derived from one patient's clinical data interpreted against published literature ; they are not validated findings. We are seeking collaborators (structural biologists, clinical geneticists, bioinformaticians, immunologists) to help validate these hypotheses in additional POLE truncation carriers and model systems. If you have access to relevant patient cohorts, DepMap data, or experimental infrastructure, see [Contributing](#contributing).
 
 ---
 
@@ -30,15 +30,15 @@ External evaluators need to assess the variant's authenticity and the strength o
 
 | Item | Status | Detail |
 |------|--------|--------|
-| **Variant identification** | **Confirmed (germline)** | POLE c.138del (p.Leu46Phefs*8) identified via accredited clinical germline testing (47-gene hereditary cancer panel, 2022) from blood/saliva-derived DNA. **Heterozygous germline call** — confirmed as a constitutional variant, not tumor-derived. Panel platform and laboratory name available on request |
+| **Variant identification** | **Confirmed (germline)** | POLE c.138del (p.Leu46Phefs*8) identified via accredited clinical germline testing (47-gene hereditary cancer panel, 2022) from blood/saliva-derived DNA. **Heterozygous germline call** ; confirmed as a constitutional variant, not tumor-derived. Panel platform and laboratory name available on request |
 | **Orthogonal confirmation** | **Confirmed** | Variant confirmed by orthogonal confirmation on an independent accredited germline assay. Two independent clinical-grade platforms concordantly identify the same variant from germline-derived DNA |
 | **Germline status** | **Confirmed** | Heterozygous call from blood/saliva-derived DNA on a germline-specific assay. This is a constitutional (germline) variant present in all of the patient's cells, not a somatic variant identified from tumor tissue. The distinction is critical: germline status establishes hereditary cancer predisposition and informs cascade family testing obligations |
-| **TMB >100 mut/Mb** | **Reported, unverified** | Reported as ultra-hypermutated (TMB >100 mut/Mb); full TMB documentation is pending. The germline report does not address TMB — TMB determination requires a separate tumour NGS report. The following tumour sequencing methodology details are **not yet documented**: assay platform (panel-based vs. WGS), exact mut/Mb value, numerator (mutation count) and denominator (genomic territory assessed), inclusion/exclusion of synonymous variants and indels, and whether the assay was tumour-only or paired tumour-normal. Until the tumour sequencing methodology is documented and verified, all TMB-dependent claims in this repository should be treated as provisional. WGS-based TMB determination and mutational signature confirmation (SBS10a/b/28) remain the highest-priority experiments |
-| **MSI status** | Not yet tested | Microsatellite instability testing and MMR IHC have not been performed. **Required to rule out MMR-deficient phenocopy** — without MMR IHC (MLH1/MSH2/MSH6/PMS2), MSI testing, and MLH1 promoter methylation status, a reviewer cannot distinguish genuine POLE-driven hypermutation from MMR deficiency producing a similar clinical picture. The germline panel excludes Lynch syndrome, but somatic MMR inactivation or epigenetic MLH1 silencing remain possible. See [Differential Diagnosis](docs/clinical_case_summary.md#differential-diagnosis-pole-driven-hypermutation-vs-mmr-deficient-phenocopy) in the clinical case summary |
-| **gnomAD absence** | Verified (v4.1.0) | c.138del absent from gnomAD v4.1.0 (0/1,614,586 alleles; accessed April 2026). Gene-level constraint: pLI ≈ 0, LOEUF = 0.76 (188 observed LoF / 279 expected). Queried via [gnomAD v4 API](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4) (GRCh38, ENST00000320574). Genomic coordinates: **GRCh38** chr12:132681203–132681204; **GRCh37** chr12:133249847 (clinical report coordinate system — verify via UCSC LiftOver or Ensembl CrossMap if using GRCh37-based pipelines). The clinical germline report uses GRCh37; all coordinates in this repository default to GRCh38 unless otherwise noted |
+| **TMB >100 mut/Mb** | **Reported, unverified** | Reported as ultra-hypermutated (TMB >100 mut/Mb); full TMB documentation is pending. The germline report does not address TMB ; TMB determination requires a separate tumour NGS report. The following tumour sequencing methodology details are **not yet documented**: assay platform (panel-based vs. WGS), exact mut/Mb value, numerator (mutation count) and denominator (genomic territory assessed), inclusion/exclusion of synonymous variants and indels, and whether the assay was tumour-only or paired tumour-normal. Until the tumour sequencing methodology is documented and verified, all TMB-dependent claims in this repository should be treated as provisional. WGS-based TMB determination and mutational signature confirmation (SBS10a/b/28) remain the highest-priority experiments |
+| **MSI status** | Not yet tested | Microsatellite instability testing and MMR IHC have not been performed. **Required to rule out MMR-deficient phenocopy** ; without MMR IHC (MLH1/MSH2/MSH6/PMS2), MSI testing, and MLH1 promoter methylation status, a reviewer cannot distinguish genuine POLE-driven hypermutation from MMR deficiency producing a similar clinical picture. The germline panel excludes Lynch syndrome, but somatic MMR inactivation or epigenetic MLH1 silencing remain possible. See [Differential Diagnosis](docs/clinical_case_summary.md#differential-diagnosis-pole-driven-hypermutation-vs-mmr-deficient-phenocopy) in the clinical case summary |
+| **gnomAD absence** | Verified (v4.1.0) | c.138del absent from gnomAD v4.1.0 (0/1,614,586 alleles; accessed April 2026). Gene-level constraint: pLI ≈ 0, LOEUF = 0.76 (188 observed LoF / 279 expected). Queried via [gnomAD v4 API](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4) (GRCh38, ENST00000320574). Genomic coordinates: **GRCh38** chr12:132681203–132681204; **GRCh37** chr12:133249847 (clinical report coordinate system ; verify via UCSC LiftOver or Ensembl CrossMap if using GRCh37-based pipelines). The clinical germline report uses GRCh37; all coordinates in this repository default to GRCh38 unless otherwise noted |
 | **Patient demographics** | Female, currently early 30s. Self-reported European ancestry. First clinical finding (polyposis) at age 19 | Full phenotype timeline in [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md) |
 | **Family history** | Maternal grandmother: uterine cancer + ductal breast cancer. Father and paternal grandmother unremarkable | Inheritance (de novo vs. maternal) unknown; parental testing recommended |
-| **Consent for research** | Patient-directed | This framework is maintained by the patient. Clinical data is self-reported and de-identified. No IRB-approved protocol is currently in place — establishing one is a prerequisite for any collaboration involving biospecimen analysis or prospective data collection |
+| **Consent for research** | Patient-directed | This framework is maintained by the patient. Clinical data is self-reported and de-identified. No IRB-approved protocol is currently in place ; establishing one is a prerequisite for any collaboration involving biospecimen analysis or prospective data collection |
 
 > **For potential collaborators:** The most productive entry point is the [Research Prioritization Timeline](#research-prioritization-timeline), which ranks experiments by feasibility, impact, and what they resolve. The full clinical phenotype is documented in [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md) with genomic profile, family history, and complete laboratory data.
 
@@ -49,14 +49,14 @@ External evaluators need to assess the variant's authenticity and the strength o
 | Established | Requires Investigation |
 |-------------|----------------------|
 | **Variant identity:** POLE c.138del (p.Leu46Phefs*8), heterozygous frameshift, premature stop at ~residue 54 | **LOH status:** Has the wild-type POLE allele been somatically lost in tumor tissue? (Paired tumor-normal WGS with ASCAT/FACETS) |
-| **Classification: Pathogenic** (clinical laboratory). The Pathogenic classification rests on standard ACMG criteria for null variants in a gene with established loss-of-function disease mechanism, plus population database absence — **not** on observed phenotype-genotype correlation in other patients. The laboratory explicitly notes the variant has not been previously reported in individuals with POLE-related conditions. The clinical pathogenicity call and the mechanistic novelty are answering different questions, and both can be true simultaneously — this strengthens rather than weakens the research case. Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 — designed for non-disruptive ED missense variants). Independent ACMG evidence assessment: PM2 + PP4 firmly assignable; PVS1 applicability debated (mechanism does not match canonical dominant-negative model). Submitted to [LOVD3](https://databases.lovd.nl/shared/variants/POLE) (2026-04-15, pending curation); ClinVar submission prepared | **Mutational signatures:** Are canonical POLE signatures (SBS10a/b/28) present, or does a non-canonical process drive the ultra-hypermutation? |
-| **Tumor phenotype:** Reported TMB >100 mut/Mb (assay platform and source specimen pending clarification) — clinically consistent with PPAP | **NMD escape:** Does the mutant mRNA escape nonsense-mediated decay? What is the mutant:WT transcript ratio? |
-| **47-gene panel negative:** No pathogenic variants in APC, MUTYH, MMR genes, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene — POLE c.138del is the sole identified genetic driver among genes tested (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation) | **Mechanism:** Which of the 6 candidate models (LOH, reinitiation, holoenzyme poisoning, haploinsufficiency, isoform-specific, second-site somatic mutation) explains the paradox? |
+| **Classification: Pathogenic** (clinical laboratory). The Pathogenic classification rests on standard ACMG criteria for null variants in a gene with established loss-of-function disease mechanism, plus population database absence ; **not** on observed phenotype-genotype correlation in other patients. The laboratory explicitly notes the variant has not been previously reported in individuals with POLE-related conditions. The clinical pathogenicity call and the mechanistic novelty are answering different questions, and both can be true simultaneously ; this strengthens rather than weakens the research case. Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 ; designed for non-disruptive ED missense variants). Independent ACMG evidence assessment: PM2 + PP4 firmly assignable; PVS1 applicability debated (mechanism does not match canonical dominant-negative model). Submitted to [LOVD3](https://databases.lovd.nl/shared/variants/POLE) (2026-04-15, pending curation); ClinVar submission prepared | **Mutational signatures:** Are canonical POLE signatures (SBS10a/b/28) present, or does a non-canonical process drive the ultra-hypermutation? |
+| **Tumor phenotype:** Reported TMB >100 mut/Mb (assay platform and source specimen pending clarification) ; clinically consistent with PPAP | **NMD escape:** Does the mutant mRNA escape nonsense-mediated decay? What is the mutant:WT transcript ratio? |
+| **47-gene panel negative:** No pathogenic variants in APC, MUTYH, MMR genes, POLD1, BRCA1/2, TP53, PTEN, or any other tested gene ; POLE c.138del is the sole identified genetic driver among genes tested (panel does not cover GREM1 regulatory variants, connective tissue genes, or all structural variation) | **Mechanism:** Which of the 6 candidate models (LOH, reinitiation, holoenzyme poisoning, haploinsufficiency, isoform-specific, second-site somatic mutation) explains the paradox? |
 | **Five-category phenotype:** Neoplastic + proliferative/stromal + endometrial + congenital developmental + autoimmune/immune | **AMA confirmation:** Does the ANA AC-21 pattern reflect true anti-mitochondrial antibodies? (AMA-specific ELISA for anti-PDC-E2) |
-| **gnomAD constraint:** pLI ≈ 0, LOEUF = 0.76 — POLE tolerates heterozygous LoF (188 observed LoF in gnomAD v4.1.0; [gnomAD v4](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4)); implies haploinsufficiency alone insufficient for PPAP cancer phenotype | **Thyroid POLE signatures:** Does the thyroidectomy specimen carry SBS10a/b, formally expanding the PPAP tumor spectrum? |
+| **gnomAD constraint:** pLI ≈ 0, LOEUF = 0.76 ; POLE tolerates heterozygous LoF (188 observed LoF in gnomAD v4.1.0; [gnomAD v4](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4)); implies haploinsufficiency alone insufficient for PPAP cancer phenotype | **Thyroid POLE signatures:** Does the thyroidectomy specimen carry SBS10a/b, formally expanding the PPAP tumor spectrum? |
 | **ANA AC-21 pattern:** Reticular cytoplasmic staining at 1:160, associated with anti-mitochondrial antibodies | **Normal tissue mutation rate:** Is the somatic mutation rate elevated in non-tumor cells? (Duplex sequencing / NanoSeq on PBMCs) |
-| **Congenital anomaly:** Duplicated IVC — cannot be explained by somatic mechanisms, argues for germline-level effect | **Reinitiation products:** Does translational reinitiation at downstream AUGs (e.g., M497, M530) produce truncated POLE protein? (Ribo-seq, proteomics) |
-| **Comorbidity triad:** hEDS/POTS/gastroparesis — creates therapeutic constraints and potential phenotype modifiers | **MCAS status:** Does the patient have mast cell activation syndrome? (Tryptase, urinary PGD2 metabolites) — if present, chronic inflammation may amplify POLE-driven tumorigenesis |
+| **Congenital anomaly:** Duplicated IVC ; cannot be explained by somatic mechanisms, argues for germline-level effect | **Reinitiation products:** Does translational reinitiation at downstream AUGs (e.g., M497, M530) produce truncated POLE protein? (Ribo-seq, proteomics) |
+| **Comorbidity triad:** hEDS/POTS/gastroparesis ; creates therapeutic constraints and potential phenotype modifiers | **MCAS status:** Does the patient have mast cell activation syndrome? (Tryptase, urinary PGD2 metabolites) ; if present, chronic inflammation may amplify POLE-driven tumorigenesis |
 
 ---
 
@@ -91,21 +91,21 @@ External evaluators need to assess the variant's authenticity and the strength o
 
 ## Clinical Presentation
 
-The patient's phenotype spans five distinct categories — neoplastic, proliferative/stromal, endometrial/hormonal, congenital developmental, and autoimmune/immune — suggesting POLE dysfunction affects tissue biology at a systemic level, not just through tumor mutation accumulation. For full clinical detail, see [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md).
+The patient's phenotype spans five distinct categories ; neoplastic, proliferative/stromal, endometrial/hormonal, congenital developmental, and autoimmune/immune ; suggesting POLE dysfunction affects tissue biology at a systemic level, not just through tumor mutation accumulation. For full clinical detail, see [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md).
 
 ### Neoplastic Findings (Classical PPAP Spectrum)
 
 | Finding | Details | PPAP Relevance |
 |---------|---------|----------------|
-| **Gastrointestinal polyposis** | Progressive adenomatous polyposis: ~6 adenomas at first colonoscopy (age 19), accumulating to ~15+ across surveillance at ages 21, 24, 27, 29, ~31 (stomach, cecum, sigmoid colon); chronic gastric gastritis | First non-congenital finding at age 19 — consistent with Model 4 prediction that fastest-dividing tissue (colonic epithelium, 3–5 day turnover) is affected first. Progressive accumulation indicates ongoing mutagenesis. Consistent with attenuated PPAP (Palles et al. 2022) |
+| **Gastrointestinal polyposis** | Progressive adenomatous polyposis: ~6 adenomas at first colonoscopy (age 19), accumulating to ~15+ across surveillance at ages 21, 24, 27, 29, ~31 (stomach, cecum, sigmoid colon); chronic gastric gastritis | First non-congenital finding at age 19 ; consistent with Model 4 prediction that fastest-dividing tissue (colonic epithelium, 3–5 day turnover) is affected first. Progressive accumulation indicates ongoing mutagenesis. Consistent with attenuated PPAP (Palles et al. 2022) |
 | **Stage I papillary thyroid carcinoma** | 1.2 cm, isthmus, encapsulated, non-invasive. Cystic variant with extensive squamous metaplasia. AJCC 8th ed T1bN0M0 (patient <55 years). Associated adenomatoid nodular hyperplasia | **Not part of established PPAP tumor spectrum.** If SBS10a/b signatures or POLE LOH are confirmed, would formally expand the recognized PPAP phenotype. Encapsulated/non-invasive phenotype notable |
 
 ### Proliferative and Stromal Findings
 
 | Finding | Details | Significance |
 |---------|---------|-------------|
-| **Bilateral proliferative breast changes with PASH** | Biopsy (2020): columnar cell change, cystic/papillary apocrine metaplasia, stromal fibrosis, focal PASH. IHC: CD34+, CK AE1/AE3− (confirms PASH). Left: fibroadenomatous change with dense stromal fibrosis | IHC-confirmed PASH; bilateral stromal proliferative dysregulation — pattern suggests a **field effect** rather than focal lesion |
-| **Liver hypervascular lesion (hemangioma vs. FNH)** | Segment VII, subcapsular, 16 × 14 mm. Peripheral hypervascular in arterial phase, isodense venous phase, no washout. Associated splenoportal arteriovenous shunt | Combined with IHC-confirmed PASH, duplicated IVC, and arteriovenous shunt — reveals a pattern of **vascular/stromal proliferative abnormalities across multiple organ systems** |
+| **Bilateral proliferative breast changes with PASH** | Biopsy (2020): columnar cell change, cystic/papillary apocrine metaplasia, stromal fibrosis, focal PASH. IHC: CD34+, CK AE1/AE3− (confirms PASH). Left: fibroadenomatous change with dense stromal fibrosis | IHC-confirmed PASH; bilateral stromal proliferative dysregulation ; pattern suggests a **field effect** rather than focal lesion |
+| **Liver hypervascular lesion (hemangioma vs. FNH)** | Segment VII, subcapsular, 16 × 14 mm. Peripheral hypervascular in arterial phase, isodense venous phase, no washout. Associated splenoportal arteriovenous shunt | Combined with IHC-confirmed PASH, duplicated IVC, and arteriovenous shunt ; reveals a pattern of **vascular/stromal proliferative abnormalities across multiple organ systems** |
 
 ### Endometrial/Hormonal Findings
 
@@ -115,13 +115,13 @@ The patient's phenotype spans five distinct categories — neoplastic, prolifera
 | **Diffuse asymmetric adenomyosis** | Endometrial tissue invading the myometrium; caused severe menorrhagia requiring regular iron infusions and causing syncope; necessitated ovarian-sparing total hysterectomy (~28) | Combined with endometriosis, indicates systemic endometrial tissue dysregulation; severity requiring surgical intervention underscores aggressive endometrial phenotype |
 | **Recurrent SIBO and gastric dysmotility** | Small intestinal bacterial overgrowth; gastric dysmotility requiring medication | May result from bowel adhesions, chronic peritoneal inflammation, and convergence of endometriotic and polyposis GI involvement |
 
-> The endometrium is among the most POLE-vulnerable tissues (endometrial cancer is a major PPAP malignancy; somatic POLE mutations occur in 7–13% of sporadic endometrial cancers). The simultaneous presence of superficial peritoneal lesions, deep infiltrating nodules, and ovarian endometriomas across distant anatomical sites is consistent with oligoclonal dissemination of mutant clones (Anglesio et al., NEJM 2017; Lac et al., 2022). If POLE haploinsufficiency increases the per-division error rate in endometrial stem cells, it would generate more clones with proliferative and invasive advantages — predicting more severe endometriosis in germline POLE carriers. This connection has **never been investigated**. See [`docs/endometriosis_hypothesis/`](docs/endometriosis_hypothesis/) for the full hypothesis document with testable predictions.
+> The endometrium is among the most POLE-vulnerable tissues (endometrial cancer is a major PPAP malignancy; somatic POLE mutations occur in 7–13% of sporadic endometrial cancers). The simultaneous presence of superficial peritoneal lesions, deep infiltrating nodules, and ovarian endometriomas across distant anatomical sites is consistent with oligoclonal dissemination of mutant clones (Anglesio et al., NEJM 2017; Lac et al., 2022). If POLE haploinsufficiency increases the per-division error rate in endometrial stem cells, it would generate more clones with proliferative and invasive advantages ; predicting more severe endometriosis in germline POLE carriers. This connection has **never been investigated**. See [`docs/endometriosis_hypothesis/`](docs/endometriosis_hypothesis/) for the full hypothesis document with testable predictions.
 
 ### Congenital Developmental Finding
 
 | Finding | Details | Significance |
 |---------|---------|-------------|
-| **Duplicated inferior vena cava** | Congenital vascular anomaly present from embryonic development | **Cannot be explained by somatic mutations or tumor-related processes.** Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during embryogenesis. This suggests POLE haploinsufficiency may have **developmental consequences** — arguing against the pure LOH model (Model 1) as the sole explanation. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass et al., 2000), so this finding alone could be coincidental — its significance derives from co-occurrence with other vascular/stromal findings |
+| **Duplicated inferior vena cava** | Congenital vascular anomaly present from embryonic development | **Cannot be explained by somatic mutations or tumor-related processes.** Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during embryogenesis. This suggests POLE haploinsufficiency may have **developmental consequences** ; arguing against the pure LOH model (Model 1) as the sole explanation. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass et al., 2000), so this finding alone could be coincidental ; its significance derives from co-occurrence with other vascular/stromal findings |
 
 ### Autoimmune/Immune Findings
 
@@ -129,15 +129,15 @@ The patient's phenotype spans five distinct categories — neoplastic, prolifera
 |---------|---------|-------------|
 | **ANA 1:160, AC-21 pattern** | Reticular cytoplasmic pattern (ICAP AC-21), characteristically associated with anti-mitochondrial antibodies (AMA targeting PDC-E2 on the inner mitochondrial membrane) | May represent immune recognition of mitochondrial antigens exposed through POLE-driven dysfunction of nuclear-encoded mitochondrial proteins. Warrants AMA-specific ELISA confirmation. **Base rate context:** ANA positivity at 1:160 occurs in ~5–15% of healthy women (Satoh et al., 2012; Mariz et al., 2011); however, the specific AC-21 reticular cytoplasmic pattern is uncommon in healthy populations and is strongly associated with AMA/PBC |
 
-> The AC-21 finding provides serological evidence for a mitochondrial stress pathway: POLE haploinsufficiency → elevated mutations in ~1,500 nuclear-encoded mitochondrial genes → impaired mitochondrial protein function → membrane perturbation and antigen exposure → AMA production. This connects to the patient's liver FNH/hemangioma (AMA are the serological hallmark of primary biliary cholangitis) and to the broader pattern of innate immune activation, as mitochondrial DAMPs (mtDNA, cardiolipin, formylated peptides) activate TLR9 and NLRP3 inflammasome pathways. No study has examined AMA rates in POLE/POLD1 carriers — this finding generates the testable prediction that autoantibody profiling should be part of systematic POLE carrier phenotyping. See full clinical detail in [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md).
+> The AC-21 finding provides serological evidence for a mitochondrial stress pathway: POLE haploinsufficiency → elevated mutations in ~1,500 nuclear-encoded mitochondrial genes → impaired mitochondrial protein function → membrane perturbation and antigen exposure → AMA production. This connects to the patient's liver FNH/hemangioma (AMA are the serological hallmark of primary biliary cholangitis) and to the broader pattern of innate immune activation, as mitochondrial DAMPs (mtDNA, cardiolipin, formylated peptides) activate TLR9 and NLRP3 inflammasome pathways. No study has examined AMA rates in POLE/POLD1 carriers ; this finding generates the testable prediction that autoantibody profiling should be part of systematic POLE carrier phenotyping. See full clinical detail in [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md).
 
 ### Comorbidity Context: hEDS/POTS/Gastroparesis Triad
 
-The patient's phenotype must be interpreted in the context of co-occurring **hypermobile Ehlers-Danlos syndrome (hEDS)**, **postural orthostatic tachycardia syndrome (POTS)**, and **gastroparesis** — a recognized clinical triad that interacts with POLE-driven pathology at multiple levels:
+The patient's phenotype must be interpreted in the context of co-occurring **hypermobile Ehlers-Danlos syndrome (hEDS)**, **postural orthostatic tachycardia syndrome (POTS)**, and **gastroparesis** ; a recognized clinical triad that interacts with POLE-driven pathology at multiple levels:
 
 - **MCAS as potential modifier:** The hEDS/POTS/gastroparesis triad frequently co-occurs with mast cell activation syndrome (MCAS). If present, chronic mast cell-derived mediators (histamine, cytokines, tissue edema) could create a **pro-tumorigenic microenvironment** that amplifies POLE-driven cancer predisposition through angiogenesis promotion, local immune suppression, and altered epithelial turnover rates.
 - **Immune profiling implications:** Autonomic dysfunction directly modulates immune function via the vagus nerve (a major neuroimmune regulatory pathway). POTS-related immune baseline alterations create genuine uncertainty about whether published ICI response rates (POLE signature ≥78.5% predicting response) translate directly to this patient.
-- **Therapeutic constraints:** ATR/CHK1 inhibitors cause autonomic side effects and nausea — potentially catastrophic with pre-existing POTS and gastroparesis. Oral drug bioavailability is inherently unreliable with gastroparesis. ICI agents can cause autoimmune colitis and autonomic neuropathy as irAEs, both difficult to detect against pre-existing dysautonomia and GI dysmotility. See [`therapeutics/`](therapeutics/) for detailed risk assessment.
+- **Therapeutic constraints:** ATR/CHK1 inhibitors cause autonomic side effects and nausea ; potentially catastrophic with pre-existing POTS and gastroparesis. Oral drug bioavailability is inherently unreliable with gastroparesis. ICI agents can cause autoimmune colitis and autonomic neuropathy as irAEs, both difficult to detect against pre-existing dysautonomia and GI dysmotility. See [`therapeutics/`](therapeutics/) for detailed risk assessment.
 - **Computational modeling:** The proposed digital twin model should incorporate parameters for altered crypt geometry and replicative stress from connective tissue abnormality (hEDS-related ECM changes), not just POLE dosage alone.
 
 See [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md) for full comorbidity context, modifier assessment framework, and MCAS evaluation protocol.
@@ -166,21 +166,21 @@ How this patient compares to published PPAP cohort data (Palles et al. 2022, Bel
 
 | Feature | Classical PPAP (Published Cohorts) | This Patient (c.138del) | Concordance |
 |---------|-----------------------------------|------------------------|-------------|
-| **Variant type** | Missense substitution in exonuclease active site | Frameshift (p.Leu46Phefs*8) — premature stop at residue 54 | **Novel** |
+| **Variant type** | Missense substitution in exonuclease active site | Frameshift (p.Leu46Phefs*8) ; premature stop at residue 54 | **Novel** |
 | **Affected domain** | Exonuclease domain (residues 268–471) | N-terminal region (upstream of all functional domains) | **Novel** |
 | **Inheritance** | Autosomal dominant (heterozygous) | Heterozygous (de novo vs. inherited unknown) | Concordant |
 | **Polyp count** | 10–100 adenomatous polyps (attenuated) | ~15 sessile adenomatous polyps | Concordant |
 | **Polyp distribution** | Colorectal predominant; gastric in POLE carriers | Stomach, cecum, sigmoid colon | Concordant |
 | **GI features** | Chronic gastritis reported in some POLE carriers | Chronic gastric gastritis; diffuse GI mucosal changes; recurrent SIBO | Concordant |
-| **Cancer types** | Colorectal, endometrial, ovarian, brain — N363K extends PPAP spectrum to glioblastoma (Vande Perre et al., 2019; Labrousse et al., 2023) | Papillary thyroid carcinoma (Stage I, 1.2 cm, isthmus, encapsulated) | **Expands spectrum** |
+| **Cancer types** | Colorectal, endometrial, ovarian, brain ; N363K extends PPAP spectrum to glioblastoma (Vande Perre et al., 2019; Labrousse et al., 2023) | Papillary thyroid carcinoma (Stage I, 1.2 cm, isthmus, encapsulated) | **Expands spectrum** |
 | **TMB** | Ultra-hypermutated (>100 mut/Mb) with SBS10a/b | Reported TMB >100 mut/Mb (assay platform and source specimen pending clarification; WGS + signature confirmation pending) | Concordant (if confirmed) |
 | **Extra-GI neoplastic** | Endometrial cancer (most common); occasional brain, ovarian | Thyroid carcinoma (not previously in PPAP spectrum) | **Expands spectrum** |
 | **Non-neoplastic proliferative** | Not systematically reported | Bilateral PASH, liver FNH/hemangioma | **Novel** |
 | **Congenital anomalies** | Not reported in any PPAP cohort | Duplicated inferior vena cava | **Novel** |
 | **Endometriosis** | Not reported in any PPAP cohort | Stage IV+ deep infiltrating endometriosis with thoracic extension | **Novel** |
 | **Autoimmune features** | Not reported in any PPAP cohort | ANA 1:160 with AC-21 pattern (anti-mitochondrial antibodies) | **Novel** |
-| **Connective tissue/dysautonomia** | Not reported in any PPAP cohort | hEDS, POTS, gastroparesis — potential MCAS | **Novel** |
-| **Mechanism** | Dominant-negative gain of function (error-blind polymerase) | Unknown — 6 candidate models under investigation | **Novel** |
+| **Connective tissue/dysautonomia** | Not reported in any PPAP cohort | hEDS, POTS, gastroparesis ; potential MCAS | **Novel** |
+| **Mechanism** | Dominant-negative gain of function (error-blind polymerase) | Unknown ; 6 candidate models under investigation | **Novel** |
 
 > **Key insight:** This patient is fully concordant with classical PPAP for neoplastic features (polyp count, distribution, TMB) while simultaneously presenting five categories of findings never reported in any PPAP cohort. This suggests that current PPAP phenotyping may be systematically underascertaining non-neoplastic manifestations, or that the truncating variant mechanism produces a broader phenotype than exonuclease-domain missense variants.
 
@@ -190,19 +190,19 @@ How this patient compares to published PPAP cohort data (Palles et al. 2022, Bel
 
 ### Classical PPAP Mechanism
 
-Canonical PPAP-causing variants (P286R, V411L, L424V, S459F) are **missense substitutions** clustered within the exonuclease active site. Their mechanism is a **dominant-negative gain of function**: the polymerase retains DNA synthesis capability (sometimes with increased processivity) but loses proofreading function. The yeast pol2-P301R allele (equivalent to human P286R) has a **50-fold higher mutator effect** than the exonuclease-inactive pol2-4 allele (D290A,E292A), demonstrating that P286R does more than simply inactivate proofreading — it actively increases error rates beyond what loss of exonuclease alone would produce (Kane & Shcherbakova, 2014; Parkash et al., 2019, *Nat Commun*). The result is a hyperactive, error-blind polymerase that outcompetes mismatch repair, producing ultra-hypermutation with characteristic COSMIC mutational signatures **SBS10a** (C>A in TCT), **SBS10b** (C>T in TCG), and **SBS28**.
+Canonical PPAP-causing variants (P286R, V411L, L424V, S459F) are **missense substitutions** clustered within the exonuclease active site. Their mechanism is a **dominant-negative gain of function**: the polymerase retains DNA synthesis capability (sometimes with increased processivity) but loses proofreading function. The yeast pol2-P301R allele (equivalent to human P286R) has a **50-fold higher mutator effect** than the exonuclease-inactive pol2-4 allele (D290A,E292A), demonstrating that P286R does more than simply inactivate proofreading ; it actively increases error rates beyond what loss of exonuclease alone would produce (Kane & Shcherbakova, 2014; Parkash et al., 2019, *Nat Commun*). The result is a hyperactive, error-blind polymerase that outcompetes mismatch repair, producing ultra-hypermutation with characteristic COSMIC mutational signatures **SBS10a** (C>A in TCT), **SBS10b** (C>T in TCG), and **SBS28**.
 
-**Critically, canonical ExoD missense drivers operate without LOH** — tumor genomic profiles do not show loss of the wild-type POLE allele (Barbari & Shcherbakova, 2019). The heterozygous mutant allele is sufficient for ultra-hypermutation. This makes the LOH hypothesis for the c.138del truncation variant (Model 1) **mechanistically distinct** from classical PPAP, not derivative of it.
+**Critically, canonical ExoD missense drivers operate without LOH** ; tumor genomic profiles do not show loss of the wild-type POLE allele (Barbari & Shcherbakova, 2019). The heterozygous mutant allele is sufficient for ultra-hypermutation. This makes the LOH hypothesis for the c.138del truncation variant (Model 1) **mechanistically distinct** from classical PPAP, not derivative of it.
 
 ### Why This Variant Should Not Cause PPAP
 
-> **Literature consensus acknowledgment:** The current scientific consensus does **not** support truncating POLE variants as pathogenic for PPAP. All established pathogenic PPAP variants are missense substitutions in the exonuclease domain that produce a dominant-negative, error-prone polymerase. Truncating variants are generally considered non-pathogenic for PPAP because they cannot produce the gain-of-function mechanism. Furthermore, gnomAD population data shows that POLE tolerates heterozygous LoF (pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed), and Andrianova et al. (2024, *Eur J Hum Genet*) demonstrated that heterozygous *POLD1* exonuclease domain variants cause only ~15% mutation rate increase with cancer requiring somatic LOH — a recessive, not dominant, predisposition model (demonstrated for POLD1; the principle may extend to POLE). This framework investigates whether the c.138del variant represents a novel, non-canonical pathogenic mechanism (LOH-dependent, haploinsufficiency-mediated, or other) that has not been previously recognized in PPAP — a hypothesis, not an established finding.
+> **Literature consensus acknowledgment:** The current scientific consensus does **not** support truncating POLE variants as pathogenic for PPAP. All established pathogenic PPAP variants are missense substitutions in the exonuclease domain that produce a dominant-negative, error-prone polymerase. Truncating variants are generally considered non-pathogenic for PPAP because they cannot produce the gain-of-function mechanism. Furthermore, gnomAD population data shows that POLE tolerates heterozygous LoF (pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed), and Andrianova et al. (2024, *Eur J Hum Genet*) demonstrated that heterozygous *POLD1* exonuclease domain variants cause only ~15% mutation rate increase with cancer requiring somatic LOH ; a recessive, not dominant, predisposition model (demonstrated for POLD1; the principle may extend to POLE). This framework investigates whether the c.138del variant represents a novel, non-canonical pathogenic mechanism (LOH-dependent, haploinsufficiency-mediated, or other) that has not been previously recognized in PPAP ; a hypothesis, not an established finding.
 
-The variant **p.Leu46Phefs\*8** terminates the protein at approximately residue 54 — over **200 amino acids upstream** of the exonuclease domain. Under orthodox models:
+The variant **p.Leu46Phefs\*8** terminates the protein at approximately residue 54 ; over **200 amino acids upstream** of the exonuclease domain. Under orthodox models:
 
 1. **Haploinsufficiency should be insufficient.** The wild-type allele should produce normal functional POLE. A 50% reduction in protein output should not produce TMB >100 mut/Mb. gnomAD confirms this: 188 LoF variants exist without apparent PPAP.
 2. **Complete POLE loss is embryonic lethal.** Homozygous *Pole* knockout is lethal at embryonic day 7 in mice ([MGI:1196391](https://www.informatics.jax.org/marker/MGI:1196391)); hemizygous *Pole*^P286R/null mice are essentially embryonic lethal (<5% expected offspring; Barbari & Shcherbakova, 2019).
-3. **Yet the phenotype is clinically consistent with PPAP.** Reported TMB >100 mut/Mb with polyposis and multi-system involvement matches the PPAP clinical presentation — though molecular confirmation (SBS10a/b/28 mutational signatures) is pending.
+3. **Yet the phenotype is clinically consistent with PPAP.** Reported TMB >100 mut/Mb with polyposis and multi-system involvement matches the PPAP clinical presentation ; though molecular confirmation (SBS10a/b/28 mutational signatures) is pending.
 
 ---
 
@@ -225,7 +225,7 @@ POLE Catalytic Subunit (p261; 2,286 aa, 261 kDa)
 
 **Domain convention notes:** Two boundary conventions appear in the literature. The **narrow exonuclease active site** (residues 268–471) is the region screened for PPAP driver mutations (Church et al., 2013, *HMG*; Campbell et al., 2017, *Cell*). The **broader exonuclease-containing region** (residues 223–517) includes flanking structural elements ([Atlas of Genetics and Oncology](https://atlasgeneticsoncology.org/gene/41773/pole-(dna-polymerase-epsilon-catalytic-subunit))). The catalytic fragment corresponds to the N-terminal 140 kDa portion (residues 1–1189), which retains full polymerase and exonuclease activity *in vitro* (Korona et al., 2011, *JBC*). Domain architecture follows Liu & Linn (2000, *NAR*): N-terminal region (1–267), core catalytic domain (268–1189), C-terminal regulatory domain (1189–2286).
 
-The truncation at residue 54 eliminates all catalytic domains — no exonuclease activity, no polymerase activity, no C-terminal regulatory regions. Note: the N-terminal region (residues 1–54) may participate in CMG helicase complex interactions and DNA binding (Parkash et al., 2019; UniProt Q07864), so the truncated 54-residue peptide is not necessarily inert (see Model 3). Structured reference data (domain boundaries, coding sequence, constraint metrics) is available in [`data/`](data/) for programmatic analysis.
+The truncation at residue 54 eliminates all catalytic domains ; no exonuclease activity, no polymerase activity, no C-terminal regulatory regions. Note: the N-terminal region (residues 1–54) may participate in CMG helicase complex interactions and DNA binding (Parkash et al., 2019; UniProt Q07864), so the truncated 54-residue peptide is not necessarily inert (see Model 3). Structured reference data (domain boundaries, coding sequence, constraint metrics) is available in [`data/`](data/) for programmatic analysis.
 
 ![POLE variant landscape](analysis/variant_landscape/POLE_variant_landscape.png)
 
@@ -235,7 +235,7 @@ The truncation at residue 54 eliminates all catalytic domains — no exonuclease
 
 Six non-mutually-exclusive models could resolve the paradox. **Discriminating between them is the central research priority.**
 
-> **Classification framework context:** The definitive gene-specific ACMG/AMP classification guidelines for POLE/POLD1 variants (Mur, Viana-Errasti, García-Mulero et al., *Genome Medicine* 2023) were designed for **non-disruptive (missense) variants within the exonuclease domain**. The c.138del variant — a truncating variant upstream of the exonuclease domain — falls entirely outside the scope of that framework. Resolving the mechanistic paradox below would necessitate extending the classification guidelines to accommodate truncating variants acting through LOH, reinitiation, or haploinsufficiency mechanisms.
+> **Classification framework context:** The definitive gene-specific ACMG/AMP classification guidelines for POLE/POLD1 variants (Mur, Viana-Errasti, García-Mulero et al., *Genome Medicine* 2023) were designed for **non-disruptive (missense) variants within the exonuclease domain**. The c.138del variant ; a truncating variant upstream of the exonuclease domain ; falls entirely outside the scope of that framework. Resolving the mechanistic paradox below would necessitate extending the classification guidelines to accommodate truncating variants acting through LOH, reinitiation, or haploinsufficiency mechanisms.
 
 For formal hypotheses with specific falsifiable predictions and exclusion criteria for each model, see [`models/mechanistic_models.md`](models/mechanistic_models.md).
 
@@ -249,15 +249,15 @@ The wild-type POLE allele is somatically deleted or silenced in tumor tissue (vi
 
 ### Model 2: Translational Reinitiation
 
-Ribosomes encountering the premature stop codon reinitiate at a downstream AUG codon. If reinitiation occurs between the exonuclease and polymerase domains, the resulting N-terminally truncated protein retains polymerase activity but lacks proofreading — **phenocopying the canonical dominant-negative mechanism** through a completely different genetic route.
+Ribosomes encountering the premature stop codon reinitiate at a downstream AUG codon. If reinitiation occurs between the exonuclease and polymerase domains, the resulting N-terminally truncated protein retains polymerase activity but lacks proofreading ; **phenocopying the canonical dominant-negative mechanism** through a completely different genetic route.
 
-**Key experiment:** Ribosome profiling (Ribo-seq) to map translating ribosomes across the mutant POLE transcript. Candidate reinitiation sites with Kozak context scores are catalogued in [`data/POLE_downstream_methionines.tsv`](data/POLE_downstream_methionines.tsv) — notably M497 and M530 (both with moderate-to-strong Kozak contexts) would produce polymerase-only proteins lacking proofreading, directly phenocopying dominant-negative PPAP.
+**Key experiment:** Ribosome profiling (Ribo-seq) to map translating ribosomes across the mutant POLE transcript. Candidate reinitiation sites with Kozak context scores are catalogued in [`data/POLE_downstream_methionines.tsv`](data/POLE_downstream_methionines.tsv) ; notably M497 and M530 (both with moderate-to-strong Kozak contexts) would produce polymerase-only proteins lacking proofreading, directly phenocopying dominant-negative PPAP.
 
 **Prior probability: Low.** Efficient reinitiation across >1 kb of coding sequence (M497 is ~1.3 kb downstream) would be unprecedented in standard mammalian mRNAs (Sherlock et al., 2023). Formally testable but considered unlikely absent positive Ribo-seq evidence.
 
 ### Model 3: NMD Escape + Holoenzyme Poisoning
 
-The premature termination codon escapes nonsense-mediated mRNA decay. The truncated 54-amino-acid peptide retains partial binding capacity for the POLE2 (p59) accessory subunit, competitively inhibiting holoenzyme assembly — a **dominant-negative through stoichiometric poisoning** rather than catalytic dysfunction.
+The premature termination codon escapes nonsense-mediated mRNA decay. The truncated 54-amino-acid peptide retains partial binding capacity for the POLE2 (p59) accessory subunit, competitively inhibiting holoenzyme assembly ; a **dominant-negative through stoichiometric poisoning** rather than catalytic dysfunction.
 
 **Key experiments:** Allele-specific RNA-seq (NMD escape test); co-immunoprecipitation of synthetic 54-residue peptide with recombinant POLE2.
 
@@ -271,13 +271,13 @@ The premature termination codon escapes nonsense-mediated mRNA decay. The trunca
 
 ### Model 5: Isoform-Specific Effects
 
-The c.138del differentially affects alternative POLE transcript variants — eliminating a catalytically critical isoform while sparing others or producing aberrant isoform-specific truncated products with neomorphic properties.
+The c.138del differentially affects alternative POLE transcript variants ; eliminating a catalytically critical isoform while sparing others or producing aberrant isoform-specific truncated products with neomorphic properties.
 
 **Key experiment:** Isoform-specific RT-PCR and proteomics across multiple tissues.
 
 ### Model 6: Second-Site Somatic POLE Mutation
 
-A somatic pathogenic missense mutation arises on the **wild-type** POLE allele within the exonuclease domain (e.g., P286R, V411L), converting it into a canonical dominant-negative, error-prone polymerase. Unlike Model 1 (LOH), the wild-type allele is not lost — it acquires a gain-of-function mutation. This is biologically plausible: somatic POLE exonuclease domain mutations occur in 7–13% of sporadic endometrial cancers and ~3% of CRC. If Model 4 (haploinsufficiency) elevates the baseline mutation rate, the probability of somatically hitting a POLE hotspot is correspondingly increased. Shah et al. (2024) documented co-occurring POLE exonuclease and non-exonuclease domain mutations affecting TMB.
+A somatic pathogenic missense mutation arises on the **wild-type** POLE allele within the exonuclease domain (e.g., P286R, V411L), converting it into a canonical dominant-negative, error-prone polymerase. Unlike Model 1 (LOH), the wild-type allele is not lost ; it acquires a gain-of-function mutation. This is biologically plausible: somatic POLE exonuclease domain mutations occur in 7–13% of sporadic endometrial cancers and ~3% of CRC. If Model 4 (haploinsufficiency) elevates the baseline mutation rate, the probability of somatically hitting a POLE hotspot is correspondingly increased. Shah et al. (2024) documented co-occurring POLE exonuclease and non-exonuclease domain mutations affecting TMB.
 
 **Key experiment:** Paired tumor-normal WGS with **phased variant calling** to determine whether any somatic POLE variant is in trans (on the wild-type allele) vs. in cis (on the already-truncated allele).
 
@@ -296,25 +296,25 @@ The patient's multi-system phenotype provides immediate discriminatory evidence 
 | **GI polyposis** | Possible | Possible | Possible | Supports (high-turnover epithelium) | Possible | Possible |
 | **ANA AC-21 (AMA)** | Neutral | Neutral | Neutral | Supports (mitochondrial stress from systemic mutagenesis) | Neutral | Neutral |
 
-The **congenital duplicated IVC** is the single most important clinical discriminator — it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). However, duplicated IVC occurs in 0.6–2.6% of the general population, so its significance rests on the co-occurrence with other vascular/stromal proliferative findings rather than as an isolated observation. The **ANA AC-21 pattern** (anti-mitochondrial antibodies) adds a new dimension: if POLE haploinsufficiency elevates mutation rates in nuclear-encoded mitochondrial genes (~1,500 genes), the resulting mitochondrial dysfunction could expose inner membrane antigens to immune surveillance, producing AMA. Note that ANA positivity at ≥1:160 occurs in ~5–15% of healthy women, but the specific AC-21 reticular cytoplasmic pattern is uncommon in healthy populations and strongly associated with PBC. The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis, potential AMA) collectively argue against Model 1 operating alone, as independent LOH in each organ would be an extraordinary coincidence.
+The **congenital duplicated IVC** is the single most important clinical discriminator ; it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). However, duplicated IVC occurs in 0.6–2.6% of the general population, so its significance rests on the co-occurrence with other vascular/stromal proliferative findings rather than as an isolated observation. The **ANA AC-21 pattern** (anti-mitochondrial antibodies) adds a new dimension: if POLE haploinsufficiency elevates mutation rates in nuclear-encoded mitochondrial genes (~1,500 genes), the resulting mitochondrial dysfunction could expose inner membrane antigens to immune surveillance, producing AMA. Note that ANA positivity at ≥1:160 occurs in ~5–15% of healthy women, but the specific AC-21 reticular cytoplasmic pattern is uncommon in healthy populations and strongly associated with PBC. The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis, potential AMA) collectively argue against Model 1 operating alone, as independent LOH in each organ would be an extraordinary coincidence.
 
 ### Current Leading Theory (Updated 2026-04-17)
 
 > **This section is maintained as a living assessment and should be updated as new data enters the repository or new research is published.**
 
-**Primary model: Model 4 — Replication Stress-Dependent Haploinsufficiency**
+**Primary model: Model 4 ; Replication Stress-Dependent Haploinsufficiency**
 
 Model 4 currently has the strongest clinical support among all six candidates. The evidence favoring it:
 
-1. **Congenital duplicated IVC** — A developmental anomaly present from embryogenesis cannot be caused by somatic LOH or any other post-zygotic mechanism. This finding alone eliminates Models 1–3 as sole explanations and provides direct evidence for germline-level POLE dysfunction affecting embryonic development.
-2. **Tissue turnover–onset age correlation** — The temporal sequence of diagnoses correlates with tissue cell division rates: colonic epithelium (3–5 day turnover) → adenomas by age 19; endometrium (monthly) → symptoms by ~22; thyroid (~8-year turnover) → carcinoma by ~28. This gradient is a hallmark prediction of dosage-dependent, replication-coupled mutagenesis (Spearman ρ > 0, p < 0.05; see [`analysis/temporal_phenotype/`](analysis/temporal_phenotype/)).
-3. **Progressive polyp accumulation** — New adenomas at every surveillance interval over >12 years (ages 19→21→24→27→29→31) indicates ongoing constitutive mutagenesis, not a single clonal event.
-4. **Multi-system non-neoplastic phenotype** — Bilateral PASH, liver hypervascular lesion, severe endometriosis/adenomyosis, dysplastic nevus, splenoportal arteriovenous shunt, and ANA AC-21 pattern collectively indicate systemic tissue dysregulation that cannot be explained by organ-specific somatic events.
-5. **Absence of FILS/neurodevelopmental features** — The patient lacks features seen in biallelic POLE mutations (FILS syndrome, intellectual disability), confirming that one functional allele is sufficient for CNS development but insufficient for genomic fidelity in high-turnover tissues — a tissue-specific haploinsufficiency pattern.
+1. **Congenital duplicated IVC** ; A developmental anomaly present from embryogenesis cannot be caused by somatic LOH or any other post-zygotic mechanism. This finding alone eliminates Models 1–3 as sole explanations and provides direct evidence for germline-level POLE dysfunction affecting embryonic development.
+2. **Tissue turnover–onset age correlation** ; The temporal sequence of diagnoses correlates with tissue cell division rates: colonic epithelium (3–5 day turnover) → adenomas by age 19; endometrium (monthly) → symptoms by ~22; thyroid (~8-year turnover) → carcinoma by ~28. This gradient is a hallmark prediction of dosage-dependent, replication-coupled mutagenesis (Spearman ρ > 0, p < 0.05; see [`analysis/temporal_phenotype/`](analysis/temporal_phenotype/)).
+3. **Progressive polyp accumulation** ; New adenomas at every surveillance interval over >12 years (ages 19→21→24→27→29→31) indicates ongoing constitutive mutagenesis, not a single clonal event.
+4. **Multi-system non-neoplastic phenotype** ; Bilateral PASH, liver hypervascular lesion, severe endometriosis/adenomyosis, dysplastic nevus, splenoportal arteriovenous shunt, and ANA AC-21 pattern collectively indicate systemic tissue dysregulation that cannot be explained by organ-specific somatic events.
+5. **Absence of FILS/neurodevelopmental features** ; The patient lacks features seen in biallelic POLE mutations (FILS syndrome, intellectual disability), confirming that one functional allele is sufficient for CNS development but insufficient for genomic fidelity in high-turnover tissues ; a tissue-specific haploinsufficiency pattern.
 
-**Secondary model: Model 1 — Somatic LOH (complementary, not alternative)**
+**Secondary model: Model 1 ; Somatic LOH (complementary, not alternative)**
 
-Model 1 likely operates in parallel with Model 4 to explain the tumor-specific ultra-hypermutation (reported TMB >100 mut/Mb). The thyroid carcinoma — arising in a slow-cycling tissue where haploinsufficiency alone may be insufficient — is best explained by somatic loss of the wild-type allele in that specific tissue. Pending experiment: paired tumor-normal WGS with allele-specific copy number analysis.
+Model 1 likely operates in parallel with Model 4 to explain the tumor-specific ultra-hypermutation (reported TMB >100 mut/Mb). The thyroid carcinoma ; arising in a slow-cycling tissue where haploinsufficiency alone may be insufficient ; is best explained by somatic loss of the wild-type allele in that specific tissue. Pending experiment: paired tumor-normal WGS with allele-specific copy number analysis.
 
 **What would change this assessment:**
 - If NanoSeq on normal blood cells shows completely normal mutation rates → weakens Model 4, strengthens Model 1 as primary
@@ -330,7 +330,7 @@ Model 4 (replication stress-dependent haploinsufficiency) predicts that tissues 
 
 ![Tissue replication rate vs. clinical findings](analysis/temporal_phenotype/tissue_replication_vulnerability.png)
 
-**Key observation:** The patient's most severe findings (GI polyposis, Stage IV+ endometriosis) occur in the fastest-cycling tissues (colonic crypts every 3–5 days, endometrium monthly), consistent with Model 4's prediction. The thyroid carcinoma — arising in a slow-cycling tissue (~8 years) — is the notable exception, suggesting either that LOH (Model 1) drives tumorigenesis in slow-cycling tissues, or that tissue-specific factors beyond division rate modulate vulnerability.
+**Key observation:** The patient's most severe findings (GI polyposis, Stage IV+ endometriosis) occur in the fastest-cycling tissues (colonic crypts every 3–5 days, endometrium monthly), consistent with Model 4's prediction. The thyroid carcinoma ; arising in a slow-cycling tissue (~8 years) ; is the notable exception, suggesting either that LOH (Model 1) drives tumorigenesis in slow-cycling tissues, or that tissue-specific factors beyond division rate modulate vulnerability.
 
 The temporal phenotype map below shows age-at-onset by phenotype category, with tissue turnover rates annotated:
 
@@ -344,9 +344,9 @@ The congenital duplicated IVC (earliest onset) and childhood-onset hEDS features
 
 The clinical phenotype generates questions beyond the six mechanistic models. Each hypothesis is rated by confidence level:
 
-- **Supported** — At least one direct data point from this case plus biological plausibility
-- **Plausible** — Consistent with known biology; no direct evidence against, but also no direct evidence for
-- **Speculative** — Interesting but requires significant validation; alternative explanations exist
+- **Supported** ; At least one direct data point from this case plus biological plausibility
+- **Plausible** ; Consistent with known biology; no direct evidence against, but also no direct evidence for
+- **Speculative** ; Interesting but requires significant validation; alternative explanations exist
 
 | # | Hypothesis | Confidence | Rationale for Rating |
 |---|-----------|------------|---------------------|
@@ -367,30 +367,30 @@ See [`docs/pole_carrier_registry_crossref.md`](docs/pole_carrier_registry_crossr
 
 ### The Testable Prediction
 
-Endometriosis is a disease of somatically mutant clonal expansion. Anglesio et al. (*NEJM* 2017) demonstrated that 79% of patients with deep infiltrating endometriosis harbor cancer-associated somatic mutations (ARID1A, KRAS, PIK3CA) in at least one lesion, with driver mutations detected in 26% of individual lesions — acquired somatically in endometrial epithelial cells that then disseminate to ectopic sites. Lac et al. (2022) showed that anatomically distant lesions share identical mutations, confirming oligoclonal dissemination. Suda et al. (2018) mapped clonal architecture revealing progressive diversification.
+Endometriosis is a disease of somatically mutant clonal expansion. Anglesio et al. (*NEJM* 2017) demonstrated that 79% of patients with deep infiltrating endometriosis harbor cancer-associated somatic mutations (ARID1A, KRAS, PIK3CA) in at least one lesion, with driver mutations detected in 26% of individual lesions ; acquired somatically in endometrial epithelial cells that then disseminate to ectopic sites. Lac et al. (2022) showed that anatomically distant lesions share identical mutations, confirming oligoclonal dissemination. Suda et al. (2018) mapped clonal architecture revealing progressive diversification.
 
-If POLE haploinsufficiency elevates the per-division mutation rate in endometrial stem cells (Model 4), it should **increase the probability of acquiring these driver mutations per stem cell division**. This generates a specific, testable prediction: **endometriotic lesions from a germline POLE carrier should show elevated somatic mutation burden — and potentially POLE mutational signatures (SBS10a/b) — above the baseline somatic mutation rates documented by Anglesio et al.** The endometrium is among the most POLE-vulnerable tissues: somatic POLE mutations define an entire molecular subtype of endometrial cancer (7–13% of sporadic cases; TCGA 2013), and endometrial cancer is a hallmark PPAP malignancy.
+If POLE haploinsufficiency elevates the per-division mutation rate in endometrial stem cells (Model 4), it should **increase the probability of acquiring these driver mutations per stem cell division**. This generates a specific, testable prediction: **endometriotic lesions from a germline POLE carrier should show elevated somatic mutation burden ; and potentially POLE mutational signatures (SBS10a/b) ; above the baseline somatic mutation rates documented by Anglesio et al.** The endometrium is among the most POLE-vulnerable tissues: somatic POLE mutations define an entire molecular subtype of endometrial cancer (7–13% of sporadic cases; TCGA 2013), and endometrial cancer is a hallmark PPAP malignancy.
 
 ### Why This Case Is Informative
 
 This patient presents Stage IV+ deep infiltrating endometriosis with features that are unusual even for severe disease:
 
-- **Trans-diaphragmatic penetration** — full-thickness invasion from abdominal to thoracic surface (estimated 0.6–1.5% of endometriosis patients; Nezhat et al., 2019)
-- **Multi-compartment involvement** — bilateral ovarian endometriomas, uterosacral ligament nodules, retroperitoneal fibrosis with ureteral encasement, appendiceal endometriosis (histology-confirmed), bowel adhesions
-- **Severity requiring surgical intervention** — ovarian-sparing total hysterectomy at ~28 for refractory adenomyosis with menorrhagia causing syncope
+- **Trans-diaphragmatic penetration** ; full-thickness invasion from abdominal to thoracic surface (estimated 0.6–1.5% of endometriosis patients; Nezhat et al., 2019)
+- **Multi-compartment involvement** ; bilateral ovarian endometriomas, uterosacral ligament nodules, retroperitoneal fibrosis with ureteral encasement, appendiceal endometriosis (histology-confirmed), bowel adhesions
+- **Severity requiring surgical intervention** ; ovarian-sparing total hysterectomy at ~28 for refractory adenomyosis with menorrhagia causing syncope
 
-The co-occurrence of hEDS creates a genuine confound — hEDS independently associates with severe endometriosis through altered ECM and chronic peritoneal inflammation (see [Disentangling POLE vs. hEDS](#disentangling-pole-attributable-vs-heds-attributable-phenotypes)). **Molecular testing is the definitive discriminator**: if endometriotic lesion tissue shows SBS10a/b signatures or elevated mutation burden with POLE-characteristic trinucleotide context, the POLE contribution is confirmed regardless of the hEDS confound.
+The co-occurrence of hEDS creates a genuine confound ; hEDS independently associates with severe endometriosis through altered ECM and chronic peritoneal inflammation (see [Disentangling POLE vs. hEDS](#disentangling-pole-attributable-vs-heds-attributable-phenotypes)). **Molecular testing is the definitive discriminator**: if endometriotic lesion tissue shows SBS10a/b signatures or elevated mutation burden with POLE-characteristic trinucleotide context, the POLE contribution is confirmed regardless of the hEDS confound.
 
 ### Tissue Collection Opportunity
 
 An upcoming endometriosis-related surgery provides a prospective opportunity to collect fresh tissue for:
 
-1. **Whole-exome or whole-genome sequencing** of endometriotic lesion epithelium vs. matched normal (peritoneal surface or blood) — primary endpoint: somatic mutation burden and mutational signature decomposition (SBS10a/b/28 vs. background)
-2. **Targeted sequencing** for known endometriosis driver mutations (ARID1A, KRAS, PIK3CA) with variant allele frequency quantification — to determine whether the number and diversity of driver clones exceeds published rates
-3. **Single-cell sequencing** of lesion epithelium — to map clonal architecture and determine whether POLE haploinsufficiency produces a broader clonal diversity than typical endometriosis
-4. **Paired LOH analysis at the POLE locus** — if the wild-type allele is lost in endometriotic tissue, it would demonstrate that LOH can occur in non-malignant proliferative lesions, a finding with major implications for the haploinsufficiency vs. LOH model debate
+1. **Whole-exome or whole-genome sequencing** of endometriotic lesion epithelium vs. matched normal (peritoneal surface or blood) ; primary endpoint: somatic mutation burden and mutational signature decomposition (SBS10a/b/28 vs. background)
+2. **Targeted sequencing** for known endometriosis driver mutations (ARID1A, KRAS, PIK3CA) with variant allele frequency quantification ; to determine whether the number and diversity of driver clones exceeds published rates
+3. **Single-cell sequencing** of lesion epithelium ; to map clonal architecture and determine whether POLE haploinsufficiency produces a broader clonal diversity than typical endometriosis
+4. **Paired LOH analysis at the POLE locus** ; if the wild-type allele is lost in endometriotic tissue, it would demonstrate that LOH can occur in non-malignant proliferative lesions, a finding with major implications for the haploinsufficiency vs. LOH model debate
 
-This would be the **first study of somatic mutation burden in endometriosis from a germline DNA polymerase proofreading-deficient carrier** — a natural experiment that cannot be replicated in model systems. Fresh tissue banking under an appropriate research protocol (IRB approval required) is essential; FFPE significantly degrades mutation calling sensitivity.
+This would be the **first study of somatic mutation burden in endometriosis from a germline DNA polymerase proofreading-deficient carrier** ; a natural experiment that cannot be replicated in model systems. Fresh tissue banking under an appropriate research protocol (IRB approval required) is essential; FFPE significantly degrades mutation calling sensitivity.
 
 See [`docs/endometriosis_hypothesis/`](docs/endometriosis_hypothesis/) for the full hypothesis document with detailed testable predictions and proposed collaborator framework.
 
@@ -398,7 +398,7 @@ See [`docs/endometriosis_hypothesis/`](docs/endometriosis_hypothesis/) for the f
 
 ## Mutational Signature Discrimination
 
-> **STATUS: Mutational signature decomposition has NOT been performed on any tumor specimen from this patient.** This is the **single most diagnostic readout available** — it directly discriminates between POLE-driven hypermutation (SBS10a/b/28) and MMR-deficient phenocopy (SBS6/15/21/26), and should be treated as the **highest-priority immediate analysis** rather than a hypothetical exercise. The scenarios below describe expected outcomes; neither has been observed yet. Until signature decomposition is performed, the mechanistic paradox and all downstream analyses rest on an assumption that the ultra-hypermutation is POLE-driven. Archived tumour specimens (FFPE thyroidectomy, ~2019; hysterectomy, ~2021) and any future surgical specimens should be prioritized for this analysis.
+> **STATUS: Mutational signature decomposition has NOT been performed on any tumor specimen from this patient.** This is the **single most diagnostic readout available** ; it directly discriminates between POLE-driven hypermutation (SBS10a/b/28) and MMR-deficient phenocopy (SBS6/15/21/26), and should be treated as the **highest-priority immediate analysis** rather than a hypothetical exercise. The scenarios below describe expected outcomes; neither has been observed yet. Until signature decomposition is performed, the mechanistic paradox and all downstream analyses rest on an assumption that the ultra-hypermutation is POLE-driven. Archived tumour specimens (FFPE thyroidectomy, ~2019; hysterectomy, ~2021) and any future surgical specimens should be prioritized for this analysis.
 
 Mutational signature analysis is the most immediately actionable discriminator between mechanisms.
 
@@ -488,7 +488,7 @@ Blood tests represent the most accessible experimental approach, spanning genomi
 
 ## Therapeutic Strategy
 
-> **Clinical context:** The patient does **not** currently have active advanced malignancy. The thyroid carcinoma was treated (total thyroidectomy, Stage I, no recurrence), and gastrointestinal polyps are under surveillance with regular endoscopic removal. This section is **prospective contingency planning** — mapping therapeutic options in the event that a POLE-driven malignancy develops that requires systemic treatment, or evaluating whether preventive strategies (chemoprevention, preventive immunotherapy) have sufficient evidence to consider. The synthetic lethality targets below are mechanistic hypotheses requiring preclinical validation in POLE-null model systems before clinical consideration; they are not current treatment recommendations. See also the [POLE-null vs. POLE-mutant distinction](therapeutics/synthetic_lethality.md#critical-distinction-pole-mutant-vs-pole-null) — all published synthetic lethality data derives from POLE-ExoD-mutant cells, not the POLE-null state expected in this patient's LOH-driven tumors.
+> **Clinical context:** The patient does **not** currently have active advanced malignancy. The thyroid carcinoma was treated (total thyroidectomy, Stage I, no recurrence), and gastrointestinal polyps are under surveillance with regular endoscopic removal. This section is **prospective contingency planning** ; mapping therapeutic options in the event that a POLE-driven malignancy develops that requires systemic treatment, or evaluating whether preventive strategies (chemoprevention, preventive immunotherapy) have sufficient evidence to consider. The synthetic lethality targets below are mechanistic hypotheses requiring preclinical validation in POLE-null model systems before clinical consideration; they are not current treatment recommendations. See also the [POLE-null vs. POLE-mutant distinction](therapeutics/synthetic_lethality.md#critical-distinction-pole-mutant-vs-pole-null) ; all published synthetic lethality data derives from POLE-ExoD-mutant cells, not the POLE-null state expected in this patient's LOH-driven tumors.
 
 ### Immunotherapy
 
@@ -520,7 +520,7 @@ Blood tests represent the most accessible experimental approach, spanning genomi
 
 See detailed strategies: [`therapeutics/immunotherapy_strategy.md`](therapeutics/immunotherapy_strategy.md) | [`therapeutics/synthetic_lethality.md`](therapeutics/synthetic_lethality.md) | [`therapeutics/surveillance_protocol.md`](therapeutics/surveillance_protocol.md) | [`therapeutics/pharmacokinetic_considerations.md`](therapeutics/pharmacokinetic_considerations.md)
 
-> **Comorbidity-adjusted drug selection:** The patient's gastroparesis makes oral drug absorption unreliable, and POTS amplifies autonomic side effects. The [pharmacokinetic considerations document](therapeutics/pharmacokinetic_considerations.md) maps each candidate agent to route of administration, comorbidity interactions, and feasibility — **IV pembrolizumab** is the highest-priority agent (strong efficacy data + bypasses GI absorption), while oral ATR/PARP inhibitors carry significant feasibility concerns.
+> **Comorbidity-adjusted drug selection:** The patient's gastroparesis makes oral drug absorption unreliable, and POTS amplifies autonomic side effects. The [pharmacokinetic considerations document](therapeutics/pharmacokinetic_considerations.md) maps each candidate agent to route of administration, comorbidity interactions, and feasibility ; **IV pembrolizumab** is the highest-priority agent (strong efficacy data + bypasses GI absorption), while oral ATR/PARP inhibitors carry significant feasibility concerns.
 
 ---
 
@@ -543,9 +543,9 @@ See detailed protocols: [`models/experimental_protocols/`](models/experimental_p
 
 Achievable with standard clinical pipelines. **Banked tissue status:** FFPE thyroidectomy specimen (~2019) should be available from surgical pathology archives; hysterectomy specimen (~2021) with adenomyosis/endometriosis similarly archived; fresh-frozen tissue is not currently banked. Blood draw for germline WGS, RNA, and PBMC isolation requires no prior banking. An upcoming endometriosis-related surgery (see [Endometriosis × POLE](#endometriosis--pole-intersection)) offers an opportunity to prospectively bank fresh tissue under an appropriate research protocol.
 
-1. **IHC for MMR proteins (MLH1/MSH2/MSH6/PMS2), MSI testing, MLH1 promoter methylation** — prerequisite differential diagnosis: rules out MMR-deficient phenocopy before the mechanistic paradox analysis is meaningful (see [Differential Diagnosis](docs/clinical_case_summary.md#differential-diagnosis-pole-driven-hypermutation-vs-mmr-deficient-phenocopy))
+1. **IHC for MMR proteins (MLH1/MSH2/MSH6/PMS2), MSI testing, MLH1 promoter methylation** ; prerequisite differential diagnosis: rules out MMR-deficient phenocopy before the mechanistic paradox analysis is meaningful (see [Differential Diagnosis](docs/clinical_case_summary.md#differential-diagnosis-pole-driven-hypermutation-vs-mmr-deficient-phenocopy))
 2. Paired tumor-normal WGS with LOH analysis at the POLE locus
-3. **Mutational signature decomposition (SBS10a/b/28 vs. SBS6/15/21/26)** — the single most diagnostic readout for determining the mutational mechanism; should be performed on any available tumor specimen
+3. **Mutational signature decomposition (SBS10a/b/28 vs. SBS6/15/21/26)** ; the single most diagnostic readout for determining the mutational mechanism; should be performed on any available tumor specimen
 4. Allele-specific expression from blood RNA (NMD escape test)
 5. CHIP profiling and duplex sequencing (NanoSeq) of normal blood cells
 6. Comprehensive immunophenotyping and TCR repertoire sequencing
@@ -586,16 +586,16 @@ Foundational investments that redefine the field.
 
 ### POLE/POLD1 Variant Classification & Functional Assessment (Valle Lab, IDIBELL)
 
-- **Mur P, Viana-Errasti J, García-Mulero S et al. (2023) Recommendations for the classification of germline variants in the exonuclease domain of POLE and POLD1. *Genome Medicine* 15:85.** — Definitive gene-specific ACMG/AMP classification framework for 128 POLE/POLD1 ED variants. **Note:** This framework was designed for non-disruptive (missense) ED variants; c.138del (truncating, upstream of ED) falls outside its current scope, representing an opportunity to extend the guidelines.
-- **Valle L et al. (2020) Role of POLE and POLD1 in familial cancer. *Genetics in Medicine*.** — Sequenced POLE/POLD1 in 2,813 hereditary cancer probands; identified 12 ED missense variants, 6 loss-of-function variants, and 23 outside-ED predicted-deleterious missense variants. The 6 LoF variants are a critical comparator set for c.138del.
-- **Viana-Errasti J et al. (2025) Comparative Analysis of Somatic and Germline Polymerase Proofreading Deficiencies in Cancer. *Modern Pathology*.** — Compares molecular and clinical characteristics of 31 POLE/POLD1 ED pathogenic variants, assessing MMR status, TMB, and mutational signatures. Establishes the analytical framework applicable to the c.138del tumor.
-- Valle L, Hernández-Illán E, Bellido F et al. (2014) New insights into POLE and POLD1 germline mutations in familial colorectal cancer and polyposis. *Human Molecular Genetics* 23(13):3506–3512. — First identification of de novo POLE mutations in PPAP.
-- Shah SM, Demidova EV et al. (2024) Exploring co-occurring POLE exonuclease and non-exonuclease domain mutations and their impact on tumor mutagenicity. *Cancer Research Communications* 4(1):213–225. — Demonstrates interest in non-standard POLE mutations; co-authored with Valle lab.
+- **Mur P, Viana-Errasti J, García-Mulero S et al. (2023) Recommendations for the classification of germline variants in the exonuclease domain of POLE and POLD1. *Genome Medicine* 15:85.** ; Definitive gene-specific ACMG/AMP classification framework for 128 POLE/POLD1 ED variants. **Note:** This framework was designed for non-disruptive (missense) ED variants; c.138del (truncating, upstream of ED) falls outside its current scope, representing an opportunity to extend the guidelines.
+- **Valle L et al. (2020) Role of POLE and POLD1 in familial cancer. *Genetics in Medicine*.** ; Sequenced POLE/POLD1 in 2,813 hereditary cancer probands; identified 12 ED missense variants, 6 loss-of-function variants, and 23 outside-ED predicted-deleterious missense variants. The 6 LoF variants are a critical comparator set for c.138del.
+- **Viana-Errasti J et al. (2025) Comparative Analysis of Somatic and Germline Polymerase Proofreading Deficiencies in Cancer. *Modern Pathology*.** ; Compares molecular and clinical characteristics of 31 POLE/POLD1 ED pathogenic variants, assessing MMR status, TMB, and mutational signatures. Establishes the analytical framework applicable to the c.138del tumor.
+- Valle L, Hernández-Illán E, Bellido F et al. (2014) New insights into POLE and POLD1 germline mutations in familial colorectal cancer and polyposis. *Human Molecular Genetics* 23(13):3506–3512. ; First identification of de novo POLE mutations in PPAP.
+- Shah SM, Demidova EV et al. (2024) Exploring co-occurring POLE exonuclease and non-exonuclease domain mutations and their impact on tumor mutagenicity. *Cancer Research Communications* 4(1):213–225. ; Demonstrates interest in non-standard POLE mutations; co-authored with Valle lab.
 
 ### Tools & Databases
 
-- **PolED database (2025)** — A curated database of functional studies of POLE/POLD1 variants reported in humans. [PMID: 41263451](https://pubmed.ncbi.nlm.nih.gov/41263451/)
-- **[Cancer Predisposition Variant Analyst](https://github.com/Bloomed-Health/cancer-predisposition-variant-analyst)** — Claude Code skill for ultra-rare variant interpretation in cancer predisposition genes. Resolves genotype-phenotype paradoxes, assembles ACMG/ClinGen evidence, and maps mechanism to therapy. Includes a worked example using the POLE c.138del case.
+- **PolED database (2025)** ; A curated database of functional studies of POLE/POLD1 variants reported in humans. [PMID: 41263451](https://pubmed.ncbi.nlm.nih.gov/41263451/)
+- **[Cancer Predisposition Variant Analyst](https://github.com/Bloomed-Health/cancer-predisposition-variant-analyst)** ; Claude Code skill for ultra-rare variant interpretation in cancer predisposition genes. Resolves genotype-phenotype paradoxes, assembles ACMG/ClinGen evidence, and maps mechanism to therapy. Includes a worked example using the POLE c.138del case.
 
 ### POLE Frameshift Variants & Epigenetic Interactions
 
@@ -605,7 +605,7 @@ Foundational investments that redefine the field.
 
 ### Somatic Mutation in Normal Tissues
 
-- **Robinson PS et al. (2021) Increased somatic mutation burdens in normal human cells due to defective DNA polymerases. *Nature Genetics*.** — Landmark study proving germline POLE/POLD1 mutations elevate SBS10a/b in normal somatic cells using NanoSeq.
+- **Robinson PS et al. (2021) Increased somatic mutation burdens in normal human cells due to defective DNA polymerases. *Nature Genetics*.** ; Landmark study proving germline POLE/POLD1 mutations elevate SBS10a/b in normal somatic cells using NanoSeq.
 - Abascal F et al. (2021) Somatic mutation landscapes at single-molecule resolution. *Nature* 593:405–410. (Original NanoSeq protocol)
 - Pich O et al. (2025) Somatic mutation and selection at population scale. *Nature* 647:411–420. (Improved NanoSeq: <5 errors per billion bp, whole-exome compatible)
 - Pich O et al. (2025) Somatic evolution following cancer treatment in normal tissue. *Nature*. (Duplex sequencing at >30,000x across 16 organs)
@@ -613,9 +613,9 @@ Foundational investments that redefine the field.
 
 ### Immunotherapy in POLE-Mutated Cancers
 
-- **Garmezy B et al. (2022) Clinical and molecular characterization of POLE mutations as predictive biomarkers of response to ICIs. *JCO Precision Oncology*.** — 458 tumors; pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS.
-- **Pietrantonio F et al. (2024) ICIs for POLE/POLD1 proofreading-deficient metastatic CRC. *Annals of Oncology*.** — POLE signature ≥78.5% predicts response.
-- **Sawant A et al. (2025) Immune checkpoint blockade delays cancer development in DNA polymerase mutator syndromes. *Cancer Research* 85(6):1130–1144.** — Preventive ICB in mouse models.
+- **Garmezy B et al. (2022) Clinical and molecular characterization of POLE mutations as predictive biomarkers of response to ICIs. *JCO Precision Oncology*.** ; 458 tumors; pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS.
+- **Pietrantonio F et al. (2024) ICIs for POLE/POLD1 proofreading-deficient metastatic CRC. *Annals of Oncology*.** ; POLE signature ≥78.5% predicts response.
+- **Sawant A et al. (2025) Immune checkpoint blockade delays cancer development in DNA polymerase mutator syndromes. *Cancer Research* 85(6):1130–1144.** ; Preventive ICB in mouse models.
 - Wang F et al. (2019) Evaluation of POLE and POLD1 mutations as biomarkers for immunotherapy outcomes across multiple cancer types. *JAMA Oncology* 5(10):1504–1506.
 - Rousseau B et al. (2021) The spectrum of benefit from checkpoint blockade in hypermutated tumors. *NEJM* 384(12):1168–1170.
 
@@ -627,60 +627,60 @@ Foundational investments that redefine the field.
 
 ### Translational Reinitiation & NMD
 
-- **Sherlock ME et al. (2023) Principles, mechanisms, and biological implications of translation termination-reinitiation. *RNA* 29(7):865–884.** — Definitive review of reinitiation after premature stops; directly relevant to Model 2.
-- Kozak M (1986) Point mutations define a sequence flanking the AUG initiator codon that modulates translation by eukaryotic ribosomes. *Cell* 44:283–292. — Foundational description of Kozak consensus sequence.
-- Kozak M (1987) An analysis of 5'-noncoding sequences from 699 vertebrate messenger RNAs. *Nucleic Acids Research* 15:8125–8148. — Comprehensive Kozak context analysis; strong consensus: GCC(A/G)CCAUGG.
-- Lindeboom RGH, Supek F, Lehner B (2016) The rules and impact of nonsense-mediated mRNA decay in human cancers. *Nature Genetics* 48(10):1112–1118. — Systematic NMD rules from 9,769 tumors; foundational for predicting NMD escape of c.138del.
-- Lindeboom RGH et al. (2019) The impact of nonsense-mediated mRNA decay on genetic disease, gene editing and cancer immunotherapy. *Nature Genetics* 51(11):1645–1651. — NMDetective resource for genome-wide NMD prediction.
+- **Sherlock ME et al. (2023) Principles, mechanisms, and biological implications of translation termination-reinitiation. *RNA* 29(7):865–884.** ; Definitive review of reinitiation after premature stops; directly relevant to Model 2.
+- Kozak M (1986) Point mutations define a sequence flanking the AUG initiator codon that modulates translation by eukaryotic ribosomes. *Cell* 44:283–292. ; Foundational description of Kozak consensus sequence.
+- Kozak M (1987) An analysis of 5'-noncoding sequences from 699 vertebrate messenger RNAs. *Nucleic Acids Research* 15:8125–8148. ; Comprehensive Kozak context analysis; strong consensus: GCC(A/G)CCAUGG.
+- Lindeboom RGH, Supek F, Lehner B (2016) The rules and impact of nonsense-mediated mRNA decay in human cancers. *Nature Genetics* 48(10):1112–1118. ; Systematic NMD rules from 9,769 tumors; foundational for predicting NMD escape of c.138del.
+- Lindeboom RGH et al. (2019) The impact of nonsense-mediated mRNA decay on genetic disease, gene editing and cancer immunotherapy. *Nature Genetics* 51(11):1645–1651. ; NMDetective resource for genome-wide NMD prediction.
 
 ### POLE Domain Architecture & Biochemistry
 
-- **Liu W, Linn S (2000) Proteolysis of the human DNA polymerase epsilon catalytic subunit by caspase-3 and calpain specifically during apoptosis. *Nucleic Acids Research* 28(21):4180–4189. [PMID: 11058115](https://pubmed.ncbi.nlm.nih.gov/11058115/)** — Defines the three-domain architecture of POLE: N-terminal (1–267), core catalytic (268–1166), C-terminal regulatory (1167–2285). Foundational for domain boundary conventions used throughout this framework.
-- **Korona DA, LeCompte KG, Pursell ZF (2011) The high fidelity and unique error signature of human DNA polymerase epsilon. *JBC* 286(3):2257–2266. [PMC3061053](https://pmc.ncbi.nlm.nih.gov/articles/PMC3061053/)** — Expresses and characterizes residues 1–1189 (the 140 kDa N-terminal catalytic fragment, "Pol epsilon-N140"), demonstrating it retains full polymerase and exonuclease activity. Defines the functional boundary of the catalytic fragment.
-- **Henninger EE, Pursell ZF (2014) DNA polymerase epsilon and its roles in genome stability. *IUBMB Life* 66(5):339–351. [PMID: 24861832](https://pubmed.ncbi.nlm.nih.gov/24861832/)** — Review covering POLE structure, fidelity, and genome stability functions.
-- **Kane DP, Shcherbakova PV (2014) A common cancer-associated DNA polymerase epsilon mutation causes an exceptionally strong mutator phenotype, indicating fidelity defects distinct from loss of proofreading. *Cancer Research* 74(7):2084–2095. [PMID: 24525744](https://pubmed.ncbi.nlm.nih.gov/24525744/)** — Demonstrates pol2-P301R (human P286R equivalent) has 50-fold higher mutator effect than exonuclease-inactive pol2-4 allele, proving the dominant-negative mechanism exceeds simple proofreading loss.
-- **Barbari SR, Shcherbakova PV (2019) POLE proofreading defects: contributions to mutagenesis and cancer. *DNA Repair* 76:50–59. [PMC6467506](https://pmc.ncbi.nlm.nih.gov/articles/PMC6467506/)** — Review establishing that all POLE ExoD mutations to date are heterozygous with no evidence of LOH in tumors; critical contrast with the LOH hypothesis for truncating variants.
+- **Liu W, Linn S (2000) Proteolysis of the human DNA polymerase epsilon catalytic subunit by caspase-3 and calpain specifically during apoptosis. *Nucleic Acids Research* 28(21):4180–4189. [PMID: 11058115](https://pubmed.ncbi.nlm.nih.gov/11058115/)** ; Defines the three-domain architecture of POLE: N-terminal (1–267), core catalytic (268–1166), C-terminal regulatory (1167–2285). Foundational for domain boundary conventions used throughout this framework.
+- **Korona DA, LeCompte KG, Pursell ZF (2011) The high fidelity and unique error signature of human DNA polymerase epsilon. *JBC* 286(3):2257–2266. [PMC3061053](https://pmc.ncbi.nlm.nih.gov/articles/PMC3061053/)** ; Expresses and characterizes residues 1–1189 (the 140 kDa N-terminal catalytic fragment, "Pol epsilon-N140"), demonstrating it retains full polymerase and exonuclease activity. Defines the functional boundary of the catalytic fragment.
+- **Henninger EE, Pursell ZF (2014) DNA polymerase epsilon and its roles in genome stability. *IUBMB Life* 66(5):339–351. [PMID: 24861832](https://pubmed.ncbi.nlm.nih.gov/24861832/)** ; Review covering POLE structure, fidelity, and genome stability functions.
+- **Kane DP, Shcherbakova PV (2014) A common cancer-associated DNA polymerase epsilon mutation causes an exceptionally strong mutator phenotype, indicating fidelity defects distinct from loss of proofreading. *Cancer Research* 74(7):2084–2095. [PMID: 24525744](https://pubmed.ncbi.nlm.nih.gov/24525744/)** ; Demonstrates pol2-P301R (human P286R equivalent) has 50-fold higher mutator effect than exonuclease-inactive pol2-4 allele, proving the dominant-negative mechanism exceeds simple proofreading loss.
+- **Barbari SR, Shcherbakova PV (2019) POLE proofreading defects: contributions to mutagenesis and cancer. *DNA Repair* 76:50–59. [PMC6467506](https://pmc.ncbi.nlm.nih.gov/articles/PMC6467506/)** ; Review establishing that all POLE ExoD mutations to date are heterozygous with no evidence of LOH in tumors; critical contrast with the LOH hypothesis for truncating variants.
 
 ### POLE Holoenzyme Structure
 
-- **Yuan Z et al. (2020) Structure of the polymerase epsilon holoenzyme and atomic model of the leading strand replisome. *Nature Communications* 11:3156.** — First cryo-EM of Pol epsilon holoenzyme (yeast, 3.5 A); critical for Model 3 (holoenzyme poisoning).
-- **Roske JJ, Yeeles JTP (2024) Structural basis for processive daughter-strand synthesis and proofreading by the human leading-strand DNA polymerase Pol epsilon. *Nature Structural & Molecular Biology* 31(12):1921–1931.** — Human Pol epsilon cryo-EM: polymerase-exonuclease switching pathway.
-- He Q et al. (2024) Structures of the human leading strand Pol-epsilon-PCNA holoenzyme. *Nature Communications* 15:7847. — Human Pol epsilon-PCNA-DNA complex structures.
+- **Yuan Z et al. (2020) Structure of the polymerase epsilon holoenzyme and atomic model of the leading strand replisome. *Nature Communications* 11:3156.** ; First cryo-EM of Pol epsilon holoenzyme (yeast, 3.5 A); critical for Model 3 (holoenzyme poisoning).
+- **Roske JJ, Yeeles JTP (2024) Structural basis for processive daughter-strand synthesis and proofreading by the human leading-strand DNA polymerase Pol epsilon. *Nature Structural & Molecular Biology* 31(12):1921–1931.** ; Human Pol epsilon cryo-EM: polymerase-exonuclease switching pathway.
+- He Q et al. (2024) Structures of the human leading strand Pol-epsilon-PCNA holoenzyme. *Nature Communications* 15:7847. ; Human Pol epsilon-PCNA-DNA complex structures.
 
 ### POLE in Endometrial Cancer
 
-- **TCGA Research Network (2013) Integrated genomic characterization of endometrial carcinoma. *Nature* 497:67–73.** — Defined the four molecular subtypes of endometrial cancer, including the POLE-ultramutated subgroup.
-- Church DN et al. (2013) DNA polymerase epsilon and delta exonuclease domain mutations in endometrial cancer. *Human Molecular Genetics* 22(14):2820–2828. — First systematic characterization of somatic POLE/POLD1 ExoD mutations in endometrial cancer.
+- **TCGA Research Network (2013) Integrated genomic characterization of endometrial carcinoma. *Nature* 497:67–73.** ; Defined the four molecular subtypes of endometrial cancer, including the POLE-ultramutated subgroup.
+- Church DN et al. (2013) DNA polymerase epsilon and delta exonuclease domain mutations in endometrial cancer. *Human Molecular Genetics* 22(14):2820–2828. ; First systematic characterization of somatic POLE/POLD1 ExoD mutations in endometrial cancer.
 
 ### Mutational Signature Catalog
 
-- **Alexandrov LB et al. (2020) The repertoire of mutational signatures in human cancer. *Nature* 578:94–101.** — COSMIC v3 catalog: 49 SBS, 11 DBS, 17 ID signatures from 4,645 whole genomes. Reference standard for SBS10a/b/28.
+- **Alexandrov LB et al. (2020) The repertoire of mutational signatures in human cancer. *Nature* 578:94–101.** ; COSMIC v3 catalog: 49 SBS, 11 DBS, 17 ID signatures from 4,645 whole genomes. Reference standard for SBS10a/b/28.
 
 ### Colonic Crypt Dynamics & Tissue Kinetics
 
-- **Lee-Six H et al. (2019) The landscape of somatic mutation in normal colorectal epithelial cells. *Nature* 574:532–537.** — WGS of normal crypts from 42 individuals; baseline comparator for Model 4 haploinsufficiency.
-- Barker N (2014) Adult intestinal stem cells: critical drivers of epithelial homeostasis and regeneration. *Nature Reviews Molecular Cell Biology* 15:19–33. — Colonic crypt stem cell division rates.
-- Coclet J et al. (1989) Cell population kinetics in dog and human adult thyroid. *Clinical Endocrinology* 31:655–665. — Thyroid follicular cell turnover (~5–8 years in adults).
-- Gargett CE et al. (2016) Endometrial stem/progenitor cells: the first 10 years. *Human Reproduction Update* 22:137–163. — Endometrial regeneration and stem cell dynamics.
+- **Lee-Six H et al. (2019) The landscape of somatic mutation in normal colorectal epithelial cells. *Nature* 574:532–537.** ; WGS of normal crypts from 42 individuals; baseline comparator for Model 4 haploinsufficiency.
+- Barker N (2014) Adult intestinal stem cells: critical drivers of epithelial homeostasis and regeneration. *Nature Reviews Molecular Cell Biology* 15:19–33. ; Colonic crypt stem cell division rates.
+- Coclet J et al. (1989) Cell population kinetics in dog and human adult thyroid. *Clinical Endocrinology* 31:655–665. ; Thyroid follicular cell turnover (~5–8 years in adults).
+- Gargett CE et al. (2016) Endometrial stem/progenitor cells: the first 10 years. *Human Reproduction Update* 22:137–163. ; Endometrial regeneration and stem cell dynamics.
 
 ### POLE Mouse Models
 
-- **Albertson TM et al. (2009) DNA polymerase epsilon and delta proofreading suppress discrete mutator and cancer phenotypes in mice. *PNAS* 106(40):17101–17104.** — Homozygous proofreading-dead mice: intestinal adenocarcinomas, ~65x mutation rate. Heterozygotes showed ~15x elevated mutation rate — a measurable mutator phenotype, though insufficient for overt cancer. Supports Model 4 (haploinsufficiency produces mild mutagenesis) and Model 1 (LOH required for full cancer phenotype).
+- **Albertson TM et al. (2009) DNA polymerase epsilon and delta proofreading suppress discrete mutator and cancer phenotypes in mice. *PNAS* 106(40):17101–17104.** ; Homozygous proofreading-dead mice: intestinal adenocarcinomas, ~65x mutation rate. Heterozygotes showed ~15x elevated mutation rate ; a measurable mutator phenotype, though insufficient for overt cancer. Supports Model 4 (haploinsufficiency produces mild mutagenesis) and Model 1 (LOH required for full cancer phenotype).
 
 ### WRN Synthetic Lethality & CRISPR Screens
 
-- **Chan EM et al. (2019) WRN helicase is a synthetic lethal target in microsatellite unstable cancers. *Nature* 568:551–556.** — WRN essential in MSI models; relevant if POLE tumors acquire secondary MMR loss.
-- Behan FM et al. (2019) Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens. *Nature* 568:511–516. — DepMap/Sanger screen across 324 cancer cell lines; framework for systematic synthetic lethal target identification.
+- **Chan EM et al. (2019) WRN helicase is a synthetic lethal target in microsatellite unstable cancers. *Nature* 568:551–556.** ; WRN essential in MSI models; relevant if POLE tumors acquire secondary MMR loss.
+- Behan FM et al. (2019) Prioritization of cancer therapeutic targets using CRISPR-Cas9 screens. *Nature* 568:511–516. ; DepMap/Sanger screen across 324 cancer cell lines; framework for systematic synthetic lethal target identification.
 
 ### Thyroid Cancer Genomics
 
-- TCGA Research Network (2014) Integrated genomic characterization of papillary thyroid carcinoma. *Cell* 159(3):676–690. — Genomic landscape of 496 PTCs; context for the patient's thyroid carcinoma outside the established PPAP spectrum.
+- TCGA Research Network (2014) Integrated genomic characterization of papillary thyroid carcinoma. *Cell* 159(3):676–690. ; Genomic landscape of 496 PTCs; context for the patient's thyroid carcinoma outside the established PPAP spectrum.
 
 ### Endometriosis Genomics
 
-- **Anglesio MS et al. (2017) Cancer-associated mutations in endometriosis without cancer. *NEJM* 376(19):1835–1848.** — 79% of patients with deep infiltrating endometriosis harbor cancer-associated somatic mutations in at least one lesion (26% of individual lesions had driver mutations); foundational for the POLE-endometriosis hypothesis.
-- Lac V et al. (2022) Molecular analysis suggests oligoclonality and metastasis of endometriosis lesions across anatomically defined subtypes. *Fertility and Sterility*. — Identical somatic mutations across anatomically distinct lesion types; oligoclonal dissemination model.
-- Suda K et al. (2018) Clonal expansion and diversification of cancer-associated mutations in endometriosis and normal endometrium. *Cell Reports*. — Clonal architecture of endometriosis.
+- **Anglesio MS et al. (2017) Cancer-associated mutations in endometriosis without cancer. *NEJM* 376(19):1835–1848.** ; 79% of patients with deep infiltrating endometriosis harbor cancer-associated somatic mutations in at least one lesion (26% of individual lesions had driver mutations); foundational for the POLE-endometriosis hypothesis.
+- Lac V et al. (2022) Molecular analysis suggests oligoclonality and metastasis of endometriosis lesions across anatomically defined subtypes. *Fertility and Sterility*. ; Identical somatic mutations across anatomically distinct lesion types; oligoclonal dissemination model.
+- Suda K et al. (2018) Clonal expansion and diversification of cancer-associated mutations in endometriosis and normal endometrium. *Cell Reports*. ; Clonal architecture of endometriosis.
 
 ### Loss of Heterozygosity
 
@@ -755,13 +755,13 @@ POLE-Frameshift/
 
 > *If confirmed and generalized beyond this single case, the mechanistic resolution could have implications for how truncating POLE variants are classified in clinical genetics.*
 
-This is an n=1 observation. Confirmation requires: (1) resolving the mechanism in this patient (LOH analysis, duplex sequencing), (2) demonstrating the same mechanism operates in other POLE truncation carriers, and (3) replication in independent cases. If the two-hit / LOH model is confirmed and generalizes, some truncating POLE variants currently classified as **likely benign** (on the assumption that haploinsufficiency is benign) may warrant reclassification — a more contentious claim than simply reclassifying VUS, since it challenges existing benign classifications. A systematic ClinVar review of truncating POLE variant classifications would be a valuable companion analysis.
+This is an n=1 observation. Confirmation requires: (1) resolving the mechanism in this patient (LOH analysis, duplex sequencing), (2) demonstrating the same mechanism operates in other POLE truncation carriers, and (3) replication in independent cases. If the two-hit / LOH model is confirmed and generalizes, some truncating POLE variants currently classified as **likely benign** (on the assumption that haploinsufficiency is benign) may warrant reclassification ; a more contentious claim than simply reclassifying VUS, since it challenges existing benign classifications. A systematic ClinVar review of truncating POLE variant classifications would be a valuable companion analysis.
 
 The reported ultra-hypermutated phenotype (TMB >100 mut/Mb, pending WGS confirmation) simultaneously creates:
 
-- **Immediate therapeutic opportunity** — ICI eligibility with strong evidence of efficacy
-- **A natural experiment** — for understanding DNA polymerase fidelity thresholds in human cancer
-- **A paradigm test** — for whether POLE can function as a tumor suppressor through the classical Knudson two-hit mechanism
+- **Immediate therapeutic opportunity** ; ICI eligibility with strong evidence of efficacy
+- **A natural experiment** ; for understanding DNA polymerase fidelity thresholds in human cancer
+- **A paradigm test** ; for whether POLE can function as a tumor suppressor through the classical Knudson two-hit mechanism
 
 ---
 
@@ -771,10 +771,10 @@ This is an active research framework. Contributions are welcome from structural 
 
 **Key ways to participate:**
 
-- **Submit a case report** — If you have a patient with a POLE truncating variant, use our [structured issue template](https://github.com/Bloomed-Health/POLE-Frameshift/issues/new?template=pole-case-report.yml)
-- **Join the discussion** — Visit [Discussions](https://github.com/Bloomed-Health/POLE-Frameshift/discussions) to ask questions, propose mechanistic models, or offer collaboration
-- **Contribute code or analysis** — Fork the repo and open a pull request
-- **New to POLE/PPAP?** — See the [FAQ](FAQ.md) for a plain-language overview
+- **Submit a case report** ; If you have a patient with a POLE truncating variant, use our [structured issue template](https://github.com/Bloomed-Health/POLE-Frameshift/issues/new?template=pole-case-report.yml)
+- **Join the discussion** ; Visit [Discussions](https://github.com/Bloomed-Health/POLE-Frameshift/discussions) to ask questions, propose mechanistic models, or offer collaboration
+- **Contribute code or analysis** ; Fork the repo and open a pull request
+- **New to POLE/PPAP?** ; See the [FAQ](FAQ.md) for a plain-language overview
 
 ---
 

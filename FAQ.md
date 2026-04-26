@@ -33,6 +33,8 @@ PPAP is characterized by tumors with an extremely high number of mutations ; cal
 
 This variant has been **confirmed as a germline (constitutional) variant** through accredited clinical germline testing with orthogonal confirmation from blood/saliva-derived DNA. It is **ultra-rare**: it has never been observed in any major population database (including gnomAD v4.1.0, accessed April 2026, which contains genetic data from hundreds of thousands of individuals).
 
+**Classification note:** The clinical laboratory classified this variant as pathogenic. However, an independent assessment of the ACMG evidence (PM2 + PP4) supports classification as a variant of uncertain significance (VUS) under strict point counting. Pathogenicity is treated as a working hypothesis pending functional or segregation data.
+
 ---
 
 ## What does the patient's phenotype look like?
@@ -41,11 +43,11 @@ The patient's presentation spans **five distinct categories**, which is what mak
 
 1. **Neoplastic** ; ~15 adenomatous polyps across the stomach, cecum, and sigmoid colon, plus a Stage I papillary thyroid carcinoma (encapsulated, non-invasive, 1.2 cm, isthmus; not previously linked to PPAP)
 2. **Proliferative/stromal** ; Bilateral breast changes with pseudoangiomatous stromal hyperplasia (PASH) and liver focal nodular hyperplasia (FNH) ; a pattern of vascular/stromal proliferation across multiple organs
-3. **Endometrial** ; Stage IV+ deep infiltrating endometriosis with trans-diaphragmatic invasion and intestinal adhesions, plus diffuse adenomyosis ; extraordinarily severe, affecting one of the most POLE-vulnerable tissues
+3. **Endometrial** ; Stage IV+ deep infiltrating endometriosis with trans-diaphragmatic invasion and intestinal adhesions, plus diffuse adenomyosis ; extraordinarily severe. Note: hEDS independently causes severe endometriosis, so the POLE contribution to endometrial severity is uncertain without molecular confirmation
 4. **Congenital developmental** ; A duplicated inferior vena cava (a vascular anomaly present from birth), which **cannot** be caused by a tumor-specific mutation and argues that POLE dysfunction has effects during embryonic development
 5. **Autoimmune/immune** ; ANA 1:160 with reticular cytoplasmic AC-21 pattern, associated with anti-mitochondrial antibodies (AMA) ; may reflect immune recognition of mitochondrial damage caused by POLE-driven mutagenesis of nuclear-encoded mitochondrial genes
 
-This breadth suggests POLE dysfunction is truly systemic, affecting tissue biology at a developmental and immunological level, not just through tumor mutation accumulation.
+This breadth raises the question of whether POLE dysfunction is truly systemic, affecting tissue biology at a developmental and immunological level, not just through tumor mutation accumulation. However, hEDS/POTS may independently explain some of these features (endometriosis severity, GI dysmotility, some vascular findings), and molecular testing is needed to disentangle the contributions.
 
 ---
 
@@ -57,13 +59,13 @@ The c.138del variant is fundamentally different. It cuts the protein off so earl
 
 > **Important caveat:** Before attributing the phenotype to POLE-driven pathology, mismatch repair deficiency must be excluded as an alternative explanation. MMR IHC, MSI testing, and MLH1 promoter methylation analysis are pending. Without these, a reviewer cannot distinguish genuine POLE-driven hypermutation from an MMR-deficient phenocopy. The germline panel excludes Lynch syndrome, but somatic MMR inactivation remains possible.
 
-This creates a **mechanistic paradox** that, if resolved, could change how an entire category of POLE variants is classified in clinical genetics.
+This creates a **mechanistic paradox** that, if resolved, could inform how truncating POLE variants are evaluated in clinical genetics. PPAP is a working hypothesis for this variant type; classical PPAP is defined by ExoD missense variants, and whether a frameshift can produce a PPAP-like phenotype through a non-canonical mechanism is the central question under investigation. It is also possible that the variant is incidental and the phenotype has a different explanation (see Model 0: Null Hypothesis).
 
 ---
 
 ## What does this mean for other patients?
 
-If the research confirms that truncating POLE variants (variants that cut the protein short) can cause PPAP, it would mean:
+If the research confirms that truncating POLE variants (variants that cut the protein short) can produce a PPAP-like phenotype through a non-canonical mechanism, and if findings are replicated, it would mean:
 
 - **Variants currently classified as "uncertain significance" (VUS) may actually be pathogenic.** Some people carrying truncating POLE variants may be at cancer risk that is currently unrecognized.
 - **Genetic testing interpretation may need to change.** Clinical genetics laboratories may need to reclassify truncating POLE variants.

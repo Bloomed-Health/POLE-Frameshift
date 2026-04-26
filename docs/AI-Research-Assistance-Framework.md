@@ -76,7 +76,7 @@ Clinical trial outcome data mentioning POLE. Mining published trial results, con
 
 The real power isn't in any individual data source ; it's in the integration. With all of the above available, an AI system could:
 
-**Build a quantitative mechanistic model** that predicts the probability of each of the six candidate mechanisms given the patient's specific genomic context, structural biology data, and evolutionary constraints. Rather than qualitatively listing possibilities, the model would assign conditional probabilities: given the structure of the first 54 residues, the Kozak scores of downstream AUGs, the constraint metrics, and the mouse model phenotypes, reinitiation at a specific methionine has X% probability of producing a functional polymerase-only protein.
+**Build a quantitative mechanistic model** that predicts the probability of each of the seven candidate mechanisms (including the null hypothesis) given the patient's specific genomic context, structural biology data, and evolutionary constraints. Rather than qualitatively listing possibilities, the model would assign conditional probabilities: given the structure of the first 54 residues, the Kozak scores of downstream AUGs, the constraint metrics, and the mouse model phenotypes, reinitiation at a specific methionine has X% probability of producing a functional polymerase-only protein.
 
 **Perform virtual drug screening** by combining the DepMap dependency data from POLE-mutant cell lines, the ATR/PARP/WRN synthetic lethality literature, the patient's predicted HLA-neoantigen landscape, and the pharmacogenomic profile to rank therapeutic strategies not just by biological rationale but by predicted efficacy, toxicity, and accessibility.
 

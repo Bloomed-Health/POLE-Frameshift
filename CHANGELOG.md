@@ -4,6 +4,81 @@ All notable updates to the POLE c.138del Research Framework will be documented i
 
 ---
 
+## [0.6.0] ; 2026-04-26
+
+### Changed (Peer Review Epistemic Calibration)
+
+Comprehensive recalibration of epistemic posture across the framework in response to peer reviewer feedback. The variant is reframed as a VUS (not pathogenic), PPAP becomes a working hypothesis (not a diagnosis), grandiose claims are softened, and a null hypothesis (variant is incidental) is added.
+
+**Variant classification reframing:**
+
+- Variant reframed across all files: "pathogenic frameshift variant" replaced with "frameshift variant (classified pathogenic by clinical laboratory; independently assessed as VUS pending functional/segregation data)"
+- Independent ACMG evidence assessment (PM2 + PP4 = VUS under strict point counting) added to `CLAUDE.md`, `README.md`, `docs/clinical_case_summary.md`, `data/clinvar_submission/README.md`
+- Pathogenicity treated as a working hypothesis throughout; both the clinical lab's pathogenic call and independent VUS assessment are acknowledged
+
+**PPAP working hypothesis:**
+
+- PPAP reframed as a working hypothesis throughout: classical PPAP is defined by ExoD missense variants; whether a frameshift can produce PPAP through a non-canonical mechanism is the central question
+- "clinically consistent with PPAP" qualified with "(working hypothesis; PPAP is currently defined by ExoD missense variants)" in `CLAUDE.md` and key sections of `README.md`
+
+**Model 0: Null Hypothesis added:**
+
+- New **Model 0: Null Hypothesis (Variant Is Incidental)** added to `models/mechanistic_models.md` with full hypothesis statement, supporting evidence table, falsifiable predictions, exclusion criteria, and relationship to other models
+- Model 0 summary added to `README.md` Candidate Mechanistic Models section
+- "Six Candidate Models" updated to "Seven Candidate Mechanistic Models (Including Null Hypothesis)" in `CLAUDE.md` and `README.md`
+- Both outcomes (variant causal vs. incidental) framed as scientifically valuable
+
+**Grandiose claims softened:**
+
+- "could restructure how POLE truncation variants are classified" replaced with "if mechanistic evidence is found and the findings replicate, it could inform how truncating POLE variants are evaluated" in `README.md`
+- "Redefines PPAP boundaries" replaced with "Would require reassessment of PPAP boundaries" in `README.md` and `analysis/mutational_signatures/README.md`
+- "Would redefine what PPAP is as a syndrome" replaced with "Would require reassessment of whether the PPAP label applies, or whether a distinct syndrome is involved" in `README.md`
+- "Foundational investments that redefine the field" replaced with "Long-term investigations requiring substantial infrastructure" in `README.md`
+- "reclassify an entire category" replaced with "inform the evaluation of truncating POLE variants" in `CONTRIBUTING.md`
+- "could change how an entire category of POLE variants is classified" replaced with "could inform how truncating POLE variants are evaluated, if findings are replicated" in `FAQ.md`
+- "can cause PPAP" replaced with "can produce a PPAP-like phenotype through a non-canonical mechanism" in `FAQ.md`
+
+**Family history updated:**
+
+- "No family member has polyposis; polyposis appears isolated to the patient" added to `CLAUDE.md`, `README.md`, `docs/clinical_case_summary.md`
+- "core PPAP malignancy" replaced with "a core malignancy in classical PPAP, though also common at population level" in `CLAUDE.md` and `docs/clinical_case_summary.md`
+- "Raises possibility of maternal inheritance" replaced with acknowledgment that grandmother's cancers are common at population base rates in `CLAUDE.md`
+
+**hEDS confounding acknowledged:**
+
+- "suggesting that POLE haploinsufficiency affects tissue biology" softened to acknowledge hEDS may explain some features in `README.md`
+- hEDS confounding caveat added to `therapeutics/surveillance_protocol.md`: gastroparesis, dysmotility, endometriosis severity are most parsimoniously explained by hEDS/POTS
+- "affecting one of the most POLE-vulnerable tissues" replaced with hEDS caveat in `FAQ.md`
+- "POLE dysfunction is truly systemic" softened to "raises the question of whether" with hEDS/POTS acknowledgment in `FAQ.md`
+- SFN/gastroparesis explanation clarified in `docs/systematic_health_history.md`: hEDS/POTS is the primary known cause
+
+**82.4% CBR caveat added:**
+
+- "(ExoD missense cohort; extrapolation to frameshift assumes same mutational mechanism)" added after 82.4% CBR in `CLAUDE.md`, `README.md`, `docs/clinical_case_summary.md`, `therapeutics/immunotherapy_strategy.md`
+- "(ExoD missense cohort; applicability to frameshift unvalidated)" added to Garmezy reference in `README.md`
+
+**Variant-level vs. cell-level distinction:**
+
+- Germline state (haploinsufficiency) vs. tumor state (POLE-null if LOH occurs) explicitly distinguished in `therapeutics/synthetic_lethality.md`
+
+**WGS gap foregrounded:**
+
+- Named missing genes (MBD4, RNF43, FAN1, MCM8/MCM9) added to panel limitations in `CLAUDE.md`, `README.md`, `docs/clinical_case_summary.md`
+- "Clinical WGS/WES with germline reanalysis is a critical gap" added throughout
+- Clinical WGS/WES added as new immediate priority item (#2) in Research Prioritization Timeline in `README.md`
+
+**MMR functional assay added:**
+
+- In vitro MMR functional repair assay added alongside existing MMR IHC/MSI in `README.md` and `docs/clinical_case_summary.md`
+
+**Scientific positioning revised:**
+
+- New "Scientific Positioning" section added before Clinical Significance Statement in `README.md`: "Both outcomes ; variant is causal or variant is incidental ; are scientifically valuable"
+- PPAP references qualified as "if PPAP working hypothesis is correct" in `therapeutics/surveillance_protocol.md`
+- "standard PPAP protocol" replaced with "standard polyposis surveillance" in `README.md`
+
+---
+
 ## [0.5.5] ; 2026-04-25
 
 ### Changed (Evidence Status Revision ; Confirmed Findings & Pending Tumour Data)

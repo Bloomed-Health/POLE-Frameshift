@@ -28,7 +28,7 @@ Output: Signature contribution weights (COSMIC v3.4 SBS, DBS, ID)
 ## Interpretation Framework
 
 - **SBS10a/b ≥50%:** Canonical POLE mechanism ; favors LOH or reinitiation models
-- **SBS10a/b <10%, MMR signatures dominant:** Non-POLE mechanism ; redefines the syndrome
+- **SBS10a/b <10%, MMR signatures dominant:** Non-POLE mechanism ; would require reassessment of the PPAP hypothesis for this case
 - **Novel signature:** Previously undescribed mutational process ; requires further characterization
 - **POLE signature ≥78.5%:** Predicts ICI response (Pietrantonio et al., Annals of Oncology 2024)
 

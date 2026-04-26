@@ -82,7 +82,7 @@ Each section explains **why** the information is relevant to the POLE research f
 
 ## 5. Neurological
 
-**Why it matters:** Small fiber neuropathy (SFN) is common in hEDS/POTS and contributes to enteric neuropathy (compounding gastroparesis). Neurological findings may also reflect POLE-driven mutagenesis in neural progenitor cells (POLE-mutant glioblastomas are reported in PPAP).
+**Why it matters:** Small fiber neuropathy (SFN) is common in hEDS/POTS and contributes to enteric neuropathy (compounding gastroparesis). SFN and gastroparesis are most parsimoniously explained by hEDS/POTS in this population; POLE-driven mutagenesis in neural progenitor cells is speculative and should not be assumed without evidence. POLE-mutant glioblastomas are reported in PPAP (from ExoD missense variants), but this is a distinct mechanism from haploinsufficiency-mediated neurological effects.
 
 - [ ] Small fiber neuropathy symptoms (burning, tingling, numbness, allodynia)?
 - [ ] Distribution of neuropathic symptoms (length-dependent, patchy, proximal)?

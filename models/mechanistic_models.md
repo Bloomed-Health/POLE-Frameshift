@@ -4,6 +4,44 @@ This document states each candidate model as a formal hypothesis with specific, 
 
 ---
 
+## Model 0: Null Hypothesis (Variant Is Incidental)
+
+### Hypothesis
+
+POLE c.138del is a passenger variant that does not causally contribute to the patient's phenotype. The multi-cancer and multi-system presentation is driven by an unidentified genetic variant (not covered by the 47-gene panel), a combination of common conditions (hEDS explaining endometriosis severity, stochastic polyp accumulation, coincidental thyroid carcinoma), or an as-yet-unrecognized syndrome unrelated to POLE.
+
+### Supporting Evidence
+
+| # | Evidence | Detail |
+|---|---------|--------|
+| 0a | **188 gnomAD LoF carriers** | POLE tolerates heterozygous LoF at population level (pLI ≈ 0, LOEUF = 0.76); 188 LoF variants observed without apparent PPAP, implying heterozygous truncation alone is insufficient for the cancer phenotype |
+| 0b | **Limited gene panel** | The 47-gene panel does not cover MBD4, RNF43, FAN1, MCM8/MCM9, GREM1 regulatory variants, connective tissue genes, or structural variation. Clinical WGS/WES has not been performed; an alternative driver may exist in untested genes |
+| 0c | **No functional data** | No functional assay has demonstrated that c.138del alters POLE activity, mutation rates, or holoenzyme assembly in patient-derived cells |
+| 0d | **No segregation data** | Parental testing is unavailable; it is unknown whether the variant is de novo or inherited, and no affected relatives have been tested |
+| 0e | **hEDS explains some features** | hEDS independently causes severe endometriosis, GI dysmotility, gastroparesis, and some vascular findings; these features do not require a POLE-mediated explanation |
+| 0f | **TMB unverified** | The reported TMB >100 mut/Mb lacks full methodology documentation; mutational signatures (SBS10a/b) have not been confirmed |
+
+### Falsifiable Predictions
+
+| # | Prediction | Experiment | If TRUE (supports null) | If FALSE (weakens null) |
+|---|-----------|------------|------------------------|------------------------|
+| 0a | Clinical WGS/WES will identify an alternative pathogenic variant explaining the phenotype | Germline WGS with reanalysis | Alternative driver found; POLE c.138del is incidental | No alternative driver; POLE remains the sole candidate |
+| 0b | Tumor mutational signatures will NOT show SBS10a/b/28 | SigProfiler decomposition on tumor WGS | Non-POLE signatures; variant is likely incidental to ultra-hypermutation | SBS10a/b present; POLE mechanism implicated |
+| 0c | NanoSeq on normal blood will show normal somatic mutation rates | Duplex sequencing vs. age-matched controls | No germline-level effect of POLE haploinsufficiency | Elevated rates with SBS10a/b; haploinsufficiency confirmed |
+| 0d | No LOH at POLE locus in tumor | ASCAT/FACETS on paired tumor-normal WGS | Weakens LOH model; if also no SBS10a/b, strongly supports null | LOH present; two-hit mechanism supports POLE causation |
+
+### Exclusion Criteria
+
+Model 0 is **excluded** if: (1) tumor mutational signatures show SBS10a/b/28 (directly implicating POLE mechanism), OR (2) NanoSeq on normal cells shows elevated mutation rates with POLE-characteristic trinucleotide context, OR (3) LOH at the POLE locus is demonstrated in tumor tissue AND mutational signatures are POLE-characteristic, OR (4) clinical WGS identifies no alternative driver AND functional assays demonstrate altered POLE activity in patient-derived cells.
+
+Model 0 is **strengthened** if: clinical WGS identifies a pathogenic variant in an untested gene that explains the phenotype, OR tumor signatures are non-POLE (MMR-deficient or other), OR somatic mutation rates are normal in patient cells.
+
+### Relationship to Other Models
+
+Model 0 is the mandatory comparator against which all other models must be tested. Both outcomes ; variant is causal (Models 1-6) or variant is incidental (Model 0) ; are scientifically valuable. If Model 0 is correct, the case still contributes to understanding the phenotypic spectrum of gnomAD POLE LoF carriers and demonstrates the importance of comprehensive genomic testing beyond targeted panels.
+
+---
+
 ## Model 1: Somatic Loss of Heterozygosity (LOH)
 
 ### Hypothesis
@@ -80,7 +118,7 @@ If NMD escape is tissue-specific, this could create a scenario where the truncat
 
 ### Prior Probability Assessment
 
-Model 3 has a **low prior probability**. Structural studies of the POLE holoenzyme (Yuan et al., 2020; Roske & Yeeles, 2024; He et al., 2024) show that the POLE–POLE2 interaction interface is mediated primarily by the **C-terminal domain** of POLE (residues ~1,265–2,286), not the N-terminal region. The truncated 54-residue peptide would need to engage a binding surface for which there is no structural precedent. AlphaFold modeling of the N-terminal region predicts limited stable secondary structure in isolation. Additionally, even if the peptide were produced, its stoichiometric competition with full-length wild-type POLE protein would require comparable POLE2 binding affinity ; unlikely for a 54-residue fragment vs. a 2,286-residue protein with extensive interface contacts. This model is retained for completeness and formal testability but is considered the least likely of the six candidates.
+Model 3 has a **low prior probability**. Structural studies of the POLE holoenzyme (Yuan et al., 2020; Roske & Yeeles, 2024; He et al., 2024) show that the POLE–POLE2 interaction interface is mediated primarily by the **C-terminal domain** of POLE (residues ~1,265–2,286), not the N-terminal region. The truncated 54-residue peptide would need to engage a binding surface for which there is no structural precedent. AlphaFold modeling of the N-terminal region predicts limited stable secondary structure in isolation. Additionally, even if the peptide were produced, its stoichiometric competition with full-length wild-type POLE protein would require comparable POLE2 binding affinity ; unlikely for a 54-residue fragment vs. a 2,286-residue protein with extensive interface contacts. This model is retained for completeness and formal testability but is considered the least likely of the seven candidates.
 
 ### Falsifiable Predictions
 
@@ -121,7 +159,7 @@ The gnomAD LoF tolerance data (188 observed LoF, pLI ≈ 0, LOEUF = 0.76) create
 
 ### Clinical Evidence Supporting Model 4
 
-The patient's phenotype provides the strongest clinical support for this model among all six candidates:
+The patient's phenotype provides the strongest clinical support for this model among all seven candidates:
 
 - **Congenital duplicated IVC:** A developmental anomaly present from embryogenesis cannot be caused by somatic LOH. Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during early embryogenesis. This suggests POLE haploinsufficiency has **developmental consequences** ; either through elevated embryonic mutation rates creating somatic mosaicism that disrupts vascular patterning, or through non-replicative POLE roles in developmental signaling. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass et al., 2000), so its presence in a single POLE carrier could be coincidental. However, the co-occurrence with multiple other vascular/stromal proliferative findings (bilateral PASH, liver FNH/hemangioma, splenoportal AV shunt) creates a pattern that is collectively more significant than any single finding.
 - **Severe endometriosis + adenomyosis:** The endometrium is a rapidly cycling tissue with high cell turnover ; exactly where replicative stress from half-dose POLE would be most consequential. The aggressive endometrial phenotype (Stage IV+ with diaphragmatic extension) without formal malignant transformation suggests POLE dysfunction alters endometrial biology at a **pre-malignant level**. Novel research question: does POLE haploinsufficiency contribute to endometriosis severity?
@@ -218,6 +256,7 @@ See `analysis/temporal_phenotype/turnover_vs_age_diagnosis.svg` for the visualiz
 
 | Model | Temporal Prediction | Consistent with Observed Sequence? |
 |-------|--------------------|------------------------------------|
+| **M0 (Null)** | No specific prediction; findings are coincidental or driven by unidentified cause | **Neutral** ; temporal pattern neither supports nor excludes incidental variant |
 | **M1 (LOH)** | No predicted temporal order ; LOH is stochastic; any tissue could be affected first | **Partially inconsistent** ; would predict random order, not turnover-correlated |
 | **M2 (Reinitiation)** | All tissues affected simultaneously (reinitiation is constitutive); diagnosis order depends on tissue sensitivity and clinical detection | **Partially consistent** ; but does not predict turnover-rate correlation |
 | **M3 (Poisoning)** | All tissues affected simultaneously; no turnover prediction | **Inconsistent** ; cannot explain turnover-correlated onset |
@@ -238,13 +277,13 @@ The pattern of ~6 adenomas at age 19 with continued new polyp formation at every
 
 The patient's multi-system phenotype provides immediate discriminatory evidence even before experimental results.
 
-| Finding | M1 (LOH) | M2 (Reinitiation) | M3 (Poisoning) | M4 (Haplo.) | M5 (Isoform) | M6 (Second-site) |
-|---------|----------|-------------------|----------------|-------------|-------------|------------------|
-| **Duplicated IVC (congenital)** | ❌ Cannot explain (LOH is somatic) | Neutral | Neutral | ✅ Supports (germline developmental effect) | Neutral | ❌ Cannot explain (somatic event) |
-| **Stage IV+ endometriosis** | Neutral | Neutral | Neutral | ✅ Supports (high-turnover tissue threshold) | Possible (isoform-specific endometrial effect) | Neutral |
-| **Bilateral PASH + liver FNH** | ❌ Unlikely (multi-organ, non-neoplastic) | Neutral | Neutral | ✅ Supports (systemic stromal/vascular proliferation) | Neutral | ❌ Unlikely (multi-organ) |
-| **Thyroid carcinoma** | Possible (organ-specific LOH) | Possible | Neutral | ✅ Supports (high mitotic rate gland) | Possible | Possible (organ-specific second hit) |
-| **GI polyposis** | Possible | Possible | Possible | ✅ Supports (high-turnover epithelium) | Possible | Possible |
+| Finding | M0 (Null) | M1 (LOH) | M2 (Reinitiation) | M3 (Poisoning) | M4 (Haplo.) | M5 (Isoform) | M6 (Second-site) |
+|---------|-----------|----------|-------------------|----------------|-------------|-------------|------------------|
+| **Duplicated IVC (congenital)** | Neutral (0.6-2.6% base rate) | ❌ Cannot explain (LOH is somatic) | Neutral | Neutral | ✅ Supports (germline developmental effect) | Neutral | ❌ Cannot explain (somatic event) |
+| **Stage IV+ endometriosis** | Possible (hEDS explains) | Neutral | Neutral | Neutral | ✅ Supports (high-turnover tissue threshold) | Possible (isoform-specific endometrial effect) | Neutral |
+| **Bilateral PASH + liver FNH** | Possible (common findings) | ❌ Unlikely (multi-organ, non-neoplastic) | Neutral | Neutral | ✅ Supports (systemic stromal/vascular proliferation) | Neutral | ❌ Unlikely (multi-organ) |
+| **Thyroid carcinoma** | Possible (sporadic PTC) | Possible (organ-specific LOH) | Possible | Neutral | ✅ Supports (high mitotic rate gland) | Possible | Possible (organ-specific second hit) |
+| **GI polyposis** | Weakens (progressive; hard to explain without genetic driver) | Possible | Possible | Possible | ✅ Supports (high-turnover epithelium) | Possible | Possible |
 
 **Summary:** The congenital duplicated IVC is the single most important clinical discriminator ; it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis) collectively argue against Model 1 operating alone, as LOH in each organ independently would be an extraordinary coincidence. The clinical phenotype most strongly supports Model 4, potentially in combination with Model 1 for tumor-specific ultra-hypermutation.
 
@@ -273,14 +312,16 @@ This matrix shows which experiments most efficiently discriminate between models
 As experimental results accumulate, formal Bayesian model comparison should be applied. For each experiment, the likelihood ratio for each model pair should be estimated:
 
 **Prior odds** (based on current clinical, structural, and population-genetic evidence):
-- M4 (Haploinsufficiency): ~35% ; strongest clinical support; congenital + multi-system phenotype. Revised down slightly from previous assessment: gnomAD LoF tolerance data (188 LoF variants, pLI ≈ 0) argues against haploinsufficiency alone producing the full cancer phenotype, but supports it for the systemic non-neoplastic findings
-- M1 (LOH): ~30% ; revised up: gnomAD data and Andrianova et al. (2024) recessive polymerase proofreading model strongly support LOH as required for tumor-specific ultra-hypermutation
-- M6 (Second-site): ~20% ; mechanistically straightforward; normal mutagenesis of single functional allele can acquire ExoD hotspot
+- M0 (Null hypothesis): ~10% ; must be formally considered given absence of functional data, no segregation data, limited panel, and hEDS explaining some features; weakened by variant absence from all population databases and negative 47-gene panel
+- M4 (Haploinsufficiency): ~30% ; strongest clinical support; congenital + multi-system phenotype. Revised down slightly from previous assessment: gnomAD LoF tolerance data (188 LoF variants, pLI ≈ 0) argues against haploinsufficiency alone producing the full cancer phenotype, but supports it for the systemic non-neoplastic findings
+- M1 (LOH): ~25% ; gnomAD data and Andrianova et al. (2024) recessive polymerase proofreading model strongly support LOH as required for tumor-specific ultra-hypermutation
+- M6 (Second-site): ~18% ; mechanistically straightforward; normal mutagenesis of single functional allele can acquire ExoD hotspot
 - M5 (Isoform): ~5% ; untested; neutral evidence
 - M2 (Reinitiation): ~5% ; low prior; unprecedented reinitiation distance; tissue-specific NMD studies (Tan 2025, Kolakada 2025) add complexity but do not change the fundamental improbability of >1 kb reinitiation
 - M3 (Poisoning): ~5% ; low prior; structurally implausible N-terminal POLE2 binding. However, Keskitalo et al. (2025) identified POLE2 as an NPF motif receptor ; any NPF-containing region in the truncated peptide warrants checking
+- *Note: percentages approximate, do not account for composite models (M4+M1); prior for M0 reflects the epistemic duty to test the null*
 
-**Updating rule:** After each experiment, update posterior odds using the likelihood ratios defined in the falsifiable predictions tables above. A model's posterior probability <1% after two independent experiments constitutes practical exclusion. Models are not mutually exclusive ; **M4+M1 operating in concert has the highest prior probability (~40%)** and is the most consistent with both the gnomAD population data (LoF tolerated → haploinsufficiency alone insufficient for cancer) and the clinical phenotype (systemic non-neoplastic findings → germline-level effects).
+**Updating rule:** After each experiment, update posterior odds using the likelihood ratios defined in the falsifiable predictions tables above. A model's posterior probability <1% after two independent experiments constitutes practical exclusion. Models are not mutually exclusive ; **M4+M1 operating in concert has the highest prior probability (~35%)** and is the most consistent with both the gnomAD population data (LoF tolerated → haploinsufficiency alone insufficient for cancer) and the clinical phenotype (systemic non-neoplastic findings → germline-level effects). Both outcomes (variant causal vs. incidental) are scientifically valuable.
 
 ### Structural Biology Updates
 

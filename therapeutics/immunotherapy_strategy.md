@@ -8,7 +8,7 @@ The POLE c.138del tumor has a reported TMB >100 mutations/Mb (assay platform and
 
 | Study | Key Finding |
 |-------|-------------|
-| Garmezy et al. (2022) *JCO Precision Oncology* | Pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS (n=458) |
+| Garmezy et al. (2022) *JCO Precision Oncology* | Pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS (n=458). **Caveat:** This data derives from ExoD missense variants; extrapolation to frameshift variants assumes the same mutational mechanism, which is the unresolved question for this case |
 | Ambrosini et al. (2024) *Annals of Oncology* 35:643–655 | POLE/POLD1 pathogenic-domain (pd) mCRC: 89% ORR on ICI (n=27) ; significantly superior to dMMR/MSI-H (54% ORR; P=0.01). Confirms POLE signature as independent predictor of ICI benefit beyond MSI-H |
 | Pietrantonio et al. (2024) *Annals of Oncology* | POLE signature ≥78.5% predicts ICI response; identifies POLE-ultramutated as a distinct ICI-responsive molecular subtype |
 | Sawant et al. (2025) *Cancer Research* | Preventive ICB delays cancer in polymerase mutator mice |

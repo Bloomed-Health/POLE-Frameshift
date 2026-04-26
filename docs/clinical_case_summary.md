@@ -17,7 +17,7 @@
 | **Germline status** | **Confirmed.** Heterozygous call from blood/saliva-derived DNA on accredited clinical germline assay with orthogonal confirmation. Constitutional variant ; present in all cells, not tumor-derived |
 | **Coordinate systems** | Clinical report: GRCh37. This repository: GRCh38 (default). Verify via UCSC LiftOver if converting between assemblies |
 | **ClinVar** | Not reported |
-| **Classification** | **Pathogenic** (clinical laboratory classification). The Pathogenic call rests on standard ACMG criteria for null variants in a gene with established loss-of-function disease mechanism (PM2: absent from controls; PP4: phenotype consistent with PPAP), **not** on observed phenotype-genotype correlation in other patients ; the laboratory explicitly notes this variant has not been previously reported in individuals with POLE-related conditions. The clinical pathogenicity call and the mechanistic novelty answer different questions, and both can be true simultaneously ; this strengthens rather than weakens the research case. Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 ; designed for non-disruptive ED missense variants). PVS1 (null variant) not applied ; POLE is not LoF-intolerant (gnomAD v4.1.0 pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed vs. 279 expected, indicating heterozygous LoF is tolerated), and the mechanism does not match the canonical PPAP dominant-negative model. The 188 LoF variants in gnomAD without apparent PPAP imply a second somatic hit (LOH) or other non-canonical mechanism is required for the cancer phenotype. Resolution of the mechanistic paradox would clarify which evidence codes fully apply and may inform extension of the POLE-specific framework to accommodate truncating variants |
+| **Classification** | **Pathogenic** (clinical laboratory classification). The Pathogenic call rests on standard ACMG criteria for null variants in a gene with established loss-of-function disease mechanism (PM2: absent from controls; PP4: phenotype consistent with PPAP), **not** on observed phenotype-genotype correlation in other patients ; the laboratory explicitly notes this variant has not been previously reported in individuals with POLE-related conditions. Independent ACMG evidence assessment: PM2 + PP4 supports VUS under strict point counting; pathogenicity is a working hypothesis pending functional or segregation data. The clinical pathogenicity call and the mechanistic novelty answer different questions, and both can be true simultaneously ; this strengthens rather than weakens the research case. Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 ; designed for non-disruptive ED missense variants). PVS1 (null variant) not applied ; POLE is not LoF-intolerant (gnomAD v4.1.0 pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed vs. 279 expected, indicating heterozygous LoF is tolerated), and the mechanism does not match the canonical PPAP dominant-negative model. The 188 LoF variants in gnomAD without apparent PPAP imply a second somatic hit (LOH) or other non-canonical mechanism is required for the cancer phenotype. Resolution of the mechanistic paradox would clarify which evidence codes fully apply and may inform extension of the POLE-specific framework to accommodate truncating variants |
 
 ---
 
@@ -221,6 +221,7 @@ Before attributing the patient's clinical phenotype to POLE-driven pathology, mi
 | Assessment | Status | Result | Significance |
 |------------|--------|--------|-------------|
 | **MMR IHC (MLH1/MSH2/MSH6/PMS2)** | **Pending** | Not yet performed | Required to determine whether MMR protein expression is intact in tumor tissue. Loss of any MMR protein would indicate MMR deficiency as the primary or contributing mutational mechanism |
+| **In vitro MMR functional repair assay** | **Pending** | Not yet performed | Functional assessment of MMR repair capacity in patient-derived cells; complements IHC (protein expression) and MSI (genomic readout) with a direct measurement of repair activity |
 | **Microsatellite instability (MSI) testing** | **Pending** | Not yet performed | MSI-H would indicate MMR deficiency; MSS or MSI-L with ultra-high TMB would be characteristic of POLE-driven hypermutation |
 | **MLH1 promoter methylation** | **Pending** | Not yet performed | MLH1 silencing via promoter methylation is the most common cause of sporadic MMR deficiency and can co-occur with POLE mutations (Shinbrot et al., 2019 documented a POLE frameshift carrier with epigenetic MLH1 silencing leading to MSI-positive tumor) |
 | **Germline MLH1/MSH2/MSH6/PMS2/EPCAM** | **Negative** | No pathogenic variants identified | Lynch syndrome excluded at germline level (47-gene panel, 2022). Does not exclude somatic MMR gene inactivation or epigenetic silencing |
@@ -258,7 +259,7 @@ APC, ATM, AXIN2, BARD1, BMPR1A, BRCA1, BRCA2, BRIP1, CDH1, CDK4, CDKN2A, CHEK2, 
 
 This panel isolates **POLE c.138del as the sole identified genetic driver** among the genes tested, strengthening the causal attribution.
 
-> **Panel limitations:** While comprehensive for common cancer predisposition syndromes, this 47-gene panel does not cover all potentially relevant genetic variation. Notable gaps include: (1) **GREM1 regulatory variants** ; upstream duplications cause hereditary mixed polyposis syndrome and are not detected by coding-sequence panels; (2) although **MSH3** is on the panel, deep intronic or structural variants may be missed; (3) **no connective tissue genes** (COL3A1, COL5A1, TNXB, etc.) were included, so the hEDS phenotype remains genetically uncharacterized; (4) copy number variants and structural rearrangements may have reduced sensitivity depending on the assay platform. The negative result does not exclude all possible genetic contributors to the phenotype.
+> **Panel limitations:** While comprehensive for common cancer predisposition syndromes, this 47-gene panel does not cover all potentially relevant genetic variation. Notable gaps include: (1) **GREM1 regulatory variants** ; upstream duplications cause hereditary mixed polyposis syndrome and are not detected by coding-sequence panels; (2) **MBD4, RNF43, FAN1, MCM8/MCM9** ; cancer predisposition genes not included on the panel; (3) although **MSH3** is on the panel, deep intronic or structural variants may be missed; (4) **no connective tissue genes** (COL3A1, COL5A1, TNXB, etc.) were included, so the hEDS phenotype remains genetically uncharacterized; (5) copy number variants and structural rearrangements may have reduced sensitivity depending on the assay platform. Clinical WGS/WES with germline reanalysis is a critical gap. The negative result does not exclude all possible genetic contributors to the phenotype.
 
 ### Family Cancer History
 
@@ -266,7 +267,9 @@ This panel isolates **POLE c.138del as the sole identified genetic driver** amon
 |----------|---------------|----------------------|----------------|
 | **Father** | None | Brief gout episode as teenager; otherwise unremarkable | No PPAP-associated findings |
 | **Paternal grandmother** | None | No significant medical history | No PPAP-associated findings |
-| **Maternal grandmother** | Stage 1 ductal breast cancer; uterine cancer | ; | **Uterine (endometrial) cancer is a core PPAP-associated malignancy.** However, individual base rates must be considered: lifetime risk of uterine cancer is ~3% and breast cancer ~12% in the general population. The co-occurrence is consistent with but not diagnostic of a cancer predisposition syndrome |
+| **Maternal grandmother** | Stage 1 ductal breast cancer; uterine cancer | ; | Uterine (endometrial) cancer is a core malignancy in classical PPAP, though also common at population level. However, individual base rates must be considered: lifetime risk of uterine cancer is ~3% and breast cancer ~12% in the general population. The co-occurrence is consistent with but not diagnostic of a cancer predisposition syndrome |
+
+> **Family polyposis status:** No family member has polyposis; polyposis is isolated to the patient.
 
 > **Inheritance implications:** The maternal grandmother's uterine cancer is notable in this pedigree. Endometrial cancer is, alongside colorectal cancer, the hallmark malignancy of PPAP. However, the population base rates for these cancers are not negligible (uterine ~3% lifetime risk, breast ~12%), so the co-occurrence of both in a single individual, while consistent with PPAP inheritance, could also reflect sporadic disease. The pattern raises the possibility that **POLE c.138del was inherited through the maternal line** rather than arising de novo, but this remains unconfirmed. If inherited:
 >
@@ -316,8 +319,9 @@ All previously reported pathogenic PPAP variants are **missense substitutions** 
 2. Complete POLE loss is embryonic lethal in mice (homozygous *Pole* knockout lethal at E7; [MGI:1196391](https://www.informatics.jax.org/marker/MGI:1196391))
 3. Yet the patient presents with a phenotype clinically consistent with PPAP (molecular confirmation via mutational signatures pending)
 
-### Six candidate mechanistic models
+### Seven candidate mechanistic models (including null hypothesis)
 
+0. **Null hypothesis (variant is incidental)** ; POLE c.138del is a passenger; phenotype driven by unidentified variant or stochastic factors
 1. **Somatic LOH** ; Wild-type allele lost in tumor; cells rely on lower-fidelity polymerases (Knudson two-hit model)
 2. **Translational reinitiation** ; Ribosomes reinitiate at downstream AUG, producing polymerase-only protein lacking proofreading (low prior probability ; reinitiation across >1 kb is unprecedented)
 3. **NMD escape + holoenzyme poisoning** ; Truncated 54-residue peptide competes for POLE2 binding, disrupting holoenzyme assembly (low prior probability ; POLE-POLE2 interface is C-terminal)
@@ -356,7 +360,7 @@ All previously reported pathogenic PPAP variants are **missense substitutions** 
 ### Therapeutic implications
 
 - **Immunotherapy eligibility:** Reported TMB >100 mut/Mb (if confirmed by WGS) far exceeds the FDA tissue-agnostic threshold (≥10 mut/Mb) for pembrolizumab
-- **Published POLE ICI data:** 82.4% clinical benefit rate, 15.1 month PFS, 29.5 month OS in pathogenic POLE carriers (Garmezy et al., JCO Precision Oncology 2022)
+- **Published POLE ICI data:** 82.4% clinical benefit rate, 15.1 month PFS, 29.5 month OS in pathogenic POLE carriers (Garmezy et al., JCO Precision Oncology 2022). **Caveat:** The Garmezy cohort studied ExoD missense variants; applicability to frameshift variants is unvalidated and assumes the same mutational mechanism
 - **Mutational signature threshold:** POLE signature ≥78.5% predicts ICI response (Pietrantonio et al., Annals of Oncology 2024)
 
 ### Implications for variant classification

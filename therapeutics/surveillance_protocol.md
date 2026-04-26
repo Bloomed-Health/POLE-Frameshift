@@ -2,7 +2,9 @@
 
 ## Rationale
 
-PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillance protocols are based on classical missense variants; the c.138del frameshift requires **expanded surveillance** given the novel mechanism and the patient's demonstrated phenotype spanning five categories: neoplastic, proliferative/stromal, endometrial, congenital developmental, and autoimmune/immune. The systemic nature of the findings suggests POLE dysfunction affects tissue biology beyond tumor mutation accumulation, necessitating broader organ coverage than standard PPAP protocols.
+If the PPAP working hypothesis is correct, PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillance protocols are based on classical missense variants; the c.138del frameshift requires **expanded surveillance** given the novel mechanism and the patient's demonstrated phenotype spanning five categories: neoplastic, proliferative/stromal, endometrial, congenital developmental, and autoimmune/immune. The systemic nature of the findings suggests POLE dysfunction may affect tissue biology beyond tumor mutation accumulation, necessitating broader organ coverage than standard polyposis surveillance.
+
+> **hEDS confounding caveat:** Gastroparesis, GI dysmotility, and endometriosis severity are most parsimoniously explained by hEDS/POTS, not POLE. These features do not require a POLE-mediated explanation and should not be attributed to POLE dysfunction without molecular evidence (e.g., mutational signatures in affected tissues). Surveillance recommendations below are based on the full clinical phenotype regardless of etiology.
 
 ## Recommended Surveillance
 

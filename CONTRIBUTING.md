@@ -71,7 +71,7 @@ Thank you for your interest in contributing to this research. This is an active 
 - Access to the complete research framework and analysis specifications
 - Potential co-authorship on resulting publications
 - Collaboration with a multidisciplinary research network
-- Contribution to a case with potential to reclassify an entire category of genetic variants
+- Contribution to a case with potential to inform the evaluation of truncating POLE variants
 
 ---
 

@@ -58,7 +58,9 @@ POLE-deficient cells operate near a viability threshold for replication stress a
 
 ### Why This Matters
 
-The patient's POLE c.138del frameshift creates a **loss-of-function allele**. In tumors that undergo LOH (loss of the wild-type allele), the resulting state is **POLE-null** ; complete absence of functional Pol epsilon exonuclease and polymerase activity. This is mechanistically distinct from the P286R/V411L missense mutations studied in synthetic lethality screens, where the polymerase is present but proofreading-deficient.
+The patient's POLE c.138del frameshift creates a **loss-of-function allele**. In tumors that undergo LOH (loss of the wild-type allele), the resulting state in those specific tumor cells is **POLE-null** ; complete absence of functional Pol epsilon exonuclease and polymerase activity. This is mechanistically distinct from the P286R/V411L missense mutations studied in synthetic lethality screens, where the polymerase is present but proofreading-deficient.
+
+**Critical distinction: germline state vs. tumor state.** In all non-tumor cells, the patient retains one functional POLE allele (haploinsufficiency, not null). The POLE-null state arises **only** in tumor cells that have undergone LOH at the POLE locus. Therapeutic strategies targeting POLE-null biology would therefore selectively affect LOH-positive tumor cells while sparing normal tissues that retain wild-type POLE function.
 
 Key implications:
 - **ATR/CHK1 inhibitors** may be *more* effective in POLE-null cells (greater replication stress from fork collapse) ; but this is untested

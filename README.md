@@ -719,4 +719,4 @@ This is an active research framework. Contributions are welcome from structural 
 
 ## License
 
-This research framework is shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) to maximize scientific utility. If you use this framework in your research, please cite this repository.
+This repository is licensed under the **MIT License**. See [`LICENSE`](LICENSE).

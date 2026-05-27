@@ -5,4 +5,4 @@ type: dataset
 authors:
   - name: "Bloomed Health"
 url: "https://github.com/Bloomed-Health/POLE-Frameshift"
-license: CC-BY-4.0
+license: MIT

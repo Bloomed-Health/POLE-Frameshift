@@ -29,7 +29,7 @@ PPAP is characterized by tumors with an extremely high number of mutations ; cal
 
 ## What is the c.138del variant?
 
-**POLE c.138del (p.Leu46Phefs\*8)** is a specific mutation in the POLE gene. It is a "frameshift deletion" ; a single DNA letter is deleted, which shifts the reading frame and causes the protein to be cut short very early (at residue 54 out of 2,286 amino acids). This means the protein loses essentially all of its functional parts.
+**POLE c.138del (p.Leu46Phefs\*8)** is a specific mutation in the POLE gene. It is a "frameshift deletion" ; a single DNA letter is deleted, which shifts the reading frame and causes the protein to be cut short very early (at approximately residue 53–54 out of 2,286 amino acids ; the exact stop position is pending reconciliation of the HGVS notation with the canonical MANE transcript). This means the protein loses essentially all of its functional parts.
 
 This variant has been **confirmed as a germline (constitutional) variant** through accredited clinical germline testing with orthogonal confirmation from blood/saliva-derived DNA. It is **ultra-rare**: it has never been observed in any major population database (including gnomAD v4.1.0, accessed April 2026, which contains genetic data from hundreds of thousands of individuals).
 

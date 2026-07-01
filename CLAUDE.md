@@ -8,7 +8,7 @@ The central research question is a **mechanistic paradox**: this variant truncat
 
 ## Key Context
 
-- **Variant:** POLE c.138del (p.Leu46Phefs*8) ; frameshift deletion, premature stop at ~residue 54 of 2,286 amino acids
+- **Variant:** POLE c.138del (p.Leu46Phefs*8) ; frameshift deletion, premature stop at approximately residue 53–54 of 2,286 amino acids (HGVS requires reconciliation on MANE transcript ; Leu46 in clinical report vs. Glu at position 46 in MANE ENST00000320574.6; see C7 caveat in README)
 - **Germline status:** **Confirmed.** Heterozygous germline call from blood/saliva-derived DNA on accredited clinical germline assay with orthogonal confirmation. Constitutional variant, not tumor-derived
 - **Gene:** POLE (DNA Polymerase Epsilon, catalytic subunit), chromosome 12q24.33, transcript ENST00000320574
 - **Genomic coordinates:** GRCh38 chr12:132681203–132681204 (repository default); GRCh37 chr12:133249847 (clinical report coordinate system)
@@ -26,7 +26,7 @@ The central research question is a **mechanistic paradox**: this variant truncat
 6. **Comorbidity triad:** hEDS/POTS/gastroparesis ; creates therapeutic constraints (unreliable oral drug absorption, amplified autonomic side effects) and potential phenotype modifiers (MCAS as pro-tumorigenic microenvironment; altered ECM affecting crypt architecture; dysautonomia modulating neuroimmune axis)
 7. **Family history:** Maternal grandmother had uterine cancer (a core malignancy in classical PPAP, though also common at population level) + ductal breast cancer. No family member has polyposis; the polyposis appears isolated to the patient. Pattern is consistent with but not diagnostic of PPAP inheritance (population base rates: uterine ~3%, breast ~12% lifetime risk). The grandmother's cancers are common at population base rates and do not specifically suggest PPAP inheritance; parental testing unavailable. Father and paternal grandmother unremarkable.
 
-## Seven Candidate Mechanistic Models (Including Null Hypothesis)
+## Eight Candidate Mechanistic Models (Including Null Hypothesis)
 
 0. **Null hypothesis (variant is incidental)** ; POLE c.138del is a passenger; phenotype driven by unidentified variant or stochastic factors
 1. **Somatic LOH** ; wild-type allele lost in tumor (Knudson two-hit)
@@ -35,6 +35,7 @@ The central research question is a **mechanistic paradox**: this variant truncat
 4. **Replication stress-dependent haploinsufficiency** ; 50% POLE is rate-limiting in high-turnover tissues
 5. **Isoform-specific effects** ; variant differentially affects tissue-specific transcripts
 6. **Second-site somatic POLE mutation** ; somatic ExoD missense on wild-type allele creates dominant-negative (distinct from LOH)
+7. **Variant-call / annotation artifact** ; the molecular consequence may not be a simple null; the HGVS notation (p.Leu46Phefs\*8) shows a discrepancy with the MANE transcript (Glu at position 46, not Leu); needs re-derivation. Cheap to exclude and foundational for all other models
 
 The congenital duplicated IVC and multi-system non-neoplastic findings most strongly support Model 4, potentially combined with Model 1 for tumor-specific ultra-hypermutation.
 
@@ -138,5 +139,5 @@ npx skills@latest add Bloomed-Health/cancer-predisposition-variant-analyst
 - Content is licensed CC BY 4.0
 - References use PubMed links where available; bibliography in BibTeX at `references/bibliography.bib`
 - Mutational signatures follow COSMIC v3.4 nomenclature (SBS10a, SBS10b, SBS28, etc.)
-- Protein positions refer to the canonical POLE transcript ENST00000320574 (NM_006231), 2,286 amino acids
+- Protein positions refer to the MANE Select POLE transcript ENST00000320574.6 (NM_006231.4), 2,286 amino acids. Note: the clinical HGVS (p.Leu46Phefs\*8) may have been derived from a different transcript version (see C7 caveat in README)
 - This framework is intended for research purposes and does not constitute medical advice

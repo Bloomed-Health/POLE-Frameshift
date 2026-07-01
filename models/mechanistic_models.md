@@ -1,6 +1,6 @@
 # Mechanistic Models: Formal Hypotheses and Falsification Criteria
 
-This document states each candidate model as a formal hypothesis with specific, falsifiable predictions and the experiments that test them.
+This document states each candidate model as a formal hypothesis with specific, falsifiable predictions and the experiments that test them. Eight models (Models 0–7) are maintained, including a null hypothesis (Model 0) and an annotation-artifact hypothesis (Model 7).
 
 ---
 
@@ -38,7 +38,7 @@ Model 0 is **strengthened** if: clinical WGS identifies a pathogenic variant in 
 
 ### Relationship to Other Models
 
-Model 0 is the mandatory comparator against which all other models must be tested. Both outcomes ; variant is causal (Models 1-6) or variant is incidental (Model 0) ; are scientifically valuable. If Model 0 is correct, the case still contributes to understanding the phenotypic spectrum of gnomAD POLE LoF carriers and demonstrates the importance of comprehensive genomic testing beyond targeted panels.
+Model 0 is the mandatory comparator against which all other models must be tested. Both outcomes ; variant is causal (Models 1-7) or variant is incidental (Model 0) ; are scientifically valuable. If Model 0 is correct, the case still contributes to understanding the phenotypic spectrum of gnomAD POLE LoF carriers and demonstrates the importance of comprehensive genomic testing beyond targeted panels.
 
 ---
 
@@ -159,7 +159,7 @@ The gnomAD LoF tolerance data (188 observed LoF, pLI ≈ 0, LOEUF = 0.76) create
 
 ### Clinical Evidence Supporting Model 4
 
-The patient's phenotype provides the strongest clinical support for this model among all seven candidates:
+The patient's phenotype provides the strongest clinical support for this model among all eight candidates:
 
 - **Congenital duplicated IVC:** A developmental anomaly present from embryogenesis cannot be caused by somatic LOH. Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during early embryogenesis. This suggests POLE haploinsufficiency has **developmental consequences** ; either through elevated embryonic mutation rates creating somatic mosaicism that disrupts vascular patterning, or through non-replicative POLE roles in developmental signaling. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass et al., 2000), so its presence in a single POLE carrier could be coincidental. However, the co-occurrence with multiple other vascular/stromal proliferative findings (bilateral PASH, liver FNH/hemangioma, splenoportal AV shunt) creates a pattern that is collectively more significant than any single finding.
 - **Severe endometriosis + adenomyosis:** The endometrium is a rapidly cycling tissue with high cell turnover ; exactly where replicative stress from half-dose POLE would be most consequential. The aggressive endometrial phenotype (Stage IV+ with diaphragmatic extension) without formal malignant transformation suggests POLE dysfunction alters endometrial biology at a **pre-malignant level**. Novel research question: does POLE haploinsufficiency contribute to endometriosis severity?
@@ -225,6 +225,44 @@ Model 6 is **excluded** if: tumor WGS shows no somatic variants in the POLE exon
 
 ---
 
+## Model 7: Variant-Call / Annotation Artifact
+
+### Hypothesis
+
+The molecular consequence of c.138del is not what the current HGVS notation implies. The stated consequence assumes a specific transcript and a simple coding deletion producing a null. Three alternative scenarios warrant exclusion before interpreting c.138del as a straightforward truncation:
+
+(a) **Splicing perturbation:** The deletion falls near an exon boundary and disrupts splicing, producing an in-frame or exon-skipped product with residual or altered function rather than a clean truncation.
+
+(b) **Transcript discrepancy:** The variant consequence differs on the canonical MANE transcript (ENST00000320574.6 / NM_006231.4) vs. the transcript used by the reporting laboratory.
+
+(c) **HGVS imprecision:** The clinical report states p.Leu46Phefs\*8, but the MANE Select transcript encodes **Glu (E), not Leu (L), at position 46** (codon c.136–138 = GAA). This discrepancy indicates that the clinical annotation was derived from a different transcript version or annotation pipeline. Until reconciled, the exact frameshift product (length, stop position, novel peptide sequence) and its domain implications are uncertain.
+
+### Evidence for Discrepancy
+
+Verification against the POLE coding sequence in this repository (ENST00000320574.6) confirms:
+- Codon 45 (c.133–135) = TTG = Leu
+- Codon 46 (c.136–138) = GAA = Glu
+
+The HGVS notation p.**Leu**46 is inconsistent with the MANE transcript, where position 46 is Glu. This could reflect: a different transcript version with a different 5′ UTR or alternative first exon altering the codon numbering, or an annotation pipeline artifact. **This discrepancy is no longer cosmetic** — the exact position, frame, and exon location of the deletion are load-bearing for interpreting the variant's molecular consequence and for all other mechanistic models.
+
+### Prior Probability Assessment
+
+Model 7 has a **low–moderate prior probability** but is **cheap to exclude** and **foundational** for all other models. It should be the highest-priority hypothesis to address because its resolution is prerequisite to correctly interpreting every other model. If the real transcript product is not a null, the entire mechanistic framing changes.
+
+### Falsifiable Predictions
+
+| # | Prediction | Experiment | If TRUE | If FALSE |
+|---|-----------|------------|---------|----------|
+| 7a | The MANE transcript annotation will resolve the Leu46/Glu46 discrepancy | Re-derive c.138del on MANE Select NM_006231.4 with exact HGVS | Correct HGVS established; stop position confirmed | Discrepancy unexplained; may indicate novel transcript |
+| 7b | RT-PCR across affected exons will show the expected truncation product | Patient-cell RT-PCR with transcript-specific primers | Clean truncation confirmed; variant is a simple null | Aberrant splicing detected; product may have residual function |
+| 7c | The deletion does not fall near a splice site | Genomic context analysis (distance to nearest splice junction) | Splicing perturbation unlikely | Splice-site proximity warrants splice-product analysis |
+
+### Exclusion Criteria
+
+Model 7 is **excluded** if: the HGVS is reconciled on the MANE transcript AND RT-PCR confirms the expected truncation product AND no aberrant splice products are detected. At that point, the variant is confirmed as a simple null and the other models operate as stated.
+
+---
+
 ## Temporal Sequence as Model Discriminator
 
 The resolution of specific ages-at-diagnosis provides a powerful new discriminatory dataset. The chronological order of clinical manifestations can be compared against tissue-specific cell division rates to test Model 4's core prediction: that faster-dividing tissues should cross the proofreading fidelity threshold and present clinically *earlier*.
@@ -263,6 +301,17 @@ See `analysis/temporal_phenotype/turnover_vs_age_diagnosis.svg` for the visualiz
 | **M4 (Haploinsufficiency)** | Faster-dividing tissues cross the threshold first → diagnosed at younger ages | **Strongly consistent** ; observed sequence correlates with turnover rate |
 | **M5 (Isoform)** | Depends on tissue-specific isoform expression, not turnover rate | **Neutral** ; would predict expression-correlated, not turnover-correlated |
 | **M6 (Second-site)** | No predicted temporal order ; somatic second-site mutation is stochastic; similar to M1 | **Partially inconsistent** ; would predict random order, not turnover-correlated |
+| **M7 (Artifact)** | Depends on the actual molecular product ; could match any other model's prediction | **Neutral** ; must be resolved before temporal analysis is interpretable |
+
+### Cross-Cutting Discriminator: TMB + Mutational Signatures
+
+If any tumor tissue becomes available, **TMB + mutational-signature analysis is the master key**. A genuine POLE-proofreading ultramutator shows **SBS10a/SBS10b** (frequently with **SBS28**) and the characteristic **TCT→TAT (C>A)** and **TCG→TTG (C>T)** trinucleotide contexts (COSMIC v3.4). The result partitions the hypotheses immediately:
+
+- **POLE signature present (SBS10a/b ≥50%):** An active proofreading-deficient enzyme is operating → favors M2 (reinitiation), or M1/M6 with a POLE EDM. Then sequence to find *which* enzyme (the reinitiation product of M2, or a second EDM of M1/M6).
+- **POLE signature absent; MMR/POLD1 signature present (SBS6/15/21/26):** Favors phenocopy via different locus (part of M0); c.138del likely coincidental.
+- **No hypermutation at all:** Challenges the "PPAP" designation itself and requires reassessment of the phenotype.
+
+Because tumor tissue is currently unavailable for signature analysis, the **near-term, tissue-free priority order** is: (1) re-verify the variant on MANE + RT-PCR (M7 ; cheap, foundational); (2) full POLE both-allele sequencing + broad germline panel (M0/M6); (3) patient-cell POLE RNA/protein analysis for NMD escape and reinitiation products (M2/M3). M1 and the signature discriminator await tumor tissue.
 
 ### Progressive Polyp Accumulation
 
@@ -293,19 +342,20 @@ The patient's multi-system phenotype provides immediate discriminatory evidence 
 
 This matrix shows which experiments most efficiently discriminate between models.
 
-| Experiment | M1 (LOH) | M2 (Reinitiation) | M3 (Poisoning) | M4 (Haplo.) | M5 (Isoform) | M6 (Second-site) | Priority |
-|-----------|----------|-------------------|----------------|-------------|-------------|------------------|----------|
-| **Tumor WGS + LOH** | ✅ Definitive | ; | ; | ✅ Rules out if LOH | ; | ✅ Definitive (phased variant calling) | **Immediate** |
-| **Mutational signatures** | ✅ Confirms POLE mechanism | ✅ Confirms POLE mechanism | ✅ If SBS10a/b present, compatible (poisoned holoenzyme retains error-prone synthesis) | Neutral (haploinsufficiency alone may not produce classical SBS10a/b; signature depends on whether residual POLE or compensatory Polδ dominates) | ; | ✅ Confirms POLE mechanism | **Immediate** |
-| **Blood NanoSeq** | ✅ Normal = somatic | ✅ Elevated = germline | ; | ✅ Elevated = threshold | ; | ✅ Normal = somatic | **Immediate** |
-| **Allele-specific RNA-seq** | ; | ✅ Transcript present | ✅ NMD escape test | ; | ✅ Isoform ratios | ; | **Immediate** |
-| **Endometriosis tissue NanoSeq** | ; | ; | ; | ✅ Elevated = threshold in high-turnover tissue | ; | ; | **Medium-term** |
-| **Ribo-seq** | ; | ✅ Definitive | ; | ; | ; | ; | **Medium-term** |
-| **Co-IP / structural modeling** | ; | ; | ✅ Definitive | ; | ; | ; | **Medium-term** |
-| **Replication timing analysis** | ; | ; | ; | ✅ Enrichment pattern | ; | ; | **Medium-term** |
-| **Isoform-specific RT-PCR** | ; | ; | ; | ; | ✅ Definitive | ; | **Medium-term** |
-| **Thyroid tumor signature analysis** (thyroidectomy specimen available) | ✅ If LOH at POLE | ✅ If SBS10a/b present | ; | ; | ; | ✅ If somatic ExoD mutation | **Immediate** |
-| **Tissue-specificity pattern** (multi-tissue mutation rate comparison) | Neutral (LOH is stochastic; no tissue prediction) | Uniform elevation across tissues (reinitiation is constitutive) | Uniform elevation (poisoning is constitutive) | ✅ Gradient: high-turnover > low-turnover tissue mutation rates | ✅ Tissue-specific isoform expression–dependent | Neutral (second-site is stochastic) | **Medium-term** |
+| Experiment | M1 (LOH) | M2 (Reinitiation) | M3 (Poisoning) | M4 (Haplo.) | M5 (Isoform) | M6 (Second-site) | M7 (Artifact) | Priority |
+|-----------|----------|-------------------|----------------|-------------|-------------|------------------|---------------|----------|
+| **MANE re-derivation + RT-PCR** | ; | ; | ; | ; | ; | ; | ✅ Definitive | **Immediate (first)** |
+| **Tumor WGS + LOH** | ✅ Definitive | ; | ; | ✅ Rules out if LOH | ; | ✅ Definitive (phased variant calling) | ; | **Immediate** |
+| **Mutational signatures** | ✅ Confirms POLE mechanism | ✅ Confirms POLE mechanism | ✅ If SBS10a/b present, compatible (poisoned holoenzyme retains error-prone synthesis) | Neutral (haploinsufficiency alone may not produce classical SBS10a/b; signature depends on whether residual POLE or compensatory Polδ dominates) | ; | ✅ Confirms POLE mechanism | ; | **Immediate** |
+| **Blood NanoSeq** | ✅ Normal = somatic | ✅ Elevated = germline | ; | ✅ Elevated = threshold | ; | ✅ Normal = somatic | ; | **Immediate** |
+| **Allele-specific RNA-seq** | ; | ✅ Transcript present | ✅ NMD escape test | ; | ✅ Isoform ratios | ; | ✅ Aberrant transcript? | **Immediate** |
+| **Endometriosis tissue NanoSeq** | ; | ; | ; | ✅ Elevated = threshold in high-turnover tissue | ; | ; | ; | **Medium-term** |
+| **Ribo-seq** | ; | ✅ Definitive | ; | ; | ; | ; | ; | **Medium-term** |
+| **Co-IP / structural modeling** | ; | ; | ✅ Definitive | ; | ; | ; | ; | **Medium-term** |
+| **Replication timing analysis** | ; | ; | ; | ✅ Enrichment pattern | ; | ; | ; | **Medium-term** |
+| **Isoform-specific RT-PCR** | ; | ; | ; | ; | ✅ Definitive | ; | ; | **Medium-term** |
+| **Thyroid tumor signature analysis** (thyroidectomy specimen available) | ✅ If LOH at POLE | ✅ If SBS10a/b present | ; | ; | ; | ✅ If somatic ExoD mutation | ; | **Immediate** |
+| **Tissue-specificity pattern** (multi-tissue mutation rate comparison) | Neutral (LOH is stochastic; no tissue prediction) | Uniform elevation across tissues (reinitiation is constitutive) | Uniform elevation (poisoning is constitutive) | ✅ Gradient: high-turnover > low-turnover tissue mutation rates | ✅ Tissue-specific isoform expression–dependent | Neutral (second-site is stochastic) | ; | **Medium-term** |
 
 ### Bayesian Model Comparison Framework
 
@@ -318,8 +368,9 @@ As experimental results accumulate, formal Bayesian model comparison should be a
 - M6 (Second-site): ~18% ; mechanistically straightforward; normal mutagenesis of single functional allele can acquire ExoD hotspot
 - M5 (Isoform): ~5% ; untested; neutral evidence
 - M2 (Reinitiation): ~5% ; low prior; unprecedented reinitiation distance; tissue-specific NMD studies (Tan 2025, Kolakada 2025) add complexity but do not change the fundamental improbability of >1 kb reinitiation
-- M3 (Poisoning): ~5% ; low prior; structurally implausible N-terminal POLE2 binding. However, Keskitalo et al. (2025) identified POLE2 as an NPF motif receptor ; any NPF-containing region in the truncated peptide warrants checking
-- *Note: percentages approximate, do not account for composite models (M4+M1); prior for M0 reflects the epistemic duty to test the null*
+- M3 (Poisoning): ~4% ; low prior; structurally implausible N-terminal POLE2 binding. However, Keskitalo et al. (2025) identified POLE2 as an NPF motif receptor ; any NPF-containing region in the truncated peptide warrants checking
+- M7 (Annotation artifact): ~3% ; low–moderate prior, but cheap to exclude and **foundational**. The confirmed Leu46/Glu46 discrepancy between the clinical HGVS and the MANE transcript means this cannot be dismissed without formal re-derivation. If the molecular product is not a null, all other model priors change. Should be tested first
+- *Note: percentages approximate, do not account for composite models (M4+M1); prior for M0 reflects the epistemic duty to test the null; M7 prior is low but its resolution is prerequisite to all others*
 
 **Updating rule:** After each experiment, update posterior odds using the likelihood ratios defined in the falsifiable predictions tables above. A model's posterior probability <1% after two independent experiments constitutes practical exclusion. Models are not mutually exclusive ; **M4+M1 operating in concert has the highest prior probability (~35%)** and is the most consistent with both the gnomAD population data (LoF tolerated → haploinsufficiency alone insufficient for cancer) and the clinical phenotype (systemic non-neoplastic findings → germline-level effects). Both outcomes (variant causal vs. incidental) are scientifically valuable.
 

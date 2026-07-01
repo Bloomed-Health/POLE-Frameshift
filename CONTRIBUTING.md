@@ -8,9 +8,9 @@ Thank you for your interest in contributing to this research. This is an active 
 
 ### Structural Biology
 
-**Need:** AlphaFold modeling of the 54-residue truncated peptide interaction with the POLE2 (p59) accessory subunit.
+**Need:** AlphaFold modeling of the truncated peptide (~52–54 residues, pending HGVS reconciliation on MANE transcript) interaction with the POLE2 (p59) accessory subunit.
 
-**What you'd contribute:** In silico binding predictions, molecular dynamics simulations, and structural analysis of the N-terminal region (residues 1–54) to evaluate the stoichiometric poisoning model (Model 3).
+**What you'd contribute:** In silico binding predictions, molecular dynamics simulations, and structural analysis of the N-terminal region to evaluate the stoichiometric poisoning model (Model 3).
 
 **Expertise required:** Computational structural biology, AlphaFold2/3, protein-protein interaction modeling.
 

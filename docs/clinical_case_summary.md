@@ -8,7 +8,7 @@
 |-------|-------|
 | **Gene** | *POLE* (DNA Polymerase Epsilon, catalytic subunit) |
 | **Genomic location** | Chromosome 12q24.33 |
-| **Transcript** | ENST00000320574 (NM_006231) |
+| **Transcript** | ENST00000320574.6 (NM_006231.4) ; MANE Select |
 | **cDNA change** | c.138del |
 | **Protein change** | p.Leu46Phefs\*8 |
 | **Variant type** | Frameshift deletion |
@@ -319,7 +319,7 @@ All previously reported pathogenic PPAP variants are **missense substitutions** 
 2. Complete POLE loss is embryonic lethal in mice (homozygous *Pole* knockout lethal at E7; [MGI:1196391](https://www.informatics.jax.org/marker/MGI:1196391))
 3. Yet the patient presents with a phenotype clinically consistent with PPAP (molecular confirmation via mutational signatures pending)
 
-### Seven candidate mechanistic models (including null hypothesis)
+### Eight candidate mechanistic models (including null hypothesis)
 
 0. **Null hypothesis (variant is incidental)** ; POLE c.138del is a passenger; phenotype driven by unidentified variant or stochastic factors
 1. **Somatic LOH** ; Wild-type allele lost in tumor; cells rely on lower-fidelity polymerases (Knudson two-hit model)
@@ -328,6 +328,7 @@ All previously reported pathogenic PPAP variants are **missense substitutions** 
 4. **Replication stress-dependent haploinsufficiency** ; 50% POLE is rate-limiting in rapidly dividing tissues
 5. **Isoform-specific effects** ; Variant differentially affects tissue-specific transcript isoforms
 6. **Second-site somatic POLE mutation** ; Somatic pathogenic missense in the exonuclease domain on the wild-type allele creates a canonical dominant-negative (distinct from LOH; Shah et al., 2024)
+7. **Variant-call / annotation artifact** ; The molecular consequence may not be a simple null. The HGVS notation (p.Leu46Phefs\*8) shows a discrepancy with the MANE transcript (Glu at position 46, not Leu), indicating the clinical annotation was derived from a different transcript version. Cheap to exclude and foundational for all other models
 
 ---
 
@@ -367,7 +368,7 @@ All previously reported pathogenic PPAP variants are **missense substitutions** 
 
 The definitive gene-specific ACMG/AMP classification guidelines for POLE/POLD1 (Mur, Viana-Errasti et al., *Genome Medicine* 2023, Valle lab at IDIBELL) were designed for non-disruptive (missense) variants within the exonuclease domain. The c.138del variant ; a truncating variant upstream of the exonuclease domain ; falls entirely outside that framework's scope. If the mechanistic paradox is resolved, the classification guidelines would need to be extended to accommodate truncating variants acting through LOH, reinitiation, or haploinsufficiency mechanisms.
 
-If the two-hit / LOH model is confirmed, truncating POLE variants currently classified as VUS may need reclassification as pathogenic cancer predisposition alleles. Notably, Valle et al. (2020) identified 6 loss-of-function POLE variants in a cohort of 2,813 hereditary cancer probands ; these represent a critical comparator set for understanding whether truncating variants outside the exonuclease domain can produce PPAP phenotypes.
+If the two-hit / LOH model is confirmed, truncating POLE variants currently classified as VUS may need reclassification as pathogenic cancer predisposition alleles. Notably, Valle et al. (2020) identified 6 loss-of-function POLE variants in a cohort of 2,813 hereditary cancer probands ; these represent a critical comparator set for understanding whether truncating variants outside the exonuclease domain can produce PPAP-consistent phenotypes.
 
 ---
 

@@ -1,8 +1,8 @@
-variant_cdna	variant_protein	variant_type	clinvar_classification	domain	notes
-c.857C>G	p.Pro286Arg	missense	Pathogenic	Exonuclease	Most common PPAP variant; hotspot
-c.1231G>C	p.Val411Leu	missense	Pathogenic	Exonuclease	Established PPAP variant
-c.1270C>G	p.Leu424Val	missense	Pathogenic	Exonuclease	PPAP variant
-c.1376C>T	p.Ser459Phe	missense	Pathogenic	Exonuclease	PPAP variant
-c.890C>T	p.Ala297Val	missense	Likely_pathogenic	Exonuclease	Near active site
-c.1089C>A	p.Asn363Lys	missense	VUS	Exonuclease	Uncertain significance
-c.138del	p.Leu46Phefs*8	frameshift	Not_reported	N-terminal	This variant; absent from ClinVar; submitted to LOVD3 2026-04-15 (pending curation); ClinVar submission template prepared
+variant_cdna	variant_protein	variant_type	clinvar_classification	domain	clinvar_variation_id	germline_or_somatic	notes
+c.857C>G	p.Pro286Arg	missense	Pathogenic	Exonuclease	ClinVar:36528	Germline (PPAP pedigrees)	Most common PPAP variant; hotspot; ~50x more mutagenic than exo-null (Xing 2019); Kane & Shcherbakova 2014
+c.1231G>C	p.Val411Leu	missense	Pathogenic	Exonuclease	ClinVar:36529	Germline (PPAP pedigrees)	Established PPAP variant; Palles 2013
+c.1270C>G	p.Leu424Val	missense	Pathogenic	Exonuclease	ClinVar:36530	Germline (PPAP pedigrees)	PPAP variant
+c.1376C>T	p.Ser459Phe	missense	Pathogenic	Exonuclease	Verify	Germline	PPAP variant; cite specific germline pedigree or ClinVar SCV
+c.890C>T	p.Ala297Val	missense	Likely_pathogenic	Exonuclease	Verify	Uncertain	Near active site; verify germline PPAP pedigree evidence or soften to VUS
+c.1089C>A	p.Asn363Lys	missense	VUS	Exonuclease	Verify	Germline (Vande Perre 2019)	Uncertain significance; N363K extends PPAP spectrum to glioblastoma
+c.138del	p.Leu46Phefs*8	frameshift	Not_reported	N-terminal	None	Germline (this patient)	This variant; absent from ClinVar; PPAP-consistent phenotype observed but mechanism under investigation (not a canonical ExoD driver); HGVS requires reconciliation on MANE (see C7); submitted to LOVD3 2026-04-15 (pending curation); ClinVar submission template prepared

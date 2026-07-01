@@ -1,6 +1,6 @@
 # hEDS/POTS/Gastroparesis Triad: Interaction Analysis with POLE c.138del Pathology
 
-> **Note:** This comorbidity interaction analysis is **secondary to the core POLE mechanistic research**. The hypotheses below are exploratory and theoretical ; none have direct supporting evidence. They are documented here to identify potential confounders and therapeutic constraints, but should not be weighted equally with the primary mechanistic models (Models 1–6) or the core clinical data in the main research framework.
+> **Note:** This comorbidity interaction analysis is **secondary to the core POLE mechanistic research**. The hypotheses below are exploratory and theoretical ; none have direct supporting evidence. They are documented here to identify potential confounders and therapeutic constraints, but should not be weighted equally with the primary mechanistic models (Models 0–7) or the core clinical data in the main research framework.
 
 ## Overview
 

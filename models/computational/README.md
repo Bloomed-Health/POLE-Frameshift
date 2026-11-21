@@ -25,7 +25,7 @@ Agent-based stochastic models of colonic crypt stem cell dynamics under varying 
 
 - Published single-cell WGS mutation rates from normal colonic crypts (Lee-Six et al., 2019)
 - NanoSeq data from POLE/POLD1 carriers (Robinson et al., 2021)
-- LOH rates from published cancer genomics cohorts (Yoshida et al., 2022)
+- LOH rates from published cancer genomics cohorts (Takahashi et al., 2022)
 
 ## Tools
 

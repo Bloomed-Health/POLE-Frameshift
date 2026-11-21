@@ -1,0 +1,100 @@
+# POLE c.138del (p.Leu46Phefs*8) Research Framework
+
+> Open, n-of-1 research repository on a heterozygous germline frameshift in POLE (DNA polymerase epsilon catalytic subunit) carried by one adult with about 20 gastric and colonic polyps removed since age 19 and one papillary thyroid carcinoma. The variant is NM_006231.4:c.138del, ENSP00000322570.5:p.Leu46Phefs*8, exon 2 of 49, GRCh38 NC_000012.12:g.132681204del (VCF 12-132681203-GC-G), GRCh37 NC_000012.11:g.133257790del, dbSNP rs1555230420, ClinVar VCV000548779 (conflicting: Pathogenic from Labcorp Genetics/Invitae, Uncertain significance from Ambry Genetics and Counsyl), ClinGen CA658821754, LOVD POLE_000381, gnomAD 1/1,461,874 v4.1 exome alleles and 1/31,386 v2.1.1 genome alleles. Gene identifiers: HGNC:9177, MANE Select ENST00000320574.10, UniProt Q07864, chromosome 12q24.33, OMIM CRCS12 615083.
+
+Status after the verification audit of 2026-11-20 (repository version 0.7.0):
+
+- The variant call and its HGVS name are verified by three independent routes (Ensembl sequence, UniProt sequence, Ensembl VEP). Codon 46 is TTG (Leu); the stop is codon 53; the predicted product is 52 residues. The next in-frame AUG after the stop is Met66; a restart there would keep both catalytic domains.
+- No tumour or polyp from the carrier has been sequenced. Tumour mutational burden, mutational signatures, MMR status and polyp histology are not measured. Earlier statements of a hypermutated tumour were literature assumptions and are retired.
+- Published case-control data (Mur et al. 2020, doi:10.1038/s41436-020-0922-2) do not support one loss-of-function POLE allele as a cause of polyposis or cancer. The current leading explanation for the polyps is that the variant is incidental (Model 0); seven alternative mechanistic models are kept as hypotheses.
+- Open research aims: (A) what the allele produces (nonsense-mediated decay, a 52-residue peptide, or re-initiation at Met66); (B) whether one such allele has any somatic consequence; (C) the cause of the polyps.
+- Every factual claim has a row in data/claims_ledger.tsv with a status tag (VERIFIED, CONTRADICTED, INFERENCE, OWNER_STATEMENT, NOT_MEASURED, UNVERIFIED, NOT_FOUND), a source and a date. Sequence facts are recomputed by scripts from checked-in reference fixtures and tested in CI.
+
+Clinical data are de-identified and self-reported by the carrier. Nothing here is medical advice. License: MIT. Cite via CITATION.cff. Collaboration and other carriers of POLE exon 1-2 truncations are sought (see Contributing).
+
+## Start here
+
+- [README](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/README.md): full overview; key caveats C1-C7; variant verification table; models; experiments; sections written before the audit carry an audit note at the top of the file
+- [Verification audit, 2026-11-20](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/docs/VERIFICATION_AUDIT_2026-11-20.md): what was wrong, what was re-derived, what remains unverified; the single most reliable summary of the evidence
+- [Research plan after the audit](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/docs/research_plan_2026-11.md): aims A-C, assumption risks, experiments ranked by information per cost (reporter assay, allele-specific RNA, thyroid tumour exome, fibroblast protein, duplex sequencing, genome, family), decision table, publishability
+- [FAQ](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/FAQ.md): plain-language overview for clinicians, counsellors and carriers
+- [CHANGELOG](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/CHANGELOG.md): version history; 0.7.0 lists every correction made in the audit
+
+## Variant and evidence
+
+- [Claims ledger (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/claims_ledger.tsv): one row per claim with status, value, source and date; rows V (variant), D (databases), L (laboratory), P (patient), E (literature evidence), C (comparison), B (bibliography), N (notes)
+- [Evidence protocol](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/docs/EVIDENCE_PROTOCOL.md): status tags, rules for adding claims, extraction format with worked examples, reasoning template
+- [c.138del among other POLE variants](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/docs/pole_variant_comparison.md): four classes of germline POLE variant; the 26 truncating and 8 start-loss alleles recorded in exons 1-2; which share the same stop codon
+- [Variant verification scripts](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/analysis/variant_verification/README.md): offline, standard-library re-derivation of the variant (verify_c138del.py), the exon 1-2 neighbours (nterm_truncations.py), a ClinVar POLE P/LP exporter, and a JSON export for the 3D viewer
+- [Reference fixtures](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/reference/README.md): MANE Select CDS (480 nt and full 6,861 nt), UniProt Q07864 residues 1-240, GRCh38 exon table, 5' UTR context, dbSNP exon 1-2 truncations, ClinVar P/LP snapshot of 2026-11-21, with provenance and cross-checks
+- [Carrier registry cross-reference](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/docs/pole_carrier_registry_crossref.md): published POLE/POLD1 carrier cohorts and databases searched for truncation carriers with comparable phenotypes
+- [Bibliography (BibTeX)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/references/bibliography.bib): rebuilt from PubMed records on 2026-11-20
+- [Bibliography corrections (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/references/bibliography_corrections.tsv): the 34 entries that were wrong before the audit and what changed
+- [LOVD update text](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/lovd_update_2026-11-20.md): corrected description for LOVD variant #0001074000
+- [ClinVar submission notes](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/clinvar_submission/README.md): the variant is already in ClinVar; ACMG evidence discussion and submission template
+
+## Phenotype and differential diagnosis
+
+- [Clinical case summary](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/docs/clinical_case_summary.md): de-identified phenotype, genomic profile, family history, laboratory data; pre-audit sections carry an audit note
+- [The polyps: POLE or an independent cause?](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/docs/polyposis_differential.md): differential for unexplained polyposis (mosaic APC, MUTYH, histology-dependent causes, panel gaps); what the 47-gene blood panel can and cannot exclude; questions for the care team
+- [HPO phenotype table (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/phenotype_hpo.tsv): findings mapped to Human Phenotype Ontology terms, IDs checked 2026-11-20
+- [Phenotype timeline (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/phenotype_timeline.tsv): age at onset per finding (owner statements)
+- [GA4GH Phenopacket v2 (JSON)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/phenopacket/pole_c138del_phenopacket.json): machine-readable case; interpretation status IN_PROGRESS / CANDIDATE / UNKNOWN_ACTIONABILITY
+- [Lesion table template (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/templates/lesion_table_template.tsv): per-polyp pathology fields to be filled from reports
+- [Comorbidity interaction analysis](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/docs/comorbidity_interaction_analysis.md): hEDS/POTS/gastroparesis as confounders and modifiers
+- [Systematic health history questionnaire](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/docs/systematic_health_history.md): 20-system phenotyping instrument
+
+## Hypotheses
+
+- [Mechanistic models](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/models/mechanistic_models.md): Models 0-7 stated as falsifiable hypotheses with predictions and tests; Model 0 (incidental) leads; Model 7 (annotation artifact) closed by the audit
+- [Experimental protocols](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/models/experimental_protocols/README.md): organoid, CRISPR and mouse model specifications (pre-audit framing)
+- [Computational crypt model](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/models/computational/README.md): stochastic crypt dynamics under reduced POLE dosage (specification, not run)
+
+## Machine-readable data
+
+- [Data directory README](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/README.md): index of every table with its source and verification date
+- [gnomAD constraint (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/POLE_gnomad_constraints.tsv): POLE pLI, LOEUF 0.76, oe_lof 0.67 (188 observed / 279 expected), re-verified against the gnomAD API
+- [Curated POLE variants (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/POLE_clinvar_variants.tsv): exonuclease-domain hotspots and truncations with ClinVar IDs, classifications and pedigree sources
+- [Domain boundaries, literature (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/POLE_domain_boundaries.tsv) and [database-anchored (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/POLE_domains_interpro.tsv): two domain maps with their sources; they differ, and the discrepancy is documented
+- [In-frame methionines (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/POLE_all_methionines.tsv): all 56 in-frame AUGs with Kozak context; [residues 1-240 subset](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/POLE_downstream_methionines.tsv)
+- [Tissue replication rates (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/tissue_replication_rates.tsv): turnover per tissue with per-row source and sourcing status
+- [COSMIC signatures cited (TSV)](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/cosmic_signatures_cited.tsv): SBS10a/b, SBS28 and others, with COSMIC aetiology text and how the repository uses each
+- [Checksums](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/data/checksums.sha256): SHA-256 of the data files, enforced by a test
+
+## Reproducibility
+
+- [Tests](https://github.com/Bloomed-Health/POLE-Frameshift/tree/main/tests): derivation against two independent sequence sources; data-table consistency; checksums; a guard that retired claims do not return; and `test_scientific_consistency.py`, which checks every table against the sequence and every document against the table it quotes (domain maps, hotspots, ClinVar snapshot, phenopacket vs HPO table, gnomAD arithmetic, quoted numbers, citations, COSMIC signatures, ledger references). Run with `python3 analysis/variant_verification/verify_c138del.py && python3 -m pytest -q tests`
+- [Live source checks](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/tests/live/test_external_sources.py): opt-in (`POLE_LIVE=1`) comparison with ClinVar, gnomAD, Ensembl, UniProt, HPO and PubMed; fails when a classification, allele count, fixture, HPO label, bibliography record or PubMed hit for the variant changes, naming the ledger row to update
+- [CI workflows](https://github.com/Bloomed-Health/POLE-Frameshift/tree/main/.github/workflows): `verify.yml` runs the offline checks on every push; `verify-live.yml` runs the live checks weekly
+- [Reference fetcher](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/scripts/fetch_reference.py): regenerates the fixtures from Ensembl and UniProt
+- [Panel BAM checks](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/analysis/panel_bam_checks/README.md): local read-level checks on the clinical panel alignment; patient sequence files never enter the repository
+- [Figure generator](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/analysis/figures/make_figures.py): builds the README figures (codon view, translation map, exon 1-2 alleles, case-control evidence, ledger status, clinical timeline) from the checked-in data
+- [Exact Spearman check](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/analysis/temporal_phenotype/exact_spearman_check.py): shows the tissue-turnover correlation is not significant (n = 6, exact two-sided p = 0.067)
+
+## Pipelines specified for future tumour or normal-tissue data
+
+None has been run; no patient sequencing data exist beyond the germline panel.
+
+- [Mutational signatures](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/analysis/mutational_signatures/README.md): SigProfiler decomposition plan
+- [Loss of heterozygosity](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/analysis/loh_analysis/README.md): ASCAT/FACETS allele-specific copy number at 12q24.33
+- [Duplex sequencing](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/analysis/duplex_sequencing/README.md): NanoSeq mutation rate in normal cells
+- [Neoantigen prediction](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/analysis/neoantigen_prediction/README.md): NetMHCpan/pVACseq plan
+
+## Contributing and citation
+
+- [CONTRIBUTING](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/CONTRIBUTING.md): collaboration opportunities by discipline
+- [Case report issue template](https://github.com/Bloomed-Health/POLE-Frameshift/issues/new?template=pole-case-report.yml): structured form for other carriers of POLE truncating variants
+- [CITATION.cff](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/CITATION.cff): citation metadata, version 0.7.0
+- [3D-POLE-Modeler](https://bloomed-health.github.io/3D-POLE-Modeler/): companion structure viewer (separate repository; its c.138del page was corrected in the same audit)
+
+## Optional
+
+Pre-audit documents retained for context. Each assumes a hypermutated tumour that was never measured and opens with an audit note saying so.
+
+- [Immunotherapy strategy](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/therapeutics/immunotherapy_strategy.md): checkpoint-inhibitor rationale conditional on a measured tumour mutational burden
+- [Synthetic lethality](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/therapeutics/synthetic_lethality.md): ATR/PARP/WRN targets; distinguishes POLE-null from exonuclease-mutant evidence
+- [Surveillance protocol](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/therapeutics/surveillance_protocol.md): multi-organ surveillance if the PPAP working hypothesis held
+- [Pharmacokinetic considerations](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/therapeutics/pharmacokinetic_considerations.md): drug-comorbidity map for hEDS/POTS/gastroparesis
+- [AI research assistance framework](https://raw.githubusercontent.com/Bloomed-Health/POLE-Frameshift/main/docs/AI-Research-Assistance-Framework.md): how AI assistants were used; read with the evidence protocol
+- [Temporal phenotype analysis](https://github.com/Bloomed-Health/POLE-Frameshift/tree/main/analysis/temporal_phenotype): tissue-turnover figures kept as an illustration of Model 4; the correlation is not significant
+- [Variant landscape figure](https://github.com/Bloomed-Health/POLE-Frameshift/tree/main/analysis/variant_landscape): lollipop plot of POLE variants on the domain map

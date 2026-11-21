@@ -45,14 +45,16 @@ CLASSIFICATION_COLORS = {
     "Pathogenic": "#D32F2F",
     "Likely_pathogenic": "#FF8F00",
     "VUS": "#757575",
-    "Not_reported": "#7B1FA2",
+    "Conflicting": "#7B1FA2",
+    "Not_in_ClinVar": "#1565C0",
 }
 
 CLASSIFICATION_LABELS = {
     "Pathogenic": "Pathogenic",
     "Likely_pathogenic": "Likely Pathogenic",
     "VUS": "VUS",
-    "Not_reported": "Not in ClinVar",
+    "Conflicting": "Conflicting in ClinVar",
+    "Not_in_ClinVar": "Not in ClinVar (literature only)",
 }
 
 
@@ -164,12 +166,12 @@ def main():
                 ha="center", va="bottom", fontsize=6.5, rotation=45,
             )
 
-    # Truncation indicator: dashed line at residue 54
+    # Truncation indicator: dashed line at the new stop codon (53)
     ax.axvline(
-        x=54, color="#7B1FA2", linestyle="--", linewidth=1, alpha=0.6, zorder=1,
+        x=53, color="#7B1FA2", linestyle="--", linewidth=1, alpha=0.6, zorder=1,
     )
     ax.text(
-        54, bar_y - bar_height / 2 - 0.15, "STOP\n(res 54)",
+        53, bar_y - bar_height / 2 - 0.15, "STOP\n(codon 53)",
         ha="center", va="top", fontsize=6.5, color="#7B1FA2", fontstyle="italic",
     )
 
@@ -193,16 +195,16 @@ def main():
     ax.spines["left"].set_visible(False)
 
     # Legend
+    present = [c for c in CLASSIFICATION_COLORS if any(v["clinvar_classification"] == c for v in variants)]
     legend_elements = [
         mpatches.Patch(facecolor="#D32F2F", edgecolor="black", label="Exonuclease Domain"),
         mpatches.Patch(facecolor="#1565C0", edgecolor="black", label="Polymerase Domain"),
         mpatches.Patch(facecolor="#B0B0B0", edgecolor="black", label="Other Regions"),
-        plt.Line2D([0], [0], marker="o", color="w", markerfacecolor="#D32F2F",
-                   markeredgecolor="black", markersize=8, label="Pathogenic"),
-        plt.Line2D([0], [0], marker="o", color="w", markerfacecolor="#FF8F00",
-                   markeredgecolor="black", markersize=8, label="Likely Pathogenic"),
-        plt.Line2D([0], [0], marker="o", color="w", markerfacecolor="#757575",
-                   markeredgecolor="black", markersize=8, label="VUS"),
+    ] + [
+        plt.Line2D([0], [0], marker="o", color="w", markerfacecolor=CLASSIFICATION_COLORS[c],
+                   markeredgecolor="black", markersize=8, label=CLASSIFICATION_LABELS[c])
+        for c in present
+    ] + [
         plt.Line2D([0], [0], marker="*", color="w", markerfacecolor="#7B1FA2",
                    markeredgecolor="black", markersize=12, label="c.138del (This Variant)"),
     ]

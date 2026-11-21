@@ -1,0 +1,39 @@
+# Start-loss, nonsense, frameshift and splice-donor records overlapping POLE exon 1 (CDS part) and exon 2.
+# Source: rest.ensembl.org/overlap/region/human/12:132687254-132687342?feature=variation (86 records) and
+#         rest.ensembl.org/overlap/region/human/12:132681138-132681279?feature=variation (147 records), retrieved 2026-11-20.
+# Coordinates GRCh38, alleles on the plus strand exactly as returned (first allele = reference).
+# clin_sig = ClinVar significance terms as aggregated by Ensembl per rsID. At multi-allelic sites the terms are NOT
+# allele-specific: a "pathogenic" term may belong to a different alternate allele than the one that truncates.
+# The last row has no rsID: c.137dup is listed by ClinVar Miner among POLE variants reported by Ambry Genetics (seen 2026-11-20).
+# Transcribed by hand from the API output; nterm_truncations.py re-checks every reference allele against the CDS fixture.
+rsid	start	end	ref	alts	ensembl_consequence	clin_sig
+rs1555231403	132687264	132687264	C	A,G,T	stop_gained	uncertain significance; likely benign; pathogenic
+rs2136051965	132687265	132687265	G	GG	frameshift_variant	pathogenic
+rs2542221939	132687278	132687277	-	C	frameshift_variant	pathogenic
+rs1555231426	132687287	132687302	CGCCGCCGCCCGCCGC	CGCCGCCGCCCGCCGCCGCCCGCCGC	frameshift_variant	uncertain significance
+rs1593099111	132687292	132687300	CCGCCCGCC	CCGCCCGCCCGCC	frameshift_variant	uncertain significance; pathogenic
+rs1555231433	132687313	132687313	C	G,T	start_lost	uncertain significance; pathogenic
+rs879254126	132687314	132687314	A	C,G,T	start_lost	uncertain significance; not provided; pathogenic
+rs878854847	132687315	132687315	T	A,C,G	start_lost	uncertain significance; pathogenic
+rs2043299858	132687315	132687326	TGGAGCCGTTGG	TGG	start_lost	uncertain significance
+rs776123425	132681122	132681141	AGGACCTAGTGCTTACAGGA	AGGA	splice_donor_variant	
+rs748679246	132681156	132681156	C	A,G,T	stop_gained	uncertain significance
+rs1565981538	132681157	132681157	C	A,G,T	stop_gained	pathogenic
+rs2043158678	132681166	132681167	TT	T	frameshift_variant	pathogenic
+rs2136033815	132681167	132681167	T	A	stop_gained	uncertain significance
+rs2136033951	132681182	132681182	T	A	stop_gained	uncertain significance
+rs761329565	132681201	132681202	CC	C	frameshift_variant	likely pathogenic; pathogenic
+rs1555230420	132681204	132681204	C	-	frameshift_variant	uncertain significance; pathogenic
+rs2136034222	132681205	132681207	AAA	AA	frameshift_variant	pathogenic
+rs2136034390	132681222	132681222	C	A,G,T	stop_gained	
+rs1565981653	132681223	132681223	C	A,G,T	stop_gained	pathogenic
+rs2136034450	132681227	132681227	G	A,C,T	stop_gained	uncertain significance
+rs370268888	132681236	132681236	C	A,G	stop_gained	uncertain significance
+rs1565981717	132681237	132681238	CA	-	frameshift_variant	pathogenic
+rs2136034673	132681245	132681245	T	A,C	stop_gained	uncertain significance
+rs2136034735	132681250	132681250	G	GACGAAACTGG	frameshift_variant	pathogenic
+rs997586826	132681253	132681253	G	A,C,T	stop_gained	uncertain significance; pathogenic
+rs2136034810	132681259	132681259	G	A,C,T	stop_gained	
+rs2043162254	132681266	132681266	T	-	frameshift_variant	pathogenic
+rs2542198432	132681267	132681268	G	GCGCGC	frameshift_variant	pathogenic
+ClinVar:c.137dup	132681205	132681205	A	AA	frameshift_variant	uncertain significance (ClinVar Miner listing; record not opened)

@@ -1,8 +1,10 @@
 # POLE c.138del (p.Leu46Phefs*8) - Research Framework
 
-> **TL;DR** -- Hypothesis-generating framework for POLE c.138del (p.Leu46Phefs*8), an ultra-rare germline frameshift truncating the catalytic subunit at residue 54 in a patient with multi-system features -- progressive polyposis, papillary thyroid carcinoma, stage IV deep infiltrating endometriosis, and congenital vascular anomalies -- clinically consistent with PPAP (working hypothesis; PPAP is currently defined by exonuclease-domain missense variants). Eight mechanistic models (including a formal null hypothesis), prioritized experiments anchored by mutational signature analysis and clinical WGS, and therapeutic strategy adapted for hEDS/POTS comorbidities. Both causal and incidental outcomes would advance understanding of POLE biology; if validated and replicated, findings could inform how truncating POLE variants are evaluated in clinical genetics.
+> **Audit note, 2026-11-20.** No tumour or polyp from this patient has been sequenced. Wherever this file says the patient's lesions are hypermutated (">100 mut/Mb"), that is an assumption carried over from the PPAP literature, confirmed as such by the repository owner. It is not an observation. Polyp histology is also undocumented here. Read this file with the [verification audit](docs/VERIFICATION_AUDIT_2026-11-20.md).
 
-> **A novel ultra-rare frameshift variant in DNA Polymerase Epsilon clinically consistent with Polymerase Proofreading-Associated Polyposis (PPAP), reported as ultra-hypermutated (full tumour sequencing methodology documentation and mutational signature confirmation pending)**
+> **TL;DR** -- Hypothesis-generating framework for POLE c.138del (p.Leu46Phefs*8), an ultra-rare germline frameshift truncating the catalytic subunit at codon 53 in a patient with multi-system features -- progressive polyposis, papillary thyroid carcinoma, stage IV deep infiltrating endometriosis, and congenital vascular anomalies -- clinically consistent with PPAP (working hypothesis; PPAP is currently defined by exonuclease-domain missense variants). Eight mechanistic models (including a formal null hypothesis), prioritized experiments anchored by mutational signature analysis and clinical WGS, and therapeutic strategy adapted for hEDS/POTS comorbidities. Both causal and incidental outcomes would advance understanding of POLE biology; if validated and replicated, findings could inform how truncating POLE variants are evaluated in clinical genetics.
+
+> **An ultra-rare germline frameshift in DNA Polymerase Epsilon (seen twice in gnomAD; conflicting classifications in ClinVar) in a patient with multiple gastrointestinal polyps and papillary thyroid carcinoma. Whether the variant contributes to the phenotype is the open question. No tumour or polyp has been sequenced.**
 
 ---
 
@@ -32,6 +34,8 @@
 - [Contributing](#contributing)
 - [License](#license)
 
+**Start with the post-audit documents:** [Verification Audit (2026-11-20)](docs/VERIFICATION_AUDIT_2026-11-20.md) | [Research Plan (2026-11)](docs/research_plan_2026-11.md) | [Polyposis Differential](docs/polyposis_differential.md) | [c.138del Among Other POLE Variants](docs/pole_variant_comparison.md) | [Evidence Protocol](docs/EVIDENCE_PROTOCOL.md) | [Claims Ledger](data/claims_ledger.tsv) | [llms.txt](llms.txt) (machine-readable index)
+
 **Additional resources:** [Clinical Case Summary](docs/clinical_case_summary.md) | [Systematic Health History](docs/systematic_health_history.md) | [POLE Carrier Registry Cross-Reference](docs/pole_carrier_registry_crossref.md) | [Comorbidity Interaction Analysis](docs/comorbidity_interaction_analysis.md) | [Pharmacokinetic Considerations](therapeutics/pharmacokinetic_considerations.md) | [POLE-Endometriosis Hypothesis](docs/endometriosis_hypothesis/) | [Formal Hypotheses & Falsification Criteria](models/mechanistic_models.md) | [Temporal Correlation Analysis](analysis/temporal_phenotype/temporal_correlation_analysis.ipynb) | [GA4GH Phenopacket](data/phenopacket/pole_c138del_phenopacket.json) | [ClinVar Submission](data/clinvar_submission/) | [AI Research Assistance Framework](docs/AI-Research-Assistance-Framework.md) | [FAQ](FAQ.md) | [Changelog](CHANGELOG.md) | [Cite This Repository](CITATION.cff)
 
 ---
@@ -40,9 +44,9 @@
 
 This repository investigates **POLE c.138del (p.Leu46Phefs*8)**, an ultra-rare germline frameshift variant (heterozygous, classified pathogenic by clinical laboratory; independently assessed as VUS pending functional data) in a female patient with progressive adenomatous polyposis, papillary thyroid carcinoma, Stage IV+ deep infiltrating endometriosis, congenital duplicated IVC, and ANA AC-21 pattern -- a five-category phenotype ([full clinical detail](docs/clinical_case_summary.md)).
 
-The variant truncates POLE at residue 54 of 2,286 amino acids, eliminating all catalytic domains, yet produces a phenotype clinically consistent with PPAP (a [working hypothesis](#key-caveats); classical PPAP involves exonuclease-domain missense variants). Reported TMB >100 mut/Mb ([verification pending](#key-caveats)). The 47-gene panel identified no other pathogenic variants; clinical WGS is a [critical gap](#research-prioritization-timeline).
+The variant truncates POLE at codon 53 of 2,286 amino acids, upstream of both catalytic domains. Whether it contributes to the phenotype is open: no tumour or polyp has been sequenced, so tumour mutational burden and mutational signatures are **not measured** ([C1](#key-caveats)), and PPAP remains a [working hypothesis](#key-caveats) (classical PPAP involves exonuclease-domain missense variants). The 47-gene panel identified no other pathogenic variants; clinical WGS is a [critical gap](#research-prioritization-timeline).
 
-**The central question:** Eight [candidate mechanistic models](#candidate-mechanistic-models) could explain how a truncating variant produces a PPAP-like phenotype. Discriminating between them -- anchored by [mutational signature analysis](#mutational-signature-discrimination) and [clinical WGS](#research-prioritization-timeline) -- is the primary research objective. Both outcomes (variant causal or incidental) are scientifically valuable.
+**The central question:** Does the variant contribute to the phenotype at all? Eight [candidate mechanistic models](#candidate-mechanistic-models), including a null model in which the variant is incidental, are maintained; on present evidence the null model leads ([audit](docs/VERIFICATION_AUDIT_2026-11-20.md)). The [research plan](docs/research_plan_2026-11.md) ranks the experiments that discriminate between them, beginning with what the allele produces (decay, a 52-residue peptide, or re-initiation at Met66) and with sequencing the stored thyroid tumour. Both outcomes (variant causal or incidental) are scientifically valuable.
 
 > **Scope:** This is an n-of-1 hypothesis-generating framework. We are seeking collaborators -- see [Contributing](#contributing).
 
@@ -54,13 +58,13 @@ The variant truncates POLE at residue 54 of 2,286 amino acids, eliminating all c
 
 | # | Caveat |
 |---|--------|
-| **C1** | **TMB unverified.** TMB >100 mut/Mb is reported but the assay platform and source specimen are pending clarification. WGS-based TMB determination and mutational signature confirmation are the highest-priority experiments. |
+| **C1** | **TMB not measured.** No tumour or polyp from this patient has been sequenced. The ">100 mut/Mb" figure that earlier versions of this repository reported was an assumption carried over from the PPAP literature (owner statement, 2026-11-20). Sequencing the stored thyroid tumour is the first experiment that would produce a measured value. |
 | **C2** | **PPAP is a working hypothesis.** Classical PPAP is defined by exonuclease-domain missense variants producing a dominant-negative, error-prone polymerase. Whether a frameshift variant can produce PPAP through a non-canonical mechanism is the central question under investigation. |
 | **C3** | **hEDS/POTS confound.** The hEDS/POTS/gastroparesis triad independently explains some clinical features (severe endometriosis, GI dysmotility, some vascular findings). Molecular testing is needed to disentangle POLE-attributable from hEDS-attributable phenotypes. See [Disentangling POLE vs. hEDS](#disentangling-pole-attributable-vs-heds-attributable-phenotypes). |
 | **C4** | **Synthetic lethality data gap.** All published synthetic lethality data derives from POLE exonuclease-domain-mutant cells (gain-of-function), not POLE-null cells (loss-of-function). Applicability to this patient's tumors is unvalidated. |
 | **C5** | **Classification discrepancy.** The clinical laboratory classified the variant as Pathogenic (standard ACMG criteria for null variants). Independent assessment: VUS pending functional or segregation data. Both assessments answer different questions and can be simultaneously valid. |
 | **C6** | **Panel coverage gap.** The 47-gene panel does not cover MBD4, RNF43, FAN1, MCM8/MCM9, GREM1 regulatory variants, connective tissue genes, or all structural variation. Clinical WGS/WES is a critical gap for testing the null hypothesis. |
-| **C7** | **HGVS notation requires reconciliation.** The clinical report states p.Leu46Phefs\*8, but the MANE Select transcript (ENST00000320574.6 / NM_006231.4) encodes Glu (not Leu) at position 46 (codon c.136–138 = GAA). This discrepancy — likely reflecting a different transcript version or annotation pipeline — means the exact frameshift product length and stop position need re-derivation on the canonical MANE transcript. Throughout this document, "~residue 54" reflects the approximate stop position pending reconciliation; the `fs*8` notation implies stop at codon 53 (52-aa product), while the narrative historically used ~54 (53-aa product, consistent with `fs*9`). See [Model 7 (Annotation Artifact)](#model-7-annotation-artifact). |
+| **C7** | **HGVS notation verified (resolved 2026-11-20).** NM_006231.4:c.138del is p.Leu46Phefs\*8 on MANE Select (ENST00000320574.10 / ENSP00000322570.5): codon 46 is TTG (Leu), c.138 is its third base, the new stop is codon 53 and the predicted product is 52 residues (45 native + FGLVLSG). Ensembl VEP returns the same protein change. The earlier "Glu46 / GAA" discrepancy came from a sequence file in this repository that was not POLE; it has been removed. Reproduce with `python3 analysis/variant_verification/verify_c138del.py`. See the [audit](docs/VERIFICATION_AUDIT_2026-11-20.md). |
 
 ---
 
@@ -68,14 +72,46 @@ The variant truncates POLE at residue 54 of 2,286 amino acids, eliminating all c
 
 External evaluators need to assess the variant's authenticity and the strength of the underlying data.
 
+![POLE c.138del at codon resolution](figures/c138del_codons.png)
+
+*Figure: the variant re-derived on MANE Select. Codon 46 is TTG (Leu); the deletion gives seven new residues and a TGA stop at codon 53.*
+
+![Start codons and reading frames in the first 240 nt of POLE](figures/c138del_translation_map.png)
+
+*Figure: on the c.138del mRNA every reading frame opened upstream of the deletion ends by c.160. The next start codon, Met66, is in the POLE frame 35 nt later. A restart there is untested; it would give a protein that lacks residues 1–65 and keeps both catalytic domains.*
+
+![Status of the claims in the ledger](figures/claims_ledger_status.png)
+
+*Figure: where each claim in [`data/claims_ledger.tsv`](data/claims_ledger.tsv) stood after the audit of 20 November 2026.*
+
+<details>
+<summary><strong>About the figures in this README (updated 2026-11-20)</strong></summary>
+
+All figures were rebuilt or added during the verification audit. Each is generated by code from checked-in data, so none can drift from the text.
+
+| Figure | Status | Built from | What changed |
+|--------|--------|------------|--------------|
+| `figures/c138del_codons.png` | new | `data/reference/` via `verify_c138del.py` | Replaces the codon description that came from a non-POLE sequence |
+| `figures/c138del_translation_map.png` | new | same | Shows the start codons, the frames they open and where each ends, for the wild-type and mutant mRNA |
+| `figures/pole_exon1-2_truncations.png` | new | `nterm_truncations.py` | Places c.138del among the 26 truncating and 8 start-loss alleles recorded in exons 1–2 |
+| `figures/lof_evidence.png` | new | case-control counts from Mur et al. 2020 (ledger row E01) | Odds ratio with its interval, and the number of carriers expected by chance in a polyposis series |
+| `figures/claims_ledger_status.png` | new | `data/claims_ledger.tsv` | Counts of verified, contradicted, unverified and unmeasured claims |
+| `figures/clinical_timeline.png` | new | `data/phenotype_timeline.tsv` | A descriptive timeline with no model annotations; replaces the earlier timeline in this README |
+| `analysis/variant_landscape/POLE_variant_landscape.png` | regenerated | `generate_pole_lollipop.py` | Stop marker now at codon 53 (it was drawn one residue late); p.Ser297Phe label corrected; c.138del drawn as conflicting in ClinVar. Second regeneration the same day: ClinVar germline classifications of the hotspot variants corrected from the live records (P286R and V411L are conflicting, not Pathogenic; N363K c.1089C>A is not in ClinVar), after the three ClinVar IDs in `data/POLE_clinvar_variants.tsv` were found to be MEN1 records |
+| `analysis/temporal_phenotype/*.png` | regenerated 2026-11-21, captioned | `generate_temporal_analysis.py` | Kept as an illustration of the Model 4 hypothesis; the correlation it suggests is not significant (see the caption below it). Regenerated after the haematopoietic stem-cell turnover was corrected from "~40 days" to once per ~40 weeks (Catlin 2011); every turnover value now carries a source or an "unsourced" label in `data/tissue_replication_rates.tsv` |
+
+Regenerate the new figures with `python3 analysis/figures/make_figures.py` (needs matplotlib). SVG versions sit beside each PNG. Colours were checked for colour-vision separation; meaning is never carried by colour alone.
+
+</details>
+
 | Item | Status | Detail |
 |------|--------|--------|
 | **Variant identification** | **Confirmed (germline)** | POLE c.138del (p.Leu46Phefs*8) via accredited 47-gene hereditary cancer panel (2022), blood/saliva-derived DNA. Heterozygous germline call |
 | **Orthogonal confirmation** | **Confirmed** | Confirmed on independent accredited germline assay; two clinical-grade platforms concordant |
 | **Germline status** | **Confirmed** | Heterozygous, constitutional variant from blood/saliva DNA. Germline status establishes hereditary predisposition |
-| **TMB >100 mut/Mb** | **Reported, unverified** | Reported as ultra-hypermutated; assay platform and source specimen pending clarification ([C1](#key-caveats)) |
+| **TMB >100 mut/Mb** | **Not measured** | No tumour or polyp from this patient has been sequenced; the figure was inferred from the PPAP literature (repository owner, 2026-11-20). Statements elsewhere in this file that call it "reported" predate the audit ([C1](#key-caveats)) |
 | **MSI status** | Not yet tested | Required to rule out MMR-deficient phenocopy ([details](docs/clinical_case_summary.md#differential-diagnosis-pole-driven-hypermutation-vs-mmr-deficient-phenocopy)) |
-| **gnomAD absence** | Verified (v4.1.0) | 0/1,614,586 alleles. Gene-level: pLI ≈ 0, LOEUF = 0.76 (188 observed / 279 expected LoF). [Query](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4) |
+| **gnomAD** | Corrected 2026-11-20 | **Present twice**: rs1555230420 in 1 of 1,461,874 gnomAD v4.1 exome alleles and in 1 of 31,386 gnomAD v2.1.1 genome alleles (ClinVar's "gnomAD 0.00003"), both non-Finnish European; absent from v3.1/v4.1 genomes. The two sample sets do not overlap, so these are most likely two carriers ([v4 record](https://gnomad.broadinstitute.org/variant/12-132681203-GC-G?dataset=gnomad_r4), [v2 record](https://gnomad.broadinstitute.org/variant/12-133257789-GC-G?dataset=gnomad_r2_1); gnomAD API, 2026-11-20). Gene-level constraint values in `data/POLE_gnomad_constraints.tsv` were re-verified against the gnomAD API (ledger D10); the figure 188 counts observed LoF variants, not carriers. |
 | **Patient demographics** | Female, currently early 30s | Self-reported European ancestry. First clinical finding (polyposis) at age 19 |
 | **Family history** | Maternal grandmother: uterine + breast cancer | No polyposis in family. Inheritance unknown (parental testing unavailable) |
 | **Consent** | Patient-directed | Patient-maintained framework; data self-reported, de-identified. IRB protocol required for biospecimen collaboration |
@@ -87,15 +123,31 @@ External evaluators need to assess the variant's authenticity and the strength o
 
 **MSI testing rationale:** Without MMR IHC (MLH1/MSH2/MSH6/PMS2), MSI testing, and MLH1 promoter methylation status, a reviewer cannot distinguish genuine POLE-driven hypermutation from MMR deficiency. The germline panel excludes Lynch syndrome, but somatic MMR inactivation or epigenetic MLH1 silencing remain possible.
 
-**gnomAD coordinates:** Genomic coordinates: **GRCh38** chr12:132681203–132681204; **GRCh37** chr12:133249847 (clinical report coordinate system ; verify via UCSC LiftOver or Ensembl CrossMap if using GRCh37-based pipelines). The clinical germline report uses GRCh37; all coordinates in this repository default to GRCh38 unless otherwise noted. Queried via [gnomAD v4](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4) (ENST00000320574).
+**Genomic coordinates:** **GRCh38** chr12:132681203–132681204 (NC_000012.12:g.132681204del; VCF 12-132681203-GC-G); **GRCh37** chr12:133257789–133257790 (NC_000012.11:g.133257790del; VCF 12-133257789-GC-G). The GRCh37 position previously printed here belongs to c.1376 (the p.Ser459Phe site in exon 14), not to c.138del. Coordinates in this repository default to GRCh38. Which build the clinical report uses has not been checked against the report.
 
-**Classification context:** The Pathogenic classification rests on standard ACMG criteria for null variants in a gene with established loss-of-function disease mechanism, plus population database absence ; **not** on observed phenotype-genotype correlation ([C5](#key-caveats)). Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 ; designed for non-disruptive ED missense variants). PVS1 applicability debated. Submitted to [LOVD3](https://databases.lovd.nl/shared/variants/POLE) (2026-04-15, pending curation); ClinVar submission prepared.
+**Classification context:** The Pathogenic classification rests on standard ACMG criteria for null variants in a gene with established loss-of-function disease mechanism, plus population database absence as assessed at the time (the variant is now seen in gnomAD) ; **not** on observed phenotype-genotype correlation ([C5](#key-caveats)). Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 ; designed for non-disruptive ED missense variants). PVS1 applicability debated. Submitted to [LOVD3](https://databases.lovd.nl/shared/variants/POLE) (2026-04-15, pending curation; correction text in `data/lovd_update_2026-11-20.md`); ClinVar submission prepared (the variant is already in ClinVar as VCV000548779).
 
 **Germline implications:** Constitutional (germline) variant present in all cells, not tumor-derived. The distinction is critical: germline status establishes hereditary cancer predisposition and informs cascade family testing obligations.
 
 </details>
 
-> **For potential collaborators:** The most productive entry point is the [Research Prioritization Timeline](#research-prioritization-timeline), which ranks experiments by feasibility, impact, and what they resolve. The full clinical phenotype is documented in [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md) with genomic profile, family history, and complete laboratory data.
+<details>
+<summary><strong>Reproducibility checks (added 2026-11-21)</strong></summary>
+
+Everything stated about the sequence, the data tables and the databases is re-derived or re-checked by code:
+
+| Check | What it covers | Run |
+|-------|----------------|-----|
+| Variant derivation | c.138del re-derived from the fixtures in `data/reference/` (Ensembl CDS, UniProt protein, GRCh38 exon table); exits non-zero if p.Leu46Phefs\*8 is not reproduced | `python3 analysis/variant_verification/verify_c138del.py` |
+| Exon 1–2 neighbours | every start-loss and truncating allele recorded in exons 1–2, modelled the same way | `python3 analysis/variant_verification/nterm_truncations.py` |
+| Offline tests (52) | two-source agreement of the sequence; data tables against the sequence (domain maps, hotspots, methionines, curated variants, ClinVar snapshot); phenopacket against the HPO table; timeline against the turnover table; gnomAD arithmetic; every number, coordinate, DOI, PMID, COSMIC signature and ledger row quoted in any document against its source table; checksums; the README figures rebuilt and their labels compared with the committed SVGs; a guard that retired claims do not return | `python3 -m pytest -q tests` (runs on every push: `.github/workflows/verify.yml`) |
+| Live tests (14, opt-in) | ClinVar classification and submitters of VCV000548779; gnomAD allele counts; SpliceAI via the Ensembl VEP plugin; PubMed watch for any paper naming the variant; MANE transcript, CDS, UniProt sequence and exon table against the live services; every HPO term; every bibliography PMID and DOI against PubMed and Crossref; new truncating alleles in exons 1–2; all 34 modelled alleles against Ensembl VEP; ClinVar population drift; the LOVD entry | `POLE_LIVE=1 python3 -m pytest -q tests/live` (weekly: `.github/workflows/verify-live.yml`) |
+
+Every factual claim has a row in [`data/claims_ledger.tsv`](data/claims_ledger.tsv) with a status (`VERIFIED`, `CONTRADICTED`, `INFERENCE`, `OWNER_STATEMENT`, `NOT_MEASURED`, `UNVERIFIED`, `NOT_FOUND`), a source and the date it was checked. The rules for adding claims are in [`docs/EVIDENCE_PROTOCOL.md`](docs/EVIDENCE_PROTOCOL.md). SpliceAI for c.138del (ledger V13, resolved 2026-11-21 through the Ensembl VEP plugin): all four delta scores 0, no predicted splice effect.
+
+</details>
+
+> **For potential collaborators:** The most productive entry point is the post-audit [research plan](docs/research_plan_2026-11.md), which ranks experiments by information per unit cost (the [Research Prioritization Timeline](#research-prioritization-timeline) below predates the audit). The full clinical phenotype is documented in [`docs/clinical_case_summary.md`](docs/clinical_case_summary.md) with genomic profile, family history, and complete laboratory data.
 
 ---
 
@@ -103,10 +155,10 @@ External evaluators need to assess the variant's authenticity and the strength o
 
 | Established | Requires Investigation |
 |-------------|----------------------|
-| Germline POLE c.138del (p.Leu46Phefs*8), heterozygous, premature stop at ~residue 54 | LOH status in tumor tissue ([WGS priority](#research-prioritization-timeline)) |
+| Germline POLE c.138del (p.Leu46Phefs*8), heterozygous, premature stop at codon 53 | LOH status in tumor tissue ([WGS priority](#research-prioritization-timeline)) |
 | Classified Pathogenic by clinical lab; independently assessed as VUS ([C5](#key-caveats)) | Mutational signatures: SBS10a/b/28 vs. non-canonical? ([priority analysis](#mutational-signature-discrimination)) |
-| Reported TMB >100 mut/Mb ([C1](#key-caveats)) | NMD escape status and mutant:WT transcript ratio |
-| 47-gene panel negative; sole identified driver ([C6](#key-caveats)) | Which of 7 [mechanistic models](#candidate-mechanistic-models) explains the paradox? |
+| Tumour mutational burden, signatures and MMR status **not measured** ([C1](#key-caveats)) | Tumour mutational burden and signatures: sequence the stored thyroid block ([research plan](docs/research_plan_2026-11.md)) |
+| 47-gene panel negative; only panel finding ([C6](#key-caveats)) | Which of the eight [mechanistic models](#candidate-mechanistic-models) (Model 0, incidental, leads) is supported once tissue is sequenced |
 | Five-category phenotype: neoplastic + proliferative + endometrial + congenital + autoimmune | AMA confirmation (anti-PDC-E2 ELISA for AC-21 pattern) |
 | gnomAD: pLI ≈ 0, LOEUF 0.76; haploinsufficiency alone likely insufficient | Thyroid specimen POLE signatures (expands PPAP spectrum?) |
 | ANA AC-21 pattern at 1:160 | Normal tissue mutation rate (NanoSeq on PBMCs) |
@@ -160,18 +212,18 @@ Several clinical findings in this patient could be attributed to either POLE hap
 
 ### Comparison with Classical PPAP Cohort
 
-How this patient compares to published PPAP cohort data (Palles et al. 2022, Bellido et al. 2016, Valle et al. 2020):
+How this patient compares to published PPAP cohort data (Palles et al. 2022, Bellido et al. 2016, Mur et al. 2020):
 
 | Feature | Classical PPAP (Published Cohorts) | This Patient (c.138del) | Concordance |
 |---------|-----------------------------------|------------------------|-------------|
-| **Variant type** | Missense substitution in exonuclease active site | Frameshift (p.Leu46Phefs*8) ; premature stop at residue 54 | **Novel** |
+| **Variant type** | Missense substitution in exonuclease active site | Frameshift (p.Leu46Phefs*8) ; premature stop at codon 53 | **Novel** |
 | **Affected domain** | Exonuclease domain (residues 268–471) | N-terminal region (upstream of all functional domains) | **Novel** |
 | **Inheritance** | Autosomal dominant (heterozygous) | Heterozygous (de novo vs. inherited unknown) | Concordant |
 | **Polyp count** | 10–100 adenomatous polyps (attenuated) | ~15 sessile adenomatous polyps | Concordant |
 | **Polyp distribution** | Colorectal predominant; gastric in POLE carriers | Stomach, cecum, sigmoid colon | Concordant |
 | **GI features** | Chronic gastritis reported in some POLE carriers | Chronic gastric gastritis; diffuse GI mucosal changes; recurrent SIBO | Concordant |
 | **Cancer types** | Colorectal, endometrial, ovarian, brain ; N363K extends PPAP spectrum to glioblastoma (Vande Perre et al., 2019; Labrousse et al., 2023) | Papillary thyroid carcinoma (Stage I, 1.2 cm, isthmus, encapsulated) | **Expands spectrum** |
-| **TMB** | Ultra-hypermutated (>100 mut/Mb) with SBS10a/b | Reported TMB >100 mut/Mb ([C1](#key-caveats); WGS + signature confirmation pending) | Concordant (if confirmed) |
+| **TMB** | Ultra-hypermutated (>100 mut/Mb) with SBS10a/b | Not measured ([C1](#key-caveats)); no tumour or polyp sequenced | **Unknown** |
 | **Extra-GI neoplastic** | Endometrial cancer (most common); occasional brain, ovarian | Thyroid carcinoma (not previously in PPAP spectrum) | **Expands spectrum** |
 | **Non-neoplastic proliferative** | Not systematically reported | Bilateral PASH, liver FNH/hemangioma | **Novel** |
 | **Congenital anomalies** | Not reported in any PPAP cohort | Duplicated inferior vena cava | **Novel** |
@@ -180,7 +232,7 @@ How this patient compares to published PPAP cohort data (Palles et al. 2022, Bel
 | **Connective tissue/dysautonomia** | Not reported in any PPAP cohort | hEDS, POTS, gastroparesis ; potential MCAS | **Novel** |
 | **Mechanism** | Dominant-negative gain of function (error-blind polymerase) | Unknown ; 8 candidate models (including null hypothesis) under investigation | **Novel** |
 
-> **Key insight:** This patient is fully concordant with classical PPAP for neoplastic features (polyp count, distribution, TMB) while simultaneously presenting five categories of findings never reported in any PPAP cohort. This suggests that current PPAP phenotyping may be systematically underascertaining non-neoplastic manifestations, or that the truncating variant mechanism produces a broader phenotype than exonuclease-domain missense variants.
+> **Key insight:** This patient matches classical PPAP on polyp count and distribution (histology undocumented here) but not yet on any molecular feature, since no lesion has been sequenced, while presenting five categories of findings never reported in any PPAP cohort. Either current PPAP phenotyping underascertains non-neoplastic manifestations, or those findings have causes independent of POLE; the [polyposis differential](docs/polyposis_differential.md) treats the second as more likely on present evidence.
 
 ---
 
@@ -190,17 +242,17 @@ How this patient compares to published PPAP cohort data (Palles et al. 2022, Bel
 
 Canonical PPAP-causing variants (P286R, V411L, L424V, S459F) are **missense substitutions** clustered within the exonuclease active site. Their mechanism is a **dominant-negative gain of function**: the polymerase retains DNA synthesis capability (sometimes with increased processivity) but loses proofreading function. The yeast pol2-P301R allele (equivalent to human P286R) has a **~50-fold higher mutator effect** than the exonuclease-inactive pol2-4 allele (D290A,E292A), demonstrating that P286R does more than simply inactivate proofreading ; the arginine at position 286 sterically impedes DNA access to the exonuclease active site, producing a **gain-of-function** that actively increases error rates beyond what loss of exonuclease alone would produce (Kane & Shcherbakova, 2014, *Cancer Res*; Xing et al., 2019, *Nat Commun*). The result is a hyperactive, error-blind polymerase that outcompetes mismatch repair, producing ultra-hypermutation with characteristic COSMIC mutational signatures **SBS10a** (C>A in TCT), **SBS10b** (C>T in TCG), and **SBS28**.
 
-**Critically, canonical ExoD missense drivers operate without LOH** ; tumor genomic profiles do not show loss of the wild-type POLE allele (Barbari & Shcherbakova, 2019). The heterozygous mutant allele is sufficient for ultra-hypermutation. This makes the LOH hypothesis for the c.138del truncation variant (Model 1) **mechanistically distinct** from classical PPAP, not derivative of it.
+**Critically, canonical ExoD missense drivers operate without LOH** ; tumor genomic profiles do not show loss of the wild-type POLE allele (Park & Pursell, 2019). The heterozygous mutant allele is sufficient for ultra-hypermutation. This makes the LOH hypothesis for the c.138del truncation variant (Model 1) **mechanistically distinct** from classical PPAP, not derivative of it.
 
 ### Why This Variant Should Not Cause PPAP
 
 > **Literature consensus acknowledgment:** The current scientific consensus does **not** support truncating POLE variants as pathogenic for PPAP. All established pathogenic PPAP variants are missense substitutions in the exonuclease domain that produce a dominant-negative, error-prone polymerase. Truncating variants are generally considered non-pathogenic for PPAP because they cannot produce the gain-of-function mechanism. Furthermore, gnomAD population data shows that POLE tolerates heterozygous LoF (pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed), and Andrianova et al. (2024, *Eur J Hum Genet*) demonstrated that heterozygous *POLD1* exonuclease domain variants cause only ~15% mutation rate increase with cancer requiring somatic LOH ; a recessive, not dominant, predisposition model (demonstrated for POLD1; the principle may extend to POLE). This framework investigates whether the c.138del variant represents a novel, non-canonical pathogenic mechanism (LOH-dependent, haploinsufficiency-mediated, or other) that has not been previously recognized in PPAP ([C2](#key-caveats)).
 
-The variant **p.Leu46Phefs\*8** terminates the protein at approximately residue 54 ; over **200 amino acids upstream** of the exonuclease domain. Under orthodox models:
+The variant **p.Leu46Phefs\*8** terminates the protein at approximately codon 53 ; over **200 amino acids upstream** of the exonuclease domain. Under orthodox models:
 
 1. **Haploinsufficiency should be insufficient.** The wild-type allele should produce normal functional POLE. A 50% reduction in protein output should not produce TMB >100 mut/Mb. gnomAD confirms this: 188 LoF variants exist without apparent PPAP.
-2. **Complete POLE loss is embryonic lethal.** Homozygous *Pole* knockout is lethal at embryonic day 7 in mice ([MGI:1196391](https://www.informatics.jax.org/marker/MGI:1196391)); hemizygous *Pole*^P286R/null mice are essentially embryonic lethal (<5% expected offspring; Barbari & Shcherbakova, 2019).
-3. **Yet the phenotype is clinically consistent with PPAP** ([C2](#key-caveats)). Reported TMB >100 mut/Mb ([C1](#key-caveats)) with polyposis and multi-system involvement matches the PPAP clinical presentation ; though molecular confirmation (SBS10a/b/28 mutational signatures) is pending.
+2. **Complete POLE loss is embryonic lethal.** Homozygous *Pole* knockout is lethal at embryonic day 7 in mice ([MGI:1196391](https://www.informatics.jax.org/marker/MGI:1196391)); hemizygous *Pole*^P286R/null mice are essentially embryonic lethal (<5% expected offspring; Park & Pursell, 2019).
+3. **Yet the phenotype was read as clinically consistent with PPAP** ([C2](#key-caveats)) on polyp count and multi-system involvement. The molecular features that define PPAP (raised mutational burden, SBS10a/b/28 signatures) have not been measured in any lesion ([C1](#key-caveats)).
 
 ---
 
@@ -210,7 +262,7 @@ The variant **p.Leu46Phefs\*8** terminates the protein at approximately residue 
 POLE Catalytic Subunit (p261; 2,286 aa, 261 kDa)
 
 |===|         |========|=============|    |=======================|              |======================|
- 1-54          223-----268----------471    ~530-------------------1189             1189----------------2286
+ 1-45          223-----268----------471    ~530-------------------1189             1189----------------2286
   ↑            Broader  Exonuclease        Polymerase core                        C-terminal regulatory
   STOP         ExoD     active site        (palm + fingers + thumb)               (POLE2/3/4 binding,
   p.Leu46      region   (P286R, V411L,     (DNA synthesis)                         CMG helicase interaction)
@@ -221,14 +273,20 @@ POLE Catalytic Subunit (p261; 2,286 aa, 261 kDa)
     function)                                 catalytic fragment)
 ```
 
-The truncation at residue 54 eliminates all catalytic domains ; no exonuclease activity, no polymerase activity, no C-terminal regulatory regions. Note: the N-terminal region (residues 1–54) may participate in CMG helicase complex interactions and DNA binding (Parkash et al., 2019; UniProt Q07864), so the truncated 54-residue peptide is not necessarily inert (see Model 3). Structured reference data (domain boundaries, coding sequence, constraint metrics) is available in [`data/`](data/) for programmatic analysis.
+The truncation at codon 53 eliminates all catalytic domains ; no exonuclease activity, no polymerase activity, no C-terminal regulatory regions. Note: the N-terminal region (residues 1–45) may participate in CMG helicase complex interactions and DNA binding (Parkash et al., 2019; UniProt Q07864), so the truncated 52-residue peptide is not necessarily inert (see Model 3). Structured reference data (domain boundaries, coding sequence, constraint metrics) is available in [`data/`](data/) for programmatic analysis.
 
 ![POLE variant landscape](analysis/variant_landscape/POLE_variant_landscape.png)
+
+*Figure: regenerated 2026-11-20 with the stop at codon 53.*
+
+![Truncating and start-loss alleles in POLE exons 1-2](figures/pole_exon1-2_truncations.png)
+
+*Figure: c.138del is not alone. c.137del, c.137dup and c.141del hit the same codons and give a near-identical product; ten alleles in all would restart at Met66 if translation restarts. See [`docs/pole_variant_comparison.md`](docs/pole_variant_comparison.md).*
 
 <details>
 <summary><strong>Domain boundary conventions</strong></summary>
 
-Two boundary conventions appear in the literature. The **narrow exonuclease active site** (residues 268–471) is the region screened for PPAP driver mutations (Church et al., 2013, *HMG*; Campbell et al., 2017, *Cell*). The **broader exonuclease-containing region** (residues 223–517) includes flanking structural elements ([Atlas of Genetics and Oncology](https://atlasgeneticsoncology.org/gene/41773/pole-(dna-polymerase-epsilon-catalytic-subunit))). The catalytic fragment corresponds to the N-terminal 140 kDa portion (residues 1–1189), which retains full polymerase and exonuclease activity *in vitro* (Korona et al., 2011, *JBC*). Domain architecture follows Liu & Linn (2000, *NAR*): N-terminal region (1–267), core catalytic domain (268–1189), C-terminal regulatory domain (1189–2286).
+Two boundary conventions appear in the literature. The **narrow exonuclease active site** (residues 268–471) is the region screened for PPAP driver mutations (Church et al., 2013, *HMG*; Campbell et al., 2017, *Cell*); it coincides exactly with the CDD domain cd05779 (DEDDy 3′–5′ exonuclease of Pol ε) as mapped on UniProt Q07864 by InterPro. The **broader exonuclease-containing region** (residues 223–517) includes flanking structural elements ([Atlas of Genetics and Oncology](https://atlasgeneticsoncology.org/gene/41773/pole-(dna-polymerase-epsilon-catalytic-subunit))); the Pfam profile PF03104 spans 220–426. The catalytic fragment corresponds to the N-terminal 140 kDa portion (residues 1–1189), which retains full polymerase and exonuclease activity *in vitro* (Korona et al., 2011, *Nucleic Acids Res*); CDD cd05535 places the polymerase catalytic domain at 531–1153. Domain architecture follows Liu & Linn (2000, *NAR*): N-terminal region (1–267), core catalytic domain (268–1189), C-terminal regulatory domain (1189–2286). UniProt itself annotates no domain feature before the C-terminal zinc fingers (2158–2190, 2221–2238); the database-anchored boundaries with accessions are in [`data/POLE_domains_interpro.tsv`](data/POLE_domains_interpro.tsv).
 
 </details>
 
@@ -243,6 +301,10 @@ Eight candidate models (including a null hypothesis and an annotation-artifact h
 For formal hypotheses with specific falsifiable predictions and exclusion criteria for each model, see [`models/mechanistic_models.md`](models/mechanistic_models.md).
 
 ### Model 0: Null Hypothesis (Variant Is Incidental)
+
+![Case-control evidence and coincidence](figures/lof_evidence.png)
+
+*Figure: loss-of-function POLE/POLD1 variants were as frequent in hereditary cancer patients as in controls (Mur et al. 2020), and a series of a few hundred polyposis patients is expected to contain one such carrier by chance. See [`docs/polyposis_differential.md`](docs/polyposis_differential.md).*
 
 POLE c.138del is a passenger variant; the phenotype is driven by an unidentified genetic variant not covered by the 47-gene panel ([C6](#key-caveats)), stochastic factors, or the combination of hEDS with common conditions ([C3](#key-caveats)). **This is the mandatory comparator against which all other models must be tested.** Key evidence supporting the null: 188 gnomAD LoF variants without apparent PPAP, limited panel coverage, no functional data, no segregation data, hEDS explaining some features, TMB unverified ([C1](#key-caveats)). Both outcomes (variant causal vs. incidental) are scientifically valuable.
 
@@ -260,22 +322,22 @@ The wild-type POLE allele is somatically deleted or silenced in tumor tissue (vi
 
 Ribosomes encountering the premature stop codon reinitiate at a downstream AUG codon. If reinitiation occurs between the exonuclease and polymerase domains, the resulting N-terminally truncated protein retains polymerase activity but lacks proofreading ; **phenocopying the canonical dominant-negative mechanism** through a completely different genetic route.
 
-**Key experiment:** Ribosome profiling (Ribo-seq) to map translating ribosomes across the mutant POLE transcript. Candidate reinitiation sites with Kozak context scores are catalogued in [`data/POLE_downstream_methionines.tsv`](data/POLE_downstream_methionines.tsv) ; notably M497 and M530 (both with moderate-to-strong Kozak contexts) would produce polymerase-only proteins lacking proofreading, directly phenocopying dominant-negative PPAP.
+**Key experiment:** a reporter assay and allele-specific RT-PCR rather than Ribo-seq. On the real POLE mRNA the first AUG after the premature stop is Met66 (c.196), 35 nt downstream and in frame; a product starting there would lack residues 1–65 and keep both catalytic domains, so re-initiation cannot make a polymerase-only protein. The methionine list previously cited here was computed from a sequence that is not POLE and has been replaced ([`data/POLE_downstream_methionines.tsv`](data/POLE_downstream_methionines.tsv)).
 
 <details>
 <summary><strong>Prior probability assessment</strong></summary>
 
-**Prior probability: Low.** Efficient reinitiation across >1 kb of coding sequence (M497 is ~1.3 kb downstream) would be unprecedented in standard mammalian mRNAs (Sherlock et al., 2023). Kozak consensus context (GCC(A/G)CCAUGG; Kozak 1986, 1987) at M497 and M530 is moderate-to-strong, but reinitiation efficiency depends on additional factors including inter-cistronic distance, mRNA secondary structure, and eIF availability. Formally testable but considered unlikely absent positive Ribo-seq evidence.
+**Prior probability as first written: not supported.** The premise (re-initiation between the exonuclease and polymerase domains) has no sequence basis. The question that replaces it is whether translation restarts at Met66. Reporter work on p53 found re-initiation after premature stops up to 126 codons from the start codon and 6–243 nt upstream of the restart codon (Cohen et al., 2019, doi:10.1093/nar/gkz319); c.138del sits inside both ranges (stop at codon 53, 35-nt gap). The product would be proofreading-proficient, not a mutator. Untested for POLE.
 
 </details>
 
 ### Model 3: NMD Escape + Holoenzyme Poisoning
 
-The premature termination codon escapes nonsense-mediated mRNA decay. The truncated 54-amino-acid peptide retains partial binding capacity for the POLE2 (p59) accessory subunit, competitively inhibiting holoenzyme assembly ; a **dominant-negative through stoichiometric poisoning** rather than catalytic dysfunction.
+The premature termination codon escapes nonsense-mediated mRNA decay. The truncated 52-amino-acid peptide retains partial binding capacity for the POLE2 (p59) accessory subunit, competitively inhibiting holoenzyme assembly ; a **dominant-negative through stoichiometric poisoning** rather than catalytic dysfunction.
 
-**Key experiments:** Allele-specific RNA-seq (NMD escape test); co-immunoprecipitation of synthetic 54-residue peptide with recombinant POLE2.
+**Key experiments:** Allele-specific RNA-seq (NMD escape test); co-immunoprecipitation of synthetic 52-residue peptide with recombinant POLE2.
 
-**Prior probability: Low.** The POLE–POLE2 interaction interface is mediated by the C-terminal domain (~residues 1,265–2,286), not the N-terminus (Yuan et al., 2020; He et al., 2024). A 54-residue peptide competing with full-length wild-type POLE for POLE2 binding is structurally implausible without experimental evidence to the contrary.
+**Prior probability: Low.** The POLE–POLE2 interaction interface is mediated by the C-terminal domain (~residues 1,265–2,286), not the N-terminus (Yuan et al., 2020; He et al., 2024). A 52-residue peptide competing with full-length wild-type POLE for POLE2 binding is structurally implausible without experimental evidence to the contrary.
 
 ### Model 4: Replication Stress-Dependent Haploinsufficiency
 
@@ -297,11 +359,11 @@ A somatic pathogenic missense mutation arises on the **wild-type** POLE allele w
 
 ### Model 7: Variant-Call / Annotation Artifact
 
-The molecular consequence of c.138del may not be a simple null as currently assumed. Three scenarios warrant exclusion: (a) the deletion falls near an **exon boundary and perturbs splicing**, producing an in-frame or exon-skipped product with residual/altered function rather than a clean truncation; (b) the variant consequence differs on the **canonical MANE transcript** vs. the transcript used by the reporting laboratory; (c) the HGVS notation is imprecise — the clinical report states p.Leu46Phefs\*8, but the MANE Select transcript (ENST00000320574.6) encodes **Glu (not Leu) at position 46** (c.136–138 = GAA), indicating a transcript or annotation discrepancy ([C7](#key-caveats)). Any of these could mean the real molecular product is not a null.
+The molecular consequence of c.138del was re-derived on 2026-11-20 (see the [audit](docs/VERIFICATION_AUDIT_2026-11-20.md)). All three scenarios first listed here are **closed**: (b) a different consequence on the MANE transcript and (c) imprecise HGVS, because NM_006231.4:c.138del is exactly p.Leu46Phefs\*8 on MANE Select ([C7](#key-caveats)); and (a) a splicing effect, because SpliceAI (Ensembl VEP plugin, precomputed scores, queried 2026-11-21) gives all four delta scores of 0 for ENST00000320574, in line with the position (75 nt from the 5′ end and 66 nt from the 3′ end of exon 2; exon 2 holds 142 nt, so skipping it would also shift the frame; ledger V13). RNA has not been examined. What remains open is the fate of the transcript: nonsense-mediated decay versus re-initiation at Met66, which now belongs to Model 2.
 
-**Key experiment:** Re-derive the variant on the canonical MANE transcript (position, frame, exon location, splice-site proximity); confirm at the RNA level with **RT-PCR across the affected exons**.
+**Key experiment (done for the DNA level; RNA pending):** the re-derivation and the splice prediction are in `analysis/variant_verification/` and ledger V01–V13; RT-PCR across exons 1–3 remains the RNA-level confirmation.
 
-**Prior probability: Low–moderate; cheap to exclude and foundational for all other models.** This should be the **first** hypothesis addressed because its resolution is prerequisite to interpreting all other models correctly — if the real transcript product is not a null, the entire mechanistic framing changes.
+**Status: closed 2026-11-21.** It was addressed first because its resolution was prerequisite to every other model; the answer is that the variant call and its annotation are correct, so the mechanistic question is real.
 
 ---
 
@@ -322,6 +384,8 @@ The **congenital duplicated IVC** is the single most important clinical discrimi
 
 ### Current Leading Theory (Updated 2026-04-17)
 
+> **Audit, 2026-11-20.** The assessment below predates the verification audit and rests on two inputs that did not survive it: a tumour mutational burden that was never measured, and a tissue-turnover correlation that is not significant under an exact test (n = 6 with one finding entered twice; Spearman rho = 0.82, exact two-sided p = 0.067). On present evidence the leading explanation is Model 0: the variant is incidental to the polyposis, whose cause is unidentified. See `docs/VERIFICATION_AUDIT_2026-11-20.md` and `docs/polyposis_differential.md`.
+
 > **This section is maintained as a living assessment and should be updated as new data enters the repository or new research is published.**
 
 **Primary model: Model 4 ; Replication Stress-Dependent Haploinsufficiency**
@@ -329,14 +393,14 @@ The **congenital duplicated IVC** is the single most important clinical discrimi
 Model 4 currently has the strongest clinical support among all eight candidates (Models 0-7). The evidence favoring it:
 
 1. **Congenital duplicated IVC** ; A developmental anomaly present from embryogenesis cannot be caused by somatic LOH or any other post-zygotic mechanism. This finding alone eliminates Models 1–3 as sole explanations and provides direct evidence for germline-level POLE dysfunction affecting embryonic development.
-2. **Tissue turnover–onset age correlation** ; The temporal sequence of diagnoses correlates with tissue cell division rates: colonic epithelium (3–5 day turnover) → adenomas by age 19; endometrium (monthly) → symptoms by ~22; thyroid (~8-year turnover) → carcinoma by ~28. This gradient is a hallmark prediction of dosage-dependent, replication-coupled mutagenesis (Spearman ρ > 0, p < 0.05; see [`analysis/temporal_phenotype/`](analysis/temporal_phenotype/)).
+2. **Tissue turnover–onset age correlation** ; The temporal sequence of diagnoses was read as tracking tissue cell division rates: colonic epithelium (3–5 day turnover) → adenomas by age 19; endometrium (monthly) → symptoms by ~22; thyroid (~8-year turnover) → carcinoma by ~28. Such a gradient would be a prediction of dosage-dependent, replication-coupled mutagenesis, but with six data points (one finding entered twice) the exact two-sided Spearman test gives p = 0.067, so the correlation is not established (see [`analysis/temporal_phenotype/`](analysis/temporal_phenotype/)).
 3. **Progressive polyp accumulation** ; New adenomas at every surveillance interval over >12 years (ages 19→21→24→27→29→31) indicates ongoing constitutive mutagenesis, not a single clonal event.
 4. **Multi-system non-neoplastic phenotype** ; Bilateral PASH, liver hypervascular lesion, severe endometriosis/adenomyosis, dysplastic nevus, splenoportal arteriovenous shunt, and ANA AC-21 pattern collectively indicate systemic tissue dysregulation that cannot be explained by organ-specific somatic events.
 5. **Absence of FILS/neurodevelopmental features** ; The patient lacks features seen in biallelic POLE mutations (FILS syndrome, intellectual disability), confirming that one functional allele is sufficient for CNS development but insufficient for genomic fidelity in high-turnover tissues ; a tissue-specific haploinsufficiency pattern.
 
 **Secondary model: Model 1 ; Somatic LOH (complementary, not alternative)**
 
-Model 1 likely operates in parallel with Model 4 to explain the tumor-specific ultra-hypermutation (reported TMB >100 mut/Mb, [C1](#key-caveats)). The thyroid carcinoma ; arising in a slow-cycling tissue where haploinsufficiency alone may be insufficient ; is best explained by somatic loss of the wild-type allele in that specific tissue. Pending experiment: paired tumor-normal WGS with allele-specific copy number analysis.
+Model 1 was proposed to operate in parallel with Model 4 to explain a tumour-specific hypermutation that has not been measured ([C1](#key-caveats)), and it does not transfer from POLD1 to a null POLE allele: after loss of the wild-type copy the cell would have no Pol ε catalytic subunit ([audit §4](docs/VERIFICATION_AUDIT_2026-11-20.md)). It is retained only as a hypothesis to be tested by paired tumour-normal sequencing with allele-specific copy number analysis.
 
 **What would change this assessment:**
 - If NanoSeq on normal blood cells shows completely normal mutation rates → weakens Model 4, strengthens Model 1 as primary
@@ -352,11 +416,15 @@ Model 4 (replication stress-dependent haploinsufficiency) predicts that tissues 
 
 ![Tissue replication rate vs. clinical findings](analysis/temporal_phenotype/tissue_replication_vulnerability.png)
 
+> **Audit caption, 2026-11-20.** This figure illustrates a hypothesis. Its colour categories ("strong support" and so on) are the authors' judgement, the tissues were chosen after the fact, and the underlying test has six data points with one finding entered twice: Spearman rho 0.82, exact two-sided p = 0.067 (`analysis/temporal_phenotype/exact_spearman_check.py`). It is not evidence for Model 4. "Adenomatous" in its labels is provisional: polyp histology is undocumented.
+
 **Key observation:** The patient's most severe findings (GI polyposis, Stage IV+ endometriosis) occur in the fastest-cycling tissues (colonic crypts every 3–5 days, endometrium monthly), consistent with Model 4's prediction. The thyroid carcinoma ; arising in a slow-cycling tissue (~8 years) ; is the notable exception, suggesting either that LOH (Model 1) drives tumorigenesis in slow-cycling tissues, or that tissue-specific factors beyond division rate modulate vulnerability.
 
 The temporal phenotype map below shows age-at-onset by phenotype category, with tissue turnover rates annotated:
 
-![Phenotype timeline](analysis/temporal_phenotype/phenotype_timeline.png)
+![Clinical timeline](figures/clinical_timeline.png)
+
+*Figure: descriptive timeline rebuilt 2026-11-20 from `data/phenotype_timeline.tsv`, without model annotations. The earlier version remains at `analysis/temporal_phenotype/phenotype_timeline.png`.*
 
 The congenital duplicated IVC (earliest onset) and childhood-onset hEDS features provide the strongest evidence for constitutive, germline-level POLE dysfunction. Structured data underlying these figures is available in [`data/tissue_replication_rates.tsv`](data/tissue_replication_rates.tsv) and [`data/phenotype_timeline.tsv`](data/phenotype_timeline.tsv).
 
@@ -377,7 +445,7 @@ The clinical phenotype generates questions beyond the eight mechanistic models. 
 | 3 | **Do POLE truncation carriers have elevated rates of congenital anomalies?** | **Speculative** | Single observation: duplicated IVC in one carrier. Base rate 0.6–2.6% in general population; could be coincidental. Requires cohort-level data from POLE carrier registries |
 | 4 | **Are bilateral stromal proliferative changes (PASH, FNH) a feature of systemic POLE dysfunction?** | **Plausible** | Pattern of vascular/stromal proliferation across breast and liver suggests field effect, but these findings are individually common (PASH ~23% of breast biopsies; FNH prevalence ~0.03–0.3%) |
 | 5 | **Do POLE carriers have elevated rates of anti-mitochondrial antibodies?** | **Speculative** | Single observation: ANA AC-21 in one carrier. Mechanistic logic is compelling (POLE mutagenesis → mitochondrial gene dysfunction → antigen exposure), but ANA 1:160 occurs in ~5–15% of healthy women; the specific AC-21 pattern is more informative but still n=1 |
-| 6 | **Do other POLE truncation carriers show non-neoplastic multi-system phenotypes?** | **Plausible** | The 6 LoF variants identified by Valle et al. (2020) in 2,813 probands are the critical comparator set. Retrospective phenotyping is feasible and would be definitive |
+| 6 | **Do other POLE truncation carriers show non-neoplastic multi-system phenotypes?** | **Plausible** | The 6 LoF variants identified by Mur et al. (2020) in 2,813 probands are the critical comparator set. Retrospective phenotyping is feasible and would be definitive |
 | 7 | **Does POLE haploinsufficiency affect telomere maintenance?** | **Speculative** | POLE interacts with the shelterin complex; haploinsufficiency could affect telomere replication fidelity. No direct evidence from this case; testable via telomere length analysis in patient cells |
 | 8 | **Does POLE haploinsufficiency affect immune cell development?** | **Speculative** | POLE is essential for all proliferating cells including lymphocyte expansion; haploinsufficiency could subtly alter immune repertoire development. No direct evidence; testable via deep immune profiling |
 
@@ -519,7 +587,7 @@ Blood tests represent the most accessible experimental approach, spanning genomi
 
 | Approach | Rationale | Evidence | Evidence Level |
 |----------|-----------|----------|----------------|
-| **Anti-PD-1 (pembrolizumab)** | Reported TMB >100 mut/Mb ([C1](#key-caveats)); FDA tissue-agnostic approval at ≥10 | Pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS (JCO Precision Oncology, 2022). **Caveat:** The Garmezy cohort studied ExoD missense variants; applicability to frameshift variants assumes the same mutational mechanism ([C2](#key-caveats)) | **FDA-approved** (tissue-agnostic) |
+| **Anti-PD-1 (pembrolizumab)** | Conditional on a measured tumour mutational burden ([C1](#key-caveats); none exists); FDA tissue-agnostic approval at ≥10 mut/Mb | Pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS (JCO Precision Oncology, 2022). **Caveat:** The Garmezy cohort studied ExoD missense variants; applicability to frameshift variants assumes the same mutational mechanism ([C2](#key-caveats)) | **FDA-approved** (tissue-agnostic), **not applicable until a burden is measured** |
 | **Anti-PD-1 + anti-CTLA-4** | If multiple co-inhibitory receptors expressed | CheckMate-142 precedent in MSI-H CRC | **Phase III** (in MSI-H; extrapolated to POLE) |
 | **Neoantigen vaccination** | Extreme neoantigen load; adjuvant post-resection | mRNA-4157/V940 platform; combination with ICI | **Phase II/III** (general; no POLE-specific data) |
 | **Preventive ICB** | Pre-cancer checkpoint blockade in PPAP carriers | Delayed tumor onset in polymerase mutator mice; ICB did NOT improve survival in established tumors; 32.5% vs. 2.7% responder rate (Sawant et al., 2025) | **Preclinical only** (mouse; hypothesis-generating) |
@@ -569,11 +637,13 @@ See detailed protocols: [`models/experimental_protocols/`](models/experimental_p
 
 ## Research Prioritization Timeline
 
+> **Superseded 2026-11-20.** This timeline was written when a hypermutated tumour was assumed. The current ranking, by information per unit cost, is in [`docs/research_plan_2026-11.md`](docs/research_plan_2026-11.md): (1) paperwork and the panel BAM, (2) a reporter assay for re-initiation at Met66, (3) allele-specific RNA from blood, (4) exome of the stored thyroid tumour, (5) protein and S-phase in fibroblasts, (6) duplex sequencing of normal tissue, (7) germline genome, (8) siblings, (9) fresh polyps at the next endoscopy. The list below is kept for the assay-level detail it carries.
+
 ### Immediate (0–3 months)
 
 Achievable with standard clinical pipelines. **Banked tissue status:** FFPE thyroidectomy specimen (~2019) should be available from surgical pathology archives; hysterectomy specimen (~2021) with adenomyosis/endometriosis similarly archived; fresh-frozen tissue is not currently banked. Blood draw for germline WGS, RNA, and PBMC isolation requires no prior banking. An upcoming endometriosis-related surgery (see [Endometriosis × POLE](#endometriosis--pole-intersection)) offers an opportunity to prospectively bank fresh tissue under an appropriate research protocol.
 
-1. **HGVS re-derivation on MANE transcript + RT-PCR** ; re-derive c.138del on the canonical MANE Select transcript (NM_006231.4 / ENST00000320574.6); verify position, frame, exon location, and splice-site proximity; confirm at the RNA level with RT-PCR across affected exons. This is **cheap, foundational, and prerequisite** for interpreting all other models — the confirmed Leu46/Glu46 discrepancy ([C7](#key-caveats)) must be resolved first (Model 7)
+1. **RNA-level confirmation (HGVS re-derivation done 2026-11-20)** ; the cDNA and protein names are verified on MANE Select (NM_006231.4 / ENST00000320574.10; [C7](#key-caveats)). What remains is RT-PCR across exons 1–3 with allele-specific read counts, with and without NMD inhibition, to measure how much mutant transcript survives, and a reporter assay for re-initiation at Met66 (Model 7 is closed; this experiment now belongs to the transcript-fate question)
 2. **IHC for MMR proteins (MLH1/MSH2/MSH6/PMS2), MSI testing, MLH1 promoter methylation, and in vitro MMR functional repair assay** ; prerequisite differential diagnosis: rules out MMR-deficient phenocopy before the mechanistic paradox analysis is meaningful (see [Differential Diagnosis](docs/clinical_case_summary.md#differential-diagnosis-pole-driven-hypermutation-vs-mmr-deficient-phenocopy))
 3. **Clinical WGS/WES with germline reanalysis** ; comprehensive genomic evaluation to identify alternative drivers in genes not covered by the 47-gene panel ([C6](#key-caveats)); critical for testing the null hypothesis (Model 0). Full POLE coding sequence (both alleles, all exons) to rule out a second exonuclease-domain lesion (Model 6)
 4. Paired tumor-normal WGS with LOH analysis at the POLE locus
@@ -616,19 +686,24 @@ Long-term investigations requiring substantial infrastructure.
 | Palles et al. (2013) *Nature Genetics* [PMID: 23263490](https://pubmed.ncbi.nlm.nih.gov/23263490/) | Foundational PPAP discovery; POLE/POLD1 germline mutations cause polyposis/CRC |
 | Palles et al. (2022) *Familial Cancer* [PMID: 33948826](https://pubmed.ncbi.nlm.nih.gov/33948826/) | Clinical PPAP phenotype and management recommendations; comparison baseline for this case |
 | Mur et al. (2023) *Genome Medicine* | Gene-specific ACMG/AMP framework for POLE/POLD1 ED variants; c.138del falls outside its scope |
-| Valle et al. (2020) *Genetics in Medicine* | 6 LoF variants in 2,813 probands; critical comparator set for c.138del |
+| Mur et al. (2020) *Genetics in Medicine* [PMID: 32792570](https://pubmed.ncbi.nlm.nih.gov/32792570/) | Loss-of-function POLE/POLD1 variants in 0.22% of 2,309 hereditary cancer patients vs 0.20% of 59,095 controls (OR 1.08, 95% CI 0.44–2.63); a carrier's tumours were not hypermutated. The central comparator for c.138del (ledger E01–E02, full text read) |
+| Mur et al. (2022) *EJHG* | Field position: disruptive POLE/POLD1 variants generally do not predispose to cancer (ledger E03) |
+| Logan et al. (2018) *AJHG* [PMID: 30503519](https://pubmed.ncbi.nlm.nih.gov/30503519/) | Loss-of-function POLE alleles in unaffected parents of IMAGe/FILS patients; carrier cancer risk "cannot be assumed" (ledger E04, full text read) |
+| Tsarin & Shcherbakova (2025) *Database* | PolED curators: loss-of-function variants cannot cause ultramutated cancers (ledger E05) |
+| Lindeboom et al. (2019) *Nature Genetics* | NMD rules; c.138del sits at the edge of the start-proximal escape window (ledger V12) |
+| Cohen et al. (2019) *NAR* | Re-initiation after premature stops in reporters; c.138del lies inside the published geometry (ledger E09, V11; abstract read) |
 | Robinson et al. (2021) *Nature Genetics* | NanoSeq proves germline POLE mutations elevate SBS10a/b in normal cells |
 | Garmezy et al. (2022) *JCO Precision Oncology* | Pathogenic POLE: 82.4% ICI clinical benefit rate (ExoD missense cohort) |
-| Pietrantonio et al. (2024) *Annals of Oncology* | POLE signature ≥78.5% predicts ICI response |
+| Ambrosini et al. (2024) *Annals of Oncology* | POLE signature ≥78.5% predicts ICI response |
 | Sawant et al. (2025) *Cancer Research* | Preventive ICB delays cancer in polymerase mutator mice |
 | Kane & Shcherbakova (2014) *Cancer Research* [PMID: 24525744](https://pubmed.ncbi.nlm.nih.gov/24525744/) | P286R has 50x higher mutator effect than ExoD-inactive allele (defines the paradox) |
-| Barbari & Shcherbakova (2019) *DNA Repair* [PMC6467506](https://pmc.ncbi.nlm.nih.gov/articles/PMC6467506/) | Classical PPAP: no LOH in tumors; contrast with truncation LOH hypothesis |
+| Park & Pursell (2019) *DNA Repair* [PMC6467506](https://pmc.ncbi.nlm.nih.gov/articles/PMC6467506/) | Classical PPAP: no LOH in tumors; contrast with truncation LOH hypothesis |
 | Anglesio et al. (2017) *NEJM* | 79% of DIE harbors somatic driver mutations; basis for POLE-endometriosis hypothesis |
 | Alexandrov et al. (2020) *Nature* | COSMIC v3 mutational signature catalog; SBS10a/b/28 reference standard |
-| Albertson et al. (2009) *PNAS* | POLE proofreading-dead mice: 65x mutator (homozygous), ~15x (heterozygous) |
+| Albertson et al. (2009) *PNAS* | Proofreading-deficient Pol ε/δ mice are mutators and develop cancers; the fold-changes quoted in earlier versions of this file (65×, ~15×) were not located in the abstract (ledger N01) |
 | Sherlock et al. (2023) *RNA* | Reinitiation after premature stops; directly relevant to Model 2 |
 
-> **Additional key references** cited in specific sections: Viana-Errasti et al. (2025), PolED database (2025), Shinbrot et al. (2019), TCGA (2013), Yuan et al. (2020), Lee-Six et al. (2019). For database and tool references, see the [Repository Structure](#repository-structure) and individual analysis directories.
+> **Additional key references** cited in specific sections: Viana-Errasti et al. (2025), PolED database (2025), Yamaguchi et al. (2019), TCGA (2013), Yuan et al. (2020), Lee-Six et al. (2019). For database and tool references, see the [Repository Structure](#repository-structure) and individual analysis directories.
 
 ---
 
@@ -637,59 +712,66 @@ Long-term investigations requiring substantial infrastructure.
 ```
 POLE-Frameshift/
 ├── README.md                          # This file
+├── llms.txt                           # Machine-readable index of the repository with the variant identifiers
 ├── CITATION.cff                       # Citation metadata (GitHub "Cite this repository")
 ├── CONTRIBUTING.md                    # Collaboration opportunities and guidelines
 ├── CHANGELOG.md                       # Project evolution timeline
 ├── FAQ.md                             # Plain-language overview for broad audience
 ├── docs/
-│   ├── POLE_Comprehensive_Framework.docx # Comprehensive research framework document
-│   ├── POLE_PPAP_Research.pptx   # Research slide deck (12 slides)
+│   ├── VERIFICATION_AUDIT_2026-11-20.md   # What was wrong, what was re-derived, what remains unverified
+│   ├── EVIDENCE_PROTOCOL.md           # Status tags, rules for adding claims, extraction format
+│   ├── research_plan_2026-11.md       # Aims A-C; experiments ranked by information per cost
+│   ├── polyposis_differential.md      # Is POLE the cause of the polyps, or something else?
+│   ├── pole_variant_comparison.md     # c.138del among the exon 1-2 truncations and other POLE variant classes
 │   ├── clinical_case_summary.md       # Clinical case details, chronological timeline, variant summary
 │   ├── systematic_health_history.md   # Whole-body phenotyping questionnaire (20 systems)
 │   ├── pole_carrier_registry_crossref.md # Cross-reference: PolED, Valle cohort, published carriers
 │   ├── comorbidity_interaction_analysis.md # hEDS/POTS/gastroparesis interaction with POLE pathology
-│   ├── endometriosis_hypothesis/      # POLE-endometriosis hypothesis with testable predictions
-│   │   └── POLE_Endometriosis_Hypothesis.docx
+│   ├── endometriosis_hypothesis/      # POLE-endometriosis hypothesis with testable predictions (.docx)
 │   └── AI-Research-Assistance-Framework.md  # AI integration strategy
 ├── analysis/
+│   ├── variant_verification/          # verify_c138del.py, nterm_truncations.py, fetch_clinvar_pole.py, export_viewer_json.py
+│   ├── panel_bam_checks/              # Local read-level checks on the clinical panel BAM/CRAM (files never committed)
+│   ├── figures/make_figures.py        # Builds figures/ from the checked-in data
 │   ├── variant_landscape/             # POLE protein variant lollipop plot (SVG/PNG)
-│   ├── temporal_phenotype/            # Tissue vulnerability, phenotype timeline, turnover-vs-age correlation
-│   │   ├── generate_temporal_analysis.py    # Generates 3 figures (bubble, timeline, correlation)
-│   │   ├── temporal_correlation_analysis.ipynb  # Spearman/Pearson/bootstrap statistical analysis
-│   │   └── *.svg, *.png              # Output visualizations
-│   ├── mutational_signatures/         # SigProfiler pipeline specifications
-│   ├── loh_analysis/                  # ASCAT/FACETS LOH analysis framework
-│   ├── duplex_sequencing/             # NanoSeq analysis pipeline specifications
-│   └── neoantigen_prediction/         # NetMHCpan/pVACseq pipeline
+│   ├── temporal_phenotype/            # Turnover-vs-age figures, notebook, exact_spearman_check.py (p = 0.067)
+│   ├── mutational_signatures/         # SigProfiler pipeline specification (not run; no tumour data)
+│   ├── loh_analysis/                  # ASCAT/FACETS LOH specification (not run)
+│   ├── duplex_sequencing/             # NanoSeq pipeline specification (not run)
+│   └── neoantigen_prediction/         # NetMHCpan/pVACseq specification (not run)
+├── figures/                           # The six README figures (PNG + SVG), generated
 ├── models/
-│   ├── mechanistic_models.md          # Formal hypotheses with falsification criteria
+│   ├── mechanistic_models.md          # Models 0-7 as formal hypotheses with falsification criteria
 │   ├── computational/                 # Stochastic crypt dynamics model specifications
 │   └── experimental_protocols/        # Organoid, CRISPR, mouse model protocols
-├── therapeutics/
-│   ├── immunotherapy_strategy.md      # ICI treatment rationale and monitoring
-│   ├── synthetic_lethality.md         # ATR/PARP/WRN target analysis
-│   ├── surveillance_protocol.md       # Multi-organ surveillance recommendations
-│   └── pharmacokinetic_considerations.md # Drug-comorbidity interaction map
+├── therapeutics/                      # ICI, synthetic lethality, surveillance, PK (pre-audit; audit banners)
 ├── data/
-│   ├── POLE_coding_sequence.fa        # POLE CDS (ENST00000320574)
-│   ├── POLE_domain_boundaries.tsv     # Protein domains for programmatic parsing
-│   ├── POLE_downstream_methionines.tsv # In-frame AUGs with Kozak scores
-│   ├── POLE_gnomad_constraints.tsv    # gnomAD pLI, LOEUF, missense Z
-│   ├── POLE_clinvar_variants.tsv      # Curated ClinVar variant classifications
-│   ├── phenotype_hpo.tsv             # HPO phenotype mapping (16 findings)
-│   ├── phenotype_timeline.tsv        # Age-at-onset data with specific ages for temporal analysis
-│   ├── tissue_replication_rates.tsv  # Tissue turnover rates with POLE vulnerability predictions
-│   ├── checksums.sha256             # SHA-256 checksums for data reproducibility
-│   ├── phenopacket/                 # GA4GH Phenopacket v2 (computable phenotype)
-│   │   └── pole_c138del_phenopacket.json
-│   └── clinvar_submission/          # ClinVar submission preparation
-│       ├── README.md                # ACMG evidence, checklist, LOVD3 cross-reference
-│       └── clinvar_submission_template.json  # Submission API v2 template
+│   ├── reference/                     # Verified fixtures: MANE CDS, UniProt protein, exon table, dbSNP and ClinVar snapshots
+│   ├── claims_ledger.tsv              # One row per factual claim: status, source, date checked
+│   ├── POLE_domain_boundaries.tsv     # Literature domain map (Church 2013 exonuclease 268-471)
+│   ├── POLE_domains_interpro.tsv      # Database-anchored domain map (CDD, Pfam, SMART, UniProt)
+│   ├── POLE_downstream_methionines.tsv # In-frame AUGs in residues 1-240 with Kozak context
+│   ├── POLE_all_methionines.tsv       # All 56 in-frame AUGs with Kozak context
+│   ├── POLE_gnomad_constraints.tsv    # gnomAD v4.1 pLI, LOEUF, oe_lof, missense Z (re-verified)
+│   ├── POLE_clinvar_variants.tsv      # Curated POLE variants with ClinVar IDs and pedigree sources
+│   ├── cosmic_signatures_cited.tsv    # Every COSMIC signature named here, with COSMIC's aetiology text
+│   ├── phenotype_hpo.tsv              # HPO phenotype mapping (19 findings; same set as the phenopacket)
+│   ├── phenotype_timeline.tsv         # Age-at-onset data; tissue_key joins tissue_replication_rates.tsv
+│   ├── tissue_replication_rates.tsv   # Tissue turnover rates with per-row source and sourcing status
+│   ├── templates/lesion_table_template.tsv # Per-polyp pathology fields to be filled from reports
+│   ├── lovd_update_2026-11-20.md      # Correction text for the LOVD entry
+│   ├── checksums.sha256               # SHA-256 of every data file, enforced by a test
+│   ├── phenopacket/                   # GA4GH Phenopacket v2 (IN_PROGRESS / CANDIDATE)
+│   └── clinvar_submission/            # Submission notes and API template (variant already in ClinVar)
 ├── references/
-│   └── bibliography.bib               # Complete reference list in BibTeX format
+│   ├── bibliography.bib               # Reference list rebuilt from PubMed records (89 entries)
+│   └── bibliography_corrections.tsv   # The 34 entries corrected in the audit and what changed
+├── scripts/fetch_reference.py         # Regenerates the fixtures from Ensembl and UniProt
+├── tests/                             # Offline suite (52 tests); tests/live/ (14, POLE_LIVE=1)
 └── .github/
-    └── ISSUE_TEMPLATE/
-        └── pole-case-report.yml       # Structured case reporting template
+    ├── workflows/verify.yml           # Derivation + offline tests on every push
+    ├── workflows/verify-live.yml      # Live source checks, weekly
+    └── ISSUE_TEMPLATE/pole-case-report.yml  # Structured case reporting template
 ```
 
 ---
@@ -706,9 +788,9 @@ POLE-Frameshift/
 
 This is an n=1 observation. Confirmation requires: (1) resolving the mechanism in this patient (LOH analysis, duplex sequencing), (2) demonstrating the same mechanism operates in other POLE truncation carriers, and (3) replication in independent cases. If the two-hit / LOH model is confirmed and generalizes, some truncating POLE variants currently classified as **likely benign** (on the assumption that haploinsufficiency is benign) may warrant reclassification ; a more contentious claim than simply reclassifying VUS, since it challenges existing benign classifications. A systematic ClinVar review of truncating POLE variant classifications would be a valuable companion analysis.
 
-The reported ultra-hypermutated phenotype (TMB >100 mut/Mb, [C1](#key-caveats)) simultaneously creates:
+If a measured tumour mutational burden ever proves high ([C1](#key-caveats); currently not measured), it would create:
 
-- **Immediate therapeutic opportunity** ; ICI eligibility with strong evidence of efficacy
+- **A therapeutic question** ; checkpoint-inhibitor eligibility, to be decided by the care team on measured data
 - **A natural experiment** ; for understanding DNA polymerase fidelity thresholds in human cancer
 - **A paradigm test** ; for whether POLE can function as a tumor suppressor through the classical Knudson two-hit mechanism
 

@@ -1,5 +1,7 @@
 # Clinical Case Summary: POLE c.138del (p.Leu46Phefs*8)
 
+> **Audit note, 2026-11-20.** No tumour or polyp from this patient has been sequenced. Wherever this file says the patient's lesions are hypermutated (">100 mut/Mb"), that is an assumption carried over from the PPAP literature, confirmed as such by the repository owner. It is not an observation. Polyp histology is also undocumented here. Read this file with the [verification audit](VERIFICATION_AUDIT_2026-11-20.md).
+
 ---
 
 ## Variant Details
@@ -8,16 +10,16 @@
 |-------|-------|
 | **Gene** | *POLE* (DNA Polymerase Epsilon, catalytic subunit) |
 | **Genomic location** | Chromosome 12q24.33 |
-| **Transcript** | ENST00000320574.6 (NM_006231.4) ; MANE Select |
+| **Transcript** | ENST00000320574.10 (NM_006231.4) ; MANE Select |
 | **cDNA change** | c.138del |
 | **Protein change** | p.Leu46Phefs\*8 |
 | **Variant type** | Frameshift deletion |
-| **Predicted consequence** | Premature termination at ~residue 54 of 2,286 amino acids |
-| **gnomAD frequency** | Absent (0/1,614,586 alleles in [gnomAD v4.1.0](https://gnomad.broadinstitute.org/gene/ENSG00000177084?dataset=gnomad_r4), accessed April 2026; GRCh38 chr12:132681203–132681204; GRCh37 chr12:133249847) |
+| **Predicted consequence** | Premature termination at codon 53 of 2,286 amino acids |
+| **gnomAD frequency** | Present twice: rs1555230420 in 1 of 1,461,874 gnomAD v4.1 exome alleles ([record](https://gnomad.broadinstitute.org/variant/12-132681203-GC-G?dataset=gnomad_r4)) and in 1 of 31,386 gnomAD v2.1.1 genome alleles ([record](https://gnomad.broadinstitute.org/variant/12-133257789-GC-G?dataset=gnomad_r2_1)), both non-Finnish European; absent from v3.1/v4.1 genomes (gnomAD API, 2026-11-20). GRCh38 chr12:132681203–132681204; GRCh37 chr12:133257789–133257790 |
 | **Germline status** | **Confirmed.** Heterozygous call from blood/saliva-derived DNA on accredited clinical germline assay with orthogonal confirmation. Constitutional variant ; present in all cells, not tumor-derived |
 | **Coordinate systems** | Clinical report: GRCh37. This repository: GRCh38 (default). Verify via UCSC LiftOver if converting between assemblies |
-| **ClinVar** | Not reported |
-| **Classification** | **Pathogenic** (clinical laboratory classification). The Pathogenic call rests on standard ACMG criteria for null variants in a gene with established loss-of-function disease mechanism (PM2: absent from controls; PP4: phenotype consistent with PPAP), **not** on observed phenotype-genotype correlation in other patients ; the laboratory explicitly notes this variant has not been previously reported in individuals with POLE-related conditions. Independent ACMG evidence assessment: PM2 + PP4 supports VUS under strict point counting; pathogenicity is a working hypothesis pending functional or segregation data. The clinical pathogenicity call and the mechanistic novelty answer different questions, and both can be true simultaneously ; this strengthens rather than weakens the research case. Cannot be classified under existing POLE-specific guidelines (Mur et al., 2023 ; designed for non-disruptive ED missense variants). PVS1 (null variant) not applied ; POLE is not LoF-intolerant (gnomAD v4.1.0 pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed vs. 279 expected, indicating heterozygous LoF is tolerated), and the mechanism does not match the canonical PPAP dominant-negative model. The 188 LoF variants in gnomAD without apparent PPAP imply a second somatic hit (LOH) or other non-canonical mechanism is required for the cancer phenotype. Resolution of the mechanistic paradox would clarify which evidence codes fully apply and may inform extension of the POLE-specific framework to accommodate truncating variants |
+| **ClinVar** | [VCV000548779](https://www.ncbi.nlm.nih.gov/clinvar/variation/548779/) ; conflicting classifications: Pathogenic (Labcorp Genetics, formerly Invitae), Uncertain significance (Ambry Genetics; Counsyl) |
+| **Classification** | **Pathogenic** on the laboratory's signed report ("POLE, Exon 2, c.138del (p.Leu46Phefs*8), heterozygous, PATHOGENIC"; wording supplied by the repository owner, 2026-11-20). The public ClinVar record (VCV000548779) is **conflicting**: Labcorp Genetics (formerly Invitae) Pathogenic; Ambry Genetics and Counsyl Uncertain significance. The Pathogenic submission reasons from loss of function and cites the recessive POLE-deficiency literature (FILS and IMAGe syndromes); it states that the variant has not been reported in individuals with POLE-related conditions. It describes a recessive-disease allele and is not evidence that one null allele causes polyposis. The ACMG codes formerly listed here (PM2 + PP4 (superseded 2026-11-20: the variant is in gnomAD and the phenotype is not established as PPAP)) were this repository's own assessment, not the laboratory's; PM2 does not apply as written because the variant is in gnomAD. Loss-of-function POLE variants are not an established cause of PPAP (Mur et al., 2020; ClinGen haploinsufficiency assessment: little evidence). See `docs/VERIFICATION_AUDIT_2026-11-20.md`. |
 
 ---
 
@@ -207,7 +209,7 @@ The chronological sequence reveals four critical observations:
 
 | Feature | Result |
 |---------|--------|
-| **Tumor mutational burden** | Reported as ultra-hypermutated (>100 mutations/Mb); full tumour sequencing methodology documentation pending. The germline report does not address TMB ; this value derives from a separate tumour NGS report whose assay platform, exact mut/Mb value, numerator/denominator, synonymous/indel inclusion criteria, and tumour-only vs tumour-normal status are not yet documented. WGS-based TMB confirmation and mutational signature decomposition are priority experiments |
+| **Tumor mutational burden** | **Not measured.** No tumour or polyp from this patient has been sequenced. The "hypermutated" figure used elsewhere in this repository was inferred from the PPAP literature (confirmed by the repository owner, 2026-11-20) and is not a result |
 | **Microsatellite status** | To be characterized |
 | **MMR IHC** | To be characterized |
 | **Mutational signatures** | Pending WGS analysis (SBS10a/b/28 status critical) |
@@ -223,7 +225,7 @@ Before attributing the patient's clinical phenotype to POLE-driven pathology, mi
 | **MMR IHC (MLH1/MSH2/MSH6/PMS2)** | **Pending** | Not yet performed | Required to determine whether MMR protein expression is intact in tumor tissue. Loss of any MMR protein would indicate MMR deficiency as the primary or contributing mutational mechanism |
 | **In vitro MMR functional repair assay** | **Pending** | Not yet performed | Functional assessment of MMR repair capacity in patient-derived cells; complements IHC (protein expression) and MSI (genomic readout) with a direct measurement of repair activity |
 | **Microsatellite instability (MSI) testing** | **Pending** | Not yet performed | MSI-H would indicate MMR deficiency; MSS or MSI-L with ultra-high TMB would be characteristic of POLE-driven hypermutation |
-| **MLH1 promoter methylation** | **Pending** | Not yet performed | MLH1 silencing via promoter methylation is the most common cause of sporadic MMR deficiency and can co-occur with POLE mutations (Shinbrot et al., 2019 documented a POLE frameshift carrier with epigenetic MLH1 silencing leading to MSI-positive tumor) |
+| **MLH1 promoter methylation** | **Pending** | Not yet performed | MLH1 silencing via promoter methylation is the most common cause of sporadic MMR deficiency and can co-occur with POLE mutations (Yamaguchi et al., 2019 documented a POLE frameshift carrier with epigenetic MLH1 silencing leading to MSI-positive tumor) |
 | **Germline MLH1/MSH2/MSH6/PMS2/EPCAM** | **Negative** | No pathogenic variants identified | Lynch syndrome excluded at germline level (47-gene panel, 2022). Does not exclude somatic MMR gene inactivation or epigenetic silencing |
 | **Germline POLD1** | **Negative** | No pathogenic variants identified | Sister polymerase proofreading deficiency excluded |
 | **Germline MUTYH** | **Negative** | No pathogenic variants identified | MUTYH-associated polyposis excluded (biallelic testing) |
@@ -257,7 +259,7 @@ APC, ATM, AXIN2, BARD1, BMPR1A, BRCA1, BRCA2, BRIP1, CDH1, CDK4, CDKN2A, CHEK2, 
 | **PTEN** | Cowden syndrome | Hamartomatous polyposis + thyroid cancer predisposition ; excluded |
 | **STK11** | Peutz-Jeghers syndrome | GI polyposis syndrome ; excluded |
 
-This panel isolates **POLE c.138del as the sole identified genetic driver** among the genes tested, strengthening the causal attribution.
+This panel found no other pathogenic or likely pathogenic variant in the 47 genes tested. That does not make POLE c.138del the cause of the phenotype: a blood panel does not detect APC mosaicism confined to the bowel, deep-intronic or most structural variants, or genes outside its list (see `docs/polyposis_differential.md`).
 
 > **Panel limitations:** While comprehensive for common cancer predisposition syndromes, this 47-gene panel does not cover all potentially relevant genetic variation. Notable gaps include: (1) **GREM1 regulatory variants** ; upstream duplications cause hereditary mixed polyposis syndrome and are not detected by coding-sequence panels; (2) **MBD4, RNF43, FAN1, MCM8/MCM9** ; cancer predisposition genes not included on the panel; (3) although **MSH3** is on the panel, deep intronic or structural variants may be missed; (4) **no connective tissue genes** (COL3A1, COL5A1, TNXB, etc.) were included, so the hEDS phenotype remains genetically uncharacterized; (5) copy number variants and structural rearrangements may have reduced sensitivity depending on the assay platform. Clinical WGS/WES with germline reanalysis is a critical gap. The negative result does not exclude all possible genetic contributors to the phenotype.
 
@@ -290,7 +292,7 @@ This panel isolates **POLE c.138del as the sole identified genetic driver** amon
 POLE Catalytic Subunit (p261; 2,286 aa, 261 kDa)
 
 |===|         |========|=============|    |=======================|              |======================|
- 1-54          223-----268----------471    ~530-------------------1189             1189----------------2286
+ 1-45          223-----268----------471    ~530-------------------1189             1189----------------2286
   ↑            Broader  Exonuclease        Polymerase core                        C-terminal regulatory
   STOP         ExoD     active site        (palm + fingers + thumb)               (POLE2/3/4 binding,
   p.Leu46      region   (P286R, V411L,     (DNA synthesis)                         CMG helicase interaction)
@@ -299,7 +301,7 @@ POLE Catalytic Subunit (p261; 2,286 aa, 261 kDa)
 
 **Domain conventions:** Narrow exonuclease active site (268–471; Church et al., 2013); broader exonuclease region (223–517; Atlas of Genetics); 140 kDa catalytic fragment (1–1189; Korona et al., 2011); domain architecture per Liu & Linn (2000).
 
-The variant terminates the protein at residue 54, which is:
+The variant terminates the protein at codon 53, which is:
 
 - **214 residues upstream** of the exonuclease active site start (residue 268)
 - **~476 residues upstream** of the polymerase core (residue ~530)
@@ -323,12 +325,12 @@ All previously reported pathogenic PPAP variants are **missense substitutions** 
 
 0. **Null hypothesis (variant is incidental)** ; POLE c.138del is a passenger; phenotype driven by unidentified variant or stochastic factors
 1. **Somatic LOH** ; Wild-type allele lost in tumor; cells rely on lower-fidelity polymerases (Knudson two-hit model)
-2. **Translational reinitiation** ; Ribosomes reinitiate at downstream AUG, producing polymerase-only protein lacking proofreading (low prior probability ; reinitiation across >1 kb is unprecedented)
-3. **NMD escape + holoenzyme poisoning** ; Truncated 54-residue peptide competes for POLE2 binding, disrupting holoenzyme assembly (low prior probability ; POLE-POLE2 interface is C-terminal)
+2. **Translational reinitiation** ; Ribosomes reinitiate at a downstream AUG. On the real mRNA the first in-frame AUG after the stop is Met66 (c.196), so any product keeps both catalytic domains; a polymerase-only, proofreading-deficient product has no sequence basis (corrected 2026-11-20; the earlier "polymerase-only" version rested on a non-POLE sequence file)
+3. **NMD escape + holoenzyme poisoning** ; Truncated 52-residue peptide competes for POLE2 binding, disrupting holoenzyme assembly (low prior probability ; POLE-POLE2 interface is C-terminal)
 4. **Replication stress-dependent haploinsufficiency** ; 50% POLE is rate-limiting in rapidly dividing tissues
 5. **Isoform-specific effects** ; Variant differentially affects tissue-specific transcript isoforms
 6. **Second-site somatic POLE mutation** ; Somatic pathogenic missense in the exonuclease domain on the wild-type allele creates a canonical dominant-negative (distinct from LOH; Shah et al., 2024)
-7. **Variant-call / annotation artifact** ; The molecular consequence may not be a simple null. The HGVS notation (p.Leu46Phefs\*8) shows a discrepancy with the MANE transcript (Glu at position 46, not Leu), indicating the clinical annotation was derived from a different transcript version. Cheap to exclude and foundational for all other models
+7. **Variant-call / annotation artifact** ; **closed 2026-11-20.** The HGVS name is exact on MANE Select (codon 46 = TTG, Leu). The reported discrepancy came from a non-POLE sequence file that has been removed
 
 ---
 
@@ -362,13 +364,13 @@ All previously reported pathogenic PPAP variants are **missense substitutions** 
 
 - **Immunotherapy eligibility:** Reported TMB >100 mut/Mb (if confirmed by WGS) far exceeds the FDA tissue-agnostic threshold (≥10 mut/Mb) for pembrolizumab
 - **Published POLE ICI data:** 82.4% clinical benefit rate, 15.1 month PFS, 29.5 month OS in pathogenic POLE carriers (Garmezy et al., JCO Precision Oncology 2022). **Caveat:** The Garmezy cohort studied ExoD missense variants; applicability to frameshift variants is unvalidated and assumes the same mutational mechanism
-- **Mutational signature threshold:** POLE signature ≥78.5% predicts ICI response (Pietrantonio et al., Annals of Oncology 2024)
+- **Mutational signature threshold:** POLE signature ≥78.5% predicts ICI response (Ambrosini et al., Annals of Oncology 2024)
 
 ### Implications for variant classification
 
 The definitive gene-specific ACMG/AMP classification guidelines for POLE/POLD1 (Mur, Viana-Errasti et al., *Genome Medicine* 2023, Valle lab at IDIBELL) were designed for non-disruptive (missense) variants within the exonuclease domain. The c.138del variant ; a truncating variant upstream of the exonuclease domain ; falls entirely outside that framework's scope. If the mechanistic paradox is resolved, the classification guidelines would need to be extended to accommodate truncating variants acting through LOH, reinitiation, or haploinsufficiency mechanisms.
 
-If the two-hit / LOH model is confirmed, truncating POLE variants currently classified as VUS may need reclassification as pathogenic cancer predisposition alleles. Notably, Valle et al. (2020) identified 6 loss-of-function POLE variants in a cohort of 2,813 hereditary cancer probands ; these represent a critical comparator set for understanding whether truncating variants outside the exonuclease domain can produce PPAP-consistent phenotypes.
+If the two-hit / LOH model is confirmed, truncating POLE variants currently classified as VUS may need reclassification as pathogenic cancer predisposition alleles. Notably, Mur et al. (2020) identified 6 loss-of-function POLE variants in a cohort of 2,813 hereditary cancer probands ; these represent a critical comparator set for understanding whether truncating variants outside the exonuclease domain can produce PPAP-consistent phenotypes.
 
 ---
 

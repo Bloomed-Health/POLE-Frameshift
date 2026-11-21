@@ -1,0 +1,22 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Re-derive the variant from the reference fixtures
+        run: python3 analysis/variant_verification/verify_c138del.py
+      - name: Re-derive the other exon 1-2 truncating variants
+        run: python3 analysis/variant_verification/nterm_truncations.py
+      - name: Tests (derivation, data tables, retired claims, cross-file consistency, figure labels)
+        run: |
+          python3 -m pip install --quiet pytest matplotlib
+          python3 -m pytest -q tests

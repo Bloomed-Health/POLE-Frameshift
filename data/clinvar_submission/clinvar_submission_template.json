@@ -2,16 +2,16 @@
   "clinvarSubmission": [
     {
       "clinicalSignificance": {
-        "clinicalSignificanceDescription": "Pathogenic",
-        "dateLastEvaluated": "2026-04-17",
-        "comment": "Heterozygous frameshift variant in POLE producing premature termination at approximately residue 53-54 of 2,286 amino acids (exact stop position pending HGVS reconciliation on MANE transcript). Eliminates all major catalytic domains including exonuclease active site (268-471) and polymerase core (~530-1189). Patient presents with reported TMB >100 mut/Mb (assay platform pending clarification; WGS confirmation pending), progressive adenomatous polyposis (~6 adenomas at age 19, accumulating to ~15+ by age 31), Stage I papillary thyroid carcinoma (1.2 cm, isthmus, encapsulated, non-invasive, cystic variant with extensive squamous metaplasia; treated with total thyroidectomy), Stage IV+ deep infiltrating endometriosis, and congenital duplicated inferior vena cava. 47-gene hereditary cancer panel negative for all other genes — POLE c.138del is the sole identified genetic driver. Novel variant class for PPAP: all previously reported pathogenic variants are exonuclease domain missense mutations. Mechanism under active investigation (eight candidate models including null hypothesis and annotation-artifact hypothesis). This variant falls outside the scope of the Mur et al. (2023) POLE-specific classification guidelines (designed for ED missense variants). Under general ACMG/AMP: PM2 + PP4. PVS1 not applied — POLE is not LoF-intolerant (gnomAD pLI ≈ 0, LOEUF = 0.76; 188 observed LoF variants) and mechanism does not match canonical PPAP dominant-negative model."
+        "clinicalSignificanceDescription": "Uncertain significance",
+        "dateLastEvaluated": "2026-11-20",
+        "comment": "TEMPLATE, NOT READY TO SUBMIT. Heterozygous frameshift in POLE exon 2 (stop at codon 53 of 2,286). The variant is already in ClinVar (VCV000548779) with conflicting classifications: Pathogenic for recessive POLE deficiency reasoning (Labcorp Genetics/Invitae) and Uncertain significance (Ambry Genetics; Counsyl). For the condition named below (CRCS12, a dominant disorder caused by exonuclease-domain missense variants) loss-of-function variants are not an established mechanism (Mur et al. 2020, PMID 32792570). Phenotype of the one individual observed here: about 20 gastric and colonic polyps removed since age 19 (histology reports being collected; most advanced reported finding high-grade dysplasia), stage I papillary thyroid carcinoma, and other findings listed below. No tumour has been sequenced, so tumour mutational burden and mutational signatures are unknown. A 47-gene hereditary cancer panel was otherwise negative. The classification entered here is the submitter's decision; 'Uncertain significance' is a placeholder that matches the evidence for this condition."
       },
       "conditionSet": {
         "condition": [
           {
             "db": "OMIM",
-            "id": "612591",
-            "name": "Colorectal cancer, susceptibility to, 12 (Polymerase proofreading-associated polyposis)"
+            "id": "615083",
+            "name": "Colorectal cancer, susceptibility to, 12"
           }
         ]
       },
@@ -27,7 +27,7 @@
             {
               "attribute": {
                 "type": "Description",
-                "value": "Female patient with progressive adenomatous polyposis (onset age 19), Stage I papillary thyroid carcinoma (1.2 cm, isthmus, encapsulated, non-invasive, cystic variant with extensive squamous metaplasia; age ~28; s/p total thyroidectomy), reported ultra-hypermutated tumor (TMB >100 mut/Mb; assay platform pending clarification), Stage IV+ deep infiltrating endometriosis with trans-diaphragmatic extension and pelvic free fluid, diffuse adenomyosis requiring ovarian-sparing total hysterectomy, bilateral proliferative breast changes with IHC-confirmed PASH (CD34+, CK AE1/AE3-), liver hypervascular lesion (hemangioma vs FNH, segment VII, 16x14 mm), congenital duplicated inferior vena cava, and ANA 1:160 with AC-21 pattern. Family history: maternal grandmother with uterine cancer and ductal breast cancer. Comorbidities: hEDS, POTS, gastroparesis. Negative for FILS syndrome, intellectual disability, and neurodevelopmental conditions."
+                "value": "Female patient with about 20 gastric and colonic polyps removed since age 19 (histology reports being collected; most advanced reported finding high-grade dysplasia), Stage I papillary thyroid carcinoma (1.2 cm, isthmus, encapsulated, non-invasive, cystic variant with extensive squamous metaplasia; age ~28; s/p total thyroidectomy), Stage IV+ deep infiltrating endometriosis with trans-diaphragmatic extension and pelvic free fluid, diffuse adenomyosis requiring ovarian-sparing total hysterectomy, bilateral proliferative breast changes with IHC-confirmed PASH (CD34+, CK AE1/AE3-), liver hypervascular lesion (hemangioma vs FNH, segment VII, 16x14 mm), congenital duplicated inferior vena cava, and ANA 1:160 with AC-21 pattern. Family history: maternal grandmother with uterine cancer and ductal breast cancer. Comorbidities: hEDS, POTS, gastroparesis. Negative for FILS syndrome, intellectual disability, and neurodevelopmental conditions."
               }
             },
             {
@@ -71,6 +71,7 @@
     "citation": "Richards S, et al. Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the ACMG and AMP. Genetics in Medicine. 2015;17(5):405-424."
   },
   "_comment_submitter": "IMPORTANT: Replace the organizationID below with your ClinVar submitter organization ID before submission.",
-  "_comment_coordinates": "IMPORTANT: Verify genomic coordinates against GRCh38 reference before submission. The coordinates listed are based on ENST00000320574 / NM_006231.4.",
-  "_comment_lovd3": "This variant has been submitted to LOVD3 (https://databases.lovd.nl/shared/variants/POLE) as of 2026-04-15, pending curation."
+  "_comment_coordinates": "Coordinates verified 2026-11-20: NC_000012.12:g.132681204del = VCF 12-132681203-GC-G (GRCh38), NM_006231.4:c.138del on ENST00000320574.10.",
+  "_comment_lovd3": "This variant has been submitted to LOVD3 (https://databases.lovd.nl/shared/variants/POLE) as of 2026-04-15, pending curation.",
+  "_comment_audit": "Audited 2026-11-20: OMIM number corrected (612591 is CRCS10/POLD1); unmeasured tumour mutational burden removed; classification placeholder changed from Pathogenic. The variant is not new to ClinVar; 'recordStatus: novel' only means a first record from this submitter."
 }

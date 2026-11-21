@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="731.984562pt" height="489.356831pt" viewBox="0 0 731.984562 489.356831" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-21T13:02:46.807316</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 489.356831 
+L 731.984562 489.356831 
+L 731.984562 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 100.8 394.74 
+L 658.8 394.74 
+L 658.8 97.6536 
+L 100.8 97.6536 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 158.524138 394.74 
+L 158.524138 97.6536 
+" clip-path="url(#pf10790a39e)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="me697c78b04" d="M 0 0 
+L 0 3.5 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#me697c78b04" x="158.524138" y="394.74" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="158.524138" y="409.337656" transform="rotate(-0 158.524138 409.337656)">20</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 254.731034 394.74 
+L 254.731034 97.6536 
+" clip-path="url(#pf10790a39e)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#me697c78b04" x="254.731034" y="394.74" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="254.731034" y="409.337656" transform="rotate(-0 254.731034 409.337656)">25</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 350.937931 394.74 
+L 350.937931 97.6536 
+" clip-path="url(#pf10790a39e)" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#me697c78b04" x="350.937931" y="394.74" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="350.937931" y="409.337656" transform="rotate(-0 350.937931 409.337656)">30</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="379.8" y="423.338438" transform="rotate(-0 379.8 423.338438)">age at diagnosis (years)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 100.8 394.74 
+L 658.8 394.74 
+" style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 139.282759 122.119539 
+" clip-path="url(#pf10790a39e)" style="fill: none; stroke: #2a78d6; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="mc13452ab9a" d="M 0 4.5 
+C 1.193414 4.5 2.338109 4.025852 3.181981 3.181981 
+C 4.025852 2.338109 4.5 1.193414 4.5 0 
+C 4.5 -1.193414 4.025852 -2.338109 3.181981 -3.181981 
+C 2.338109 -4.025852 1.193414 -4.5 0 -4.5 
+C -1.193414 -4.5 -2.338109 -4.025852 -3.181981 -3.181981 
+C -4.025852 -2.338109 -4.5 -1.193414 -4.5 0 
+C -4.5 1.193414 -4.025852 2.338109 -3.181981 3.181981 
+C -2.338109 4.025852 -1.193414 4.5 0 4.5 
+z
+" style="stroke: #fcfcfb; stroke-width: 1.6"/>
+    </defs>
+    <g clip-path="url(#pf10790a39e)">
+     <use xlink:href="#mc13452ab9a" x="139.282759" y="122.119539" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 1.6"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="152.751724" y="124.535722" transform="rotate(-0 152.751724 124.535722)">Gastrointestinal polyposis (first polyps)  ·  age 19</text>
+   </g>
+   <g id="line2d_8">
+    <path d="M 139.282759 157.07088 
+" clip-path="url(#pf10790a39e)" style="fill: none; stroke: #b9b8b2; stroke-width: 1.5; stroke-linecap: square"/>
+    <defs>
+     <path id="mef04ce73db" d="M 0 4.5 
+C 1.193414 4.5 2.338109 4.025852 3.181981 3.181981 
+C 4.025852 2.338109 4.5 1.193414 4.5 0 
+C 4.5 -1.193414 4.025852 -2.338109 3.181981 -3.181981 
+C 2.338109 -4.025852 1.193414 -4.5 0 -4.5 
+C -1.193414 -4.5 -2.338109 -4.025852 -3.181981 -3.181981 
+C -4.025852 -2.338109 -4.5 -1.193414 -4.5 0 
+C -4.5 1.193414 -4.025852 2.338109 -3.181981 3.181981 
+C -2.338109 4.025852 -1.193414 4.5 0 4.5 
+z
+" style="stroke: #fcfcfb; stroke-width: 1.6"/>
+    </defs>
+    <g clip-path="url(#pf10790a39e)">
+     <use xlink:href="#mef04ce73db" x="139.282759" y="157.07088" style="fill: #b9b8b2; stroke: #fcfcfb; stroke-width: 1.6"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="152.751724" y="159.487064" transform="rotate(-0 152.751724 159.487064)">Chronic gastric gastritis  ·  age 19</text>
+   </g>
+   <g id="line2d_9">
+    <path d="M 197.006897 192.022221 
+" clip-path="url(#pf10790a39e)" style="fill: none; stroke: #b9b8b2; stroke-width: 1.5; stroke-linecap: square"/>
+    <g clip-path="url(#pf10790a39e)">
+     <use xlink:href="#mef04ce73db" x="197.006897" y="192.022221" style="fill: #b9b8b2; stroke: #fcfcfb; stroke-width: 1.6"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="210.475862" y="194.438405" transform="rotate(-0 210.475862 194.438405)">Dysmenorrhea / early endometriosis symptoms  ·  age 22</text>
+   </g>
+   <g id="line2d_10">
+    <path d="M 273.972414 226.973562 
+" clip-path="url(#pf10790a39e)" style="fill: none; stroke: #b9b8b2; stroke-width: 1.5; stroke-linecap: square"/>
+    <g clip-path="url(#pf10790a39e)">
+     <use xlink:href="#mef04ce73db" x="273.972414" y="226.973562" style="fill: #b9b8b2; stroke: #fcfcfb; stroke-width: 1.6"/>
+    </g>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="287.441379" y="229.389383" transform="rotate(-0 287.441379 229.389383)">POTS  ·  age 26</text>
+   </g>
+   <g id="line2d_11">
+    <path d="M 293.213793 261.924904 
+" clip-path="url(#pf10790a39e)" style="fill: none; stroke: #b9b8b2; stroke-width: 1.5; stroke-linecap: square"/>
+    <g clip-path="url(#pf10790a39e)">
+     <use xlink:href="#mef04ce73db" x="293.213793" y="261.924904" style="fill: #b9b8b2; stroke: #fcfcfb; stroke-width: 1.6"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="306.682759" y="264.341087" transform="rotate(-0 306.682759 264.341087)">Stage IV+ deep infiltrating endometriosis  ·  age 27</text>
+   </g>
+   <g id="line2d_12">
+    <path d="M 293.213793 296.876245 
+" clip-path="url(#pf10790a39e)" style="fill: none; stroke: #b9b8b2; stroke-width: 1.5; stroke-linecap: square"/>
+    <g clip-path="url(#pf10790a39e)">
+     <use xlink:href="#mef04ce73db" x="293.213793" y="296.876245" style="fill: #b9b8b2; stroke: #fcfcfb; stroke-width: 1.6"/>
+    </g>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="306.682759" y="299.292428" transform="rotate(-0 306.682759 299.292428)">Bilateral proliferative breast changes with PASH  ·  age 27</text>
+   </g>
+   <g id="line2d_13">
+    <path d="M 312.455172 331.827586 
+" clip-path="url(#pf10790a39e)" style="fill: none; stroke: #b9b8b2; stroke-width: 1.5; stroke-linecap: square"/>
+    <g clip-path="url(#pf10790a39e)">
+     <use xlink:href="#mef04ce73db" x="312.455172" y="331.827586" style="fill: #b9b8b2; stroke: #fcfcfb; stroke-width: 1.6"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="325.924138" y="334.243769" transform="rotate(-0 325.924138 334.243769)">Diffuse adenomyosis  ·  age 28</text>
+   </g>
+   <g id="line2d_14">
+    <path d="M 312.455172 366.778927 
+" clip-path="url(#pf10790a39e)" style="fill: none; stroke: #2a78d6; stroke-width: 1.5; stroke-linecap: square"/>
+    <g clip-path="url(#pf10790a39e)">
+     <use xlink:href="#mc13452ab9a" x="312.455172" y="366.778927" style="fill: #2a78d6; stroke: #fcfcfb; stroke-width: 1.6"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.3px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="325.924138" y="369.195111" transform="rotate(-0 325.924138 369.195111)">Stage I papillary thyroid carcinoma  ·  age 28</text>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_15">
+     <path d="M 535.799531 109.442194 
+L 544.799531 109.442194 
+L 553.799531 109.442194 
+" style="fill: none"/>
+     <defs>
+      <path id="m7ea0ddae55" d="M 0 4.5 
+C 1.193414 4.5 2.338109 4.025852 3.181981 3.181981 
+C 4.025852 2.338109 4.5 1.193414 4.5 0 
+C 4.5 -1.193414 4.025852 -2.338109 3.181981 -3.181981 
+C 2.338109 -4.025852 1.193414 -4.5 0 -4.5 
+C -1.193414 -4.5 -2.338109 -4.025852 -3.181981 -3.181981 
+C -4.025852 -2.338109 -4.5 -1.193414 -4.5 0 
+C -4.5 1.193414 -4.025852 2.338109 -3.181981 3.181981 
+C -2.338109 4.025852 -1.193414 4.5 0 4.5 
+z
+" style="stroke: #2a78d6"/>
+     </defs>
+     <g>
+      <use xlink:href="#m7ea0ddae55" x="544.799531" y="109.442194" style="fill: #2a78d6; stroke: #2a78d6"/>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="560.999531" y="112.592194" transform="rotate(-0 560.999531 112.592194)">polyps and tumours</text>
+    </g>
+    <g id="line2d_16">
+     <path d="M 535.799531 122.942897 
+L 544.799531 122.942897 
+L 553.799531 122.942897 
+" style="fill: none"/>
+     <defs>
+      <path id="m67fd24ed38" d="M 0 4.5 
+C 1.193414 4.5 2.338109 4.025852 3.181981 3.181981 
+C 4.025852 2.338109 4.5 1.193414 4.5 0 
+C 4.5 -1.193414 4.025852 -2.338109 3.181981 -3.181981 
+C 2.338109 -4.025852 1.193414 -4.5 0 -4.5 
+C -1.193414 -4.5 -2.338109 -4.025852 -3.181981 -3.181981 
+C -4.025852 -2.338109 -4.5 -1.193414 -4.5 0 
+C -4.5 1.193414 -4.025852 2.338109 -3.181981 3.181981 
+C -2.338109 4.025852 -1.193414 4.5 0 4.5 
+z
+" style="stroke: #b9b8b2"/>
+     </defs>
+     <g>
+      <use xlink:href="#m67fd24ed38" x="544.799531" y="122.942897" style="fill: #b9b8b2; stroke: #b9b8b2"/>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="560.999531" y="126.092897" transform="rotate(-0 560.999531 126.092897)">other findings</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18 458.108296)">Age at diagnosis not recorded: Duplicated inferior vena cava; Joint hypermobility / hEDS features; Liver hypervascular lesion; Gastroparesis; Recurrent SIBO; ANA</text>
+   <text style="font-size: 8.6px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(18 468.429976)">1:160 AC-21 pattern</text>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="18" y="27.877969" transform="rotate(-0 18 27.877969)">Clinical timeline of the one described carrier</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="18" y="51.052116" transform="rotate(-0 18 51.052116)">From data/phenotype_timeline.tsv. Descriptive only: polyp histology is undocumented and no lesion has been sequenced.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf10790a39e">
+   <rect x="100.8" y="97.6536" width="558" height="297.0864"/>
+  </clipPath>
+ </defs>
+</svg>

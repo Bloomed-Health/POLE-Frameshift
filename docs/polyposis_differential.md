@@ -53,7 +53,7 @@ of this size do not report an excess of POLE loss-of-function carriers, which ar
 cannot rule out a small one.
 
 **Step 4. What usually explains polyposis when a blood panel is negative?**
-Much of it stays unexplained. Where a cause is found, the commonest is a mosaic APC variant: 14.3% of patients
+Much of it stays unexplained. Where a cause is found, one of the most common identified causes is a mosaic APC variant: 14.3% of patients
 within guideline criteria and at least 10% of those with 20 or more adenomas before age 60 (Terlouw et al. 2026,
 [doi](https://doi.org/10.1053/j.gastro.2025.10.028)); 19% in a second series (Sommer et al. 2026,
 [doi](https://doi.org/10.1053/j.gastro.2025.10.011)). Blood testing misses most of these: in Spier et al. 2016
@@ -68,9 +68,9 @@ which matches this patient's distribution. Genome sequencing adds structural APC
   occurs almost only in women, at a median age of 24, and precedes the bowel findings in about half of cases
   (Lam & Saremi 2017, [doi](https://doi.org/10.1530/ERC-17-0014)). This tumour was reported as cystic and
   encapsulated with squamous metaplasia, and no β-catenin stain or BRAF test was done. The block is retrievable.
-- *PTEN hamartoma tumour syndrome.* Polyps of mixed type are found in 93% of carriers who have an endoscopy
+- *PTEN hamartoma tumour syndrome.* Polyps of any type are found in 93% of carriers who have an endoscopy
   (Heald et al. 2010, [doi](https://doi.org/10.1053/j.gastro.2010.06.061)). PTEN was negative on the panel and
-  none of the usual physical signs was noted. Benign breast disease does not count towards the diagnosis
+  none of the usual physical signs was noted. Formal Cowden syndrome clinical criteria were not assessed. Benign breast disease does not count towards the diagnosis
   (Pilarski et al. 2013, [doi](https://doi.org/10.1093/jnci/djt277)).
 - *Benign breast, liver and skin lesions.* Each is common on its own. Together they do not match a defined
   syndrome that the panel covers.

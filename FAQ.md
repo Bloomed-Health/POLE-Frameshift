@@ -43,7 +43,7 @@ This variant has been **confirmed as a germline (constitutional) variant** throu
 
 The patient's presentation spans **five distinct categories**, which is what makes this case so compelling ; it goes far beyond just polyps and cancer:
 
-1. **Neoplastic** ; ~15 adenomatous polyps across the stomach, cecum, and sigmoid colon, plus a Stage I papillary thyroid carcinoma (encapsulated, non-invasive, 1.2 cm, isthmus; not previously linked to PPAP)
+1. **Neoplastic** ; ~20 adenomatous polyps across the stomach, cecum, and sigmoid colon, plus a Stage I papillary thyroid carcinoma (encapsulated, non-invasive, 1.2 cm, isthmus; not previously linked to PPAP)
 2. **Proliferative/stromal** ; Bilateral breast changes with pseudoangiomatous stromal hyperplasia (PASH) and liver focal nodular hyperplasia (FNH) ; a pattern of vascular/stromal proliferation across multiple organs
 3. **Endometrial** ; Stage IV+ deep infiltrating endometriosis with trans-diaphragmatic invasion and intestinal adhesions, plus diffuse adenomyosis ; extraordinarily severe. Note: hEDS independently causes severe endometriosis, so the POLE contribution to endometrial severity is uncertain without molecular confirmation
 4. **Congenital developmental** ; A duplicated inferior vena cava (a vascular anomaly present from birth), which **cannot** be caused by a tumor-specific mutation and argues that POLE dysfunction has effects during embryonic development
@@ -59,7 +59,7 @@ This is where it gets interesting. All previously known PPAP-causing mutations a
 
 The c.138del variant is fundamentally different. It cuts the protein off so early that there is **no proofreading region AND no DNA copying region**. It's like removing the typist entirely. Under current scientific models, this should not cause PPAP. The patient has polyps and a thyroid cancer, but whether her tumours are hypermutated has **never been measured** (corrected 2026-11-20): no tumour or polyp has been sequenced, and the ">100 mutations per megabase" figure quoted in earlier versions of this FAQ was borrowed from the PPAP literature, not observed. Sequencing one lesion is the highest-priority experiment.
 
-> **Important caveat:** Before attributing the phenotype to POLE-driven pathology, mismatch repair deficiency must be excluded as an alternative explanation. MMR IHC, MSI testing, and MLH1 promoter methylation analysis are pending. Without these, a reviewer cannot distinguish genuine POLE-driven hypermutation from an MMR-deficient phenocopy. The germline panel excludes Lynch syndrome, but somatic MMR inactivation remains possible.
+> **Important caveat:** Before attributing the phenotype to POLE-driven pathology, mismatch repair deficiency must be excluded as an alternative explanation. MMR IHC, MSI testing, and MLH1 promoter methylation analysis have not been ordered (no tumour tissue has been submitted for molecular testing). Without these, a reviewer cannot distinguish genuine POLE-driven hypermutation from an MMR-deficient phenocopy. The germline panel excludes Lynch syndrome, but somatic MMR inactivation remains possible.
 
 This creates a **mechanistic paradox** that, if resolved, could inform how truncating POLE variants are evaluated in clinical genetics. PPAP is a working hypothesis for this variant type; classical PPAP is defined by ExoD missense variants, and whether a frameshift can produce a PPAP-like phenotype through a non-canonical mechanism is the central question under investigation. It is also possible that the variant is incidental and the phenotype has a different explanation (see Model 0: Null Hypothesis).
 
@@ -67,11 +67,13 @@ This creates a **mechanistic paradox** that, if resolved, could inform how trunc
 
 ## What does this mean for other patients?
 
-If the research confirms that truncating POLE variants (variants that cut the protein short) can produce a PPAP-like phenotype through a non-canonical mechanism, and if findings are replicated, it would mean:
+**Current evidence argues against extending PPAP guidelines to truncating variants.** Joo et al. (2025) and Mur et al. (2020) found that POLE loss-of-function variants are not associated with PPAP or cancer predisposition. No tumour from a POLE truncation carrier has been shown to carry POLE mutational signatures (SBS10a/b). Until patient-level molecular data demonstrate otherwise, existing PPAP guidelines (which cover exonuclease-domain missense variants) are not expected to need revision for truncating variants.
 
-- **Variants currently classified as "uncertain significance" (VUS) may actually be pathogenic.** Some people carrying truncating POLE variants may be at cancer risk that is currently unrecognized.
-- **Genetic testing interpretation may need to change.** Clinical genetics laboratories may need to reclassify truncating POLE variants.
-- **More people may be identified as carriers.** This could expand cancer screening and prevention to individuals not currently recognized as at-risk.
+If future research were to confirm that truncating POLE variants can produce a PPAP-like phenotype through a non-canonical mechanism, it could mean:
+
+- **Variants currently classified as "uncertain significance" (VUS) may need re-evaluation.** However, this is conditional on molecular evidence that does not currently exist.
+- **Genetic testing interpretation would need to be reconsidered.** But this would require replicated findings across multiple carriers.
+- **More people may be identified as at-risk.** This remains speculative pending experimental data.
 
 ---
 

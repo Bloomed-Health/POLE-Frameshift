@@ -17,7 +17,7 @@
           "label": "Young adult onset"
         }
       },
-      "description": "~6 polyps at age 19; ~20 removed by age 31, mostly colon, some gastric. Histology reports are not in this repository, so the adenomatous label is provisional; most advanced reported finding high-grade dysplasia (repository owner, 2026-11-20)"
+      "description": "~20 polyps removed across multiple surveillance intervals, mostly colon, some gastric. Histology reports are not in this repository, so the adenomatous label is provisional; most advanced reported finding high-grade dysplasia (repository owner, 2026-11-20)"
     },
     {
       "type": {
@@ -30,7 +30,7 @@
           "label": "Young adult onset"
         }
       },
-      "description": "Stage I papillary thyroid carcinoma; clinical: solid 1.1 cm isthmic nodule; pathology: encapsulated, non-invasive, 1.2 cm carcinoma, isthmus; cystic variant with extensive squamous metaplasia; AJCC 8th ed T1bN0M0 (patient <55 years); associated adenomatoid nodular hyperplasia; treated with total thyroidectomy (on levothyroxine replacement); diagnosed at age ~28; outside established PPAP tumor spectrum"
+      "description": "Stage I papillary thyroid carcinoma; clinical: solid 1.1 cm isthmic nodule; pathology: encapsulated, non-invasive, 1.2 cm carcinoma, isthmus; cystic variant with extensive squamous metaplasia; AJCC 8th ed T1bN0M0; associated adenomatoid nodular hyperplasia; treated with total thyroidectomy (on levothyroxine replacement); outside established PPAP tumor spectrum"
     },
     {
       "type": {
@@ -43,7 +43,7 @@
           "label": "Young adult onset"
         }
       },
-      "description": "Bilateral proliferative breast changes with PASH; biopsy (2020): columnar cell change, cystic/papillary apocrine metaplasia, stromal fibrosis, focal PASH; IHC: CD34+, CK AE1/AE3- (confirms PASH); left fibroadenomatous change; first diagnosed at age ~27. No specific HPO term for PASH; closest parent term used."
+      "description": "Bilateral proliferative breast changes with PASH; biopsy (2020): columnar cell change, cystic/papillary apocrine metaplasia, stromal fibrosis, focal PASH; IHC: CD34+, CK AE1/AE3- (confirms PASH); left fibroadenomatous change. No specific HPO term for PASH; closest parent term used."
     },
     {
       "type": {
@@ -69,7 +69,7 @@
           "label": "Young adult onset"
         }
       },
-      "description": "Stage IV+ deep infiltrating endometriosis; trans-diaphragmatic penetration; bilateral ovarian endometriomas; ureteral encasement; appendiceal involvement; pelvic free fluid; symptomatic since ~22, Stage IV diagnosis at ~27"
+      "description": "Stage IV+ deep infiltrating endometriosis; trans-diaphragmatic penetration; bilateral ovarian endometriomas; ureteral encasement; appendiceal involvement; pelvic free fluid; symptomatic since early adulthood"
     },
     {
       "type": {
@@ -82,7 +82,7 @@
           "label": "Young adult onset"
         }
       },
-      "description": "Diffuse asymmetric adenomyosis; severe menorrhagia requiring regular iron infusions; caused syncope; necessitated ovarian-sparing total hysterectomy; diagnosed at age ~28"
+      "description": "Diffuse asymmetric adenomyosis; severe menorrhagia requiring regular iron infusions; caused syncope; necessitated ovarian-sparing total hysterectomy"
     },
     {
       "type": {
@@ -199,7 +199,7 @@
           "label": "Adult onset"
         }
       },
-      "description": "Postural Orthostatic Tachycardia Syndrome (POTS); diagnosed at age ~26"
+      "description": "Postural Orthostatic Tachycardia Syndrome (POTS)"
     },
     {
       "type": {

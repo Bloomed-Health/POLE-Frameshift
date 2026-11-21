@@ -1,8 +1,8 @@
-498 ClinVar POLE records with germline classification Pathogenic or Likely pathogenic
+497 ClinVar POLE records with germline classification Pathogenic or Likely pathogenic
 query: POLE[gene] AND ("clinsig pathogenic"[Properties] OR "clinsig likely pathogenic"[Properties] OR "clinsig pathogenic low penetrance"[Properties])
 
 truncating: 413
-missense: 13
+missense: 12
 other/unspecified: 72
 
 condition (OMIM) by consequence class:
@@ -16,7 +16,6 @@ condition (OMIM) by consequence class:
   truncating            1  114500
   truncating            1  FILS, IMAGe-I
   missense              5  no OMIM id (not provided)
-  missense              1  608224
   missense              1  FILS
   missense              1  no OMIM id (Myoepithelial tumor)
   missense              1  CRCS12 (PPAP)
@@ -31,5 +30,5 @@ condition (OMIM) by consequence class:
   other/unspecified     2  IMAGe-I
   other/unspecified     1  618709
 
-missense inside the exonuclease domain (residues 268-471): 10 of 13
+missense inside the exonuclease domain (residues 268-471): 10 of 12
   E277G, L424V, N363K, P286L, P436R, P436S, S297F, S459F, Y458F, Y458H

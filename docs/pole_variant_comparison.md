@@ -53,8 +53,8 @@ pattern is the one seen for c.138del: Pathogenic from a laboratory that applies 
 
 1. **c.138del is not unusual as a database entry.** Early POLE truncations are seen regularly in clinical
    testing and carry the same split classification. The whole population of records confirms it: on 2026-11-21
-   ClinVar held **498** POLE records classified Pathogenic or Likely pathogenic for germline disease, of which
-   **413 are truncating** (nonsense, frameshift, splice) and only **13 are missense** (10 inside the exonuclease
+   ClinVar held **497** POLE records classified Pathogenic or Likely pathogenic for germline disease, of which
+   **413 are truncating** (nonsense, frameshift, splice) and only **12 are missense** (10 inside the exonuclease
    domain: E277G, P286L, S297F, N363K, L424V, P436R, P436S, Y458F, Y458H, S459F). 388 of the 413 truncating
    records name no condition; 4 name IMAGe, 3 FILS, and 10 name CRCS12/PPAP, which is a curation inconsistency,
    since no truncating variant has been shown to cause PPAP (`analysis/variant_verification/fetch_clinvar_pole.py`;

@@ -21,7 +21,6 @@ The patient carries POLE c.138del AND has the recognized clinical triad of hyper
 - Heart rate increase ≥30 bpm within 10 minutes of standing
 - Often co-occurs with hEDS (shared pathophysiology unclear)
 - Vagal nerve dysfunction modulates immune function via the cholinergic anti-inflammatory pathway
-- Diagnosed at ~age 26 in this patient
 
 ### Gastroparesis
 

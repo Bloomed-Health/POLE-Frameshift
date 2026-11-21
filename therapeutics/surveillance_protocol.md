@@ -6,6 +6,8 @@
 
 If the PPAP working hypothesis is correct, PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillance protocols are based on classical missense variants; the c.138del frameshift requires **expanded surveillance** given the novel mechanism and the patient's demonstrated phenotype spanning five categories: neoplastic, proliferative/stromal, endometrial, congenital developmental, and autoimmune/immune. The systemic nature of the findings suggests POLE dysfunction may affect tissue biology beyond tumor mutation accumulation, necessitating broader organ coverage than standard polyposis surveillance.
 
+> **Note:** The claim that c.138del "requires expanded surveillance" beyond standard polyposis guidelines is **unsupported by published evidence**. No study has demonstrated that POLE truncation variants confer additional cancer risk beyond what the polyp phenotype itself warrants. The expanded surveillance recommendations below are extrapolated from exonuclease-domain missense PPAP data and should be interpreted as hypothesis-generating, not evidence-based. Standard polyposis surveillance (colonoscopy interval determined by polyp burden and histology) is the evidence-based minimum.
+
 > **hEDS confounding caveat:** Gastroparesis, GI dysmotility, and endometriosis severity are most parsimoniously explained by hEDS/POTS, not POLE. These features do not require a POLE-mediated explanation and should not be attributed to POLE dysfunction without molecular evidence (e.g., mutational signatures in affected tissues). Surveillance recommendations below are based on the full clinical phenotype regardless of etiology.
 
 ## Recommended Surveillance
@@ -14,7 +16,7 @@ If the PPAP working hypothesis is correct, PPAP confers cancer risk across multi
 
 | Modality | Interval | Notes |
 |----------|----------|-------|
-| **Colonoscopy with polypectomy** | Every 1–2 years | Standard PPAP recommendation; chromoendoscopy preferred. Progressive polyposis: ~6 adenomas at age 19, accumulating to ~15+ by age 31 (stomach, cecum, sigmoid); new polyps at every surveillance interval (ages 21, 24, 27, 29, ~31) |
+| **Colonoscopy with polypectomy** | Every 1–2 years | Standard PPAP recommendation; chromoendoscopy preferred. Progressive polyposis: ~20 adenomas across multiple surveillance intervals (stomach, cecum, sigmoid); new polyps at every surveillance interval over >12 years |
 | **Upper endoscopy** | Every 1–2 years | Gastric polyps and chronic gastritis present; duodenal adenoma screening (per POLD1-PPAP expansion, Folletet et al. 2025, *Frontiers in Oncology*) |
 | **Capsule endoscopy** | Consider if small bowel symptoms | Small bowel polyp surveillance |
 | **Rectal mucosal monitoring** | At each colonoscopy | Erythematous, edematous, friable mucosa noted ; monitor for progression |
@@ -90,7 +92,7 @@ If the PPAP working hypothesis is correct, PPAP confers cancer risk across multi
 
 | Modality | Interval | Notes |
 |----------|----------|-------|
-| **Brain MRI** | Consider annually | POLE-mutant glioblastomas reported in literature ; N363K POLE variant extends PPAP tumor spectrum to glioblastoma (Vande Perre et al., 2019; Labrousse et al., 2023 *NAR Cancer*) |
+| **Brain MRI** | Consider annually | POLE-mutant glioblastomas reported in literature ; N363K POLE variant extends PPAP tumor spectrum to glioblastoma (Vande Perre et al., 2019; Labrousse et al., 2023 *NAR Cancer*). **Note:** The cited sources describe exonuclease-domain missense carriers. No data support brain MRI surveillance for POLE truncation carriers specifically; this recommendation is extrapolated and should be evaluated against cost and patient burden |
 | **Dermatologic exam** | Annual | Sebaceous neoplasms (overlap with Muir-Torre spectrum) |
 
 ## Chemoprevention

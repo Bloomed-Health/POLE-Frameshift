@@ -133,7 +133,8 @@ records opened, what was found.
 ## 6. Before committing
 
 - [ ] `python3 analysis/variant_verification/verify_c138del.py` exits 0
-- [ ] `python3 -m pytest -q tests` passes
+- [ ] `python3 -m pytest -q tests` passes (this includes `tests/test_scientific_consistency.py`, which cross-checks every data table against the sequence and every document against the table it quotes)
+- [ ] if a database value, fixture or reference was touched: `POLE_LIVE=1 python3 -m pytest -q tests/live` passes (also run weekly by `.github/workflows/verify-live.yml`)
 - [ ] every new factual sentence has a ledger row
 - [ ] no patient finding is written as observed without a document behind it
 - [ ] new references were fetched, and their fields copied from the record

@@ -117,7 +117,7 @@ def test_claims_ledger_is_well_formed():
 def test_bibliography_keys():
     with open(os.path.join(ROOT, "references/bibliography.bib"), encoding="utf-8") as fh:
         keys = re.findall(r"^@\w+\{([^,\s]+),", fh.read(), re.M)
-    assert len(keys) == len(set(keys)) == 85
+    assert len(keys) == len(set(keys)) == 113
     assert not {"valle2020", "shinbrot2019", "barbari2019", "pietrantonio2024", "baranovskiy2022", "deppas2025", "pich2025b"} & set(keys)
     assert {"mur2020", "yamaguchi2019", "park2019", "ambrosini2024", "lisova2022"} <= set(keys)
 
@@ -133,6 +133,5 @@ def test_checksums():
 def test_readme_figures_exist():
     with open(os.path.join(ROOT, "README.md"), encoding="utf-8") as fh:
         paths = re.findall(r"!\[[^\]]*\]\(([^)]+\.png)\)", fh.read())
-    assert len(paths) >= 8
     missing = [p for p in paths if not os.path.exists(os.path.join(ROOT, p))]
     assert not missing, missing

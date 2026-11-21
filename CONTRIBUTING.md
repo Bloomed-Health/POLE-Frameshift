@@ -1,6 +1,6 @@
 # Contributing to the POLE c.138del Research Framework
 
-Thank you for your interest in contributing to this research. This is an active investigation into a novel POLE variant with implications for clinical genetics, cancer biology, and therapeutic strategy. We welcome contributions from researchers across multiple disciplines.
+Thank you for your interest in contributing to this research. This is an active investigation into an ultra-rare POLE variant with implications for clinical genetics, cancer biology, and therapeutic strategy. We welcome contributions from researchers across multiple disciplines.
 
 ---
 

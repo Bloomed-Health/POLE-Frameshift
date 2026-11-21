@@ -15,7 +15,7 @@ This directory contains computationally useful reference data for POLE c.138del 
 | `POLE_clinvar_variants.tsv` | Curated POLE variants. Nucleotide and codon of every substitution verified against the full MANE CDS; ClinVar variation IDs and germline classifications checked on 2026-11-20 (the three IDs previously listed were MEN1 records) | ClinVar, full CDS fixture |
 | `claims_ledger.tsv` | One row per factual claim with status, source and verification date | 2026-11-20 audit |
 | `phenotype_hpo.tsv` | Patient phenotype mapped to Human Phenotype Ontology (HPO) terms; every ID and label checked against the HPO API on 2026-11-20 (none obsolete) | HPO (hpo.jax.org) |
-| `phenotype_timeline.tsv` | Age-at-onset data for each finding. Ages and findings are repository-owner statements (ledger rows P03-P08). `tissue_key` (added 2026-11-21) names the row of `tissue_replication_rates.tsv` each finding joins to (empty for the comorbidity triad, which has no turnover row); the free-text `tissue_turnover_rate` label must agree with that row, which a test enforces. The n = 6 dataset behind the notebook's Spearman test is reproducible from this join except for two entries the tables do not support (breast turnover 60 days; adenomyosis as a tissue separate from endometrium); `tests/test_scientific_consistency.py::test_notebook_dataset_versus_the_tables` records that | Owner statements + `tissue_replication_rates.tsv` |
+| `phenotype_timeline.tsv` | Age-at-onset data for each finding. Ages and findings are repository-owner statements (ledger rows P03-P08); the turnover labels repeat `tissue_replication_rates.tsv` and carry the same sourcing status | Owner statements + `tissue_replication_rates.tsv` |
 | `tissue_replication_rates.tsv` | Tissue-specific cell division rates with POLE vulnerability predictions and Model 4 support assessment. Since 2026-11-21 each row carries `source` (PMID and the figure in its abstract) and `source_status` (CITED, PHYSIOLOGY, PARTLY SOURCED or UNSOURCED); the HSC value was corrected from 40 days to once per ~40 weeks | PubMed abstracts as cited per row |
 | `cosmic_signatures_cited.tsv` | Every COSMIC SBS signature named in this repository with the proposed aetiology and comment copied from the COSMIC signatures site, and how the repository uses it | cancer.sanger.ac.uk/signatures (2026-11-21) |
 
@@ -25,7 +25,7 @@ The `tissue_replication_rates.tsv` file maps 12 affected tissues to estimated ce
 
 ## HPO Interoperability
 
-The `phenotype_hpo.tsv` file maps all 19 clinical findings (five phenotype categories plus the three comorbidity-triad terms, added 2026-11-21 so that the table and the phenopacket list the same findings) to standardized [Human Phenotype Ontology (HPO)](https://hpo.jax.org/) terms. This enables:
+The `phenotype_hpo.tsv` file maps all 16 clinical findings across the patient's five phenotype categories to standardized [Human Phenotype Ontology (HPO)](https://hpo.jax.org/) terms. This enables:
 
 - **Phenopacket export:** HPO terms can be directly embedded in [GA4GH Phenopackets](https://phenopacket-schema.readthedocs.io/) for standardized case sharing with collaborators and registries
 - **Exomiser/AMELIE integration:** HPO-coded phenotypes are the required input for variant prioritization tools like [Exomiser](https://exomiser.monarchinitiative.org/) and [AMELIE](https://amelie.stanford.edu/)

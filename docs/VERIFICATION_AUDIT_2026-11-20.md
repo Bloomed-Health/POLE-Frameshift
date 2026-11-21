@@ -158,7 +158,7 @@ restart at Met44 or Met66 would remove and which contacts those residues make.
 
 Listed so that nobody mistakes silence for confirmation (ledger rows marked UNVERIFIED or NOT_FOUND):
 
-- any splice prediction for c.138del (resolved 2026-11-21: SpliceAI via the Ensembl VEP plugin gives all four delta scores of 0; ledger V13);
+- any splice prediction for c.138del;
 - allele-specific ClinVar terms for the exon 1-2 neighbours (the ClinVar identifiers in `data/POLE_clinvar_variants.tsv`, HPO identifiers, methionine positions beyond residue 240 and the gnomAD figures were resolved after the audit; ledger rows D04, D05, D10, D12-D15, N03, V07);
 - figures quoted from Li 2018, Andrianova 2024, Ambrosini 2024 and Albertson 2009 that are not in their abstracts;
 - COSMIC signature assignments used in this repository;

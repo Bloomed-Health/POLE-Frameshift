@@ -251,7 +251,7 @@ The earlier statement that position 46 is Glu came from `data/POLE_coding_sequen
 
 ### Prior Probability Assessment
 
-Model 7 was assigned a **low–moderate prior probability** when written because it was cheap to exclude and foundational for all other models. It was tested on 2026-11-20 and is **closed**: the HGVS name is exact on MANE Select, the stop is codon 53, and SpliceAI (Ensembl VEP plugin, precomputed scores, queried 2026-11-21) gives all four delta scores of 0 for ENST00000320574, so no splice effect is predicted (prediction 7c; ledger V13). The transcript-fate question (decay versus re-initiation at Met66) now belongs to Model 2.
+Model 7 was assigned a **low–moderate prior probability** when written because it was cheap to exclude and foundational for all other models. It was tested on 2026-11-20 and is **closed**: the HGVS name is exact on MANE Select, the stop is codon 53, and the only part still open is a splice prediction (prediction 7c; position argues against a splice effect). The transcript-fate question (decay versus re-initiation at Met66) now belongs to Model 2.
 
 ### Falsifiable Predictions
 

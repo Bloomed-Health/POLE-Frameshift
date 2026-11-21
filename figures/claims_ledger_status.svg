@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="676.8pt" height="262.8pt" viewBox="0 0 676.8 262.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-21T13:02:46.424528</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 262.8 
+L 676.8 262.8 
+L 676.8 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 255.6 244.8 
+L 658.8 244.8 
+L 658.8 71.136 
+L 255.6 71.136 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #0b0b0b" x="252.1" y="234.219756" transform="rotate(-0 252.1 234.219756)">Inference, untested</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #0b0b0b" x="252.1" y="210.00559" transform="rotate(-0 252.1 210.00559)">Searched for, not found</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #0b0b0b" x="252.1" y="185.791424" transform="rotate(-0 252.1 185.791424)">Never measured in the patient</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #0b0b0b" x="252.1" y="161.577258" transform="rotate(-0 252.1 161.577258)">Not verified</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #0b0b0b" x="252.1" y="137.363092" transform="rotate(-0 252.1 137.363092)">Repository claim contradicted</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #0b0b0b" x="252.1" y="113.148925" transform="rotate(-0 252.1 113.148925)">Owner statement, document not seen</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #0b0b0b" x="252.1" y="88.934759" transform="rotate(-0 252.1 88.934759)">Verified against a primary source</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 255.6 236.906182 
+L 271.252174 236.906182 
+L 271.252174 224.314815 
+L 255.6 224.314815 
+z
+" clip-path="url(#pde5b10551a)" style="fill: #2a78d6"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="275.165217" y="233.208155" transform="rotate(-0 275.165217 233.208155)">2</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 255.6 212.692016 
+L 271.252174 212.692016 
+L 271.252174 200.100649 
+L 255.6 200.100649 
+z
+" clip-path="url(#pde5b10551a)" style="fill: #2a78d6"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="275.165217" y="208.993989" transform="rotate(-0 275.165217 208.993989)">2</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 255.6 188.477849 
+L 271.252174 188.477849 
+L 271.252174 175.886483 
+L 255.6 175.886483 
+z
+" clip-path="url(#pde5b10551a)" style="fill: #2a78d6"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="275.165217" y="184.779822" transform="rotate(-0 275.165217 184.779822)">2</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 255.6 164.263683 
+L 286.904348 164.263683 
+L 286.904348 151.672317 
+L 255.6 151.672317 
+z
+" clip-path="url(#pde5b10551a)" style="fill: #2a78d6"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="290.817391" y="160.565656" transform="rotate(-0 290.817391 160.565656)">4</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 255.6 140.049517 
+L 310.382609 140.049517 
+L 310.382609 127.458151 
+L 255.6 127.458151 
+z
+" clip-path="url(#pde5b10551a)" style="fill: #2a78d6"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="314.295652" y="136.35149" transform="rotate(-0 314.295652 136.35149)">7</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 255.6 115.835351 
+L 326.034783 115.835351 
+L 326.034783 103.243984 
+L 255.6 103.243984 
+z
+" clip-path="url(#pde5b10551a)" style="fill: #2a78d6"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="329.947826" y="112.137324" transform="rotate(-0 329.947826 112.137324)">9</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 255.6 91.621185 
+L 615.6 91.621185 
+L 615.6 79.029818 
+L 255.6 79.029818 
+z
+" clip-path="url(#pde5b10551a)" style="fill: #2a78d6"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="619.513043" y="87.923158" transform="rotate(-0 619.513043 87.923158)">46</text>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="18" y="27.877969" transform="rotate(-0 18 27.877969)">Status of the 72 claims in the ledger</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="18" y="40.770516" transform="rotate(-0 18 40.770516)">data/claims_ledger.tsv, audit of 20 November 2026. Each claim has a source and a date.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pde5b10551a">
+   <rect x="255.6" y="71.136" width="403.2" height="173.664"/>
+  </clipPath>
+ </defs>
+</svg>

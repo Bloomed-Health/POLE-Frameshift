@@ -1,5 +1,7 @@
 # Mechanistic Models: Formal Hypotheses and Falsification Criteria
 
+> **Audit note, 2026-11-20.** No tumour or polyp from this patient has been sequenced. Wherever this file says the patient's lesions are hypermutated (">100 mut/Mb"), that is an assumption carried over from the PPAP literature, confirmed as such by the repository owner. It is not an observation. Polyp histology is also undocumented here. Read this file with the [verification audit](../docs/VERIFICATION_AUDIT_2026-11-20.md).
+
 This document states each candidate model as a formal hypothesis with specific, falsifiable predictions and the experiments that test them. Eight models (Models 0–7) are maintained, including a null hypothesis (Model 0) and an annotation-artifact hypothesis (Model 7).
 
 ---
@@ -14,7 +16,7 @@ POLE c.138del is a passenger variant that does not causally contribute to the pa
 
 | # | Evidence | Detail |
 |---|---------|--------|
-| 0a | **188 gnomAD LoF carriers** | POLE tolerates heterozygous LoF at population level (pLI ≈ 0, LOEUF = 0.76); 188 LoF variants observed without apparent PPAP, implying heterozygous truncation alone is insufficient for the cancer phenotype |
+| 0a | **188 gnomAD observed LoF variants** | POLE tolerates heterozygous LoF at population level (pLI ≈ 0, LOEUF = 0.76); 188 LoF variants observed without apparent PPAP, implying heterozygous truncation alone is insufficient for the cancer phenotype |
 | 0b | **Limited gene panel** | The 47-gene panel does not cover MBD4, RNF43, FAN1, MCM8/MCM9, GREM1 regulatory variants, connective tissue genes, or structural variation. Clinical WGS/WES has not been performed; an alternative driver may exist in untested genes |
 | 0c | **No functional data** | No functional assay has demonstrated that c.138del alters POLE activity, mutation rates, or holoenzyme assembly in patient-derived cells |
 | 0d | **No segregation data** | Parental testing is unavailable; it is unknown whether the variant is de novo or inherited, and no affected relatives have been tested |
@@ -63,7 +65,7 @@ The patient's **congenital duplicated inferior vena cava** argues against Model 
 
 ### gnomAD Population Data Supporting Model 1
 
-**Critical new evidence:** gnomAD v4.1.0 (accessed April 2026) shows 188 observed LoF variants in POLE (vs. 279 expected; oe_lof = 0.67, pLI ≈ 0, LOEUF = 0.76). This means **heterozygous POLE LoF is tolerated in the general population** ; 188 LoF variant carriers exist without apparent PPAP. This population-level observation strongly supports Model 1 as necessary for the cancer phenotype: if heterozygous LoF alone produced ultra-hypermutation, the 188 gnomAD LoF carriers would be expected to show PPAP-range TMB, which is inconsistent with normal health. The implication is that a **second hit (LOH)** in specific tissues is required to produce the ultra-hypermutated phenotype.
+**Critical new evidence:** gnomAD v4.1.0 (accessed April 2026) shows 188 observed LoF variants in POLE (vs. 279 expected; oe_lof = 0.67, pLI ≈ 0, LOEUF = 0.76). This means **heterozygous POLE LoF is tolerated in the general population** ; 188 observed LoF variants exist without apparent PPAP. This population-level observation strongly supports Model 1 as necessary for the cancer phenotype: if heterozygous LoF alone produced ultra-hypermutation, the 188 gnomAD observed LoF variants would be expected to show PPAP-range TMB, which is inconsistent with normal health. The implication is that a **second hit (LOH)** in specific tissues is required to produce the ultra-hypermutated phenotype.
 
 This aligns with Andrianova et al. (2024, *Eur J Hum Genet*), who demonstrated that heterozygous POLD1 exonuclease domain variants cause only a ~15% increase in somatic mutation rate ; insufficient for clinical cancer predisposition. Cancer development in their cohort required somatic LOH at the POLD1 locus, establishing a **recessive model for polymerase proofreading-associated cancer predisposition**. While this was demonstrated for POLD1 missense (not POLE truncating), the principle of LOH-dependent cancer risk may extend to POLE LoF variants.
 
@@ -77,7 +79,7 @@ Model 1 is **excluded** as the sole mechanism if: congenital anomalies or multi-
 
 ### Hypothesis
 
-Ribosomes encountering the premature stop codon at residue 54 reinitiate translation at a downstream in-frame AUG codon. If reinitiation occurs between the exonuclease active site (residue 268) and polymerase core (residue ~530), the resulting N-terminally truncated protein retains polymerase activity but lacks proofreading ; phenocopying classical dominant-negative PPAP.
+Ribosomes encountering the premature stop codon at codon 53 reinitiate translation at a downstream in-frame AUG codon. If reinitiation occurs between the exonuclease active site (residue 268) and polymerase core (residue ~530), the resulting N-terminally truncated protein retains polymerase activity but lacks proofreading ; phenocopying classical dominant-negative PPAP.
 
 ### Falsifiable Predictions
 
@@ -90,13 +92,13 @@ Ribosomes encountering the premature stop codon at residue 54 reinitiate transla
 
 ### Prior Probability Assessment
 
-Model 2 has a **low prior probability**. Translational reinitiation efficiency drops sharply with increasing distance from the premature stop codon. The nearest candidate reinitiation site with strong Kozak context (M497) is ~1.3 kb downstream ; far beyond the typical reinitiation window observed for mammalian mRNAs (Sherlock et al., 2023). While reinitiation has been documented in specialized contexts (uORFs, viral internal ribosome entry), efficient reinitiation across >1 kb of coding sequence in a standard mammalian mRNA would be unprecedented. This model remains formally testable but should be considered unlikely absent positive Ribo-seq evidence.
+Model 2 as first written is **not supported**. The methionine list it relied on was computed from a sequence that is not POLE: residues 89, 128 and 185 of the real protein are not methionine, and positions beyond residue 240 were not re-checked. On the real mRNA the first AUG after the premature stop is **Met66 (c.196)**, 35 nt downstream and in the POLE reading frame. A product starting there would lack residues 1–65 and keep the entire exonuclease and polymerase domains, so re-initiation cannot produce a proofreading-deficient polymerase. Whether re-initiation happens at all is open and testable (see `docs/VERIFICATION_AUDIT_2026-11-20.md`).
 
 **Kozak scoring method:** Kozak context strength for downstream methionines (catalogued in `data/POLE_downstream_methionines.tsv`) was assessed using the consensus rules of Kozak (1986, 1987): **Strong** = purine at −3 (A/G) AND G at +4; **Moderate** = purine at −3 OR G at +4 (but not both); **Weak** = pyrimidine at −3 AND non-G at +4. The −3 and +4 positions are the primary determinants of translation initiation efficiency in mammalian systems. Full 7-nt Kozak contexts (−3 to +4, centered on AUG) are provided in the data file.
 
 ### Exclusion Criteria
 
-Model 2 is **excluded** if: Ribo-seq shows no ribosome footprints downstream of codon 54 AND no truncated POLE protein is detected by proteomics AND mutant transcript undergoes complete NMD.
+Model 2 is **excluded** if: Ribo-seq shows no ribosome footprints downstream of codon 53 AND no truncated POLE protein is detected by proteomics AND mutant transcript undergoes complete NMD.
 
 ---
 
@@ -104,7 +106,7 @@ Model 2 is **excluded** if: Ribo-seq shows no ribosome footprints downstream of 
 
 ### Hypothesis
 
-The premature termination codon escapes nonsense-mediated mRNA decay. The truncated 54-amino-acid peptide retains partial binding capacity for the POLE2 (p59) accessory subunit, competitively inhibiting holoenzyme assembly ; a dominant-negative mechanism through stoichiometric poisoning rather than catalytic dysfunction.
+The premature termination codon escapes nonsense-mediated mRNA decay. The truncated 52-amino-acid peptide retains partial binding capacity for the POLE2 (p59) accessory subunit, competitively inhibiting holoenzyme assembly ; a dominant-negative mechanism through stoichiometric poisoning rather than catalytic dysfunction.
 
 ### Tissue-Specific NMD Considerations
 
@@ -118,20 +120,20 @@ If NMD escape is tissue-specific, this could create a scenario where the truncat
 
 ### Prior Probability Assessment
 
-Model 3 has a **low prior probability**. Structural studies of the POLE holoenzyme (Yuan et al., 2020; Roske & Yeeles, 2024; He et al., 2024) show that the POLE–POLE2 interaction interface is mediated primarily by the **C-terminal domain** of POLE (residues ~1,265–2,286), not the N-terminal region. The truncated 54-residue peptide would need to engage a binding surface for which there is no structural precedent. AlphaFold modeling of the N-terminal region predicts limited stable secondary structure in isolation. Additionally, even if the peptide were produced, its stoichiometric competition with full-length wild-type POLE protein would require comparable POLE2 binding affinity ; unlikely for a 54-residue fragment vs. a 2,286-residue protein with extensive interface contacts. This model is retained for completeness and formal testability but is considered the least likely of the seven candidates.
+Model 3 has a **low prior probability**. Structural studies of the POLE holoenzyme (Yuan et al., 2020; Roske & Yeeles, 2024; He et al., 2024) show that the POLE–POLE2 interaction interface is mediated primarily by the **C-terminal domain** of POLE (residues ~1,265–2,286), not the N-terminal region. The truncated 52-residue peptide would need to engage a binding surface for which there is no structural precedent. AlphaFold modeling of the N-terminal region predicts limited stable secondary structure in isolation. Additionally, even if the peptide were produced, its stoichiometric competition with full-length wild-type POLE protein would require comparable POLE2 binding affinity ; unlikely for a 52-residue fragment vs. a 2,286-residue protein with extensive interface contacts. This model is retained for completeness and formal testability but is considered the least likely of the seven candidates.
 
 ### Falsifiable Predictions
 
 | # | Prediction | Experiment | If TRUE | If FALSE |
 |---|-----------|------------|---------|----------|
 | 3a | Mutant POLE mRNA will be detectable (NMD escape) | Allele-specific RNA-seq from blood | NMD escape confirmed | Complete NMD = no truncated peptide produced |
-| 3b | The 54-residue peptide will co-immunoprecipitate with POLE2 | Co-IP of synthetic peptide with recombinant POLE2 | Binding confirmed ; poisoning mechanism plausible | No binding = no stoichiometric competition |
-| 3c | AlphaFold predicts structured interaction between residues 1–54 and POLE2 | Computational structural modeling | Structural basis for binding | Unstructured N-terminus unlikely to bind |
-| 3d | Overexpression of the 54-residue peptide in cell lines reduces functional POLE holoenzyme levels | Transfection + POLE activity assay | Dominant-negative poisoning confirmed | No effect = peptide is inert |
+| 3b | The 52-residue peptide will co-immunoprecipitate with POLE2 | Co-IP of synthetic peptide with recombinant POLE2 | Binding confirmed ; poisoning mechanism plausible | No binding = no stoichiometric competition |
+| 3c | AlphaFold predicts structured interaction between residues 1–45 and POLE2 | Computational structural modeling | Structural basis for binding | Unstructured N-terminus unlikely to bind |
+| 3d | Overexpression of the 52-residue peptide in cell lines reduces functional POLE holoenzyme levels | Transfection + POLE activity assay | Dominant-negative poisoning confirmed | No effect = peptide is inert |
 
 ### Exclusion Criteria
 
-Model 3 is **excluded** if: mutant mRNA undergoes complete NMD AND/OR the 54-residue peptide shows no binding to any holoenzyme component AND/OR AlphaFold predicts the N-terminal region is unstructured with no interaction surfaces.
+Model 3 is **excluded** if: mutant mRNA undergoes complete NMD AND/OR the 52-residue peptide shows no binding to any holoenzyme component AND/OR AlphaFold predicts the N-terminal region is unstructured with no interaction surfaces.
 
 ---
 
@@ -153,7 +155,7 @@ Model 3 is **excluded** if: mutant mRNA undergoes complete NMD AND/OR the 54-res
 
 ### gnomAD Population Data and Model 4
 
-The gnomAD LoF tolerance data (188 observed LoF, pLI ≈ 0, LOEUF = 0.76) creates an important **nuance** for Model 4. If heterozygous POLE LoF is tolerated (as evidenced by 188 LoF variant carriers), then pure haploinsufficiency producing PPAP-range ultra-hypermutation (TMB >100 mut/Mb) seems unlikely ; otherwise those 188 LoF variant carriers should also develop ultra-hypermutated tumors. However, Model 4 predicts **subtler effects** of haploinsufficiency: mildly elevated mutation rates (Andrianova et al., 2024 demonstrated ~15% increase for heterozygous POLD1), proliferative dysregulation, and developmental anomalies. These subtle effects would be **undetectable in gnomAD** (which captures allele frequencies, not phenotypes). The 188 gnomAD LoF carriers may have subclinical phenotypes ; mild polyposis, increased adenoma risk, developmental anomalies ; that have never been systematically assessed.
+The gnomAD LoF tolerance data (188 observed LoF, pLI ≈ 0, LOEUF = 0.76) creates an important **nuance** for Model 4. If heterozygous POLE LoF is tolerated (as evidenced by 188 observed LoF variants), then pure haploinsufficiency producing PPAP-range ultra-hypermutation (TMB >100 mut/Mb) seems unlikely ; otherwise those 188 observed LoF variants should also develop ultra-hypermutated tumors. However, Model 4 predicts **subtler effects** of haploinsufficiency: mildly elevated mutation rates (Andrianova et al., 2024 demonstrated ~15% increase for heterozygous POLD1), proliferative dysregulation, and developmental anomalies. These subtle effects would be **undetectable in gnomAD** (which captures allele frequencies, not phenotypes). The 188 gnomAD observed LoF variants may have subclinical phenotypes ; mild polyposis, increased adenoma risk, developmental anomalies ; that have never been systematically assessed.
 
 **Refined Model 4 prediction:** Haploinsufficiency produces the **systemic, non-neoplastic phenotype** (dupIVC, endometriosis severity, PASH, ANA) and mild baseline mutation rate elevation, but the **tumor-specific ultra-hypermutation** requires a second hit (LOH → Model 1, or second-site mutation → Model 6). This M4+M1 combination resolves both the gnomAD tolerance data and the clinical phenotype.
 
@@ -219,6 +221,8 @@ Model 6 is mechanistically distinct from Model 1 (LOH) and can co-occur with Mod
 
 Model 6 has a **moderate prior probability**. Somatic POLE exonuclease domain mutations are well-documented in sporadic cancers (7–13% of endometrial cancers, ~3% of CRC per TCGA). The POLE exonuclease domain spans ~200 codons, and only a handful of hotspot positions (P286, V411, S459, etc.) produce the dominant-negative phenotype. In a patient with potentially elevated baseline mutation rates from haploinsufficiency (Model 4), the probability of hitting one of these hotspots somatically is higher than in the general population but still requires a specific gain-of-function event. Shah et al. (2024) documented co-occurring POLE exonuclease and non-exonuclease domain mutations and their impact on TMB, providing direct precedent for compound POLE mutation scenarios.
 
+**Published precedent (added 2026-11-21).** Rosa et al. 2020 (*Genet Mol Biol*, PMID 33001133) describe a 72-year-old carrier of a germline POLE frameshift (p.Pro269fs\*26) whose endometrial cancer was ultramutated and carried a somatic exonuclease-domain mutation, S459F. This is the configuration Model 6 proposes: a germline loss-of-function allele plus a somatic proofreading-defective hit. The abstract does not state whether the somatic hit lay in cis or in trans, and one tumour in a 72-year-old is a sporadic-type event; it does not show that the germline allele raised the risk. It is the one published case in which a germline POLE truncation coexists with an ultramutated tumour, and it is the kind of result the thyroid-block exome (research plan, experiment 4) could return.
+
 ### Exclusion Criteria
 
 Model 6 is **excluded** if: tumor WGS shows no somatic variants in the POLE exonuclease domain on the wild-type allele. Note: Model 6 can only be definitively tested for individual tumors ; it may apply to some tumors but not others in the same patient.
@@ -233,27 +237,27 @@ The molecular consequence of c.138del is not what the current HGVS notation impl
 
 (a) **Splicing perturbation:** The deletion falls near an exon boundary and disrupts splicing, producing an in-frame or exon-skipped product with residual or altered function rather than a clean truncation.
 
-(b) **Transcript discrepancy:** The variant consequence differs on the canonical MANE transcript (ENST00000320574.6 / NM_006231.4) vs. the transcript used by the reporting laboratory.
+(b) **Transcript discrepancy:** closed 2026-11-20. The consequence on MANE Select (ENST00000320574.10 / NM_006231.4) is the one the laboratory reported.
 
-(c) **HGVS imprecision:** The clinical report states p.Leu46Phefs\*8, but the MANE Select transcript encodes **Glu (E), not Leu (L), at position 46** (codon c.136–138 = GAA). This discrepancy indicates that the clinical annotation was derived from a different transcript version or annotation pipeline. Until reconciled, the exact frameshift product (length, stop position, novel peptide sequence) and its domain implications are uncertain.
+(c) **HGVS imprecision:** closed 2026-11-20. Codon 46 of MANE Select is TTG (Leu); c.138del gives p.Leu46Phefs\*8, a stop at codon 53 and a predicted 52-residue product ending in the novel sequence FGLVLSG.
 
-### Evidence for Discrepancy
+### Resolution (2026-11-20)
 
-Verification against the POLE coding sequence in this repository (ENST00000320574.6) confirms:
-- Codon 45 (c.133–135) = TTG = Leu
-- Codon 46 (c.136–138) = GAA = Glu
+Re-derivation on the first 480 nt of the ENST00000320574.10 coding sequence (fixture in `data/reference/`, cross-checked against UniProt Q07864 and Ensembl VEP) gives:
+- Codon 45 (c.133–135) = GAT = Asp
+- Codon 46 (c.136–138) = TTG = Leu; c.138 is its third base
 
-The HGVS notation p.**Leu**46 is inconsistent with the MANE transcript, where position 46 is Glu. This could reflect: a different transcript version with a different 5′ UTR or alternative first exon altering the codon numbering, or an annotation pipeline artifact. **This discrepancy is no longer cosmetic** — the exact position, frame, and exon location of the deletion are load-bearing for interpreting the variant's molecular consequence and for all other mechanistic models.
+The earlier statement that position 46 is Glu came from `data/POLE_coding_sequence.fa`, a 545-nt sequence that shares 32% nucleotide identity with POLE over its first 480 nt and is not the gene. That file has been removed. Model 7 is closed.
 
 ### Prior Probability Assessment
 
-Model 7 has a **low–moderate prior probability** but is **cheap to exclude** and **foundational** for all other models. It should be the highest-priority hypothesis to address because its resolution is prerequisite to correctly interpreting every other model. If the real transcript product is not a null, the entire mechanistic framing changes.
+Model 7 was assigned a **low–moderate prior probability** when written because it was cheap to exclude and foundational for all other models. It was tested on 2026-11-20 and is **closed**: the HGVS name is exact on MANE Select, the stop is codon 53, and SpliceAI (Ensembl VEP plugin, precomputed scores, queried 2026-11-21) gives all four delta scores of 0 for ENST00000320574, so no splice effect is predicted (prediction 7c; ledger V13). The transcript-fate question (decay versus re-initiation at Met66) now belongs to Model 2.
 
 ### Falsifiable Predictions
 
 | # | Prediction | Experiment | If TRUE | If FALSE |
 |---|-----------|------------|---------|----------|
-| 7a | The MANE transcript annotation will resolve the Leu46/Glu46 discrepancy | Re-derive c.138del on MANE Select NM_006231.4 with exact HGVS | Correct HGVS established; stop position confirmed | Discrepancy unexplained; may indicate novel transcript |
+| 7a | The MANE transcript annotation resolves the Leu46 naming (**tested 2026-11-20**) | Re-derived c.138del on MANE Select NM_006231.4 (`verify_c138del.py`) | **Observed:** HGVS exact; stop at codon 53 | Not observed |
 | 7b | RT-PCR across affected exons will show the expected truncation product | Patient-cell RT-PCR with transcript-specific primers | Clean truncation confirmed; variant is a simple null | Aberrant splicing detected; product may have residual function |
 | 7c | The deletion does not fall near a splice site | Genomic context analysis (distance to nearest splice junction) | Splicing perturbation unlikely | Splice-site proximity warrants splice-product analysis |
 
@@ -362,15 +366,15 @@ This matrix shows which experiments most efficiently discriminate between models
 As experimental results accumulate, formal Bayesian model comparison should be applied. For each experiment, the likelihood ratio for each model pair should be estimated:
 
 **Prior odds** (based on current clinical, structural, and population-genetic evidence):
-- M0 (Null hypothesis): ~10% ; must be formally considered given absence of functional data, no segregation data, limited panel, and hEDS explaining some features; weakened by variant absence from all population databases and negative 47-gene panel
+- M0 (Null hypothesis): ~10% ; must be formally considered given absence of functional data, no segregation data, limited panel, and hEDS explaining some features. (The "absence from all population databases" formerly cited against M0 was wrong: the variant is in gnomAD and ClinVar. On the evidence reviewed on 2026-11-20 M0 is the leading explanation; see the audit note at the top of this file.)
 - M4 (Haploinsufficiency): ~30% ; strongest clinical support; congenital + multi-system phenotype. Revised down slightly from previous assessment: gnomAD LoF tolerance data (188 LoF variants, pLI ≈ 0) argues against haploinsufficiency alone producing the full cancer phenotype, but supports it for the systemic non-neoplastic findings
 - M1 (LOH): ~25% ; gnomAD data and Andrianova et al. (2024) recessive polymerase proofreading model strongly support LOH as required for tumor-specific ultra-hypermutation
 - M6 (Second-site): ~18% ; mechanistically straightforward; normal mutagenesis of single functional allele can acquire ExoD hotspot
 - M5 (Isoform): ~5% ; untested; neutral evidence
-- M2 (Reinitiation): ~5% ; low prior; unprecedented reinitiation distance; tissue-specific NMD studies (Tan 2025, Kolakada 2025) add complexity but do not change the fundamental improbability of >1 kb reinitiation
+- M2 (Reinitiation): ~5% as first assigned, but the version that gave a polymerase-only product is **not supported** (2026-11-20): the first AUG after the stop is Met66, 35 nt downstream, so re-initiation is geometrically plausible but would restore a proofreading-proficient protein. Whether it happens is untested and is the subject of the reporter and RNA experiments in `docs/research_plan_2026-11.md`
 - M3 (Poisoning): ~4% ; low prior; structurally implausible N-terminal POLE2 binding. However, Keskitalo et al. (2025) identified POLE2 as an NPF motif receptor ; any NPF-containing region in the truncated peptide warrants checking
-- M7 (Annotation artifact): ~3% ; low–moderate prior, but cheap to exclude and **foundational**. The confirmed Leu46/Glu46 discrepancy between the clinical HGVS and the MANE transcript means this cannot be dismissed without formal re-derivation. If the molecular product is not a null, all other model priors change. Should be tested first
-- *Note: percentages approximate, do not account for composite models (M4+M1); prior for M0 reflects the epistemic duty to test the null; M7 prior is low but its resolution is prerequisite to all others*
+- M7 (Annotation artifact): **0%, closed 2026-11-20** ; the HGVS name was re-derived and is exact on MANE Select. The ~3% formerly assigned here is not evidence for any other model
+- *Note: percentages approximate, were assigned before the 2026-11-20 audit and have not been re-estimated; they do not account for composite models (M4+M1); prior for M0 reflects the epistemic duty to test the null; M7 is closed*
 
 **Updating rule:** After each experiment, update posterior odds using the likelihood ratios defined in the falsifiable predictions tables above. A model's posterior probability <1% after two independent experiments constitutes practical exclusion. Models are not mutually exclusive ; **M4+M1 operating in concert has the highest prior probability (~35%)** and is the most consistent with both the gnomAD population data (LoF tolerated → haploinsufficiency alone insufficient for cancer) and the clinical phenotype (systemic non-neoplastic findings → germline-level effects). Both outcomes (variant causal vs. incidental) are scientifically valuable.
 
@@ -379,4 +383,4 @@ As experimental results accumulate, formal Bayesian model comparison should be a
 Recent structural studies provide additional context for mechanistic modeling:
 
 - **Wang et al. (2025):** First visualization of proofreading intermediates of human Pol epsilon ; shows the DNA strand-switching pathway between polymerase and exonuclease active sites. Relevant to understanding why exonuclease domain loss (or absence) has different consequences than exonuclease domain mutation.
-- **Keskitalo et al. (2025):** POLE2 accessory subunit identified as an NPF motif receptor. This interaction is relevant to Model 3 (holoenzyme poisoning) ; if the truncated 54-residue peptide contains NPF-like motifs, competitive inhibition of POLE2 becomes slightly more plausible. Also relevant to understanding holoenzyme assembly and the consequences of POLE catalytic subunit loss.
+- **Keskitalo et al. (2025):** POLE2 accessory subunit identified as an NPF motif receptor. This interaction is relevant to Model 3 (holoenzyme poisoning) ; if the truncated 52-residue peptide contains NPF-like motifs, competitive inhibition of POLE2 becomes slightly more plausible. Also relevant to understanding holoenzyme assembly and the consequences of POLE catalytic subunit loss.

@@ -1,0 +1,41 @@
+old_key	new_key	pmid	doi	change
+palles2022	palles2022	33948826	10.1007/s10689-021-00256-y	fields replaced from the PubMed record: journal, number, doi
+rayner2016	rayner2016	26822575	10.1038/nrc.2015.12	fields replaced from the PubMed record: author, journal, number, pmid
+valle2020	mur2020	32792570	10.1038/s41436-020-0922-2	fields replaced from the PubMed record: author, journal, volume, number, pages, pmid, doi; key renamed because the cited paper's first author is Mur, not Valle
+viana-errasti2025	viana-errasti2025	40680851	10.1016/j.modpat.2025.100843	fields replaced from the PubMed record: author, title, journal, volume, number, pages, pmid, doi
+shinbrot2019	yamaguchi2019	31089268	10.1038/s10038-019-0611-7	fields replaced from the PubMed record: author, journal, volume, number, pages, pmid, doi; key renamed because the cited paper's first author is Yamaguchi, not Shinbrot
+garcia-mulero2019	lorca2019	31285513	10.1038/s41598-019-46403-5	fields replaced from the PubMed record: author, title, journal, volume, number, pages, pmid, doi; key renamed because the cited paper's first author is Lorca, not Garc{\'\i}a-Mulero
+folletet2025	folletet2025	41487566	10.3389/fonc.2025.1727289	fields replaced from the PubMed record: author, title, journal, pmid
+robinson2021	robinson2021	34594041	10.1038/s41588-021-00930-y	fields replaced from the PubMed record: author, journal, volume, number, pages, pmid
+pich2025a	lawson2025	41062696	10.1038/s41586-025-09584-w	fields replaced from the PubMed record: author, number, pmid, doi; key renamed because the cited paper's first author is Lawson, not Pich
+pich2025b	pich2026	41372419	10.1038/s41586-025-09792-4	fields replaced from the PubMed record: author, year, volume, number, pages, pmid, doi; key renamed to carry the real publication year (2026)
+robinson2022	robinson2022	35803914	10.1038/s41467-022-31341-0	fields replaced from the PubMed record: author, title, journal, volume, number, pages, pmid, doi
+garmezy2022	garmezy2022	35108036	10.1200/PO.21.00267	fields replaced from the PubMed record: author, title, journal, volume, pages, pmid, doi
+pietrantonio2024	(removed)			duplicate of ambrosini2024 (same paper; first author is Ambrosini M)
+sawant2025	sawant2025	39786467	10.1158/0008-5472.CAN-24-2589	fields replaced from the PubMed record: author, title, journal, pmid, doi
+deppas2025	(removed)		10.1016/j.ejmech.2024.117863	citation could not be located in PubMed; the DOI resolves to an unrelated paper; entry removed rather than kept with a warning (review of the audit, 2026-11-20)
+marciniak2024	schneider2024	39128273	10.1016/j.neo.2024.101038	fields replaced from the PubMed record: author, title, journal, volume, pages, pmid, doi; key renamed because the cited paper's first author is Schneider, not Marciniak
+smith2024	smith2024	38965423	10.1038/s41416-024-02745-0	fields replaced from the PubMed record: author, title, journal, number, pmid, doi
+yoshida2022	takahashi2022	35618418	10.1101/gr.276617.122	fields replaced from the PubMed record: author, journal, volume, number, pages, pmid, doi; key renamed because the cited paper's first author is Takahashi, not Yoshida
+korona2011	korona2011	21036870	10.1093/nar/gkq1034	fields replaced from the PubMed record: author, journal, volume, number, pages, pmid, doi
+kane2014	kane2014	24525744	10.1158/0008-5472.CAN-13-2892	issue and pages corrected against PubMed summary (2026-11-20 audit)
+barbari2019	park2019	30818169	10.1016/j.dnarep.2019.02.007	fields replaced from the PubMed record: author, journal, pmid; key renamed because the cited paper's first author is Park, not Barbari
+albertson2009	albertson2009	19805137	10.1073/pnas.0907147106	first author given name corrected to Tina M
+lac2022	praetorius2022	35715244	10.1016/j.fertnstert.2022.05.030	fields replaced from the PubMed record: author, journal, volume, number, pages, pmid, doi; key renamed because the cited paper's first author is Praetorius, not Lac
+suda2018	suda2018	30110635	10.1016/j.celrep.2018.07.037	fields replaced from the PubMed record: author, journal, volume, number, pages, pmid, doi
+coclet1989	coclet1989	2627756	10.1111/j.1365-2265.1989.tb01290.x	fields replaced from the PubMed record: author, journal, pages, pmid
+karam2010	karam1999	10077541	10.2741/karam	fields replaced from the PubMed record: author, journal, year, pages, pmid, doi; key renamed to carry the real publication year (1999)
+adavosertib_review2023	do2013	24013427	10.4161/cc.26062	fields replaced from the PubMed record: author, year, volume, number, pages, pmid, doi; key renamed: the entry is Do et al. 2013, not a 2023 review
+coco2019	coco2016	27217964	10.1155/2016/3071873	fields replaced from the PubMed record: author, title, journal, year, volume, pages, pmid, doi; key renamed to carry the real publication year (2016)
+satoh2012	satoh2012	22237992	10.1002/art.34380	fields replaced from the PubMed record: author, title, journal, volume, number, pages, pmid, doi
+nezhat2019	nezhat2019	31427853	10.4293/JSLS.2019.00029	fields replaced from the PubMed record: author, title, journal, volume, number, pmid, doi
+leoni2026	dalise2026	41545594	10.1038/s41591-025-04182-9	fields replaced from the PubMed record: author, journal, number, pmid; key renamed because the cited paper's first author is D'Alise, not Leoni
+wang2025	wang2025	40440070	10.1073/pnas.2507232122	fields replaced from the PubMed record: author, title, journal, pmid
+xing2019	xing2019	30670691	10.1038/s41467-018-08145-2	fields replaced from the PubMed record: author, title, journal, number, pmid
+baranovskiy2022	lisova2022	36261579	10.1038/s41598-022-21550-4	fields replaced from the PubMed record: author, title, journal, number, pmid, doi; key renamed because the cited paper's first author is Lisova, not Baranovskiy
+terbeek2019	terbeek2019	30968138	10.1093/nar/gkz248	fields replaced from the PubMed record: author, title, journal, pmid
+jain2014	jain2014	24144619	10.1016/j.jmb.2013.10.015	fields replaced from the PubMed record: author, title, journal, pages, pmid
+zhangmaquat1997	zhangmaquat1997	9049311	10.1093/emboj/16.4.826	fields replaced from the PubMed record: author, title, journal, volume, pages, pmid, doi
+neuYilik2011	neuYilik2011	21389146	10.1261/rna.2401811	fields replaced from the PubMed record: author, title, journal, volume, number, pages, pmid, doi
+vallverduPrats2022	vallverduPrats2022	35054841	10.3390/ijms23020656	fields replaced from the PubMed record: author, title, journal, number, pages, pmid
+fischbach2024	fischbach2024	38608651	10.1016/j.cell.2024.03.012	fields replaced from the PubMed record: author, number, pages, pmid, doi

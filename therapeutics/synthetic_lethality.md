@@ -20,8 +20,8 @@ POLE-deficient cells operate near a viability threshold for replication stress a
 
 ### ATR-CHK1 Axis
 
-- Deppas JJ et al. (2025) ; ATR inhibitors exploit replication stress in DNA repair-deficient cancers
-- Marciniak B et al. (2024) ; Synthetic lethality between ATR and POLA1 in CRC
+- Deppas JJ et al. (2025) [citation not found in PubMed on 2026-11-20; do not rely on it] ; ATR inhibitors exploit replication stress in DNA repair-deficient cancers
+- Schneider HE et al. (2024) ; Synthetic lethality between ATR and POLA1 in CRC
 - DepMap data suggests POLE-mutant cell lines may show ATR/CHK1 dependency (analysis needed)
 
 ### WRN Helicase

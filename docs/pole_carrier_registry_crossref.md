@@ -116,7 +116,7 @@ For each cohort with POLE truncating variant carriers, assess:
 
 ### Scenario B: Isolated Reports of Non-Neoplastic Findings
 
-**Interpretation:** Even a single additional truncation carrier with a congenital anomaly, autoimmune condition, or connective tissue feature would be significant, given the small total number of characterized truncation carriers (~6 from Valle 2020 + scattered case reports).
+**Interpretation:** Even a single additional truncation carrier with a congenital anomaly, autoimmune condition, or connective tissue feature would be significant, given the small total number of characterized truncation carriers (~6 from Mur 2020 + scattered case reports).
 
 **Action:** Document the finding; assess whether it reaches the affected tissues predicted by Model 4 (haploinsufficiency in high-turnover tissues).
 
@@ -128,15 +128,15 @@ For each cohort with POLE truncating variant carriers, assess:
 
 ---
 
-## Specific Comparator: The 6 LoF Variants from Valle et al. (2020)
+## Specific Comparator: The 6 LoF Variants from Mur et al. (2020)
 
 These are the most important comparators. Key data to obtain:
 
 | Data Point | Source | Priority |
 |------------|--------|----------|
-| Variant details (cDNA, protein, domain) | Valle et al. 2020, Table/Supplement | High |
-| Cancer types in LoF carriers | Valle et al. 2020 | High |
-| Age at cancer diagnosis | Valle et al. 2020 or clinical records | High |
+| Variant details (cDNA, protein, domain) | Mur et al. 2020, Table/Supplement | High |
+| Cancer types in LoF carriers | Mur et al. 2020 | High |
+| Age at cancer diagnosis | Mur et al. 2020 or clinical records | High |
 | Polyp count and distribution | Clinical records | High |
 | TMB (if tumor sequencing performed) | Molecular data | High |
 | Mutational signatures (if WGS performed) | Molecular data | High |
@@ -148,17 +148,21 @@ These are the most important comparators. Key data to obtain:
 
 ---
 
-## The Shinbrot Comparator: POLE c.4191_4192delCT
+## The Yamaguchi Comparator: POLE c.4191_4192delCT
 
-Shinbrot et al. (2019) described a PPAP patient with **POLE c.4191_4192delCT** ; another frameshift variant, though in the C-terminal region (much later in the protein than c.138del). This patient developed an MSI-positive CRC through aberrant DNA methylation (epigenetic MLH1 silencing).
+> **Audit note, 2026-11-20.** The paper is Yamaguchi et al., *J Hum Genet* 2019 (doi:10.1038/s10038-019-0611-7), not Shinbrot. Its claim that a POLE truncation caused polyposis was contested in the same journal by Mur, Palles, Tomlinson and Valle (doi:10.1038/s10038-019-0701-6). Treat it as a disputed single case, not as a comparator.
+
+Yamaguchi et al. (2019) described a PPAP patient with **POLE c.4191_4192delCT** ; another frameshift variant, though in the C-terminal region (much later in the protein than c.138del). This patient developed an MSI-positive CRC through aberrant DNA methylation (epigenetic MLH1 silencing).
 
 **Key question:** Was any non-neoplastic phenotyping documented for this patient? The c.4191_4192delCT variant truncates POLE in the C-terminal regulatory region ; it preserves exonuclease and polymerase domains but loses regulatory/interaction regions. If this carrier has a narrower phenotype than the c.138del carrier, it would support a genotype-phenotype correlation within truncating variants.
 
 ---
 
-## The NTHL1 Double-Carrier: Garcia-Mulero et al. (2019)
+## The NTHL1 Double-Carrier: Lorca et al. (2019)
 
-Garcia-Mulero et al. (2019) reported a POLE frameshift carrier who was also a carrier of NTHL1 variants. This is relevant because:
+> **Audit note, 2026-11-20.** The reference attached to this section is Lorca et al., *Sci Rep* 2019 (doi:10.1038/s41598-019-46403-5). The statement below about a POLE frameshift with NTHL1 was not found in its abstract and remains unverified.
+
+Lorca et al. (2019) reported a POLE frameshift carrier who was also a carrier of NTHL1 variants. This is relevant because:
 - Double-carrier status complicates phenotype attribution
 - The POLE frameshift variant in this case should be compared to c.138del
 - Any clinical description beyond polyposis would be informative

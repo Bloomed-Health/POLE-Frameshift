@@ -92,7 +92,7 @@ def turnover_to_numeric(turnover_days_str):
         "3-5": 4,
         "2-8": 5,
         "~28 (monthly)": 28,
-        "~40 (HSC cycling)": 40,
+        "~280 (once per ~40 weeks)": 280,   # Catlin 2011: HSCs replicate about once every 40 weeks (was wrongly "40 days")
         "Variable (~hormonal)": 60,
         "200-300": 250,
         "~365": 365,

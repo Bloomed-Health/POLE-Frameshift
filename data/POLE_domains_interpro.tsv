@@ -1,0 +1,10 @@
+source_db	accession	name	start	end	notes
+cdd	cd05779	DEDDy 3'-5' exonuclease domain of eukaryotic DNA polymerase epsilon	268	471	Identical to the "narrow exonuclease" range used in POLE_domain_boundaries.tsv (Church 2013); contains the PPAP hotspots P286, N363, V411, L424, S459
+pfam	PF03104	DNA polymerase family B, exonuclease domain	220	426	InterPro IPR006133 has the same span; Pfam's profile starts 48 residues 5' of the CDD domain and ends before L424/S459
+smart	SM00486	DNA polymerase type-B family	267	870	Covers exonuclease and the N-terminal part of the polymerase domain
+cdd	cd05535	POLBc_epsilon (polymerase catalytic domain)	531	1153	Close to the 530-1189 "polymerase core" of POLE_domain_boundaries.tsv (Korona 2011)
+pfam	PF22634	DNA polymerase epsilon catalytic subunit A, thumb domain	975	1152	InterPro IPR055191
+pfam	PF08490	DUF1744 (DNA polymerase epsilon catalytic subunit A, C-terminal)	1546	1925	InterPro IPR013697 1525-1925; SMART SM01159 1525-1925
+pfam	PF23250	Zinc finger domain of DNA polymerase-epsilon (first)	2141	2213	InterPro IPR063197; UniProt Q07864 annotates the CysA-type zinc finger at 2158-2190
+pfam	PF22912	Zinc finger domain of DNA polymerase-epsilon	2215	2271	InterPro IPR054475; UniProt annotates the CysB motif at 2221-2238
+uniprot	Q07864	Disordered region (MobiDB-lite)	1	30	The only UniProt feature in the first 2,000 residues; residues 1-45 kept by c.138del include it

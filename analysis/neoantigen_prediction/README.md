@@ -1,5 +1,7 @@
 # Neoantigen Prediction Pipeline
 
+> **Audit note, 2026-11-20.** No tumour or polyp from this patient has been sequenced. Wherever this file says the patient's lesions are hypermutated (">100 mut/Mb"), that is an assumption carried over from the PPAP literature, confirmed as such by the repository owner. It is not an observation. Polyp histology is also undocumented here. Read this file with the [verification audit](../../docs/VERIFICATION_AUDIT_2026-11-20.md).
+
 ## Overview
 
 Computational prediction of tumor neoantigens from the ultra-hypermutated POLE c.138del tumor to inform immunotherapy strategy and neoantigen vaccination potential.

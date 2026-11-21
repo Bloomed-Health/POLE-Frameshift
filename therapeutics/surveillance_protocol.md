@@ -1,5 +1,7 @@
 # Multi-Organ Surveillance Protocol
 
+> **Audit note, 2026-11-20.** No tumour or polyp from this patient has been sequenced. Wherever this file says the patient's lesions are hypermutated (">100 mut/Mb"), that is an assumption carried over from the PPAP literature, confirmed as such by the repository owner. It is not an observation. Polyp histology is also undocumented here. Read this file with the [verification audit](../docs/VERIFICATION_AUDIT_2026-11-20.md).
+
 ## Rationale
 
 If the PPAP working hypothesis is correct, PPAP confers cancer risk across multiple organ systems. Standard PPAP surveillance protocols are based on classical missense variants; the c.138del frameshift requires **expanded surveillance** given the novel mechanism and the patient's demonstrated phenotype spanning five categories: neoplastic, proliferative/stromal, endometrial, congenital developmental, and autoimmune/immune. The systemic nature of the findings suggests POLE dysfunction may affect tissue biology beyond tumor mutation accumulation, necessitating broader organ coverage than standard polyposis surveillance.

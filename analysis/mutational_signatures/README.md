@@ -1,5 +1,7 @@
 # Mutational Signature Analysis Pipeline
 
+> **Audit note, 2026-11-20.** No tumour or polyp from this patient has been sequenced. Wherever this file says the patient's lesions are hypermutated (">100 mut/Mb"), that is an assumption carried over from the PPAP literature, confirmed as such by the repository owner. It is not an observation. Polyp histology is also undocumented here. Read this file with the [verification audit](../../docs/VERIFICATION_AUDIT_2026-11-20.md).
+
 > **STATUS: Not yet performed.** Mutational signature decomposition is the **single most diagnostic readout available** for this case ; it directly discriminates between POLE-driven hypermutation (SBS10a/b/28) and MMR-deficient phenocopy (SBS6/15/21/26). This analysis should be treated as the **highest-priority immediate experiment**. Until signature decomposition is performed, the assumption that the ultra-hypermutation is POLE-driven remains unverified. Archived tumour specimens (FFPE thyroidectomy, ~2019; hysterectomy, ~2021) are potential input material.
 
 ## Overview
@@ -30,7 +32,7 @@ Output: Signature contribution weights (COSMIC v3.4 SBS, DBS, ID)
 - **SBS10a/b ≥50%:** Canonical POLE mechanism ; favors LOH or reinitiation models
 - **SBS10a/b <10%, MMR signatures dominant:** Non-POLE mechanism ; would require reassessment of the PPAP hypothesis for this case
 - **Novel signature:** Previously undescribed mutational process ; requires further characterization
-- **POLE signature ≥78.5%:** Predicts ICI response (Pietrantonio et al., Annals of Oncology 2024)
+- **POLE signature ≥78.5%:** Predicts ICI response (Ambrosini et al., Annals of Oncology 2024)
 
 ## Additional Tools
 

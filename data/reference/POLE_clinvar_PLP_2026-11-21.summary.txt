@@ -1,0 +1,34 @@
+497 ClinVar POLE records with germline classification Pathogenic or Likely pathogenic
+query: POLE[gene] AND ("clinsig pathogenic"[Properties] OR "clinsig likely pathogenic"[Properties] OR "clinsig pathogenic low penetrance"[Properties])
+
+truncating: 413
+missense: 12
+other/unspecified: 72
+
+condition (OMIM) by consequence class:
+  truncating          388  no OMIM id (not provided)
+  truncating           10  CRCS12 (PPAP)
+  truncating            4  IMAGe-I
+  truncating            3  FILS
+  truncating            3  no OMIM id (POLE-related disorder)
+  truncating            2  no OMIM id (POLE-related disorder | not provided)
+  truncating            1  no OMIM id (not provided | POLE-related disorder)
+  truncating            1  114500
+  truncating            1  FILS, IMAGe-I
+  missense              5  no OMIM id (not provided)
+  missense              1  FILS
+  missense              1  no OMIM id (Myoepithelial tumor)
+  missense              1  CRCS12 (PPAP)
+  missense              1  no OMIM id (Colorectal carcinoma | not provided)
+  missense              1  219721, CRCS12 (PPAP), FILS
+  missense              1  no OMIM id (Hereditary cancer-predisposing syndrome)
+  missense              1  no OMIM id (POLE-related disorder)
+  other/unspecified    48  no OMIM id (not provided)
+  other/unspecified    15  no OMIM id (See cases)
+  other/unspecified     4  CRCS12 (PPAP)
+  other/unspecified     2  no OMIM id (Intellectual disability)
+  other/unspecified     2  IMAGe-I
+  other/unspecified     1  618709
+
+missense inside the exonuclease domain (residues 268-471): 10 of 12
+  E277G, L424V, N363K, P286L, P436R, P436S, S297F, S459F, Y458F, Y458H

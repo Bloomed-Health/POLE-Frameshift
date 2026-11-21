@@ -1,0 +1,24 @@
+name: verify-live
+
+# Weekly comparison of the repository's fixtures and ledger values with the live databases they came from
+# (ClinVar, gnomAD, Ensembl, UniProt, HPO, PubMed). A failure names the ledger row to update.
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Live checks against external sources
+        env:
+          POLE_LIVE: "1"
+        run: |
+          python3 -m pip install --quiet pytest
+          python3 -m pytest -q tests/live

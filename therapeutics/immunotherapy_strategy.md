@@ -1,5 +1,7 @@
 # Immunotherapy Strategy
 
+> **Audit note, 2026-11-20.** No tumour or polyp from this patient has been sequenced. Wherever this file says the patient's lesions are hypermutated (">100 mut/Mb"), that is an assumption carried over from the PPAP literature, confirmed as such by the repository owner. It is not an observation. Polyp histology is also undocumented here. Read this file with the [verification audit](../docs/VERIFICATION_AUDIT_2026-11-20.md).
+
 ## Rationale
 
 The POLE c.138del tumor has a reported TMB >100 mutations/Mb (assay platform and source specimen pending clarification), far exceeding the FDA tissue-agnostic threshold (≥10 mut/Mb) for pembrolizumab if confirmed by WGS. Published data on pathogenic POLE variants shows strong immunotherapy efficacy.
@@ -10,7 +12,7 @@ The POLE c.138del tumor has a reported TMB >100 mutations/Mb (assay platform and
 |-------|-------------|
 | Garmezy et al. (2022) *JCO Precision Oncology* | Pathogenic POLE: 82.4% CBR, 15.1 mo PFS, 29.5 mo OS (n=458). **Caveat:** This data derives from ExoD missense variants; extrapolation to frameshift variants assumes the same mutational mechanism, which is the unresolved question for this case |
 | Ambrosini et al. (2024) *Annals of Oncology* 35:643–655 | POLE/POLD1 pathogenic-domain (pd) mCRC: 89% ORR on ICI (n=27) ; significantly superior to dMMR/MSI-H (54% ORR; P=0.01). Confirms POLE signature as independent predictor of ICI benefit beyond MSI-H |
-| Pietrantonio et al. (2024) *Annals of Oncology* | POLE signature ≥78.5% predicts ICI response; identifies POLE-ultramutated as a distinct ICI-responsive molecular subtype |
+| Ambrosini et al. (2024) *Annals of Oncology* | POLE signature ≥78.5% predicts ICI response; identifies POLE-ultramutated as a distinct ICI-responsive molecular subtype |
 | Sawant et al. (2025) *Cancer Research* | Preventive ICB delays cancer in polymerase mutator mice |
 
 ## Treatment Options
@@ -125,7 +127,7 @@ The patient is post-total thyroidectomy on lifelong levothyroxine. ICI agents ca
 
 ### Impact on Response Prediction
 
-The ICI response prediction framework (POLE signature ≥78.5% predicting response; Pietrantonio et al., 2024) was established in patients without this comorbidity burden. There is genuine uncertainty about whether published response rates translate directly to this patient, because:
+The ICI response prediction framework (POLE signature ≥78.5% predicting response; Ambrosini et al., 2024) was established in patients without this comorbidity burden. There is genuine uncertainty about whether published response rates translate directly to this patient, because:
 
 1. **Dysautonomia modulates immune function** ; the vagus nerve is a major neuroimmune regulatory pathway; POTS patients may have altered baseline immune profiles
 2. **MCAS (if present)** may suppress local immune surveillance, potentially counteracting neoantigen-driven T cell responses

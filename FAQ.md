@@ -2,6 +2,8 @@
 
 This FAQ provides accessible explanations of the POLE c.138del research for a broad audience ; including genetic counselors, clinicians, patient advocates, and individuals with POLE variants.
 
+> **Audit note, 2026-11-20.** No tumour or polyp from this patient has been sequenced. Wherever this file says the patient's lesions are hypermutated (">100 mut/Mb"), that is an assumption carried over from the PPAP literature, confirmed as such by the repository owner. It is not an observation. Polyp histology is also undocumented here. Read this file with the [verification audit](docs/VERIFICATION_AUDIT_2026-11-20.md).
+
 ---
 
 ## What is POLE?
@@ -29,11 +31,11 @@ PPAP is characterized by tumors with an extremely high number of mutations ; cal
 
 ## What is the c.138del variant?
 
-**POLE c.138del (p.Leu46Phefs\*8)** is a specific mutation in the POLE gene. It is a "frameshift deletion" ; a single DNA letter is deleted, which shifts the reading frame and causes the protein to be cut short very early (at approximately residue 53–54 out of 2,286 amino acids ; the exact stop position is pending reconciliation of the HGVS notation with the canonical MANE transcript). This means the protein loses essentially all of its functional parts.
+**POLE c.138del (p.Leu46Phefs\*8)** is a specific mutation in the POLE gene. It is a "frameshift deletion" ; a single DNA letter is deleted, which shifts the reading frame and causes the protein to be cut short very early (at codon 53 out of 2,286 amino acids). This means the protein loses essentially all of its functional parts.
 
-This variant has been **confirmed as a germline (constitutional) variant** through accredited clinical germline testing with orthogonal confirmation from blood/saliva-derived DNA. It is **ultra-rare**: it has never been observed in any major population database (including gnomAD v4.1.0, accessed April 2026, which contains genetic data from hundreds of thousands of individuals).
+This variant has been **confirmed as a germline (constitutional) variant** through accredited clinical germline testing with orthogonal confirmation from blood/saliva-derived DNA. It is **rare but not unique** (corrected 2026-11-20): gnomAD holds it once among 1,461,874 v4.1 exome alleles and once among 31,386 v2.1.1 genome alleles, and ClinVar has carried it since 2018 with conflicting classifications (VCV000548779). An earlier version of this answer said it had never been observed in any population database; that was wrong.
 
-**Classification note:** The clinical laboratory classified this variant as pathogenic. However, an independent assessment of the ACMG evidence (PM2 + PP4) supports classification as a variant of uncertain significance (VUS) under strict point counting. Pathogenicity is treated as a working hypothesis pending functional or segregation data.
+**Classification note:** The clinical laboratory classified this variant as pathogenic. However, an independent assessment of the ACMG evidence (PM2 + PP4 (superseded 2026-11-20: the variant is in gnomAD and the phenotype is not established as PPAP)) supports classification as a variant of uncertain significance (VUS) under strict point counting. Pathogenicity is treated as a working hypothesis pending functional or segregation data.
 
 ---
 
@@ -55,7 +57,7 @@ This breadth raises the question of whether POLE dysfunction is truly systemic, 
 
 This is where it gets interesting. All previously known PPAP-causing mutations are **missense variants** ; they change a single amino acid in the proofreading region of the protein. The protein still works as a DNA copier, but it can no longer proofread. It's like a typist who can still type but can no longer spell-check.
 
-The c.138del variant is fundamentally different. It cuts the protein off so early that there is **no proofreading region AND no DNA copying region**. It's like removing the typist entirely. Under current scientific models, this should not cause PPAP ; yet the patient has a presentation clinically consistent with PPAP, including a reported ultra-hypermutation (>100 mutations per megabase of DNA; full tumour sequencing methodology documentation pending ; the germline report does not address TMB, and WGS-based confirmation with mutational signature analysis is the highest-priority experiment).
+The c.138del variant is fundamentally different. It cuts the protein off so early that there is **no proofreading region AND no DNA copying region**. It's like removing the typist entirely. Under current scientific models, this should not cause PPAP. The patient has polyps and a thyroid cancer, but whether her tumours are hypermutated has **never been measured** (corrected 2026-11-20): no tumour or polyp has been sequenced, and the ">100 mutations per megabase" figure quoted in earlier versions of this FAQ was borrowed from the PPAP literature, not observed. Sequencing one lesion is the highest-priority experiment.
 
 > **Important caveat:** Before attributing the phenotype to POLE-driven pathology, mismatch repair deficiency must be excluded as an alternative explanation. MMR IHC, MSI testing, and MLH1 promoter methylation analysis are pending. Without these, a reviewer cannot distinguish genuine POLE-driven hypermutation from an MMR-deficient phenocopy. The germline panel excludes Lynch syndrome, but somatic MMR inactivation remains possible.
 
@@ -75,7 +77,7 @@ If the research confirms that truncating POLE variants (variants that cut the pr
 
 ## What are the treatment implications?
 
-If the reported ultra-hypermutated phenotype is confirmed by whole-genome sequencing, it creates a **therapeutic opportunity**:
+If a tumour from this patient were found to be hypermutated by whole-genome sequencing (none has been sequenced yet), it would create a **therapeutic opportunity**:
 
 - **Immunotherapy** ; Tumors with very high mutation burdens tend to respond well to immune checkpoint inhibitors (like pembrolizumab). The high number of mutations creates many "neoantigens" ; abnormal proteins that the immune system can recognize and attack.
 - **Targeted therapies** ; Several drugs targeting DNA repair pathways (ATR inhibitors, PARP inhibitors) may be especially effective against cells with impaired POLE function.

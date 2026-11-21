@@ -17,7 +17,7 @@
           "label": "Young adult onset"
         }
       },
-      "description": "Progressive: ~6 adenomas at age 19, accumulating to ~15+ by age 31; stomach, cecum, sigmoid"
+      "description": "~6 polyps at age 19; ~20 removed by age 31, mostly colon, some gastric. Histology reports are not in this repository, so the adenomatous label is provisional; most advanced reported finding high-grade dysplasia (repository owner, 2026-11-20)"
     },
     {
       "type": {
@@ -135,19 +135,6 @@
         }
       },
       "description": "ANA 1:160 with reticular cytoplasmic AC-21 pattern; associated with anti-mitochondrial antibodies"
-    },
-    {
-      "type": {
-        "id": "HP:0002664",
-        "label": "Neoplasm"
-      },
-      "onset": {
-        "ontologyClass": {
-          "id": "HP:0003581",
-          "label": "Adult onset"
-        }
-      },
-      "description": "Reported ultra-hypermutated tumor; TMB >100 mut/Mb (assay platform pending clarification; WGS confirmation pending); no specific HPO term for tumor mutational burden; broadest applicable parent term used"
     },
     {
       "type": {
@@ -293,19 +280,19 @@
   "interpretations": [
     {
       "id": "interpretation.POLE-c138del-001",
-      "progressStatus": "SOLVED",
+      "progressStatus": "IN_PROGRESS",
       "diagnosis": {
         "disease": {
-          "id": "OMIM:612591",
-          "label": "Colorectal cancer, susceptibility to, 12; CCRC12 (Polymerase proofreading-associated polyposis, PPAP)"
+          "id": "OMIM:615083",
+          "label": "Colorectal cancer, susceptibility to, 12 (CRCS12; polymerase proofreading-associated polyposis) - candidate diagnosis under evaluation, not established"
         },
         "genomicInterpretations": [
           {
             "subjectOrBiosampleId": "POLE-c138del-001",
-            "interpretationStatus": "CAUSATIVE",
+            "interpretationStatus": "CANDIDATE",
             "variantInterpretation": {
               "acmgPathogenicityClassification": "PATHOGENIC",
-              "therapeuticActionability": "ACTIONABLE",
+              "therapeuticActionability": "UNKNOWN_ACTIONABILITY",
               "variationDescriptor": {
                 "id": "var.POLE-c138del",
                 "geneContext": {
@@ -341,27 +328,27 @@
                 "extensions": [
                   {
                     "name": "transcript",
-                    "value": "NM_006231.4 (ENST00000320574)"
+                    "value": "NM_006231.4 (ENST00000320574.10; MANE Select)"
                   },
                   {
                     "name": "variant_effect",
-                    "value": "frameshift_variant — premature stop at approximately residue 53-54 of 2,286 amino acids (exact position pending HGVS reconciliation on MANE transcript; clinical HGVS fs*8 implies stop at codon 53), eliminating all major catalytic domains (exonuclease active site at 268-471, polymerase core at ~530-1189); N-terminal region may retain CMG helicase interaction capacity"
+                    "value": "frameshift_variant in exon 2 of 49: codon 46 TTG>TTC, stop at codon 53 (c.158_160), predicted 52-residue product (45 native + FGLVLSG) if the transcript is translated and stable; re-derived 2026-11-20 with analysis/variant_verification/verify_c138del.py"
                   },
                   {
                     "name": "population_frequency",
-                    "value": "Absent from gnomAD v4 (0/1,614,586 alleles), ClinVar, and all population databases"
+                    "value": "rs1555230420: 1 of 1,461,874 gnomAD v4.1 exome alleles and 1 of 31,386 gnomAD v2.1.1 genome alleles (both non-Finnish European; absent from v3.1/v4.1 genomes; gnomAD API, 2026-11-20); ClinVar VCV000548779"
                   },
                   {
                     "name": "constraint_metrics",
-                    "value": "gnomAD pLI ≈ 0 (1.1e-40), LOEUF = 0.76, oe_lof = 0.67 (188 observed / 279 expected LoF); POLE tolerates heterozygous LoF — 188 LoF variants in gnomAD lack apparent PPAP"
+                    "value": "gnomAD v4.1 (ENST00000320574): pLI 1.1e-40, LOEUF 0.76, oe_lof 0.67 (188 observed / 279.2 expected LoF variants); re-verified against the gnomAD API on 2026-11-20 (data/POLE_gnomad_constraints.tsv, ledger D10). 188 counts observed LoF variants, not carriers"
                   },
                   {
                     "name": "acmg_evidence_codes",
-                    "value": "Classified as Pathogenic by clinical laboratory. Independent ACMG evidence: PM2 (absent from population databases), PP4 (phenotype clinically consistent with PPAP). PVS1 not applied — POLE is not LoF-intolerant (gnomAD pLI ≈ 0, LOEUF = 0.76; 188 LoF variants observed), and mechanism does not match canonical PPAP dominant-negative model; variant falls outside Mur et al. (2023) POLE-specific classification framework"
+                    "value": "Laboratory report: PATHOGENIC (heterozygous). ClinVar VCV000548779 is conflicting: Pathogenic (Labcorp Genetics/Invitae; reasoning: loss of function, recessive POLE deficiency), Uncertain significance (Ambry Genetics; Counsyl). acmgPathogenicityClassification records the laboratory's call for the variant; it is not a statement that the variant explains this phenotype"
                   },
                   {
                     "name": "47_gene_panel_result",
-                    "value": "Negative for APC, MUTYH, MLH1/MSH2/MSH6/PMS2, POLD1, BRCA1/2, TP53, PTEN, and all other genes tested (2022)"
+                    "value": "Negative for all other genes tested (2022). Genes: APC ATM AXIN2 BARD1 BMPR1A BRCA1 BRCA2 BRIP1 CDH1 CDK4 CDKN2A(p14ARF) CDKN2A(p16INK4a) CHEK2 CTNNA1 DICER1 EPCAM GREM1 HOXB13 KIT MEN1 MLH1 MSH2 MSH3 MSH6 MUTYH NBN NF1 NTHL1 PALB2 PDGFRA PMS2 POLD1 POLE PTEN RAD50 RAD51C RAD51D SDHA SDHB SDHC SDHD SMAD4 SMARCA4 STK11 TP53 TSC1 TSC2 VHL"
                   }
                 ]
               }
@@ -371,20 +358,7 @@
       }
     }
   ],
-  "diseases": [
-    {
-      "term": {
-        "id": "OMIM:612591",
-        "label": "Colorectal cancer, susceptibility to, 12; CCRC12 (Polymerase proofreading-associated polyposis, PPAP)"
-      },
-      "onset": {
-        "ontologyClass": {
-          "id": "HP:0011462",
-          "label": "Young adult onset"
-        }
-      }
-    }
-  ],
+  "diseases": [],
   "metaData": {
     "created": "2026-04-15T00:00:00Z",
     "createdBy": "POLE-Frameshift-Research-Framework",
@@ -432,6 +406,13 @@
       {
         "id": "PMID:34163071",
         "description": "Robinson et al. (2021) Nature Genetics — NanoSeq demonstrates germline POLE mutations elevate SBS10a/b in normal cells"
+      }
+    ],
+    "updates": [
+      {
+        "timestamp": "2026-11-20T00:00:00Z",
+        "updatedBy": "verification audit",
+        "comment": "Interpretation downgraded from SOLVED/CAUSATIVE/ACTIONABLE to IN_PROGRESS/CANDIDATE/UNKNOWN_ACTIONABILITY; disease identifier corrected to OMIM:615083 and removed from 'diseases' because PPAP is not an established diagnosis; unmeasured tumour-mutational-burden feature removed; population and ClinVar statements corrected. See docs/VERIFICATION_AUDIT_2026-11-20.md"
       }
     ]
   }

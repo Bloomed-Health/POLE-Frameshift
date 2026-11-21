@@ -58,3 +58,19 @@ private/
 # Local working notes and assistant instructions (kept out of the public repository)
 todo.md
 CLAUDE.md
+
+# Patient sequence data and reports never belong in this repository
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.vcf
+*.vcf.gz
+*.g.vcf.gz
+private/
+
+# Local working notes and assistant instructions (kept out of the public repository)
+todo.md
+CLAUDE.md

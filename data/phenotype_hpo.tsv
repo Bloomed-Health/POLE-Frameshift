@@ -15,6 +15,3 @@ Retroperitoneal fibrosis with ureteral encasement	Retroperitoneal fibrosis	HP:00
 Appendiceal endometriosis	Endometriosis	HP:0030127	Endometrial/Hormonal	Adult	Histology-confirmed; uses parent term (no appendiceal-specific HPO)
 Posterior cul-de-sac implants	Endometriosis	HP:0030127	Endometrial/Hormonal	Adult	Uses parent term; specific site designation not available in HPO
 Dysplastic nevus	Atypical nevus	HP:0001062	Proliferative/Stromal	Adult	Non-malignant; dysplastic melanocytic nevus; HPO uses "Atypical nevus" with "Dysplastic nevus" as synonym; another tissue type showing proliferative dysregulation in context of POLE haploinsufficiency
-Joint hypermobility / hEDS features	Joint hypermobility	HP:0001382	Comorbidity	Childhood	Comorbidity triad (hEDS/POTS/gastroparesis); present in the phenopacket and phenotype_timeline.tsv; added to this table 2026-11-21 so the two phenotype files list the same findings (ledger N03, N06)
-POTS	Orthostatic tachycardia	HP:0012173	Comorbidity	Age ~26	Comorbidity triad; HPO has no POTS-specific term, orthostatic tachycardia is its defining feature; added 2026-11-21 (ledger N03, N06)
-Gastroparesis	Gastroparesis	HP:0002578	Comorbidity	Adult	Comorbidity triad; added 2026-11-21 (ledger N03, N06)

@@ -29,7 +29,7 @@ sys.path.insert(0, os.path.join(ROOT, "analysis", "variant_verification"))
 import nterm_truncations as nt  # noqa: E402
 import verify_c138del as v  # noqa: E402
 
-OUT = os.environ.get("POLE_FIGURES_OUT") or os.path.join(ROOT, "figures")   # tests regenerate into a temporary directory
+OUT = os.path.join(ROOT, "figures")
 SURFACE, INK, INK2, MUTED, GRID, NEUTRAL = "#fcfcfb", "#0b0b0b", "#52514e", "#8b8a84", "#e4e3df", "#f0efec"
 BLUE, ORANGE, AQUA, STOP, GREY = "#2a78d6", "#eb6834", "#1baf7a", "#d03b3b", "#b9b8b2"
 

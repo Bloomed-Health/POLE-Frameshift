@@ -29,7 +29,7 @@ sys.path.insert(0, os.path.join(ROOT, "analysis", "variant_verification"))
 import nterm_truncations as nt  # noqa: E402
 import verify_c138del as v  # noqa: E402
 
-OUT = os.path.join(ROOT, "figures")
+OUT = os.environ.get("POLE_FIGURES_OUT") or os.path.join(ROOT, "figures")   # tests regenerate into a temporary directory
 SURFACE, INK, INK2, MUTED, GRID, NEUTRAL = "#fcfcfb", "#0b0b0b", "#52514e", "#8b8a84", "#e4e3df", "#f0efec"
 BLUE, ORANGE, AQUA, STOP, GREY = "#2a78d6", "#eb6834", "#1baf7a", "#d03b3b", "#b9b8b2"
 
@@ -300,33 +300,28 @@ def fig_ledger() -> None:
 def fig_timeline() -> None:
     with open(os.path.join(ROOT, "data", "phenotype_timeline.tsv"), encoding="utf-8") as fh:
         rows = list(csv.DictReader(fh, delimiter="\t"))
-    dated, undated = [], []
-    for r in rows:
-        m = re.fullmatch(r"~?(\d+(?:\.\d+)?)", r["age_at_diagnosis"].strip())
-        (dated if m else undated).append((float(m.group(1)) if m else None, r))
-    dated.sort(key=lambda t: t[0])
-    fig, ax = plt.subplots(figsize=(10, 0.46 * len(dated) + 2.3))
-    for i, (age, r) in enumerate(dated):
-        y = len(dated) - 1 - i
+    # Render findings as a category list (ages removed for de-identification)
+    findings = [r for r in rows if r["finding"].strip()]
+    fig, ax = plt.subplots(figsize=(10, 0.46 * len(findings) + 2.3))
+    for i, r in enumerate(findings):
+        y = len(findings) - 1 - i
         neo = bool(re.search(r"polyp|carcinoma|adenoma|tumou?r", r["finding"], re.I))
-        ax.plot([age], [y], marker="o", ms=9, color=BLUE if neo else GREY, mec=SURFACE, mew=1.6, zorder=3)
+        ax.plot([0.5], [y], marker="o", ms=9, color=BLUE if neo else GREY, mec=SURFACE, mew=1.6, zorder=3)
         name = re.sub(r"\s*\(s/p total thyroidectomy\)", "", r["finding"]).replace("(first adenomas)", "(first polyps)")
-        ax.text(age + 0.7, y, f"{name}  ·  age {age:g}", va="center", ha="left", fontsize=9.3, color=INK)
-    ax.set_xlim(17, 46)
-    ax.set_ylim(-0.8, len(dated) - 0.3)
+        cat = r.get("phenotype_category", "")
+        ax.text(0.7, y, f"{name}  [{cat}]", va="center", ha="left", fontsize=9.3, color=INK)
+    ax.set_xlim(0, 10)
+    ax.set_ylim(-0.8, len(findings) - 0.3)
     ax.set_yticks([])
-    ax.set_xticks([20, 25, 30])
-    ax.set_xlabel("age at diagnosis (years)")
-    ax.grid(axis="x", color=GRID, lw=0.8, zorder=0)
-    for s in ("left", "right", "top"):
+    ax.set_xticks([])
+    ax.set_xlabel("")
+    for s in ("left", "right", "top", "bottom"):
         ax.spines[s].set_visible(False)
-    names = "; ".join(r["finding"].split(" (")[0] for _, r in undated)
-    fig.text(0.01, -0.02, "Age at diagnosis not recorded: " + names, ha="left", va="top", fontsize=8.6, color=INK2, wrap=True)
     handles = [plt.Line2D([], [], color=BLUE, marker="o", ms=9, lw=0, label="polyps and tumours"),
                plt.Line2D([], [], color=GREY, marker="o", ms=9, lw=0, label="other findings")]
     ax.legend(handles=handles, loc="upper right", frameon=False, fontsize=9)
     fig.subplots_adjust(top=0.8)
-    titled(fig, "Clinical timeline of the one described carrier",
+    titled(fig, "Clinical findings of the one described carrier",
            "From data/phenotype_timeline.tsv. Descriptive only: polyp histology is undocumented and no lesion has been sequenced.")
     finish(fig, "clinical_timeline")
 

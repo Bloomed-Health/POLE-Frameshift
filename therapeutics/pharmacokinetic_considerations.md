@@ -1,5 +1,7 @@
 # Pharmacokinetic Considerations: Drug-Comorbidity Interaction Map
 
+> **Audit note, 2026-11-20.** No tumour or polyp from this patient has been sequenced. Wherever this file says the patient's lesions are hypermutated (">100 mut/Mb"), that is an assumption carried over from the PPAP literature, confirmed as such by the repository owner. It is not an observation. Polyp histology is also undocumented here. Read this file with the [verification audit](../docs/VERIFICATION_AUDIT_2026-11-20.md).
+
 ## Context
 
 The patient's **hEDS/POTS/gastroparesis** triad creates pharmacokinetic and pharmacodynamic challenges that are not addressed in standard oncology dosing protocols. This document maps each candidate therapeutic agent to its route of administration, known autonomic/GI side effects, absorption requirements, and specific interactions with the patient's comorbidities.
@@ -185,7 +187,7 @@ Integrating efficacy data with pharmacokinetic feasibility:
 |----------|-------|-------|-----------|
 | **1** | Pembrolizumab | IV | Strongest efficacy evidence for POLE-mutant tumors; IV route bypasses gastroparesis; enhanced monitoring protocol for irAE detection |
 | **2** | Berzosertib (if ATR inhibition needed) | IV | Only IV ATR inhibitor; avoids oral absorption problems |
-| **3** | Neoantigen vaccine (mRNA-4157/V940) | IM/IV | Injectable route; leverages extreme neoantigen load |
+| **3** | Neoantigen vaccine (mRNA-4157/V940) | IM | Injectable route; leverages extreme neoantigen load |
 | **4** | ctDNA-guided surveillance | Blood draw | Non-therapeutic but critical for monitoring; no PK concerns |
 | Avoid unless necessary | Ceralasertib, elimusertib, olaparib | Oral | Unreliable absorption; autonomic side effects compound POTS |
 | Avoid | Dual oral combinations | Oral + Oral | Compounded absorption uncertainty; excessive toxicity risk |

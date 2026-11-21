@@ -22,6 +22,7 @@ POLE c.138del is a passenger variant that does not causally contribute to the pa
 | 0d | **No segregation data** | Parental testing is unavailable; it is unknown whether the variant is de novo or inherited, and no affected relatives have been tested |
 | 0e | **hEDS explains some features** | hEDS independently causes severe endometriosis, GI dysmotility, gastroparesis, and some vascular findings; these features do not require a POLE-mediated explanation |
 | 0f | **TMB unverified** | The reported TMB >100 mut/Mb lacks full methodology documentation; mutational signatures (SBS10a/b) have not been confirmed |
+| 0g | **Joo et al. (2025): LoF POLE variants not associated with PPAP** | Joo et al. (2025) found that loss-of-function POLE variants are not associated with polymerase proofreading-associated polyposis, directly strengthening the null hypothesis that heterozygous POLE truncation is insufficient for PPAP. This is consistent with gnomAD tolerance data (188 observed LoF, pLI ≈ 0) and with Mur et al. (2020) |
 
 ### Falsifiable Predictions
 
@@ -36,7 +37,7 @@ POLE c.138del is a passenger variant that does not causally contribute to the pa
 
 Model 0 is **excluded** if: (1) tumor mutational signatures show SBS10a/b/28 (directly implicating POLE mechanism), OR (2) NanoSeq on normal cells shows elevated mutation rates with POLE-characteristic trinucleotide context, OR (3) LOH at the POLE locus is demonstrated in tumor tissue AND mutational signatures are POLE-characteristic, OR (4) clinical WGS identifies no alternative driver AND functional assays demonstrate altered POLE activity in patient-derived cells.
 
-Model 0 is **strengthened** if: clinical WGS identifies a pathogenic variant in an untested gene that explains the phenotype, OR tumor signatures are non-POLE (MMR-deficient or other), OR somatic mutation rates are normal in patient cells.
+Model 0 is **strengthened** if: clinical WGS identifies a pathogenic variant in an untested gene that explains the phenotype, OR tumor signatures are non-POLE (MMR-deficient or other), OR somatic mutation rates are normal in patient cells. **Note (2026-11-21):** Model 0 is further strengthened by Joo et al. (2025), who found that LoF POLE variants are not associated with PPAP in a case-control analysis, consistent with the gnomAD LoF tolerance data and Mur et al. (2020).
 
 ### Relationship to Other Models
 
@@ -94,7 +95,7 @@ Ribosomes encountering the premature stop codon at codon 53 reinitiate translati
 
 Model 2 as first written is **not supported**. The methionine list it relied on was computed from a sequence that is not POLE: residues 89, 128 and 185 of the real protein are not methionine, and positions beyond residue 240 were not re-checked. On the real mRNA the first AUG after the premature stop is **Met66 (c.196)**, 35 nt downstream and in the POLE reading frame. A product starting there would lack residues 1–65 and keep the entire exonuclease and polymerase domains, so re-initiation cannot produce a proofreading-deficient polymerase. Whether re-initiation happens at all is open and testable (see `docs/VERIFICATION_AUDIT_2026-11-20.md`).
 
-**Kozak scoring method:** Kozak context strength for downstream methionines (catalogued in `data/POLE_downstream_methionines.tsv`) was assessed using the consensus rules of Kozak (1986, 1987): **Strong** = purine at −3 (A/G) AND G at +4; **Moderate** = purine at −3 OR G at +4 (but not both); **Weak** = pyrimidine at −3 AND non-G at +4. The −3 and +4 positions are the primary determinants of translation initiation efficiency in mammalian systems. Full 7-nt Kozak contexts (−3 to +4, centered on AUG) are provided in the data file.
+**Kozak scoring method:** Kozak context strength for downstream methionines (catalogued in `data/POLE_downstream_methionines.tsv`) was assessed using the three-level consensus rules of Kozak (1987) (PMID 3313277; *Nucleic Acids Res* 15:8125–8148, open-access PMC306349): **Strong** = purine at −3 (A/G) AND G at +4; **Moderate** = purine at −3 OR G at +4 (but not both); **Weak** = pyrimidine at −3 AND non-G at +4. The −3 and +4 positions are the primary determinants of translation initiation efficiency in mammalian systems. Full 7-nt Kozak contexts (−3 to +4, centered on AUG) are provided in the data file.
 
 ### Exclusion Criteria
 
@@ -166,7 +167,7 @@ The patient's phenotype provides the strongest clinical support for this model a
 - **Congenital duplicated IVC:** A developmental anomaly present from embryogenesis cannot be caused by somatic LOH. Robinson et al. (2021) demonstrated germline POLE mutations affect mutation rates during early embryogenesis. This suggests POLE haploinsufficiency has **developmental consequences** ; either through elevated embryonic mutation rates creating somatic mosaicism that disrupts vascular patterning, or through non-replicative POLE roles in developmental signaling. **Base rate context:** Duplicated IVC occurs in 0.6–2.6% of the general population (Coco et al., 2019; Bass et al., 2000), so its presence in a single POLE carrier could be coincidental. However, the co-occurrence with multiple other vascular/stromal proliferative findings (bilateral PASH, liver FNH/hemangioma, splenoportal AV shunt) creates a pattern that is collectively more significant than any single finding.
 - **Severe endometriosis + adenomyosis:** The endometrium is a rapidly cycling tissue with high cell turnover ; exactly where replicative stress from half-dose POLE would be most consequential. The aggressive endometrial phenotype (Stage IV+ with diaphragmatic extension) without formal malignant transformation suggests POLE dysfunction alters endometrial biology at a **pre-malignant level**. Novel research question: does POLE haploinsufficiency contribute to endometriosis severity?
 - **Multi-system vascular/stromal proliferation:** Bilateral PASH, liver FNH/hemangioma, and duplicated IVC collectively indicate a pattern of vascular-stromal proliferative abnormalities that cannot be explained by somatic events in individual organs ; consistent with a germline dosage effect.
-- **Tissue-specific cancer spectrum:** Polyposis in high-turnover GI epithelium + thyroid cancer (high mitotic rate gland) aligns with the threshold model where rapidly dividing tissues are preferentially affected.
+- **Tissue-specific cancer spectrum:** Polyposis in high-turnover GI epithelium + thyroid cancer aligns with a tissue-specific threshold model, though thyroid follicular epithelium has very slow turnover (~8.5 years; Coclet et al., 1989), so its involvement may reflect a mechanism other than replicative stress (e.g., iodine-metabolism-related oxidative stress or isoform-specific POLE expression).
 
 ### Exclusion Criteria
 
@@ -251,7 +252,7 @@ The earlier statement that position 46 is Glu came from `data/POLE_coding_sequen
 
 ### Prior Probability Assessment
 
-Model 7 was assigned a **low–moderate prior probability** when written because it was cheap to exclude and foundational for all other models. It was tested on 2026-11-20 and is **closed**: the HGVS name is exact on MANE Select, the stop is codon 53, and the only part still open is a splice prediction (prediction 7c; position argues against a splice effect). The transcript-fate question (decay versus re-initiation at Met66) now belongs to Model 2.
+Model 7 was assigned a **low–moderate prior probability** when written because it was cheap to exclude and foundational for all other models. It was tested on 2026-11-20 and is **closed**: the HGVS name is exact on MANE Select, the stop is codon 53, and SpliceAI (Ensembl VEP plugin, precomputed scores, queried 2026-11-21) gives all four delta scores of 0 for ENST00000320574, so no splice effect is predicted (prediction 7c; ledger V13). The transcript-fate question (decay versus re-initiation at Met66) now belongs to Model 2.
 
 ### Falsifiable Predictions
 
@@ -273,24 +274,24 @@ The resolution of specific ages-at-diagnosis provides a powerful new discriminat
 
 ### Observed Temporal Sequence (Non-Congenital Findings)
 
-| Age | Diagnosis | Tissue Turnover (days) | Citation |
-|-----|-----------|----------------------|----------|
-| ~19 | Colonic adenomas (~6 at first colonoscopy) | 3–5 (very rapid) | Barker et al., 2014; Clevers, 2013 |
-| ~19 | Chronic gastric gastritis | 2–8 (rapid) | Karam, 2010 |
-| ~22 | Endometriosis clinically significant | ~28/monthly (rapid) | Gargett et al., 2016 |
-| ~26 | POTS | N/A (neural) | ; |
-| ~27 | Stage IV endometriosis diagnosed | ~28/monthly (rapid) | Gargett et al., 2016 |
-| ~27 | Benign breast tumor (PASH) | Variable/hormonal (~60) | Estimated; varies by hormonal status |
-| ~28 | Thyroid carcinoma (1.2 cm, isthmus, encapsulated, non-invasive) | ~2,920 (~8 years; slow) | Coclet et al., 1989; Dumont et al., 1992 |
-| ~28 | Adenomyosis (severe → hysterectomy) | ~28/monthly (rapid) | Gargett et al., 2016 |
+| Order | Diagnosis | Tissue Turnover (days) | Citation |
+|-------|-----------|----------------------|----------|
+| First | Colonic adenomas (~6 at first colonoscopy) | 3–5 (very rapid) | Barker et al., 2014; Clevers, 2013 |
+| First | Chronic gastric gastritis | 2–8 (rapid) | Karam, 2010 |
+| Early | Endometriosis clinically significant | ~28/monthly (rapid) | Gargett et al., 2016 |
+| Mid | POTS | N/A (neural) | ; |
+| Mid | Stage IV endometriosis diagnosed | ~28/monthly (rapid) | Gargett et al., 2016 |
+| Mid | Benign breast tumor (PASH) | Variable/hormonal (~60) | Estimated; varies by hormonal status |
+| Late | Thyroid carcinoma (1.2 cm, isthmus, encapsulated, non-invasive) | ~3,100–5,260 (~8.5–14.4 years; very slow) | Coclet et al., 1989 |
+| Late | Adenomyosis (severe → hysterectomy) | ~28/monthly (rapid) | Gargett et al., 2016 |
 
-**Note on turnover estimates:** These are approximate values reflecting stem/progenitor cell division rates in each tissue under homeostatic conditions. Colonic crypt stem cells divide approximately every 24h with total crypt replacement in 3–5 days (Barker et al., 2014). Thyroid follicular cell turnover is extremely slow, estimated at ~5–8 years in adults (Coclet et al., 1989). Endometrial regeneration occurs monthly under hormonal cycling. These estimates conflate different metrics (stem cell division rate vs. total tissue replacement time) and should be interpreted as order-of-magnitude comparisons rather than precise rates.
+**Note on turnover estimates:** These are approximate values reflecting stem/progenitor cell division rates in each tissue under homeostatic conditions. Colonic crypt stem cells divide approximately every 24h with total crypt replacement in 3–5 days (Barker et al., 2014). Thyroid follicular cell turnover is extremely slow, estimated at ~8.5–14.4 years in adults (Coclet et al., 1989). Endometrial regeneration occurs monthly under hormonal cycling. These estimates conflate different metrics (stem cell division rate vs. total tissue replacement time) and should be interpreted as order-of-magnitude comparisons rather than precise rates.
 
 ### Correlation Analysis
 
-Plotting tissue turnover period (log scale) against age-at-diagnosis reveals a positive correlation: **tissues with faster cell division are diagnosed at younger ages**. The colonic epithelium (3–5 day turnover) produced detectable adenomas by age 19; the thyroid epithelium (~8-year turnover) produced carcinoma by age 28 ; a 9-year latency difference that directly tracks the ~730-fold difference in cell division rate.
+Plotting tissue turnover period (log scale) against diagnosis order reveals a positive correlation: **tissues with faster cell division are diagnosed earlier**. The colonic epithelium (3-5 day turnover) produced the earliest detectable adenomas; the thyroid epithelium (~8.5-year turnover; Coclet et al., 1989) produced carcinoma years later, a latency difference that tracks the ~620–1,050-fold difference in cell division rate.
 
-**Statistical limitations:** This analysis has n=7 non-congenital tissue-diagnosis pairs from a single patient. With this sample size, the correlation coefficient should be interpreted as hypothesis-generating, not confirmatory. Key confounders include: (1) surveillance bias ; polyps are found at colonoscopy, which was initiated at age 19 due to symptoms, while thyroid carcinoma was found incidentally; (2) age-dependent penetrance ; some conditions (endometriosis, PASH) have age-of-onset distributions independent of POLE; (3) data point dependency ; multiple GI diagnoses share the same tissue compartment. The positive correlation is consistent with Model 4 but is not by itself sufficient to confirm it.
+**Statistical limitations:** This analysis has n=7 non-congenital tissue-diagnosis pairs from a single patient. With this sample size, the correlation coefficient should be interpreted as hypothesis-generating, not confirmatory. Key confounders include: (1) surveillance bias -- polyps are found at colonoscopy, which was initiated due to symptoms, while thyroid carcinoma was found incidentally; (2) penetrance patterns -- some conditions (endometriosis, PASH) have onset distributions independent of POLE; (3) data point dependency -- multiple GI diagnoses share the same tissue compartment. The positive correlation is consistent with Model 4 but is not by itself sufficient to confirm it.
 
 See `analysis/temporal_phenotype/turnover_vs_age_diagnosis.svg` for the visualization.
 
@@ -319,7 +320,7 @@ Because tumor tissue is currently unavailable for signature analysis, the **near
 
 ### Progressive Polyp Accumulation
 
-The pattern of ~6 adenomas at age 19 with continued new polyp formation at every colonoscopic surveillance interval (ages 21, 24, 27, 29, ~31) indicates **ongoing mutagenesis** over >12 years. This progressive accumulation is:
+The pattern of ~6 adenomas at first colonoscopy with continued new polyp formation at every subsequent surveillance interval indicates **ongoing mutagenesis** over >12 years. This progressive accumulation is:
 - **Consistent with M4:** Constitutive haploinsufficiency produces a continuous elevated mutation rate in colonic stem cells, with new adenomas arising at each surveillance interval as additional stem cells accumulate sufficient driver mutations.
 - **Consistent with M2:** If reinitiation produces a constitutive error-prone polymerase, mutation accumulation would also be continuous.
 - **Less consistent with M1 as sole mechanism:** A single LOH event in one colonic stem cell would produce a clonal expansion, not geographically distributed new polyps at each interval. Multiple independent LOH events would be required ; possible but requiring extraordinary coincidence.
@@ -335,7 +336,7 @@ The patient's multi-system phenotype provides immediate discriminatory evidence 
 | **Duplicated IVC (congenital)** | Neutral (0.6-2.6% base rate) | ❌ Cannot explain (LOH is somatic) | Neutral | Neutral | ✅ Supports (germline developmental effect) | Neutral | ❌ Cannot explain (somatic event) |
 | **Stage IV+ endometriosis** | Possible (hEDS explains) | Neutral | Neutral | Neutral | ✅ Supports (high-turnover tissue threshold) | Possible (isoform-specific endometrial effect) | Neutral |
 | **Bilateral PASH + liver FNH** | Possible (common findings) | ❌ Unlikely (multi-organ, non-neoplastic) | Neutral | Neutral | ✅ Supports (systemic stromal/vascular proliferation) | Neutral | ❌ Unlikely (multi-organ) |
-| **Thyroid carcinoma** | Possible (sporadic PTC) | Possible (organ-specific LOH) | Possible | Neutral | ✅ Supports (high mitotic rate gland) | Possible | Possible (organ-specific second hit) |
+| **Thyroid carcinoma** | Possible (sporadic PTC) | Possible (organ-specific LOH) | Possible | Neutral | Neutral (thyroid turnover is very slow, ~8.5 yr; Coclet 1989) | Possible | Possible (organ-specific second hit) |
 | **GI polyposis** | Weakens (progressive; hard to explain without genetic driver) | Possible | Possible | Possible | ✅ Supports (high-turnover epithelium) | Possible | Possible |
 
 **Summary:** The congenital duplicated IVC is the single most important clinical discriminator ; it cannot be explained by any somatic mechanism (Models 1–3) and provides direct evidence for a germline-level effect (Model 4). The multi-system non-neoplastic findings (PASH, FNH, severe endometriosis) collectively argue against Model 1 operating alone, as LOH in each organ independently would be an extraordinary coincidence. The clinical phenotype most strongly supports Model 4, potentially in combination with Model 1 for tumor-specific ultra-hypermutation.
@@ -366,7 +367,7 @@ This matrix shows which experiments most efficiently discriminate between models
 As experimental results accumulate, formal Bayesian model comparison should be applied. For each experiment, the likelihood ratio for each model pair should be estimated:
 
 **Prior odds** (based on current clinical, structural, and population-genetic evidence):
-- M0 (Null hypothesis): ~10% ; must be formally considered given absence of functional data, no segregation data, limited panel, and hEDS explaining some features. (The "absence from all population databases" formerly cited against M0 was wrong: the variant is in gnomAD and ClinVar. On the evidence reviewed on 2026-11-20 M0 is the leading explanation; see the audit note at the top of this file.)
+- M0 (Null hypothesis): ~10% as originally assigned pre-audit; **this prior is stale and substantially underestimates M0.** On the evidence reviewed on 2026-11-20 M0 is the leading explanation (see the audit note at the top of this file): the "absence from all population databases" formerly cited against M0 was wrong (the variant is in gnomAD and ClinVar), no tumour has been sequenced, and Joo et al. (2025) found LoF POLE variants are not associated with PPAP. A re-estimated prior would place M0 well above the other individual models. These priors were assigned before the audit and have not been formally re-estimated; on present post-audit evidence M0 would receive a substantially higher prior (estimated ≥40%).
 - M4 (Haploinsufficiency): ~30% ; strongest clinical support; congenital + multi-system phenotype. Revised down slightly from previous assessment: gnomAD LoF tolerance data (188 LoF variants, pLI ≈ 0) argues against haploinsufficiency alone producing the full cancer phenotype, but supports it for the systemic non-neoplastic findings
 - M1 (LOH): ~25% ; gnomAD data and Andrianova et al. (2024) recessive polymerase proofreading model strongly support LOH as required for tumor-specific ultra-hypermutation
 - M6 (Second-site): ~18% ; mechanistically straightforward; normal mutagenesis of single functional allele can acquire ExoD hotspot

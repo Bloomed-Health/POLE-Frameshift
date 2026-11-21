@@ -31,10 +31,10 @@ The presentation spans five distinct categories ; neoplastic, proliferative/stro
 
 | Finding | Details | PPAP Relevance |
 |---------|---------|----------------|
-| **Gastrointestinal polyposis** | Progressive adenomatous polyposis: ~6 adenomas at first colonoscopy (age 19), with continued polyp development at subsequent surveillance (ages 21, 24, 27, 29, ~31) accumulating to ~15+ sessile adenomatous polyps across stomach, cecum, and sigmoid colon | Consistent with attenuated polyposis in PPAP (Palles et al. 2022: most patients present with 10–100 polyps; gastric involvement characteristic of POLE heterozygotes). Progressive accumulation pattern consistent with ongoing mutagenesis rather than a single-hit event |
+| **Gastrointestinal polyposis** | Progressive adenomatous polyposis: ~6 adenomas at first colonoscopy, with continued polyp development at subsequent surveillance intervals accumulating to ~20 sessile adenomatous polyps across stomach, cecum, and sigmoid colon over >12 years of follow-up | Consistent with attenuated polyposis in PPAP (Palles et al. 2022: most patients present with 10–100 polyps; gastric involvement characteristic of POLE heterozygotes). Progressive accumulation pattern consistent with ongoing mutagenesis rather than a single-hit event |
 | **Rectal mucosal changes** | Erythematous, edematous, friable mucosa | Suggests diffuse inflammatory/proliferative process beyond discrete polyps |
 | **Chronic gastric gastritis** | Diffuse gastric inflammation | Part of broader GI field effect |
-| **Stage I papillary thyroid carcinoma** | 1.2 cm, isthmus. Encapsulated, non-invasive. Cystic variant with extensive squamous metaplasia. Papillary architecture with fibrovascular cores and fibroblastic response. Rare intranuclear inclusions ("orphan Annie eye" nuclei) with nuclear grooves. Hemosiderin-laden macrophages with giant cell reaction (prior procedure-related changes). Associated adenomatoid nodular hyperplasia. Pathologist noted features overlap with benign follicular lesions, but squamous metaplastic change intimately associated with cystic papillary thyroid carcinomas. AJCC 8th ed Stage I (T1bN0M0; patient <55 years). **Treated with total thyroidectomy.** Patient requires lifelong levothyroxine replacement. Thyroidectomy specimen available for POLE mutational signature analysis | **Not part of established PPAP tumor spectrum.** If confirmed to carry POLE signatures (SBS10a/b) or LOH at POLE locus, would expand the recognized PPAP tumor spectrum. Extensive squamous metaplasia may reflect aberrant differentiation from genomic instability. Encapsulated/non-invasive phenotype is notable ; POLE-driven mutagenesis may have initiated carcinoma while the microenvironment contained invasion |
+| **Stage I papillary thyroid carcinoma** | 1.2 cm, isthmus. Encapsulated, non-invasive. Cystic variant with extensive squamous metaplasia. Papillary architecture with fibrovascular cores and fibroblastic response. Rare intranuclear inclusions ("orphan Annie eye" nuclei) with nuclear grooves. Hemosiderin-laden macrophages with giant cell reaction (prior procedure-related changes). Associated adenomatoid nodular hyperplasia. Pathologist noted features overlap with benign follicular lesions, but squamous metaplastic change intimately associated with cystic papillary thyroid carcinomas. AJCC 8th ed Stage I (T1bN0M0). **Treated with total thyroidectomy.** Patient requires lifelong levothyroxine replacement. Thyroidectomy specimen available for POLE mutational signature analysis | **Not part of established PPAP tumor spectrum.** If confirmed to carry POLE signatures (SBS10a/b) or LOH at POLE locus, would expand the recognized PPAP tumor spectrum. Extensive squamous metaplasia may reflect aberrant differentiation from genomic instability. Encapsulated/non-invasive phenotype is notable ; POLE-driven mutagenesis may have initiated carcinoma while the microenvironment contained invasion |
 
 > **Note on thyroid cancer:** Classical PPAP-associated malignancies are colorectal, endometrial, duodenal, and (less frequently) brain tumors. Thyroid cancer has not been systematically reported in PPAP carriers. Determining whether the thyroidectomy specimen carries POLE mutational signatures is a high-priority analysis ; archived tissue from the total thyroidectomy should be available for sequencing.
 
@@ -169,39 +169,39 @@ To fully characterize how comorbidities interact with POLE-driven pathology, the
 
 ### Chronological Diagnosis Timeline
 
-The temporal sequence of diagnoses, now resolved to specific ages, reveals a pattern with significant mechanistic implications:
+The temporal sequence of diagnoses reveals a pattern with significant mechanistic implications:
 
-| Age | Diagnosis | Affected Tissue Cell Turnover | Phenotype Category |
-|-----|-----------|------------------------------|--------------------|
-| **0 (congenital)** | Duplicated inferior vena cava | Slow (~years in adult) ; but active during embryonic angiogenesis | Congenital Developmental |
+| Period | Diagnosis | Affected Tissue Cell Turnover | Phenotype Category |
+|--------|-----------|------------------------------|--------------------|
+| **Congenital** | Duplicated inferior vena cava | Slow (~years in adult) ; but active during embryonic angiogenesis | Congenital Developmental |
 | **Childhood** | Joint hypermobility / hEDS features | Slow (~months-years) | Comorbidity |
 | **Adolescence** | Dysmenorrhea / early endometriosis symptoms | Rapid (endometrium regenerates ~monthly) | Endometrial/Hormonal |
-| **~19** | First colonic adenomas (~6 at first colonoscopy) | Very rapid (colonic epithelium regenerates every ~3–5 days) | Neoplastic |
-| **~21** | Subsequent colonic adenomas/polyps at surveillance | " | Neoplastic |
-| **~22** | Endometriosis symptoms become clinically significant | Rapid (endometrium regenerates ~monthly) | Endometrial/Hormonal |
-| **~24** | New colonic polyps at surveillance | " | Neoplastic |
-| **~26** | POTS diagnosis | N/A (neural) | Comorbidity |
-| **~27** | Stage IV endometriosis diagnosed | Rapid (endometrium regenerates ~monthly) | Endometrial/Hormonal |
-| **~27** | Benign breast tumor first diagnosed (bilateral PASH) | Moderate (hormonally driven cycles) | Proliferative/Stromal |
-| **~27** | New colonic polyps at surveillance | Very rapid (colonic epithelium regenerates every ~3–5 days) | Neoplastic |
-| **~28** | Thyroid carcinoma diagnosed (1.2 cm, isthmus, encapsulated, non-invasive) → total thyroidectomy | Slow (thyroid epithelium turnover ~8 years) | Neoplastic |
-| **~28** | Adenomyosis diagnosed (severe menorrhagia → iron infusions, syncope → ovarian-sparing total hysterectomy) | Rapid (endometrium regenerates ~monthly) | Endometrial/Hormonal |
-| **~29** | New colonic polyps at surveillance | Very rapid (colonic epithelium regenerates every ~3–5 days) | Neoplastic |
-| **~31** | New colonic polyps at surveillance | " | Neoplastic |
+| **Late adolescence** | First colonic adenomas (~6 at first colonoscopy) | Very rapid (colonic epithelium regenerates every ~3–5 days) | Neoplastic |
+| **Early adulthood** | Subsequent colonic adenomas/polyps at surveillance | " | Neoplastic |
+| **Early adulthood** | Endometriosis symptoms become clinically significant | Rapid (endometrium regenerates ~monthly) | Endometrial/Hormonal |
+| **Ongoing surveillance** | New colonic polyps at surveillance | " | Neoplastic |
+| **Mid-twenties** | POTS diagnosis | N/A (neural) | Comorbidity |
+| **Late twenties** | Stage IV endometriosis diagnosed | Rapid (endometrium regenerates ~monthly) | Endometrial/Hormonal |
+| **Late twenties** | Benign breast tumor first diagnosed (bilateral PASH) | Moderate (hormonally driven cycles) | Proliferative/Stromal |
+| **Late twenties** | New colonic polyps at surveillance | Very rapid (colonic epithelium regenerates every ~3–5 days) | Neoplastic |
+| **Late twenties** | Thyroid carcinoma diagnosed (1.2 cm, isthmus, encapsulated, non-invasive) → total thyroidectomy | Slow (thyroid epithelium turnover ~8 years) | Neoplastic |
+| **Late twenties** | Adenomyosis diagnosed (severe menorrhagia → iron infusions, syncope → ovarian-sparing total hysterectomy) | Rapid (endometrium regenerates ~monthly) | Endometrial/Hormonal |
+| **Ongoing surveillance** | New colonic polyps at surveillance | Very rapid (colonic epithelium regenerates every ~3–5 days) | Neoplastic |
+| **Most recent surveillance** | New colonic polyps at surveillance | " | Neoplastic |
 
 #### Temporal Pattern Analysis
 
 The chronological sequence reveals four critical observations:
 
-1. **Fastest-dividing tissue affected first.** Colonic epithelium (3–5 day turnover) produced clinically detectable adenomas by age 19 ; the earliest non-congenital, non-comorbidity finding. This is precisely what Model 4 (replication stress-dependent haploinsufficiency) predicts: tissues with the highest cell division rates cross the proofreading fidelity threshold first.
+1. **Fastest-dividing tissue affected first.** Colonic epithelium (3–5 day turnover) produced clinically detectable adenomas in late adolescence ; the earliest non-congenital, non-comorbidity finding. This is precisely what Model 4 (replication stress-dependent haploinsufficiency) predicts: tissues with the highest cell division rates cross the proofreading fidelity threshold first.
 
-2. **Progressive polyp accumulation.** The pattern of ~6 adenomas at age 19 with continued new polyp formation at every surveillance interval (21, 24, 27, 29, ~31) indicates **ongoing mutagenesis** rather than a single clonal event. This is consistent with either constitutive haploinsufficiency (Model 4) or persistent reinitiation product (Model 2), and argues against a single somatic LOH event unless LOH occurred very early in a colonic stem cell.
+2. **Progressive polyp accumulation.** The pattern of ~6 adenomas at first colonoscopy with continued new polyp formation at every surveillance interval over >12 years indicates **ongoing mutagenesis** rather than a single clonal event. This is consistent with either constitutive haploinsufficiency (Model 4) or persistent reinitiation product (Model 2), and argues against a single somatic LOH event unless LOH occurred very early in a colonic stem cell.
 
-3. **Cluster of moderate/slow-turnover tissue diagnoses at ages 27–28.** Benign breast tumor (~27), thyroid cancer (~28), and adenomyosis (~28) were all diagnosed in a narrow window. This clustering is consistent with slower-dividing tissues requiring more cumulative cell divisions to accumulate sufficient mutations for clinical detection ; a latency effect predicted by the haploinsufficiency threshold model.
+3. **Cluster of moderate/slow-turnover tissue diagnoses in the late twenties.** Benign breast tumor, thyroid cancer, and adenomyosis were all diagnosed in a narrow window. This clustering is consistent with slower-dividing tissues requiring more cumulative cell divisions to accumulate sufficient mutations for clinical detection ; a latency effect predicted by the haploinsufficiency threshold model.
 
-4. **Endometriosis symptom-to-diagnosis lag.** Symptoms from ~22 but Stage IV diagnosis at ~27 suggests a 5-year progression window during which endometrial disease advanced to trans-diaphragmatic severity. The rapid monthly cycling of endometrium combined with 50% POLE dosage may explain this aggressive progression.
+4. **Endometriosis symptom-to-diagnosis lag.** Symptoms preceded the Stage IV diagnosis by approximately 5 years, a progression window during which endometrial disease advanced to trans-diaphragmatic severity. The rapid monthly cycling of endometrium combined with 50% POLE dosage may explain this aggressive progression.
 
-> **Model 4 prediction validated:** The temporal sequence ; congenital vascular anomaly → childhood connective tissue → adolescent endometrial symptoms → age 19 colonic adenomas → age 22–27 progressive endometrial disease → age 27–28 thyroid/breast/adenomyosis cluster ; correlates with tissue turnover rate. High-turnover tissues manifest clinically first; slower-turnover tissues require longer latency. This temporal gradient is a hallmark prediction of dosage-dependent, replication-coupled mutagenesis.
+> **Model 4 temporal prediction:** The temporal sequence — congenital vascular anomaly → childhood connective tissue → adolescent endometrial symptoms → late-adolescent colonic adenomas → progressive endometrial disease → late-twenties thyroid/breast/adenomyosis cluster — correlates with tissue turnover rate. However, this correlation is not statistically significant (n = 6, Spearman rho = 0.82, exact two-sided p = 0.067; claims ledger P09) and should be treated as hypothesis-generating, not confirmatory.
 
 ---
 
@@ -249,14 +249,14 @@ APC, ATM, AXIN2, BARD1, BMPR1A, BRCA1, BRCA2, BRIP1, CDH1, CDK4, CDKN2A, CHEK2, 
 
 | Gene(s) | Condition excluded | Relevance |
 |---------|-------------------|-----------|
-| **APC** | Familial adenomatous polyposis (FAP) | Most common genetic cause of polyposis ; excluded |
+| **APC** | Familial adenomatous polyposis (FAP) | Most common genetic cause of polyposis ; negative on panel (does not exclude mosaic APC) |
 | **MUTYH** | MUTYH-associated polyposis (MAP) | Second most common genetic cause of polyposis ; excluded |
 | **MLH1, MSH2, MSH6, PMS2, EPCAM** | Lynch syndrome | MMR deficiency as cause of high TMB ; excluded at germline level |
 | **POLD1** | PPAP (POLD1-associated) | Sister polymerase proofreading deficiency ; excluded |
 | **NTHL1** | NTHL1-associated polyposis | Base excision repair polyposis ; excluded |
 | **BRCA1, BRCA2** | Hereditary breast/ovarian cancer | Alternative explanation for breast findings ; excluded |
 | **TP53** | Li-Fraumeni syndrome | Multi-organ cancer predisposition ; excluded |
-| **PTEN** | Cowden syndrome | Hamartomatous polyposis + thyroid cancer predisposition ; excluded |
+| **PTEN** | Cowden syndrome | Hamartomatous polyposis + thyroid cancer predisposition ; negative on panel; clinical Cowden criteria not formally assessed |
 | **STK11** | Peutz-Jeghers syndrome | GI polyposis syndrome ; excluded |
 
 This panel found no other pathogenic or likely pathogenic variant in the 47 genes tested. That does not make POLE c.138del the cause of the phenotype: a blood panel does not detect APC mosaicism confined to the bowel, deep-intronic or most structural variants, or genes outside its list (see `docs/polyposis_differential.md`).
@@ -303,8 +303,8 @@ POLE Catalytic Subunit (p261; 2,286 aa, 261 kDa)
 
 The variant terminates the protein at codon 53, which is:
 
-- **214 residues upstream** of the exonuclease active site start (residue 268)
-- **~476 residues upstream** of the polymerase core (residue ~530)
+- **215 residues upstream** of the exonuclease active site start (residue 268)
+- **~477 residues upstream** of the polymerase core (residue ~530)
 - Eliminates all major catalytic domains (exonuclease at 268–471, polymerase core at ~530–1189, C-terminal regulatory at 1189–2286)
 
 ---

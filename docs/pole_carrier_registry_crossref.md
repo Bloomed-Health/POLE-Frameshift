@@ -22,7 +22,7 @@ This document systematically examines published POLE/POLD1 carrier cohorts and d
 
 ### 2. Valle Lab Cohort ; 2,813 Hereditary Cancer Probands
 
-- **Citation:** Valle L et al. (2020) Role of POLE and POLD1 in familial cancer. *Genetics in Medicine*.
+- **Citation:** Mur P et al. (2020) Role of POLE and POLD1 in familial cancer. *Genetics in Medicine*.
 - **Content:** Sequenced POLE/POLD1 in 2,813 hereditary cancer probands; identified 12 exonuclease domain missense variants, **6 loss-of-function (LoF) variants**, and 23 outside-ED predicted-deleterious missense variants
 - **Relevance:** The **6 LoF variants** are the most critical comparator set for c.138del. These are truncating variants that, like c.138del, eliminate functional domains.
 

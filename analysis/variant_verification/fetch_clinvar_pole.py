@@ -107,6 +107,13 @@ def classify(r: dict) -> str:
     return "other/unspecified"
 
 
+def is_pole_record(r: dict) -> bool:
+    """ClinVar's POLE[gene] query also returns records annotated to a neighbouring gene (for example a P2RX2
+    missense whose title is NM_170682.4(P2RX2):...). Keep a record unless its title names another gene's transcript."""
+    m = re.match(r"N[MR]_\d+\.\d+\((\w+)\):", r["title"])
+    return m is None or m.group(1) == "POLE"
+
+
 def summarise(rows: list[dict]) -> str:
     lines = [f"{len(rows)} ClinVar POLE records with germline classification Pathogenic or Likely pathogenic",
              f"query: {QUERY}", ""]
@@ -137,7 +144,8 @@ def main() -> int:
     ap.add_argument("--out", default=os.path.join(ROOT, "data", "reference", f"POLE_clinvar_PLP_{today}.tsv"))
     a = ap.parse_args()
     ids = search_ids()
-    rows = sorted((row(d) for d in summaries(ids)), key=lambda r: (int(r["grch38_chr12_start"] or 0), r["vcv"]))
+    rows = sorted((r for r in (row(d) for d in summaries(ids)) if is_pole_record(r)),
+                  key=lambda r: (int(r["grch38_chr12_start"] or 0), r["vcv"]))
     fields = list(rows[0].keys())
     with open(a.out, "w", encoding="utf-8", newline="") as fh:
         fh.write(f"# ClinVar POLE records, germline Pathogenic/Likely pathogenic, retrieved {today} via NCBI E-utilities\n")

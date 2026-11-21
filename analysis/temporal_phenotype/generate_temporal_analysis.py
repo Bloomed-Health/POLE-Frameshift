@@ -271,9 +271,9 @@ def generate_phenotype_timeline(data):
             if x_vals[i] == 0:
                 age_str = " (congenital)"
             else:
-                age_str = f" (age ~{int(x_vals[i])})"
+                age_str = ""
         else:
-            age_str = " (age unknown)"
+            age_str = ""
 
         rate = row.get("tissue_turnover_rate", "")
         rate_str = ""
@@ -318,17 +318,12 @@ def generate_phenotype_timeline(data):
         "affected first / most severely\n"
         "\n"
         "Observed: colonic epithelium (3-5 day turnover)\n"
-        "→ first non-congenital diagnosis at age 19",
+        "→ first non-congenital diagnosis",
         xy=(0.02, 0.02), xycoords="axes fraction",
         fontsize=7.5, fontstyle="italic", color="#555555",
         bbox=dict(boxstyle="round,pad=0.4", facecolor="#F5F5F5",
                   edgecolor="#CCCCCC", alpha=0.9),
     )
-
-    # Vertical line at age 19 (first non-congenital finding)
-    ax.axvline(x=19, color="#D32F2F", linewidth=0.8, linestyle=":", alpha=0.4, zorder=0)
-    ax.text(19, len(findings) + 0.3, "First adenomas\n(age 19)",
-            fontsize=6.5, ha="center", color="#D32F2F", alpha=0.6)
 
     # Legend
     legend_elements = [

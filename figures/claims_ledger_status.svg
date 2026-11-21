@@ -6,11 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-21T11:20:07.057470</dc:date>
+    <dc:date>2026-11-21T16:19:55.349705</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -84,69 +84,69 @@ z
    </g>
    <g id="patch_3">
     <path d="M 255.6 236.906182 
-L 271.963636 236.906182 
-L 271.963636 224.314815 
+L 270 236.906182 
+L 270 224.314815 
 L 255.6 224.314815 
 z
-" clip-path="url(#p4a169556a6)" style="fill: #2a78d6"/>
+" clip-path="url(#p000b917bc0)" style="fill: #2a78d6"/>
    </g>
    <g id="text_8">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="276.054545" y="233.208155" transform="rotate(-0 276.054545 233.208155)">2</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="273.6" y="233.369874" transform="rotate(-0 273.6 233.369874)">2</text>
    </g>
    <g id="patch_4">
     <path d="M 255.6 212.692016 
-L 271.963636 212.692016 
-L 271.963636 200.100649 
+L 270 212.692016 
+L 270 200.100649 
 L 255.6 200.100649 
 z
-" clip-path="url(#p4a169556a6)" style="fill: #2a78d6"/>
+" clip-path="url(#p000b917bc0)" style="fill: #2a78d6"/>
    </g>
    <g id="text_9">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="276.054545" y="208.993989" transform="rotate(-0 276.054545 208.993989)">2</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="273.6" y="209.155707" transform="rotate(-0 273.6 209.155707)">2</text>
    </g>
    <g id="patch_5">
     <path d="M 255.6 188.477849 
-L 271.963636 188.477849 
-L 271.963636 175.886483 
+L 270 188.477849 
+L 270 175.886483 
 L 255.6 175.886483 
 z
-" clip-path="url(#p4a169556a6)" style="fill: #2a78d6"/>
+" clip-path="url(#p000b917bc0)" style="fill: #2a78d6"/>
    </g>
    <g id="text_10">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="276.054545" y="184.779822" transform="rotate(-0 276.054545 184.779822)">2</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="273.6" y="184.941541" transform="rotate(-0 273.6 184.941541)">2</text>
    </g>
    <g id="patch_6">
     <path d="M 255.6 164.263683 
-L 296.509091 164.263683 
-L 296.509091 151.672317 
+L 284.4 164.263683 
+L 284.4 151.672317 
 L 255.6 151.672317 
 z
-" clip-path="url(#p4a169556a6)" style="fill: #2a78d6"/>
+" clip-path="url(#p000b917bc0)" style="fill: #2a78d6"/>
    </g>
    <g id="text_11">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="300.6" y="160.565656" transform="rotate(-0 300.6 160.565656)">5</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="288" y="160.727375" transform="rotate(-0 288 160.727375)">4</text>
    </g>
    <g id="patch_7">
     <path d="M 255.6 140.049517 
-L 312.872727 140.049517 
-L 312.872727 127.458151 
+L 320.4 140.049517 
+L 320.4 127.458151 
 L 255.6 127.458151 
 z
-" clip-path="url(#p4a169556a6)" style="fill: #2a78d6"/>
+" clip-path="url(#p000b917bc0)" style="fill: #2a78d6"/>
    </g>
    <g id="text_12">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="316.963636" y="136.35149" transform="rotate(-0 316.963636 136.35149)">7</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="324" y="136.513209" transform="rotate(-0 324 136.513209)">9</text>
    </g>
    <g id="patch_8">
     <path d="M 255.6 115.835351 
-L 329.236364 115.835351 
-L 329.236364 103.243984 
+L 320.4 115.835351 
+L 320.4 103.243984 
 L 255.6 103.243984 
 z
-" clip-path="url(#p4a169556a6)" style="fill: #2a78d6"/>
+" clip-path="url(#p000b917bc0)" style="fill: #2a78d6"/>
    </g>
    <g id="text_13">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="333.327273" y="112.137324" transform="rotate(-0 333.327273 112.137324)">9</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="324" y="112.299043" transform="rotate(-0 324 112.299043)">9</text>
    </g>
    <g id="patch_9">
     <path d="M 255.6 91.621185 
@@ -154,21 +154,21 @@ L 615.6 91.621185
 L 615.6 79.029818 
 L 255.6 79.029818 
 z
-" clip-path="url(#p4a169556a6)" style="fill: #2a78d6"/>
+" clip-path="url(#p000b917bc0)" style="fill: #2a78d6"/>
    </g>
    <g id="text_14">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="619.690909" y="87.923158" transform="rotate(-0 619.690909 87.923158)">44</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="619.2" y="88.084876" transform="rotate(-0 619.2 88.084876)">50</text>
    </g>
   </g>
   <g id="text_15">
-   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="18" y="27.877969" transform="rotate(-0 18 27.877969)">Status of the 71 claims in the ledger</text>
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="18" y="27.877969" transform="rotate(-0 18 27.877969)">Status of the 78 claims in the ledger</text>
   </g>
   <g id="text_16">
    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="18" y="40.770516" transform="rotate(-0 18 40.770516)">data/claims_ledger.tsv, audit of 20 November 2026. Each claim has a source and a date.</text>
   </g>
  </g>
  <defs>
-  <clipPath id="p4a169556a6">
+  <clipPath id="p000b917bc0">
    <rect x="255.6" y="71.136" width="403.2" height="173.664"/>
   </clipPath>
  </defs>
